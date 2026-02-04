@@ -87,6 +87,11 @@ jobs:
 
       - uses: actions/download-artifact@v7
         with:
+          name: source-data
+          path: data
+
+      - uses: actions/download-artifact@v7
+        with:
           path: data/shard
           pattern: data-*
           merge-multiple: true
