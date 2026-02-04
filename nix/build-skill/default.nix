@@ -1,8 +1,13 @@
 {
+  lib,
   fetchFromGitHub,
   stdenvNoCC,
   validateSkillHook,
 }:
+
+let
+  utils = import ../utils.nix { inherit lib; };
+in
 
 {
   pname,
@@ -15,11 +20,12 @@
 }:
 
 stdenvNoCC.mkDerivation {
-  pname = "skill-${builtins.replaceStrings ["."] ["-"] pname}";
+  pname = utils.getSkillName pname;
   version = builtins.substring 0 7 rev;
 
   src = fetchFromGitHub {
-    inherit owner repo rev hash;
+    inherit owner repo rev;
+    sha256 = hash;
   };
 
   sourceRoot = "source" + (if path == "" then "" else "/${path}");

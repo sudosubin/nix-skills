@@ -30,15 +30,7 @@
         let
           inherit (prev) lib;
 
-          splitPname =
-            s:
-            let
-              parts = lib.splitString "." s;
-            in
-            if lib.length parts <= 3 then
-              parts
-            else
-              (lib.take 2 parts) ++ [ (lib.concatStringsSep "." (lib.drop 2 parts)) ];
+          utils = import ./nix/utils.nix { inherit lib; };
 
           skills-ref = prev.callPackage ./nix/skills-ref { };
           validateSkillHook = prev.callPackage ./nix/validate-skill-hook { inherit skills-ref; };
@@ -48,12 +40,12 @@
             map (v: {
               name = v.pname;
               value = buildSkill {
-                inherit (v) pname hash;
+                inherit (v) pname path;
                 inherit (v.source)
                   owner
                   repo
                   rev
-                  path
+                  hash
                   ;
               };
             }) (builtins.fromJSON (builtins.readFile ./data/skills.json))
@@ -61,8 +53,8 @@
         in
         {
           inherit skills-ref validateSkillHook;
-          skills = lib.foldl' lib.recursiveUpdate { } (
-            lib.mapAttrsToList (k: v: lib.setAttrByPath (splitPname k) v) skillsFlat
+          skills = utils.recursiveMergeAttrs (
+            lib.mapAttrsToList (k: v: lib.setAttrByPath (utils.splitPname k) v) skillsFlat
           );
         };
     };
