@@ -89,7 +89,7 @@ async function* paginateSkillsSh() {
     console.log(`[INFO] fetching skills.sh offset=${offset}`);
     const { skills } = await retry(
       () =>
-        fetchJson<{ skills: { name: string; source: string }[] }>(
+        fetchJson<{ skills: { skillId: string; source: string }[] }>(
           `https://skills.sh/api/skills?limit=100&offset=${offset}`,
         ),
       { retries: 3, delay: 1000 },
@@ -97,7 +97,7 @@ async function* paginateSkillsSh() {
     if (skills.length === 0) {
       break;
     }
-    yield* skills.map(({ name, source }) => ({ name, source }));
+    yield* skills.map(({ skillId, source }) => ({ name: skillId, source }));
   }
 }
 
