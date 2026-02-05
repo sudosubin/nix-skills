@@ -310,12 +310,21 @@ program
       process.exit(1);
     }
 
+    // Read existing skills.json first
+    const existing = await readJson<Skill[]>(paths.skills);
+    const existingMap = new Map(existing.map((s) => [s.pname, s]));
+
+    // Read all shard files and override existing skills by pname
     const shards = await Promise.all(
       files.map((f) => readJson<Skill[]>(path.join(paths.shard, f))),
     );
-    const all = shards.flat();
-    const unique = uniqBy(all, (s) => s.pname);
-    const sorted = unique.sort((a, b) => a.pname.localeCompare(b.pname));
+    for (const skill of shards.flat()) {
+      existingMap.set(skill.pname, skill);
+    }
+
+    const sorted = Array.from(existingMap.values()).sort((a, b) =>
+      a.pname.localeCompare(b.pname),
+    );
 
     await writeJson(paths.skills, sorted);
     console.log(`[INFO] combined ${sorted.length} skills`);
