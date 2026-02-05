@@ -43,11 +43,23 @@ const limit = pLimit(10);
 const root = path.join(import.meta.dirname, "..", "data");
 
 const paths = {
-  skills: path.join(root, "skills.json"),
+  byName: path.join(root, "by-name"),
   shard: path.join(root, "shard"),
   sourceSkillsSh: path.join(root, "source-skills-sh.json"),
   sourceSkillsDir: path.join(root, "source-skillsdirectory-com.json"),
   cloneCache: "/tmp/nix-skills-git-clone-cache",
+};
+
+const getOrgPrefix = (pname: string): string => {
+  return pname.charAt(0).toLowerCase();
+};
+
+const readAllSkills = async (): Promise<Skill[]> => {
+  const dirs = await fs.readdir(paths.byName).catch(() => []);
+  const skills = await Promise.all(
+    dirs.map((dir) => readJson<Skill[]>(path.join(paths.byName, dir, "skills.json"))),
+  );
+  return skills.flat();
 };
 
 const chunk = <T>(input: T[], index: number, size: number): T[] => {
@@ -275,7 +287,7 @@ program
 
     const repos = chunk(Object.keys(sourcesByRepo).sort(), index - 1, size);
     console.log(`[INFO] load sharded repos: ${repos.length}`);
-    const previous = await readJson<Skill[]>(paths.skills);
+    const previous = await readAllSkills();
 
     const data = (
       await Promise.all(
@@ -302,7 +314,7 @@ program
 
 program
   .command("combine")
-  .description("combine sharded files into one")
+  .description("combine sharded files into by-name structure")
   .action(async () => {
     const files = await fs.readdir(paths.shard).catch(() => []);
     if (files.length === 0) {
@@ -310,8 +322,8 @@ program
       process.exit(1);
     }
 
-    // Read existing skills.json first
-    const existing = await readJson<Skill[]>(paths.skills);
+    // Read existing skills from by-name first
+    const existing = await readAllSkills();
     const existingMap = new Map(existing.map((s) => [s.pname, s]));
 
     // Read all shard files and override existing skills by pname
@@ -322,12 +334,16 @@ program
       existingMap.set(skill.pname, skill);
     }
 
-    const sorted = Array.from(existingMap.values()).sort((a, b) =>
-      a.pname.localeCompare(b.pname),
-    );
+    // Group by org prefix and write to by-name structure
+    const allSkills = Array.from(existingMap.values());
+    const byPrefix = groupBy(allSkills, (s) => getOrgPrefix(s.pname));
 
-    await writeJson(paths.skills, sorted);
-    console.log(`[INFO] combined ${sorted.length} skills`);
+    for (const [prefix, skills] of Object.entries(byPrefix)) {
+      const sorted = skills.sort((a, b) => a.pname.localeCompare(b.pname));
+      await writeJson(path.join(paths.byName, prefix, "skills.json"), sorted);
+    }
+
+    console.log(`[INFO] combined ${allSkills.length} skills into ${Object.keys(byPrefix).length} prefixes`);
 
     await fs.rm(paths.shard, { recursive: true, force: true });
   });

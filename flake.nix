@@ -36,6 +36,14 @@
           validateSkillHook = prev.callPackage ./nix/validate-skill-hook { inherit skills-ref; };
           buildSkill = prev.callPackage ./nix/build-skill { inherit validateSkillHook; };
 
+          skillsData =
+            let
+              byNameDir = ./data/by-name;
+              prefixes = builtins.attrNames (builtins.readDir byNameDir);
+              readSkillsJson = prefix: builtins.fromJSON (builtins.readFile (byNameDir + "/${prefix}/skills.json"));
+            in
+            builtins.concatMap readSkillsJson prefixes;
+
           skillsFlat = builtins.listToAttrs (
             map (v: {
               name = v.pname;
@@ -48,7 +56,7 @@
                   hash
                   ;
               };
-            }) (builtins.fromJSON (builtins.readFile ./data/skills.json))
+            }) skillsData
           );
         in
         {
