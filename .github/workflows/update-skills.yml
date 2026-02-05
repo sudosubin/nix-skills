@@ -25,7 +25,10 @@ jobs:
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
-      - run: pnpm command fetch skills.sh
+
+      # skills.sh api was gone
+      # - run: pnpm command fetch skills.sh
+
       - run: pnpm command fetch skillsdirectory.com
 
       - uses: actions/upload-artifact@v6

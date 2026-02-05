@@ -60,7 +60,10 @@ const collect = async (gen: AsyncGenerator<SourceSkill>) => {
   for await (const item of gen) {
     items.push(item);
   }
-  return sortBy(items, ["source", "name"]);
+  return sortBy(
+    uniqBy(items, (s) => `${s.source}.${s.name}`),
+    ["source", "name"],
+  );
 };
 
 const readJson = async <T>(file: string): Promise<T> => {
@@ -270,7 +273,7 @@ program
       throw new Error(`invalid shard: ${shard}`);
     }
 
-    const repos = chunk(Object.keys(sourcesByRepo), index - 1, size);
+    const repos = chunk(Object.keys(sourcesByRepo).sort(), index - 1, size);
     console.log(`[INFO] load sharded repos: ${repos.length}`);
     const previous = await readJson<Skill[]>(paths.skills);
 
