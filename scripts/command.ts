@@ -57,7 +57,9 @@ const getOrgPrefix = (pname: string): string => {
 const readAllSkills = async (): Promise<Skill[]> => {
   const dirs = await fs.readdir(paths.byName).catch(() => []);
   const skills = await Promise.all(
-    dirs.map((dir) => readJson<Skill[]>(path.join(paths.byName, dir, "skills.json"))),
+    dirs.map((dir) =>
+      readJson<Skill[]>(path.join(paths.byName, dir, "skills.json")),
+    ),
   );
   return skills.flat();
 };
@@ -212,8 +214,9 @@ const cloneGitRepository = memoize(async (source: string) => {
 const nixPrefetch = memoize(
   async ({ source, rev }: { source: string; rev: string }) => {
     const url = `https://github.com/${source}/archive/${rev}.tar.gz`;
-    const { stdout } = await exec(
-      `nix-prefetch-url --print-path --unpack "${url}" 2>/dev/null`,
+    const { stdout } = await retry(
+      () => exec(`nix-prefetch-url --print-path --unpack "${url}" 2>/dev/null`),
+      { retries: 3, delay: 1000 },
     );
     const [hash, storePath] = stdout.trim().split("\n");
     return { hash: hash!, storePath: storePath! };
@@ -343,7 +346,9 @@ program
       await writeJson(path.join(paths.byName, prefix, "skills.json"), sorted);
     }
 
-    console.log(`[INFO] combined ${allSkills.length} skills into ${Object.keys(byPrefix).length} prefixes`);
+    console.log(
+      `[INFO] combined ${allSkills.length} skills into ${Object.keys(byPrefix).length} prefixes`,
+    );
 
     await fs.rm(paths.shard, { recursive: true, force: true });
   });
