@@ -156,7 +156,12 @@ const update = async (input: SourceSkill & { prev?: Skill }) => {
     return prev;
   }
 
-  const { hash, storePath } = await nixPrefetch({ source, rev });
+  const prefetch = await nixPrefetch({ source, rev });
+  if (!prefetch) {
+    return prev ?? null;
+  }
+
+  const { hash, storePath } = prefetch;
   const skillPath = await findSkill({ storePath, name });
   if (!skillPath) {
     console.info(`[WARN] skill ${name} not found in ${source}`);
@@ -215,12 +220,21 @@ const cloneGitRepository = memoize(async (source: string) => {
 const nixPrefetch = memoize(
   async ({ source, rev }: { source: string; rev: string }) => {
     const url = `https://github.com/${source}/archive/${rev}.tar.gz`;
-    const { stdout } = await retry(
-      () => exec(`nix-prefetch-url --print-path --unpack "${url}" 2>/dev/null`),
-      { retries: 3, delay: 1000 },
-    );
-    const [hash, storePath] = stdout.trim().split("\n");
-    return { hash: hash!, storePath: storePath! };
+    try {
+      const { stdout } = await retry(
+        () =>
+          exec(`nix-prefetch-url --print-path --unpack "${url}" 2>/dev/null`),
+        { retries: 3, delay: 1000 },
+      );
+      const [hash, storePath] = stdout.trim().split("\n");
+      if (!hash || !storePath) {
+        return null;
+      }
+      return { hash, storePath };
+    } catch (error) {
+      console.error(`[WARN] nix-prefetch-url failed for ${source}: ${error}`);
+      return null;
+    }
   },
 );
 
