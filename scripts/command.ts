@@ -45,6 +45,7 @@ const root = path.join(import.meta.dirname, "..", "data");
 const paths = {
   byName: path.join(root, "by-name"),
   shard: path.join(root, "shard"),
+  sourceCustom: path.join(root, "source-custom.json"),
   sourceSkillsSh: path.join(root, "source-skills-sh.json"),
   sourceSkillsDir: path.join(root, "source-skillsdirectory-com.json"),
   cloneCache: "/tmp/nix-skills-git-clone-cache",
@@ -277,6 +278,7 @@ program
       (sources) => groupBy(sources, (s) => s.source),
     )(
       await Promise.all([
+        readJson<SourceSkill[]>(paths.sourceCustom),
         readJson<SourceSkill[]>(paths.sourceSkillsSh),
         readJson<SourceSkill[]>(paths.sourceSkillsDir),
       ]),
