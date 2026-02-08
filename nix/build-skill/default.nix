@@ -19,8 +19,13 @@ in
   ...
 }:
 
-stdenvNoCC.mkDerivation {
-  pname = utils.getSkillName pname;
+let
+  skill = utils.getSkillName pname;
+  root = "source" + (if path == "" || path == "." then "" else "/${path}");
+in
+
+stdenvNoCC.mkDerivation (finalAttrs: {
+  pname = skill;
   version = builtins.substring 0 7 rev;
 
   src = fetchFromGitHub {
@@ -28,7 +33,13 @@ stdenvNoCC.mkDerivation {
     sha256 = hash;
   };
 
-  sourceRoot = "source" + (if path == "" then "" else "/${path}");
+  sourceRoot = skill;
+  dontMakeSourcesWritable = true;
+
+  postUnpack = ''
+    chmod -R u+w -- source
+    mv ${lib.escapeShellArg root} ${lib.escapeShellArg skill}
+  '';
 
   nativeBuildInputs = [ validateSkillHook ];
 
@@ -40,4 +51,4 @@ stdenvNoCC.mkDerivation {
     cp -R . "$out"
     runHook postInstall
   '';
-}
+})
