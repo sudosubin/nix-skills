@@ -1,14 +1,6 @@
 import { program } from "commander";
 import { cloneRepository, openRepository } from "es-git";
-import {
-  groupBy,
-  uniqBy,
-  retry,
-  sortBy,
-  flatten,
-  flow,
-  memoize,
-} from "es-toolkit";
+import { groupBy, uniqBy, retry, sortBy, memoize } from "es-toolkit";
 import fg from "fast-glob";
 import pLimit from "p-limit";
 import childProcess from "node:child_process";
@@ -16,7 +8,6 @@ import { promises as fs } from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { promisify } from "node:util";
-import matter from "gray-matter";
 
 const exec = promisify(childProcess.exec);
 
@@ -144,38 +135,43 @@ async function* paginateSkillsDirectoryCom() {
   }
 }
 
-const update = async (input: SourceSkill & { prev?: Skill }) => {
-  const { name, source, prev } = input;
+const update = async (input: {
+  source: string;
+  prev?: Skill["source"];
+}): Promise<Skill[]> => {
+  const { source, prev } = input;
   const [owner, repo] = source.split("/", 2) as [string, string];
 
   const rev = (await getRevUsingGh(source)) || (await getRevUsingGit(source));
   if (!rev) {
-    return null;
+    return [];
   }
-  if (prev && rev === prev.source.rev) {
-    return prev;
+  if (prev?.rev === rev) {
+    return [];
   }
 
   const prefetch = await nixPrefetch({ source, rev });
   if (!prefetch) {
-    return prev ?? null;
+    return [];
   }
 
   const { hash, storePath } = prefetch;
-  const skillPath = await findSkill({ storePath, name });
-  if (!skillPath) {
-    console.info(`[WARN] skill ${name} not found in ${source}`);
-    return null;
+  const skillPaths = await findAllSkills(storePath);
+  if (skillPaths.length === 0) {
+    console.info(`[WARN] no skills found in ${source}`);
+    return [];
   }
 
-  const skillDir = path.dirname(skillPath);
-
-  return {
-    pname: `${owner}.${repo}.${path.basename(skillDir)}`,
-    source: { type: "github", owner, repo, rev, hash },
-    path: skillDir,
-    lastUpdated: new Date().toISOString(),
-  } satisfies Skill;
+  return skillPaths.map((skillPath) => {
+    const skillDir = path.dirname(skillPath);
+    const skillName = skillDir === "." ? repo : path.basename(skillDir);
+    return {
+      pname: `${owner}.${repo}.${skillName}`,
+      source: { type: "github", owner, repo, rev, hash },
+      path: skillDir,
+      lastUpdated: new Date().toISOString(),
+    } satisfies Skill;
+  });
 };
 
 const getRevUsingGh = memoize(async (source: string) => {
@@ -238,31 +234,11 @@ const nixPrefetch = memoize(
   },
 );
 
-const findSkill = memoize(
-  async ({ storePath, name }: { storePath: string; name: string }) => {
-    // find by directory name
-    const patternByDir = path.join(storePath, `**/${name}/SKILL.md`);
-    for (const file of await fg.async(patternByDir, { dot: true })) {
-      return path.relative(storePath, file);
-    }
-
-    // find by frontmatter name
-    const patternByFrontmatter = path.join(storePath, "**/SKILL.md");
-    for (const file of await fg.async(patternByFrontmatter, { dot: true })) {
-      const content = await fs.readFile(file, "utf-8");
-      try {
-        const { data } = matter(content);
-        if (data.name?.toLowerCase() === name.toLowerCase()) {
-          return path.relative(storePath, file);
-        }
-      } catch {
-        continue;
-      }
-    }
-
-    return null;
-  },
-);
+const findAllSkills = async (storePath: string): Promise<string[]> => {
+  const pattern = path.join(storePath, "**/SKILL.md");
+  const files = await fg.async(pattern, { dot: true });
+  return files.map((file) => path.relative(storePath, file));
+};
 
 program
   .command("fetch <source>")
@@ -286,17 +262,12 @@ program
   .command("update [shard]")
   .description("update skills from fetched data (shard format: index/total)")
   .action(async (shard: string = "1/1") => {
-    const sourcesByRepo = flow(
-      (sets: SourceSkill[][]) => flatten(sets),
-      (sources) => uniqBy(sources, (s) => `${s.source}.${s.name}`),
-      (sources) => groupBy(sources, (s) => s.source),
-    )(
-      await Promise.all([
-        readJson<SourceSkill[]>(paths.sourceCustom),
-        readJson<SourceSkill[]>(paths.sourceSkillsSh),
-        readJson<SourceSkill[]>(paths.sourceSkillsDir),
-      ]),
-    );
+    const raws = await Promise.all([
+      readJson<SourceSkill[]>(paths.sourceCustom),
+      readJson<SourceSkill[]>(paths.sourceSkillsSh),
+      readJson<SourceSkill[]>(paths.sourceSkillsDir),
+    ]);
+    const sources = [...new Set(raws.flat().map((s) => s.source))].sort();
 
     console.log(`[INFO] update shard: ${shard}`);
     const [index, size] = shard.split("/").map((v) => Number.parseInt(v));
@@ -304,7 +275,7 @@ program
       throw new Error(`invalid shard: ${shard}`);
     }
 
-    const repos = chunk(Object.keys(sourcesByRepo).sort(), index - 1, size);
+    const repos = chunk(sources, index - 1, size);
     console.log(`[INFO] load sharded repos: ${repos.length}`);
     const previous = await readAllSkills();
 
@@ -312,22 +283,16 @@ program
       await Promise.all(
         repos.map((repo) =>
           limit(async () => {
-            const skills: (Skill | null)[] = [];
-            for (const { name, source, path } of sourcesByRepo[repo] || []) {
-              const prev = previous.find(
-                ({ source: s }) => `${s.owner}/${s.repo}` === source,
-              );
-              skills.push(await update({ name, source, path, prev }));
-            }
-            return flow(
-              (skills: (Skill | null)[]) => skills.filter((s) => s !== null),
-              (skills) => uniqBy(skills, (s) => s.pname),
-              (skills) => sortBy(skills, ["pname"]),
-            )(skills);
+            const prev = previous.find(
+              ({ source }) => `${source.owner}/${source.repo}` === repo,
+            );
+            return update({ source: repo, prev: prev?.source });
           }),
         ),
       )
-    ).flat();
+    )
+      .flat()
+      .sort((a, b) => a.pname.localeCompare(b.pname));
     await writeJson(path.join(paths.shard, `${index}.json`), data);
   });
 
