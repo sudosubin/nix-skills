@@ -1,6 +1,6 @@
 import { program } from "commander";
 import { cloneRepository, openRepository } from "es-git";
-import { groupBy, uniqBy, retry, sortBy, memoize } from "es-toolkit";
+import { groupBy, memoize, orderBy, retry, sortBy, uniqBy } from "es-toolkit";
 import fg from "fast-glob";
 import pLimit from "p-limit";
 import childProcess from "node:child_process";
@@ -40,6 +40,61 @@ const paths = {
   sourceSkillsSh: path.join(root, "source-skills-sh.json"),
   sourceSkillsDir: path.join(root, "source-skillsdirectory-com.json"),
   cloneCache: "/tmp/nix-skills-git-clone-cache",
+};
+
+const skillsDirectoryPatterns = [
+  /^(?:\.|(?:\.\/)?[^/]+)$/,
+  /^skills(?:\/|$)/,
+  /^skills\/\.curated(?:\/|$)/,
+  /^skills\/\.experimental(?:\/|$)/,
+  /^skills\/\.system(?:\/|$)/,
+  /^\.agent\/skills(?:\/|$)/,
+  /^\.agents\/skills(?:\/|$)/,
+  /^\.claude\/skills(?:\/|$)/,
+  /^\.cline\/skills(?:\/|$)/,
+  /^\.codebuddy\/skills(?:\/|$)/,
+  /^\.codex\/skills(?:\/|$)/,
+  /^\.commandcode\/skills(?:\/|$)/,
+  /^\.continue\/skills(?:\/|$)/,
+  /^\.github\/skills(?:\/|$)/,
+  /^\.goose\/skills(?:\/|$)/,
+  /^\.iflow\/skills(?:\/|$)/,
+  /^\.junie\/skills(?:\/|$)/,
+  /^\.kilocode\/skills(?:\/|$)/,
+  /^\.kiro\/skills(?:\/|$)/,
+  /^\.mux\/skills(?:\/|$)/,
+  /^\.neovate\/skills(?:\/|$)/,
+  /^\.opencode\/skills(?:\/|$)/,
+  /^\.openhands\/skills(?:\/|$)/,
+  /^\.pi\/skills(?:\/|$)/,
+  /^\.qoder\/skills(?:\/|$)/,
+  /^\.roo\/skills(?:\/|$)/,
+  /^\.trae\/skills(?:\/|$)/,
+  /^\.windsurf\/skills(?:\/|$)/,
+  /^\.zencoder\/skills(?:\/|$)/,
+];
+
+const getPathPriority = (skillDir: string): number => {
+  const index = skillsDirectoryPatterns.findIndex((pattern) =>
+    pattern.test(skillDir),
+  );
+  return index >= 0 ? index : 10_000;
+};
+
+const selectCanonicalSkills = (repo: string, skillPaths: string[]) => {
+  const sorted = orderBy(
+    skillPaths.map((skillPath) => {
+      const skillDir = path.dirname(skillPath).replace(/\/+$/, "") || ".";
+      const skillName = skillDir === "." ? repo : path.basename(skillDir);
+      const pathPriority = getPathPriority(skillDir);
+      const pathDepth = skillDir === "." ? 0 : skillDir.split("/").length;
+      return { skillName, skillDir, pathPriority, pathDepth };
+    }),
+    ["pathPriority", "pathDepth", "skillDir"],
+    ["asc", "asc", "asc"],
+  );
+
+  return uniqBy(sorted, (c) => c.skillName);
 };
 
 const getOrgPrefix = (pname: string): string => {
@@ -162,9 +217,9 @@ const update = async (input: {
     return [];
   }
 
-  return skillPaths.map((skillPath) => {
-    const skillDir = path.dirname(skillPath);
-    const skillName = skillDir === "." ? repo : path.basename(skillDir);
+  const selected = selectCanonicalSkills(repo, skillPaths);
+
+  return selected.map(({ skillName, skillDir }) => {
     return {
       pname: `${owner}.${repo}.${skillName}`,
       source: { type: "github", owner, repo, rev, hash },
