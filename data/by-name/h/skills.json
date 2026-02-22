@@ -4485,7 +4485,7 @@
       "hash": "17hk9jhxzsqlj0mxfa24p9wiw3aiz907dwr4chgp92l1fizgi577"
     },
     "path": ".",
-    "lastUpdated": "2026-02-22T16:06:23.423Z"
+    "lastUpdated": "2026-02-22T19:11:58.771Z"
   },
   {
     "pname": "happenings-community.requests-and-offers.deployment",
@@ -10721,11 +10721,11 @@
       "type": "github",
       "owner": "home-assistant",
       "repo": "core",
-      "rev": "d767a1ca6575ed6af74bb6dcccea595fbf7a91a9",
-      "hash": "0kjjl5cs8l79nnxvabjm98yh9x2pg90pq7r5ccf28j0b019q9n2j"
+      "rev": "959bafe78b21eec12a62ba01117c088bd22393c0",
+      "hash": "193hwpjz1yl63k14d95rpgm2rpgf4fi06vxrmqg5v4jg7wjw9c24"
     },
     "path": ".agent/skills/integrations",
-    "lastUpdated": "2026-02-22T16:06:40.137Z"
+    "lastUpdated": "2026-02-22T19:12:22.558Z"
   },
   {
     "pname": "homeassistant-ai.skills.home-assistant-best-practices",
@@ -11052,16 +11052,256 @@
     "lastUpdated": "2026-02-04T01:15:44.550Z"
   },
   {
+    "pname": "hookdeck.webhook-skills.chargebee-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/chargebee-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.clerk-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/clerk-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.cursor-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/cursor-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.deepgram-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/deepgram-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.elevenlabs-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/elevenlabs-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.fusionauth-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/fusionauth-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.github-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/github-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.gitlab-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/gitlab-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.hookdeck-event-gateway",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/hookdeck-event-gateway",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.hookdeck-event-gateway-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/hookdeck-event-gateway-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.openai-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/openai-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.outpost",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/outpost",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.paddle-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/paddle-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.postmark-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/postmark-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.replicate-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/replicate-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.resend-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/resend-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.sendgrid-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/sendgrid-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.shopify-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/shopify-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
     "pname": "hookdeck.webhook-skills.stripe-webhooks",
     "source": {
       "type": "github",
       "owner": "hookdeck",
       "repo": "webhook-skills",
-      "rev": "4d37059786bbdfd726b3a4810045f7b7e4b0bcc7",
-      "hash": "1y5jbn9b5y0nn4qnkics5pds6gy03qlvl6yygsjxfiwg6gj090nh"
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
     },
     "path": "skills/stripe-webhooks",
-    "lastUpdated": "2026-02-06T21:55:21.692Z"
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.vercel-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/vercel-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.webflow-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/webflow-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
   },
   {
     "pname": "hookdeck.webhook-skills.webhook-handler-patterns",
@@ -11069,11 +11309,23 @@
       "type": "github",
       "owner": "hookdeck",
       "repo": "webhook-skills",
-      "rev": "4d37059786bbdfd726b3a4810045f7b7e4b0bcc7",
-      "hash": "1y5jbn9b5y0nn4qnkics5pds6gy03qlvl6yygsjxfiwg6gj090nh"
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
     },
     "path": "skills/webhook-handler-patterns",
-    "lastUpdated": "2026-02-06T21:55:22.333Z"
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
+  },
+  {
+    "pname": "hookdeck.webhook-skills.woocommerce-webhooks",
+    "source": {
+      "type": "github",
+      "owner": "hookdeck",
+      "repo": "webhook-skills",
+      "rev": "f8a48018583392f7ec4346d7325e90291b528e3a",
+      "hash": "05b2ih20bpnjdnjma1cqcqzaiz4rkg6k1iqs8p8g7q2w15bzvd9z"
+    },
+    "path": "skills/woocommerce-webhooks",
+    "lastUpdated": "2026-02-22T19:12:13.022Z"
   },
   {
     "pname": "hopeoverture.worldbuilding-app-skills.docs-and-changelogs",
@@ -11753,11 +12005,11 @@
       "type": "github",
       "owner": "hotovo",
       "repo": "aider-desk",
-      "rev": "31f7fab6ff5e00fc8857428a035174741f817d75",
-      "hash": "17wvirvmd7xig67hz2jwhkq0sfw4r16d02r3ql67paajrfsglnkp"
+      "rev": "72735e83a396f6444ba195dcb5abf080cd3b1926",
+      "hash": "1k0xixpfiy2l39a2yrv0j6srs8m0f0zz5jhffk73whd0chvblghb"
     },
     "path": ".aider-desk/skills/agent-creator",
-    "lastUpdated": "2026-02-22T01:30:45.294Z"
+    "lastUpdated": "2026-02-22T19:11:53.138Z"
   },
   {
     "pname": "hotovo.aider-desk.skill-creator",
@@ -11765,11 +12017,11 @@
       "type": "github",
       "owner": "hotovo",
       "repo": "aider-desk",
-      "rev": "31f7fab6ff5e00fc8857428a035174741f817d75",
-      "hash": "17wvirvmd7xig67hz2jwhkq0sfw4r16d02r3ql67paajrfsglnkp"
+      "rev": "72735e83a396f6444ba195dcb5abf080cd3b1926",
+      "hash": "1k0xixpfiy2l39a2yrv0j6srs8m0f0zz5jhffk73whd0chvblghb"
     },
     "path": ".aider-desk/skills/skill-creator",
-    "lastUpdated": "2026-02-22T01:30:45.295Z"
+    "lastUpdated": "2026-02-22T19:11:53.138Z"
   },
   {
     "pname": "hotovo.aider-desk.theme-factory",
@@ -11777,11 +12029,11 @@
       "type": "github",
       "owner": "hotovo",
       "repo": "aider-desk",
-      "rev": "31f7fab6ff5e00fc8857428a035174741f817d75",
-      "hash": "17wvirvmd7xig67hz2jwhkq0sfw4r16d02r3ql67paajrfsglnkp"
+      "rev": "72735e83a396f6444ba195dcb5abf080cd3b1926",
+      "hash": "1k0xixpfiy2l39a2yrv0j6srs8m0f0zz5jhffk73whd0chvblghb"
     },
     "path": ".aider-desk/skills/theme-factory",
-    "lastUpdated": "2026-02-22T01:30:45.295Z"
+    "lastUpdated": "2026-02-22T19:11:53.138Z"
   },
   {
     "pname": "hotovo.aider-desk.writing-tests",
@@ -11789,11 +12041,11 @@
       "type": "github",
       "owner": "hotovo",
       "repo": "aider-desk",
-      "rev": "31f7fab6ff5e00fc8857428a035174741f817d75",
-      "hash": "17wvirvmd7xig67hz2jwhkq0sfw4r16d02r3ql67paajrfsglnkp"
+      "rev": "72735e83a396f6444ba195dcb5abf080cd3b1926",
+      "hash": "1k0xixpfiy2l39a2yrv0j6srs8m0f0zz5jhffk73whd0chvblghb"
     },
     "path": ".aider-desk/skills/writing-tests",
-    "lastUpdated": "2026-02-22T01:30:45.295Z"
+    "lastUpdated": "2026-02-22T19:11:53.138Z"
   },
   {
     "pname": "hotriluan.alkana-dashboard.agent-browser",
@@ -14345,11 +14597,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/check-review-alignment",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.complete_example",
@@ -14357,11 +14609,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/complete_example",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.get-review-theme",
@@ -14369,11 +14621,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/get-review-theme",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.guide-updater",
@@ -14381,11 +14633,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/guide-updater",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.make_latex_model",
@@ -14393,11 +14645,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/make_latex_model",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.nsfc-abstract",
@@ -14405,11 +14657,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/nsfc-abstract",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.nsfc-bib-manager",
@@ -14429,11 +14681,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/nsfc-humanization",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.nsfc-justification-writer",
@@ -14441,11 +14693,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/nsfc-justification-writer",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.nsfc-length-aligner",
@@ -14453,11 +14705,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/nsfc-length-aligner",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.nsfc-qc",
@@ -14465,11 +14717,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/nsfc-qc",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.nsfc-research-content-writer",
@@ -14477,11 +14729,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/nsfc-research-content-writer",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.nsfc-research-foundation-writer",
@@ -14489,11 +14741,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/nsfc-research-foundation-writer",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.nsfc-reviewers",
@@ -14501,11 +14753,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/nsfc-reviewers",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.nsfc-roadmap",
@@ -14513,11 +14765,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/nsfc-roadmap",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.nsfc-schematic",
@@ -14525,11 +14777,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/nsfc-schematic",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.systematic-literature-review",
@@ -14537,11 +14789,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/systematic-literature-review",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.chineseresearchlatex.transfer_old_latex_to_new",
@@ -14549,11 +14801,11 @@
       "type": "github",
       "owner": "huangwb8",
       "repo": "chineseresearchlatex",
-      "rev": "29abe154de0570c9e2d5599d0534d166365aab7a",
-      "hash": "081xjsp8962mhigya2q8jpx76gpgvz695j4ji677hr12v692p872"
+      "rev": "5f2a0d6cfccf97da63a55a2f72ac931a0d979e06",
+      "hash": "0qvz6fwxwn64m880pxfwdd12w7rf597x5qnl4ms4zxd0s5y4794h"
     },
     "path": "skills/transfer_old_latex_to_new",
-    "lastUpdated": "2026-02-22T16:07:48.741Z"
+    "lastUpdated": "2026-02-22T19:11:59.276Z"
   },
   {
     "pname": "huangwb8.skills.auto-test-project",
@@ -15021,7 +15273,7 @@
       "hash": "1g6j12lyfm5yizailsi0gi3kgf6y4zsj08x5cfwpd7iis5vj3ay1"
     },
     "path": ".",
-    "lastUpdated": "2026-02-22T16:06:27.393Z"
+    "lastUpdated": "2026-02-22T19:11:48.061Z"
   },
   {
     "pname": "hugo-berendi.yomi.brainstorming",
@@ -16689,7 +16941,7 @@
       "hash": "0w8vwfg7zsr1kf1svz08z2al2mb66dzkgvj4i0isp5nk9slzvdrh"
     },
     "path": "skills/connectors-available",
-    "lastUpdated": "2026-02-22T16:06:25.526Z"
+    "lastUpdated": "2026-02-22T19:12:17.350Z"
   },
   {
     "pname": "hummingbot.skills.executor-creator",
@@ -16713,7 +16965,7 @@
       "hash": "0w8vwfg7zsr1kf1svz08z2al2mb66dzkgvj4i0isp5nk9slzvdrh"
     },
     "path": "skills/hummingbot-deploy",
-    "lastUpdated": "2026-02-22T16:06:25.526Z"
+    "lastUpdated": "2026-02-22T19:12:17.350Z"
   },
   {
     "pname": "hummingbot.skills.keys-manager",
@@ -16737,7 +16989,7 @@
       "hash": "0w8vwfg7zsr1kf1svz08z2al2mb66dzkgvj4i0isp5nk9slzvdrh"
     },
     "path": "skills/lp-agent",
-    "lastUpdated": "2026-02-22T16:06:25.526Z"
+    "lastUpdated": "2026-02-22T19:12:17.350Z"
   },
   {
     "pname": "hummingbot.skills.portfolio",
@@ -16761,7 +17013,7 @@
       "hash": "0w8vwfg7zsr1kf1svz08z2al2mb66dzkgvj4i0isp5nk9slzvdrh"
     },
     "path": "skills/slides-generator",
-    "lastUpdated": "2026-02-22T16:06:25.526Z"
+    "lastUpdated": "2026-02-22T19:12:17.350Z"
   },
   {
     "pname": "hummusonrails.arbitrum-dapp-skill..",
@@ -16989,7 +17241,7 @@
       "hash": "0r4xigs9wcsj328pa068y08qlm6bmlyy145awz7fjijjj8gz3nag"
     },
     "path": "bilibili-toolkit",
-    "lastUpdated": "2026-02-22T16:06:25.846Z"
+    "lastUpdated": "2026-02-22T19:12:17.602Z"
   },
   {
     "pname": "hwj123hwj.custom-skills.bjtuo-classroom-query",
@@ -17001,7 +17253,7 @@
       "hash": "0r4xigs9wcsj328pa068y08qlm6bmlyy145awz7fjijjj8gz3nag"
     },
     "path": "bjtuo-classroom-query",
-    "lastUpdated": "2026-02-22T16:06:25.846Z"
+    "lastUpdated": "2026-02-22T19:12:17.602Z"
   },
   {
     "pname": "hwj123hwj.custom-skills.build-kb",
@@ -17049,7 +17301,7 @@
       "hash": "0r4xigs9wcsj328pa068y08qlm6bmlyy145awz7fjijjj8gz3nag"
     },
     "path": "idea-incubator",
-    "lastUpdated": "2026-02-22T16:06:25.846Z"
+    "lastUpdated": "2026-02-22T19:12:17.602Z"
   },
   {
     "pname": "hwj123hwj.custom-skills.skill-browser-crawl",
@@ -17061,7 +17313,7 @@
       "hash": "0r4xigs9wcsj328pa068y08qlm6bmlyy145awz7fjijjj8gz3nag"
     },
     "path": "skill-browser-crawl",
-    "lastUpdated": "2026-02-22T16:06:25.846Z"
+    "lastUpdated": "2026-02-22T19:12:17.602Z"
   },
   {
     "pname": "hxk622.TokenDance.adaptyv",
@@ -19425,7 +19677,7 @@
       "hash": "0jdf43yvnj4h24wsfj8z0k68d29rc1dai5nhy3hfdf42paw3nkzv"
     },
     "path": "skills/brainstorm",
-    "lastUpdated": "2026-02-22T16:06:42.165Z"
+    "lastUpdated": "2026-02-22T19:12:28.603Z"
   },
   {
     "pname": "hyperb1iss.hyperskills.codex-review",
@@ -19437,7 +19689,7 @@
       "hash": "0jdf43yvnj4h24wsfj8z0k68d29rc1dai5nhy3hfdf42paw3nkzv"
     },
     "path": "skills/codex-review",
-    "lastUpdated": "2026-02-22T16:06:42.165Z"
+    "lastUpdated": "2026-02-22T19:12:28.603Z"
   },
   {
     "pname": "hyperb1iss.hyperskills.fullstack",
@@ -19461,7 +19713,7 @@
       "hash": "0jdf43yvnj4h24wsfj8z0k68d29rc1dai5nhy3hfdf42paw3nkzv"
     },
     "path": "skills/git",
-    "lastUpdated": "2026-02-22T16:06:42.165Z"
+    "lastUpdated": "2026-02-22T19:12:28.603Z"
   },
   {
     "pname": "hyperb1iss.hyperskills.growth",
@@ -19485,7 +19737,7 @@
       "hash": "0jdf43yvnj4h24wsfj8z0k68d29rc1dai5nhy3hfdf42paw3nkzv"
     },
     "path": "skills/implement",
-    "lastUpdated": "2026-02-22T16:06:42.165Z"
+    "lastUpdated": "2026-02-22T19:12:28.603Z"
   },
   {
     "pname": "hyperb1iss.hyperskills.mobile",
@@ -19509,7 +19761,7 @@
       "hash": "0jdf43yvnj4h24wsfj8z0k68d29rc1dai5nhy3hfdf42paw3nkzv"
     },
     "path": "skills/orchestrate",
-    "lastUpdated": "2026-02-22T16:06:42.165Z"
+    "lastUpdated": "2026-02-22T19:12:28.603Z"
   },
   {
     "pname": "hyperb1iss.hyperskills.plan",
@@ -19521,7 +19773,7 @@
       "hash": "0jdf43yvnj4h24wsfj8z0k68d29rc1dai5nhy3hfdf42paw3nkzv"
     },
     "path": "skills/plan",
-    "lastUpdated": "2026-02-22T16:06:42.165Z"
+    "lastUpdated": "2026-02-22T19:12:28.603Z"
   },
   {
     "pname": "hyperb1iss.hyperskills.platform",
@@ -19545,7 +19797,7 @@
       "hash": "0jdf43yvnj4h24wsfj8z0k68d29rc1dai5nhy3hfdf42paw3nkzv"
     },
     "path": "skills/research",
-    "lastUpdated": "2026-02-22T16:06:42.165Z"
+    "lastUpdated": "2026-02-22T19:12:28.603Z"
   },
   {
     "pname": "hyperb1iss.hyperskills.security",
@@ -19557,7 +19809,7 @@
       "hash": "0jdf43yvnj4h24wsfj8z0k68d29rc1dai5nhy3hfdf42paw3nkzv"
     },
     "path": "skills/security",
-    "lastUpdated": "2026-02-22T16:06:42.165Z"
+    "lastUpdated": "2026-02-22T19:12:28.603Z"
   },
   {
     "pname": "hyperb1iss.hyperskills.tilt",
@@ -19569,7 +19821,7 @@
       "hash": "0jdf43yvnj4h24wsfj8z0k68d29rc1dai5nhy3hfdf42paw3nkzv"
     },
     "path": "skills/tilt",
-    "lastUpdated": "2026-02-22T16:06:42.165Z"
+    "lastUpdated": "2026-02-22T19:12:28.603Z"
   },
   {
     "pname": "hyperb1iss.hyperskills.tui-design",
@@ -19581,7 +19833,7 @@
       "hash": "0jdf43yvnj4h24wsfj8z0k68d29rc1dai5nhy3hfdf42paw3nkzv"
     },
     "path": "skills/tui-design",
-    "lastUpdated": "2026-02-22T16:06:42.165Z"
+    "lastUpdated": "2026-02-22T19:12:28.603Z"
   },
   {
     "pname": "hyperb1iss.moonrepo-skill.moon",
