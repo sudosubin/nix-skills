@@ -32,15 +32,14 @@
 
           utils = import ./nix/utils.nix { inherit lib; };
 
-          skills-ref = prev.callPackage ./nix/skills-ref { };
-          validateSkillHook = prev.callPackage ./nix/validate-skill-hook { inherit skills-ref; };
-          buildSkill = prev.callPackage ./nix/build-skill { inherit validateSkillHook; };
+          buildSkill = prev.callPackage ./nix/build-skill { };
 
           skillsData =
             let
               byNameDir = ./data/by-name;
               prefixes = builtins.attrNames (builtins.readDir byNameDir);
-              readSkillsJson = prefix: builtins.fromJSON (builtins.readFile (byNameDir + "/${prefix}/skills.json"));
+              readSkillsJson =
+                prefix: builtins.fromJSON (builtins.readFile (byNameDir + "/${prefix}/skills.json"));
             in
             builtins.concatMap readSkillsJson prefixes;
 
@@ -60,7 +59,6 @@
           );
         in
         {
-          inherit skills-ref validateSkillHook;
           skills = utils.recursiveMergeAttrs (
             lib.mapAttrsToList (k: v: lib.setAttrByPath (utils.splitPname k) v) skillsFlat
           );

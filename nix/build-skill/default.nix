@@ -2,7 +2,6 @@
   lib,
   fetchFromGitHub,
   stdenvNoCC,
-  validateSkillHook,
 }:
 
 let
@@ -40,8 +39,6 @@ stdenvNoCC.mkDerivation (finalAttrs: {
     chmod -R u+w -- source
     mv ${lib.escapeShellArg root} ${lib.escapeShellArg skill}
   '';
-
-  nativeBuildInputs = [ validateSkillHook ];
 
   dontBuild = true;
   doCheck = true;
