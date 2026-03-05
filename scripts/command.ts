@@ -1,6 +1,16 @@
 import { program } from "commander";
 import { cloneRepository, openRepository } from "es-git";
-import { groupBy, memoize, orderBy, retry, sortBy, uniqBy } from "es-toolkit";
+import {
+  differenceBy,
+  groupBy,
+  keyBy,
+  memoize,
+  orderBy,
+  retry,
+  sortBy,
+  unionBy,
+  uniqBy,
+} from "es-toolkit";
 import fg from "fast-glob";
 import pLimit from "p-limit";
 import childProcess from "node:child_process";
@@ -116,15 +126,16 @@ const chunk = <T>(input: T[], index: number, size: number): T[] => {
   return input.slice(index * unit, (index + 1) * unit);
 };
 
+const getSourceSkillKey = ({ source, name }: SourceSkill) => {
+  return `${source}.${name}`;
+};
+
 const collect = async (gen: AsyncGenerator<SourceSkill>) => {
   const items: SourceSkill[] = [];
   for await (const item of gen) {
     items.push(item);
   }
-  return sortBy(
-    uniqBy(items, (s) => `${s.source}.${s.name}`),
-    ["source", "name"],
-  );
+  return sortBy(uniqBy(items, getSourceSkillKey), ["source", "name"]);
 };
 
 const readJson = async <T>(file: string): Promise<T> => {
@@ -149,12 +160,12 @@ const fetchJson = async <T>(url: string): Promise<T> => {
 };
 
 async function* paginateSkillsSh() {
-  for (let offset = 0; ; offset += 100) {
-    console.log(`[INFO] fetching skills.sh offset=${offset}`);
+  for (let page = 0; ; page++) {
+    console.log(`[INFO] fetching skills.sh view=all-time page=${page}`);
     const { skills } = await retry(
       () =>
         fetchJson<{ skills: { skillId: string; source: string }[] }>(
-          `https://skills.sh/api/skills?limit=100&offset=${offset}`,
+          `https://skills.sh/api/skills/all-time/${page}`,
         ),
       { retries: 3, delay: 1000 },
     );
@@ -189,6 +200,34 @@ async function* paginateSkillsDirectoryCom() {
     }));
   }
 }
+
+const fetchAndMergeSourceSkills = async (
+  sourceName: string,
+  sourcePath: string,
+  generator: AsyncGenerator<SourceSkill>,
+) => {
+  const previous = await readJson<SourceSkill[]>(sourcePath);
+  const fetched = await collect(generator);
+
+  const previousByKey = keyBy(previous, getSourceSkillKey);
+  const fetchedWithPath = fetched.map((skill) => {
+    const key = getSourceSkillKey(skill);
+    const path = skill.path ?? previousByKey[key]?.path;
+    return { ...skill, ...(path ? { path } : {}) };
+  });
+
+  const merged = sortBy(unionBy(fetchedWithPath, previous, getSourceSkillKey), [
+    "source",
+    "name",
+  ]);
+  const added = differenceBy(fetchedWithPath, previous, getSourceSkillKey);
+  const preserved = differenceBy(previous, fetchedWithPath, getSourceSkillKey);
+
+  await writeJson(sourcePath, merged);
+  console.log(
+    `[INFO] ${sourceName}: wrote ${merged.length} skills (fetched=${fetched.length}, added=${added.length}, preserved=${preserved.length})`,
+  );
+};
 
 const update = async (input: {
   source: string;
@@ -300,13 +339,17 @@ program
   .description("fetch skill list from source (skills.sh, skillsdirectory.com)")
   .action(async (source: string) => {
     if (source === "skills.sh") {
-      const skills = await collect(paginateSkillsSh());
-      await writeJson(paths.sourceSkillsSh, skills);
-      console.log(`[INFO] wrote ${skills.length} skills`);
+      await fetchAndMergeSourceSkills(
+        "skills.sh",
+        paths.sourceSkillsSh,
+        paginateSkillsSh(),
+      );
     } else if (source === "skillsdirectory.com") {
-      const skills = await collect(paginateSkillsDirectoryCom());
-      await writeJson(paths.sourceSkillsDir, skills);
-      console.log(`[INFO] wrote ${skills.length} skills`);
+      await fetchAndMergeSourceSkills(
+        "skillsdirectory.com",
+        paths.sourceSkillsDir,
+        paginateSkillsDirectoryCom(),
+      );
     } else {
       console.error(`[ERROR] unknown source: ${source}`);
       process.exit(1);

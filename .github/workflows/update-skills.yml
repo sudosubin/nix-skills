@@ -26,9 +26,7 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      # skills.sh api was gone
-      # - run: pnpm command fetch skills.sh
-
+      - run: pnpm command fetch skills.sh
       - run: pnpm command fetch skillsdirectory.com
 
       - uses: actions/upload-artifact@v6
