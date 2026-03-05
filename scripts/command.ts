@@ -308,6 +308,8 @@ const cloneGitRepository = memoize(async (source: string) => {
     console.error(`[WARN] failed to clone ${source}: ${error}`);
     if (`${error}`.includes("remote authentication required")) {
       return null;
+    } else if (`${error}`.includes("unexpected http status code")) {
+      return null;
     }
     throw error;
   }
