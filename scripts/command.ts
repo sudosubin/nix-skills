@@ -285,8 +285,14 @@ const getRevUsingGit = memoize(async (source: string) => {
   if (!clonePath) {
     return null;
   }
-  const repository = await openRepository(clonePath);
-  return repository.revparseSingle("HEAD");
+
+  try {
+    const repository = await openRepository(clonePath);
+    return repository.revparseSingle("HEAD");
+  } catch {
+    console.error(`[WARN] failed to get rev using git for ${source}`);
+    return null;
+  }
 });
 
 const cloneGitRepository = memoize(async (source: string) => {
