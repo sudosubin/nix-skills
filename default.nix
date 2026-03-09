@@ -7,4 +7,6 @@
     url = "https://github.com/NixOS/nixpkgs/archive/${lock.nodes.${nodeName}.locked.rev}.tar.gz";
     sha256 = lock.nodes.${nodeName}.locked.narHash;
   }
-) { }).callPackage ./nix/build-skill.nix { }
+) { }).callPackage
+  ./nix/build-skill
+  { }
