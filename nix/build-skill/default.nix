@@ -23,7 +23,7 @@ let
   root = "source" + (if path == "" || path == "." then "" else "/${path}");
 in
 
-stdenvNoCC.mkDerivation (finalAttrs: {
+stdenvNoCC.mkDerivation {
   pname = skill;
   version = builtins.substring 0 7 rev;
 
@@ -32,20 +32,15 @@ stdenvNoCC.mkDerivation (finalAttrs: {
     sha256 = hash;
   };
 
-  sourceRoot = skill;
-  dontMakeSourcesWritable = true;
-
-  postUnpack = ''
-    chmod -R u+w -- source
-    mv ${lib.escapeShellArg root} ${lib.escapeShellArg skill}
-  '';
+  sourceRoot = root;
 
   dontBuild = true;
-  doCheck = true;
+  dontConfigure = true;
 
   installPhase = ''
     runHook preInstall
-    cp -R . "$out"
+    mkdir -p "$out"
+    cp -RL . "$out"
     runHook postInstall
   '';
-})
+}
