@@ -193,8 +193,8 @@
   },
   {
     "source": "github:l3digital-net/claude-code-plugins",
-    "rev": "bdfa79f017f61c92113c10c74bbf8151f09a429c",
-    "hash": "1qs5czsypdmnyvjxsjp0qpj42nz8274sj2wa319ys5yqldjbpp13",
+    "rev": "5bfb4534abad31850176110a8a29ce811a802456",
+    "hash": "12115kqcs7pi1zipcl1rkai03lmdkldx3sdws00li8qrjbfv1jz8",
     "skills": [
       ".claude/skills/refresh-plugin-cache",
       ".claude/skills/test-plugin",
@@ -254,143 +254,7 @@
       "plugins/keepass-cred-mgr/skills/keepass-credential-ftp",
       "plugins/keepass-cred-mgr/skills/keepass-credential-ssh",
       "plugins/keepass-cred-mgr/skills/keepass-hygiene",
-      "plugins/linux-sysadmin/skills/age",
-      "plugins/linux-sysadmin/skills/ansible",
-      "plugins/linux-sysadmin/skills/apache",
-      "plugins/linux-sysadmin/skills/argocd",
-      "plugins/linux-sysadmin/skills/auditd",
-      "plugins/linux-sysadmin/skills/avahi",
-      "plugins/linux-sysadmin/skills/awk-sed",
-      "plugins/linux-sysadmin/skills/bind-utils",
-      "plugins/linux-sysadmin/skills/bind9",
-      "plugins/linux-sysadmin/skills/borg",
-      "plugins/linux-sysadmin/skills/btop",
-      "plugins/linux-sysadmin/skills/btrfs",
-      "plugins/linux-sysadmin/skills/buildah",
-      "plugins/linux-sysadmin/skills/caddy",
-      "plugins/linux-sysadmin/skills/cassandra",
-      "plugins/linux-sysadmin/skills/ceph",
-      "plugins/linux-sysadmin/skills/certbot",
-      "plugins/linux-sysadmin/skills/chrony",
-      "plugins/linux-sysadmin/skills/cloud-cli",
-      "plugins/linux-sysadmin/skills/consul",
-      "plugins/linux-sysadmin/skills/container-registry",
-      "plugins/linux-sysadmin/skills/coredns",
-      "plugins/linux-sysadmin/skills/cron",
-      "plugins/linux-sysadmin/skills/crowdsec",
-      "plugins/linux-sysadmin/skills/curl-wget",
-      "plugins/linux-sysadmin/skills/df",
-      "plugins/linux-sysadmin/skills/dhcp",
-      "plugins/linux-sysadmin/skills/dmesg",
-      "plugins/linux-sysadmin/skills/dnsmasq",
-      "plugins/linux-sysadmin/skills/docker",
-      "plugins/linux-sysadmin/skills/docker-compose",
-      "plugins/linux-sysadmin/skills/dovecot",
-      "plugins/linux-sysadmin/skills/elk-stack",
-      "plugins/linux-sysadmin/skills/envoy",
-      "plugins/linux-sysadmin/skills/etcd",
-      "plugins/linux-sysadmin/skills/exfat-ntfs",
-      "plugins/linux-sysadmin/skills/ext4",
-      "plugins/linux-sysadmin/skills/fail2ban",
-      "plugins/linux-sysadmin/skills/falco",
-      "plugins/linux-sysadmin/skills/fdisk-parted",
-      "plugins/linux-sysadmin/skills/firewalld",
-      "plugins/linux-sysadmin/skills/gitea",
-      "plugins/linux-sysadmin/skills/glances",
-      "plugins/linux-sysadmin/skills/glusterfs",
-      "plugins/linux-sysadmin/skills/gotify",
-      "plugins/linux-sysadmin/skills/grafana",
-      "plugins/linux-sysadmin/skills/ha-postgresql",
-      "plugins/linux-sysadmin/skills/haproxy",
-      "plugins/linux-sysadmin/skills/helm",
-      "plugins/linux-sysadmin/skills/htop",
-      "plugins/linux-sysadmin/skills/immich",
-      "plugins/linux-sysadmin/skills/influxdb",
-      "plugins/linux-sysadmin/skills/iostat",
-      "plugins/linux-sysadmin/skills/iotop",
-      "plugins/linux-sysadmin/skills/iperf3",
-      "plugins/linux-sysadmin/skills/jellyfin",
-      "plugins/linux-sysadmin/skills/journald",
-      "plugins/linux-sysadmin/skills/jq",
-      "plugins/linux-sysadmin/skills/kafka",
-      "plugins/linux-sysadmin/skills/keycloak",
-      "plugins/linux-sysadmin/skills/kong",
-      "plugins/linux-sysadmin/skills/kubernetes",
-      "plugins/linux-sysadmin/skills/kubernetes-stack",
-      "plugins/linux-sysadmin/skills/kvm-libvirt",
-      "plugins/linux-sysadmin/skills/linux-overview",
-      "plugins/linux-sysadmin/skills/logrotate",
-      "plugins/linux-sysadmin/skills/loki",
-      "plugins/linux-sysadmin/skills/lsblk",
-      "plugins/linux-sysadmin/skills/lsof",
-      "plugins/linux-sysadmin/skills/lvm",
-      "plugins/linux-sysadmin/skills/lxc-lxd",
-      "plugins/linux-sysadmin/skills/mail-stack",
-      "plugins/linux-sysadmin/skills/mariadb",
-      "plugins/linux-sysadmin/skills/mdadm",
-      "plugins/linux-sysadmin/skills/minio",
-      "plugins/linux-sysadmin/skills/mongodb",
-      "plugins/linux-sysadmin/skills/mosquitto",
-      "plugins/linux-sysadmin/skills/mtr",
-      "plugins/linux-sysadmin/skills/ncdu",
-      "plugins/linux-sysadmin/skills/netdata",
-      "plugins/linux-sysadmin/skills/nextcloud",
-      "plugins/linux-sysadmin/skills/nfs",
-      "plugins/linux-sysadmin/skills/nginx",
-      "plugins/linux-sysadmin/skills/nmap",
-      "plugins/linux-sysadmin/skills/node-exporter",
-      "plugins/linux-sysadmin/skills/node-red",
-      "plugins/linux-sysadmin/skills/node-runtime",
-      "plugins/linux-sysadmin/skills/observability-stack",
-      "plugins/linux-sysadmin/skills/opendkim",
-      "plugins/linux-sysadmin/skills/openssl-cli",
-      "plugins/linux-sysadmin/skills/openvpn",
-      "plugins/linux-sysadmin/skills/osquery",
-      "plugins/linux-sysadmin/skills/package-managers",
-      "plugins/linux-sysadmin/skills/packer",
-      "plugins/linux-sysadmin/skills/patroni",
-      "plugins/linux-sysadmin/skills/perf",
-      "plugins/linux-sysadmin/skills/pihole",
-      "plugins/linux-sysadmin/skills/podman",
-      "plugins/linux-sysadmin/skills/postfix",
-      "plugins/linux-sysadmin/skills/postgresql",
-      "plugins/linux-sysadmin/skills/prometheus",
-      "plugins/linux-sysadmin/skills/proxmox",
-      "plugins/linux-sysadmin/skills/python-runtime",
-      "plugins/linux-sysadmin/skills/rabbitmq",
-      "plugins/linux-sysadmin/skills/rclone",
-      "plugins/linux-sysadmin/skills/redis",
-      "plugins/linux-sysadmin/skills/restic",
-      "plugins/linux-sysadmin/skills/ripgrep",
-      "plugins/linux-sysadmin/skills/rsync",
-      "plugins/linux-sysadmin/skills/rust-runtime",
-      "plugins/linux-sysadmin/skills/samba",
-      "plugins/linux-sysadmin/skills/smartctl",
-      "plugins/linux-sysadmin/skills/sqlite",
-      "plugins/linux-sysadmin/skills/ss",
-      "plugins/linux-sysadmin/skills/ssh-keygen",
-      "plugins/linux-sysadmin/skills/sshd",
-      "plugins/linux-sysadmin/skills/step-ca",
-      "plugins/linux-sysadmin/skills/strace",
-      "plugins/linux-sysadmin/skills/supervisor",
-      "plugins/linux-sysadmin/skills/systemd",
-      "plugins/linux-sysadmin/skills/tailscale",
-      "plugins/linux-sysadmin/skills/tc",
-      "plugins/linux-sysadmin/skills/tcpdump",
-      "plugins/linux-sysadmin/skills/terraform",
-      "plugins/linux-sysadmin/skills/tmux",
-      "plugins/linux-sysadmin/skills/traefik",
-      "plugins/linux-sysadmin/skills/trivy",
-      "plugins/linux-sysadmin/skills/ufw",
-      "plugins/linux-sysadmin/skills/unbound",
-      "plugins/linux-sysadmin/skills/vault",
-      "plugins/linux-sysadmin/skills/vaultwarden",
-      "plugins/linux-sysadmin/skills/vmstat",
-      "plugins/linux-sysadmin/skills/wireguard",
-      "plugins/linux-sysadmin/skills/xfs",
-      "plugins/linux-sysadmin/skills/zfs",
-      "plugins/linux-sysadmin/skills/zigbee2mqtt",
-      "plugins/linux-sysadmin/skills/zwave-js",
+      "plugins/linux-sysadmin/skills/sysadmin",
       "plugins/opus-context/skills/deep-context",
       "plugins/plugin-review/skills/context-efficiency-reference",
       "plugins/plugin-review/skills/context-efficiency-workflow",
@@ -434,12 +298,12 @@
       "plugins/test-driver/skills/test-status",
       "plugins/test-driver/skills/testing-mindset"
     ],
-    "lastUpdated": "2026-03-19T04:54:28.793Z"
+    "lastUpdated": "2026-03-26T13:26:32.012Z"
   },
   {
     "source": "github:l3digitalnet/claude-code-plugins",
-    "rev": "bdfa79f017f61c92113c10c74bbf8151f09a429c",
-    "hash": "1qs5czsypdmnyvjxsjp0qpj42nz8274sj2wa319ys5yqldjbpp13",
+    "rev": "5bfb4534abad31850176110a8a29ce811a802456",
+    "hash": "12115kqcs7pi1zipcl1rkai03lmdkldx3sdws00li8qrjbfv1jz8",
     "skills": [
       ".claude/skills/refresh-plugin-cache",
       ".claude/skills/test-plugin",
@@ -499,143 +363,7 @@
       "plugins/keepass-cred-mgr/skills/keepass-credential-ftp",
       "plugins/keepass-cred-mgr/skills/keepass-credential-ssh",
       "plugins/keepass-cred-mgr/skills/keepass-hygiene",
-      "plugins/linux-sysadmin/skills/age",
-      "plugins/linux-sysadmin/skills/ansible",
-      "plugins/linux-sysadmin/skills/apache",
-      "plugins/linux-sysadmin/skills/argocd",
-      "plugins/linux-sysadmin/skills/auditd",
-      "plugins/linux-sysadmin/skills/avahi",
-      "plugins/linux-sysadmin/skills/awk-sed",
-      "plugins/linux-sysadmin/skills/bind-utils",
-      "plugins/linux-sysadmin/skills/bind9",
-      "plugins/linux-sysadmin/skills/borg",
-      "plugins/linux-sysadmin/skills/btop",
-      "plugins/linux-sysadmin/skills/btrfs",
-      "plugins/linux-sysadmin/skills/buildah",
-      "plugins/linux-sysadmin/skills/caddy",
-      "plugins/linux-sysadmin/skills/cassandra",
-      "plugins/linux-sysadmin/skills/ceph",
-      "plugins/linux-sysadmin/skills/certbot",
-      "plugins/linux-sysadmin/skills/chrony",
-      "plugins/linux-sysadmin/skills/cloud-cli",
-      "plugins/linux-sysadmin/skills/consul",
-      "plugins/linux-sysadmin/skills/container-registry",
-      "plugins/linux-sysadmin/skills/coredns",
-      "plugins/linux-sysadmin/skills/cron",
-      "plugins/linux-sysadmin/skills/crowdsec",
-      "plugins/linux-sysadmin/skills/curl-wget",
-      "plugins/linux-sysadmin/skills/df",
-      "plugins/linux-sysadmin/skills/dhcp",
-      "plugins/linux-sysadmin/skills/dmesg",
-      "plugins/linux-sysadmin/skills/dnsmasq",
-      "plugins/linux-sysadmin/skills/docker",
-      "plugins/linux-sysadmin/skills/docker-compose",
-      "plugins/linux-sysadmin/skills/dovecot",
-      "plugins/linux-sysadmin/skills/elk-stack",
-      "plugins/linux-sysadmin/skills/envoy",
-      "plugins/linux-sysadmin/skills/etcd",
-      "plugins/linux-sysadmin/skills/exfat-ntfs",
-      "plugins/linux-sysadmin/skills/ext4",
-      "plugins/linux-sysadmin/skills/fail2ban",
-      "plugins/linux-sysadmin/skills/falco",
-      "plugins/linux-sysadmin/skills/fdisk-parted",
-      "plugins/linux-sysadmin/skills/firewalld",
-      "plugins/linux-sysadmin/skills/gitea",
-      "plugins/linux-sysadmin/skills/glances",
-      "plugins/linux-sysadmin/skills/glusterfs",
-      "plugins/linux-sysadmin/skills/gotify",
-      "plugins/linux-sysadmin/skills/grafana",
-      "plugins/linux-sysadmin/skills/ha-postgresql",
-      "plugins/linux-sysadmin/skills/haproxy",
-      "plugins/linux-sysadmin/skills/helm",
-      "plugins/linux-sysadmin/skills/htop",
-      "plugins/linux-sysadmin/skills/immich",
-      "plugins/linux-sysadmin/skills/influxdb",
-      "plugins/linux-sysadmin/skills/iostat",
-      "plugins/linux-sysadmin/skills/iotop",
-      "plugins/linux-sysadmin/skills/iperf3",
-      "plugins/linux-sysadmin/skills/jellyfin",
-      "plugins/linux-sysadmin/skills/journald",
-      "plugins/linux-sysadmin/skills/jq",
-      "plugins/linux-sysadmin/skills/kafka",
-      "plugins/linux-sysadmin/skills/keycloak",
-      "plugins/linux-sysadmin/skills/kong",
-      "plugins/linux-sysadmin/skills/kubernetes",
-      "plugins/linux-sysadmin/skills/kubernetes-stack",
-      "plugins/linux-sysadmin/skills/kvm-libvirt",
-      "plugins/linux-sysadmin/skills/linux-overview",
-      "plugins/linux-sysadmin/skills/logrotate",
-      "plugins/linux-sysadmin/skills/loki",
-      "plugins/linux-sysadmin/skills/lsblk",
-      "plugins/linux-sysadmin/skills/lsof",
-      "plugins/linux-sysadmin/skills/lvm",
-      "plugins/linux-sysadmin/skills/lxc-lxd",
-      "plugins/linux-sysadmin/skills/mail-stack",
-      "plugins/linux-sysadmin/skills/mariadb",
-      "plugins/linux-sysadmin/skills/mdadm",
-      "plugins/linux-sysadmin/skills/minio",
-      "plugins/linux-sysadmin/skills/mongodb",
-      "plugins/linux-sysadmin/skills/mosquitto",
-      "plugins/linux-sysadmin/skills/mtr",
-      "plugins/linux-sysadmin/skills/ncdu",
-      "plugins/linux-sysadmin/skills/netdata",
-      "plugins/linux-sysadmin/skills/nextcloud",
-      "plugins/linux-sysadmin/skills/nfs",
-      "plugins/linux-sysadmin/skills/nginx",
-      "plugins/linux-sysadmin/skills/nmap",
-      "plugins/linux-sysadmin/skills/node-exporter",
-      "plugins/linux-sysadmin/skills/node-red",
-      "plugins/linux-sysadmin/skills/node-runtime",
-      "plugins/linux-sysadmin/skills/observability-stack",
-      "plugins/linux-sysadmin/skills/opendkim",
-      "plugins/linux-sysadmin/skills/openssl-cli",
-      "plugins/linux-sysadmin/skills/openvpn",
-      "plugins/linux-sysadmin/skills/osquery",
-      "plugins/linux-sysadmin/skills/package-managers",
-      "plugins/linux-sysadmin/skills/packer",
-      "plugins/linux-sysadmin/skills/patroni",
-      "plugins/linux-sysadmin/skills/perf",
-      "plugins/linux-sysadmin/skills/pihole",
-      "plugins/linux-sysadmin/skills/podman",
-      "plugins/linux-sysadmin/skills/postfix",
-      "plugins/linux-sysadmin/skills/postgresql",
-      "plugins/linux-sysadmin/skills/prometheus",
-      "plugins/linux-sysadmin/skills/proxmox",
-      "plugins/linux-sysadmin/skills/python-runtime",
-      "plugins/linux-sysadmin/skills/rabbitmq",
-      "plugins/linux-sysadmin/skills/rclone",
-      "plugins/linux-sysadmin/skills/redis",
-      "plugins/linux-sysadmin/skills/restic",
-      "plugins/linux-sysadmin/skills/ripgrep",
-      "plugins/linux-sysadmin/skills/rsync",
-      "plugins/linux-sysadmin/skills/rust-runtime",
-      "plugins/linux-sysadmin/skills/samba",
-      "plugins/linux-sysadmin/skills/smartctl",
-      "plugins/linux-sysadmin/skills/sqlite",
-      "plugins/linux-sysadmin/skills/ss",
-      "plugins/linux-sysadmin/skills/ssh-keygen",
-      "plugins/linux-sysadmin/skills/sshd",
-      "plugins/linux-sysadmin/skills/step-ca",
-      "plugins/linux-sysadmin/skills/strace",
-      "plugins/linux-sysadmin/skills/supervisor",
-      "plugins/linux-sysadmin/skills/systemd",
-      "plugins/linux-sysadmin/skills/tailscale",
-      "plugins/linux-sysadmin/skills/tc",
-      "plugins/linux-sysadmin/skills/tcpdump",
-      "plugins/linux-sysadmin/skills/terraform",
-      "plugins/linux-sysadmin/skills/tmux",
-      "plugins/linux-sysadmin/skills/traefik",
-      "plugins/linux-sysadmin/skills/trivy",
-      "plugins/linux-sysadmin/skills/ufw",
-      "plugins/linux-sysadmin/skills/unbound",
-      "plugins/linux-sysadmin/skills/vault",
-      "plugins/linux-sysadmin/skills/vaultwarden",
-      "plugins/linux-sysadmin/skills/vmstat",
-      "plugins/linux-sysadmin/skills/wireguard",
-      "plugins/linux-sysadmin/skills/xfs",
-      "plugins/linux-sysadmin/skills/zfs",
-      "plugins/linux-sysadmin/skills/zigbee2mqtt",
-      "plugins/linux-sysadmin/skills/zwave-js",
+      "plugins/linux-sysadmin/skills/sysadmin",
       "plugins/opus-context/skills/deep-context",
       "plugins/plugin-review/skills/context-efficiency-reference",
       "plugins/plugin-review/skills/context-efficiency-workflow",
@@ -679,7 +407,7 @@
       "plugins/test-driver/skills/test-status",
       "plugins/test-driver/skills/testing-mindset"
     ],
-    "lastUpdated": "2026-03-19T04:54:28.868Z"
+    "lastUpdated": "2026-03-26T13:26:32.057Z"
   },
   {
     "source": "github:l3wi/claude-eda",
@@ -716,8 +444,8 @@
   },
   {
     "source": "github:labring/fastgpt",
-    "rev": "cc3a91d009df9a9b273b93c21b46c85bce692217",
-    "hash": "0a24bsl5x7ys8zgmgjyg6lvhah23ajn9vkff1i88z51is6ailjds",
+    "rev": "34c85ad5b2e97e71fcbf7b0b2020962ea694953b",
+    "hash": "08ap5579m4ir848lkiix2vd5wmfd1jzdq0kmw8gnrc5xas3b7q60",
     "skills": [
       ".claude/skills/api-development",
       ".claude/skills/design",
@@ -727,7 +455,7 @@
       ".claude/skills/system-prompt_optimize",
       ".claude/skills/system-test"
     ],
-    "lastUpdated": "2026-03-26T10:30:50.868Z"
+    "lastUpdated": "2026-03-26T13:26:34.289Z"
   },
   {
     "source": "github:labring/fastgpt-plugin",
@@ -875,8 +603,8 @@
   },
   {
     "source": "github:laguagu/claude-code-nextjs-skills",
-    "rev": "d9fecb8ea84be008ae3d5e64a2f1f4e18d6c733f",
-    "hash": "06li92fh6ji195zd5a5zb56x4x1r1as6k6rk8y70l4flpbjz4zfd",
+    "rev": "541317488d358acd999e2ee3e336dfc7960e60a5",
+    "hash": "0yqzl4chr4s9sqvyaz0f7xmj2pbkwnkf2mm7kk760z7dl11brb4f",
     "skills": [
       "skills/ai-app",
       "skills/ai-elements",
@@ -895,7 +623,7 @@
       "skills/skill-creator",
       "skills/web-design-guidelines"
     ],
-    "lastUpdated": "2026-03-26T10:30:35.237Z"
+    "lastUpdated": "2026-03-26T13:26:16.848Z"
   },
   {
     "source": "github:lagz0ne/c3-skill",
@@ -1381,17 +1109,21 @@
   },
   {
     "source": "github:langfuse/langfuse",
-    "rev": "cf4028d17fcef96e362d47ed998cc5d04a1e691d",
-    "hash": "1v7l3ns47sanj4qzjsf1axc8aijm4zi0y7g36a4v07xkb1fmyhcl",
+    "rev": "bd68c5ee488f9392cc87697a947b47bcecc4b131",
+    "hash": "072kwyrw0kag3b0wgn9awlzfcwhgkjqifcmlp1k520n822pvbnr0",
     "skills": [
       ".agents/skills/add-model-price",
+      ".agents/skills/agent-setup-maintenance",
       ".agents/skills/backend-dev-guidelines",
+      ".agents/skills/changelog-writing",
       ".agents/skills/clickhouse-best-practices",
+      ".agents/skills/code-review",
+      ".agents/skills/frontend-browser-review",
       ".agents/skills/turborepo",
       "web/.agents/skills/vercel-composition-patterns",
       "web/.agents/skills/vercel-react-best-practices"
     ],
-    "lastUpdated": "2026-03-26T10:30:51.366Z"
+    "lastUpdated": "2026-03-26T13:26:35.313Z"
   },
   {
     "source": "github:langfuse/skills",
@@ -1409,8 +1141,8 @@
   },
   {
     "source": "github:langgenius/dify",
-    "rev": "69c2b422dedb1cd7ce548c49eca00641b7ff2419",
-    "hash": "0hjfsv9qrg21mir1m5h53p1wvxcahzyfs8c651nv8fdaicjh1hzx",
+    "rev": "fcfc96ca052789a63e3df6c3abf36f539c928cb5",
+    "hash": "115cgsahf78xddkxmwsd3yn9v3y4jb5b4dc8bm9i6c1rzy8fazqm",
     "skills": [
       ".agents/skills/backend-code-review",
       ".agents/skills/component-refactoring",
@@ -1418,7 +1150,7 @@
       ".agents/skills/frontend-query-mutation",
       ".agents/skills/frontend-testing"
     ],
-    "lastUpdated": "2026-03-26T10:31:09.980Z"
+    "lastUpdated": "2026-03-26T13:26:52.397Z"
   },
   {
     "source": "github:langoustine69/skills-market",
@@ -1441,8 +1173,8 @@
   },
   {
     "source": "github:langwatch/langwatch",
-    "rev": "70399c0dfb597852b6858126d3a10111e8d26a55",
-    "hash": "0qi2ci9b7ba8zvvrxpzrhzh24wnxjl0kcxhs53kz2ai6g85hqi5x",
+    "rev": "88920b141d1ff3d332d5980eb23ab607378c812a",
+    "hash": "01338kfph2brbdsc33k9swm1jmj47z1fisck46kh3n9pqbqmp41i",
     "skills": [
       ".claude/skills/browser-test",
       ".claude/skills/challenge",
@@ -1456,6 +1188,7 @@
       ".claude/skills/learn",
       ".claude/skills/orchestrate",
       ".claude/skills/plan",
+      ".claude/skills/postmortem",
       ".claude/skills/review",
       ".claude/skills/sherpa",
       ".claude/skills/test-review",
@@ -1472,7 +1205,7 @@
       "skills/scenarios",
       "skills/tracing"
     ],
-    "lastUpdated": "2026-03-26T10:31:04.310Z"
+    "lastUpdated": "2026-03-26T13:26:47.048Z"
   },
   {
     "source": "github:lanliwz/neo4j-onto2ai-toolset",
@@ -1710,8 +1443,8 @@
   },
   {
     "source": "github:larksuite/openclaw-lark",
-    "rev": "915a1d301d40c4fdc4869e94937c7dff9a532157",
-    "hash": "153y4q4bkxkmk2m0k3m2n43l8jzz628dcbfx5grs9nyjjir65jy0",
+    "rev": "7da4e9c42e1770e6452f2f3aecb91273f868807c",
+    "hash": "0dh4l67p2r3p1dc0c22bvbh8bd7whq10mr5v0xr8za4058his05b",
     "skills": [
       "skills/feishu-bitable",
       "skills/feishu-calendar",
@@ -1723,7 +1456,7 @@
       "skills/feishu-troubleshoot",
       "skills/feishu-update-doc"
     ],
-    "lastUpdated": "2026-03-26T10:30:26.872Z"
+    "lastUpdated": "2026-03-26T13:25:49.534Z"
   },
   {
     "source": "github:larsderidder/openclaw-obsidian-tasks",
@@ -2820,8 +2553,8 @@
   },
   {
     "source": "github:lebsral/dspy-programming-not-prompting-lms-skills",
-    "rev": "e6988f4a3cb26faa01183d49ee09607f6c2002ee",
-    "hash": "0rxmcbqk0y49jgbcbx3ngccmsc2fgizkgfadn42v6p9chxk54dpj",
+    "rev": "aaf1882899b03776b8e6c79eb65ba1bcae7bfdc5",
+    "hash": "0b0x8jh9a807fhx1qvf1w2gmbqrj5xk3v4f8pnw0lpjk4yqnzg4c",
     "skills": [
       "skills/ai-building-chatbots",
       "skills/ai-building-pipelines",
@@ -2873,16 +2606,20 @@
       "skills/dspy-knn-few-shot",
       "skills/dspy-labeled-few-shot",
       "skills/dspy-langtrace",
+      "skills/dspy-langwatch",
       "skills/dspy-lm",
       "skills/dspy-miprov2",
       "skills/dspy-mlflow",
       "skills/dspy-modules",
       "skills/dspy-multi-chain-comparison",
+      "skills/dspy-ollama",
       "skills/dspy-parallel",
       "skills/dspy-phoenix",
       "skills/dspy-predict",
       "skills/dspy-primitives",
       "skills/dspy-program-of-thought",
+      "skills/dspy-qdrant",
+      "skills/dspy-ragas",
       "skills/dspy-react",
       "skills/dspy-refine",
       "skills/dspy-retrieval",
@@ -2892,9 +2629,10 @@
       "skills/dspy-tools",
       "skills/dspy-utils",
       "skills/dspy-vizpy",
+      "skills/dspy-vllm",
       "skills/dspy-weave"
     ],
-    "lastUpdated": "2026-03-26T10:30:31.076Z"
+    "lastUpdated": "2026-03-26T13:25:52.799Z"
   },
   {
     "source": "github:lecion/github-kb",
@@ -4582,12 +4320,12 @@
   },
   {
     "source": "github:leonense22/wechat-daily-report-skill",
-    "rev": "293c191184f336e5f75e7d49300a7d24cddb68ec",
+    "rev": "f1be36de539f3727cde0c21befa445bd072739a9",
     "hash": "1m1hyz3ygv7cqzrw8cqq3ngkrjk9lx24b85fv05izb7lgssaxp3j",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-26T10:31:54.503Z"
+    "lastUpdated": "2026-03-26T13:26:24.356Z"
   },
   {
     "source": "github:leonidas810/save-your-music",
@@ -5405,8 +5143,8 @@
   },
   {
     "source": "github:lev-os/agents",
-    "rev": "169086c04b82c32fa5a73ff072edcbba0e18726d",
-    "hash": "0b9wav0b4wk67dha8zxg3wrdjx2wscpahghiin5l6434z0axs50k",
+    "rev": "50315879c20dddd69daaaf831b532c34f123d98e",
+    "hash": "1515gg2fi0amnp69sr1w81sq05js2kwvm8v44vzl2qpqj1j50wjr",
     "skills": [
       "skills-db/.archive/consolidated-2026-02-03/deep-research",
       "skills-db/.archive/consolidated-2026-02-03/deep-research-oracle",
@@ -8153,7 +7891,7 @@
       "skills/writing-plans",
       "skills/writing-skills"
     ],
-    "lastUpdated": "2026-03-26T06:38:02.822Z"
+    "lastUpdated": "2026-03-26T13:26:38.717Z"
   },
   {
     "source": "github:levai/zl-skills",
@@ -8219,47 +7957,9 @@
   },
   {
     "source": "github:levnikolaevich/claude-code-skills",
-    "rev": "42cf657864b00e332fd0dc169b060ab22a79081f",
-    "hash": "1zlk057pw6fsbdkydqixavxyndlpynv0pf7fwfmikr8yjsd5gyqn",
+    "rev": "9ac3b3f8c6741852e7b03eb907e5e69f9966c37e",
+    "hash": "1ig1qqz0cn87qc8xqm6705sn2z4ha6p51nqkfakzndsf64cpb403",
     "skills": [
-      "ln-001-standards-researcher",
-      "ln-002-best-practices-researcher",
-      "ln-003-push-all",
-      "ln-004-agent-config-sync",
-      "ln-004-agent-sync",
-      "ln-005-agent-reviewer",
-      "ln-005-environment-scanner",
-      "ln-005-multi-agent-context-review",
-      "ln-310-story-validator",
-      "ln-311-agent-reviewer",
-      "ln-501-code-quality-checker",
-      "ln-502-agent-reviewer",
-      "ln-502-regression-checker",
-      "ln-503-regression-checker",
-      "ln-510-test-planner",
-      "ln-511-test-researcher",
-      "ln-512-agent-reviewer",
-      "ln-512-manual-tester",
-      "ln-513-agent-reviewer",
-      "ln-513-auto-test-planner",
-      "ln-514-regression-checker",
-      "ln-600-docs-auditor",
-      "ln-601-semantic-content-auditor",
-      "ln-610-code-comments-auditor",
-      "ln-710-dependency-upgrader",
-      "ln-711-npm-upgrader",
-      "ln-712-nuget-upgrader",
-      "ln-713-pip-upgrader",
-      "ln-723-mockdata-migrator",
-      "ln-724-replit-cleaner",
-      "ln-750-commands-generator",
-      "ln-751-command-templates",
-      "ln-762-dependency-audit",
-      "ln-810-performance-optimization-coordinator",
-      "ln-811-algorithm-optimizer",
-      "ln-812-query-optimizer",
-      "ln-813-optimization-executor",
-      "ln-813-runtime-optimizer",
       "skills-catalog/ln-001-push-all",
       "skills-catalog/ln-002-session-analyzer",
       "skills-catalog/ln-010-dev-environment-setup",
@@ -8387,12 +8087,9 @@
       "skills-catalog/ln-911-github-triager",
       "skills-catalog/ln-912-community-announcer",
       "skills-catalog/ln-913-community-debater",
-      "skills-catalog/ln-914-community-responder",
-      "skills/ln-014-agent-instructions-auditor",
-      "skills/ln-015-benchmark-compare",
-      "skills/ln-150-presentation-creator"
+      "skills-catalog/ln-914-community-responder"
     ],
-    "lastUpdated": "2026-03-25T19:26:38.685Z"
+    "lastUpdated": "2026-03-26T13:26:32.958Z"
   },
   {
     "source": "github:levwtech/yc-startup-websites-rules",
@@ -9266,8 +8963,8 @@
   },
   {
     "source": "github:lightdash/lightdash",
-    "rev": "ddccb2c40c0c64cc11577f86e8e91678d03ffcf8",
-    "hash": "037w6k5f3mjvwa91kcvx4kc59540s8b6qrbkw4z4yz2md6pcr65r",
+    "rev": "fcb71a5a07992df7f3c10d10770a1e33671c8120",
+    "hash": "0rq8n60vyxbzgvwh819jbsvqcraz9dydzifckrzj3qsdhh2vhlps",
     "skills": [
       ".claude/skills/agent-harness",
       ".claude/skills/breakup-pr",
@@ -9279,7 +8976,7 @@
       ".claude/skills/ld-permissions",
       "skills/developing-in-lightdash"
     ],
-    "lastUpdated": "2026-03-26T10:29:37.171Z"
+    "lastUpdated": "2026-03-26T13:27:02.117Z"
   },
   {
     "source": "github:lightfastai/lightfast",
@@ -9514,8 +9211,8 @@
   },
   {
     "source": "github:lijigang/ljg-skills",
-    "rev": "f19e293b9cf1763e305a021a4743d4346c1b92d5",
-    "hash": "1x29m1wxzrlqsn25pjb45aiqgk9rsmrdwffazw2h607g9cswz3xa",
+    "rev": "37479d0b2253462b94e8075f3fe6500b06b644f6",
+    "hash": "1qgl88blrcii85gzh1issrk8q19xbz239dqf6bd3f786n2bc2bsg",
     "skills": [
       "skills/ljg-card",
       "skills/ljg-invest",
@@ -9532,7 +9229,7 @@
       "skills/ljg-writes",
       "skills/ljg-x-download"
     ],
-    "lastUpdated": "2026-03-24T22:19:32.003Z"
+    "lastUpdated": "2026-03-26T13:26:27.363Z"
   },
   {
     "source": "github:lijingpan/video-uploader",
@@ -12379,8 +12076,8 @@
   },
   {
     "source": "github:linkerlin/puax",
-    "rev": "9b5410b1705c18d3b70785afb526afe7d9903634",
-    "hash": "1sb6s5lcwcvl1nv7kyakmznh7mw4afz05wsq0z3lbfl04iaqlbcy",
+    "rev": "02e8b2ff84d6782aff9119eb36592d4e96aadd03",
+    "hash": "1w4c5sf4fqrv5zy4pwp5qc30faqwb01hga6k9wynrrbabz7fqw0h",
     "skills": [
       "skills/military-commander",
       "skills/military-commissar",
@@ -12433,7 +12130,7 @@
       "skills/theme-sect-discipline",
       "skills/theme-starfleet"
     ],
-    "lastUpdated": "2026-03-26T07:34:18.681Z"
+    "lastUpdated": "2026-03-26T13:25:50.919Z"
   },
   {
     "source": "github:linklyai/linkly-ai-skills",
@@ -12675,12 +12372,12 @@
   },
   {
     "source": "github:linzzzzzz/openclip",
-    "rev": "1a390c712515bc32ba658dda149252d922eae1b1",
-    "hash": "1fbhg3h1clsx2x531f8g0rmdpd13lpndnyjn6g1jadnxiqx2jrf5",
+    "rev": "ba81cba0db8aefbf1a9df57c45a7bf02fd1cde4e",
+    "hash": "1kng2f5finlc46557lrysnza6d2p0lpq81p38dmj77zgc9npvpnc",
     "skills": [
       ".claude/skills/video-clip-extractor"
     ],
-    "lastUpdated": "2026-03-26T07:34:16.567Z"
+    "lastUpdated": "2026-03-26T13:25:52.304Z"
   },
   {
     "source": "github:lionad-morotar/anti-render-skill",
@@ -13871,18 +13568,19 @@
   },
   {
     "source": "github:llj0824/leoj-agent-skills",
-    "rev": "16f89500458b8903b0074d68a7601d026f450afa",
-    "hash": "0xbpw5dq8p1aiigg9w7nb3zmyv966y5p4c6m3kkm54p4fk00qw1x",
+    "rev": "0344cc01262e637fb656832f7887ecc2c7957e89",
+    "hash": "0bb10a9qf12hzay6gqkliqikjds724z2ylz7qhjf2yp3zzf2imik",
     "skills": [
       "skills/agentic-engineering-codex-tape-review",
       "skills/agentic-engineering-github-tape-review",
       "skills/deep-dive-html",
+      "skills/eval-agent-skills",
       "skills/pr-video-review",
       "skills/recon",
       "skills/review-pr",
       "skills/task-deep-dive-implementation"
     ],
-    "lastUpdated": "2026-03-26T10:30:05.949Z"
+    "lastUpdated": "2026-03-26T13:25:51.074Z"
   },
   {
     "source": "github:llllimbo/skills",
@@ -14242,8 +13940,8 @@
   },
   {
     "source": "github:lobehub/lobe-chat",
-    "rev": "093fa7bcae7e368d6472e59c8ddc20bececdfbe9",
-    "hash": "097gf1ibkrvq6v994klnan0vmg9wkm36lrfmr446ikyllh1xlnsr",
+    "rev": "9f36fe95acdd2589527cd6d9e7dd2465f59d9bc7",
+    "hash": "1fm0cqjwr9qpibx0ndc8j7sqf7ljyb5p977c42xq1fr5vnaxsc1m",
     "skills": [
       ".agents/skills/add-provider-doc",
       ".agents/skills/add-setting-env",
@@ -14276,12 +13974,12 @@
       ".agents/skills/zustand",
       "packages/builtin-skills/src/task"
     ],
-    "lastUpdated": "2026-03-26T10:31:34.928Z"
+    "lastUpdated": "2026-03-26T13:26:09.360Z"
   },
   {
     "source": "github:lobehub/lobehub",
-    "rev": "093fa7bcae7e368d6472e59c8ddc20bececdfbe9",
-    "hash": "097gf1ibkrvq6v994klnan0vmg9wkm36lrfmr446ikyllh1xlnsr",
+    "rev": "9f36fe95acdd2589527cd6d9e7dd2465f59d9bc7",
+    "hash": "1fm0cqjwr9qpibx0ndc8j7sqf7ljyb5p977c42xq1fr5vnaxsc1m",
     "skills": [
       ".agents/skills/add-provider-doc",
       ".agents/skills/add-setting-env",
@@ -14314,7 +14012,7 @@
       ".agents/skills/zustand",
       "packages/builtin-skills/src/task"
     ],
-    "lastUpdated": "2026-03-26T10:31:34.647Z"
+    "lastUpdated": "2026-03-26T13:26:09.153Z"
   },
   {
     "source": "github:lobstergeneralintelligence/x-api",
@@ -14522,8 +14220,8 @@
   },
   {
     "source": "github:longbridge/gpui-component",
-    "rev": "5088c82076be7db5b2ac25a6fe99070dda21d118",
-    "hash": "1xiw64316181msliijpfb45jjdhr1zi9wmln8jvx0is5lgrlxcnl",
+    "rev": "28e826866977b11e84a0ef7bf57be8587fd77efe",
+    "hash": "1fh7khn7737si208spdhc41mn4glgshkhdqmy9sa646jiwyry310",
     "skills": [
       ".claude/skills/generate-component-documentation",
       ".claude/skills/generate-component-story",
@@ -14541,7 +14239,7 @@
       ".claude/skills/gpui-test",
       ".claude/skills/new-component"
     ],
-    "lastUpdated": "2026-03-25T10:27:47.705Z"
+    "lastUpdated": "2026-03-26T13:25:59.394Z"
   },
   {
     "source": "github:longbridge/longbridge-terminal",
@@ -14618,8 +14316,8 @@
   },
   {
     "source": "github:loonghao/vx",
-    "rev": "8a803992626d1509fea3fb8bead7042562057895",
-    "hash": "0df3wsbb064ca9rrrx7s6mqjx4pbhjiwpiqhb25nznxl4mvzsps2",
+    "rev": "0ff8feb2478d8b9f0fa50f02929a61b22150be58",
+    "hash": "177a2yiyzjx1za2lnkni7ywr8lg3vhl7bq4lx1sr90i3zn677w6d",
     "skills": [
       ".agents/skills/vx-usage",
       ".codebuddy/skills/llms-txt-generator",
@@ -14635,7 +14333,7 @@
       "crates/vx-cli/src/skills/vx-troubleshooting",
       "skills/vx"
     ],
-    "lastUpdated": "2026-03-26T07:33:28.332Z"
+    "lastUpdated": "2026-03-26T13:25:59.411Z"
   },
   {
     "source": "github:looperrobotics/openclaw-robotics",
@@ -15052,8 +14750,8 @@
   },
   {
     "source": "github:lploc94/codex_skill",
-    "rev": "329001cba9e334ee2d9ce62b03fed238fbb599ab",
-    "hash": "1aqrdmb3a8nvf2mmq2j7n9ncl5gpwvdlym9hapvna02jr11cj90r",
+    "rev": "4b7b2e23d1656f8b0d4daa6185ecf4bd5cea9beb",
+    "hash": "04zgs6fa60pqx8c933zhiv7hnwbgpqg7hv9lx04bh324xi17r2lm",
     "skills": [
       "skill-packs/codex-review/skills/codex-codebase-review",
       "skill-packs/codex-review/skills/codex-commit-review",
@@ -15064,7 +14762,7 @@
       "skill-packs/codex-review/skills/codex-security-review",
       "skill-packs/codex-review/skills/codex-think-about"
     ],
-    "lastUpdated": "2026-03-26T10:29:21.591Z"
+    "lastUpdated": "2026-03-26T13:27:34.231Z"
   },
   {
     "source": "github:lpmatrix/skills",
@@ -16622,8 +16320,8 @@
   },
   {
     "source": "github:lukevella/rallly",
-    "rev": "e6525395ab26508d6da980f1acf5a703e6aedbae",
-    "hash": "13cwip4nf7k7n7ach7nyan22ic5ws288kph53y7jznmj3njcby9s",
+    "rev": "8d605a8d1ea7d3819edd35feff723471a93f00a3",
+    "hash": "01c3d75wmf13i1zly0c3h79q1ri1dasw4hxirw4cmq8mh0cc0491",
     "skills": [
       ".agents/skills/better-auth-best-practices",
       ".agents/skills/create-auth-skill",
@@ -16638,7 +16336,7 @@
       ".agents/skills/prisma-upgrade-v7",
       ".agents/skills/two-factor-authentication-best-practices"
     ],
-    "lastUpdated": "2026-03-25T22:10:59.717Z"
+    "lastUpdated": "2026-03-26T13:26:03.528Z"
   },
   {
     "source": "github:luko248/css-first-skill",
