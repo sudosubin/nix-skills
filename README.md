@@ -121,6 +121,14 @@ pkgs.skills.vercel-labs.skills.find-skills
 }
 ```
 
+### Rename a skill
+
+Each skill derivation supports `.override { name = "..."; }` to change the skill name. This updates both the derivation `pname` and the `name` field in `SKILL.md` frontmatter.
+
+```nix
+pkgs.skills.vercel-labs.skills.find-skills.override { name = "my-find-skills"; }
+```
+
 ## Explore
 
 ### List available skills in REPL

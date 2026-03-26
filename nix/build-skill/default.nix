@@ -2,45 +2,51 @@
   lib,
   fetchFromGitHub,
   stdenvNoCC,
+  yq-go,
 }:
 
 let
   utils = import ../utils.nix { inherit lib; };
+
 in
+lib.makeOverridable (
+  {
+    pname,
+    owner,
+    repo,
+    rev,
+    path,
+    hash,
+    name ? utils.getSkillName pname,
+  }:
+  stdenvNoCC.mkDerivation {
+    pname = name;
+    version = builtins.substring 0 7 rev;
 
-{
-  pname,
-  owner,
-  repo,
-  rev,
-  path,
-  hash,
-  ...
-}:
+    src = fetchFromGitHub {
+      inherit owner repo rev;
+      sha256 = hash;
+    };
 
-let
-  skill = utils.getSkillName pname;
-  root = "source" + (if path == "" || path == "." then "" else "/${path}");
-in
+    sourceRoot = "source" + (if path == "" || path == "." then "" else "/${path}");
 
-stdenvNoCC.mkDerivation {
-  pname = skill;
-  version = builtins.substring 0 7 rev;
+    nativeBuildInputs = [ yq-go ];
 
-  src = fetchFromGitHub {
-    inherit owner repo rev;
-    sha256 = hash;
-  };
+    dontBuild = true;
+    dontConfigure = true;
 
-  sourceRoot = root;
+    installPhase = ''
+      runHook preInstall
+      mkdir -p "$out"
+      cp -RL . "$out"
 
-  dontBuild = true;
-  dontConfigure = true;
+      if [ -f "$out/SKILL.md" ]; then
+        yq --inplace --front-matter=process \
+          ${lib.escapeShellArg ".name = \"${name}\""} \
+          "$out/SKILL.md"
+      fi
 
-  installPhase = ''
-    runHook preInstall
-    mkdir -p "$out"
-    cp -RL . "$out"
-    runHook postInstall
-  '';
-}
+      runHook postInstall
+    '';
+  }
+)
