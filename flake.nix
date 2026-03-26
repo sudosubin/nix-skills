@@ -34,7 +34,7 @@
 
           buildSkill = prev.callPackage ./nix/build-skill { };
 
-          skillsData =
+          repoSkillsData =
             let
               byNameDir = ./data/by-name;
               prefixes = builtins.attrNames (builtins.readDir byNameDir);
@@ -44,18 +44,26 @@
             builtins.concatMap readSkillsJson prefixes;
 
           skillsFlat = builtins.listToAttrs (
-            map (v: {
-              name = v.pname;
-              value = buildSkill {
-                inherit (v) pname path;
-                inherit (v.source)
-                  owner
-                  repo
-                  rev
-                  hash
-                  ;
-              };
-            }) skillsData
+            builtins.concatMap (
+              repo:
+              let
+                parsed = utils.parseSource repo.source;
+              in
+              map (skillPath: rec {
+                name = utils.mkPname parsed.owner parsed.repo (
+                  let
+                    skillName = utils.getSkillName skillPath;
+                  in
+                  if skillName == null then parsed.repo else skillName
+                );
+                value = buildSkill {
+                  pname = name;
+                  inherit (parsed) owner repo;
+                  inherit (repo) rev hash;
+                  path = skillPath;
+                };
+              }) repo.skills
+            ) repoSkillsData
           );
         in
         {

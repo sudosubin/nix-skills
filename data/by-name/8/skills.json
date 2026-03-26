@@ -1,1166 +1,131 @@
 [
   {
-    "pname": "844196.dotfiles.exact_analyze-session",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "7b79153a535ae5b7df983e4a53e0b45c24b19443",
-      "hash": "0fqmhh83701v7p3yrmsdm44izwlabnnsj05rn156d1wkbwphkwib"
-    },
-    "path": "files/dot_claude/exact_skills/exact_analyze-session",
+    "source": "github:844196/dotfiles",
+    "rev": "7b79153a535ae5b7df983e4a53e0b45c24b19443",
+    "hash": "0fqmhh83701v7p3yrmsdm44izwlabnnsj05rn156d1wkbwphkwib",
+    "skills": [
+      "files/dot_claude/exact_skills/exact_analyze-session",
+      "files/dot_claude/exact_skills/exact_commit",
+      "files/dot_claude/exact_skills/exact_creating-git-commits",
+      "files/dot_claude/exact_skills/exact_creating-pull-requests",
+      "files/dot_claude/exact_skills/exact_creating-topic-branches",
+      "files/dot_claude/exact_skills/exact_doc-writing",
+      "files/dot_claude/exact_skills/exact_exploring-typescript-code",
+      "files/dot_claude/exact_skills/exact_git-commit",
+      "files/dot_claude/exact_skills/exact_handover",
+      "files/dot_claude/exact_skills/exact_hominem-te-esse-memento",
+      "files/dot_claude/exact_skills/exact_interview-session",
+      "files/dot_claude/exact_skills/exact_ts-code-exploration",
+      "files/dot_claude/exact_skills/exact_using-mise",
+      "files/dot_claude/exact_skills/exact_writing-agent-context-docs",
+      "files/dot_claude/exact_skills/exact_writing-dev-docs"
+    ],
     "lastUpdated": "2026-03-24T13:23:54.341Z"
   },
   {
-    "pname": "844196.dotfiles.exact_commit",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "812d0609063a1b588e22ada89d3b60cf007420c1",
-      "hash": "181xhgqsbxmvv5sg4s7grlak3r222m4z88053537ak3j8g8vbw9p"
-    },
-    "path": "files/dot_claude/exact_skills/exact_commit",
-    "lastUpdated": "2026-02-16T22:05:31.709Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_creating-git-commits",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "60bc8a99628c08fd924644e835201d6cc18c34b0",
-      "hash": "0y40mb38rzkqianlzqnqbrm0qi26wm2qxgl94spb2sdf1c2la89y"
-    },
-    "path": "files/dot_claude/exact_skills/exact_creating-git-commits",
-    "lastUpdated": "2026-02-12T19:21:11.909Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_creating-pull-requests",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "c1e19698a7c697406c727ab6d138a62191a18317",
-      "hash": "1b2agaflvah52yrkzf4nx8b5bsybb0lsdch1qj2x1kl31bcpq9bz"
-    },
-    "path": "files/dot_claude/exact_skills/exact_creating-pull-requests",
-    "lastUpdated": "2026-02-23T16:22:46.941Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_creating-topic-branches",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "c1e19698a7c697406c727ab6d138a62191a18317",
-      "hash": "1b2agaflvah52yrkzf4nx8b5bsybb0lsdch1qj2x1kl31bcpq9bz"
-    },
-    "path": "files/dot_claude/exact_skills/exact_creating-topic-branches",
-    "lastUpdated": "2026-02-23T16:22:46.941Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_doc-writing",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "f680a664131d3dbf780a503e1a53960dee323450",
-      "hash": "1dczk40m5jpm4bvi5na6pqaghg6jx2xh3pgj6zsyg2il5hvibi7w"
-    },
-    "path": "files/dot_claude/exact_skills/exact_doc-writing",
-    "lastUpdated": "2026-02-10T13:27:45.601Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_exploring-typescript-code",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "7b79153a535ae5b7df983e4a53e0b45c24b19443",
-      "hash": "0fqmhh83701v7p3yrmsdm44izwlabnnsj05rn156d1wkbwphkwib"
-    },
-    "path": "files/dot_claude/exact_skills/exact_exploring-typescript-code",
-    "lastUpdated": "2026-03-24T13:23:54.341Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_git-commit",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "f680a664131d3dbf780a503e1a53960dee323450",
-      "hash": "1dczk40m5jpm4bvi5na6pqaghg6jx2xh3pgj6zsyg2il5hvibi7w"
-    },
-    "path": "files/dot_claude/exact_skills/exact_git-commit",
-    "lastUpdated": "2026-02-10T13:27:45.601Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_handover",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "7b79153a535ae5b7df983e4a53e0b45c24b19443",
-      "hash": "0fqmhh83701v7p3yrmsdm44izwlabnnsj05rn156d1wkbwphkwib"
-    },
-    "path": "files/dot_claude/exact_skills/exact_handover",
-    "lastUpdated": "2026-03-24T13:23:54.341Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_hominem-te-esse-memento",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "7b79153a535ae5b7df983e4a53e0b45c24b19443",
-      "hash": "0fqmhh83701v7p3yrmsdm44izwlabnnsj05rn156d1wkbwphkwib"
-    },
-    "path": "files/dot_claude/exact_skills/exact_hominem-te-esse-memento",
-    "lastUpdated": "2026-03-24T13:23:54.341Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_interview-session",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "7b79153a535ae5b7df983e4a53e0b45c24b19443",
-      "hash": "0fqmhh83701v7p3yrmsdm44izwlabnnsj05rn156d1wkbwphkwib"
-    },
-    "path": "files/dot_claude/exact_skills/exact_interview-session",
-    "lastUpdated": "2026-03-24T13:23:54.341Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_ts-code-exploration",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "f680a664131d3dbf780a503e1a53960dee323450",
-      "hash": "1dczk40m5jpm4bvi5na6pqaghg6jx2xh3pgj6zsyg2il5hvibi7w"
-    },
-    "path": "files/dot_claude/exact_skills/exact_ts-code-exploration",
-    "lastUpdated": "2026-02-10T13:27:45.601Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_using-mise",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "7b79153a535ae5b7df983e4a53e0b45c24b19443",
-      "hash": "0fqmhh83701v7p3yrmsdm44izwlabnnsj05rn156d1wkbwphkwib"
-    },
-    "path": "files/dot_claude/exact_skills/exact_using-mise",
-    "lastUpdated": "2026-03-24T13:23:54.341Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_writing-agent-context-docs",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "7b79153a535ae5b7df983e4a53e0b45c24b19443",
-      "hash": "0fqmhh83701v7p3yrmsdm44izwlabnnsj05rn156d1wkbwphkwib"
-    },
-    "path": "files/dot_claude/exact_skills/exact_writing-agent-context-docs",
-    "lastUpdated": "2026-03-24T13:23:54.341Z"
-  },
-  {
-    "pname": "844196.dotfiles.exact_writing-dev-docs",
-    "source": {
-      "type": "github",
-      "owner": "844196",
-      "repo": "dotfiles",
-      "rev": "60bc8a99628c08fd924644e835201d6cc18c34b0",
-      "hash": "0y40mb38rzkqianlzqnqbrm0qi26wm2qxgl94spb2sdf1c2la89y"
-    },
-    "path": "files/dot_claude/exact_skills/exact_writing-dev-docs",
-    "lastUpdated": "2026-02-12T19:21:11.909Z"
-  },
-  {
-    "pname": "884js.agent-skills.lib-docs-generator",
-    "source": {
-      "type": "github",
-      "owner": "884js",
-      "repo": "agent-skills",
-      "rev": "befb21c51d4c51efc61d815fabc913b4cc6a9b90",
-      "hash": "1bbh6diqjnc91wnwkbyh7sdh33kzsrvpfg6m4yrbq4b4256kls4q"
-    },
-    "path": "skills/lib-docs-generator",
+    "source": "github:884js/agent-skills",
+    "rev": "befb21c51d4c51efc61d815fabc913b4cc6a9b90",
+    "hash": "1bbh6diqjnc91wnwkbyh7sdh33kzsrvpfg6m4yrbq4b4256kls4q",
+    "skills": [
+      "skills/lib-docs-generator"
+    ],
     "lastUpdated": "2026-02-04T13:36:56.332Z"
   },
   {
-    "pname": "89jobrien.steve.action-item-organizer",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/action-item-organizer",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.agile-ceremonies",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/agile-ceremonies",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.ai-code-cleanup",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/ai-code-cleanup",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.ai-ethics",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/ai-ethics",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.brainstorming",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/brainstorming",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.claude-hooks",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/claude-hooks",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.cloud-infrastructure",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/cloud-infrastructure",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.cocoindex",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/cocoindex",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.code-context-finder",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/code-context-finder",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.code-permutation-testing",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/code-permutation-testing",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.code-review",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/code-review",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.command-optimization",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/command-optimization",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.context-management",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/context-management",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.database-optimization",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/database-optimization",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.dead-code-removal",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/dead-code-removal",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.debugging",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/debugging",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.dependency-management",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/dependency-management",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.developer-experience",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/developer-experience",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.developer-growth-analysis",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/developer-growth-analysis",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.devops-runbooks",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/devops-runbooks",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.dispatching-parallel-agents",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/dispatching-parallel-agents",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.documentation",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/documentation",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.example-skill",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/example-skill",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.file-converter",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/file-converter",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.file-organizer",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/file-organizer",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.git-commit-helper",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/git-commit-helper",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.git-workflow",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/git-workflow",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.global-standards",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/global-standards",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.golang-enterprise-patterns",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/golang-enterprise-patterns",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.golang-performance",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/golang-performance",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.golang-testing",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/golang-testing",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.jira",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/jira",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.lead-research-assistant",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/lead-research-assistant",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.machine-learning",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/machine-learning",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.mcp-integration",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/mcp-integration",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.meeting-insights-analyzer",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/meeting-insights-analyzer",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.meta-cognitive-reasoning",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/meta-cognitive-reasoning",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.mlx-fine-tuning",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/mlx-fine-tuning",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.n8n",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/n8n",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.n8n-development",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/n8n-development",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.nathan-standards",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/nathan-standards",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.network-engineering",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/network-engineering",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.nextjs-architecture",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/nextjs-architecture",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.pdf-processing",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/pdf-processing",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.performance",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/performance",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.planning-with-files",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/planning-with-files",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.prompt-optimization",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/prompt-optimization",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.python-scripting",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/python-scripting",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.python-uv",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/python-uv",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.ralph-tui-create-beads",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/ralph-tui-create-beads",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.ralph-tui-create-json",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/ralph-tui-create-json",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.ralph-tui-prd",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/ralph-tui-prd",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.requirements-elicitation",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/requirements-elicitation",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.security-audit",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/security-audit",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.security-engineering",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/security-engineering",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.seo-analysis",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/seo-analysis",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.shell-scripting",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/shell-scripting",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.skill-creator",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/skill-creator",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.skill-share",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/skill-share",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.spec-driven-development",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/spec-driven-development",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.tdd-pytest",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/tdd-pytest",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.technical-research",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/technical-research",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.test-driven-development",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/test-driven-development",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.testing",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/testing",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.tool-presets",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/tool-presets",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.url-analysis",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/url-analysis",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.use-conductor",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/use-conductor",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "89jobrien.steve.web-accessibility",
-    "source": {
-      "type": "github",
-      "owner": "89jobrien",
-      "repo": "steve",
-      "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
-      "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip"
-    },
-    "path": "steve/skills/web-accessibility",
-    "lastUpdated": "2026-03-04T07:17:50.244Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.agent-browser",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/agent-browser",
-    "lastUpdated": "2026-02-04T01:12:31.251Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.agent-native-architecture",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/agent-native-architecture",
-    "lastUpdated": "2026-02-04T01:12:31.625Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.andrew-kane-gem-writer",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/andrew-kane-gem-writer",
-    "lastUpdated": "2026-02-04T01:12:31.897Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.coding-tutor",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/coding-tutor/skills/coding-tutor",
-    "lastUpdated": "2026-02-04T01:12:32.184Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.compound-docs",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/compound-docs",
-    "lastUpdated": "2026-02-04T01:12:32.464Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.create-agent-skills",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/create-agent-skills",
-    "lastUpdated": "2026-02-04T01:12:32.775Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.dhh-rails-style",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/dhh-rails-style",
-    "lastUpdated": "2026-02-04T01:12:33.075Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.dspy-ruby",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/dspy-ruby",
-    "lastUpdated": "2026-02-04T01:12:33.471Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.every-style-editor",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/every-style-editor",
-    "lastUpdated": "2026-02-04T01:12:33.799Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.file-todos",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/file-todos",
-    "lastUpdated": "2026-02-04T01:12:34.092Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.frontend-design",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/frontend-design",
-    "lastUpdated": "2026-02-04T01:12:34.425Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.gemini-imagegen",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/gemini-imagegen",
-    "lastUpdated": "2026-02-04T01:12:34.723Z"
-  },
-  {
-    "pname": "8b-is.8b-is-mp.git-worktree",
-    "source": {
-      "type": "github",
-      "owner": "8b-is",
-      "repo": "8b-is-mp",
-      "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
-      "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw"
-    },
-    "path": "plugins/compound-engineering/skills/git-worktree",
+    "source": "github:89jobrien/steve",
+    "rev": "1c1382c33686952cf6d5e2c9fc6ad0bc6fc46ef6",
+    "hash": "15y83q3gm85jbj26rp4lgihl2qap5idx933mg9r33nz505w3iaip",
+    "skills": [
+      "steve/skills/action-item-organizer",
+      "steve/skills/agile-ceremonies",
+      "steve/skills/ai-code-cleanup",
+      "steve/skills/ai-ethics",
+      "steve/skills/brainstorming",
+      "steve/skills/claude-hooks",
+      "steve/skills/cloud-infrastructure",
+      "steve/skills/cocoindex",
+      "steve/skills/code-context-finder",
+      "steve/skills/code-permutation-testing",
+      "steve/skills/code-review",
+      "steve/skills/command-optimization",
+      "steve/skills/context-management",
+      "steve/skills/database-optimization",
+      "steve/skills/dead-code-removal",
+      "steve/skills/debugging",
+      "steve/skills/dependency-management",
+      "steve/skills/developer-experience",
+      "steve/skills/developer-growth-analysis",
+      "steve/skills/devops-runbooks",
+      "steve/skills/dispatching-parallel-agents",
+      "steve/skills/documentation",
+      "steve/skills/example-skill",
+      "steve/skills/file-converter",
+      "steve/skills/file-organizer",
+      "steve/skills/git-commit-helper",
+      "steve/skills/git-workflow",
+      "steve/skills/global-standards",
+      "steve/skills/golang-enterprise-patterns",
+      "steve/skills/golang-performance",
+      "steve/skills/golang-testing",
+      "steve/skills/jira",
+      "steve/skills/lead-research-assistant",
+      "steve/skills/machine-learning",
+      "steve/skills/mcp-integration",
+      "steve/skills/meeting-insights-analyzer",
+      "steve/skills/meta-cognitive-reasoning",
+      "steve/skills/mlx-fine-tuning",
+      "steve/skills/n8n",
+      "steve/skills/n8n-development",
+      "steve/skills/nathan-standards",
+      "steve/skills/network-engineering",
+      "steve/skills/nextjs-architecture",
+      "steve/skills/pdf-processing",
+      "steve/skills/performance",
+      "steve/skills/planning-with-files",
+      "steve/skills/prompt-optimization",
+      "steve/skills/python-scripting",
+      "steve/skills/python-uv",
+      "steve/skills/ralph-tui-create-beads",
+      "steve/skills/ralph-tui-create-json",
+      "steve/skills/ralph-tui-prd",
+      "steve/skills/requirements-elicitation",
+      "steve/skills/security-audit",
+      "steve/skills/security-engineering",
+      "steve/skills/seo-analysis",
+      "steve/skills/shell-scripting",
+      "steve/skills/skill-creator",
+      "steve/skills/skill-share",
+      "steve/skills/spec-driven-development",
+      "steve/skills/tdd-pytest",
+      "steve/skills/technical-research",
+      "steve/skills/test-driven-development",
+      "steve/skills/testing",
+      "steve/skills/tool-presets",
+      "steve/skills/url-analysis",
+      "steve/skills/use-conductor",
+      "steve/skills/web-accessibility"
+    ],
+    "lastUpdated": "2026-03-04T07:17:50.244Z"
+  },
+  {
+    "source": "github:8b-is/8b-is-mp",
+    "rev": "4007b9d267c0ea234cd17b373288b387a855bbd3",
+    "hash": "1axdjshqwzmz600r0mr0rkbxa8w335mza1yy35lax5kpa0nfcagw",
+    "skills": [
+      "plugins/coding-tutor/skills/coding-tutor",
+      "plugins/compound-engineering/skills/agent-browser",
+      "plugins/compound-engineering/skills/agent-native-architecture",
+      "plugins/compound-engineering/skills/andrew-kane-gem-writer",
+      "plugins/compound-engineering/skills/compound-docs",
+      "plugins/compound-engineering/skills/create-agent-skills",
+      "plugins/compound-engineering/skills/dhh-rails-style",
+      "plugins/compound-engineering/skills/dspy-ruby",
+      "plugins/compound-engineering/skills/every-style-editor",
+      "plugins/compound-engineering/skills/file-todos",
+      "plugins/compound-engineering/skills/frontend-design",
+      "plugins/compound-engineering/skills/gemini-imagegen",
+      "plugins/compound-engineering/skills/git-worktree"
+    ],
     "lastUpdated": "2026-02-04T01:12:35.049Z"
   }
 ]

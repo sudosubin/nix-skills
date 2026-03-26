@@ -1,14 +1,11 @@
 import { program } from "commander";
 import { cloneRepository, openRepository } from "es-git";
 import {
-  differenceBy,
   groupBy,
-  keyBy,
   memoize,
   orderBy,
   retry,
   sortBy,
-  unionBy,
   uniqBy,
 } from "es-toolkit";
 import fg from "fast-glob";
@@ -21,22 +18,11 @@ import { promisify } from "node:util";
 
 const exec = promisify(childProcess.exec);
 
-interface SourceSkill {
-  name: string;
+interface RepoSkills {
   source: string;
-  path?: string;
-}
-
-interface Skill {
-  pname: string;
-  source: {
-    type: string;
-    owner: string;
-    repo: string;
-    rev: string;
-    hash: string;
-  };
-  path: string;
+  rev: string;
+  hash: string;
+  skills: string[];
   lastUpdated: string;
 }
 
@@ -107,15 +93,24 @@ const selectCanonicalSkills = (repo: string, skillPaths: string[]) => {
   return uniqBy(sorted, (c) => c.skillName);
 };
 
-const getOrgPrefix = (pname: string): string => {
-  return pname.charAt(0).toLowerCase();
+const parseSource = (
+  source: string,
+): { type: string; owner: string; repo: string } => {
+  const [type, ownerRepo] = source.split(":", 2) as [string, string];
+  const [owner, repo] = ownerRepo.split("/", 2) as [string, string];
+  return { type, owner, repo };
 };
 
-const readAllSkills = async (): Promise<Skill[]> => {
+const getSourcePrefix = (source: string): string => {
+  const { owner } = parseSource(source);
+  return owner.charAt(0).toLowerCase();
+};
+
+const readAllRepoSkills = async (): Promise<RepoSkills[]> => {
   const dirs = await fs.readdir(paths.byName).catch(() => []);
   const skills = await Promise.all(
     dirs.map((dir) =>
-      readJson<Skill[]>(path.join(paths.byName, dir, "skills.json")),
+      readJson<RepoSkills[]>(path.join(paths.byName, dir, "skills.json")),
     ),
   );
   return skills.flat();
@@ -126,16 +121,12 @@ const chunk = <T>(input: T[], index: number, size: number): T[] => {
   return input.slice(index * unit, (index + 1) * unit);
 };
 
-const getSourceSkillKey = ({ source, name }: SourceSkill) => {
-  return `${source}.${name}`;
-};
-
-const collect = async (gen: AsyncGenerator<SourceSkill>) => {
-  const items: SourceSkill[] = [];
+const collectSources = async (gen: AsyncGenerator<string>) => {
+  const items: string[] = [];
   for await (const item of gen) {
     items.push(item);
   }
-  return sortBy(uniqBy(items, getSourceSkillKey), ["source", "name"]);
+  return [...new Set(items)].sort();
 };
 
 const readJson = async <T>(file: string): Promise<T> => {
@@ -172,7 +163,7 @@ async function* paginateSkillsSh() {
     if (skills.length === 0) {
       break;
     }
-    yield* skills.map(({ skillId, source }) => ({ name: skillId, source }));
+    yield* skills.map(({ source }) => `github:${source}`);
   }
 }
 
@@ -193,79 +184,68 @@ async function* paginateSkillsDirectoryCom() {
     if (skills.length === 0) {
       break;
     }
-    yield* skills.map(({ name, githubRepoFullName, skillFilePath }) => ({
-      name,
-      source: githubRepoFullName,
-      path: skillFilePath,
-    }));
+    yield* skills.map(
+      ({ githubRepoFullName }) => `github:${githubRepoFullName}`,
+    );
   }
 }
 
-const fetchAndMergeSourceSkills = async (
+const fetchAndMergeSources = async (
   sourceName: string,
   sourcePath: string,
-  generator: AsyncGenerator<SourceSkill>,
+  generator: AsyncGenerator<string>,
 ) => {
-  const previous = await readJson<SourceSkill[]>(sourcePath);
-  const fetched = await collect(generator);
+  const previous = await readJson<string[]>(sourcePath);
+  const fetched = await collectSources(generator);
 
-  const previousByKey = keyBy(previous, getSourceSkillKey);
-  const fetchedWithPath = fetched.map((skill) => {
-    const key = getSourceSkillKey(skill);
-    const path = skill.path ?? previousByKey[key]?.path;
-    return { ...skill, ...(path ? { path } : {}) };
-  });
-
-  const merged = sortBy(unionBy(fetchedWithPath, previous, getSourceSkillKey), [
-    "source",
-    "name",
-  ]);
-  const added = differenceBy(fetchedWithPath, previous, getSourceSkillKey);
-  const preserved = differenceBy(previous, fetchedWithPath, getSourceSkillKey);
+  const merged = [...new Set([...fetched, ...previous])].sort();
+  const added = fetched.filter((s) => !previous.includes(s));
+  const preserved = previous.filter((s) => !fetched.includes(s));
 
   await writeJson(sourcePath, merged);
   console.log(
-    `[INFO] ${sourceName}: wrote ${merged.length} skills (fetched=${fetched.length}, added=${added.length}, preserved=${preserved.length})`,
+    `[INFO] ${sourceName}: wrote ${merged.length} sources (fetched=${fetched.length}, added=${added.length}, preserved=${preserved.length})`,
   );
 };
 
 const update = async (input: {
   source: string;
-  prev?: Skill["source"];
-}): Promise<Skill[]> => {
+  prev?: RepoSkills;
+}): Promise<RepoSkills | null> => {
   const { source, prev } = input;
-  const [owner, repo] = source.split("/", 2) as [string, string];
+  const { owner, repo } = parseSource(source);
 
-  const rev = (await getRevUsingGh(source)) || (await getRevUsingGit(source));
+  const rev =
+    (await getRevUsingGh(`${owner}/${repo}`)) ||
+    (await getRevUsingGit(`${owner}/${repo}`));
   if (!rev) {
-    return [];
+    return null;
   }
   if (prev?.rev === rev) {
-    return [];
+    return null;
   }
 
-  const prefetch = await nixPrefetch({ source, rev });
+  const prefetch = await nixPrefetch({ source: `${owner}/${repo}`, rev });
   if (!prefetch) {
-    return [];
+    return null;
   }
 
   const { hash, storePath } = prefetch;
   const skillPaths = await findAllSkills(storePath);
   if (skillPaths.length === 0) {
-    console.info(`[WARN] no skills found in ${source}`);
-    return [];
+    console.info(`[WARN] no skills found in ${owner}/${repo}`);
+    return null;
   }
 
   const selected = selectCanonicalSkills(repo, skillPaths);
 
-  return selected.map(({ skillName, skillDir }) => {
-    return {
-      pname: `${owner}.${repo}.${skillName}`,
-      source: { type: "github", owner, repo, rev, hash },
-      path: skillDir,
-      lastUpdated: new Date().toISOString(),
-    } satisfies Skill;
-  });
+  return {
+    source,
+    rev,
+    hash,
+    skills: selected.map(({ skillDir }) => skillDir).sort(),
+    lastUpdated: new Date().toISOString(),
+  };
 };
 
 const getRevUsingGh = memoize(async (source: string) => {
@@ -347,13 +327,13 @@ program
   .description("fetch skill list from source (skills.sh, skillsdirectory.com)")
   .action(async (source: string) => {
     if (source === "skills.sh") {
-      await fetchAndMergeSourceSkills(
+      await fetchAndMergeSources(
         "skills.sh",
         paths.sourceSkillsSh,
         paginateSkillsSh(),
       );
     } else if (source === "skillsdirectory.com") {
-      await fetchAndMergeSourceSkills(
+      await fetchAndMergeSources(
         "skillsdirectory.com",
         paths.sourceSkillsDir,
         paginateSkillsDirectoryCom(),
@@ -369,11 +349,11 @@ program
   .description("update skills from fetched data (shard format: index/total)")
   .action(async (shard: string = "1/1") => {
     const raws = await Promise.all([
-      readJson<SourceSkill[]>(paths.sourceCustom),
-      readJson<SourceSkill[]>(paths.sourceSkillsSh),
-      readJson<SourceSkill[]>(paths.sourceSkillsDir),
+      readJson<string[]>(paths.sourceCustom),
+      readJson<string[]>(paths.sourceSkillsSh),
+      readJson<string[]>(paths.sourceSkillsDir),
     ]);
-    const sources = [...new Set(raws.flat().map((s) => s.source))].sort();
+    const sources = [...new Set(raws.flat())].sort();
 
     console.log(`[INFO] update shard: ${shard}`);
     const [index, size] = shard.split("/").map((v) => Number.parseInt(v));
@@ -383,22 +363,21 @@ program
 
     const repos = chunk(sources, index - 1, size);
     console.log(`[INFO] load sharded repos: ${repos.length}`);
-    const previous = await readAllSkills();
+    const previous = await readAllRepoSkills();
+    const previousMap = new Map(previous.map((s) => [s.source, s]));
 
     const data = (
       await Promise.all(
-        repos.map((repo) =>
+        repos.map((source) =>
           limit(async () => {
-            const prev = previous.find(
-              ({ source }) => `${source.owner}/${source.repo}` === repo,
-            );
-            return update({ source: repo, prev: prev?.source });
+            const prev = previousMap.get(source);
+            return update({ source, prev });
           }),
         ),
       )
     )
-      .flat()
-      .sort((a, b) => a.pname.localeCompare(b.pname));
+      .filter((v): v is RepoSkills => v !== null)
+      .sort((a, b) => a.source.localeCompare(b.source));
     await writeJson(path.join(paths.shard, `${index}.json`), data);
   });
 
@@ -412,29 +391,29 @@ program
       process.exit(1);
     }
 
-    // Read existing skills from by-name first
-    const existing = await readAllSkills();
-    const existingMap = new Map(existing.map((s) => [s.pname, s]));
+    // Read existing repo skills from by-name first
+    const existing = await readAllRepoSkills();
+    const existingMap = new Map(existing.map((s) => [s.source, s]));
 
-    // Read all shard files and override existing skills by pname
+    // Read all shard files and override existing by source
     const shards = await Promise.all(
-      files.map((f) => readJson<Skill[]>(path.join(paths.shard, f))),
+      files.map((f) => readJson<RepoSkills[]>(path.join(paths.shard, f))),
     );
-    for (const skill of shards.flat()) {
-      existingMap.set(skill.pname, skill);
+    for (const repo of shards.flat()) {
+      existingMap.set(repo.source, repo);
     }
 
-    // Group by org prefix and write to by-name structure
-    const allSkills = Array.from(existingMap.values());
-    const byPrefix = groupBy(allSkills, (s) => getOrgPrefix(s.pname));
+    // Group by source prefix and write to by-name structure
+    const allRepos = Array.from(existingMap.values());
+    const byPrefix = groupBy(allRepos, (s) => getSourcePrefix(s.source));
 
-    for (const [prefix, skills] of Object.entries(byPrefix)) {
-      const sorted = skills.sort((a, b) => a.pname.localeCompare(b.pname));
+    for (const [prefix, repos] of Object.entries(byPrefix)) {
+      const sorted = sortBy(repos, [(s) => s.source]);
       await writeJson(path.join(paths.byName, prefix, "skills.json"), sorted);
     }
 
     console.log(
-      `[INFO] combined ${allSkills.length} skills into ${Object.keys(byPrefix).length} prefixes`,
+      `[INFO] combined ${allRepos.length} repos into ${Object.keys(byPrefix).length} prefixes`,
     );
 
     await fs.rm(paths.shard, { recursive: true, force: true });

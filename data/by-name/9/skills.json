@@ -1,338 +1,86 @@
 [
   {
-    "pname": "91fapiao-cn.playwright-browser-skill.skills",
-    "source": {
-      "type": "github",
-      "owner": "91fapiao-cn",
-      "repo": "playwright-browser-skill",
-      "rev": "ba0eaa7270546e4da5a8ceb754f9f567188225d9",
-      "hash": "1wbvb2f1xvvb1s6nnwwhg7a71rjvy18s3fm6shfm4pla1gcd9n36"
-    },
-    "path": "skill-package/skills",
+    "source": "github:91fapiao-cn/playwright-browser-skill",
+    "rev": "ba0eaa7270546e4da5a8ceb754f9f567188225d9",
+    "hash": "1wbvb2f1xvvb1s6nnwwhg7a71rjvy18s3fm6shfm4pla1gcd9n36",
+    "skills": [
+      "skill-package/skills"
+    ],
     "lastUpdated": "2026-03-08T01:30:41.251Z"
   },
   {
-    "pname": "958877748.skills.agent",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/agent",
+    "source": "github:958877748/skills",
+    "rev": "edbb174406c672b5c41a27988198ec9665170219",
+    "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6",
+    "skills": [
+      "cocos-cli",
+      "cocos2d-cli/skill",
+      "discord-bot",
+      "skills/agent",
+      "skills/bilibili-downloader",
+      "skills/cocos-build",
+      "skills/cocos-creator-cli",
+      "skills/cocos-ui-schema-generator",
+      "skills/cocos24-ui",
+      "skills/cocos2d-cli",
+      "skills/discord-notify",
+      "skills/figma2cocos",
+      "skills/git-proxy",
+      "skills/gitreset",
+      "skills/groq-stt",
+      "skills/image-gen",
+      "skills/modelscope-api",
+      "skills/particle-modifier",
+      "skills/smart-research-assistant",
+      "template"
+    ],
     "lastUpdated": "2026-03-25T10:25:59.951Z"
   },
   {
-    "pname": "958877748.skills.bilibili-downloader",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/bilibili-downloader",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.cocos-build",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/cocos-build",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.cocos-cli",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "424dd585e5a30ea99c1de58056d2b2d2f04596e7",
-      "hash": "1axk87h82ipfb9kchs4yjcjv4aw5wihkwgfmrlw1pwg3d4d6rr6c"
-    },
-    "path": "cocos-cli",
-    "lastUpdated": "2026-03-02T13:20:20.604Z"
-  },
-  {
-    "pname": "958877748.skills.cocos-creator-cli",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "52843546231d81c37680fc822573f59b7f7cf2ea",
-      "hash": "0l5md6hfp9a0dp5cw0w210dck90v239q9ppdsp26r3zp7mh566kr"
-    },
-    "path": "skills/cocos-creator-cli",
-    "lastUpdated": "2026-02-27T07:31:13.468Z"
-  },
-  {
-    "pname": "958877748.skills.cocos-ui-schema-generator",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/cocos-ui-schema-generator",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.cocos24-ui",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/cocos24-ui",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.cocos2d-cli",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/cocos2d-cli",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.discord-bot",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "discord-bot",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.discord-notify",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/discord-notify",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.figma2cocos",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/figma2cocos",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.git-proxy",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/git-proxy",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.gitreset",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/gitreset",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.groq-stt",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/groq-stt",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.image-gen",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/image-gen",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.modelscope-api",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/modelscope-api",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.particle-modifier",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "edbb174406c672b5c41a27988198ec9665170219",
-      "hash": "1x06nz0jasy8wpcm6yrll9jc5558q5g43zssb2kvzz4rdj6c34z6"
-    },
-    "path": "skills/particle-modifier",
-    "lastUpdated": "2026-03-25T10:25:59.951Z"
-  },
-  {
-    "pname": "958877748.skills.skill",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "577e595dbbfc79ec6976e0247d980b7e2c296a15",
-      "hash": "1ds6dz2yxmv31xcwddyda2kmxqvv63r22m0hybfg725vz93x1rri"
-    },
-    "path": "cocos2d-cli/skill",
-    "lastUpdated": "2026-03-16T16:23:40.248Z"
-  },
-  {
-    "pname": "958877748.skills.smart-research-assistant",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "12abffde8a87abaf5b32dced48ec789409598c9f",
-      "hash": "0qxl50lkkim0fq4h6dpndy826hpz7f73awac4pqxggmsnzan6nnx"
-    },
-    "path": "skills/smart-research-assistant",
-    "lastUpdated": "2026-03-23T07:23:51.563Z"
-  },
-  {
-    "pname": "958877748.skills.template",
-    "source": {
-      "type": "github",
-      "owner": "958877748",
-      "repo": "skills",
-      "rev": "52843546231d81c37680fc822573f59b7f7cf2ea",
-      "hash": "0l5md6hfp9a0dp5cw0w210dck90v239q9ppdsp26r3zp7mh566kr"
-    },
-    "path": "template",
-    "lastUpdated": "2026-02-27T07:31:13.468Z"
-  },
-  {
-    "pname": "994ak.beautiful-mermaid-skill.beautiful-mermaid",
-    "source": {
-      "type": "github",
-      "owner": "994ak",
-      "repo": "beautiful-mermaid-skill",
-      "rev": "901af38f7a75863ebc219c5f9d4adf7f9315f1fa",
-      "hash": "049s2j6q82s7gprlx18m6w54xwpgjr402yj9zacgayvlz2a8d5vl"
-    },
-    "path": "skills/beautiful-mermaid",
+    "source": "github:994ak/beautiful-mermaid-skill",
+    "rev": "901af38f7a75863ebc219c5f9d4adf7f9315f1fa",
+    "hash": "049s2j6q82s7gprlx18m6w54xwpgjr402yj9zacgayvlz2a8d5vl",
+    "skills": [
+      "skills/beautiful-mermaid"
+    ],
     "lastUpdated": "2026-02-04T19:34:45.296Z"
   },
   {
-    "pname": "994ak.image-compress-skill..",
-    "source": {
-      "type": "github",
-      "owner": "994ak",
-      "repo": "image-compress-skill",
-      "rev": "c0f64c2969b43593b7e25a1b69f47f8eaba723a2",
-      "hash": "1r4aia4ihphs8vqq16cmvpfzyqp8di606sg1pclmx8rlbplra7zl"
-    },
-    "path": ".",
+    "source": "github:994ak/image-compress-skill",
+    "rev": "c0f64c2969b43593b7e25a1b69f47f8eaba723a2",
+    "hash": "1r4aia4ihphs8vqq16cmvpfzyqp8di606sg1pclmx8rlbplra7zl",
+    "skills": [
+      "."
+    ],
     "lastUpdated": "2026-02-04T09:57:15.653Z"
   },
   {
-    "pname": "994ak.imagecompressskill.image-compress-skill",
-    "source": {
-      "type": "github",
-      "owner": "994ak",
-      "repo": "imagecompressskill",
-      "rev": "8fffd39715bb291ea7a1a755768057ee4be5feca",
-      "hash": "1sv76z5j69kdl3rd5hdy7vkkhrkqymn0r3q6asxczj51gz03qk0m"
-    },
-    "path": ".agents/skills/image-compress-skill",
+    "source": "github:994ak/imagecompressskill",
+    "rev": "8fffd39715bb291ea7a1a755768057ee4be5feca",
+    "hash": "1sv76z5j69kdl3rd5hdy7vkkhrkqymn0r3q6asxczj51gz03qk0m",
+    "skills": [
+      ".agents/skills/image-compress-skill"
+    ],
     "lastUpdated": "2026-02-04T01:12:31.267Z"
   },
   {
-    "pname": "9qwnkc6s79-a11y.troy-mission-control.health-data",
-    "source": {
-      "type": "github",
-      "owner": "9qwnkc6s79-a11y",
-      "repo": "troy-mission-control",
-      "rev": "a3560c11c1812935d79700594e8016d7fd6bec15",
-      "hash": "1cl8x0d2fpl92qawvmawi4qwfvyrczpw5faq3ib9lhr8yajr6f7x"
-    },
-    "path": "health-data",
+    "source": "github:9qwnkc6s79-a11y/troy-mission-control",
+    "rev": "a3560c11c1812935d79700594e8016d7fd6bec15",
+    "hash": "1cl8x0d2fpl92qawvmawi4qwfvyrczpw5faq3ib9lhr8yajr6f7x",
+    "skills": [
+      "health-data"
+    ],
     "lastUpdated": "2026-03-05T14:31:08.036Z"
   },
   {
-    "pname": "9tykeshav.mern-ninja-cc.backend-test-writer",
-    "source": {
-      "type": "github",
-      "owner": "9tykeshav",
-      "repo": "mern-ninja-cc",
-      "rev": "1baecef76b7a97e7c7b9178ba289eae28c5feaa4",
-      "hash": "0sds0yj5vlpq20sm4qmnn6d2ywzgf6haz4raavvs9fr4ciw9pz90"
-    },
-    "path": "skills/backend-test-writer",
-    "lastUpdated": "2026-03-11T19:32:14.957Z"
-  },
-  {
-    "pname": "9tykeshav.mern-ninja-cc.code-reviewer",
-    "source": {
-      "type": "github",
-      "owner": "9tykeshav",
-      "repo": "mern-ninja-cc",
-      "rev": "1baecef76b7a97e7c7b9178ba289eae28c5feaa4",
-      "hash": "0sds0yj5vlpq20sm4qmnn6d2ywzgf6haz4raavvs9fr4ciw9pz90"
-    },
-    "path": "skills/code-reviewer",
-    "lastUpdated": "2026-03-11T19:32:14.957Z"
-  },
-  {
-    "pname": "9tykeshav.mern-ninja-cc.mongodb-query-patterns",
-    "source": {
-      "type": "github",
-      "owner": "9tykeshav",
-      "repo": "mern-ninja-cc",
-      "rev": "1baecef76b7a97e7c7b9178ba289eae28c5feaa4",
-      "hash": "0sds0yj5vlpq20sm4qmnn6d2ywzgf6haz4raavvs9fr4ciw9pz90"
-    },
-    "path": "skills/mongodb-query-patterns",
+    "source": "github:9tykeshav/mern-ninja-cc",
+    "rev": "1baecef76b7a97e7c7b9178ba289eae28c5feaa4",
+    "hash": "0sds0yj5vlpq20sm4qmnn6d2ywzgf6haz4raavvs9fr4ciw9pz90",
+    "skills": [
+      "skills/backend-test-writer",
+      "skills/code-reviewer",
+      "skills/mongodb-query-patterns"
+    ],
     "lastUpdated": "2026-03-11T19:32:14.957Z"
   }
 ]

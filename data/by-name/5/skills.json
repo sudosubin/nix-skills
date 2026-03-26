@@ -1,2030 +1,227 @@
 [
   {
-    "pname": "514-labs.agent-skills.best-practices",
-    "source": {
-      "type": "github",
-      "owner": "514-labs",
-      "repo": "agent-skills",
-      "rev": "f33cb88544e428f758ce18ad5a3c9f458f33c7a1",
-      "hash": "14xxm1nhh0ff6nfqqs02s8qx31nr1j27mnpnyz4i384hydm1j1j1"
-    },
-    "path": "skills/clickhouse/best-practices",
+    "source": "github:514-labs/agent-skills",
+    "rev": "f33cb88544e428f758ce18ad5a3c9f458f33c7a1",
+    "hash": "14xxm1nhh0ff6nfqqs02s8qx31nr1j27mnpnyz4i384hydm1j1j1",
+    "skills": [
+      "skills/514/cli",
+      "skills/514/debug",
+      "skills/514/perf-optimize",
+      "skills/clickhouse-best-practices",
+      "skills/clickhouse/best-practices"
+    ],
     "lastUpdated": "2026-03-09T16:19:13.887Z"
   },
   {
-    "pname": "514-labs.agent-skills.cli",
-    "source": {
-      "type": "github",
-      "owner": "514-labs",
-      "repo": "agent-skills",
-      "rev": "f33cb88544e428f758ce18ad5a3c9f458f33c7a1",
-      "hash": "14xxm1nhh0ff6nfqqs02s8qx31nr1j27mnpnyz4i384hydm1j1j1"
-    },
-    "path": "skills/514/cli",
-    "lastUpdated": "2026-03-09T16:19:13.887Z"
-  },
-  {
-    "pname": "514-labs.agent-skills.clickhouse-best-practices",
-    "source": {
-      "type": "github",
-      "owner": "514-labs",
-      "repo": "agent-skills",
-      "rev": "ada419d55d347c4bbca2b8522c66e081035c854b",
-      "hash": "15nnwg7nhn6grnxq0kjhxgal40fb10pqb6v71k2k3isp3hmc3bnw"
-    },
-    "path": "skills/clickhouse-best-practices",
-    "lastUpdated": "2026-03-05T14:31:02.588Z"
-  },
-  {
-    "pname": "514-labs.agent-skills.debug",
-    "source": {
-      "type": "github",
-      "owner": "514-labs",
-      "repo": "agent-skills",
-      "rev": "f33cb88544e428f758ce18ad5a3c9f458f33c7a1",
-      "hash": "14xxm1nhh0ff6nfqqs02s8qx31nr1j27mnpnyz4i384hydm1j1j1"
-    },
-    "path": "skills/514/debug",
-    "lastUpdated": "2026-03-09T16:19:13.887Z"
-  },
-  {
-    "pname": "514-labs.agent-skills.perf-optimize",
-    "source": {
-      "type": "github",
-      "owner": "514-labs",
-      "repo": "agent-skills",
-      "rev": "f33cb88544e428f758ce18ad5a3c9f458f33c7a1",
-      "hash": "14xxm1nhh0ff6nfqqs02s8qx31nr1j27mnpnyz4i384hydm1j1j1"
-    },
-    "path": "skills/514/perf-optimize",
-    "lastUpdated": "2026-03-09T16:19:13.887Z"
-  },
-  {
-    "pname": "57uff3r.awesome-ai.akorchak:deep-research",
-    "source": {
-      "type": "github",
-      "owner": "57uff3r",
-      "repo": "awesome-ai",
-      "rev": "e69e33ad70e1a5722094c1697bb2aac962973378",
-      "hash": "1lhsnagl4h5g0g3qllkrssfgxdyrj922qhi1wa0sfmrslwn08251"
-    },
-    "path": "plugins/akorchak-awesome-ai/skills/akorchak:deep-research",
+    "source": "github:57uff3r/awesome-ai",
+    "rev": "e69e33ad70e1a5722094c1697bb2aac962973378",
+    "hash": "1lhsnagl4h5g0g3qllkrssfgxdyrj922qhi1wa0sfmrslwn08251",
+    "skills": [
+      "plugins/akorchak-awesome-ai/skills/akorchak:deep-research",
+      "plugins/akorchak-awesome-ai/skills/akorchak:forecast",
+      "plugins/akorchak-awesome-ai/skills/akorchak:icp-generator",
+      "plugins/akorchak-awesome-ai/skills/akorchak:strategy",
+      "plugins/akorchak-awesome-ai/skills/akorchak:thinking-session",
+      "plugins/akorchak-awesome-ai/skills/akorchak:venture-assessment"
+    ],
     "lastUpdated": "2026-02-11T07:46:32.319Z"
   },
   {
-    "pname": "57uff3r.awesome-ai.akorchak:forecast",
-    "source": {
-      "type": "github",
-      "owner": "57uff3r",
-      "repo": "awesome-ai",
-      "rev": "e69e33ad70e1a5722094c1697bb2aac962973378",
-      "hash": "1lhsnagl4h5g0g3qllkrssfgxdyrj922qhi1wa0sfmrslwn08251"
-    },
-    "path": "plugins/akorchak-awesome-ai/skills/akorchak:forecast",
-    "lastUpdated": "2026-02-11T07:46:32.319Z"
-  },
-  {
-    "pname": "57uff3r.awesome-ai.akorchak:icp-generator",
-    "source": {
-      "type": "github",
-      "owner": "57uff3r",
-      "repo": "awesome-ai",
-      "rev": "e69e33ad70e1a5722094c1697bb2aac962973378",
-      "hash": "1lhsnagl4h5g0g3qllkrssfgxdyrj922qhi1wa0sfmrslwn08251"
-    },
-    "path": "plugins/akorchak-awesome-ai/skills/akorchak:icp-generator",
-    "lastUpdated": "2026-02-11T07:46:32.319Z"
-  },
-  {
-    "pname": "57uff3r.awesome-ai.akorchak:strategy",
-    "source": {
-      "type": "github",
-      "owner": "57uff3r",
-      "repo": "awesome-ai",
-      "rev": "e69e33ad70e1a5722094c1697bb2aac962973378",
-      "hash": "1lhsnagl4h5g0g3qllkrssfgxdyrj922qhi1wa0sfmrslwn08251"
-    },
-    "path": "plugins/akorchak-awesome-ai/skills/akorchak:strategy",
-    "lastUpdated": "2026-02-11T07:46:32.319Z"
-  },
-  {
-    "pname": "57uff3r.awesome-ai.akorchak:thinking-session",
-    "source": {
-      "type": "github",
-      "owner": "57uff3r",
-      "repo": "awesome-ai",
-      "rev": "e69e33ad70e1a5722094c1697bb2aac962973378",
-      "hash": "1lhsnagl4h5g0g3qllkrssfgxdyrj922qhi1wa0sfmrslwn08251"
-    },
-    "path": "plugins/akorchak-awesome-ai/skills/akorchak:thinking-session",
-    "lastUpdated": "2026-02-11T07:46:32.319Z"
-  },
-  {
-    "pname": "57uff3r.awesome-ai.akorchak:venture-assessment",
-    "source": {
-      "type": "github",
-      "owner": "57uff3r",
-      "repo": "awesome-ai",
-      "rev": "e69e33ad70e1a5722094c1697bb2aac962973378",
-      "hash": "1lhsnagl4h5g0g3qllkrssfgxdyrj922qhi1wa0sfmrslwn08251"
-    },
-    "path": "plugins/akorchak-awesome-ai/skills/akorchak:venture-assessment",
-    "lastUpdated": "2026-02-11T07:46:32.319Z"
-  },
-  {
-    "pname": "5dlabs.cto.advanced-evaluation",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/context/advanced-evaluation",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.ai-ml-infra",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/ai-ml-infra",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.anime-js",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/animations/anime-js",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.api-error-handling",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/api-error-handling",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.architecture-patterns",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/architecture-patterns",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.argocd-gitops",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/argocd-gitops",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.ask-questions",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/ask-questions",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.audit-prep-assistant",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/audit-prep-assistant",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.better-auth",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/auth/better-auth",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.better-auth-electron",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/auth/better-auth-electron",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.better-auth-expo",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/auth/better-auth-expo",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.brainstorming",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/brainstorming",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.bun",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/bun",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.cargo-fuzz",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/cargo-fuzz",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.ci-remediation",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": ".claude/skills/ci-remediation",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.clerk",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/clerk",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.cloudflare-agents-sdk",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/cloudflare-agents-sdk",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.cloudflare-durable-objects",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/cloudflare-durable-objects",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.cloudflare-mcp-server",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/cloudflare-mcp-server",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.cloudflare-workers",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/cloudflare-workers",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.cloudflare-wrangler",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/cloudflare-wrangler",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.code-maturity",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/code-maturity",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.code-review",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/code-review",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.codeql",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/codeql",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.compound-engineering",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/compound-engineering",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.container-debug",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/container-debug",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.context-degradation",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/context/context-degradation",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.context-fundamentals",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/context/context-fundamentals",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.context-optimization",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/context/context-optimization",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.context7",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/context7",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.coverage-analysis",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/coverage-analysis",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.cto-platform",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": ".factory/skills/cto-platform",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.deep-research",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/deep-research",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.differential-review",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/differential-review",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.doc-coauthoring",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/doc-coauthoring",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.docker-essentials",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/docker-essentials",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.docx",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/documents/docx",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.drizzle-queries",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/drizzle-queries",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.e2e-testing-patterns",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/e2e-testing-patterns",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.effect-frontend-patterns",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/languages/effect-frontend-patterns",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.effect-patterns",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/languages/effect-patterns",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.electron-patterns",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/electron-patterns",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.elysia",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/elysia",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.entry-point-analyzer",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/entry-point-analyzer",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.evaluation",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/context/evaluation",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.executing-plans",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/executing-plans",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/expo",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo-api-routes",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/expo-api-routes",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo-app-design",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/expo-app-design",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo-building-ui",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/expo-building-ui",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo-cicd-workflows",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/expo-cicd-workflows",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo-data-fetching",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/expo-data-fetching",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo-deployment",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/expo-deployment",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo-dev-client",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/expo-dev-client",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo-patterns",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/expo-patterns",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo-tailwind",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/expo-tailwind",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo-upgrading",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/expo-upgrading",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.expo-use-dom",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/expo-use-dom",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.finishing-branch",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/finishing-branch",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.firecrawl",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/firecrawl",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.frontend-design",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/design/frontend-design",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.frontend-excellence",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/frontend-excellence",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.frontend-stack-selection",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/frontend-stack-selection",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.fuzzing-obstacles",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/fuzzing-obstacles",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.git-integration",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/git-integration",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.git-worktrees",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/git-worktrees",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.github-mcp",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/github-mcp",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.go-code-review",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/go-code-review",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.go-concurrency",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/languages/go-concurrency",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.go-patterns",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/languages/go-patterns",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.healer",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": ".factory/skills/healer",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.himalaya",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/himalaya",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.hono",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/hono",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.incident-response",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/incident-response",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.kubernetes-mcp",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/kubernetes-mcp",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.kubernetes-operators",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/kubernetes-operators",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.latitude-sh",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/latitude-sh",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.linear-agent-api",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": ".factory/skills/linear-agent-api",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.llm-docs",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/llm-docs",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.mcp-builder",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/mcp-builder",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.mcp-development",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/mcp-development",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.memory-systems",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/context/memory-systems",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.multi-agent-patterns",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/context/multi-agent-patterns",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.observability",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/observability",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.octocode",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/octocode",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.openmemory",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/openmemory",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.openxr",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/openxr",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.parallel-agents",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/parallel-agents",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.pdf",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/documents/pdf",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.perf-profiler",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/perf-profiler",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.playwright-testing",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/playwright-testing",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.pptx",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/documents/pptx",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.pr-review",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/pr-review",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.prd-analysis",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/prd-analysis",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.prisma",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/prisma",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.project-development",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/project-development",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.property-based-testing",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/property-based-testing",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.ralph-technique",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/ralph-technique",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.react-best-practices",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": ".factory/skills/react-best-practices",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.react-native",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/react-native",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.react-native-best-practices",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/react-native-best-practices",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.receiving-code-review",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/receiving-code-review",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.regex-patterns",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/regex-patterns",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.remotion",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/remotion",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.repomix",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/repomix",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.requesting-code-review",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/requesting-code-review",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.rust-error-handling",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/languages/rust-error-handling",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.rust-patterns",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/languages/rust-patterns",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.sarif-parsing",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/sarif-parsing",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.secrets-management",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/secrets-management",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.security-analysis",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/security-analysis",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.security-audit-toolkit",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/security-audit-toolkit",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.self-improving-agent",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/self-improving-agent",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.semgrep",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/semgrep",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.sentry-tracing",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/tools/sentry-tracing",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.shadcn-stack",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/stacks/shadcn-stack",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.skill-authoring",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/skill-authoring",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.storage-operators",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/storage-operators",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.stripe",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/stripe",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.subagent-driven-development",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/subagent-driven-development",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.supabase",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/supabase",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.systematic-debugging",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": ".factory/skills/systematic-debugging",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.tanstack-stack",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/stacks/tanstack-stack",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.telemetry",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": ".factory/skills/telemetry",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.test-driven-development",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": ".factory/skills/test-driven-development",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.testing-strategies",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/testing-strategies",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.three-js",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/three-js",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.tool-design",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/context/tool-design",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.trpc",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/trpc",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.turborepo",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/turborepo",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.unity-vr",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/platforms/unity-vr",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.variant-analysis",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/security/variant-analysis",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.vercel",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/vercel",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.verification-before-completion",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": ".factory/skills/verification-before-completion",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.vitest",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/vitest",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.web-design-guidelines",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/design/web-design-guidelines",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.webapp-testing",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/quality/webapp-testing",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.writing-plans",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/workflow/writing-plans",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.xlsx",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/documents/xlsx",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5dlabs.cto.zod",
-    "source": {
-      "type": "github",
-      "owner": "5dlabs",
-      "repo": "cto",
-      "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
-      "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w"
-    },
-    "path": "templates/skills/llm-docs/zod",
-    "lastUpdated": "2026-03-04T01:22:53.504Z"
-  },
-  {
-    "pname": "5hanth.zdev-skill..",
-    "source": {
-      "type": "github",
-      "owner": "5hanth",
-      "repo": "zdev-skill",
-      "rev": "0784f8f4fb88603eb604d76e91ac3752cb98e036",
-      "hash": "1rrzsmpncgb82xwy9jigs5mp8bkfgpvj4lhzgavsnihg22lngp9y"
-    },
-    "path": ".",
+    "source": "github:5dlabs/cto",
+    "rev": "500bb68a979acfe3f8058f1d5ba1aa6b540135cd",
+    "hash": "1chv1rxwqd36ynmrc5403zly2w2y07bbx0xz0ybkw7q386as9v7w",
+    "skills": [
+      ".claude/skills/ci-remediation",
+      ".factory/skills/cto-platform",
+      ".factory/skills/healer",
+      ".factory/skills/linear-agent-api",
+      ".factory/skills/react-best-practices",
+      ".factory/skills/systematic-debugging",
+      ".factory/skills/telemetry",
+      ".factory/skills/test-driven-development",
+      ".factory/skills/verification-before-completion",
+      "templates/skills/animations/anime-js",
+      "templates/skills/auth/better-auth",
+      "templates/skills/auth/better-auth-electron",
+      "templates/skills/auth/better-auth-expo",
+      "templates/skills/context/advanced-evaluation",
+      "templates/skills/context/context-degradation",
+      "templates/skills/context/context-fundamentals",
+      "templates/skills/context/context-optimization",
+      "templates/skills/context/evaluation",
+      "templates/skills/context/memory-systems",
+      "templates/skills/context/multi-agent-patterns",
+      "templates/skills/context/tool-design",
+      "templates/skills/design/frontend-design",
+      "templates/skills/design/web-design-guidelines",
+      "templates/skills/documents/docx",
+      "templates/skills/documents/pdf",
+      "templates/skills/documents/pptx",
+      "templates/skills/documents/xlsx",
+      "templates/skills/languages/effect-frontend-patterns",
+      "templates/skills/languages/effect-patterns",
+      "templates/skills/languages/go-concurrency",
+      "templates/skills/languages/go-patterns",
+      "templates/skills/languages/rust-error-handling",
+      "templates/skills/languages/rust-patterns",
+      "templates/skills/llm-docs/bun",
+      "templates/skills/llm-docs/clerk",
+      "templates/skills/llm-docs/drizzle-queries",
+      "templates/skills/llm-docs/elysia",
+      "templates/skills/llm-docs/expo",
+      "templates/skills/llm-docs/hono",
+      "templates/skills/llm-docs/prisma",
+      "templates/skills/llm-docs/react-native",
+      "templates/skills/llm-docs/stripe",
+      "templates/skills/llm-docs/supabase",
+      "templates/skills/llm-docs/trpc",
+      "templates/skills/llm-docs/turborepo",
+      "templates/skills/llm-docs/vercel",
+      "templates/skills/llm-docs/vitest",
+      "templates/skills/llm-docs/zod",
+      "templates/skills/platforms/ai-ml-infra",
+      "templates/skills/platforms/argocd-gitops",
+      "templates/skills/platforms/cloudflare-agents-sdk",
+      "templates/skills/platforms/cloudflare-durable-objects",
+      "templates/skills/platforms/cloudflare-mcp-server",
+      "templates/skills/platforms/cloudflare-workers",
+      "templates/skills/platforms/cloudflare-wrangler",
+      "templates/skills/platforms/electron-patterns",
+      "templates/skills/platforms/expo-api-routes",
+      "templates/skills/platforms/expo-app-design",
+      "templates/skills/platforms/expo-building-ui",
+      "templates/skills/platforms/expo-cicd-workflows",
+      "templates/skills/platforms/expo-data-fetching",
+      "templates/skills/platforms/expo-deployment",
+      "templates/skills/platforms/expo-dev-client",
+      "templates/skills/platforms/expo-patterns",
+      "templates/skills/platforms/expo-tailwind",
+      "templates/skills/platforms/expo-upgrading",
+      "templates/skills/platforms/expo-use-dom",
+      "templates/skills/platforms/kubernetes-operators",
+      "templates/skills/platforms/latitude-sh",
+      "templates/skills/platforms/openxr",
+      "templates/skills/platforms/react-native-best-practices",
+      "templates/skills/platforms/remotion",
+      "templates/skills/platforms/secrets-management",
+      "templates/skills/platforms/storage-operators",
+      "templates/skills/platforms/three-js",
+      "templates/skills/platforms/unity-vr",
+      "templates/skills/quality/api-error-handling",
+      "templates/skills/quality/architecture-patterns",
+      "templates/skills/quality/ask-questions",
+      "templates/skills/quality/code-maturity",
+      "templates/skills/quality/code-review",
+      "templates/skills/quality/e2e-testing-patterns",
+      "templates/skills/quality/frontend-excellence",
+      "templates/skills/quality/go-code-review",
+      "templates/skills/quality/perf-profiler",
+      "templates/skills/quality/playwright-testing",
+      "templates/skills/quality/pr-review",
+      "templates/skills/quality/regex-patterns",
+      "templates/skills/quality/security-analysis",
+      "templates/skills/quality/testing-strategies",
+      "templates/skills/quality/webapp-testing",
+      "templates/skills/security/audit-prep-assistant",
+      "templates/skills/security/cargo-fuzz",
+      "templates/skills/security/codeql",
+      "templates/skills/security/coverage-analysis",
+      "templates/skills/security/differential-review",
+      "templates/skills/security/entry-point-analyzer",
+      "templates/skills/security/fuzzing-obstacles",
+      "templates/skills/security/property-based-testing",
+      "templates/skills/security/sarif-parsing",
+      "templates/skills/security/security-audit-toolkit",
+      "templates/skills/security/semgrep",
+      "templates/skills/security/variant-analysis",
+      "templates/skills/stacks/shadcn-stack",
+      "templates/skills/stacks/tanstack-stack",
+      "templates/skills/tools/container-debug",
+      "templates/skills/tools/context7",
+      "templates/skills/tools/docker-essentials",
+      "templates/skills/tools/firecrawl",
+      "templates/skills/tools/github-mcp",
+      "templates/skills/tools/himalaya",
+      "templates/skills/tools/kubernetes-mcp",
+      "templates/skills/tools/llm-docs",
+      "templates/skills/tools/mcp-builder",
+      "templates/skills/tools/mcp-development",
+      "templates/skills/tools/observability",
+      "templates/skills/tools/octocode",
+      "templates/skills/tools/openmemory",
+      "templates/skills/tools/repomix",
+      "templates/skills/tools/sentry-tracing",
+      "templates/skills/workflow/brainstorming",
+      "templates/skills/workflow/compound-engineering",
+      "templates/skills/workflow/deep-research",
+      "templates/skills/workflow/doc-coauthoring",
+      "templates/skills/workflow/executing-plans",
+      "templates/skills/workflow/finishing-branch",
+      "templates/skills/workflow/frontend-stack-selection",
+      "templates/skills/workflow/git-integration",
+      "templates/skills/workflow/git-worktrees",
+      "templates/skills/workflow/incident-response",
+      "templates/skills/workflow/parallel-agents",
+      "templates/skills/workflow/prd-analysis",
+      "templates/skills/workflow/project-development",
+      "templates/skills/workflow/ralph-technique",
+      "templates/skills/workflow/receiving-code-review",
+      "templates/skills/workflow/requesting-code-review",
+      "templates/skills/workflow/self-improving-agent",
+      "templates/skills/workflow/skill-authoring",
+      "templates/skills/workflow/subagent-driven-development",
+      "templates/skills/workflow/writing-plans"
+    ],
+    "lastUpdated": "2026-03-04T01:22:53.504Z"
+  },
+  {
+    "source": "github:5hanth/zdev-skill",
+    "rev": "0784f8f4fb88603eb604d76e91ac3752cb98e036",
+    "hash": "1rrzsmpncgb82xwy9jigs5mp8bkfgpvj4lhzgavsnihg22lngp9y",
+    "skills": [
+      "."
+    ],
     "lastUpdated": "2026-02-04T22:36:45.146Z"
   },
   {
-    "pname": "5kahoisaac.opencode-configs.agent-browser",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/agent-browser",
+    "source": "github:5kahoisaac/opencode-configs",
+    "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
+    "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395",
+    "skills": [
+      "skills/agent-browser",
+      "skills/algorithmic-art",
+      "skills/command-creator",
+      "skills/docx",
+      "skills/find-skills",
+      "skills/frontend-design",
+      "skills/mnemonics",
+      "skills/pdf",
+      "skills/pptx",
+      "skills/receiving-code-review",
+      "skills/requesting-code-review",
+      "skills/simplify",
+      "skills/skill-creator",
+      "skills/web-design-guidelines",
+      "skills/xlsx"
+    ],
     "lastUpdated": "2026-03-24T13:23:53.977Z"
   },
   {
-    "pname": "5kahoisaac.opencode-configs.algorithmic-art",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/algorithmic-art",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.command-creator",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/command-creator",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.docx",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/docx",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.find-skills",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/find-skills",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.frontend-design",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/frontend-design",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.mnemonics",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/mnemonics",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.pdf",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/pdf",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.pptx",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/pptx",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.receiving-code-review",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/receiving-code-review",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.requesting-code-review",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/requesting-code-review",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.simplify",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/simplify",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.skill-creator",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/skill-creator",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.web-design-guidelines",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/web-design-guidelines",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5kahoisaac.opencode-configs.xlsx",
-    "source": {
-      "type": "github",
-      "owner": "5kahoisaac",
-      "repo": "opencode-configs",
-      "rev": "878422fade9ad93d8443bc300c28c6491d126ddc",
-      "hash": "1vif34921h5l9jnxm2fn9f7drshxm8bwmryzlxdfpg2laq54f395"
-    },
-    "path": "skills/xlsx",
-    "lastUpdated": "2026-03-24T13:23:53.977Z"
-  },
-  {
-    "pname": "5unnykum4r.wordpress-mcp.wordpress-mcp",
-    "source": {
-      "type": "github",
-      "owner": "5unnykum4r",
-      "repo": "wordpress-mcp",
-      "rev": "1f159fb47b4dd7deadc739397b173e1a46edf176",
-      "hash": "17f1gks9qph4khzj1bd2vj4g9mj2gsswwgxmyhyfaw89697abkz5"
-    },
-    "path": "skill/wordpress-mcp",
+    "source": "github:5unnykum4r/wordpress-mcp",
+    "rev": "1f159fb47b4dd7deadc739397b173e1a46edf176",
+    "hash": "17f1gks9qph4khzj1bd2vj4g9mj2gsswwgxmyhyfaw89697abkz5",
+    "skills": [
+      "skill/wordpress-mcp"
+    ],
     "lastUpdated": "2026-03-05T14:31:02.407Z"
   },
   {
-    "pname": "5zjk5.prompt-engineering.lang_chain&graphy_skill",
-    "source": {
-      "type": "github",
-      "owner": "5zjk5",
-      "repo": "prompt-engineering",
-      "rev": "c2d7432ef0635735bdb6bea4e0f56a33bb87ece3",
-      "hash": "0qc6i9bs0dfdy34j1cm7v8q8hsyfl204fk1rqm5v00f1a9h5ki2r"
-    },
-    "path": "Skill/lang_chain&graphy_skill",
+    "source": "github:5zjk5/prompt-engineering",
+    "rev": "c2d7432ef0635735bdb6bea4e0f56a33bb87ece3",
+    "hash": "0qc6i9bs0dfdy34j1cm7v8q8hsyfl204fk1rqm5v00f1a9h5ki2r",
+    "skills": [
+      "Skill/lang_chain&graphy_skill"
+    ],
     "lastUpdated": "2026-03-05T14:31:48.640Z"
   }
 ]

@@ -1,6 +1,34 @@
 { lib }:
 
 rec {
+  # Parse source string "github:owner/repo" -> { owner, repo }
+  parseSource =
+    source:
+    let
+      afterColon = lib.last (lib.splitString ":" source);
+      parts = lib.splitString "/" afterColon;
+    in
+    {
+      owner = lib.elemAt parts 0;
+      repo = lib.elemAt parts 1;
+    };
+
+  # Get skill name from skill path
+  # "plugins/deepwiki-cli/skills/deepwiki-cli" -> "deepwiki-cli"
+  # "." -> null (caller should use repo name)
+  getSkillName =
+    skillPath:
+    if skillPath == "." || skillPath == "" then
+      null
+    else
+      lib.last (lib.splitString "/" skillPath);
+
+  # Build pname from owner, repo, and skill name
+  # "owner" "repo" "skill-name" -> "owner.repo.skill-name"
+  mkPname =
+    owner: repo: skillName:
+    "${owner}.${repo}.${skillName}";
+
   # Split pname into path segments (max 3 parts)
   # "a.b.c" -> ["a" "b" "c"]
   # "a.b.c.d.e" -> ["a" "b" "c.d.e"]
@@ -13,11 +41,6 @@ rec {
       parts
     else
       (lib.take 2 parts) ++ [ (lib.concatStringsSep "." (lib.drop 2 parts)) ];
-
-  # Get skill name from pname (last segment after splitPname)
-  # "a.b.c" -> "c"
-  # "a.b.c.d.e" -> "c.d.e"
-  getSkillName = pname: lib.last (splitPname pname);
 
   # Recursively merge a list of attrsets
   recursiveMergeAttrs =

@@ -1,3770 +1,420 @@
 [
   {
-    "pname": "401unauthorized.smartthings-skills.smartthings-api",
-    "source": {
-      "type": "github",
-      "owner": "401unauthorized",
-      "repo": "smartthings-skills",
-      "rev": "5c5576de1fada6dbbb8d0e5109a61933f51324ae",
-      "hash": "0wki2mxmn3wj0rmqkp9n02gp26dn439qmznzyk0249j8p8a57gb1"
-    },
-    "path": "skills/smartthings-api",
+    "source": "github:401unauthorized/smartthings-skills",
+    "rev": "5c5576de1fada6dbbb8d0e5109a61933f51324ae",
+    "hash": "0wki2mxmn3wj0rmqkp9n02gp26dn439qmznzyk0249j8p8a57gb1",
+    "skills": [
+      "skills/smartthings-api",
+      "skills/smartthings-cli",
+      "skills/smartthings-edge-driver",
+      "skills/smartthings-smartapps"
+    ],
     "lastUpdated": "2026-03-05T14:30:56.841Z"
   },
   {
-    "pname": "401unauthorized.smartthings-skills.smartthings-cli",
-    "source": {
-      "type": "github",
-      "owner": "401unauthorized",
-      "repo": "smartthings-skills",
-      "rev": "5c5576de1fada6dbbb8d0e5109a61933f51324ae",
-      "hash": "0wki2mxmn3wj0rmqkp9n02gp26dn439qmznzyk0249j8p8a57gb1"
-    },
-    "path": "skills/smartthings-cli",
-    "lastUpdated": "2026-03-05T14:30:56.841Z"
-  },
-  {
-    "pname": "401unauthorized.smartthings-skills.smartthings-edge-driver",
-    "source": {
-      "type": "github",
-      "owner": "401unauthorized",
-      "repo": "smartthings-skills",
-      "rev": "5c5576de1fada6dbbb8d0e5109a61933f51324ae",
-      "hash": "0wki2mxmn3wj0rmqkp9n02gp26dn439qmznzyk0249j8p8a57gb1"
-    },
-    "path": "skills/smartthings-edge-driver",
-    "lastUpdated": "2026-03-05T14:30:56.841Z"
-  },
-  {
-    "pname": "401unauthorized.smartthings-skills.smartthings-smartapps",
-    "source": {
-      "type": "github",
-      "owner": "401unauthorized",
-      "repo": "smartthings-skills",
-      "rev": "5c5576de1fada6dbbb8d0e5109a61933f51324ae",
-      "hash": "0wki2mxmn3wj0rmqkp9n02gp26dn439qmznzyk0249j8p8a57gb1"
-    },
-    "path": "skills/smartthings-smartapps",
-    "lastUpdated": "2026-03-05T14:30:56.841Z"
-  },
-  {
-    "pname": "402md.agent-skills.create-paid-skill",
-    "source": {
-      "type": "github",
-      "owner": "402md",
-      "repo": "agent-skills",
-      "rev": "12193d058d5e6998438d406257806e24b24a0c3c",
-      "hash": "125jlsyfrlpigy5llbm12dxfizinr1lmvla1a6xhqa61jwkzcial"
-    },
-    "path": "skills/create-paid-skill",
+    "source": "github:402md/agent-skills",
+    "rev": "12193d058d5e6998438d406257806e24b24a0c3c",
+    "hash": "125jlsyfrlpigy5llbm12dxfizinr1lmvla1a6xhqa61jwkzcial",
+    "skills": [
+      "skills/create-paid-skill"
+    ],
     "lastUpdated": "2026-03-16T13:27:58.404Z"
   },
   {
-    "pname": "404kidwiz.claude-supercode-skills.accessibility-tester-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "accessibility-tester-skill",
-    "lastUpdated": "2026-02-04T01:12:33.628Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.ad-security-reviewer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "ad-security-reviewer-skill",
-    "lastUpdated": "2026-02-04T01:12:34.439Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.agent-organizer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "agent-organizer-skill",
-    "lastUpdated": "2026-02-04T01:12:35.234Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.ai-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "ai-engineer-skill",
-    "lastUpdated": "2026-02-04T01:12:35.987Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.algorithmic-art-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "algorithmic-art-skill",
-    "lastUpdated": "2026-02-04T01:12:36.771Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.angular-architect-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "angular-architect-skill",
-    "lastUpdated": "2026-02-04T01:12:37.551Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.api-designer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "api-designer-skill",
-    "lastUpdated": "2026-02-04T01:12:38.323Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.api-documenter-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "api-documenter-skill",
-    "lastUpdated": "2026-02-04T01:12:39.065Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.architect-reviewer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "architect-reviewer-skill",
-    "lastUpdated": "2026-02-04T01:12:39.850Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.azure-infra-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "azure-infra-engineer-skill",
-    "lastUpdated": "2026-02-04T01:12:40.590Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.backend-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "backend-developer-skill",
-    "lastUpdated": "2026-02-04T01:12:41.320Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.blockchain-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "blockchain-developer-skill",
-    "lastUpdated": "2026-02-04T01:12:42.051Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.bmad-bmm-analyst-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "bmad-bmm-analyst-skill",
-    "lastUpdated": "2026-02-04T01:12:42.804Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.bmad-master-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "bmad-master-skill",
-    "lastUpdated": "2026-02-04T01:12:43.596Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.build-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "build-engineer-skill",
-    "lastUpdated": "2026-02-04T01:12:44.354Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.business-analyst-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "business-analyst-skill",
-    "lastUpdated": "2026-02-04T01:12:45.116Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.canvas-design-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "canvas-design-skill",
-    "lastUpdated": "2026-02-04T01:12:45.915Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.chaos-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "chaos-engineer-skill",
-    "lastUpdated": "2026-02-04T01:12:46.697Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.cli-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "cli-developer-skill",
-    "lastUpdated": "2026-02-04T01:12:47.440Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.cloud-architect-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "cloud-architect-skill",
-    "lastUpdated": "2026-02-04T01:12:48.209Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.code-reviewer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "code-reviewer-skill",
-    "lastUpdated": "2026-02-04T01:12:48.989Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.codebase-exploration-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "codebase-exploration-skill",
-    "lastUpdated": "2026-02-04T01:12:49.732Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.competitive-analyst-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "competitive-analyst-skill",
-    "lastUpdated": "2026-02-04T01:12:50.439Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.compliance-auditor-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "compliance-auditor-skill",
-    "lastUpdated": "2026-02-04T01:12:51.225Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.content-marketer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "content-marketer-skill",
-    "lastUpdated": "2026-02-04T01:12:52.009Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.context-manager-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "context-manager-skill",
-    "lastUpdated": "2026-02-04T01:12:52.771Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.cpp-pro-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "cpp-pro-skill",
-    "lastUpdated": "2026-02-04T01:12:53.505Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.csharp-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "csharp-developer-skill",
-    "lastUpdated": "2026-02-04T01:12:54.241Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.csv-data-wrangler-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "csv-data-wrangler-skill",
-    "lastUpdated": "2026-02-04T01:12:54.964Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.customer-success-manager-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "customer-success-manager-skill",
-    "lastUpdated": "2026-02-04T01:12:55.695Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.data-analyst-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "data-analyst-skill",
-    "lastUpdated": "2026-02-04T01:12:56.427Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.data-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "data-engineer-skill",
-    "lastUpdated": "2026-02-04T01:12:57.169Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.data-researcher-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "data-researcher-skill",
-    "lastUpdated": "2026-02-04T01:12:57.893Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.data-scientist-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "data-scientist-skill",
-    "lastUpdated": "2026-02-04T01:12:58.636Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.database-administrator-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "database-administrator-skill",
-    "lastUpdated": "2026-02-04T01:12:59.383Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.database-optimizer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "database-optimizer-skill",
-    "lastUpdated": "2026-02-04T01:13:00.117Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.debugger-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "debugger-skill",
-    "lastUpdated": "2026-02-04T01:13:00.853Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.dependency-manager-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "dependency-manager-skill",
-    "lastUpdated": "2026-02-04T01:13:01.535Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.deployment-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "deployment-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:02.316Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.devops-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "devops-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:03.050Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.devops-incident-responder-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "devops-incident-responder-skill",
-    "lastUpdated": "2026-02-04T01:13:03.730Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.document-writer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "document-writer-skill",
-    "lastUpdated": "2026-02-04T01:13:04.461Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.documentation-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "documentation-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:05.206Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.docx-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "docx-skill",
-    "lastUpdated": "2026-02-04T01:13:05.960Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.dotnet-core-expert-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "dotnet-core-expert-skill",
-    "lastUpdated": "2026-02-04T01:13:06.696Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.dotnet-framework-4.8-expert-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "dotnet-framework-4.8-expert-skill",
-    "lastUpdated": "2026-02-04T01:13:07.476Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.dx-optimizer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "dx-optimizer-skill",
-    "lastUpdated": "2026-02-04T01:13:08.168Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.electron-pro-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "electron-pro-skill",
-    "lastUpdated": "2026-02-04T01:13:08.918Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.elixir-expert-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "elixir-expert-skill",
-    "lastUpdated": "2026-02-04T01:13:09.653Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.embedded-systems-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "embedded-systems-skill",
-    "lastUpdated": "2026-02-04T01:13:10.377Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.error-coordinator-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "error-coordinator-skill",
-    "lastUpdated": "2026-02-04T01:13:11.120Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.error-detective-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "error-detective-skill",
-    "lastUpdated": "2026-02-04T01:13:11.867Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.error-detector-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "error-detector-skill",
-    "lastUpdated": "2026-02-04T01:13:12.617Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.event-driven-architect-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "event-driven-architect-skill",
-    "lastUpdated": "2026-02-04T01:13:13.357Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.fintech-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "fintech-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:14.098Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.flutter-expert-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "flutter-expert-skill",
-    "lastUpdated": "2026-02-04T01:13:14.821Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.frontend-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "frontend-developer-skill",
-    "lastUpdated": "2026-02-04T01:13:15.537Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.frontend-ui-ux-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "frontend-ui-ux-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:16.277Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.game-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "game-developer-skill",
-    "lastUpdated": "2026-02-04T01:13:16.964Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.general-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "general-skill",
-    "lastUpdated": "2026-02-04T01:13:17.862Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.git-workflow-manager-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "git-workflow-manager-skill",
-    "lastUpdated": "2026-02-04T01:13:18.624Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.golang-pro-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "golang-pro-skill",
-    "lastUpdated": "2026-02-04T01:13:19.346Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.graphql-architect-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "graphql-architect-skill",
-    "lastUpdated": "2026-02-04T01:13:20.086Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.incident-responder-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "incident-responder-skill",
-    "lastUpdated": "2026-02-04T01:13:20.825Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.internal-comms-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "internal-comms-skill",
-    "lastUpdated": "2026-02-04T01:13:21.591Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.iot-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "iot-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:22.333Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.it-ops-orchestrator-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "it-ops-orchestrator-skill",
-    "lastUpdated": "2026-02-04T01:13:23.129Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.java-architect-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "java-architect-skill",
-    "lastUpdated": "2026-02-04T01:13:23.912Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.javascript-pro-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "javascript-pro-skill",
-    "lastUpdated": "2026-02-04T01:13:24.650Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.kafka-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "kafka-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:25.382Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.knowledge-synthesizer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "knowledge-synthesizer-skill",
-    "lastUpdated": "2026-02-04T01:13:26.145Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.kotlin-specialist-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "kotlin-specialist-skill",
-    "lastUpdated": "2026-02-04T01:13:26.889Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.kubernetes-specialist-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "kubernetes-specialist-skill",
-    "lastUpdated": "2026-02-04T01:13:27.621Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.laravel-specialist-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "laravel-specialist-skill",
-    "lastUpdated": "2026-02-04T01:13:28.331Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.legacy-modernizer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "legacy-modernizer-skill",
-    "lastUpdated": "2026-02-04T01:13:29.099Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.legal-advisor-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "legal-advisor-skill",
-    "lastUpdated": "2026-02-04T01:13:29.797Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.m365-admin-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "m365-admin-skill",
-    "lastUpdated": "2026-02-04T01:13:30.580Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.machine-learning-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "machine-learning-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:31.374Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.macos-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "macos-developer-skill",
-    "lastUpdated": "2026-02-04T01:13:32.131Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.mcp-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "mcp-developer-skill",
-    "lastUpdated": "2026-02-04T01:13:32.841Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.microservices-architect-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "microservices-architect-skill",
-    "lastUpdated": "2026-02-04T01:13:33.752Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.ml-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "ml-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:34.497Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.mlops-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "mlops-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:35.256Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.mobile-app-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "mobile-app-developer-skill",
-    "lastUpdated": "2026-02-04T01:13:36.051Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.mobile-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "mobile-developer-skill",
-    "lastUpdated": "2026-02-04T01:13:36.777Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.multi-agent-coordinator-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "multi-agent-coordinator-skill",
-    "lastUpdated": "2026-02-04T01:13:37.562Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.multimodal-looker-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "multimodal-looker-skill",
-    "lastUpdated": "2026-02-04T01:13:38.303Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.network-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "network-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:38.994Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.nextjs-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "nextjs-developer-skill",
-    "lastUpdated": "2026-02-04T01:13:39.722Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.nlp-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "nlp-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:40.463Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.oracle-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "oracle-skill",
-    "lastUpdated": "2026-02-04T01:14:11.177Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.payment-integration-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "payment-integration-skill",
-    "lastUpdated": "2026-02-04T01:13:41.251Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.penetration-tester-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "penetration-tester-skill",
-    "lastUpdated": "2026-02-04T01:13:42.022Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.performance-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "performance-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:42.768Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.performance-monitor-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "performance-monitor-skill",
-    "lastUpdated": "2026-02-04T01:13:43.460Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.performance-testing-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "performance-testing-skill",
-    "lastUpdated": "2026-02-04T01:13:44.206Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.plan-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "plan-skill",
-    "lastUpdated": "2026-02-04T01:14:08.932Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.platform-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "platform-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:44.954Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.postgres-pro-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "postgres-pro-skill",
-    "lastUpdated": "2026-02-04T01:13:45.687Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.powershell-5.1-expert-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "powershell-5.1-expert-skill",
-    "lastUpdated": "2026-02-04T01:13:46.412Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.powershell-7-expert-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "powershell-7-expert-skill",
-    "lastUpdated": "2026-02-04T01:13:47.203Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.powershell-module-architect-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "powershell-module-architect-skill",
-    "lastUpdated": "2026-02-04T01:13:47.949Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.powershell-security-hardening-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "powershell-security-hardening-skill",
-    "lastUpdated": "2026-02-04T01:13:48.710Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.powershell-ui-architect-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "powershell-ui-architect-skill",
-    "lastUpdated": "2026-02-04T01:13:49.461Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.pptx-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "pptx-skill",
-    "lastUpdated": "2026-02-04T01:13:50.139Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.product-manager-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "product-manager-skill",
-    "lastUpdated": "2026-02-04T01:13:50.945Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.project-manager-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "project-manager-skill",
-    "lastUpdated": "2026-02-04T01:13:51.737Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.prompt-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "prompt-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:52.429Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.python-pro-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "python-pro-skill",
-    "lastUpdated": "2026-02-04T01:13:53.176Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.quant-analyst-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "quant-analyst-skill",
-    "lastUpdated": "2026-02-04T01:13:53.937Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.rails-expert-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "rails-expert-skill",
-    "lastUpdated": "2026-02-04T01:13:54.692Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.react-native-specialist-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "react-native-specialist-skill",
-    "lastUpdated": "2026-02-04T01:13:55.454Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.react-specialist-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "react-specialist-skill",
-    "lastUpdated": "2026-02-04T01:13:56.240Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.refactoring-specialist-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "refactoring-specialist-skill",
-    "lastUpdated": "2026-02-04T01:13:56.975Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.research-analyst-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "research-analyst-skill",
-    "lastUpdated": "2026-02-04T01:13:57.771Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.risk-manager-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "risk-manager-skill",
-    "lastUpdated": "2026-02-04T01:13:58.515Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.rust-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "rust-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:59.247Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.sales-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "sales-engineer-skill",
-    "lastUpdated": "2026-02-04T01:13:59.976Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.scrum-master-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "scrum-master-skill",
-    "lastUpdated": "2026-02-04T01:14:00.725Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.search-specialist-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "search-specialist-skill",
-    "lastUpdated": "2026-02-04T01:14:01.475Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.security-auditor-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "security-auditor-skill",
-    "lastUpdated": "2026-02-04T01:14:02.238Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.security-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "security-engineer-skill",
-    "lastUpdated": "2026-02-04T01:14:02.986Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.seo-specialist-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "seo-specialist-skill",
-    "lastUpdated": "2026-02-04T01:14:03.721Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.skill-creator-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "skill-creator-skill",
-    "lastUpdated": "2026-02-04T01:14:04.480Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.slack-expert-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "slack-expert-skill",
-    "lastUpdated": "2026-02-04T01:14:05.230Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.solution-architect-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "solution-architect-skill",
-    "lastUpdated": "2026-02-04T01:14:05.931Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.spring-boot-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "spring-boot-engineer-skill",
-    "lastUpdated": "2026-02-04T01:14:06.667Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.sql-pro-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "sql-pro-skill",
-    "lastUpdated": "2026-02-04T01:14:07.458Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.sre-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "sre-engineer-skill",
-    "lastUpdated": "2026-02-04T01:14:08.213Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.swift-expert-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "swift-expert-skill",
-    "lastUpdated": "2026-02-04T01:14:09.734Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.task-distributor-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "task-distributor-skill",
-    "lastUpdated": "2026-02-04T01:14:10.434Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.technical-writer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "technical-writer-skill",
-    "lastUpdated": "2026-02-04T01:14:11.934Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.test-automator-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "test-automator-skill",
-    "lastUpdated": "2026-02-04T01:14:12.642Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.theme-factory-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "theme-factory-skill",
-    "lastUpdated": "2026-02-04T01:14:13.440Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.threejs-pro-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "threejs-pro-skill",
-    "lastUpdated": "2026-02-04T01:14:14.203Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.tooling-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "tooling-engineer-skill",
-    "lastUpdated": "2026-02-04T01:14:14.970Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.trend-analyst-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "trend-analyst-skill",
-    "lastUpdated": "2026-02-04T01:14:15.693Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.typescript-pro-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "typescript-pro-skill",
-    "lastUpdated": "2026-02-04T01:14:16.494Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.ui-designer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "ui-designer-skill",
-    "lastUpdated": "2026-02-04T01:14:17.198Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.ux-researcher-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "ux-researcher-skill",
-    "lastUpdated": "2026-02-04T01:14:17.950Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.video-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "video-engineer-skill",
-    "lastUpdated": "2026-02-04T01:14:18.707Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.vue-expert-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "vue-expert-skill",
-    "lastUpdated": "2026-02-04T01:14:19.514Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.websocket-engineer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "websocket-engineer-skill",
-    "lastUpdated": "2026-02-04T01:14:20.321Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.windows-app-developer-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "windows-app-developer-skill",
-    "lastUpdated": "2026-02-04T01:14:21.078Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.windows-infra-admin-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "windows-infra-admin-skill",
-    "lastUpdated": "2026-02-04T01:14:21.834Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.wordpress-master-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "wordpress-master-skill",
-    "lastUpdated": "2026-02-04T01:14:22.593Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.workflow-orchestrator-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "workflow-orchestrator-skill",
-    "lastUpdated": "2026-02-04T01:14:23.384Z"
-  },
-  {
-    "pname": "404kidwiz.claude-supercode-skills.xlsx-skill",
-    "source": {
-      "type": "github",
-      "owner": "404kidwiz",
-      "repo": "claude-supercode-skills",
-      "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
-      "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa"
-    },
-    "path": "xlsx-skill",
+    "source": "github:404kidwiz/claude-supercode-skills",
+    "rev": "bd3a30550bbb622ecceaea6b2bbc43c8f345ea52",
+    "hash": "053rwq0a0gsd84fy8y67k6d9cagmr713z2az57rc4wx3r1g0cifa",
+    "skills": [
+      "accessibility-tester-skill",
+      "ad-security-reviewer-skill",
+      "agent-organizer-skill",
+      "ai-engineer-skill",
+      "algorithmic-art-skill",
+      "angular-architect-skill",
+      "api-designer-skill",
+      "api-documenter-skill",
+      "architect-reviewer-skill",
+      "azure-infra-engineer-skill",
+      "backend-developer-skill",
+      "blockchain-developer-skill",
+      "bmad-bmm-analyst-skill",
+      "bmad-master-skill",
+      "build-engineer-skill",
+      "business-analyst-skill",
+      "canvas-design-skill",
+      "chaos-engineer-skill",
+      "cli-developer-skill",
+      "cloud-architect-skill",
+      "code-reviewer-skill",
+      "codebase-exploration-skill",
+      "competitive-analyst-skill",
+      "compliance-auditor-skill",
+      "content-marketer-skill",
+      "context-manager-skill",
+      "cpp-pro-skill",
+      "csharp-developer-skill",
+      "csv-data-wrangler-skill",
+      "customer-success-manager-skill",
+      "data-analyst-skill",
+      "data-engineer-skill",
+      "data-researcher-skill",
+      "data-scientist-skill",
+      "database-administrator-skill",
+      "database-optimizer-skill",
+      "debugger-skill",
+      "dependency-manager-skill",
+      "deployment-engineer-skill",
+      "devops-engineer-skill",
+      "devops-incident-responder-skill",
+      "document-writer-skill",
+      "documentation-engineer-skill",
+      "docx-skill",
+      "dotnet-core-expert-skill",
+      "dotnet-framework-4.8-expert-skill",
+      "dx-optimizer-skill",
+      "electron-pro-skill",
+      "elixir-expert-skill",
+      "embedded-systems-skill",
+      "error-coordinator-skill",
+      "error-detective-skill",
+      "error-detector-skill",
+      "event-driven-architect-skill",
+      "fintech-engineer-skill",
+      "flutter-expert-skill",
+      "frontend-developer-skill",
+      "frontend-ui-ux-engineer-skill",
+      "game-developer-skill",
+      "general-skill",
+      "git-workflow-manager-skill",
+      "golang-pro-skill",
+      "graphql-architect-skill",
+      "incident-responder-skill",
+      "internal-comms-skill",
+      "iot-engineer-skill",
+      "it-ops-orchestrator-skill",
+      "java-architect-skill",
+      "javascript-pro-skill",
+      "kafka-engineer-skill",
+      "knowledge-synthesizer-skill",
+      "kotlin-specialist-skill",
+      "kubernetes-specialist-skill",
+      "laravel-specialist-skill",
+      "legacy-modernizer-skill",
+      "legal-advisor-skill",
+      "m365-admin-skill",
+      "machine-learning-engineer-skill",
+      "macos-developer-skill",
+      "mcp-developer-skill",
+      "microservices-architect-skill",
+      "ml-engineer-skill",
+      "mlops-engineer-skill",
+      "mobile-app-developer-skill",
+      "mobile-developer-skill",
+      "multi-agent-coordinator-skill",
+      "multimodal-looker-skill",
+      "network-engineer-skill",
+      "nextjs-developer-skill",
+      "nlp-engineer-skill",
+      "oracle-skill",
+      "payment-integration-skill",
+      "penetration-tester-skill",
+      "performance-engineer-skill",
+      "performance-monitor-skill",
+      "performance-testing-skill",
+      "plan-skill",
+      "platform-engineer-skill",
+      "postgres-pro-skill",
+      "powershell-5.1-expert-skill",
+      "powershell-7-expert-skill",
+      "powershell-module-architect-skill",
+      "powershell-security-hardening-skill",
+      "powershell-ui-architect-skill",
+      "pptx-skill",
+      "product-manager-skill",
+      "project-manager-skill",
+      "prompt-engineer-skill",
+      "python-pro-skill",
+      "quant-analyst-skill",
+      "rails-expert-skill",
+      "react-native-specialist-skill",
+      "react-specialist-skill",
+      "refactoring-specialist-skill",
+      "research-analyst-skill",
+      "risk-manager-skill",
+      "rust-engineer-skill",
+      "sales-engineer-skill",
+      "scrum-master-skill",
+      "search-specialist-skill",
+      "security-auditor-skill",
+      "security-engineer-skill",
+      "seo-specialist-skill",
+      "skill-creator-skill",
+      "slack-expert-skill",
+      "solution-architect-skill",
+      "spring-boot-engineer-skill",
+      "sql-pro-skill",
+      "sre-engineer-skill",
+      "swift-expert-skill",
+      "task-distributor-skill",
+      "technical-writer-skill",
+      "test-automator-skill",
+      "theme-factory-skill",
+      "threejs-pro-skill",
+      "tooling-engineer-skill",
+      "trend-analyst-skill",
+      "typescript-pro-skill",
+      "ui-designer-skill",
+      "ux-researcher-skill",
+      "video-engineer-skill",
+      "vue-expert-skill",
+      "websocket-engineer-skill",
+      "windows-app-developer-skill",
+      "windows-infra-admin-skill",
+      "wordpress-master-skill",
+      "workflow-orchestrator-skill",
+      "xlsx-skill"
+    ],
     "lastUpdated": "2026-02-04T01:14:24.137Z"
   },
   {
-    "pname": "4444j99.a-i--skills.accessibility-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/accessibility-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.agent-development-pack",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/agent-development-pack",
+    "source": "github:4444j99/a-i--skills",
+    "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
+    "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb",
+    "skills": [
+      "document-skills/docx",
+      "document-skills/pdf",
+      "document-skills/pptx",
+      "document-skills/xlsx",
+      "skills/creative/algorithmic-art",
+      "skills/creative/audio-engineering-patterns",
+      "skills/creative/canvas-design",
+      "skills/creative/creative-writing-craft",
+      "skills/creative/generative-art-algorithms",
+      "skills/creative/generative-art-deployment",
+      "skills/creative/generative-music-composer",
+      "skills/creative/interactive-theatre-designer",
+      "skills/creative/modular-synthesis-philosophy",
+      "skills/creative/movement-notation-systems",
+      "skills/creative/narratological-algorithms",
+      "skills/creative/react-three-fiber-patterns",
+      "skills/creative/reality-tv-narrative-analyzer",
+      "skills/creative/theme-factory",
+      "skills/creative/three-js-interactive-builder",
+      "skills/data/data-ingestion-pipeline",
+      "skills/data/data-pipeline-architect",
+      "skills/data/data-storytelling-analyst",
+      "skills/data/market-gap-analysis",
+      "skills/data/ml-experiment-tracker",
+      "skills/data/sql-query-optimizer",
+      "skills/data/systemic-product-analyst",
+      "skills/data/time-series-analyst",
+      "skills/development/accessibility-patterns",
+      "skills/development/agent-testing-patterns",
+      "skills/development/api-design-patterns",
+      "skills/development/artifacts-builder",
+      "skills/development/backend-implementation-patterns",
+      "skills/development/browser-extension-patterns",
+      "skills/development/cli-tool-design",
+      "skills/development/code-refactoring-patterns",
+      "skills/development/coding-standards-enforcer",
+      "skills/development/community-platform-patterns",
+      "skills/development/configuration-management",
+      "skills/development/continuous-learning-agent",
+      "skills/development/data-backup-patterns",
+      "skills/development/database-migration-patterns",
+      "skills/development/deployment-cicd",
+      "skills/development/docker-containerization",
+      "skills/development/dotfile-systems-architect",
+      "skills/development/error-handling-logging-patterns",
+      "skills/development/fastapi-patterns",
+      "skills/development/feature-workflow-orchestrator",
+      "skills/development/frontend-design-systems",
+      "skills/development/fullstack-starter-pack",
+      "skills/development/gcp-resource-optimizer",
+      "skills/development/htmx-interaction-patterns",
+      "skills/development/iterative-code-exploration",
+      "skills/development/json-schema-design",
+      "skills/development/mcp-builder",
+      "skills/development/mcp-server-orchestrator",
+      "skills/development/mobile-platform-architect",
+      "skills/development/monorepo-devops-pack",
+      "skills/development/monorepo-management",
+      "skills/development/nextjs-fullstack-patterns",
+      "skills/development/postgres-advanced-patterns",
+      "skills/development/python-backend-pack",
+      "skills/development/python-packaging-patterns",
+      "skills/development/realtime-websocket-patterns",
+      "skills/development/redis-patterns",
+      "skills/development/repo-onboarding-flow",
+      "skills/development/resilience-patterns",
+      "skills/development/responsive-design-patterns",
+      "skills/development/rust-systems-design",
+      "skills/development/tdd-workflow",
+      "skills/development/testing-patterns",
+      "skills/development/vector-search-patterns",
+      "skills/development/verification-loop",
+      "skills/development/web-artifacts-builder",
+      "skills/development/webapp-testing",
+      "skills/documentation/doc-coauthoring",
+      "skills/documentation/document-audit-extraction",
+      "skills/documentation/github-profile-architect",
+      "skills/documentation/github-repo-curator",
+      "skills/documentation/github-repository-standards",
+      "skills/documentation/stranger-test-protocol",
+      "skills/documentation/technical-analytical-writing",
+      "skills/education/enc1101-curriculum-designer",
+      "skills/education/evaluation-to-growth",
+      "skills/education/feedback-pedagogy",
+      "skills/education/socratic-tutor",
+      "skills/integrations/conversation-content-pipeline",
+      "skills/integrations/essay-publishing-pipeline",
+      "skills/integrations/essay-to-distribution-pack",
+      "skills/integrations/mcp-integration-patterns",
+      "skills/integrations/oauth-flow-architect",
+      "skills/integrations/posse-distribution-architecture",
+      "skills/integrations/social-media-api-integration",
+      "skills/integrations/specstory-guard",
+      "skills/integrations/specstory-link-trail",
+      "skills/integrations/specstory-organize",
+      "skills/integrations/specstory-project-stats",
+      "skills/integrations/specstory-session-summary",
+      "skills/integrations/specstory-yak",
+      "skills/integrations/webhook-integration-patterns",
+      "skills/knowledge/claude-project-manifest",
+      "skills/knowledge/knowledge-architecture",
+      "skills/knowledge/knowledge-graph-builder",
+      "skills/knowledge/recursive-systems-architect",
+      "skills/knowledge/research-synthesis-workflow",
+      "skills/knowledge/second-brain-librarian",
+      "skills/knowledge/source-evaluation-bibliography",
+      "skills/professional/brand-guidelines",
+      "skills/professional/content-distribution",
+      "skills/professional/cv-resume-builder",
+      "skills/professional/freelance-client-ops",
+      "skills/professional/grant-proposal-writer",
+      "skills/professional/internal-comms",
+      "skills/professional/interview-preparation",
+      "skills/professional/networking-outreach",
+      "skills/professional/pitch-deck-patterns",
+      "skills/professional/portfolio-presentation",
+      "skills/professional/slack-gif-creator",
+      "skills/professional/workshop-presentation-design",
+      "skills/project-management/github-roadmap-strategist",
+      "skills/project-management/product-requirements-designer",
+      "skills/project-management/project-alchemy-orchestrator",
+      "skills/project-management/project-orchestration",
+      "skills/project-management/promotion-readiness-checklist",
+      "skills/security/contract-risk-analyzer",
+      "skills/security/gdpr-compliance-check",
+      "skills/security/incident-response-commander",
+      "skills/security/security-essentials-pack",
+      "skills/security/security-implementation-guide",
+      "skills/security/security-threat-modeler",
+      "skills/specialized/blockchain-integration-builder",
+      "skills/specialized/defi-trading-systems",
+      "skills/specialized/game-mechanics-designer",
+      "skills/specialized/interfaith-sacred-geometry",
+      "skills/specialized/local-llm-fine-tuning",
+      "skills/specialized/location-ar-experience",
+      "skills/tools/agent-development-pack",
+      "skills/tools/agent-swarm-orchestrator",
+      "skills/tools/cross-agent-handoff",
+      "skills/tools/multi-agent-workforce-planner",
+      "skills/tools/ontological-renamer",
+      "skills/tools/organvm-governance-pack",
+      "skills/tools/prompt-engineering-patterns",
+      "skills/tools/session-lifecycle-patterns",
+      "skills/tools/skill-chain-prompts",
+      "skills/tools/skill-creator",
+      "skills/tools/speckit",
+      "skills/tools/voice-enforcement"
+    ],
     "lastUpdated": "2026-03-26T01:23:48.556Z"
   },
   {
-    "pname": "4444j99.a-i--skills.agent-swarm-orchestrator",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/agent-swarm-orchestrator",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.agent-testing-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/agent-testing-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.algorithmic-art",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/algorithmic-art",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.api-design-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/api-design-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.artifacts-builder",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/artifacts-builder",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.audio-engineering-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/audio-engineering-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.backend-implementation-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/backend-implementation-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.blockchain-integration-builder",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/specialized/blockchain-integration-builder",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.brand-guidelines",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/brand-guidelines",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.browser-extension-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/browser-extension-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.canvas-design",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/canvas-design",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.claude-project-manifest",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/knowledge/claude-project-manifest",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.cli-tool-design",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/cli-tool-design",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.code-refactoring-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/code-refactoring-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.coding-standards-enforcer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/coding-standards-enforcer",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.community-platform-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/community-platform-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.configuration-management",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/configuration-management",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.content-distribution",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/content-distribution",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.continuous-learning-agent",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/continuous-learning-agent",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.contract-risk-analyzer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/security/contract-risk-analyzer",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.conversation-content-pipeline",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/conversation-content-pipeline",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.creative-writing-craft",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/creative-writing-craft",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.cross-agent-handoff",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/cross-agent-handoff",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.cv-resume-builder",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/cv-resume-builder",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.data-backup-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/data-backup-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.data-ingestion-pipeline",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/data/data-ingestion-pipeline",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.data-pipeline-architect",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/data/data-pipeline-architect",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.data-storytelling-analyst",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/data/data-storytelling-analyst",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.database-migration-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/database-migration-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.defi-trading-systems",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/specialized/defi-trading-systems",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.deployment-cicd",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/deployment-cicd",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.doc-coauthoring",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/documentation/doc-coauthoring",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.docker-containerization",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/docker-containerization",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.document-audit-extraction",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/documentation/document-audit-extraction",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.docx",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "document-skills/docx",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.dotfile-systems-architect",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/dotfile-systems-architect",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.enc1101-curriculum-designer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/education/enc1101-curriculum-designer",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.error-handling-logging-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/error-handling-logging-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.essay-publishing-pipeline",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/essay-publishing-pipeline",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.essay-to-distribution-pack",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/essay-to-distribution-pack",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.evaluation-to-growth",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/education/evaluation-to-growth",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.fastapi-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/fastapi-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.feature-workflow-orchestrator",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/feature-workflow-orchestrator",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.feedback-pedagogy",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/education/feedback-pedagogy",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.freelance-client-ops",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/freelance-client-ops",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.frontend-design-systems",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/frontend-design-systems",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.fullstack-starter-pack",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/fullstack-starter-pack",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.game-mechanics-designer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/specialized/game-mechanics-designer",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.gcp-resource-optimizer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/gcp-resource-optimizer",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.gdpr-compliance-check",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/security/gdpr-compliance-check",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.generative-art-algorithms",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/generative-art-algorithms",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.generative-art-deployment",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/generative-art-deployment",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.generative-music-composer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/generative-music-composer",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.github-profile-architect",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/documentation/github-profile-architect",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.github-repo-curator",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/documentation/github-repo-curator",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.github-repository-standards",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/documentation/github-repository-standards",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.github-roadmap-strategist",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/project-management/github-roadmap-strategist",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.grant-proposal-writer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/grant-proposal-writer",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.htmx-interaction-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/htmx-interaction-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.incident-response-commander",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/security/incident-response-commander",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.interactive-theatre-designer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/interactive-theatre-designer",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.interfaith-sacred-geometry",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/specialized/interfaith-sacred-geometry",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.internal-comms",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/internal-comms",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.interview-preparation",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/interview-preparation",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.iterative-code-exploration",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/iterative-code-exploration",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.json-schema-design",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/json-schema-design",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.knowledge-architecture",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/knowledge/knowledge-architecture",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.knowledge-graph-builder",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/knowledge/knowledge-graph-builder",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.local-llm-fine-tuning",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/specialized/local-llm-fine-tuning",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.location-ar-experience",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/specialized/location-ar-experience",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.market-gap-analysis",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/data/market-gap-analysis",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.mcp-builder",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/mcp-builder",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.mcp-integration-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/mcp-integration-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.mcp-server-orchestrator",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/mcp-server-orchestrator",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.ml-experiment-tracker",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/data/ml-experiment-tracker",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.mobile-platform-architect",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/mobile-platform-architect",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.modular-synthesis-philosophy",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/modular-synthesis-philosophy",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.monorepo-devops-pack",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/monorepo-devops-pack",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.monorepo-management",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/monorepo-management",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.movement-notation-systems",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/movement-notation-systems",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.multi-agent-workforce-planner",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/multi-agent-workforce-planner",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.narratological-algorithms",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/narratological-algorithms",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.networking-outreach",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/networking-outreach",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.nextjs-fullstack-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/nextjs-fullstack-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.oauth-flow-architect",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/oauth-flow-architect",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.ontological-renamer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/ontological-renamer",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.organvm-governance-pack",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/organvm-governance-pack",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.pdf",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "document-skills/pdf",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.pitch-deck-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/pitch-deck-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.portfolio-presentation",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/portfolio-presentation",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.posse-distribution-architecture",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/posse-distribution-architecture",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.postgres-advanced-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/postgres-advanced-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.pptx",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "document-skills/pptx",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.product-requirements-designer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/project-management/product-requirements-designer",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.project-alchemy-orchestrator",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/project-management/project-alchemy-orchestrator",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.project-orchestration",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/project-management/project-orchestration",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.promotion-readiness-checklist",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/project-management/promotion-readiness-checklist",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.prompt-engineering-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/prompt-engineering-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.python-backend-pack",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/python-backend-pack",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.python-packaging-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/python-packaging-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.react-three-fiber-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/react-three-fiber-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.reality-tv-narrative-analyzer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/reality-tv-narrative-analyzer",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.realtime-websocket-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/realtime-websocket-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.recursive-systems-architect",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/knowledge/recursive-systems-architect",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.redis-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/redis-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.repo-onboarding-flow",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/repo-onboarding-flow",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.research-synthesis-workflow",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/knowledge/research-synthesis-workflow",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.resilience-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/resilience-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.responsive-design-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/responsive-design-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.rust-systems-design",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/rust-systems-design",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.second-brain-librarian",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/knowledge/second-brain-librarian",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.security-essentials-pack",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/security/security-essentials-pack",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.security-implementation-guide",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/security/security-implementation-guide",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.security-threat-modeler",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/security/security-threat-modeler",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.session-lifecycle-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/session-lifecycle-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.skill-chain-prompts",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/skill-chain-prompts",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.skill-creator",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/skill-creator",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.slack-gif-creator",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/slack-gif-creator",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.social-media-api-integration",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/social-media-api-integration",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.socratic-tutor",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/education/socratic-tutor",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.source-evaluation-bibliography",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/knowledge/source-evaluation-bibliography",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.speckit",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/speckit",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.specstory-guard",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/specstory-guard",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.specstory-link-trail",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/specstory-link-trail",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.specstory-organize",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/specstory-organize",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.specstory-project-stats",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/specstory-project-stats",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.specstory-session-summary",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/specstory-session-summary",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.specstory-yak",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/specstory-yak",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.sql-query-optimizer",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/data/sql-query-optimizer",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.stranger-test-protocol",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/documentation/stranger-test-protocol",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.systemic-product-analyst",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/data/systemic-product-analyst",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.tdd-workflow",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/tdd-workflow",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.technical-analytical-writing",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/documentation/technical-analytical-writing",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.testing-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/testing-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.theme-factory",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/theme-factory",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.three-js-interactive-builder",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/creative/three-js-interactive-builder",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.time-series-analyst",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/data/time-series-analyst",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.vector-search-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/vector-search-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.verification-loop",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/verification-loop",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.voice-enforcement",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/tools/voice-enforcement",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.web-artifacts-builder",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/web-artifacts-builder",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.webapp-testing",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/development/webapp-testing",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.webhook-integration-patterns",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/integrations/webhook-integration-patterns",
-    "lastUpdated": "2026-03-26T01:23:48.555Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.workshop-presentation-design",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "skills/professional/workshop-presentation-design",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444j99.a-i--skills.xlsx",
-    "source": {
-      "type": "github",
-      "owner": "4444j99",
-      "repo": "a-i--skills",
-      "rev": "6c1b71b60cf1c357f61ab218633b6d0d9ae811d6",
-      "hash": "17l94lc1y2dixn1ifas6p3hf81n6cp1s1x0aycfkkcc612lfcgvb"
-    },
-    "path": "document-skills/xlsx",
-    "lastUpdated": "2026-03-26T01:23:48.556Z"
-  },
-  {
-    "pname": "4444zyf.skills.code-review-helper",
-    "source": {
-      "type": "github",
-      "owner": "4444zyf",
-      "repo": "skills",
-      "rev": "dc5a821defc5aed2eb62c687c3920274abfb7228",
-      "hash": "1whvxfiss3dh0d0y0z1v5alhj0sny24hxfjsbdl67iiy3py81xy9"
-    },
-    "path": "code-review-helper",
+    "source": "github:4444zyf/skills",
+    "rev": "dc5a821defc5aed2eb62c687c3920274abfb7228",
+    "hash": "1whvxfiss3dh0d0y0z1v5alhj0sny24hxfjsbdl67iiy3py81xy9",
+    "skills": [
+      "code-review-helper",
+      "email-sender",
+      "git-commit-assistant",
+      "github-repo-analyzer",
+      "project-analyzer"
+    ],
     "lastUpdated": "2026-03-18T16:26:29.791Z"
   },
   {
-    "pname": "4444zyf.skills.email-sender",
-    "source": {
-      "type": "github",
-      "owner": "4444zyf",
-      "repo": "skills",
-      "rev": "dc5a821defc5aed2eb62c687c3920274abfb7228",
-      "hash": "1whvxfiss3dh0d0y0z1v5alhj0sny24hxfjsbdl67iiy3py81xy9"
-    },
-    "path": "email-sender",
-    "lastUpdated": "2026-03-18T16:26:29.791Z"
-  },
-  {
-    "pname": "4444zyf.skills.git-commit-assistant",
-    "source": {
-      "type": "github",
-      "owner": "4444zyf",
-      "repo": "skills",
-      "rev": "dc5a821defc5aed2eb62c687c3920274abfb7228",
-      "hash": "1whvxfiss3dh0d0y0z1v5alhj0sny24hxfjsbdl67iiy3py81xy9"
-    },
-    "path": "git-commit-assistant",
-    "lastUpdated": "2026-03-18T16:26:29.791Z"
-  },
-  {
-    "pname": "4444zyf.skills.github-repo-analyzer",
-    "source": {
-      "type": "github",
-      "owner": "4444zyf",
-      "repo": "skills",
-      "rev": "dc5a821defc5aed2eb62c687c3920274abfb7228",
-      "hash": "1whvxfiss3dh0d0y0z1v5alhj0sny24hxfjsbdl67iiy3py81xy9"
-    },
-    "path": "github-repo-analyzer",
-    "lastUpdated": "2026-03-18T16:26:29.791Z"
-  },
-  {
-    "pname": "4444zyf.skills.project-analyzer",
-    "source": {
-      "type": "github",
-      "owner": "4444zyf",
-      "repo": "skills",
-      "rev": "dc5a821defc5aed2eb62c687c3920274abfb7228",
-      "hash": "1whvxfiss3dh0d0y0z1v5alhj0sny24hxfjsbdl67iiy3py81xy9"
-    },
-    "path": "project-analyzer",
-    "lastUpdated": "2026-03-18T16:26:29.791Z"
-  },
-  {
-    "pname": "4eta.boku-no-kanngaeta-saikyo-yakinamashi-tips..",
-    "source": {
-      "type": "github",
-      "owner": "4eta",
-      "repo": "boku-no-kanngaeta-saikyo-yakinamashi-tips",
-      "rev": "68ca84307569405b3924efc8179d3332ac53f1ff",
-      "hash": "0rpl9ps4dh8snrx5p7494cyiqavxi7c0n8yn4y6vyr1qnizgwrr1"
-    },
-    "path": ".",
+    "source": "github:4eta/boku-no-kanngaeta-saikyo-yakinamashi-tips",
+    "rev": "68ca84307569405b3924efc8179d3332ac53f1ff",
+    "hash": "0rpl9ps4dh8snrx5p7494cyiqavxi7c0n8yn4y6vyr1qnizgwrr1",
+    "skills": [
+      "."
+    ],
     "lastUpdated": "2026-02-04T19:37:55.894Z"
   },
   {
-    "pname": "4ier.a11y-bridge.a11y-bridge",
-    "source": {
-      "type": "github",
-      "owner": "4ier",
-      "repo": "a11y-bridge",
-      "rev": "8e5e76ed8b836ea0a00b36aa8506f85b003a4305",
-      "hash": "1dvn6i5pzjjvplz0vlp33pjw0mj4pzxdnkdypaxzbvbra045wgq6"
-    },
-    "path": ".",
+    "source": "github:4ier/a11y-bridge",
+    "rev": "8e5e76ed8b836ea0a00b36aa8506f85b003a4305",
+    "hash": "1dvn6i5pzjjvplz0vlp33pjw0mj4pzxdnkdypaxzbvbra045wgq6",
+    "skills": [
+      "."
+    ],
     "lastUpdated": "2026-03-05T14:30:57.304Z"
   },
   {
-    "pname": "4ier.agent-skills.termux-api",
-    "source": {
-      "type": "github",
-      "owner": "4ier",
-      "repo": "agent-skills",
-      "rev": "a08458f81f8e601705e4484de39550a3c31fe959",
-      "hash": "0bbg621cf9vrwmwgw0999i5lzd40mgw7aabpzzwhafkkfvvkzbmn"
-    },
-    "path": "skills/termux-api",
+    "source": "github:4ier/agent-skills",
+    "rev": "a08458f81f8e601705e4484de39550a3c31fe959",
+    "hash": "0bbg621cf9vrwmwgw0999i5lzd40mgw7aabpzzwhafkkfvvkzbmn",
+    "skills": [
+      "skills/termux-api"
+    ],
     "lastUpdated": "2026-02-04T07:32:45.871Z"
   },
   {
-    "pname": "4ier.neo.skill",
-    "source": {
-      "type": "github",
-      "owner": "4ier",
-      "repo": "neo",
-      "rev": "4532434401c2f79d676762f62c57855bd5f42e88",
-      "hash": "0al69p0a2ncx1wbj472v5dzrljdqnl9jkwjjy3zy4hixa7lwacc8"
-    },
-    "path": "skill",
+    "source": "github:4ier/neo",
+    "rev": "4532434401c2f79d676762f62c57855bd5f42e88",
+    "hash": "0al69p0a2ncx1wbj472v5dzrljdqnl9jkwjjy3zy4hixa7lwacc8",
+    "skills": [
+      "skill"
+    ],
     "lastUpdated": "2026-03-22T04:42:21.235Z"
   },
   {
-    "pname": "4ier.notion-cli.notion-cli",
-    "source": {
-      "type": "github",
-      "owner": "4ier",
-      "repo": "notion-cli",
-      "rev": "b66ed74b77fb7369bf466df6578a10504b312c50",
-      "hash": "141r408bffxxn455a3rg8lkz6wxqc94rbxwklmfdmnr448gsc899"
-    },
-    "path": "skills/notion-cli",
+    "source": "github:4ier/notion-cli",
+    "rev": "b66ed74b77fb7369bf466df6578a10504b312c50",
+    "hash": "141r408bffxxn455a3rg8lkz6wxqc94rbxwklmfdmnr448gsc899",
+    "skills": [
+      "skills/notion-cli"
+    ],
     "lastUpdated": "2026-03-20T04:39:32.277Z"
   },
   {
-    "pname": "4lb0.skills.loro",
-    "source": {
-      "type": "github",
-      "owner": "4lb0",
-      "repo": "skills",
-      "rev": "a6e0793a0d0e013eaf2ab4c143981b321f0cac8c",
-      "hash": "1rp33x6dby957j76y5w31zxz5k69l6b4gw7595f914l8kz1kninh"
-    },
-    "path": "loro",
+    "source": "github:4lb0/skills",
+    "rev": "a6e0793a0d0e013eaf2ab4c143981b321f0cac8c",
+    "hash": "1rp33x6dby957j76y5w31zxz5k69l6b4gw7595f914l8kz1kninh",
+    "skills": [
+      "loro",
+      "mentor"
+    ],
     "lastUpdated": "2026-03-05T14:30:57.826Z"
   },
   {
-    "pname": "4lb0.skills.mentor",
-    "source": {
-      "type": "github",
-      "owner": "4lb0",
-      "repo": "skills",
-      "rev": "a6e0793a0d0e013eaf2ab4c143981b321f0cac8c",
-      "hash": "1rp33x6dby957j76y5w31zxz5k69l6b4gw7595f914l8kz1kninh"
-    },
-    "path": "mentor",
-    "lastUpdated": "2026-03-05T14:30:57.826Z"
-  },
-  {
-    "pname": "4players.odin-agent-skills.odin-agent-skills",
-    "source": {
-      "type": "github",
-      "owner": "4players",
-      "repo": "odin-agent-skills",
-      "rev": "89beeb12cd24860061aa951da170cb82fcc290b1",
-      "hash": "1902cvs866njv1nk0xhkiyhz3ix7dzs04g5i7a90cwc2bmc9dha9"
-    },
-    "path": ".",
+    "source": "github:4players/odin-agent-skills",
+    "rev": "89beeb12cd24860061aa951da170cb82fcc290b1",
+    "hash": "1902cvs866njv1nk0xhkiyhz3ix7dzs04g5i7a90cwc2bmc9dha9",
+    "skills": [
+      "."
+    ],
     "lastUpdated": "2026-03-11T01:31:19.687Z"
   },
   {
-    "pname": "4shub.agent-review.agent-review",
-    "source": {
-      "type": "github",
-      "owner": "4shub",
-      "repo": "agent-review",
-      "rev": "4919a95e2bf0a73db5d306e73d1ece3c718614c9",
-      "hash": "1p19b880fdbhk0grn6k9g34kywl1mz7418m89b03ws3qh1gc4ws4"
-    },
-    "path": ".skills/agent-review",
+    "source": "github:4shub/agent-review",
+    "rev": "4919a95e2bf0a73db5d306e73d1ece3c718614c9",
+    "hash": "1p19b880fdbhk0grn6k9g34kywl1mz7418m89b03ws3qh1gc4ws4",
+    "skills": [
+      ".skills/agent-review"
+    ],
     "lastUpdated": "2026-03-06T22:15:40.680Z"
   }
 ]

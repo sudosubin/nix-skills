@@ -17,7 +17,7 @@ lib.makeOverridable (
     rev,
     path,
     hash,
-    name ? utils.getSkillName pname,
+    name ? lib.last (utils.splitPname pname),
   }:
   stdenvNoCC.mkDerivation {
     pname = name;
