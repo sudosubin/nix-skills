@@ -1,8 +1,8 @@
 [
   {
     "source": "github:FlorianBruniaux/claude-code-ultimate-guide",
-    "rev": "6f3a0413d0dee767fbc6dd4ae9308352ffe4a3c2",
-    "hash": "150dzcb7y0vcpn0g46xfhgbybqsz7xdj50fz9mjcsl1pwc1vqyfy",
+    "rev": "5eafbbd92c3700544f09ea16fb19fe4f3bfa9d8e",
+    "hash": "0np3a5s1w13mqndiwf817h0s0y54sfqnbkbbjmicjadydwqf4nl7",
     "skills": [
       "examples/skills/audit-agents-skills",
       "examples/skills/ccboard",
@@ -25,7 +25,7 @@
       "examples/skills/talk-pipeline/stage-6-revision",
       "examples/skills/voice-refine"
     ],
-    "lastUpdated": "2026-03-26T13:24:58.047Z"
+    "lastUpdated": "2026-03-26T19:23:49.027Z"
   },
   {
     "source": "github:ForteScarlet/codex-kkp",
@@ -504,15 +504,15 @@
   },
   {
     "source": "github:facebook/hermes",
-    "rev": "ddd420b995d0df98174b000b2d5ca6f8a42ddffb",
-    "hash": "1i0di04i765y5c7xxckmns5vhrx0wz4sfymky8fmwij9h2w1d5ip",
+    "rev": "7fb829eb0b8c19c09b638361dec20c2a90b75b8d",
+    "hash": "0525szs3lk8yk8ivyshmkn8jhyl5z3vy6jksncljprbv1ypnamjl",
     "skills": [
       ".claude/skills/add-ir-instruction",
       ".claude/skills/binary-size-analysis",
       ".claude/skills/gc-safe-coding",
       ".claude/skills/non-interactive-git-rebase"
     ],
-    "lastUpdated": "2026-03-26T01:24:25.363Z"
+    "lastUpdated": "2026-03-26T19:24:54.960Z"
   },
   {
     "source": "github:facebook/react",
@@ -1454,11 +1454,12 @@
   },
   {
     "source": "github:fatih-developer/fth-skills",
-    "rev": "01f7f4c5d69b5fdb0d94440a1eda12f035189bec",
-    "hash": "1bnp21lladp2c78g95nwly51s4wdlwndq804fqrpsj0p1gpfnqvh",
+    "rev": "fd0369f3488a356efea8bf6ba86a4efa152eae91",
+    "hash": "0mldpbar2caalxxkm0fgm20wvxyx8sy6fv58z1zs4xbkfq9j14b5",
     "skills": [
       "skills/access-policy-designer",
       "skills/accessibility-enforcer",
+      "skills/adaptive-guard",
       "skills/agent-reviewer",
       "skills/api-mock-designer",
       "skills/api-observability-planner",
@@ -1479,6 +1480,7 @@
       "skills/ecosystem-database",
       "skills/ecosystem-mobile",
       "skills/ecosystem-orchestration",
+      "skills/ecosystem-security",
       "skills/error-recovery",
       "skills/index-advisor",
       "skills/memory-ledger",
@@ -1505,12 +1507,14 @@
       "skills/schema-architect",
       "skills/schema-diff-analyzer",
       "skills/sdk-scaffolder",
+      "skills/security-orchestrator",
       "skills/seed-data-generator",
+      "skills/skill-security",
       "skills/task-decomposer",
       "skills/tool-selector",
       "skills/webhook-architect"
     ],
-    "lastUpdated": "2026-03-05T14:32:15.163Z"
+    "lastUpdated": "2026-03-26T19:26:36.666Z"
   },
   {
     "source": "github:fatima367/ai-spec-driven-book",
@@ -3127,8 +3131,8 @@
   },
   {
     "source": "github:firebase/agent-skills",
-    "rev": "fcf78b896a7cf37f5eba06955df8724899109a64",
-    "hash": "10yysv73s5fw94al8rg7y0l8rivxmgf04pzbrhnpxfb42ydd9hzx",
+    "rev": "83ee3bef00ef8d6e668df558609375ec0d0f0b31",
+    "hash": "1igcl7mialmnww5jf3225r47vlym8c076lrn0ack6z4isig2h4fd",
     "skills": [
       "skills/developing-genkit-dart",
       "skills/developing-genkit-js",
@@ -3137,36 +3141,35 @@
       "skills/firebase-auth-basics",
       "skills/firebase-basics",
       "skills/firebase-data-connect-basics",
-      "skills/firebase-firestore-basics",
       "skills/firebase-firestore-enterprise-native-mode",
       "skills/firebase-firestore-standard",
       "skills/firebase-hosting-basics",
       "skills/firebase-local-env-setup"
     ],
-    "lastUpdated": "2026-03-24T22:20:09.403Z"
+    "lastUpdated": "2026-03-26T19:24:11.620Z"
   },
   {
     "source": "github:firebase/firebase-tools",
-    "rev": "d2c923f1114603ac4dcba4f4bd03403b011d0cbc",
-    "hash": "04c49nvy7lrknlli8gvqirp26ynijsjy435bfyy9ywqfv03a8lky",
+    "rev": "0e29a347a204bc45a4af53d439e51352ae76fbbd",
+    "hash": "0xrbyg8amz50022r7924zcip6xlgwkhvr3nv9lvbxl7hncf64c2p",
     "skills": [
       ".agent/skills/update-pubsub-emulator"
     ],
-    "lastUpdated": "2026-03-26T01:24:12.047Z"
+    "lastUpdated": "2026-03-26T19:24:18.128Z"
   },
   {
     "source": "github:firebase/genkit",
-    "rev": "ee483016a16393a6441d0bf19d1906af6feab880",
-    "hash": "134bwmmdf263zfdmf5rss0qj0yzlz9np9xw0qsmi87pb6rj7r9f6",
+    "rev": "5b821ba655690913c744955a8051a5eec37c5617",
+    "hash": "1am6n0j307880vrjrx0np76szn4gy4d0r03j2r3hhw4v6hrbmzga",
     "skills": [
       "skills/developing-genkit-tooling"
     ],
-    "lastUpdated": "2026-03-25T22:09:41.586Z"
+    "lastUpdated": "2026-03-26T19:24:18.644Z"
   },
   {
     "source": "github:firebase/skills",
-    "rev": "fcf78b896a7cf37f5eba06955df8724899109a64",
-    "hash": "10yysv73s5fw94al8rg7y0l8rivxmgf04pzbrhnpxfb42ydd9hzx",
+    "rev": "83ee3bef00ef8d6e668df558609375ec0d0f0b31",
+    "hash": "1igcl7mialmnww5jf3225r47vlym8c076lrn0ack6z4isig2h4fd",
     "skills": [
       "skills/developing-genkit-dart",
       "skills/developing-genkit-js",
@@ -3175,13 +3178,12 @@
       "skills/firebase-auth-basics",
       "skills/firebase-basics",
       "skills/firebase-data-connect-basics",
-      "skills/firebase-firestore-basics",
       "skills/firebase-firestore-enterprise-native-mode",
       "skills/firebase-firestore-standard",
       "skills/firebase-hosting-basics",
       "skills/firebase-local-env-setup"
     ],
-    "lastUpdated": "2026-03-24T22:20:07.493Z"
+    "lastUpdated": "2026-03-26T19:24:11.306Z"
   },
   {
     "source": "github:firecrawl/agent-skills",
@@ -3459,8 +3461,8 @@
   },
   {
     "source": "github:fjrevoredo/mini-diarium",
-    "rev": "72a651c6ac5e83fb7771a2083ae1d712d6f73599",
-    "hash": "1giqadvxq4kjgg7wwns96g6ns7i84aiizgcyzankywg3gvgpziqq",
+    "rev": "df271ff2fda5eb58a05a0f115e75720c170c7087",
+    "hash": "1l6l2zm30v4gxiqhjvxvhij5lms6vb4rm39dwypqwiaabjwcvbjc",
     "skills": [
       ".agents/skills/diagram-maintainer",
       ".agents/skills/solidjs",
@@ -3471,7 +3473,7 @@
       ".opencode/skills/plan-protocol",
       ".opencode/skills/plan-review"
     ],
-    "lastUpdated": "2026-03-25T22:09:40.360Z"
+    "lastUpdated": "2026-03-26T19:24:16.968Z"
   },
   {
     "source": "github:fkesheh/skill-mcp",
@@ -3520,13 +3522,13 @@
   },
   {
     "source": "github:fl-sean03/agentic-science-worker",
-    "rev": "0ce2cf6d1cd7aa5a563d3dbd8ed9fad12bd79a2b",
-    "hash": "1048h8rr9dnsd8n2g4z7x5mysllwrd6i0p3dflxnnc1p0f2lswgj",
+    "rev": "b9b1ecc108496993836d0b1148bd6852bfb1a3c8",
+    "hash": "11l22x5zimgc37qzklxdiljb60yiq7mpklyiv3kxf7wl06iq2mcn",
     "skills": [
-      ".claude/skills/hpc-cluster",
       "skills/archive/hpc-cluster-curc",
       "skills/data-analysis",
       "skills/ggen",
+      "skills/iff-parameters",
       "skills/lammps-simulation",
       "skills/literature-search",
       "skills/materials-database",
@@ -3537,7 +3539,7 @@
       "skills/torch-sim",
       "skills/vast-cloud"
     ],
-    "lastUpdated": "2026-02-25T01:25:06.102Z"
+    "lastUpdated": "2026-03-26T19:24:16.984Z"
   },
   {
     "source": "github:flamemida/feat-dev",
@@ -3878,8 +3880,8 @@
   },
   {
     "source": "github:florianbruniaux/claude-code-ultimate-guide",
-    "rev": "6f3a0413d0dee767fbc6dd4ae9308352ffe4a3c2",
-    "hash": "150dzcb7y0vcpn0g46xfhgbybqsz7xdj50fz9mjcsl1pwc1vqyfy",
+    "rev": "5eafbbd92c3700544f09ea16fb19fe4f3bfa9d8e",
+    "hash": "0np3a5s1w13mqndiwf817h0s0y54sfqnbkbbjmicjadydwqf4nl7",
     "skills": [
       "examples/skills/audit-agents-skills",
       "examples/skills/ccboard",
@@ -3902,7 +3904,7 @@
       "examples/skills/talk-pipeline/stage-6-revision",
       "examples/skills/voice-refine"
     ],
-    "lastUpdated": "2026-03-26T13:26:01.588Z"
+    "lastUpdated": "2026-03-26T19:24:20.657Z"
   },
   {
     "source": "github:florianbuetow/claude-code",
@@ -4587,8 +4589,8 @@
   },
   {
     "source": "github:forcedotcom/afv-library",
-    "rev": "a2c26f310d0ca1269ee1ff73edc2243c06048537",
-    "hash": "0991qczyk0br0ns45cn4f8y08crv4jk7yv0xgz1474cljp1wk9bg",
+    "rev": "1624c21a5f68de3c99fe77a5b1b93b99023b3188",
+    "hash": "19l319cy376mg6ighpm886jrhlgdmgpz5nb1gxwda1d77yp2xin4",
     "skills": [
       "skills/agentforce-development",
       "skills/building-webapp-data-visualization",
@@ -4620,12 +4622,12 @@
       "skills/trigger-refactor-pipeline",
       "skills/using-webapp-salesforce-data"
     ],
-    "lastUpdated": "2026-03-26T13:25:16.247Z"
+    "lastUpdated": "2026-03-26T19:24:28.046Z"
   },
   {
     "source": "github:forcedotcom/salesforcedx-vscode",
-    "rev": "b696d99077b0f779523e7a67f580ade71f3bc8e6",
-    "hash": "1xjp4yyh982jmlqmhpvvindiymb9wk1l7cg9i05vhg3cypgj36n2",
+    "rev": "51d555902d0647def8c6a9f70780432487a793a1",
+    "hash": "0b0v3wdszs54klgln2kg96m5imsvgxjihbrdb459arq929kkg06w",
     "skills": [
       ".claude/skills/concise",
       ".claude/skills/effect-best-practices",
@@ -4646,7 +4648,7 @@
       ".claude/skills/vscode-window-messages",
       ".claude/skills/wireit"
     ],
-    "lastUpdated": "2026-03-26T13:25:24.521Z"
+    "lastUpdated": "2026-03-26T19:25:32.900Z"
   },
   {
     "source": "github:forceinjection/ai-fundermentals",
@@ -5639,7 +5641,7 @@
   },
   {
     "source": "github:frank-syncmarket/skills",
-    "rev": "9ecc5242cae173d20e2a721e32d45a325bcbedf9",
+    "rev": "643f95f27f88b5b598ae7402d751d60cfd1ca842",
     "hash": "0xicr492y87nkgvx2md9fw4vmxfq75yf7nzlzz585vgfmbg5qiap",
     "skills": [
       "audiocut-keyword",
@@ -5650,7 +5652,7 @@
       "video-downloader",
       "voice-changer"
     ],
-    "lastUpdated": "2026-03-26T13:25:15.572Z"
+    "lastUpdated": "2026-03-26T19:24:50.424Z"
   },
   {
     "source": "github:frankcastleauditor/safe-solana-builder",
@@ -5906,8 +5908,8 @@
   },
   {
     "source": "github:frankxai/frankx.ai-vercel-website",
-    "rev": "f89c851cac4271ce664b3fc0dfc381d7f98e6a63",
-    "hash": "0a7zh8mm64nhx1dvpjfwqvnxdk9qypc71yl6240lmnlgbyq9j66k",
+    "rev": "1c0a33b50d061a929c9dade85084f6958b7e2bef",
+    "hash": "00vilkdm47lix0sa54rjm2g56sfjh13ld5mwnfcgjl3zfc54xqfl",
     "skills": [
       ".archive/old-skills-backup-20251216_122104/arcanea-lore",
       ".archive/old-skills-backup-20251216_122104/claude-sdk",
@@ -5977,7 +5979,7 @@
       "content-universe/.claude/skills/truth-weaver",
       "content-universe/.claude/skills/voice-alchemist"
     ],
-    "lastUpdated": "2026-03-25T13:26:41.795Z"
+    "lastUpdated": "2026-03-26T19:27:25.815Z"
   },
   {
     "source": "github:franky47/2026-03-10-human-talks-modern-typescript-packaging",
@@ -6113,8 +6115,8 @@
   },
   {
     "source": "github:freeacger/loom",
-    "rev": "706298a3134f93160cdab60a4df1e3111bdbec32",
-    "hash": "19qrhry1n42kxpb9ghyrxqx2bv6cdy32sj05g472bnjipw26z063",
+    "rev": "6df3f2680a42b81fcc611b3b35f20f8fd5aeeb2e",
+    "hash": "02d5g6918p9dnp8m06j5wzfrik9ijm8mrfpxjkgzi8rvi6qmdikk",
     "skills": [
       "skills/brainstorming",
       "skills/design-decision-audit",
@@ -6132,7 +6134,7 @@
       "skills/writing-clearly-and-concisely",
       "skills/writing-plans"
     ],
-    "lastUpdated": "2026-03-26T13:25:46.217Z"
+    "lastUpdated": "2026-03-26T19:23:40.834Z"
   },
   {
     "source": "github:freeany/wechat-article",
@@ -6154,12 +6156,12 @@
   },
   {
     "source": "github:freee/freee-mcp",
-    "rev": "43a3e43d598008a0730ce79c6163f359aae1fac5",
-    "hash": "1kkqmn4flbf9lz8dnmimjv369a4kkxzajsfc6qpzk9i6s34wn1q1",
+    "rev": "e403684e0bcc93f822d20f827a9d995f50151877",
+    "hash": "1cmi1if3ghzi2py853gxwqk7ncpqfj50h2aj7836jjh6rn9xgc1l",
     "skills": [
       "skills/freee-api-skill"
     ],
-    "lastUpdated": "2026-03-25T13:24:25.711Z"
+    "lastUpdated": "2026-03-26T19:23:41.072Z"
   },
   {
     "source": "github:freekmurze/dotfiles",
@@ -6220,8 +6222,8 @@
   },
   {
     "source": "github:freenet/freenet-agent-skills",
-    "rev": "7efa9b125aaea5ac429427ef2f4993c8415a5dad",
-    "hash": "0v6iax5bg3f5nv5jn1r9bj6k6n0i9vqk11d0qn27qhc784xm8h3f",
+    "rev": "aa286553f60c2dde7c9da03e53650a34c3f8b92a",
+    "hash": "0p7k9cwarlz3h119xljs3i14syfz05h7zlzms9bm7ja8n7nqpi51",
     "skills": [
       "skills/dapp-builder",
       "skills/linux-test",
@@ -6231,7 +6233,7 @@
       "skills/release",
       "skills/systematic-debugging"
     ],
-    "lastUpdated": "2026-03-24T04:41:57.635Z"
+    "lastUpdated": "2026-03-26T19:23:40.789Z"
   },
   {
     "source": "github:freepik-company/knowledge-agent",
@@ -6300,7 +6302,7 @@
   },
   {
     "source": "github:freitasp1/claude-code-skills",
-    "rev": "871dd8edf316088cbc996e4465681f784c428ef4",
+    "rev": "6f5397b04027d350bfa1ad3426b20d2629bd143d",
     "hash": "04507mn2fq1cysw0s75i809l9053xs70l75wzwmcyvzy9m27b5ag",
     "skills": [
       "clarify-spec",
@@ -6327,7 +6329,7 @@
       "skills/token-budget-advisor/token-budget-advisor",
       "skills/ui-freeze"
     ],
-    "lastUpdated": "2026-03-26T13:25:47.200Z"
+    "lastUpdated": "2026-03-26T19:23:41.469Z"
   },
   {
     "source": "github:freshtechbro/claudedesignskills",
@@ -6956,13 +6958,13 @@
   },
   {
     "source": "github:fuma-nama/fumadocs",
-    "rev": "b8a95e8afe0c45466db2c99ee88ff371fc873eb2",
-    "hash": "10v4fybfbyxxs38bs9arsvslsgpwmrjrh7khj75dj86v29zgn8k2",
+    "rev": "301122bedb34a8ec386b071a3b4b9fe6e1cb548f",
+    "hash": "0p50pvhgmpdsy1paadvszghj1c69r1gybmc2z61fhwn0658h6lmw",
     "skills": [
       ".cursor/skills/radix-base-ui-sync",
       "apps/docs/content/skills/read-docs"
     ],
-    "lastUpdated": "2026-03-26T10:29:48.783Z"
+    "lastUpdated": "2026-03-26T19:23:45.655Z"
   },
   {
     "source": "github:fumingpower3925/go-latest-version",
@@ -7055,8 +7057,8 @@
   },
   {
     "source": "github:fusengine/agents",
-    "rev": "3e9513253c0af96b65a430d1bb7f3953ca05348c",
-    "hash": "09sr3kcj5brg5q4n6slj4isgxnk2784fm8y9kzmrrwyd3aisbk7j",
+    "rev": "37a9e58e670f0a8449094710bb06dc15b0cdc11e",
+    "hash": "1wmx6y3s0a9pf6dx3zczcqilwd7n9zkxrzxinlgaicp4w48mycyc",
     "skills": [
       "plugins/ai-pilot/skills/agent-creator",
       "plugins/ai-pilot/skills/apex",
@@ -7101,24 +7103,6 @@
       "plugins/design-expert/skills/4-adding-animations",
       "plugins/design-expert/skills/5-design-audit",
       "plugins/design-expert/skills/6-handoff-review",
-      "plugins/design-expert/skills/adding-animations",
-      "plugins/design-expert/skills/component-composition",
-      "plugins/design-expert/skills/component-variants",
-      "plugins/design-expert/skills/dark-light-modes",
-      "plugins/design-expert/skills/design-audit",
-      "plugins/design-expert/skills/designing-systems",
-      "plugins/design-expert/skills/generating-components",
-      "plugins/design-expert/skills/glassmorphism-advanced",
-      "plugins/design-expert/skills/identity-system",
-      "plugins/design-expert/skills/interactive-states",
-      "plugins/design-expert/skills/layered-backgrounds",
-      "plugins/design-expert/skills/motion-system",
-      "plugins/design-expert/skills/page-layouts",
-      "plugins/design-expert/skills/palette-generator",
-      "plugins/design-expert/skills/responsive-system",
-      "plugins/design-expert/skills/theming-tokens",
-      "plugins/design-expert/skills/ux-copy",
-      "plugins/design-expert/skills/validating-accessibility",
       "plugins/laravel-expert/skills/fusecore",
       "plugins/laravel-expert/skills/laravel-api",
       "plugins/laravel-expert/skills/laravel-architecture",
@@ -7131,6 +7115,8 @@
       "plugins/laravel-expert/skills/laravel-migrations",
       "plugins/laravel-expert/skills/laravel-permission",
       "plugins/laravel-expert/skills/laravel-queues",
+      "plugins/laravel-expert/skills/laravel-reverb",
+      "plugins/laravel-expert/skills/laravel-scout",
       "plugins/laravel-expert/skills/laravel-stripe-connect",
       "plugins/laravel-expert/skills/laravel-testing",
       "plugins/laravel-expert/skills/laravel-vite",
@@ -7138,9 +7124,11 @@
       "plugins/nextjs-expert/skills/better-auth",
       "plugins/nextjs-expert/skills/nextjs-16",
       "plugins/nextjs-expert/skills/nextjs-i18n",
+      "plugins/nextjs-expert/skills/nextjs-server-components",
       "plugins/nextjs-expert/skills/nextjs-shadcn",
       "plugins/nextjs-expert/skills/nextjs-stack",
       "plugins/nextjs-expert/skills/nextjs-tanstack-form",
+      "plugins/nextjs-expert/skills/nextjs-tanstack-query",
       "plugins/nextjs-expert/skills/nextjs-zustand",
       "plugins/nextjs-expert/skills/prisma-7",
       "plugins/nextjs-expert/skills/solid-nextjs",
@@ -7168,10 +7156,12 @@
       "plugins/shadcn-expert/skills/shadcn-migration",
       "plugins/shadcn-expert/skills/shadcn-registries",
       "plugins/shadcn-expert/skills/shadcn-theming",
+      "plugins/solid/skills/solid-csharp",
       "plugins/solid/skills/solid-detection",
       "plugins/solid/skills/solid-generic",
       "plugins/solid/skills/solid-go",
       "plugins/solid/skills/solid-java",
+      "plugins/solid/skills/solid-python",
       "plugins/solid/skills/solid-ruby",
       "plugins/solid/skills/solid-rust",
       "plugins/swift-apple-expert/skills/build-distribution",
@@ -7185,6 +7175,7 @@
       "plugins/swift-apple-expert/skills/tvos",
       "plugins/swift-apple-expert/skills/visionos",
       "plugins/swift-apple-expert/skills/watchos",
+      "plugins/tailwindcss/skills/tailwindcss-accessibility",
       "plugins/tailwindcss/skills/tailwindcss-backgrounds",
       "plugins/tailwindcss/skills/tailwindcss-borders",
       "plugins/tailwindcss/skills/tailwindcss-core",
@@ -7201,7 +7192,7 @@
       "plugins/tailwindcss/skills/tailwindcss-utility-classes",
       "plugins/tailwindcss/skills/tailwindcss-v4"
     ],
-    "lastUpdated": "2026-03-23T01:35:06.273Z"
+    "lastUpdated": "2026-03-26T19:24:37.904Z"
   },
   {
     "source": "github:fusionet24/aiskills",
@@ -7362,8 +7353,8 @@
   },
   {
     "source": "github:fwehrling/forge",
-    "rev": "bb5bd1574b7448474ce8384689159ec05b1e5865",
-    "hash": "0w7l8vc8f17fyf0jh436d6csa8j09980lv3r47wd8104br96612d",
+    "rev": "239a87b3f93c1a65c54f1db1934c17da3664b0c5",
+    "hash": "13z2nqrgcwyd6f0bcvq52v2ygmsyx6bzlsvcxbnm5yi6zn68r38s",
     "skills": [
       "packs/business/forge-business-strategy",
       "packs/business/forge-copywriting",
@@ -7398,7 +7389,7 @@
       "skills/forge-ux",
       "skills/forge-verify"
     ],
-    "lastUpdated": "2026-03-25T13:23:24.825Z"
+    "lastUpdated": "2026-03-26T19:24:32.684Z"
   },
   {
     "source": "github:fwfutures/skills",
