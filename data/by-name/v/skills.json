@@ -418,21 +418,9 @@
   },
   {
     "source": "github:vamseeachanta/workspace-hub",
-    "rev": "2ec3614d57eaffc7836ec91f3482a465d8e29422",
-    "hash": "0gxgc5jq9ffrq93axi36p01i6rl8f2lmw8wv3m9k4ls0x9jd2xfl",
+    "rev": "57a33c1e98cb0382b60656c98843772d80b0a54d",
+    "hash": "11qi7nmxgkkyl3c4blgpx9dynsjwfra0vr6q1rhbl1lwhnr6a5h8",
     "skills": [
-      ".claude/skills/_archive/_core/agents/memory-systems",
-      ".claude/skills/_archive/_core/agents/multi-agent-patterns",
-      ".claude/skills/_archive/_core/agents/parallel-dispatch",
-      ".claude/skills/_archive/coordination/workspace/ai-questioning-pattern",
-      ".claude/skills/_archive/coordination/workspace/compliance-propagation-automator",
-      ".claude/skills/_archive/coordination/workspace/file-organization-assistant",
-      ".claude/skills/_archive/coordination/workspace/html-reporting-enforcer",
-      ".claude/skills/_archive/coordination/workspace/knowledge-base-system",
-      ".claude/skills/_archive/coordination/workspace/repository-health-analyzer",
-      ".claude/skills/_archive/workspace-hub/auto-generated/auto-sync-batch-update-2026-01",
-      ".claude/skills/_archive/workspace-hub/auto-generated/chore-sync-with-workspace-hub-",
-      ".claude/skills/_archive/workspace-hub/auto-generated/refactor-migrate-claude-md-to-",
       ".claude/skills/_core/bash/bash-cli-framework",
       ".claude/skills/_core/bash/bash-cli-framework/1-always-use-set-e",
       ".claude/skills/_core/bash/bash-cli-framework/1-color-definitions",
@@ -482,7 +470,6 @@
       ".claude/skills/_core/context-management/size-limits-mandatory",
       ".claude/skills/_core/context-management/validatecontextsh",
       ".claude/skills/_core/context-management/windows-task-scheduler",
-      ".claude/skills/_diverged/worldenergydata/_internal/meta/python-code-refactor",
       ".claude/skills/_internal/builders/skill-creator",
       ".claude/skills/_internal/builders/skill-creator/1-clear-triggering",
       ".claude/skills/_internal/builders/skill-creator/3-multi-stage-workflow-architecture",
@@ -595,12 +582,7 @@
       ".claude/skills/_internal/meta/repo-cleanup/progress-tracking-commands",
       ".claude/skills/_internal/meta/repo-cleanup/references-to-remove",
       ".claude/skills/_internal/meta/repo-cleanup/structure-section-updates",
-      ".claude/skills/_internal/meta/session-start-routine",
       ".claude/skills/_internal/workflows/brainstorming",
-      ".claude/skills/_internal/workflows/codex-review",
-      ".claude/skills/_internal/workflows/cross-review-policy",
-      ".claude/skills/_internal/workflows/dev-workflow",
-      ".claude/skills/_internal/workflows/gemini-review",
       ".claude/skills/_internal/workflows/legal-sanity-review",
       ".claude/skills/ai/agent-usage-optimizer",
       ".claude/skills/ai/agent-usage-optimizer/baseline-route-mapping-quota-agnostic-defaults",
@@ -1212,247 +1194,6 @@
       ".claude/skills/business/sales/create-an-asset",
       ".claude/skills/business/sales/daily-briefing",
       ".claude/skills/business/sales/draft-outreach",
-      ".claude/skills/coordination/core/core-coder",
-      ".claude/skills/coordination/core/core-coder/1-understand-requirements",
-      ".claude/skills/coordination/core/core-coder/code-quality-standards",
-      ".claude/skills/coordination/core/core-coder/collaboration",
-      ".claude/skills/coordination/core/core-coder/example-1-basic-implementation",
-      ".claude/skills/coordination/core/core-coder/security",
-      ".claude/skills/coordination/core/core-planner",
-      ".claude/skills/coordination/core/core-planner/collaboration-guidelines",
-      ".claude/skills/coordination/core/core-planner/example-1-feature-planning",
-      ".claude/skills/coordination/core/core-planner/plan-output-format",
-      ".claude/skills/coordination/core/core-planner/planning-process",
-      ".claude/skills/coordination/core/core-planner/priority-levels",
-      ".claude/skills/coordination/core/core-researcher",
-      ".claude/skills/coordination/core/core-researcher/example-1-codebase-analysis",
-      ".claude/skills/coordination/core/core-researcher/research-checklist",
-      ".claude/skills/coordination/core/core-researcher/research-methodology",
-      ".claude/skills/coordination/core/core-researcher/research-output-format",
-      ".claude/skills/coordination/core/core-reviewer",
-      ".claude/skills/coordination/core/core-reviewer/1-functionality-review",
-      ".claude/skills/coordination/core/core-reviewer/be-constructive",
-      ".claude/skills/coordination/core/core-reviewer/example-1-basic-code-review",
-      ".claude/skills/coordination/core/core-reviewer/review-categories",
-      ".claude/skills/coordination/core/core-reviewer/review-feedback-format",
-      ".claude/skills/coordination/core/core-reviewer/strengths",
-      ".claude/skills/coordination/core/core-tester",
-      ".claude/skills/coordination/core/core-tester/example-1-tdd-workflow",
-      ".claude/skills/coordination/core/core-tester/performance-testing",
-      ".claude/skills/coordination/core/core-tester/test-pyramid",
-      ".claude/skills/coordination/core/core-tester/unit-tests",
-      ".claude/skills/coordination/orchestration/agent-orchestration",
-      ".claude/skills/coordination/orchestration/agent-orchestration/1-code-review-swarm",
-      ".claude/skills/coordination/orchestration/agent-orchestration/agent-selection",
-      ".claude/skills/coordination/orchestration/agent-orchestration/agent-spawn-failures",
-      ".claude/skills/coordination/orchestration/agent-orchestration/check-swarm-status",
-      ".claude/skills/coordination/orchestration/agent-orchestration/core-agents",
-      ".claude/skills/coordination/orchestration/agent-orchestration/destroy-swarm",
-      ".claude/skills/coordination/orchestration/agent-orchestration/hierarchical",
-      ".claude/skills/coordination/orchestration/agent-orchestration/simple-task",
-      ".claude/skills/coordination/orchestration/agent-orchestration/spawn-single-agent",
-      ".claude/skills/coordination/orchestration/agent-orchestration/store-information",
-      ".claude/skills/coordination/orchestration/agent-orchestration/topology-selection",
-      ".claude/skills/coordination/orchestration/agent-orchestration/using-task-tool",
-      ".claude/skills/coordination/orchestration/agent-os-framework/1-missionmd",
-      ".claude/skills/coordination/orchestration/agent-os-framework/2-tech-stackmd",
-      ".claude/skills/coordination/orchestration/agent-os-framework/apis",
-      ".claude/skills/coordination/orchestration/agent-os-framework/before-this-product",
-      ".claude/skills/coordination/orchestration/agent-os-framework/current-phase",
-      ".claude/skills/coordination/orchestration/agent-os-framework/data-storage",
-      ".claude/skills/coordination/orchestration/agent-os-framework/dec-001-package-manager-selection",
-      ".claude/skills/coordination/orchestration/agent-os-framework/dec-004-pending-decision-title",
-      ".claude/skills/coordination/orchestration/agent-os-framework/dec-xxx-decision-title",
-      ".claude/skills/coordination/orchestration/agent-os-framework/development-tools",
-      ".claude/skills/coordination/orchestration/agent-os-framework/directory-structure",
-      ".claude/skills/coordination/orchestration/agent-os-framework/example-1-new-project-setup",
-      ".claude/skills/coordination/orchestration/agent-os-framework/external",
-      ".claude/skills/coordination/orchestration/agent-os-framework/how-to-use-this-document",
-      ".claude/skills/coordination/orchestration/agent-os-framework/phase-1-foundation",
-      ".claude/skills/coordination/orchestration/agent-os-framework/primary-users",
-      ".claude/skills/coordination/orchestration/agent-os-framework/product-pitch",
-      ".claude/skills/coordination/orchestration/agent-os-framework/python-311",
-      ".claude/skills/coordination/orchestration/agent-os-framework/risks-and-mitigations",
-      ".claude/skills/coordination/orchestration/agent-os-framework/success-metrics",
-      ".claude/skills/coordination/orchestration/agent-os-framework/version-control",
-      ".claude/skills/coordination/orchestration/agent-os-framework/vision",
-      ".claude/skills/coordination/orchestration/agent-os-framework/what-makes-this-unique",
-      ".claude/skills/coordination/orchestration/agent-os-framework/why-python",
-      ".claude/skills/coordination/orchestration/agent-router",
-      ".claude/skills/coordination/orchestration/agent-router/10-dimension-scoring",
-      ".claude/skills/coordination/orchestration/agent-router/example-1-classify-a-task",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator/automatic-validation",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator/complete-automation-script",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator/integration-flow",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator/metrics-and-success-criteria",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator/module-dataloader",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator/module-statisticscalculator",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator/module-visualizationgenerator",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator/phase-1-user-requirements-read-only",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator/phase-4-tdd-implementation",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator/pre-implementation-checklist",
-      ".claude/skills/coordination/orchestration/development-workflow-orchestrator/purpose",
-      ".claude/skills/coordination/orchestration/sparc-workflow",
-      ".claude/skills/coordination/orchestration/sparc-workflow/acceptance-criteria",
-      ".claude/skills/coordination/orchestration/sparc-workflow/code-quality",
-      ".claude/skills/coordination/orchestration/sparc-workflow/complexity-analysis",
-      ".claude/skills/coordination/orchestration/sparc-workflow/creating-a-spec",
-      ".claude/skills/coordination/orchestration/sparc-workflow/data-flow",
-      ".claude/skills/coordination/orchestration/sparc-workflow/deployment",
-      ".claude/skills/coordination/orchestration/sparc-workflow/edge-cases",
-      ".claude/skills/coordination/orchestration/sparc-workflow/functional-requirements",
-      ".claude/skills/coordination/orchestration/sparc-workflow/helper-functions",
-      ".claude/skills/coordination/orchestration/sparc-workflow/in-scope",
-      ".claude/skills/coordination/orchestration/sparc-workflow/interface-design",
-      ".claude/skills/coordination/orchestration/sparc-workflow/internal",
-      ".claude/skills/coordination/orchestration/sparc-workflow/main-algorithm",
-      ".claude/skills/coordination/orchestration/sparc-workflow/new-components",
-      ".claude/skills/coordination/orchestration/sparc-workflow/sparc-file-locations",
-      ".claude/skills/coordination/orchestration/sparc-workflow/specification",
-      ".claude/skills/coordination/orchestration/sparc-workflow/specification-checklist",
-      ".claude/skills/coordination/orchestration/sparc-workflow/specification-phase-issues",
-      ".claude/skills/coordination/orchestration/sparc-workflow/start-sparc-workflow",
-      ".claude/skills/coordination/workspace/agentic-horizon",
-      ".claude/skills/coordination/workspace/claude-reflect",
-      ".claude/skills/coordination/workspace/claude-reflect/1-reflect-collect-git-history",
-      ".claude/skills/coordination/workspace/claude-reflect/automated-execution",
-      ".claude/skills/coordination/workspace/claude-reflect/distinction-from-similar-skills",
-      ".claude/skills/coordination/workspace/claude-reflect/pattern-output-format",
-      ".claude/skills/coordination/workspace/claude-reflect/script-details",
-      ".claude/skills/coordination/workspace/claude-reflect/state-management",
-      ".claude/skills/coordination/workspace/claude-reflect/weekly-reflection",
-      ".claude/skills/coordination/workspace/claude-reflect/with-skill-learner",
-      ".claude/skills/coordination/workspace/commit-workflow",
-      ".claude/skills/coordination/workspace/compliance-check",
-      ".claude/skills/coordination/workspace/compliance-check/1-ai-agent-guidelines",
-      ".claude/skills/coordination/workspace/compliance-check/ai-compliance",
-      ".claude/skills/coordination/workspace/compliance-check/ai-guidelines",
-      ".claude/skills/coordination/workspace/compliance-check/cicd-integration",
-      ".claude/skills/coordination/workspace/compliance-check/common-compliance-failures",
-      ".claude/skills/coordination/workspace/compliance-check/for-repository-maintainers",
-      ".claude/skills/coordination/workspace/compliance-check/generate-compliance-report",
-      ".claude/skills/coordination/workspace/compliance-check/html-reporting",
-      ".claude/skills/coordination/workspace/compliance-check/install-compliance-hooks",
-      ".claude/skills/coordination/workspace/compliance-check/logging-standards",
-      ".claude/skills/coordination/workspace/compliance-check/propagate-claudemd-configuration",
-      ".claude/skills/coordination/workspace/compliance-check/quick-compliance-check",
-      ".claude/skills/coordination/workspace/compliance-check/repository-structure",
-      ".claude/skills/coordination/workspace/compliance-check/testing-standards",
-      ".claude/skills/coordination/workspace/compliance-check/with-repository-sync",
-      ".claude/skills/coordination/workspace/compound-engineering",
-      ".claude/skills/coordination/workspace/compound-engineering/12-review-perspectives",
-      ".claude/skills/coordination/workspace/compound-engineering/checkpoint-schema",
-      ".claude/skills/coordination/workspace/compound-engineering/core-loop",
-      ".claude/skills/coordination/workspace/compound-engineering/execution",
-      ".claude/skills/coordination/workspace/compound-engineering/full-loop",
-      ".claude/skills/coordination/workspace/compound-engineering/knowledge-extraction",
-      ".claude/skills/coordination/workspace/compound-engineering/step-1-knowledge-retrieval",
-      ".claude/skills/coordination/workspace/compound-engineering/what-this-skill-does-not-do",
-      ".claude/skills/coordination/workspace/data-validation-reporter/1-data-validation",
-      ".claude/skills/coordination/workspace/data-validation-reporter/add-to-existing-project",
-      ".claude/skills/coordination/workspace/data-validation-reporter/basic-validation",
-      ".claude/skills/coordination/workspace/data-validation-reporter/change-log",
-      ".claude/skills/coordination/workspace/data-validation-reporter/extend-validation-rules",
-      ".claude/skills/coordination/workspace/data-validation-reporter/files-included",
-      ".claude/skills/coordination/workspace/data-validation-reporter/license",
-      ".claude/skills/coordination/workspace/data-validation-reporter/pattern-analysis",
-      ".claude/skills/coordination/workspace/data-validation-reporter/support",
-      ".claude/skills/coordination/workspace/interactive-report-generator/example-1-simple-report",
-      ".claude/skills/coordination/workspace/knowledge-manager",
-      ".claude/skills/coordination/workspace/legal-sanity",
-      ".claude/skills/coordination/workspace/repo-capability-map",
-      ".claude/skills/coordination/workspace/repo-readiness",
-      ".claude/skills/coordination/workspace/repo-readiness/1-check-readiness-script",
-      ".claude/skills/coordination/workspace/repo-readiness/1-configuration-analysis",
-      ".claude/skills/coordination/workspace/repo-readiness/1-run-before-every-new-task",
-      ".claude/skills/coordination/workspace/repo-readiness/breakdown",
-      ".claude/skills/coordination/workspace/repo-readiness/claudemd-status-found",
-      ".claude/skills/coordination/workspace/repo-readiness/directory-organization-compliant",
-      ".claude/skills/coordination/workspace/repo-readiness/git-status-clean",
-      ".claude/skills/coordination/workspace/repo-readiness/key-conventions",
-      ".claude/skills/coordination/workspace/repo-readiness/logging-standards-compliant",
-      ".claude/skills/coordination/workspace/repo-readiness/missing-configuration",
-      ".claude/skills/coordination/workspace/repo-readiness/overall-readiness-score",
-      ".claude/skills/coordination/workspace/repo-readiness/pre-task-hook",
-      ".claude/skills/coordination/workspace/repo-readiness/project-purpose",
-      ".claude/skills/coordination/workspace/repo-readiness/with-sparc-workflow",
-      ".claude/skills/coordination/workspace/repo-sync/1-status-check",
-      ".claude/skills/coordination/workspace/repo-sync/commit-messages",
-      ".claude/skills/coordination/workspace/repo-sync/common-commands",
-      ".claude/skills/coordination/workspace/repo-sync/daily-development-workflow",
-      ".claude/skills/coordination/workspace/repo-sync/list-branches",
-      ".claude/skills/coordination/workspace/repo-sync/merge-conflicts",
-      ".claude/skills/coordination/workspace/repo-sync/path-issues",
-      ".claude/skills/coordination/workspace/repo-sync/repository-urls",
-      ".claude/skills/coordination/workspace/repo-sync/selective-operations",
-      ".claude/skills/coordination/workspace/repo-sync/with-workspace-cli",
-      ".claude/skills/coordination/workspace/repo-sync/work-repositories",
-      ".claude/skills/coordination/workspace/session-analysis",
-      ".claude/skills/coordination/workspace/session-bootstrap",
-      ".claude/skills/coordination/workspace/skill-learner",
-      ".claude/skills/coordination/workspace/skill-learner/1-commit-analysis",
-      ".claude/skills/coordination/workspace/skill-learner/1-commit-analyzer",
-      ".claude/skills/coordination/workspace/skill-learner/1-configuration-yaml",
-      ".claude/skills/coordination/workspace/skill-learner/1-review-learning-log-regularly",
-      ".claude/skills/coordination/workspace/skill-learner/3-bulk-learning-analysis",
-      ".claude/skills/coordination/workspace/skill-learner/5-skill-enhancement",
-      ".claude/skills/coordination/workspace/skill-learner/analysis",
-      ".claude/skills/coordination/workspace/skill-learner/commit-a1b2c3d4",
-      ".claude/skills/coordination/workspace/skill-learner/commit-a1b2c3d4-npv-calculator-implementation",
-      ".claude/skills/coordination/workspace/skill-learner/commit-e5f6g7h8-marine-safety-data-processor",
-      ".claude/skills/coordination/workspace/skill-learner/external-reference-skillssh",
-      ".claude/skills/coordination/workspace/skill-learner/files-changed-12",
-      ".claude/skills/coordination/workspace/skill-learner/learning-log",
-      ".claude/skills/coordination/workspace/skill-learner/learning-metrics",
-      ".claude/skills/coordination/workspace/skill-learner/lessons-learned",
-      ".claude/skills/coordination/workspace/skill-learner/no-patterns-found",
-      ".claude/skills/coordination/workspace/skill-learner/post-commit-hook",
-      ".claude/skills/coordination/workspace/skill-learner/problem",
-      ".claude/skills/coordination/workspace/skill-learner/problem-solved",
-      ".claude/skills/coordination/workspace/skill-learner/with-session-start-routine",
-      ".claude/skills/coordination/workspace/skills-curation",
-      ".claude/skills/coordination/workspace/skills-curation/candidates",
-      ".claude/skills/coordination/workspace/skills-curation/cron-schedule",
-      ".claude/skills/coordination/workspace/skills-curation/curation-log-format",
-      ".claude/skills/coordination/workspace/skills-curation/phase-1-session-candidate-intake",
-      ".claude/skills/coordination/workspace/skills-curation/phase-2-knowledge-graph-review",
-      ".claude/skills/coordination/workspace/skills-curation/phase-3-online-research",
-      ".claude/skills/coordination/workspace/skills-curation/phase-5-session-input-health-check",
-      ".claude/skills/coordination/workspace/skills-curation/phase-6-yield-tracking-and-cadence-adjustment",
-      ".claude/skills/coordination/workspace/skills-curation/shallow-gap",
-      ".claude/skills/coordination/workspace/skills-curation/skill-stub-creation-shallow-gaps",
-      ".claude/skills/coordination/workspace/skills-curation/source-signal",
-      ".claude/skills/coordination/workspace/skills-curation/steps",
-      ".claude/skills/coordination/workspace/skills-curation/when-this-runs",
-      ".claude/skills/coordination/workspace/skills-researcher",
-      ".claude/skills/coordination/workspace/work-queue",
-      ".claude/skills/coordination/workspace/work-queue/archival-safety",
-      ".claude/skills/coordination/workspace/work-queue/canonical-20-stage-lifecycle",
-      ".claude/skills/coordination/workspace/work-queue/checkpoint-resume",
-      ".claude/skills/coordination/workspace/work-queue/command-interface",
-      ".claude/skills/coordination/workspace/work-queue/complexity-routing",
-      ".claude/skills/coordination/workspace/work-queue/cross-review-route-bc",
-      ".claude/skills/coordination/workspace/work-queue/feature-layer-epic-level-work",
-      ".claude/skills/coordination/workspace/work-queue/key-scripts",
-      ".claude/skills/coordination/workspace/work-queue/machine-wrk-id-ranges",
-      ".claude/skills/coordination/workspace/work-queue/parallel-work-policy",
-      ".claude/skills/coordination/workspace/work-queue/planning-requirement",
-      ".claude/skills/coordination/workspace/work-queue/queue-directory-structure",
-      ".claude/skills/coordination/workspace/work-queue/scope-discipline",
-      ".claude/skills/coordination/workspace/work-queue/stage-contracts-summary",
-      ".claude/skills/coordination/workspace/work-queue/work-execution-principle-scripts-over-llm-overhead",
-      ".claude/skills/coordination/workspace/work-queue/work-item-format",
-      ".claude/skills/coordination/workspace/workspace-cli",
-      ".claude/skills/coordination/workspace/workspace-cli/1-repository-management",
-      ".claude/skills/coordination/workspace/workspace-cli/6-help-documentation",
-      ".claude/skills/coordination/workspace/workspace-cli/daily-development-start",
-      ".claude/skills/coordination/workspace/workspace-cli/direct-script-access",
-      ".claude/skills/coordination/workspace/workspace-cli/keyboard-navigation",
-      ".claude/skills/coordination/workspace/workspace-cli/main-menu-structure",
-      ".claude/skills/coordination/workspace/workspace-cli/menu-display-issues",
-      ".claude/skills/coordination/workspace/workspace-cli/script-organization",
-      ".claude/skills/coordination/workspace/workspace-cli/supported-variables",
       ".claude/skills/data/analysis/autoviz",
       ".claude/skills/data/analysis/autoviz/1-basic-one-line-eda",
       ".claude/skills/data/analysis/autoviz/1-sample-large-datasets",
@@ -2241,8 +1982,6 @@
       ".claude/skills/engineering/gis/qgis/21-qgisprocess-cli-headless",
       ".claude/skills/engineering/gis/qgis/31-read-features-from-output-layer",
       ".claude/skills/engineering/marine-offshore/aqwa",
-      ".claude/skills/engineering/marine-offshore/aqwa-analysis",
-      ".claude/skills/engineering/marine-offshore/aqwa-batch-execution",
       ".claude/skills/engineering/marine-offshore/aqwa/batch-execution",
       ".claude/skills/engineering/marine-offshore/aqwa/batch-execution/aqwa-programs-and-analysis-sequence",
       ".claude/skills/engineering/marine-offshore/aqwa/batch-execution/debug-sequence",
@@ -2658,9 +2397,6 @@
       ".claude/skills/gsd-validate-phase",
       ".claude/skills/gsd-verify-work",
       ".claude/skills/gsd-workstreams",
-      ".claude/skills/incoming/rock-oil-field/guidelines.bak-20260210/ai-agent-guidelines",
-      ".claude/skills/incoming/rock-oil-field/guidelines.bak-20260210/file-org-standards",
-      ".claude/skills/incoming/rock-oil-field/guidelines.bak-20260210/html-reporting-standards",
       ".claude/skills/operations/automation/activepieces",
       ".claude/skills/operations/automation/activepieces/1-basic-flow-structure",
       ".claude/skills/operations/automation/activepieces/1-flow-organization",
@@ -2704,15 +2440,6 @@
       ".claude/skills/operations/automation/windmill/6-schedule-management",
       ".claude/skills/operations/automation/windmill/8-resource-and-secrets-management",
       ".claude/skills/operations/automation/windmill/integration-with-database-and-slack",
-      ".claude/skills/operations/cloud/cloud-app-store",
-      ".claude/skills/operations/cloud/cloud-auth",
-      ".claude/skills/operations/cloud/cloud-challenges",
-      ".claude/skills/operations/cloud/cloud-neural",
-      ".claude/skills/operations/cloud/cloud-payments",
-      ".claude/skills/operations/cloud/cloud-sandbox",
-      ".claude/skills/operations/cloud/cloud-swarm",
-      ".claude/skills/operations/cloud/cloud-user-tools",
-      ".claude/skills/operations/cloud/cloud-workflow",
       ".claude/skills/operations/devops/hardware-assessment",
       ".claude/skills/operations/devops/hardware-assessment/linux",
       ".claude/skills/operations/devops/hardware-assessment/linux-hardware-assesssh",
@@ -2767,12 +2494,6 @@
       ".claude/skills/operations/devtools/vscode-extensions/6-workspace-configuration",
       ".claude/skills/operations/devtools/vscode-extensions/7-profile-management",
       ".claude/skills/operations/devtools/vscode-extensions/git-workflow-integration",
-      ".claude/skills/operations/performance/optimization-analyzer",
-      ".claude/skills/operations/performance/optimization-benchmark",
-      ".claude/skills/operations/performance/optimization-load-balancer",
-      ".claude/skills/operations/performance/optimization-monitor",
-      ".claude/skills/operations/performance/optimization-resources",
-      ".claude/skills/operations/performance/optimization-topology",
       ".claude/skills/science/bio-research/clinical-trial-protocol",
       ".claude/skills/science/bio-research/clinical-trial-protocol/disclaimers",
       ".claude/skills/science/bio-research/clinical-trial-protocol/execution-control-read-this-first",
@@ -2824,7 +2545,6 @@
       ".claude/skills/science/bio-research/scientific-problem-selection/the-central-insight",
       ".claude/skills/science/bio-research/scvi-tools",
       ".claude/skills/science/bio-research/single-cell-rna-qc",
-      ".claude/skills/workspace-hub/active-sessions",
       ".claude/skills/workspace-hub/agent-teams",
       ".claude/skills/workspace-hub/agent-teams/1-create-team",
       ".claude/skills/workspace-hub/agent-teams/activation",
@@ -2838,8 +2558,6 @@
       ".claude/skills/workspace-hub/agent-teams/subagent-startup-convention",
       ".claude/skills/workspace-hub/agent-teams/work-queue-integration",
       ".claude/skills/workspace-hub/agent-teams/workspace-work-profile-updated-2026-03-10",
-      ".claude/skills/workspace-hub/auto-generated/chore-remove-claude-flow-refer",
-      ".claude/skills/workspace-hub/checkpoint",
       ".claude/skills/workspace-hub/clean-code",
       ".claude/skills/workspace-hub/clean-code/dead-code-identification-and-removal",
       ".claude/skills/workspace-hub/clean-code/file-size-decision-tree",
@@ -2854,30 +2572,7 @@
       ".claude/skills/workspace-hub/clean-code/step-1-api-compatibility-check-mandatory-before-wr",
       ".claude/skills/workspace-hub/clean-code/top-p1-candidates-2026-02-25-audit",
       ".claude/skills/workspace-hub/comprehensive-learning",
-      ".claude/skills/workspace-hub/document-batch",
-      ".claude/skills/workspace-hub/ecosystem-health",
-      ".claude/skills/workspace-hub/ecosystem-health/group-1-cross-platform-guard",
-      ".claude/skills/workspace-hub/ecosystem-health/integration-with-repo-sync",
-      ".claude/skills/workspace-hub/ecosystem-health/json-signal-for-improve",
-      ".claude/skills/workspace-hub/ecosystem-health/step-1-group-1-checks-bash-fast",
-      ".claude/skills/workspace-hub/ecosystem-health/when-to-run",
       ".claude/skills/workspace-hub/ecosystem-terminology",
-      ".claude/skills/workspace-hub/engineering-context-loader",
-      ".claude/skills/workspace-hub/engineering-context-loader/domain-map",
-      ".claude/skills/workspace-hub/engineering-context-loader/error-cases",
-      ".claude/skills/workspace-hub/engineering-context-loader/output-example",
-      ".claude/skills/workspace-hub/engineering-context-loader/skills-to-load-read-these-skillmd-files",
-      ".claude/skills/workspace-hub/engineering-context-loader/step-1-resolve-the-active-wrk-item",
-      ".claude/skills/workspace-hub/file-taxonomy",
-      ".claude/skills/workspace-hub/file-taxonomy/canonical-directory-map",
-      ".claude/skills/workspace-hub/file-taxonomy/decision-tree",
-      ".claude/skills/workspace-hub/file-taxonomy/format-guide",
-      ".claude/skills/workspace-hub/file-taxonomy/gitignore-policy",
-      ".claude/skills/workspace-hub/file-taxonomy/migration-path",
-      ".claude/skills/workspace-hub/file-taxonomy/naming-conventions",
-      ".claude/skills/workspace-hub/file-taxonomy/native-session-stores-gitignored-local-to-each-mac",
-      ".claude/skills/workspace-hub/file-taxonomy/specs-vs-docs-vs-plans",
-      ".claude/skills/workspace-hub/harness-audit",
       ".claude/skills/workspace-hub/improve",
       ".claude/skills/workspace-hub/improve/creating-new-skills",
       ".claude/skills/workspace-hub/improve/decision-logic-scoring",
@@ -2887,40 +2582,6 @@
       ".claude/skills/workspace-hub/improve/related-commands",
       ".claude/skills/workspace-hub/improve/scope",
       ".claude/skills/workspace-hub/improve/trigger-conditions",
-      ".claude/skills/workspace-hub/infrastructure-layout",
-      ".claude/skills/workspace-hub/infrastructure-layout/acceptance-criteria-post-migration-gate",
-      ".claude/skills/workspace-hub/infrastructure-layout/canonical-5-domain-structure",
-      ".claude/skills/workspace-hub/infrastructure-layout/canonical-initpy-exports",
-      ".claude/skills/workspace-hub/infrastructure-layout/compliance-checks",
-      ".claude/skills/workspace-hub/infrastructure-layout/config-configuration-management",
-      ".claude/skills/workspace-hub/infrastructure-layout/minimal-config-for-a-new-repo",
-      ".claude/skills/workspace-hub/infrastructure-layout/naming-solvers-vs-basesolvers",
-      ".claude/skills/workspace-hub/infrastructure-layout/quick-decision-tree-where-does-this-file-go",
-      ".claude/skills/workspace-hub/infrastructure-layout/real-world-reference",
-      ".claude/skills/workspace-hub/infrastructure-layout/step-1-audit-and-classify",
-      ".claude/skills/workspace-hub/infrastructure-layout/what-does-not-belong-in-infrastructure",
-      ".claude/skills/workspace-hub/infrastructure-layout/what-is-infrastructure",
-      ".claude/skills/workspace-hub/interoperability",
-      ".claude/skills/workspace-hub/interoperability/editor-settings-recommended",
-      ".claude/skills/workspace-hub/interoperability/encoding-utf-8-no-bom",
-      ".claude/skills/workspace-hub/interoperability/fix-command",
-      ".claude/skills/workspace-hub/interoperability/health-check-items",
-      ".claude/skills/workspace-hub/interoperability/setup-new-machine-or-after-fresh-clone",
-      ".claude/skills/workspace-hub/interoperability/the-core-problem",
-      ".claude/skills/workspace-hub/interoperability/three-layer-defence-encoding",
-      ".claude/skills/workspace-hub/legal-sanity-scan",
-      ".claude/skills/workspace-hub/mcp-registry-audit",
-      ".claude/skills/workspace-hub/plan-mode",
-      ".claude/skills/workspace-hub/qa-closure",
-      ".claude/skills/workspace-hub/qa-closure/agent-completion-gate",
-      ".claude/skills/workspace-hub/qa-closure/html-report-template",
-      ".claude/skills/workspace-hub/qa-closure/integration-with-work-item-lifecycle",
-      ".claude/skills/workspace-hub/qa-closure/step-1-identify-output-type",
-      ".claude/skills/workspace-hub/qa-closure/step-2-generate-html-report",
-      ".claude/skills/workspace-hub/qa-closure/step-3-invoke-domain-sme-skill",
-      ".claude/skills/workspace-hub/qa-closure/step-4-run-data-quality-checks",
-      ".claude/skills/workspace-hub/qa-closure/step-5-emit-qa-verdict",
-      ".claude/skills/workspace-hub/release-notes-adoption",
       ".claude/skills/workspace-hub/remote-desktop",
       ".claude/skills/workspace-hub/repo-portfolio-steering",
       ".claude/skills/workspace-hub/repo-structure",
@@ -2933,102 +2594,14 @@
       ".claude/skills/workspace-hub/repo-structure/never-tests-inside-src",
       ".claude/skills/workspace-hub/repo-structure/tier-classification-determines-which-rules-apply",
       ".claude/skills/workspace-hub/repo-sync",
-      ".claude/skills/workspace-hub/resource-intelligence",
-      ".claude/skills/workspace-hub/resource-intelligence/categorymining-map",
-      ".claude/skills/workspace-hub/resource-intelligence/first-pass-routing-rule",
-      ".claude/skills/workspace-hub/resource-intelligence/gap-ranking",
-      ".claude/skills/workspace-hub/resource-intelligence/micro-skill-checklist-stage-16",
-      ".claude/skills/workspace-hub/resource-intelligence/required-outputs",
-      ".claude/skills/workspace-hub/resource-intelligence/resource-mining-checklist",
-      ".claude/skills/workspace-hub/resource-intelligence/source-rules",
-      ".claude/skills/workspace-hub/resource-intelligence/step-by-step-for-authors",
-      ".claude/skills/workspace-hub/resource-intelligence/targetrepospaths",
-      ".claude/skills/workspace-hub/resource-intelligence/templates-and-scripts",
-      ".claude/skills/workspace-hub/save",
-      ".claude/skills/workspace-hub/session-end",
-      ".claude/skills/workspace-hub/session-start",
-      ".claude/skills/workspace-hub/session-start/0-auto-load-drift-risk-rules-non-interactive-2s",
-      ".claude/skills/workspace-hub/session-start/hook-integration",
-      ".claude/skills/workspace-hub/session-start/path-discipline-reminder",
-      ".claude/skills/workspace-hub/session-start/session-briefing-2026-02-19",
-      ".claude/skills/workspace-hub/skill-sync",
-      ".claude/skills/workspace-hub/stages/stage-01-capture",
-      ".claude/skills/workspace-hub/stages/stage-02-resource-intelligence",
-      ".claude/skills/workspace-hub/stages/stage-03-triage",
-      ".claude/skills/workspace-hub/stages/stage-04-plan-draft",
-      ".claude/skills/workspace-hub/stages/stage-05-user-review-plan-draft",
-      ".claude/skills/workspace-hub/stages/stage-06-cross-review",
-      ".claude/skills/workspace-hub/stages/stage-07-user-review-plan-final",
-      ".claude/skills/workspace-hub/stages/stage-08-claim-activation",
-      ".claude/skills/workspace-hub/stages/stage-09-routing",
-      ".claude/skills/workspace-hub/stages/stage-10-work-execution",
-      ".claude/skills/workspace-hub/stages/stage-11-artifact-generation",
-      ".claude/skills/workspace-hub/stages/stage-12-tdd-eval",
-      ".claude/skills/workspace-hub/stages/stage-13-agent-cross-review",
-      ".claude/skills/workspace-hub/stages/stage-14-verify-gate-evidence",
-      ".claude/skills/workspace-hub/stages/stage-15-future-work",
-      ".claude/skills/workspace-hub/stages/stage-16-resource-intelligence-update",
-      ".claude/skills/workspace-hub/stages/stage-17-user-review-implementation",
-      ".claude/skills/workspace-hub/stages/stage-18-reclaim",
-      ".claude/skills/workspace-hub/stages/stage-19-close",
-      ".claude/skills/workspace-hub/stages/stage-20-archive",
-      ".claude/skills/workspace-hub/strategic-prioritization",
       ".claude/skills/workspace-hub/sync",
-      ".claude/skills/workspace-hub/tool-readiness",
-      ".claude/skills/workspace-hub/whats-next",
-      ".claude/skills/workspace-hub/work-document-exit",
-      ".claude/skills/workspace-hub/work-document-exit/integration-with-session-end",
-      ".claude/skills/workspace-hub/work-document-exit/no-active-wrk-fallback",
-      ".claude/skills/workspace-hub/work-document-exit/step-1-identify-the-active-wrk-item",
-      ".claude/skills/workspace-hub/work-document-exit/step-2-collect-session-context",
-      ".claude/skills/workspace-hub/work-document-exit/step-3-write-session-handoff-section",
-      ".claude/skills/workspace-hub/work-document-exit/step-4-stage-files",
-      ".claude/skills/workspace-hub/work-document-exit/step-5-clear-active-wrk-state",
-      ".claude/skills/workspace-hub/work-document-exit/step-6-output-summary",
-      ".claude/skills/workspace-hub/work-document-exit/work-done-this-session",
-      ".claude/skills/workspace-hub/work-queue-orchestrator",
-      ".claude/skills/workspace-hub/work-queue-workflow",
-      ".claude/skills/workspace-hub/workflow-gatepass",
-      ".claude/skills/workspace-hub/workflow-gatepass/close-gate-minimum",
-      ".claude/skills/workspace-hub/workflow-gatepass/evidence-locations",
-      ".claude/skills/workspace-hub/workflow-gatepass/no-bypass-rules",
-      ".claude/skills/workspace-hub/workflow-gatepass/operational-lessons-wrk-690",
-      ".claude/skills/workspace-hub/workflow-gatepass/required-lifecycle-chain",
-      ".claude/skills/workspace-hub/workflow-gatepass/reusable-scripts",
-      ".claude/skills/workspace-hub/workflow-gatepass/route-consistency-abc",
-      ".claude/skills/workspace-hub/workflow-gatepass/stage-15-to-stage-17-rule-next-work-disposition",
-      ".claude/skills/workspace-hub/workflow-gatepass/visual-reference",
-      ".claude/skills/workspace-hub/workflow-html",
-      ".claude/skills/workspace-hub/workflow-html/1-good-practices",
-      ".claude/skills/workspace-hub/workflow-html/2-design-system",
-      ".claude/skills/workspace-hub/workflow-html/31-stage-section-schema",
-      ".claude/skills/workspace-hub/workflow-html/4-gate-artifact-format-reference",
-      ".claude/skills/workspace-hub/workflow-html/5-generator-script-integration",
-      ".claude/skills/workspace-hub/workflow-html/6-mandatory-usage",
-      ".claude/skills/workspace-hub/workflow-html/7-compliance-checklist",
-      ".claude/skills/workspace-hub/workflow-html/commands",
-      ".claude/skills/workspace-hub/workstations",
-      ".claude/skills/workspace-hub/workstations/ace-linux-1-storage",
-      ".claude/skills/workspace-hub/workstations/ace-linux-2-open-source-tools",
-      ".claude/skills/workspace-hub/workstations/comprehensive-learning-integration",
-      ".claude/skills/workspace-hub/workstations/consolidation-principles",
-      ".claude/skills/workspace-hub/workstations/copy-paste",
-      ".claude/skills/workspace-hub/workstations/dev-primary-storage",
-      ".claude/skills/workspace-hub/workstations/dev-secondary-open-source-tools",
-      ".claude/skills/workspace-hub/workstations/hardware-notes",
-      ".claude/skills/workspace-hub/workstations/multi-machine-wrk-items",
-      ".claude/skills/workspace-hub/workstations/new-workstation-onboarding",
-      ".claude/skills/workspace-hub/workstations/repo-to-machine-routing-current",
-      ".claude/skills/workspace-hub/workstations/routing-rules",
-      ".claude/skills/workspace-hub/workstations/software-capability-map",
-      ".claude/skills/workspace-hub/wrk-lifecycle-testpack",
       "_archive/skills/workspace-hub/agent-os-framework",
       "_archive/skills/workspace-hub/claude-reflection",
       "_archive/skills/workspace-hub/data-validation-reporter",
       "_archive/skills/workspace-hub/interactive-report-generator",
       "scripts/skills/tests/fixtures/oversized-test"
     ],
-    "lastUpdated": "2026-03-26T01:27:15.476Z"
+    "lastUpdated": "2026-03-26T06:40:18.343Z"
   },
   {
     "source": "github:vanab/swiftdata-agent-skill",
@@ -3246,14 +2819,12 @@
   },
   {
     "source": "github:varghq/skills",
-    "rev": "edbb195cd8e5d7c54b0e037c15ce3113674bd2b3",
-    "hash": "1kizpi1j3n2w07xvn5gr33206iddkln9hxbaxzr18gh5xaydiqc9",
+    "rev": "8a628160ddb458dced0442bcc0ff968236a7d950",
+    "hash": "1r3qisl5wgl0yzpyn1wsphn93b0l3vh9jjpjj3z5rbapajpriazz",
     "skills": [
-      "media-generation",
-      "skills/varg-video-generation",
       "varg-ai"
     ],
-    "lastUpdated": "2026-03-26T01:27:59.132Z"
+    "lastUpdated": "2026-03-26T06:41:12.976Z"
   },
   {
     "source": "github:variant-systems/skills",
@@ -3330,13 +2901,12 @@
   },
   {
     "source": "github:varunr89/resume-tailoring-skill",
-    "rev": "477341020c40fdb547ac2e4b50fa8e22cd36547b",
-    "hash": "0zjlzkb8hvg37zal9b5fln4mv0ncwwhrzilc1gvwb04zpjf0r9xx",
+    "rev": "9a4a0f20f5983d1b533627b8c5191acd1ca0cd89",
+    "hash": "1r1z2hq0wf75chhfmb7x9fdsyf4vh37sgnw471mq7h967hyqzq0m",
     "skills": [
-      ".",
       "skills/resume-tailoring"
     ],
-    "lastUpdated": "2026-03-26T01:28:01.242Z"
+    "lastUpdated": "2026-03-26T06:41:13.608Z"
   },
   {
     "source": "github:vasilyu1983/ai-agents-public",
@@ -3482,12 +3052,12 @@
   },
   {
     "source": "github:vaxobjanovdev/toml",
-    "rev": "94af4564dd47030cb26179e94f51a5df495837c4",
-    "hash": "1l1xd52x7mry21kswq96sdjig9dr4v5xgw9b0536h1xvs10kgsvz",
+    "rev": "65f93253bcf6c5d424b3b81972ed367aea4c34bb",
+    "hash": "0s6dk90sl2dw6563iqdfi4mgdqmvgi5fvipp2d85i8bssrldm3c1",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-26T01:28:01.054Z"
+    "lastUpdated": "2026-03-26T06:41:13.603Z"
   },
   {
     "source": "github:vbh1v/solana-mobile-dev-skill",
@@ -3645,20 +3215,20 @@
   },
   {
     "source": "github:vdesjardins/nix-config",
-    "rev": "fff28f0734b07ba800cd92cc25a1969c483753a5",
-    "hash": "05dq0swjjcs3qwxkr5yd0hxj8j62vq06z8l5dfimls137pimvbjj",
+    "rev": "0d4ab5fb4c6ddc1e945fe0daa8307e39f422a039",
+    "hash": "0hhvinyqk5gns779vqg6msl7n336d5iap8krgzdjf92dblvgif4k",
     "skills": [
       "home/modules/modules/ai/skills/buku/skill",
       "home/modules/modules/ai/skills/conventional-commits",
       "packages/skill-flux",
       "packages/skill-timewarrior-efficient-entry"
     ],
-    "lastUpdated": "2026-03-25T04:54:35.363Z"
+    "lastUpdated": "2026-03-26T06:41:15.964Z"
   },
   {
     "source": "github:vdustr/vp-claude-code-marketplace",
-    "rev": "1b134f1daa06f112f969bdbf7b695c555d69343b",
-    "hash": "07lp3pdxa6w41a4mys7m1l22904x8lrd4p9jslyx1b2fjhr5091a",
+    "rev": "4480df28b1adeb8bb03bdd92e9581a71ab275a31",
+    "hash": "0kspcn55qmzn87wkfla3cbwh95bngf9bp00rkrayjr3lfcp8y426",
     "skills": [
       "plugins/vp-checklist-runner/skills/checklist-runner",
       "plugins/vp-cspell/skills/cspell",
@@ -3682,7 +3252,7 @@
       "plugins/vp-wenyan-mode/skills/wenyan-mode",
       "templates"
     ],
-    "lastUpdated": "2026-03-26T01:28:07.631Z"
+    "lastUpdated": "2026-03-26T06:41:14.813Z"
   },
   {
     "source": "github:vechain/vechain-ai",
@@ -3837,8 +3407,8 @@
   },
   {
     "source": "github:vegetapn/writing-assistant-skill",
-    "rev": "35835945868c73c9746082733c9966bba4e0fc9c",
-    "hash": "0zd9c1ir1g21c8xwyrqxx7c3ljq8mndvqf6pvq07wvjfr3vvlzsc",
+    "rev": "0f9a68a24403a6cd3f03b082c389ef04b4e56304",
+    "hash": "0gdy9l18vcfjplk8bfbxw236kpfba6nx2j3pp1cgwp3lmdf2azs8",
     "skills": [
       ".",
       "dependencies/baoyu-post-to-wechat",
@@ -3849,7 +3419,7 @@
       "dependencies/wechat-article-search",
       "dependencies/xiaohongshu"
     ],
-    "lastUpdated": "2026-03-26T01:28:09.471Z"
+    "lastUpdated": "2026-03-26T06:41:16.112Z"
   },
   {
     "source": "github:veithly/find-skills",
@@ -3986,12 +3556,10 @@
   },
   {
     "source": "github:ven0m0/claude-config",
-    "rev": "09625fb00961b3c1badc61ebfed9ab5493d78b97",
-    "hash": "1hizp9cz2ciqxrp15jazm8dqqcl13rfv85n34my571xwgyg7r7nk",
+    "rev": "9ca819c65d02c669ee90762354ad523a1ebacc21",
+    "hash": "142ps6c4pbsj26b7rp398490rrhz6l2h9q2rsdymnx4l4ym0qh6l",
     "skills": [
       ".claude/skills/code-review",
-      ".claude/skills/python-tests",
-      ".gemini/skills/github-issue-creator",
       "claude/skills/agnix",
       "claude/skills/ast-grep-search",
       "claude/skills/bash-optimizer",
@@ -4012,20 +3580,14 @@
       "claude/skills/markdown-tools",
       "claude/skills/mcp-builder",
       "claude/skills/moai",
-      "claude/skills/model-policy",
       "claude/skills/modern-tool-substitution",
-      "claude/skills/mx-tags",
-      "claude/skills/portable-config",
-      "claude/skills/pr-summary",
       "claude/skills/prd",
       "claude/skills/python-project-development",
       "claude/skills/ralph-planner",
-      "claude/skills/render-output",
       "claude/skills/repomix",
       "claude/skills/repomix-unmixer",
       "claude/skills/ruff",
       "claude/skills/rust",
-      "claude/skills/self-reflection",
       "claude/skills/sequential-thinking",
       "claude/skills/strategic-compact",
       "claude/skills/svg",
@@ -4053,26 +3615,9 @@
       "opencode/skill/flow-next-opencode-worktree-kit",
       "opencode/skill/image-compress",
       "opencode/skill/tailnet-publish",
-      "opencode/skill/websearch",
-      "plugins/claude-praetorian/skills/claude-praetorian",
-      "plugins/coding-assistant/skills/debug",
-      "plugins/coding-assistant/skills/refactor",
-      "plugins/config-wizard/skills/designing-claude-skills",
-      "plugins/config-wizard/skills/managing-permissions",
-      "plugins/conserve/skills/bloat-detector",
-      "plugins/conserve/skills/code-quality-principles",
-      "plugins/conserve/skills/context-optimization",
-      "plugins/conserve/skills/cpu-gpu-performance",
-      "plugins/conserve/skills/decisive-action",
-      "plugins/conserve/skills/mcp-code-execution",
-      "plugins/conserve/skills/optimizing-large-skills",
-      "plugins/conserve/skills/response-compression",
-      "plugins/conserve/skills/token-conservation",
-      "plugins/prompt-improver/skills/prompt-improver",
-      "plugins/skill-authoring",
-      "plugins/skills-eval"
+      "opencode/skill/websearch"
     ],
-    "lastUpdated": "2026-03-26T01:28:09.474Z"
+    "lastUpdated": "2026-03-26T06:41:15.957Z"
   },
   {
     "source": "github:vendor-rip/rip",
@@ -4561,12 +4106,12 @@
   },
   {
     "source": "github:vercel/chat",
-    "rev": "4166e09dad44d1532e283c2810edb2b1e2ed6f2f",
-    "hash": "0n6vvf3x5y24a74jjzcrqdvjwy54ahjpm3izj2calqjh06rrr6gs",
+    "rev": "91820173f467cd35eee7075694ec0254cc1aea8f",
+    "hash": "0c9nn4hgl1fh6ywrkrjjlb7cj3gna69vm3dnnkwd24g1xsaybrcm",
     "skills": [
       "skills/chat"
     ],
-    "lastUpdated": "2026-03-25T22:14:37.313Z"
+    "lastUpdated": "2026-03-26T06:40:56.751Z"
   },
   {
     "source": "github:vercel/components.build",
@@ -4615,8 +4160,8 @@
   },
   {
     "source": "github:vercel/next.js",
-    "rev": "56993a6c3b2dbb090312628097bcb180a60a993a",
-    "hash": "19y17hkydh490zyrmg7kh4s5a380fslq86vmx9xmc7q9ih0kprcm",
+    "rev": "16935744fbd44743e9546cbcc578be3e473c0035",
+    "hash": "1iz5pcg80kgjp9jy99rgc13bvplwvm3shlbhli8v10vzaxmxk4ab",
     "skills": [
       ".agents/skills/authoring-skills",
       ".agents/skills/dce-edge",
@@ -4631,7 +4176,7 @@
       ".agents/skills/write-guide",
       ".claude-plugin/plugins/cache-components/skills/cache-components"
     ],
-    "lastUpdated": "2026-03-26T01:30:17.900Z"
+    "lastUpdated": "2026-03-26T06:43:42.590Z"
   },
   {
     "source": "github:vercel/nextjs-skills",
@@ -4664,21 +4209,21 @@
   },
   {
     "source": "github:vercel/turbo",
-    "rev": "014111ceefcb39ab02be392f2a08e176a05f33c3",
-    "hash": "0qlhrqll1v3mq39i2ih2dkxk9rpmcn0cgcjgy8q5knmk0gmp0b8f",
+    "rev": "48aa171b21614658170e9db3d989d5701b4a7829",
+    "hash": "0f51m05ch7w06wbwmg0bfpcbdrwa42910fjz8bp8q121ni0fc0xz",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-03-25T19:29:57.976Z"
+    "lastUpdated": "2026-03-26T06:41:45.154Z"
   },
   {
     "source": "github:vercel/turborepo",
-    "rev": "014111ceefcb39ab02be392f2a08e176a05f33c3",
-    "hash": "0qlhrqll1v3mq39i2ih2dkxk9rpmcn0cgcjgy8q5knmk0gmp0b8f",
+    "rev": "48aa171b21614658170e9db3d989d5701b4a7829",
+    "hash": "0f51m05ch7w06wbwmg0bfpcbdrwa42910fjz8bp8q121ni0fc0xz",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-03-25T19:30:02.323Z"
+    "lastUpdated": "2026-03-26T06:41:44.884Z"
   },
   {
     "source": "github:vercel/vercel",
@@ -5195,12 +4740,12 @@
   },
   {
     "source": "github:victor604/frontend-design",
-    "rev": "ec6674d4b82ea5cee704a8f8962404e3ce18ce3f",
+    "rev": "e02306923267934bb7ab58654ebb3517e1775a13",
     "hash": "1f457pnrhj0jmbv03kg0clx11l92mppw6pn3r5spj5jpa76n6110",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-26T01:27:55.121Z"
+    "lastUpdated": "2026-03-26T06:41:15.663Z"
   },
   {
     "source": "github:victoralbino/agent-skills",
@@ -5277,12 +4822,12 @@
   },
   {
     "source": "github:victorpay1/intelligems-api",
-    "rev": "0defebe395dbf76805a23284a6fb4df2cffa5344",
-    "hash": "19asnvq925cxxwi09wr51019fxn8m0pvik1c0y3iwpdahpv9zabn",
+    "rev": "3c52799608c5fd2c4cc4ed1257e0b062e27770d7",
+    "hash": "1d5ccln33ay4g1l1cjzi2hkblcm6hjqscjpzzs079m5sgmm4qc3h",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-26T01:28:02.139Z"
+    "lastUpdated": "2026-03-26T06:41:15.924Z"
   },
   {
     "source": "github:victorpay1/intelligems-plugins",
@@ -5402,8 +4947,8 @@
   },
   {
     "source": "github:videojs/v10",
-    "rev": "cf055727c7d5ae4cff24825f1c5fd7fe2f7fc25a",
-    "hash": "1v944908rbp03sqvkp7s8n2wpwzvlhqyz0ws6nii09q7nx317cix",
+    "rev": "17a73cb3ddff5529cf492b9a9c582fe5fe25f516",
+    "hash": "011ia12v61vqvhnxqz09nxqs7zrls0q35ay5qxaq832a13qg9qnz",
     "skills": [
       ".claude/skills/api",
       ".claude/skills/api-reference",
@@ -5411,6 +4956,7 @@
       ".claude/skills/claude-update",
       ".claude/skills/commit-pr",
       ".claude/skills/component",
+      ".claude/skills/create-issue",
       ".claude/skills/create-skill",
       ".claude/skills/design",
       ".claude/skills/docs",
@@ -5419,7 +4965,7 @@
       ".claude/skills/review-branch",
       ".claude/skills/rfc"
     ],
-    "lastUpdated": "2026-03-25T07:36:52.831Z"
+    "lastUpdated": "2026-03-26T06:41:19.538Z"
   },
   {
     "source": "github:vidyfoo/antigravity-skill-engine",
@@ -5540,12 +5086,12 @@
   },
   {
     "source": "github:vigorx777/ppt-svg-generator",
-    "rev": "a174db539bf904bbbbc327621a9166154102d1fb",
-    "hash": "0x7xygvxl6p0275c9358770h9hg10wqimjyg72kcj1z45jh2zymr",
+    "rev": "c873b61673ab0ada5c09f863bff89c8f1b3248fb",
+    "hash": "0r5pfgwsjh84ahpkrg348nsylzjbhc8gpd0mgkm1361ryxmp197k",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-26T01:27:58.567Z"
+    "lastUpdated": "2026-03-26T06:41:17.378Z"
   },
   {
     "source": "github:vigorx777/x-ai-topic-selector",
@@ -5749,13 +5295,12 @@
   },
   {
     "source": "github:vikram-blaxel/agent-skills",
-    "rev": "84fc4bbb6a1cb9f01936477c97b107e22c3511a5",
-    "hash": "09jfnzzkv04qrwrpa3sa6gqhxi7829z91wzqlrwzicb9pnq38d7b",
+    "rev": "d53feb8b3f0945161c7b28c90aa6310287663219",
+    "hash": "0qfbyp58g1slpwiq44zcggx36d9b9f8mrg52fh9dis8dwldp3cj0",
     "skills": [
-      ".",
       "blaxel"
     ],
-    "lastUpdated": "2026-03-26T01:27:59.029Z"
+    "lastUpdated": "2026-03-26T06:41:17.451Z"
   },
   {
     "source": "github:viktar-silakou/inspecting-changes-skill",
@@ -6121,8 +5666,8 @@
   },
   {
     "source": "github:vinnie357/claude-skills",
-    "rev": "59e9c05b5430198e08b6abb519e637dde765aa35",
-    "hash": "04chjswy23g9kc2aj9m6vnnawwvapwirhjkbs92vz4khhik06kzh",
+    "rev": "fdd4073480684485363691badbae505f9db41623",
+    "hash": "0qzcpykqm4xd8lgibaf5pknbjik89my07hpzdc372lad5b339hc4",
     "skills": [
       "plugins/core/skills/accessibility",
       "plugins/core/skills/anti-fabrication",
@@ -6176,9 +5721,10 @@
       "plugins/tools/tweag/skills/nickel",
       "plugins/tools/tweag/skills/topiary",
       "plugins/ui/skills/daisyui",
-      "plugins/wasm/skills/wasmtime"
+      "plugins/wasm/skills/wasmtime",
+      "plugins/wasm/skills/wit"
     ],
-    "lastUpdated": "2026-03-26T01:27:19.019Z"
+    "lastUpdated": "2026-03-26T06:41:34.502Z"
   },
   {
     "source": "github:vinnie357/claudio",
@@ -6355,12 +5901,12 @@
   },
   {
     "source": "github:violin86318/weibo-hotspot-analyzer",
-    "rev": "b385e5632e3157ca1c461e4b6a7ca016b6c6289e",
-    "hash": "0gmn9ympnbfdsjdwi5shn22405f9wz266mc9zfbpfpnm47nkyrjd",
+    "rev": "5d7ca7e8cee32174bf1408dfe1409c3aa128d90e",
+    "hash": "0irwddid8nai8a316a5hz7fdbgd33nqxspy5c5mhqnbrm1py5is7",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-26T01:27:16.922Z"
+    "lastUpdated": "2026-03-26T06:41:36.434Z"
   },
   {
     "source": "github:vipulgupta2048/codex-skills",
@@ -6418,12 +5964,12 @@
   },
   {
     "source": "github:visactor/vchart",
-    "rev": "03ab1d3b877578f0b0dbbc673a03a67ed4cf4df9",
-    "hash": "086cfiyfs8zgyhcyac5cr7xqk8vb85mwclra4fmyyds7r5rn1x43",
+    "rev": "f49734a6ec6589367538a73987fd709ff287bc48",
+    "hash": "1kd2x5zkj4m42l2awjrrgmyp4n1nlwvhshi146alxjg5cgc0vwy0",
     "skills": [
       "skills/vchart-development-assistant"
     ],
-    "lastUpdated": "2026-03-25T13:28:29.404Z"
+    "lastUpdated": "2026-03-26T06:42:43.776Z"
   },
   {
     "source": "github:visactor/vtable",
@@ -6741,12 +6287,12 @@
   },
   {
     "source": "github:vitejs/devtools",
-    "rev": "32addfa1e2c76d8263e0df300c77d5359e9479f7",
-    "hash": "0d2zl387wbp5xyrdwajvhb0b5f0fpsga2s6m28qlr7czpg9i6yb4",
+    "rev": "a521eab126209c74d399639f240ce7b190f23c8e",
+    "hash": "1yymsxga2q2hzz344ym6xkb39f9bv9zifzdc4kvmi0ry14pil8nl",
     "skills": [
       "skills/vite-devtools-kit"
     ],
-    "lastUpdated": "2026-03-25T16:29:18.614Z"
+    "lastUpdated": "2026-03-26T06:41:39.661Z"
   },
   {
     "source": "github:vitorpamplona/amethyst",
@@ -6973,12 +6519,12 @@
   },
   {
     "source": "github:vladimir-human/humanizer-ru",
-    "rev": "6ed20a1efb6d0d48433dacf5786a1996e7ddde4d",
-    "hash": "052xpsyzkq09gvbn76wn2jpw8v1vbnfi40abb0pa2hzxj61cwsgr",
+    "rev": "63511310466030367cfda910d8320d0b2ff6f2aa",
+    "hash": "0xyhdyzba1zabidp9d1c713xv7f8289apxf7iihj0dwvmzl4qbgq",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-26T01:28:13.326Z"
+    "lastUpdated": "2026-03-26T06:40:05.293Z"
   },
   {
     "source": "github:vladimirbrejcha/ios-ai-skills",
@@ -7317,19 +6863,15 @@
   },
   {
     "source": "github:vm0-ai/vm0",
-    "rev": "ccf26ac0d9b9045d247121f62b6211a36a826040",
-    "hash": "0wcf8mxm8ws2k1pjd0yd5qfgfq2rfn7v5mviy8nqhnp4zjcy22n6",
+    "rev": "32e85e2862e434017446994f038efa64a1db62f8",
+    "hash": "1splmlnngwwvyjf8mbam47y5h57vwc6l3mmfja4f3pl47cqc6av0",
     "skills": [
-      ".claude/skills/agent-api-connector",
       ".claude/skills/agent-browser",
-      ".claude/skills/begin-coding-loop",
       ".claude/skills/begin-coding-worker",
       ".claude/skills/ccstate",
       ".claude/skills/cli-design",
       ".claude/skills/code-quality",
       ".claude/skills/coding-assign",
-      ".claude/skills/coding-dashboard",
-      ".claude/skills/coding-loop",
       ".claude/skills/commit",
       ".claude/skills/database-development",
       ".claude/skills/dev-browser",
@@ -7343,7 +6885,6 @@
       ".claude/skills/issue-create",
       ".claude/skills/issue-handoff",
       ".claude/skills/issue-plan",
-      ".claude/skills/issue-request",
       ".claude/skills/my-issues",
       ".claude/skills/ops-utils",
       ".claude/skills/pr-check",
@@ -7359,12 +6900,12 @@
       ".claude/skills/testing",
       ".claude/skills/turbo-reset"
     ],
-    "lastUpdated": "2026-03-26T01:28:21.639Z"
+    "lastUpdated": "2026-03-26T06:40:12.002Z"
   },
   {
     "source": "github:vm0-ai/vm0-skills",
-    "rev": "70bba5a5f68b95765c9005329f151a20f2331169",
-    "hash": "1b8ip6glvah05id1wf5mx7bzpwaxy6rnfcg1y58kpkgg7cighbfj",
+    "rev": "90bbd2638fc6c8cd521d439dd20f6f7b5695c093",
+    "hash": "1kj8f3a6pvz9qy982asf6gbnrwbmw0911pn4z6c43ynsk1czy1s4",
     "skills": [
       "account-reconciliation",
       "agentmail",
@@ -7404,7 +6945,6 @@
       "deel",
       "deep-dive",
       "deepseek",
-      "dev.to",
       "devto",
       "dify",
       "discord",
@@ -7415,7 +6955,6 @@
       "escalation-brief",
       "explorium",
       "fal",
-      "fal.ai",
       "figma",
       "firecrawl",
       "fireflies",
@@ -7532,7 +7071,7 @@
       "zendesk",
       "zeptomail"
     ],
-    "lastUpdated": "2026-03-25T16:28:47.834Z"
+    "lastUpdated": "2026-03-26T06:40:09.091Z"
   },
   {
     "source": "github:vmathias79/n8n-custom-node-builder-skill",
@@ -7698,8 +7237,8 @@
   },
   {
     "source": "github:volcengine/openviking",
-    "rev": "cd4bf44368579e42c125883d80cabc145792459b",
-    "hash": "0x2mmnzq9b76j19dr7y2phw4dn3zs7ypwc9f2551hqxrbz9s5s3k",
+    "rev": "20a25fde5880ee1482eab48280bf33d27d4219ee",
+    "hash": "1iicplp77xlvgcakx5m0iyr2gvdfh6aw8hgz6jzb9rbvv4y8yyci",
     "skills": [
       "bot/workspace/skills/cron",
       "bot/workspace/skills/github",
@@ -7712,14 +7251,11 @@
       "examples/claude-memory-plugin/skills/memory-recall",
       "examples/openclaw-plugin/skills/install-openviking-memory",
       "examples/opencode/plugin/skills/openviking",
-      "examples/skills/adding-memory",
-      "examples/skills/adding-resource",
       "examples/skills/ov-add-data",
       "examples/skills/ov-search-context",
-      "examples/skills/ov-server-operate",
-      "examples/skills/searching-context"
+      "examples/skills/ov-server-operate"
     ],
-    "lastUpdated": "2026-03-26T01:28:21.621Z"
+    "lastUpdated": "2026-03-26T06:40:10.901Z"
   },
   {
     "source": "github:voltagent/skills",
@@ -7755,12 +7291,12 @@
   },
   {
     "source": "github:volter-ai/runhuman-skills",
-    "rev": "c61ff94ebbf4965fdf3019da862b553bfc81135d",
-    "hash": "0k0njzjvb28bzfn0spzlk37dl9g2na1146fdl3gr1n84w7y8qj0i",
+    "rev": "37c650868c443ecd6cd380c596f5b111be4ec88f",
+    "hash": "14wznfmg2463bh82x5krn4pq316pnyszvqazmahfas49rvvv9w20",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-26T01:28:24.123Z"
+    "lastUpdated": "2026-03-26T06:40:09.435Z"
   },
   {
     "source": "github:vong3432/vibemark",
@@ -7886,10 +7422,9 @@
   },
   {
     "source": "github:vp-k/flutter-craft",
-    "rev": "3101ad0a0e54ae97011e04d87c16c1ea36dcc4b6",
-    "hash": "0qzkplf2ka2mjxxfjzn9hzraj4dgy7g41dgmkzz1n8wmjiy0b40p",
+    "rev": "d5875f5687e0b26cbae55df5a42753f238d49e00",
+    "hash": "0m4z5ilj77fppdi7l2mvmnwq952zhvkc7fnypfw16x907ck5pwv5",
     "skills": [
-      "plugins/design-polish/skills/design-polish",
       "skills/flutter-brainstorming",
       "skills/flutter-debugging",
       "skills/flutter-executing",
@@ -7906,7 +7441,7 @@
       "skills/flutter-writing-skills",
       "skills/start-flutter-craft"
     ],
-    "lastUpdated": "2026-03-26T01:28:19.737Z"
+    "lastUpdated": "2026-03-26T06:40:10.665Z"
   },
   {
     "source": "github:vre/flow-state",
@@ -8064,30 +7599,29 @@
   },
   {
     "source": "github:vuejs-ai/skills",
-    "rev": "9c4dd34bc22fa27730fabd2a573ea763ef02c8a0",
-    "hash": "162z3rx9jv4mlmyddmzqf5wa8sz9l24slclm1jxgasm30n6k75hw",
+    "rev": "c9d355ff23f654309dd02006be671859df0a134c",
+    "hash": "1lwi8sdywiy6wqjjrdmrq8i4f6pnv4y4svq9ib2axxfwrxp1kzl7",
     "skills": [
       "skills/create-adaptable-composable",
       "skills/vue-best-practices",
       "skills/vue-debug-guides",
-      "skills/vue-development-guides",
       "skills/vue-jsx-best-practices",
       "skills/vue-options-api-best-practices",
       "skills/vue-pinia-best-practices",
       "skills/vue-router-best-practices",
       "skills/vue-testing-best-practices"
     ],
-    "lastUpdated": "2026-03-24T04:45:39.027Z"
+    "lastUpdated": "2026-03-26T06:40:10.889Z"
   },
   {
     "source": "github:vuetifyjs/0",
-    "rev": "ce5bdbd3a79f99887defbe29d7c6dc91bd80eceb",
-    "hash": "0h2zwmc519ns8jj10aidx79z4vsfsnbr080c8kh3ig80x2qf21x3",
+    "rev": "ca35e9d697e96ac1700922c83c6200f8203510ca",
+    "hash": "0m9w5jw41dg2kcqgw9ly2wqc4dzps4bvilhlmlkig16kgj8811f9",
     "skills": [
       "packages/0",
       "skills/vuetify0"
     ],
-    "lastUpdated": "2026-03-26T01:28:22.190Z"
+    "lastUpdated": "2026-03-26T06:40:12.319Z"
   },
   {
     "source": "github:vueuse/skills",
