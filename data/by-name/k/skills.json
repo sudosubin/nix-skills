@@ -299,12 +299,12 @@
   },
   {
     "source": "github:Kayunangka/claude-skill",
-    "rev": "d578594c8ba284aa936e17be191888c54c7e9cf3",
+    "rev": "8c144003e10568442ab95af9851d6a36521452e7",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-03-27T10:16:47.455Z"
+    "lastUpdated": "2026-03-27T13:22:27.502Z"
   },
   {
     "source": "github:KhazP/vibe-coding-prompt-template",
@@ -361,14 +361,14 @@
   },
   {
     "source": "github:Kyure-A/agent-skills-nix",
-    "rev": "bf08d4153f03d6a3c7421332483f1e3d25cd6d4c",
-    "hash": "069isiz1qviafz1nkkv5kgchkql6dwbqc8hyqd70syq46cb8ypi5",
+    "rev": "e29bef0e9e56c4cc683cead15a6eda1d6fb1074e",
+    "hash": "1ax3a17cl70qjjk5p5c8m6bxmq4bn933i4k2k4p1bkc4n423vzyh",
     "skills": [
       "test/fixtures/nested-skills/cat-a/skill-1",
       "test/fixtures/nested-skills/cat-a/skill-2",
       "test/fixtures/test-skill"
     ],
-    "lastUpdated": "2026-03-20T22:10:33.151Z"
+    "lastUpdated": "2026-03-27T13:22:27.506Z"
   },
   {
     "source": "github:k-dense-ai/claude-scientific-skills",
@@ -1843,8 +1843,8 @@
   },
   {
     "source": "github:kasperjunge/agent-resources",
-    "rev": "dff80c6176207d87b826d10412b8c21408067d52",
-    "hash": "0fsrkawxqly522hjcmkwq38jjbpng76dfwn94smdhwphrd3xhxq1",
+    "rev": "db900c4b9ba8e7c238957af88938e08295bc46fb",
+    "hash": "0y94h8ckyjk72qg4ialpffs3dqbky4fd08llmgxmb5bbwahxx5jn",
     "skills": [
       "skills/agr/migrate-to-skills",
       "skills/development/codebase-maintenance/discover-codebase-enhancements",
@@ -1864,7 +1864,7 @@
       "skills/skill-development/refactor-for-determinism",
       "skills/writing/skriv-som-kasper"
     ],
-    "lastUpdated": "2026-03-27T10:18:13.180Z"
+    "lastUpdated": "2026-03-27T13:24:17.386Z"
   },
   {
     "source": "github:kasperjunge/agent-resources-legacy",
@@ -1976,12 +1976,12 @@
   },
   {
     "source": "github:kayunangka/claude-skill",
-    "rev": "d578594c8ba284aa936e17be191888c54c7e9cf3",
+    "rev": "8c144003e10568442ab95af9851d6a36521452e7",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-03-27T10:18:14.442Z"
+    "lastUpdated": "2026-03-27T13:24:17.024Z"
   },
   {
     "source": "github:kazan/diagrammer",
@@ -3885,14 +3885,14 @@
   },
   {
     "source": "github:kilo-org/kilocode",
-    "rev": "3445ce86b1131340ffb8ea944c58d3ff6d876935",
-    "hash": "1zawi7cv18x5dk5myb55r99lwa59ns5wzqh7y1dc1i5p35xwfhyv",
+    "rev": "49bb16ca31ec14d10713458c8a4229dd03c7a06f",
+    "hash": "1c5v6fd2b9n0gcxy9krv2299wl1lh8g6mhxjir0p2bi2xnfla8iv",
     "skills": [
       ".kilocode/skills/vscode-visual-regression",
       "packages/opencode/test/fixture/skills/agents-sdk",
       "packages/opencode/test/fixture/skills/cloudflare"
     ],
-    "lastUpdated": "2026-03-27T10:18:47.678Z"
+    "lastUpdated": "2026-03-27T13:23:24.926Z"
   },
   {
     "source": "github:kilospark/webact",
@@ -4836,11 +4836,12 @@
   },
   {
     "source": "github:kjgarza/marketplace-claude",
-    "rev": "a7dd26cb4d06dda3372bb975d5dc4f7ec924a916",
-    "hash": "1v4qkh6znmrn3s949a8cfdgr4d8vy212bvhzabssnnys141waqch",
+    "rev": "2c77d8912897f1883091b476c2f3e50a39ea1318",
+    "hash": "0pjg2jk74d0ayxsv07j7d3vifyprysaiyv3w0zrrdf7n9fkzchnj",
     "skills": [
+      "plugins/berlin-events/skills/event-sources",
+      "plugins/berlin-events/skills/find-events",
       "plugins/bookclub/skills/bookclub",
-      "plugins/kjgarza-base/skills/file-organising",
       "plugins/kjgarza-base/skills/file-organizer",
       "plugins/kjgarza-base/skills/image-processing",
       "plugins/kjgarza-base/skills/project-scaffold",
@@ -4860,23 +4861,17 @@
       "plugins/rapid-mvp/skills/eleventy-stack",
       "plugins/rapid-mvp/skills/nextjs-stack",
       "plugins/rapid-mvp/skills/shared-packages",
+      "plugins/readitlater-digest/skills/digest",
+      "plugins/readitlater-digest/skills/status",
       "plugins/scholarly-comms-researcher/skills/literature-review",
       "plugins/scholarly-comms-researcher/skills/scholar-evaluation",
       "plugins/scholarly-comms-researcher/skills/scientific-brainstorming",
       "plugins/scholarly-comms-researcher/skills/scientific-critical-thinking",
       "plugins/scholarly-comms-researcher/skills/scientific-visualization",
       "plugins/scholarly-comms-researcher/skills/scientific-writing",
-      "plugins/scholarly-comms-researcher/skills/scikit-survival",
-      "plugins/senior-software-developer/skills/chrome-extension-builder",
-      "plugins/senior-software-developer/skills/cli-generator",
-      "plugins/senior-software-developer/skills/detect-code-smells",
-      "plugins/senior-software-developer/skills/mcp-builder",
-      "plugins/senior-software-developer/skills/monorepo-generator",
-      "plugins/senior-software-developer/skills/security-pattern-check",
-      "plugins/senior-software-developer/skills/suggest-performance-fix",
-      "plugins/senior-software-developer/skills/vscode-extension-builder"
+      "plugins/scholarly-comms-researcher/skills/scikit-survival"
     ],
-    "lastUpdated": "2026-03-22T10:19:52.780Z"
+    "lastUpdated": "2026-03-27T13:25:13.140Z"
   },
   {
     "source": "github:kjhelgason/polymarket_agent_skills",
@@ -5362,7 +5357,7 @@
   },
   {
     "source": "github:kobolden/angular-skills",
-    "rev": "8f56abd3524d88b2ede610af6e748b5487ed8599",
+    "rev": "a27d5804ac12b7ed6e5ff920d0eaf5e475a04ace",
     "hash": "0npi8l8540h08agnh42lbjnnxxnznd54787h74qgs53dcad9v170",
     "skills": [
       "skills/angular-component",
@@ -5376,7 +5371,7 @@
       "skills/angular-testing",
       "skills/angular-tooling"
     ],
-    "lastUpdated": "2026-03-27T10:18:55.481Z"
+    "lastUpdated": "2026-03-27T13:23:32.214Z"
   },
   {
     "source": "github:kochetkov-ma/claude-brewcode",
@@ -6094,15 +6089,15 @@
   },
   {
     "source": "github:kotlin/kotlin-agent-skills",
-    "rev": "56f0d35f3a74d88e380542b41e65c901e9a881f3",
-    "hash": "0yf7rcl2lbbiw9lpwxai1napy1cxfvhhfkkf2wi5k15fz9h6g391",
+    "rev": "a639ec43a30b6849a773c1a0f386c07270996c1b",
+    "hash": "0114w71gszacyahxfpi4lgxjj6snvg2jabg0bymz8vlcl26386xc",
     "skills": [
       "skills/kotlin-backend-jpa-entity-mapping",
       "skills/kotlin-tooling-agp9-migration",
       "skills/kotlin-tooling-cocoapods-spm-migration",
       "skills/kotlin-tooling-java-to-kotlin"
     ],
-    "lastUpdated": "2026-03-26T10:30:27.463Z"
+    "lastUpdated": "2026-03-27T13:23:39.109Z"
   },
   {
     "source": "github:kouko/monkey-knowledge-youtube-skills",
@@ -6237,8 +6232,8 @@
   },
   {
     "source": "github:kreuzberg-dev/kreuzberg",
-    "rev": "b29c2cb3c6d28188fb7149ea697d8f7dc43fddaf",
-    "hash": "0z16lm21lpv26y3ddmz1ng9v7s1bvhqj1a9gc0f0cfjnxj3pdqvj",
+    "rev": "c78e84117ed399d1a602bfda9290e3132a00a580",
+    "hash": "0d0swvhdm263g7pwvhapzc23xqd410v9c9yfqdl9i6vbghmfviv6",
     "skills": [
       ".ai-rulez/domains/document-extraction/skills/batch-extract-files",
       ".ai-rulez/domains/document-extraction/skills/cache-integration",
@@ -6291,7 +6286,7 @@
       ".ai-rulez/skills/wasm-constraints",
       "skills/kreuzberg"
     ],
-    "lastUpdated": "2026-03-27T10:17:58.593Z"
+    "lastUpdated": "2026-03-27T13:24:08.808Z"
   },
   {
     "source": "github:kriscard/kriscard-claude-plugins",
@@ -6846,12 +6841,12 @@
   },
   {
     "source": "github:kserve-fms/skills",
-    "rev": "b662261458873965ff8747d6b85047546d9f701b",
-    "hash": "18s5qijfhzck2n2qr2a5rlaxkxm0klj1l8ca06bwwnjbfpi1hvb4",
+    "rev": "f4cccc5beff5dee7528f8d25e626835eba3a3a2c",
+    "hash": "0fdpazw7bzpmyajlh6wpi65jdc2h7qpbwpchjzm0bchaq7pd7r2x",
     "skills": [
       "company-research"
     ],
-    "lastUpdated": "2026-03-17T16:22:46.313Z"
+    "lastUpdated": "2026-03-27T13:23:31.000Z"
   },
   {
     "source": "github:ksgisang/awt-skill",
@@ -6956,8 +6951,8 @@
   },
   {
     "source": "github:kubb-labs/kubb",
-    "rev": "edf9d5ffc1ccf28c43ed2b34fdb44f666ba8cacb",
-    "hash": "0y7nba90rmb5pi52wiccc8kqjjh6vwpcr34ksfhf92mb3z3a263s",
+    "rev": "2d25d9273944179b1f2c1bb1ddaff3c76c9728f4",
+    "hash": "14923wdf656jza86c4k7kd5x4awg6fjvn9mq1bsjvz103ac5a2p1",
     "skills": [
       ".skills/changelog",
       ".skills/coding-style",
@@ -6968,7 +6963,7 @@
       ".skills/pr",
       ".skills/testing"
     ],
-    "lastUpdated": "2026-03-27T01:25:16.956Z"
+    "lastUpdated": "2026-03-27T13:23:37.269Z"
   },
   {
     "source": "github:kubrickcode/workflow-toolkit",
