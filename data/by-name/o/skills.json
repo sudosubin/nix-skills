@@ -4458,15 +4458,15 @@
   },
   {
     "source": "github:onyx-dot-app/onyx",
-    "rev": "706872f0b7ec35c47ecc5548e38631061ea439af",
-    "hash": "1219g9wd0c7wsn1mpr03yfph4h064nbxl6zhz5pqnlpnhs5lqamw",
+    "rev": "462eb0697f362dfc1286364b862dae88d8223c99",
+    "hash": "16bj5vhjvjw5pc048fxqziihyq2953cjlsckz00wkqd8xxhgiq0l",
     "skills": [
       ".claude/skills/onyx-cli",
       ".claude/skills/playwright",
       "backend/onyx/server/features/build/sandbox/kubernetes/docker/skills/image-generation",
       "backend/onyx/server/features/build/sandbox/kubernetes/docker/skills/pptx"
     ],
-    "lastUpdated": "2026-03-27T19:25:14.434Z"
+    "lastUpdated": "2026-03-27T22:12:12.689Z"
   },
   {
     "source": "github:oocx/tfplan2md",
@@ -4772,8 +4772,8 @@
   },
   {
     "source": "github:open-metadata/openmetadata",
-    "rev": "eb0ba94a2bbaaa336072ab4110a5a336b9bdd3dd",
-    "hash": "1wypvj3sjzjd3gm7m9l7ri1b8n6jniyd6xplxsi0amp731g0w15c",
+    "rev": "904a76bb4b0acc31fb2037e24f9e57f10bbb6966",
+    "hash": "0y3jq6cz1ck3ivhiq700xc419b8d7l0rn7ji3lh2rb0wbkxvi4rm",
     "skills": [
       ".claude/skills/playwright",
       ".claude/skills/playwright-validation",
@@ -4783,7 +4783,7 @@
       "skills/connector-standards",
       "skills/test-locally"
     ],
-    "lastUpdated": "2026-03-27T19:26:59.665Z"
+    "lastUpdated": "2026-03-27T22:13:53.317Z"
   },
   {
     "source": "github:open-pencil/skills",
@@ -4873,8 +4873,8 @@
   },
   {
     "source": "github:openagentsinc/openagents",
-    "rev": "3624feac8c9937ef4ced9534c7b6d5637b2964e0",
-    "hash": "0fjr63bj09827iw7ihxvi8z23ld8cdgh9326xc1h7il8dq6l8g5a",
+    "rev": "b6045163f5b2019ad1ed2a6768a83bbeadf5fb1e",
+    "hash": "0whnnrjsw6ryz19civv42b13w57gcvy3kq4lpg4806krj8xdkym7",
     "skills": [
       "skills/autopilot-cad-builder",
       "skills/autopilot-data-market-control",
@@ -4890,12 +4890,12 @@
       "skills/moneydevkit",
       "skills/neutronpay"
     ],
-    "lastUpdated": "2026-03-27T16:21:17.132Z"
+    "lastUpdated": "2026-03-27T22:12:16.725Z"
   },
   {
     "source": "github:openai/codex",
-    "rev": "15fbf9d4f5fcc224c4c97e015253aeef52939ed4",
-    "hash": "1bwp3qcagn0wbvr7qhac6bfr583v9f0kfwjj029cazbazqixg2i7",
+    "rev": "465897dd0f3ab0732227ca2736c103f675f5d292",
+    "hash": "066bv40r93bb7n60nwvn3hnachfj932r2qypyjz5vmr1rk3f9f0g",
     "skills": [
       ".codex/skills/babysit-pr",
       ".codex/skills/remote-tests",
@@ -4906,7 +4906,7 @@
       "codex-rs/skills/src/assets/samples/skill-creator",
       "codex-rs/skills/src/assets/samples/skill-installer"
     ],
-    "lastUpdated": "2026-03-27T19:25:24.970Z"
+    "lastUpdated": "2026-03-27T22:12:34.670Z"
   },
   {
     "source": "github:openai/openai-agents-js",
@@ -4949,15 +4949,10 @@
   },
   {
     "source": "github:openai/plugins",
-    "rev": "aef533fd6ce0acf9b4850a5de33328a30731c18a",
-    "hash": "1gidb4w7jr195szmgj793c73khpb06sqbkws12zrbf7adwhs73jz",
+    "rev": "d88301d4694edc6282ca554e97fb8425cbd5a250",
+    "hash": "18qb4xg13l164229qbn33pfbr3m0z0grs8wbi0vlsj8sa75hd3ki",
     "skills": [
       ".agents/skills/plugin-creator",
-      "plugins/atlassian-rovo/skills/capture-tasks-from-meeting-notes",
-      "plugins/atlassian-rovo/skills/generate-status-report",
-      "plugins/atlassian-rovo/skills/search-company-knowledge",
-      "plugins/atlassian-rovo/skills/spec-to-backlog",
-      "plugins/atlassian-rovo/skills/triage-issue",
       "plugins/box/skills/box",
       "plugins/build-ios-apps/skills/ios-debugger-agent",
       "plugins/build-ios-apps/skills/swiftui-liquid-glass",
@@ -5032,31 +5027,12 @@
       "plugins/hugging-face/skills/transformers.js",
       "plugins/hugging-face/skills/vision-trainer",
       "plugins/linear/skills/linear",
-      "plugins/neon-postgres/skills/neon-postgres",
-      "plugins/neon-postgres/skills/neon-postgres-egress-optimizer",
       "plugins/netlify/skills/netlify-deploy",
       "plugins/notion/skills/notion-knowledge-capture",
       "plugins/notion/skills/notion-meeting-intelligence",
       "plugins/notion/skills/notion-research-documentation",
       "plugins/notion/skills/notion-spec-to-implementation",
-      "plugins/outlook-calendar/skills/outlook-calendar",
-      "plugins/outlook-calendar/skills/outlook-calendar-daily-brief",
-      "plugins/outlook-calendar/skills/outlook-calendar-free-up-time",
-      "plugins/outlook-calendar/skills/outlook-calendar-group-scheduler",
-      "plugins/outlook-calendar/skills/outlook-calendar-meeting-prep",
-      "plugins/outlook-email/skills/outlook-email",
-      "plugins/outlook-email/skills/outlook-email-inbox-triage",
-      "plugins/outlook-email/skills/outlook-email-reply-drafting",
-      "plugins/outlook-email/skills/outlook-email-subscription-cleanup",
-      "plugins/outlook-email/skills/outlook-email-task-extraction",
-      "plugins/ramp/skills/vendor-analysis",
       "plugins/sentry/skills/sentry",
-      "plugins/sharepoint/skills/sharepoint",
-      "plugins/sharepoint/skills/sharepoint-powerpoint",
-      "plugins/sharepoint/skills/sharepoint-shared-doc-maintenance",
-      "plugins/sharepoint/skills/sharepoint-spreadsheet-formula-builder",
-      "plugins/sharepoint/skills/sharepoint-spreadsheets",
-      "plugins/sharepoint/skills/sharepoint-word-docs",
       "plugins/slack/skills/slack",
       "plugins/slack/skills/slack-channel-summarization",
       "plugins/slack/skills/slack-daily-digest",
@@ -5064,13 +5040,6 @@
       "plugins/slack/skills/slack-outgoing-message",
       "plugins/slack/skills/slack-reply-drafting",
       "plugins/stripe/skills/upgrade-stripe",
-      "plugins/teams/skills/teams",
-      "plugins/teams/skills/teams-channel-summarization",
-      "plugins/teams/skills/teams-daily-digest",
-      "plugins/teams/skills/teams-messages",
-      "plugins/teams/skills/teams-notification-triage",
-      "plugins/teams/skills/teams-planner-task-management",
-      "plugins/teams/skills/teams-reply-drafting",
       "plugins/test-android-apps/skills/android-emulator-qa",
       "plugins/vercel/skills/agent-browser",
       "plugins/vercel/skills/agent-browser-verify",
@@ -5119,7 +5088,7 @@
       "plugins/vercel/skills/verification",
       "plugins/vercel/skills/workflow"
     ],
-    "lastUpdated": "2026-03-27T13:25:20.494Z"
+    "lastUpdated": "2026-03-27T22:12:34.651Z"
   },
   {
     "source": "github:openai/skills",
@@ -6296,8 +6265,8 @@
   },
   {
     "source": "github:openclaw/skills",
-    "rev": "4d4825b47cb3aa45ea30d0ec9dc72e1c4bdbea27",
-    "hash": "0icibmd8wjbzvfvxsa3jc9r4dgdyxpcgrjwv79s9z338ilvjpxs0",
+    "rev": "c32fb7930821a816429e4f1b337413122e03f887",
+    "hash": "0y5i51zp9jpzd59mrdlkwv4mkqbp88ap73rj9bqjmp630m3id3a4",
     "skills": [
       "skills/00010110/openclaw-version-monitor",
       "skills/000wonderclaw/clawcv",
@@ -11409,11 +11378,6 @@
       "skills/brennerspear/vercel-speed-audit",
       "skills/brettburbidge/taskline",
       "skills/brettcleary/coinfello",
-      "skills/brettinhere/clawmemory",
-      "skills/brettinhere/clawmemoryai",
-      "skills/brettinhere/codedna",
-      "skills/brettinhere/omp-memory",
-      "skills/brettinhere/polymarket-autotrader",
       "skills/breynol01/salesforce-reporting-copilot",
       "skills/breynol01/substack",
       "skills/brian-mwirigi/codesession",
@@ -19832,6 +19796,7 @@
       "skills/gora050/podio-integration",
       "skills/gora050/pointagram",
       "skills/gora050/pointerpro",
+      "skills/gora050/polly",
       "skills/gora050/postalytics",
       "skills/gora050/postgrid",
       "skills/gora050/practitest",
@@ -27662,6 +27627,7 @@
       "skills/lanhaixuan/minimax-usage-cn",
       "skills/lanqeur/onedrive-photo-batch",
       "skills/lanthar91/just-note",
+      "skills/lanxevo3/bounty-hunter-agent",
       "skills/lanxianghua/fireflylan-qr-code",
       "skills/lanyasheng/ai-news-aggregator",
       "skills/lanyasheng/apple-health-csv",
@@ -37092,6 +37058,7 @@
       "skills/rogue-agent1/brew-audit",
       "skills/rogue-agent1/git-changelog-gen",
       "skills/rogue-agent1/port-check",
+      "skills/rogue-agent1/siteaudit",
       "skills/rogue-agent1/web-monitor",
       "skills/rogueecho/moonraker",
       "skills/rohitg00/k8-autoscaling",
@@ -42953,6 +42920,8 @@
       "skills/vanki-wang/novel-writer",
       "skills/vanlabs-dev/bittensor-taostats",
       "skills/vansearch/flwr-branding-studio-kit",
+      "skills/vanthienha199/career-hunter",
+      "skills/vanthienha199/cross-poster",
       "skills/vanthienha199/figma-bridge",
       "skills/vanthienha199/project-kickstart",
       "skills/vanthienha199/slide-deck",
@@ -47855,7 +47824,7 @@
       "skills/zzxx-bit/multi-agent-deep-research",
       "skills/zzy05651666/apifox-exporter"
     ],
-    "lastUpdated": "2026-03-27T19:28:40.208Z"
+    "lastUpdated": "2026-03-27T22:15:56.601Z"
   },
   {
     "source": "github:openclawart/skills",
@@ -50019,14 +49988,14 @@
   },
   {
     "source": "github:oxc-project/oxc",
-    "rev": "ab1070d4fb63928ad08773d7d87097dbb16fa900",
-    "hash": "075xp09wb23hnqikgaxc2a5gr1b7j28vyckggzxbxlpwi8m53qif",
+    "rev": "1aec3368fac8c557b52bfd6a4220fef961a63f13",
+    "hash": "0ylqid51a1wcm86h5gdn6fnf21bs78cchy25pg0yzlnczja5yszr",
     "skills": [
       ".agents/skills/insta-snapshots",
       ".agents/skills/migrate-oxfmt",
       ".agents/skills/migrate-oxlint"
     ],
-    "lastUpdated": "2026-03-27T19:24:26.296Z"
+    "lastUpdated": "2026-03-27T22:13:26.558Z"
   },
   {
     "source": "github:oxedom/haflow",
