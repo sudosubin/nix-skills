@@ -834,8 +834,8 @@
   },
   {
     "source": "github:rakaadi/agent-kit",
-    "rev": "903e678332ca812b31fdfb7ad9a0efe192579321",
-    "hash": "1ww28j0ixzraldi9dxdkzdpprlq4fm41c6clrgb5z54zy76qqms2",
+    "rev": "754aacc70e041e158ba7ea8c6113cbd5fc5f7357",
+    "hash": "1pkzh521knivmjfjvz5lwxwj073fibhpqywn2m402ykrm9pml7j2",
     "skills": [
       "skills/art-of-comment",
       "skills/code-debugging",
@@ -843,7 +843,7 @@
       "skills/subagent-dispatch",
       "skills/writing-plan"
     ],
-    "lastUpdated": "2026-03-28T19:15:33.565Z"
+    "lastUpdated": "2026-03-28T22:19:51.394Z"
   },
   {
     "source": "github:ralixjs/skills",
@@ -4509,12 +4509,12 @@
   },
   {
     "source": "github:realmikechong/10x-chat",
-    "rev": "f0423a604142d8707bc4d099e39408c975803deb",
-    "hash": "0x1hvj7s0bpg4wxmyb613xmhwl8p92s7n7n4j7fl6x7d0r3chm02",
+    "rev": "db6f560dbc9442b47cf4d4ff68552b1f9a8a7ab2",
+    "hash": "131xzacf8xaqh4q5gw04gy5aa3w3l9rvj9cwxdfhnnma147lqcxw",
     "skills": [
       "skills/10x-chat"
     ],
-    "lastUpdated": "2026-03-28T19:15:59.585Z"
+    "lastUpdated": "2026-03-28T22:18:32.747Z"
   },
   {
     "source": "github:realqiyan/fund-advisor",
@@ -5263,7 +5263,7 @@
   },
   {
     "source": "github:reminiscent-io/wanderluxe",
-    "rev": "eb595162ddaddabacd66e67f73a6ec31d459390a",
+    "rev": "c051852999a98f26bacc30aa2eb8aa20e4e3cda1",
     "hash": "09hz4hib9dp3vhmf2iyyq24zqc6ar1fgmrgssi6izlsiwx89h428",
     "skills": [
       ".claude/skills/CTO",
@@ -5274,7 +5274,7 @@
       ".claude/skills/stripe-best-practices",
       ".claude/skills/tool-calling"
     ],
-    "lastUpdated": "2026-03-28T19:16:17.369Z"
+    "lastUpdated": "2026-03-28T22:18:53.015Z"
   },
   {
     "source": "github:remix-run/agent-skills",
@@ -5317,8 +5317,8 @@
   },
   {
     "source": "github:remorses/kimaki",
-    "rev": "d32babe2bc2debe98571b76787fec41b72e35f56",
-    "hash": "1b5qv9lnr9c8paz2vzmr75gc255na6hijzh5hxkfh3d9zdf49inn",
+    "rev": "4395c79deb9497204b8f448acbb10df9815e4904",
+    "hash": "006jw9rxiqshz0xiis5gxlb1kslkl3w29hhy9z4ynknf1spqaxw2",
     "skills": [
       "discord/disabled-skills/new-skill",
       "skills/batch",
@@ -5328,6 +5328,7 @@
       "skills/event-sourcing-state",
       "skills/goke",
       "skills/jitter",
+      "skills/lintcn",
       "skills/npm-package",
       "skills/playwriter",
       "skills/proxyman",
@@ -5341,7 +5342,7 @@
       "skills/zele",
       "skills/zustand-centralized-state"
     ],
-    "lastUpdated": "2026-03-28T13:37:03.923Z"
+    "lastUpdated": "2026-03-28T22:18:47.680Z"
   },
   {
     "source": "github:remorses/playwriter",
@@ -6775,8 +6776,8 @@
   },
   {
     "source": "github:richfrem/agent-plugins-skills",
-    "rev": "1cec0ef4e87c987af9d50779f565b569e576aa3b",
-    "hash": "1lw0fycj8v6xy0dfrhqaw16x293p3q9d6srrwpyl4r6df18d4kys",
+    "rev": "01cba698c48e30f4d6636f8996f3b562b6bbf396",
+    "hash": "15jrpz6v43gbxqp080479r7lzilfzgw7jqdaqyrvfxghgf02w2ys",
     "skills": [
       ".agent/skills/adr-management",
       ".agent/skills/agent-agentic-os-agentic-os-setup",
@@ -6800,7 +6801,7 @@
       ".agent/skills/coding-conventions-agent",
       ".agent/skills/coding-conventions-coding-conventions-agent",
       ".agent/skills/concurrent-agent-loop",
-      ".agent/skills/context-bundling",
+      ".agent/skills/context-bundler",
       ".agent/skills/continuous-skill-optimizer",
       ".agent/skills/convert-mermaid",
       ".agent/skills/copilot-cli-agent",
@@ -6866,6 +6867,7 @@
       ".agent/skills/os-clean-locks",
       ".agent/skills/package-plugin",
       ".agent/skills/path-reference-auditor",
+      ".agent/skills/red-team-bundler",
       ".agent/skills/red-team-review",
       ".agent/skills/replicate-plugin",
       ".agent/skills/requesting-code-review",
@@ -6923,15 +6925,12 @@
       ".agent/skills/vector-db-vector-db-cleanup",
       ".agent/skills/vector-db-vector-db-ingest",
       ".agent/skills/verification-before-completion",
-      ".agent/skills/zip-bundling",
-      "plugins/agent-agentic-os/skills/writing-skills",
+      ".agent/skills/writing-skills",
       "plugins/agent-plugin-analyzer/tests/flawed-plugin/skills/flawed-skill",
       "plugins/agent-plugin-analyzer/tests/gold-standard-plugin/skills/example-skill",
-      "plugins/agent-plugin-analyzer/tests/goodhart-plugin/skills/compliant-skill",
-      "plugins/context-bundler/skills/context-bundler",
-      "plugins/context-bundler/skills/red-team-bundler"
+      "plugins/agent-plugin-analyzer/tests/goodhart-plugin/skills/compliant-skill"
     ],
-    "lastUpdated": "2026-03-28T19:16:25.409Z"
+    "lastUpdated": "2026-03-28T22:19:48.927Z"
   },
   {
     "source": "github:richlander/dotnet-inspect",
@@ -7581,8 +7580,8 @@
   },
   {
     "source": "github:rjmurillo/ai-agents",
-    "rev": "815e878dda2249973caa415ee9da1fc610038d1f",
-    "hash": "0gi6m86ybgkfsiklr0wb02xm0hsrcm0blizvqhc0f1pg5zcfp3by",
+    "rev": "412f9bf7036a451063227385a2887b6dda9db41d",
+    "hash": "12s1a37fr321pld9frxg6mpay08b5065mir993s59j83n2zhra09",
     "skills": [
       ".claude/skills/SkillForge",
       ".claude/skills/adr-review",
@@ -7644,7 +7643,7 @@
       ".claude/skills/windows-image-updater",
       ".claude/skills/workflow"
     ],
-    "lastUpdated": "2026-03-28T19:16:50.506Z"
+    "lastUpdated": "2026-03-28T22:19:46.090Z"
   },
   {
     "source": "github:rjroy/vibe-garden",
@@ -8676,8 +8675,8 @@
   },
   {
     "source": "github:robertmsale/.codex",
-    "rev": "e2b1d6776b11f7ac31b30857e14792725bb39b0a",
-    "hash": "0j28g9rf4j9idb31bclnf7gydi1w8a41v0ndcivc33xcl3f938vg",
+    "rev": "c7083608d294dc12f11fd9c77f892c8e725ec632",
+    "hash": "10109jdm8jirg8v70yrmqcrzh18ilf4b9wn69whl014vz04yaq84",
     "skills": [
       "skills/check-zone-health",
       "skills/command-execution",
@@ -8690,7 +8689,7 @@
       "skills/skill-engineering",
       "skills/xcode-mcp"
     ],
-    "lastUpdated": "2026-03-28T16:21:48.383Z"
+    "lastUpdated": "2026-03-28T22:19:45.436Z"
   },
   {
     "source": "github:robertoborges/partsunlimited-demo-with-skills",
@@ -9552,12 +9551,12 @@
   },
   {
     "source": "github:rolldown/rolldown",
-    "rev": "c7041f7dd71ce11dbde8a6b2f0b7d1bb89246fd1",
-    "hash": "080qqkmpl9x5wf873irqhih5abc6qqc23f0i7m0300fn3izgwnj5",
+    "rev": "dc0d38049e465ed52852c42f328e275206ef9e29",
+    "hash": "09yc2bwppkvm7zvx62yr71dw1jsmz1d0xh23935yb62w5bmjribf",
     "skills": [
       ".claude/skills/upgrade-oxc"
     ],
-    "lastUpdated": "2026-03-28T16:20:16.655Z"
+    "lastUpdated": "2026-03-28T22:19:58.027Z"
   },
   {
     "source": "github:rolldown/tsdown",
@@ -10580,8 +10579,8 @@
   },
   {
     "source": "github:rtk-ai/rtk",
-    "rev": "bacff347b79ebb9fec2602e79b9e79d3048e0fe2",
-    "hash": "1q95x3k64n4rqv6ikgfjqyl1k3c490b8c2y8kxarfsafnkz79xcc",
+    "rev": "6444c4b018f5619ab2a441191534937894b17970",
+    "hash": "14y4jhpjq2ll3rlzfwjj1350wk6gna5bia2qyyxq8xvm88bf3mkz",
     "skills": [
       ".claude/skills/code-simplifier",
       ".claude/skills/design-patterns",
@@ -10592,7 +10591,7 @@
       ".claude/skills/rtk-triage",
       ".claude/skills/tdd-rust"
     ],
-    "lastUpdated": "2026-03-26T19:26:09.909Z"
+    "lastUpdated": "2026-03-28T22:18:56.487Z"
   },
   {
     "source": "github:ruan-cat/monorepo",
@@ -11690,8 +11689,8 @@
   },
   {
     "source": "github:runkids/skillshare",
-    "rev": "9f7181a86d7cce82b971deb227bb3ffd6ea69c71",
-    "hash": "0byx62a82c45z61vv6x1zhkyvb2d4w98v69pvwbfhbfvg19mi5j8",
+    "rev": "8c65881ad47fae07038109a62403b46795d6d519",
+    "hash": "13yz8j3a9cf1b2nnwc7w6s752qpi4gwrqcb39m44kyzdkw5axmh8",
     "skills": [
       ".skillshare/skills/skillshare-changelog",
       ".skillshare/skills/skillshare-cli-e2e-test",
@@ -11702,7 +11701,7 @@
       ".skillshare/skills/skillshare-update-docs",
       "skills/skillshare"
     ],
-    "lastUpdated": "2026-03-28T19:15:33.367Z"
+    "lastUpdated": "2026-03-28T22:19:06.152Z"
   },
   {
     "source": "github:runningz1/union-search-skill",
@@ -12371,13 +12370,13 @@
   },
   {
     "source": "github:ryanlyn/readwise-skill",
-    "rev": "d34e886affb8dfb5aaf7a92ab1345542052ee1cb",
-    "hash": "1rj7mng8n0k1lyi7fm8avpzv2sf2izv9lwgh001ai3f4dxhnxyhr",
+    "rev": "e28959fdd048efeb446fc5a7ba82b5cf0fc476a7",
+    "hash": "0gql6hbsm7lfzlp5qhglrqfn7np3w44jj0q0pcw886sph81hh8hw",
     "skills": [
       "plugins/readwise/skills/readwise",
       "plugins/readwise/skills/readwise-reader"
     ],
-    "lastUpdated": "2026-03-06T13:26:39.910Z"
+    "lastUpdated": "2026-03-28T22:20:08.460Z"
   },
   {
     "source": "github:ryanmaclean/dd-skill-test",
@@ -12603,18 +12602,18 @@
   },
   {
     "source": "github:ryoppippi/ccusage",
-    "rev": "ef95abe96e2609be38760aed0a4a1abef513b80d",
-    "hash": "1mqhmd2gbjqyq18aqasjqxp2s3lzrs60k0ap0gdwjwh683pni7h5",
+    "rev": "61ee04dcc9c24c1e3720ea20b6d754c7a0d1bdb4",
+    "hash": "10l0p4z2f4rvrrcx6fpbadvj9ygs34jzfz7kzm858lqf64q06www",
     "skills": [
       ".claude/skills/byethrow",
       ".claude/skills/use-gunshi-cli"
     ],
-    "lastUpdated": "2026-03-28T19:15:31.757Z"
+    "lastUpdated": "2026-03-28T22:20:15.684Z"
   },
   {
     "source": "github:ryoppippi/dotfiles",
-    "rev": "ed9605ca1b3e4306be003845463fac132dcf82ac",
-    "hash": "02j2spn5rcsp39ns01ywpj4k8if3gsg1cdfnk0jpjaqik644bfkl",
+    "rev": "44f395122a4891a0ba7af3526a53bfbc3b165f55",
+    "hash": "0jhqwyiw0h8ffigqczqp4sc6zkmkr7s28rccf9m77351r7laf90f",
     "skills": [
       "agents/skills/ask-claude",
       "agents/skills/ask-codex",
@@ -12630,7 +12629,7 @@
       "agents/skills/session-summary-japanese",
       "agents/skills/you-might-not-need-an-effect"
     ],
-    "lastUpdated": "2026-03-28T16:22:43.573Z"
+    "lastUpdated": "2026-03-28T22:20:16.687Z"
   },
   {
     "source": "github:ryoshimm/ai-dev-tools",
@@ -12648,8 +12647,8 @@
   },
   {
     "source": "github:rysweet/amplihack",
-    "rev": "d8dd852fefa28262dee8ed0a961260faff917e1f",
-    "hash": "1pnbz60mx7s9ha19f6c28h5m26v5zi2cs8f2rgkbqy80a3fr9r5n",
+    "rev": "30c5c00257619664f982bd4f46801f921cfc78b1",
+    "hash": "0jshd7k5j3hqsd8qg08z8bpj35p952hi6crd7170b4gr9q1pxhzb",
     "skills": [
       "amplifier-bundle/skills/session-to-agent",
       "docs/claude/skills/context_management",
@@ -12771,7 +12770,7 @@
       "skills/workstream-coordinator",
       "skills/xlsx"
     ],
-    "lastUpdated": "2026-03-28T19:15:35.680Z"
+    "lastUpdated": "2026-03-28T22:20:23.100Z"
   },
   {
     "source": "github:rytass/utils",
