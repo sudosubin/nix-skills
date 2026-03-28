@@ -126,8 +126,8 @@
   },
   {
     "source": "github:JeremyDev87/codingbuddy",
-    "rev": "3d446a6d53ad68f9f6dfa40e3e7bf0de5fc577e0",
-    "hash": "0n7kwnm1ac7krjnplxy5mc329jpi09g4zncxh9zwhg4ww7wkfphs",
+    "rev": "944bcb7fc87a2d6865166b274e7a691e6629a535",
+    "hash": "070inf8cw3aw11iwrr63fxkk4bha0jb3pryjxl3igr79dxldkwbb",
     "skills": [
       ".claude/skills/parallel-issues",
       ".claude/skills/plan-to-issues",
@@ -182,7 +182,7 @@
       "packages/rules/.ai-rules/skills/widget-slot-architecture",
       "packages/rules/.ai-rules/skills/writing-plans"
     ],
-    "lastUpdated": "2026-03-28T16:18:02.433Z"
+    "lastUpdated": "2026-03-28T19:12:51.541Z"
   },
   {
     "source": "github:JordanCoin/codemap",
@@ -196,12 +196,12 @@
   },
   {
     "source": "github:Junayedahmedd/gemini_cli_skill",
-    "rev": "98a810b1bfbf45b3e38677bc1a489d1305ce2a25",
+    "rev": "0d8de8c994de90f993ba9636af4906a74bf07c8d",
     "hash": "00d2pzdsz0dq5aqw3zvmkbrgxi9nm5vp5pislyl0a1yxwj3w267y",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-28T16:18:02.099Z"
+    "lastUpdated": "2026-03-28T19:12:50.701Z"
   },
   {
     "source": "github:Justdvp/claude-code-templates",
@@ -449,8 +449,8 @@
   },
   {
     "source": "github:jabrena/cursor-rules-java",
-    "rev": "e3af6b973c773c424bac8c8227fe027c3a3a1111",
-    "hash": "15vpfh9inh69ldbrk61jd7pc4k4xy724b6nc16zhjwnmh8cxy33v",
+    "rev": "b6586bec68211c084bd0e8661ab4a083f35e95c6",
+    "hash": "0aiwwbbg3pm1sjrhdmp0y3j70z53bjndz2i31zag3n91pbq1cc4c",
     "skills": [
       "skills/012-agile-epic",
       "skills/013-agile-feature",
@@ -490,6 +490,7 @@
       "skills/302-frameworks-spring-boot-rest",
       "skills/311-frameworks-spring-jdbc",
       "skills/312-frameworks-spring-data-jdbc",
+      "skills/313-frameworks-spring-db-migrations-flyway",
       "skills/321-frameworks-spring-boot-testing-unit-tests",
       "skills/322-frameworks-spring-boot-testing-integration-tests",
       "skills/323-frameworks-spring-boot-testing-acceptance-tests",
@@ -497,17 +498,20 @@
       "skills/402-frameworks-quarkus-rest",
       "skills/411-frameworks-quarkus-jdbc",
       "skills/412-frameworks-quarkus-panache",
+      "skills/413-frameworks-quarkus-db-migrations-flyway",
       "skills/421-frameworks-quarkus-testing-unit-tests",
       "skills/422-frameworks-quarkus-testing-integration-tests",
       "skills/423-frameworks-quarkus-testing-acceptance-tests",
       "skills/501-frameworks-micronaut-core",
       "skills/502-frameworks-micronaut-rest",
+      "skills/511-frameworks-micronaut-jdbc",
       "skills/512-frameworks-micronaut-data",
+      "skills/513-frameworks-micronaut-db-migrations-flyway",
       "skills/521-frameworks-micronaut-testing-unit-tests",
       "skills/522-frameworks-micronaut-testing-integration-tests",
       "skills/523-frameworks-micronaut-testing-acceptance-tests"
     ],
-    "lastUpdated": "2026-03-27T13:25:29.903Z"
+    "lastUpdated": "2026-03-28T19:13:29.989Z"
   },
   {
     "source": "github:jacarrara/skills",
@@ -2023,8 +2027,8 @@
   },
   {
     "source": "github:jamie-bitflight/claude_skills",
-    "rev": "65d86516fee45e0bf53c99aae4163a0f74413398",
-    "hash": "016k33gfv8f8apb7ngkr20mzs985nxcpzqhak7wnxx1g9nf61aif",
+    "rev": "676eb41fdf1df773a4de065f7da91856cf91ad7c",
+    "hash": "0x7ay5cqwrfkk78imkm5g3lqs064jldbggsxf3dc2l0qryyqqssm",
     "skills": [
       ".agent/skills/ccc",
       ".agents/skills/agent-browser",
@@ -2184,12 +2188,27 @@
       "plugins/process-siren/skills/improve-processes",
       "plugins/process-siren/skills/mermaids-treasure",
       "plugins/process-siren/skills/woo-sailor",
+      "plugins/python-engineering/skills/cleanup",
+      "plugins/python-engineering/skills/debug",
+      "plugins/python-engineering/skills/modernpython",
+      "plugins/python-engineering/skills/orchestrate",
+      "plugins/python-engineering/skills/python3-cli",
+      "plugins/python-engineering/skills/python3-core",
+      "plugins/python-engineering/skills/python3-data",
+      "plugins/python-engineering/skills/python3-stdlib-only",
+      "plugins/python-engineering/skills/python3-tdd",
+      "plugins/python-engineering/skills/python3-testing",
+      "plugins/python-engineering/skills/python3-tools",
+      "plugins/python-engineering/skills/python3-typing",
+      "plugins/python-engineering/skills/python3-web",
+      "plugins/python-engineering/skills/review",
+      "plugins/python-engineering/skills/shebangpython",
+      "plugins/python-engineering/skills/snakepolish",
+      "plugins/python-engineering/skills/stinkysnake",
       "plugins/python3-development/skills/async-python-patterns",
       "plugins/python3-development/skills/create-feature-task",
       "plugins/python3-development/skills/hatchling",
       "plugins/python3-development/skills/mkdocs",
-      "plugins/python3-development/skills/modernpython",
-      "plugins/python3-development/skills/orchestrate",
       "plugins/python3-development/skills/pre-commit",
       "plugins/python3-development/skills/pypi-readme-creator",
       "plugins/python3-development/skills/python-cli-architect",
@@ -2203,11 +2222,8 @@
       "plugins/python3-development/skills/python3-test-design",
       "plugins/python3-development/skills/rich",
       "plugins/python3-development/skills/semantic-code-search",
-      "plugins/python3-development/skills/shebangpython",
-      "plugins/python3-development/skills/snakepolish",
       "plugins/python3-development/skills/specialist-skill-routing",
       "plugins/python3-development/skills/stdlib-scripting",
-      "plugins/python3-development/skills/stinkysnake",
       "plugins/python3-development/skills/textual",
       "plugins/python3-development/skills/toml-python",
       "plugins/python3-development/skills/ty",
@@ -2230,7 +2246,7 @@
       "plugins/verification-gate/skills/verification-gate",
       "plugins/xdg-base-directory/skills/xdg-base-directory"
     ],
-    "lastUpdated": "2026-03-28T16:18:44.989Z"
+    "lastUpdated": "2026-03-28T19:13:34.190Z"
   },
   {
     "source": "github:jamiemason/syncpack",
@@ -2376,8 +2392,8 @@
   },
   {
     "source": "github:jankneumann/agentic-coding-tools",
-    "rev": "01d23b7c9be3fe940d69b345c0cc3f894d941828",
-    "hash": "0nll2m9ql4z88q2h212hih3b4bgnyj98l9ipn21h9g6zvxfc8mrm",
+    "rev": "3915669917851874461f4ca85a5f8deba61c0167",
+    "hash": "1k0i30hafv7anzdf4rgqpxvg1dz45hi06lg77k77kmqkyxq4ss7j",
     "skills": [
       ".agent/skills/openspec-apply-change",
       ".agent/skills/openspec-archive-change",
@@ -2420,7 +2436,7 @@
       "skills/validate-packages",
       "skills/worktree"
     ],
-    "lastUpdated": "2026-03-28T16:18:44.970Z"
+    "lastUpdated": "2026-03-28T19:13:32.998Z"
   },
   {
     "source": "github:jankutschera/adhd-body-doubling",
@@ -2481,8 +2497,8 @@
   },
   {
     "source": "github:jaraxuss/skills",
-    "rev": "e00f242da94a43c755dad1935ac2e730efcdb0d6",
-    "hash": "1rk4dfxzhc32xvm9i05zj20v1zgkrw23xhrvhskgr4yaffxbkmdz",
+    "rev": "668717c6345a82d3562bda5f9e883147bbec4228",
+    "hash": "1wmrvxbvfh1r045gk6y41fx2yg0plfk0hrw5l0l27xjdj1az7rrw",
     "skills": [
       "skills/extract_pdf_assets",
       "skills/feishu_docs_search",
@@ -2490,7 +2506,7 @@
       "skills/generate_html_from_material",
       "skills/html_style_summary"
     ],
-    "lastUpdated": "2026-03-28T13:33:27.528Z"
+    "lastUpdated": "2026-03-28T19:13:32.357Z"
   },
   {
     "source": "github:jaredjester/shopify-theme-builder-skill",
@@ -17927,8 +17943,8 @@
   },
   {
     "source": "github:jnpiyush/agentx",
-    "rev": "fd4b6c9697e60b33b2b44adbebe7677e54b60ee8",
-    "hash": "1rq4waw4basy94ndwmd247baxsdg54rf2zym512xiw76ar70g2v6",
+    "rev": "23d207d75f544fa161192e2d32c1c6c4430402d6",
+    "hash": "0v0v06wbpmw259p5jmymc6ayrkglrfy1av5d3fclv8yd96668sqy",
     "skills": [
       ".github/skills/ai-systems/ai-agent-development",
       ".github/skills/ai-systems/ai-evaluation",
@@ -18000,7 +18016,7 @@
       ".github/skills/testing/security-testing",
       ".github/skills/testing/test-automation"
     ],
-    "lastUpdated": "2026-03-28T16:20:19.704Z"
+    "lastUpdated": "2026-03-28T19:14:13.049Z"
   },
   {
     "source": "github:jnzader/project-starter-framework",
@@ -18628,8 +18644,8 @@
   },
   {
     "source": "github:joelhooks/joelclaw",
-    "rev": "babf57dd4e5157645882da02d37afdba70028a62",
-    "hash": "0h72m49r1i4wlwgki720i49j7mp495gblgr1qy9ld5jj1jynxhki",
+    "rev": "825972ced3341ec0b9b3f22617595ca3463751f4",
+    "hash": "04sx7varxac0scjqp51l0mff7w47dpj1z9wkr05y5lnip2xx61ax",
     "skills": [
       "skills/add-skill",
       "skills/adr-skill",
@@ -18708,7 +18724,7 @@
       "skills/workflow-rig",
       "skills/x-api"
     ],
-    "lastUpdated": "2026-03-28T16:19:03.905Z"
+    "lastUpdated": "2026-03-28T19:13:35.129Z"
   },
   {
     "source": "github:joelhooks/openclaw-codex-ralph",
@@ -19675,9 +19691,10 @@
   },
   {
     "source": "github:jonathanbelolo/composable-svelte",
-    "rev": "488210bb1f38a3f9789ab99cb8485eeaa6dc6edb",
-    "hash": "1hkr3hhnmmyhyjrvzry1a948711kiqhyw8qw4xyszhslhvzv2knz",
+    "rev": "25384e0fe66bc493f300e60127b53ca25684f828",
+    "hash": "0wxjrgs2aiv4y8vfnx0a7lpjs1vn4i39q8kk9xq0i7109sd3n9k9",
     "skills": [
+      ".claude/skills/composable-svelte",
       ".claude/skills/composable-svelte-charts",
       ".claude/skills/composable-svelte-chat",
       ".claude/skills/composable-svelte-code",
@@ -19693,7 +19710,7 @@
       ".claude/skills/composable-svelte-ssr",
       ".claude/skills/composable-svelte-testing"
     ],
-    "lastUpdated": "2026-03-28T16:18:46.515Z"
+    "lastUpdated": "2026-03-28T19:13:49.172Z"
   },
   {
     "source": "github:jonathanprozzi/agent-skills",
@@ -20184,8 +20201,8 @@
   },
   {
     "source": "github:jorgemuza/orbit",
-    "rev": "12f6f10113d8c28faf8b248e6f8219f5547d6d28",
-    "hash": "1mdmid5banl6f32nn6axyc81s20zm8i1nalj2sd5whn2j2azmwl3",
+    "rev": "c6fa2e6a361da04ca123f64aa11da68184c91852",
+    "hash": "016sc2iwqs3yphw167qaj49cyykn7j5zzd99sp1gw64jcb104pb1",
     "skills": [
       "skills/attestation",
       "skills/bitbucket",
@@ -20198,7 +20215,7 @@
       "skills/jira",
       "skills/tkm"
     ],
-    "lastUpdated": "2026-03-28T13:34:58.660Z"
+    "lastUpdated": "2026-03-28T19:13:50.058Z"
   },
   {
     "source": "github:jorgenbuilder/icp-cli",
@@ -21178,14 +21195,14 @@
   },
   {
     "source": "github:jprokay-counterpart/jprokay-counterpart",
-    "rev": "8ce65e74b5798b22a6f3fabf321f6b6f12b8efe8",
-    "hash": "0nnzg2gs9wkcf4frla9c0b7a5b37wq6837igxwxzvw6d59fkgkmv",
+    "rev": "97f18416fc1f6ef4fb99c619938cb150d1b088e3",
+    "hash": "11m40zlv2851qfhd7nx0hdbg6inh592cwz2s1bnk3nk3qz5zkz23",
     "skills": [
       "claude/skills/django-model",
       "claude/skills/knowledge",
       "claude/skills/skill-creator"
     ],
-    "lastUpdated": "2026-03-27T19:23:23.943Z"
+    "lastUpdated": "2026-03-28T19:13:48.789Z"
   },
   {
     "source": "github:jpropato/siba",
