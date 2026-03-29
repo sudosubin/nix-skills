@@ -597,8 +597,8 @@
   },
   {
     "source": "github:oaustegard/claude-skills",
-    "rev": "d1e3a9afc66630ce10a568ccce9c0120b1bebb94",
-    "hash": "1i39ms8j2pc95mvghnqhqsqb8s6zsldv0g44zmbihqq8nkj0wr5v",
+    "rev": "b03d8664f1c9e055daf2071c0169a034a7225c72",
+    "hash": "0jk182ymp6r4lay50qs72hdyrpyd5whm32315xyq1fxhlim0cd48",
     "skills": [
       "accessing-github-repos",
       "api-credentials",
@@ -627,6 +627,7 @@
       "fetching-blocked-urls",
       "flowing",
       "forecasting-reverso",
+      "generating-lattice",
       "generating-patches",
       "githubbing",
       "hello-demo",
@@ -657,7 +658,7 @@
       "using-webctl",
       "versioning-skills"
     ],
-    "lastUpdated": "2026-03-28T04:54:13.555Z"
+    "lastUpdated": "2026-03-29T13:29:29.886Z"
   },
   {
     "source": "github:obalolu/flutter-scalable-scaffold",
@@ -1558,8 +1559,8 @@
   },
   {
     "source": "github:office-sec/aionui",
-    "rev": "1298c9c93a63d83c87510dab80d844831c50b465",
-    "hash": "022a94yn5q8br9bbsz66pmgxahixyii7xhzaa9nzxjla9aj2mvkx",
+    "rev": "f1edc1c9417056154b4bc9445e3b2049dc3c6ea3",
+    "hash": "0kj12wayyn88m077d8vnyrxl5as4lqj9473pif73kb0b0mfc36y1",
     "skills": [
       ".claude/skills/architecture",
       ".claude/skills/bump-version",
@@ -1595,7 +1596,7 @@
       "src/process/resources/skills/x-recruiter",
       "src/process/resources/skills/xiaohongshu-recruiter"
     ],
-    "lastUpdated": "2026-03-29T10:20:31.430Z"
+    "lastUpdated": "2026-03-29T13:32:48.584Z"
   },
   {
     "source": "github:officexapp/catalog-funnel",
@@ -1904,8 +1905,8 @@
   },
   {
     "source": "github:oimiragieo/agent-studio",
-    "rev": "b4f30a3a58f40e22eb0f2ce498df1e47b315f0b2",
-    "hash": "1vk173lya2d4zvil04cw6c61s9lxjwsvs5yfj919pjpsc4hdjpm8",
+    "rev": "0c3cb10f6e245f1e4c627b6efe5e8038514a892a",
+    "hash": "1jb5jnpdr4mxiijlkcdgb4z3hr4d4jp18l0218x5iwx8k8c7g0pi",
     "skills": [
       ".claude/skills/_archive",
       ".claude/skills/_archive/artifact-updater",
@@ -2466,6 +2467,9 @@
       ".claude/skills/test-generator",
       ".claude/skills/text-to-sql",
       ".claude/skills/thinking-tools",
+      ".claude/skills/token-saver-adaptive-ratio",
+      ".claude/skills/token-saver-context-compression",
+      ".claude/skills/token-saver-memory-dedup",
       ".claude/skills/tool-creator",
       ".claude/skills/tool-search",
       ".claude/skills/track-management",
@@ -2500,9 +2504,18 @@
       ".claude/skills/workflow-updater",
       ".claude/skills/writing-skills",
       ".claude/skills/xlsx",
-      ".claude/skills/yara-authoring"
+      ".claude/skills/yara-authoring",
+      ".factory/skills/a2a-worker",
+      ".factory/skills/compliance-fix-worker",
+      ".factory/skills/creator-fix-worker",
+      ".factory/skills/platform-fix-worker",
+      ".factory/skills/reflection-worker",
+      ".factory/skills/routing-architect-worker",
+      ".factory/skills/routing-fix-worker",
+      ".factory/skills/skills-repair-worker",
+      ".factory/skills/verification-worker"
     ],
-    "lastUpdated": "2026-03-26T06:40:42.880Z"
+    "lastUpdated": "2026-03-29T13:32:36.948Z"
   },
   {
     "source": "github:ojowwalker77/Claude-Matrix",
@@ -2650,8 +2663,8 @@
   },
   {
     "source": "github:okx/onchainos-skills",
-    "rev": "fc34989302f35c10298daef486b41cb16c696cf6",
-    "hash": "0fzwivpnd44mjmm2cgdc5l99wdvv8zml93hm2j3niv11da2h3yfq",
+    "rev": "1d0de8ca58b9058a3c7f646cb3547447f13cb73b",
+    "hash": "0wwza3jka5nf9f2gxb6l6j9ir0q89qph8mkmihragsjmy4gia4g4",
     "skills": [
       "skills/okx-agentic-wallet",
       "skills/okx-audit-log",
@@ -2667,7 +2680,7 @@
       "skills/okx-wallet-portfolio",
       "skills/okx-x402-payment"
     ],
-    "lastUpdated": "2026-03-28T16:19:42.048Z"
+    "lastUpdated": "2026-03-29T13:31:00.800Z"
   },
   {
     "source": "github:olafgeibig/skills",
@@ -6276,8 +6289,8 @@
   },
   {
     "source": "github:openclaw/skills",
-    "rev": "b37172ef9188daa64cd8e4bcd34a2727a5d3e691",
-    "hash": "1bvmnqyi47nkznjfvds1plg8hai264is7dkm36irh1ng7r2xmfq0",
+    "rev": "f58f193fb64f88c3a30ca10bcb1f7ebf6547ca31",
+    "hash": "1kd9m6n8n9ngxlq1105kyxw278bb3yb3km57xicf708p75r7vfnp",
     "skills": [
       "skills/00010110/openclaw-version-monitor",
       "skills/000wonderclaw/clawcv",
@@ -12692,6 +12705,7 @@
       "skills/chenchen913/learning-assistant",
       "skills/chenchen913/local-skill-manager",
       "skills/chenchen913/wechat-article-writer-cc",
+      "skills/chenchunjiekk/fetch-stock-daily",
       "skills/chenefei/shenzhen-news",
       "skills/chenfa188/openclaw-feishu-task",
       "skills/chengcheng8632/ai-tender",
@@ -14573,6 +14587,7 @@
       "skills/daaab/walletconnect-agent",
       "skills/daan0701/ppt-creator",
       "skills/daasai/health-coach",
+      "skills/daasai/stock-advisor",
       "skills/dabendan2/kura-booking",
       "skills/dabendan2/taipei-bus",
       "skills/dabendan2/youbike-mcp",
@@ -15722,6 +15737,7 @@
       "skills/djc00p/freqtrade-tools",
       "skills/djc00p/freqtrade-us-setup",
       "skills/djc00p/github-pr-writer",
+      "skills/djc00p/openclaw-dual-agent",
       "skills/djc00p/rails-ci-fixer",
       "skills/djc00p/rails-tdd-standards",
       "skills/djc00p/twitch-clip",
@@ -19080,6 +19096,7 @@
       "skills/gora050/apibible",
       "skills/gora050/appbaseio",
       "skills/gora050/appcues",
+      "skills/gora050/appointo",
       "skills/gora050/appveyor",
       "skills/gora050/appwrite",
       "skills/gora050/arive",
@@ -19322,6 +19339,7 @@
       "skills/gora050/fivetran-integration",
       "skills/gora050/fixer",
       "skills/gora050/flexie",
+      "skills/gora050/flinks",
       "skills/gora050/flippingbook",
       "skills/gora050/float",
       "skills/gora050/flyio-integration",
@@ -27246,6 +27264,7 @@
       "skills/krishnakumarmahadevan-cmd/toolweb-nist-csf-mapper",
       "skills/krishnakumarmahadevan-cmd/toolweb-privacy-compliance-assistant",
       "skills/krishnakumarmahadevan-cmd/toolweb-soc2-readiness",
+      "skills/krishnakumarmahadevan-cmd/toolweb-the-linkedin-optimization-toolkit",
       "skills/krishnakumarmahadevan-cmd/vapt-intern",
       "skills/krishnakumarmahadevan-cmd/web-vulnerability-assessment",
       "skills/krishnna2725/research-decision",
@@ -37409,6 +37428,7 @@
       "skills/ryanao/pm-copilot",
       "skills/ryanbaumann/google-maps-grounding-lite-mcp",
       "skills/ryanbihai/health-checkup-recommender",
+      "skills/ryanbihai/my-companion",
       "skills/ryancampbell/agent-autonomy-kit",
       "skills/ryancampbell/agent-bridge-kit",
       "skills/ryancampbell/agent-identity-kit",
@@ -37919,6 +37939,7 @@
       "skills/saltorioussig/poidh",
       "skills/saltxd/chainward",
       "skills/salvagedeck/oejts-personality-tuner",
+      "skills/sam-k-migz/model-routing",
       "skills/sam201401/intros",
       "skills/samansalari/n8n-ops",
       "skills/samaritanoc/google-dorks",
@@ -40869,6 +40890,7 @@
       "skills/tamil-9421/letterboxd-tracker",
       "skills/tammy-hash/agentgo-browser",
       "skills/tammy-hash/pangolinfo-scrape",
+      "skills/tammy-hash/pangolinfo-scrape-legacy",
       "skills/tamtunnel/sovereign-id",
       "skills/tamtunnel/sovereign-id/.agent/skills/identity-sovereign",
       "skills/tanarchytan/zt4ai-self-audit",
@@ -44181,6 +44203,7 @@
       "skills/windinwing/earth2037",
       "skills/windinwing/patent-search",
       "skills/windrunner20/baidu-smart-search",
+      "skills/windrunner20/office-document-assistant",
       "skills/windseeker1111/flow-search",
       "skills/windseeker1111/flow-swarm",
       "skills/windseeker1111/flow-visual-explainer",
@@ -44743,6 +44766,7 @@
       "skills/wzm232803119-arch/memory-index",
       "skills/wzm232803119-arch/multi-role",
       "skills/wzr101622/daily-literature-search",
+      "skills/wzr818181/hera-mail",
       "skills/wzratgit/financial-analysis",
       "skills/wzratgit/financial-analysis-skill",
       "skills/wzratgit/temp-skill",
@@ -45662,9 +45686,12 @@
       "skills/yang1002378395-cmyk/ad-campaign-optimizer",
       "skills/yang1002378395-cmyk/ad-manager",
       "skills/yang1002378395-cmyk/agent-quick-start",
+      "skills/yang1002378395-cmyk/ai-3d-model-gen",
       "skills/yang1002378395-cmyk/ai-agent-builder",
+      "skills/yang1002378395-cmyk/ai-api-manager",
       "skills/yang1002378395-cmyk/ai-automation-consulting",
       "skills/yang1002378395-cmyk/ai-brand-naming",
+      "skills/yang1002378395-cmyk/ai-call-center",
       "skills/yang1002378395-cmyk/ai-code-assistant",
       "skills/yang1002378395-cmyk/ai-competitor-analyzer",
       "skills/yang1002378395-cmyk/ai-content-rewriter",
@@ -46101,6 +46128,7 @@
       "skills/yining1023/video-call-ai-character",
       "skills/yinjin/ai-editor-rules",
       "skills/yinlihudong/openclaw-rd-pipeline",
+      "skills/yinoneliraz/prospect-analyzer",
       "skills/yinquan251/weatherpanel-note-aipc",
       "skills/yinquan251/weibo-trendnote-aipc",
       "skills/yinrenkun4916-hash/diary-conversation",
@@ -47792,7 +47820,7 @@
       "skills/zzxx-bit/multi-agent-deep-research",
       "skills/zzy05651666/apifox-exporter"
     ],
-    "lastUpdated": "2026-03-29T10:23:18.526Z"
+    "lastUpdated": "2026-03-29T13:34:54.059Z"
   },
   {
     "source": "github:openclawart/skills",
@@ -48151,13 +48179,13 @@
   },
   {
     "source": "github:openkursar/hello-halo",
-    "rev": "4c3a50d0c90ba0786b4078eb28e6d664b49beb50",
-    "hash": "1v2lpw8pka1isyk4yaqj22iz408nkfcknfv9pwr82aq3b3bf8lxi",
+    "rev": "db3373f9f8bf1dd69663a19115f4f6961bf33cc2",
+    "hash": "1fs6h42p50r4s463hi1zgaj706vj3cqnhf3j2j607c630kj148sa",
     "skills": [
       ".claude/skills/code-commit",
       ".claude/skills/halo-dev"
     ],
-    "lastUpdated": "2026-03-29T07:32:59.471Z"
+    "lastUpdated": "2026-03-29T13:31:35.833Z"
   },
   {
     "source": "github:openmbti/core",
@@ -48438,12 +48466,12 @@
   },
   {
     "source": "github:opsyhq/opsy",
-    "rev": "717026f68f136b6e3bb672a9c402fff6feb7b8b9",
-    "hash": "1cjm9iwkirdq4wdk1a6szgwb3y1z0ynh5pz9c0kz2igywlmrnms3",
+    "rev": "88453ff3838746a259e5e9facec43c9fb9186e6d",
+    "hash": "11c4m14v0l6fq9dyi2rl3gw6wv8n42vj3a32w1zxnbmb4bw06rzm",
     "skills": [
       "skills/opsy"
     ],
-    "lastUpdated": "2026-03-25T16:29:15.265Z"
+    "lastUpdated": "2026-03-29T13:29:28.747Z"
   },
   {
     "source": "github:optimnow/cloud-finops-skills",
@@ -49955,14 +49983,14 @@
   },
   {
     "source": "github:oxc-project/oxc",
-    "rev": "ae0365304a97d84a5350d41c7f49b9dee95b00b9",
-    "hash": "0mp1c4gpaw7i9bdfma290klp8gpb8i6x7k9qz4zmg52j2hn21fc1",
+    "rev": "868448eb833c68ab5694e44f7d4ced96292fa033",
+    "hash": "026z5pm98px1lgl978qvwq9nh9svr3hnqwbz5x4n51aq5gig02jg",
     "skills": [
       ".agents/skills/insta-snapshots",
       ".agents/skills/migrate-oxfmt",
       ".agents/skills/migrate-oxlint"
     ],
-    "lastUpdated": "2026-03-29T01:26:05.138Z"
+    "lastUpdated": "2026-03-29T13:30:46.354Z"
   },
   {
     "source": "github:oxedom/haflow",
