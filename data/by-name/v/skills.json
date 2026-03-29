@@ -3132,8 +3132,8 @@
   },
   {
     "source": "github:vchirrav/product-security-ai-skills",
-    "rev": "8e8484fcb51dbf4646928facf1bcd02aeaeda739",
-    "hash": "04621bwmkbnp83wsh5rbd17gbafp9ksfkrdd4cdz2xgabw7kb5qf",
+    "rev": "21f59e138a1f72309bb01908fd6aae48a321de9f",
+    "hash": "06z1w6f7f18zmq89b3ldn95xqxhym6bbzmacv252d6lg8m1g2q21",
     "skills": [
       "api-security-schemathesis",
       "api-security-spectral",
@@ -3168,12 +3168,13 @@
       "sca-osv-scanner",
       "sca-pip-audit",
       "secret-scan-gitleaks",
+      "secret-scan-semgrep",
       "secret-scan-trufflehog",
       "secure-coding-audit",
       "secure-coding-generate",
       "tls-scan-testssl"
     ],
-    "lastUpdated": "2026-03-05T14:34:29.933Z"
+    "lastUpdated": "2026-03-29T04:53:03.977Z"
   },
   {
     "source": "github:vcnoc/claude-code-zen-mcp-skill-work",
@@ -3547,10 +3548,11 @@
   },
   {
     "source": "github:ven0m0/claude-config",
-    "rev": "9f1a82e6a382a0588cb10796fd92cd54a67fc67c",
-    "hash": "10mpsr50manig91avfm898r96yi1aq5f04w183sbdcy3x8wkmg5g",
+    "rev": "87d403b2735b54199c19c21784d8e2f6739347ac",
+    "hash": "0nbqzw3v2sq3wi4qd7mw958w849833z9p4lx717r4zsyj8wglrsv",
     "skills": [
       ".claude/skills/code-review",
+      "claude/skills/agent-memory",
       "claude/skills/agnix",
       "claude/skills/ast-grep-search",
       "claude/skills/bash-optimizer",
@@ -3559,6 +3561,7 @@
       "claude/skills/codebase-visualizer",
       "claude/skills/data-formats",
       "claude/skills/deep-research",
+      "claude/skills/docker",
       "claude/skills/gccli",
       "claude/skills/gdcli",
       "claude/skills/git-cli-agentic",
@@ -3567,6 +3570,7 @@
       "claude/skills/hooks-configuration",
       "claude/skills/javascript",
       "claude/skills/json-repair",
+      "claude/skills/learn-from-code-review",
       "claude/skills/linter-autofix",
       "claude/skills/llm-boost",
       "claude/skills/lsp-enable",
@@ -3575,6 +3579,7 @@
       "claude/skills/mcp-builder",
       "claude/skills/moai",
       "claude/skills/modern-tool-substitution",
+      "claude/skills/onboarding-agent",
       "claude/skills/prd",
       "claude/skills/python-project-development",
       "claude/skills/ralph-planner",
@@ -3583,12 +3588,13 @@
       "claude/skills/ruff",
       "claude/skills/rust",
       "claude/skills/sequential-thinking",
-      "claude/skills/strategic-compact",
+      "claude/skills/ssh",
       "claude/skills/svg",
       "claude/skills/toon-formatter",
       "claude/skills/typescript",
       "claude/skills/using-tmux-for-interactive-commands",
       "claude/skills/uv",
+      "claude/skills/vercel",
       "claude/skills/vulture-dead-code",
       "gemini/skills/code-reviewer",
       "gemini/skills/pr-creator",
@@ -3615,7 +3621,7 @@
       "opencode/skill/tailnet-publish",
       "opencode/skill/websearch"
     ],
-    "lastUpdated": "2026-03-27T13:26:34.528Z"
+    "lastUpdated": "2026-03-29T04:53:06.509Z"
   },
   {
     "source": "github:vendor-rip/rip",
@@ -3780,12 +3786,12 @@
   },
   {
     "source": "github:vercel-labs/dev3000",
-    "rev": "5b6e6dc46f2da2b8d69ab5f76d130a49aea4b38d",
-    "hash": "09cnj7mc921538qkpc8hyb0n6c8b55fg1rr4s0hw6s1iffs5x0j2",
+    "rev": "d5619338ef0a20f46aea35f0e47a86d7680d4501",
+    "hash": "1xbinbps2cpvli5z886wxv5ba41v6zf48hyqjhdl6g3jy7njvsmx",
     "skills": [
       "skills/d3k"
     ],
-    "lastUpdated": "2026-03-29T01:25:56.540Z"
+    "lastUpdated": "2026-03-29T04:54:08.758Z"
   },
   {
     "source": "github:vercel-labs/json-render",
@@ -4124,12 +4130,12 @@
   },
   {
     "source": "github:vercel/flags",
-    "rev": "b66ce3e34a30035e53e0a7e2e62055bf2a5c5be3",
-    "hash": "0zm25wp3sa2jfyv61jlcn90dpjyriazn3kqgac0zas3mljf0y8pl",
+    "rev": "eafa640057df11f4b65efeb5b3a0919831ae165b",
+    "hash": "0i8rpassjmbd1lm5gcq9yv8rsfj4nxps8n65grvmnia0amcd305k",
     "skills": [
       "skills/flags-sdk"
     ],
-    "lastUpdated": "2026-03-27T22:12:45.630Z"
+    "lastUpdated": "2026-03-29T04:54:50.742Z"
   },
   {
     "source": "github:vercel/microfrontends",
@@ -4151,8 +4157,8 @@
   },
   {
     "source": "github:vercel/next.js",
-    "rev": "db08109f6b09b2605b2d06fd9a7df11640e4c668",
-    "hash": "1x0p54j8bqkx2j0j3mpyricbk9xhhl173p50aihsj5hlghl3qk63",
+    "rev": "e586cda31772c875bd2f5ed52f3c007357c82522",
+    "hash": "075dvlcjbz7yy5mp23y7668crv8s1vkx5d4nvch2kw16dag78ijm",
     "skills": [
       ".agents/skills/authoring-skills",
       ".agents/skills/dce-edge",
@@ -4167,7 +4173,7 @@
       ".agents/skills/write-guide",
       ".claude-plugin/plugins/cache-components/skills/cache-components"
     ],
-    "lastUpdated": "2026-03-29T01:29:03.830Z"
+    "lastUpdated": "2026-03-29T04:57:27.927Z"
   },
   {
     "source": "github:vercel/nextjs-skills",
@@ -4472,8 +4478,8 @@
   },
   {
     "source": "github:viamin/aidp",
-    "rev": "458598843ad41b047e7714a9d859ba28549a65a3",
-    "hash": "1jvqbg2wfamc594zc8lf7kxd1h1h53p4r9z27ria95cgqzpx8f20",
+    "rev": "07b80c78083e3c1613e9469cf13c7e9bf41816b5",
+    "hash": "0mgrqly74w73dbf6kbjjjkwbk9yp68786qyywp8wgfhh0sk896pz",
     "skills": [
       "templates/skills/architecture_analyst",
       "templates/skills/marketing_strategist",
@@ -4485,7 +4491,7 @@
       "templates/skills/test_analyzer",
       "templates/skills/ux_researcher"
     ],
-    "lastUpdated": "2026-03-24T07:37:55.126Z"
+    "lastUpdated": "2026-03-29T04:53:12.964Z"
   },
   {
     "source": "github:vibecodersph/gemini-nano-chrome-extension-skill",
@@ -4729,12 +4735,12 @@
   },
   {
     "source": "github:victor604/frontend-design",
-    "rev": "c338d5be1015909d9fbbf81d9429762648fd5d57",
+    "rev": "d49506d43ba90b822eed3c61b6b61880b72518ad",
     "hash": "1f457pnrhj0jmbv03kg0clx11l92mppw6pn3r5spj5jpa76n6110",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-29T01:27:00.913Z"
+    "lastUpdated": "2026-03-29T04:53:13.694Z"
   },
   {
     "source": "github:victoralbino/agent-skills",
@@ -4841,8 +4847,8 @@
   },
   {
     "source": "github:victory-hugo/s2-agent-skill",
-    "rev": "af83c4da0c40aef0e76de61927b2857a4ce97dd6",
-    "hash": "0ckim437n6cy4zvd2sp40pgnifpdngdqw72gz4dr4kk4jqrlpq7c",
+    "rev": "c12d895e515cb3a43a298d5a0940791e089d1c73",
+    "hash": "1rb6n99mpgb3fp0fmip0bqxax06cqs9xdbm3lb6494jpvi5jylk5",
     "skills": [
       "skills/code/jupyter-notebook",
       "skills/code/自制/bioinformatics-log-resume",
@@ -4890,7 +4896,6 @@
       "skills/writing/research-grants",
       "skills/writing/research-lookup",
       "skills/writing/scholar-evaluation",
-      "skills/writing/sci-result-writing",
       "skills/writing/scientific-critical-thinking",
       "skills/writing/scientific-schematics",
       "skills/writing/scientific-slides",
@@ -4898,14 +4903,13 @@
       "skills/writing/scientific-writing",
       "skills/writing/treatment-plans",
       "skills/writing/venue-templates",
-      "skills/writing/自制/paper-narrative-polish",
       "skills/writing/自制/paper-narrative-rearrange",
       "skills/writing/自制/quarto-github-manage",
       "skills/writing/自制/sci-figure-captioner",
       "skills/writing/自制/sci-result-interpretation",
       "skills/xlsx"
     ],
-    "lastUpdated": "2026-03-16T05:09:25.344Z"
+    "lastUpdated": "2026-03-29T04:53:14.773Z"
   },
   {
     "source": "github:video-db/claude-code",
@@ -5887,12 +5891,12 @@
   },
   {
     "source": "github:violin86318/weibo-hotspot-analyzer",
-    "rev": "c78ee019fc909e288116c48a8b5a9563d108c5e1",
-    "hash": "14sxri6pbfmc7gicq4y1vk2ps7ll5v4sy8287z9665fxrmh4c9ya",
+    "rev": "b312bcf254d725c5d413ed4ddeb2e50ab23d0e70",
+    "hash": "0wnijxixvh0q564s5c1jgmi2n5lhc4akkysrkxxpl28iyh1dk4c1",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-28T16:21:49.419Z"
+    "lastUpdated": "2026-03-29T04:55:01.812Z"
   },
   {
     "source": "github:vipulgupta2048/codex-skills",
@@ -6279,8 +6283,8 @@
   },
   {
     "source": "github:vitorpamplona/amethyst",
-    "rev": "8702ec4d96666f7bcae063d89a9f5290954a81f5",
-    "hash": "1bxv0dnizvp7w8xwn4kqi2dgbl2a2acw6finskirlb6y5ljjmy68",
+    "rev": "48da76c6a3a6607d30eec614511a795e811dc971",
+    "hash": "14b7djlpdsspf8021817hhifywa55rr4wxjis107gq482irjix1s",
     "skills": [
       ".",
       ".claude/skills/android-expert",
@@ -6294,7 +6298,7 @@
       ".claude/skills/nostr-expert",
       ".claude/skills/quartz-integration"
     ],
-    "lastUpdated": "2026-03-29T01:26:48.995Z"
+    "lastUpdated": "2026-03-29T04:54:38.273Z"
   },
   {
     "source": "github:vivekgana/databricks-platform-marketplace",
@@ -6844,8 +6848,8 @@
   },
   {
     "source": "github:vm0-ai/vm0",
-    "rev": "6b59cdbd2f7d931961daa7660adb49f6f27c457f",
-    "hash": "1m6xk65cqadhbjdwimf94r4irvqgfc5gldh4kmgg9ri8d4l0ykfp",
+    "rev": "cbded46e78c8d3ed060e96f79f15cd38ee1cf9dc",
+    "hash": "110dbq8i1bc4rj0vlbh184gygcdl934ccknk5md7rkvl3wicxc6i",
     "skills": [
       ".claude/skills/agent-browser",
       ".claude/skills/begin-coding-worker",
@@ -6881,7 +6885,7 @@
       ".claude/skills/testing",
       ".claude/skills/turbo-reset"
     ],
-    "lastUpdated": "2026-03-27T16:22:26.989Z"
+    "lastUpdated": "2026-03-29T04:54:35.503Z"
   },
   {
     "source": "github:vm0-ai/vm0-skills",
@@ -7215,8 +7219,8 @@
   },
   {
     "source": "github:volcengine/openviking",
-    "rev": "df632107f543e390aa7976306bee44839f1e44c5",
-    "hash": "0hk1kmcgm82dwa5ja73nl436zqg7wba7x6s2dav8dpxaykzdcgf6",
+    "rev": "2e8f394d0d40884b0ac0879e3580f04084aa3ac2",
+    "hash": "1ri3d8xxmk74bbf49n3f0n1frqmmxp3dc28a9bd4l9r1vmy5f1j1",
     "skills": [
       "bot/workspace/skills/cron",
       "bot/workspace/skills/github",
@@ -7232,7 +7236,7 @@
       "examples/skills/ov-search-context",
       "examples/skills/ov-server-operate"
     ],
-    "lastUpdated": "2026-03-28T13:35:43.811Z"
+    "lastUpdated": "2026-03-29T04:54:34.413Z"
   },
   {
     "source": "github:voltagent/skills",

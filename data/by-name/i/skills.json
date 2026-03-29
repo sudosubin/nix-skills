@@ -97,8 +97,8 @@
   },
   {
     "source": "github:i9wa4/dotfiles",
-    "rev": "b553db50e7733e7aaf3edabd111e188d201d9d48",
-    "hash": "1m9lxgq95c38annwd5ch7s378mqwlnfim28hnyf6d9g1589liawj",
+    "rev": "450dee432ed415e6b47ac8cc90aa44b3432184c0",
+    "hash": "0g3gsfdlmilh9imj12khsm40ds1mwrviwavmm1by9wi62nlkkwl1",
     "skills": [
       "nix/home-manager/agents/review/skills/subagent-review",
       "nix/home-manager/agents/skills/bigquery-local",
@@ -115,17 +115,18 @@
       "nix/home-manager/agents/skills/tdd-tidy-first",
       "nix/home-manager/agents/skills/tmux"
     ],
-    "lastUpdated": "2026-03-28T19:13:49.982Z"
+    "lastUpdated": "2026-03-29T04:52:16.462Z"
   },
   {
     "source": "github:iOfficeAI/AionUi",
-    "rev": "b134485ca31e727fcf3dd6aa9e8a2e2c9340b4d6",
-    "hash": "0s34qh6dhblafz09k8006wf02p4z36hfgx9h3xzz6hlvqmbpj6vx",
+    "rev": "50e7bf761e5151cb1ba2401cc9c9e1bc9b6b72f6",
+    "hash": "0zhcyv8r6lfcvkgwczin6928j9y4y4zm8jnji3w09v08dnki3557",
     "skills": [
       ".claude/skills/architecture",
+      ".claude/skills/bump-version",
       ".claude/skills/fix-sentry",
       ".claude/skills/i18n",
-      ".claude/skills/pr",
+      ".claude/skills/oss-pr",
       ".claude/skills/pr-fix",
       ".claude/skills/pr-review",
       ".claude/skills/testing",
@@ -154,7 +155,7 @@
       "src/process/resources/skills/x-recruiter",
       "src/process/resources/skills/xiaohongshu-recruiter"
     ],
-    "lastUpdated": "2026-03-28T13:35:08.101Z"
+    "lastUpdated": "2026-03-29T05:13:29.851Z"
   },
   {
     "source": "github:iabundis29/code-review-expert",
@@ -3463,8 +3464,8 @@
   },
   {
     "source": "github:infinite-loop-factory/app-factory",
-    "rev": "1d8cf6b3f6b096d9f3b5bca6996c53c8dacf2848",
-    "hash": "0hx0s48zbh914v67s97giagh084b03iz7xz4v6axz2r2qwcjwvga",
+    "rev": "113e8d6198744a01daa3a6cda3e57cebc0020358",
+    "hash": "1j64wms6iwkb5js0kbzyifwm1kgjf2djpgz0lkigi7kh04snk7i9",
     "skills": [
       ".agents/skills/app-store-screenshots",
       ".agents/skills/brainstorm",
@@ -3486,9 +3487,10 @@
       ".agents/skills/upgrading-expo",
       ".agents/skills/use-dom",
       ".agents/skills/vercel-react-best-practices",
-      ".agents/skills/web-design-guidelines"
+      ".agents/skills/web-design-guidelines",
+      "apps/shake-it/.agents/skills/vercel-react-native-skills"
     ],
-    "lastUpdated": "2026-03-15T13:27:01.182Z"
+    "lastUpdated": "2026-03-29T04:51:20.530Z"
   },
   {
     "source": "github:influxdata/docs-v2",
@@ -4477,13 +4479,14 @@
   },
   {
     "source": "github:iofficeai/aionui",
-    "rev": "b134485ca31e727fcf3dd6aa9e8a2e2c9340b4d6",
-    "hash": "0s34qh6dhblafz09k8006wf02p4z36hfgx9h3xzz6hlvqmbpj6vx",
+    "rev": "50e7bf761e5151cb1ba2401cc9c9e1bc9b6b72f6",
+    "hash": "0zhcyv8r6lfcvkgwczin6928j9y4y4zm8jnji3w09v08dnki3557",
     "skills": [
       ".claude/skills/architecture",
+      ".claude/skills/bump-version",
       ".claude/skills/fix-sentry",
       ".claude/skills/i18n",
-      ".claude/skills/pr",
+      ".claude/skills/oss-pr",
       ".claude/skills/pr-fix",
       ".claude/skills/pr-review",
       ".claude/skills/testing",
@@ -4512,12 +4515,12 @@
       "src/process/resources/skills/x-recruiter",
       "src/process/resources/skills/xiaohongshu-recruiter"
     ],
-    "lastUpdated": "2026-03-28T13:35:14.754Z"
+    "lastUpdated": "2026-03-29T04:52:07.543Z"
   },
   {
     "source": "github:ionfury/homelab",
-    "rev": "8c9ef1ae4a64f56f1b35f6734df5ad6375de91eb",
-    "hash": "0gzjky69mdp1cw7l86vp1g5yrcknrj65l6k19qngn0mzdqcw6hrc",
+    "rev": "1dc2e0750458edcbd36df1f974b80a69a275efb7",
+    "hash": "02v5kiawfkbwr0grjhprll8nwvg7531bzka1fxkiw0jbm08a74qc",
     "skills": [
       ".claude/skills/app-template",
       ".claude/skills/architecture-review",
@@ -4545,7 +4548,7 @@
       ".claude/skills/terragrunt",
       ".claude/skills/versions-renovate"
     ],
-    "lastUpdated": "2026-03-28T22:17:54.639Z"
+    "lastUpdated": "2026-03-29T04:51:36.707Z"
   },
   {
     "source": "github:ioniks/markdowntaskmanager",
@@ -5927,12 +5930,18 @@
   },
   {
     "source": "github:iyaki/ralph",
-    "rev": "a7e8f1f597a5b99c62f8be0c1262d02ecde8fe0b",
-    "hash": "1nhw81zlvn5yab072p4l3qrr52k8badqc7chr3k5hm4gqyxjhpfv",
+    "rev": "63683b000eea9f7462a017d31e7e91ba752d3990",
+    "hash": "17iqjg5jr6wd1zaxan0i3y4q8bsdr9ibisdzmnszsa6y87dfmnv3",
     "skills": [
-      ".agents/skills/spec-creator"
+      ".agents/skills/agent-implementation",
+      ".agents/skills/agent-spec-creation",
+      ".agents/skills/code-search",
+      ".agents/skills/shell-command",
+      ".agents/skills/skill-creator",
+      ".agents/skills/spec-creator",
+      ".agents/skills/test-driven-development"
     ],
-    "lastUpdated": "2026-03-25T16:26:54.674Z"
+    "lastUpdated": "2026-03-29T04:51:13.971Z"
   },
   {
     "source": "github:iyangl/memory-hub",
@@ -5955,7 +5964,7 @@
   },
   {
     "source": "github:izyanrajwani/agent-skills-library",
-    "rev": "1e5ce5a7835f5e7c1a4b98a6458baa7bd575dc39",
+    "rev": "296e3c166aedce886cef5889bbd90d5b99271a44",
     "hash": "15q4vkshfckasx3k15kjawba3lcai651vj4l03hf07hs0d0zpzfj",
     "skills": [
       "skills/brainstorming",
@@ -5973,7 +5982,7 @@
       "skills/writing-plans",
       "skills/writing-skills"
     ],
-    "lastUpdated": "2026-03-29T01:24:44.328Z"
+    "lastUpdated": "2026-03-29T04:51:14.135Z"
   },
   {
     "source": "github:izz520/react-starter-skill",
