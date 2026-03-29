@@ -388,12 +388,13 @@
   },
   {
     "source": "github:vamdawn/ai-forge",
-    "rev": "d4e68759e98764551f6fba60362b784c92a63f78",
-    "hash": "11p3d3b4izd2wg5m7fh0y0z739z7c4aibsws5ijill7ajx4yy8kd",
+    "rev": "08965aeb20a355360fd33f6188513b4994286b42",
+    "hash": "0i1rddb9w6gapggx5rvz1w6a5c2zxw2aj8ha58aa39v4azb695km",
     "skills": [
       "skills/ack-code-review",
       "skills/content-summarizer",
       "skills/e2e-find",
+      "skills/e2e-run",
       "skills/git-commit",
       "skills/plan-executor",
       "skills/req-code-review",
@@ -404,7 +405,7 @@
       "skills/semver-release",
       "skills/session-summary"
     ],
-    "lastUpdated": "2026-03-28T10:17:27.737Z"
+    "lastUpdated": "2026-03-29T07:34:14.437Z"
   },
   {
     "source": "github:vampik33/claude-plugins",
@@ -421,8 +422,8 @@
   },
   {
     "source": "github:vamseeachanta/workspace-hub",
-    "rev": "a232b437cb2bffa84515904d90b301c267f7499a",
-    "hash": "16pcmy8zf7b14z6nqx35b5frngpj2il7pmjm71mvjli3d4rxv5ii",
+    "rev": "52718e5773f5db807481ce1050981559f2dbd345",
+    "hash": "0h54v8qx3qz8jfjaplvv6r3y99dah6ax51rg5mpzxf0607gp0ypg",
     "skills": [
       ".claude/skills/_core/bash/bash-cli-framework",
       ".claude/skills/_core/bash/bash-cli-framework/1-always-use-set-e",
@@ -2604,7 +2605,7 @@
       "_archive/skills/workspace-hub/interactive-report-generator",
       "scripts/skills/tests/fixtures/oversized-test"
     ],
-    "lastUpdated": "2026-03-28T22:20:26.600Z"
+    "lastUpdated": "2026-03-29T07:34:32.343Z"
   },
   {
     "source": "github:vanab/swiftdata-agent-skill",
@@ -2812,21 +2813,21 @@
   },
   {
     "source": "github:varghq/sdk",
-    "rev": "f5208ba88a08c5388fc8aaba4b97903eee42c40f",
-    "hash": "148ni4hd0r4cs8vbv7rsq88bbiwh6a33h2h6yvyc4rah3scih069",
+    "rev": "14dd6840d97d186070cb525dbc14eb685769c819",
+    "hash": "08j7nsjmj6qh78rcsy7wvfrwbcr4ybaxr1x3jlsgz321ssjzback",
     "skills": [
       "pipeline/cookbooks"
     ],
-    "lastUpdated": "2026-03-28T10:16:53.056Z"
+    "lastUpdated": "2026-03-29T07:34:17.495Z"
   },
   {
     "source": "github:varghq/skills",
-    "rev": "8790ea35c2b65ec994acbf1a9e9f0c43102aef68",
-    "hash": "1fvjbds38f8ph26wh0l0xx5ix9bg3dk3kdvlmp33nyc8lvhwm4y2",
+    "rev": "cf860e9c54413697d26e30254c38046ee3632f1a",
+    "hash": "1q6ixnrhyvzqski38nx6ag99mp314h1fb5g41f9scl94hkajgxq7",
     "skills": [
       "varg-ai"
     ],
-    "lastUpdated": "2026-03-27T07:38:59.615Z"
+    "lastUpdated": "2026-03-29T07:34:17.357Z"
   },
   {
     "source": "github:variant-systems/skills",
@@ -2869,12 +2870,12 @@
   },
   {
     "source": "github:varsity-tech-product/otto-skills",
-    "rev": "0ba54d001b59804ea34eeab1fb499cc3f599c8f9",
-    "hash": "0ppifrn6yrl5mm39ixc4v89x2vi6fhk1p91hccmr3q1cldhgm6q8",
+    "rev": "f46ec758f6232a9cc7d0c35e0ccb1ee68efe4c35",
+    "hash": "0lhbq4rlmq6iav4ng6y37q3209k7gw353dbr2xkw8c0j3rf50kb8",
     "skills": [
       "skills/quantai-service"
     ],
-    "lastUpdated": "2026-03-27T07:38:59.587Z"
+    "lastUpdated": "2026-03-29T07:34:17.368Z"
   },
   {
     "source": "github:varun369/SuperLocalMemoryV2",
@@ -3527,15 +3528,15 @@
   },
   {
     "source": "github:velt-js/agent-skills",
-    "rev": "b69a66ea4c7bc0d480068148778cb85a7bd6d8ba",
-    "hash": "0i7i36j4jrdff2k3h85i0vn1k2pl7bbh004akxj6klyk3g64hyn1",
+    "rev": "5add4134b46790051620608dbdd53de4904aa2ac",
+    "hash": "1x3bx8dkdbi5dk9s1zcgq5cq9sl0by583zq90bby9bgv8snz1yny",
     "skills": [
       "skills/velt-comments-best-practices",
       "skills/velt-crdt-best-practices",
       "skills/velt-notifications-best-practices",
       "skills/velt-setup-best-practices"
     ],
-    "lastUpdated": "2026-03-27T19:26:07.973Z"
+    "lastUpdated": "2026-03-29T07:34:24.150Z"
   },
   {
     "source": "github:velumkai/metacognition-skill",
@@ -3548,14 +3549,17 @@
   },
   {
     "source": "github:ven0m0/claude-config",
-    "rev": "87d403b2735b54199c19c21784d8e2f6739347ac",
-    "hash": "0nbqzw3v2sq3wi4qd7mw958w849833z9p4lx717r4zsyj8wglrsv",
+    "rev": "b163736a9a83f69e159084f6a5d904793fb79a17",
+    "hash": "03c701gdqhsi0nvj7jc79pkda82gcfsi9396jw2wrnsf4d449sw7",
     "skills": [
       ".claude/skills/code-review",
       "claude/skills/agent-memory",
       "claude/skills/agnix",
       "claude/skills/ast-grep-search",
       "claude/skills/bash-optimizer",
+      "claude/skills/cloudflare-api",
+      "claude/skills/cloudflare-browser-rendering-skill",
+      "claude/skills/cloudflare-toolkit",
       "claude/skills/code-antipatterns-analysis",
       "claude/skills/code-execution",
       "claude/skills/codebase-visualizer",
@@ -3564,32 +3568,38 @@
       "claude/skills/docker",
       "claude/skills/gccli",
       "claude/skills/gdcli",
-      "claude/skills/git-cli-agentic",
       "claude/skills/github",
       "claude/skills/gmcli",
       "claude/skills/hooks-configuration",
+      "claude/skills/image-compressor-pro",
       "claude/skills/javascript",
       "claude/skills/json-repair",
       "claude/skills/learn-from-code-review",
       "claude/skills/linter-autofix",
+      "claude/skills/linux",
+      "claude/skills/linux-kernel-crash-debug",
       "claude/skills/llm-boost",
       "claude/skills/lsp-enable",
       "claude/skills/maintenance",
       "claude/skills/markdown-tools",
       "claude/skills/mcp-builder",
+      "claude/skills/mcp-to-skill",
       "claude/skills/moai",
       "claude/skills/modern-tool-substitution",
       "claude/skills/onboarding-agent",
+      "claude/skills/parallel",
+      "claude/skills/pi-admin",
       "claude/skills/prd",
       "claude/skills/python-project-development",
       "claude/skills/ralph-planner",
       "claude/skills/repomix",
-      "claude/skills/repomix-unmixer",
+      "claude/skills/rtk-compressor",
       "claude/skills/ruff",
       "claude/skills/rust",
       "claude/skills/sequential-thinking",
       "claude/skills/ssh",
       "claude/skills/svg",
+      "claude/skills/sysadmin",
       "claude/skills/toon-formatter",
       "claude/skills/typescript",
       "claude/skills/using-tmux-for-interactive-commands",
@@ -3621,7 +3631,7 @@
       "opencode/skill/tailnet-publish",
       "opencode/skill/websearch"
     ],
-    "lastUpdated": "2026-03-29T04:53:06.509Z"
+    "lastUpdated": "2026-03-29T07:34:24.559Z"
   },
   {
     "source": "github:vendor-rip/rip",
@@ -3786,12 +3796,12 @@
   },
   {
     "source": "github:vercel-labs/dev3000",
-    "rev": "d5619338ef0a20f46aea35f0e47a86d7680d4501",
-    "hash": "1xbinbps2cpvli5z886wxv5ba41v6zf48hyqjhdl6g3jy7njvsmx",
+    "rev": "79f5687491716890044238b5f558357d3471e579",
+    "hash": "1fw2yr8f5an46ymaa6q1zhy28l4d0nld802950p554ghmf89sav1",
     "skills": [
       "skills/d3k"
     ],
-    "lastUpdated": "2026-03-29T04:54:08.758Z"
+    "lastUpdated": "2026-03-29T07:35:31.942Z"
   },
   {
     "source": "github:vercel-labs/json-render",
@@ -4206,21 +4216,21 @@
   },
   {
     "source": "github:vercel/turbo",
-    "rev": "cd2d25bbdbfd38278c80b0e8388c646cc82b2234",
-    "hash": "1cnqvcxjj746rvx491kfk5hy2dbpb53rpias1rf37w1p0722h17r",
+    "rev": "a6eabc66c1335dea28b59c038c67cdb4e9040c2c",
+    "hash": "0kg1kkqkmjkpf05n8al4wlj6k4kmlbgxgkmixidcdnjzl6hd47p8",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-03-28T19:16:46.372Z"
+    "lastUpdated": "2026-03-29T07:36:22.488Z"
   },
   {
     "source": "github:vercel/turborepo",
-    "rev": "cd2d25bbdbfd38278c80b0e8388c646cc82b2234",
-    "hash": "1cnqvcxjj746rvx491kfk5hy2dbpb53rpias1rf37w1p0722h17r",
+    "rev": "a6eabc66c1335dea28b59c038c67cdb4e9040c2c",
+    "hash": "0kg1kkqkmjkpf05n8al4wlj6k4kmlbgxgkmixidcdnjzl6hd47p8",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-03-28T19:16:46.388Z"
+    "lastUpdated": "2026-03-29T07:36:23.564Z"
   },
   {
     "source": "github:vercel/vercel",
@@ -4735,12 +4745,12 @@
   },
   {
     "source": "github:victor604/frontend-design",
-    "rev": "d49506d43ba90b822eed3c61b6b61880b72518ad",
+    "rev": "b7af82fb90619c2a410a136bf5d72e9414855f64",
     "hash": "1f457pnrhj0jmbv03kg0clx11l92mppw6pn3r5spj5jpa76n6110",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-29T04:53:13.694Z"
+    "lastUpdated": "2026-03-29T07:34:54.606Z"
   },
   {
     "source": "github:victoralbino/agent-skills",
@@ -6825,31 +6835,28 @@
   },
   {
     "source": "github:vltansky/skills",
-    "rev": "30ebe26e9a55d5160b4cbed37f399b9d7ff2547c",
-    "hash": "1gn5jgazr2l4kidp0jndigk53wvkq9xvfbdw26xcpbqxsvdxfvyj",
+    "rev": "8541552d9db1360abb4290836d1927fd0781b5ee",
+    "hash": "101y490r624qbim743m98kmfnb3civv8x5dpd9irkc6g1bxnr80s",
     "skills": [
       "skills/agents-md-evals",
-      "skills/brainstorming",
       "skills/chat-history-skill/chat-history",
-      "skills/debug",
       "skills/debug-mode",
-      "skills/debug-skill",
       "skills/grill-me",
       "skills/interview",
       "skills/interview-octocode",
       "skills/rfc-research",
       "skills/roast-my-agents-md",
       "skills/roast-my-code",
+      "skills/simplify",
       "skills/skill-ab-eval",
-      "skills/skill-ab-test",
       "skills/what-i-did"
     ],
-    "lastUpdated": "2026-03-25T13:25:04.975Z"
+    "lastUpdated": "2026-03-29T07:33:45.304Z"
   },
   {
     "source": "github:vm0-ai/vm0",
-    "rev": "cbded46e78c8d3ed060e96f79f15cd38ee1cf9dc",
-    "hash": "110dbq8i1bc4rj0vlbh184gygcdl934ccknk5md7rkvl3wicxc6i",
+    "rev": "b373849cb331296ae7665704edd400548d67c2a5",
+    "hash": "1srxxggk7h7w9cdjchynb59pavzjriggzr9m4iwkyn991rg6v06g",
     "skills": [
       ".claude/skills/agent-browser",
       ".claude/skills/begin-coding-worker",
@@ -6885,7 +6892,7 @@
       ".claude/skills/testing",
       ".claude/skills/turbo-reset"
     ],
-    "lastUpdated": "2026-03-29T04:54:35.503Z"
+    "lastUpdated": "2026-03-29T07:33:49.959Z"
   },
   {
     "source": "github:vm0-ai/vm0-skills",
