@@ -97,11 +97,12 @@
   },
   {
     "source": "github:i9wa4/dotfiles",
-    "rev": "d6e798e8e8b5701715d0a15741d0e4028e6501a2",
-    "hash": "0gy64ma079yis1khx1qj4jsmv1avqvvzrdrj6b11472rysr2inmb",
+    "rev": "f79f3f8938a520e6bcd2fbc869551763b122a287",
+    "hash": "0rmkki6gc0674qx3zc5vlwm3cn6k8icmkhzww20036gw2m8f9h8r",
     "skills": [
       "nix/home-manager/agents/review/skills/subagent-review",
       "nix/home-manager/agents/skills/bigquery-local",
+      "nix/home-manager/agents/skills/brainstorming",
       "nix/home-manager/agents/skills/claude-config-optimizer",
       "nix/home-manager/agents/skills/claude-workspace-trust-fix",
       "nix/home-manager/agents/skills/codex-config-optimizer",
@@ -112,15 +113,17 @@
       "nix/home-manager/agents/skills/nix",
       "nix/home-manager/agents/skills/orchestrator",
       "nix/home-manager/agents/skills/plan-design",
+      "nix/home-manager/agents/skills/systematic-debugging",
       "nix/home-manager/agents/skills/tdd-tidy-first",
-      "nix/home-manager/agents/skills/tmux"
+      "nix/home-manager/agents/skills/tmux",
+      "nix/home-manager/agents/skills/using-git-worktrees"
     ],
-    "lastUpdated": "2026-03-30T13:25:08.595Z"
+    "lastUpdated": "2026-03-30T16:33:33.829Z"
   },
   {
     "source": "github:iOfficeAI/AionUi",
-    "rev": "f7ab0158aae5ae63b8391cd8c83e861711be7e18",
-    "hash": "1hgqf2dk0z2lvv2z5ljaih6iakdpsmn9rd6rwdw14m1wy0l1f5lz",
+    "rev": "34ad258c79fb3d7a38c8cea58185aefb36a1e7f8",
+    "hash": "1vwx3192c0gh3lh878vmvy9dv8fah1a3hhakzac15221z61bw4b6",
     "skills": [
       ".claude/skills/architecture",
       ".claude/skills/bump-version",
@@ -156,7 +159,7 @@
       "src/process/resources/skills/x-recruiter",
       "src/process/resources/skills/xiaohongshu-recruiter"
     ],
-    "lastUpdated": "2026-03-30T13:25:46.897Z"
+    "lastUpdated": "2026-03-30T16:33:52.797Z"
   },
   {
     "source": "github:iabundis29/code-review-expert",
@@ -1361,14 +1364,14 @@
   },
   {
     "source": "github:igniteui/igniteui-angular",
-    "rev": "8faf9248ef45f46b7772c0caca7b18f1b2abc8fb",
-    "hash": "1jalg2av70c90p0nkr0bxc41r2r8dxcbfipax9kann1pwkjggigk",
+    "rev": "eebb3f9215514ace7d182b7ed31b9329ff23c9f9",
+    "hash": "0xgrwhl31dh1qpblrfpdr1qq88pksd7lpr7inasjg5hqs4c83ca3",
     "skills": [
       "skills/igniteui-angular-components",
       "skills/igniteui-angular-grids",
       "skills/igniteui-angular-theming"
     ],
-    "lastUpdated": "2026-03-30T13:22:44.209Z"
+    "lastUpdated": "2026-03-30T16:35:03.432Z"
   },
   {
     "source": "github:igorvaryvoda/image-optimization-skill",
@@ -2533,8 +2536,8 @@
   },
   {
     "source": "github:incept5/eve-skillpacks",
-    "rev": "cb4d929fb984d25b3ecdb15c3f2ffaa9efe27325",
-    "hash": "1xqfv5fi8mq6lhs58hq32smg6imgcmvd2x14mk1z8c9vgv6ciklm",
+    "rev": "f15b7d3b4eb098ca659dd8739e63504ee2f039da",
+    "hash": "0bpbavs456wddzmc8ckpqql48qmasr4q442sy2gr67kf7z3m311i",
     "skills": [
       "eve-design/eve-agent-native-design",
       "eve-design/eve-agentic-app-design",
@@ -2564,7 +2567,7 @@
       "eve-work/eve-skill-distillation",
       "private-skills/sync-horizon"
     ],
-    "lastUpdated": "2026-03-30T13:22:28.125Z"
+    "lastUpdated": "2026-03-30T16:36:20.970Z"
   },
   {
     "source": "github:incidentfox/incidentfox",
@@ -2679,8 +2682,8 @@
   },
   {
     "source": "github:incubateur-ademe/benefriches",
-    "rev": "a0968338707f13922cd3a90c31c39139533c5407",
-    "hash": "1v2ich6g6ghwn3q7s1ayidgylyrif6fypgg30rqkv6s3rd48wkr0",
+    "rev": "99d754b0bc5bec8b62b2314453be413666bc6088",
+    "hash": "0zbbgjf073v27i4cdda0w9cf3bppbb4f2kcm7f93nl5drpsxf3mm",
     "skills": [
       ".claude/skills/adr",
       ".claude/skills/code-reviewer",
@@ -2694,7 +2697,7 @@
       ".claude/skills/worktree",
       ".claude/skills/worktree-merge"
     ],
-    "lastUpdated": "2026-03-26T19:24:13.145Z"
+    "lastUpdated": "2026-03-30T16:36:23.210Z"
   },
   {
     "source": "github:indianappguy/askvideo-cli",
@@ -3712,8 +3715,8 @@
   },
   {
     "source": "github:inkeep/agents",
-    "rev": "ea2d37d61ae5c531161e5a9198af1ca7699f96b2",
-    "hash": "0kygwz10dfd2v7b57hz8nnqrl100wdqr4qd767ql4109lwmhcmcj",
+    "rev": "c799d92e514ba610d29390c3bb5c5c0a038cbb00",
+    "hash": "16nc2ba7w9f805kpf16jmiai2kcyyr5balhfh5ym5vlmwvqrn76f",
     "skills": [
       ".agents/skills/accessibility-checklist",
       ".agents/skills/adding-env-variables",
@@ -3740,7 +3743,7 @@
       "agents-cookbook/template-projects/activities-planner-advanced/skills/structured-itinerary-responses",
       "agents-cookbook/template-projects/activities-planner-advanced/skills/weather-safety-guardrails"
     ],
-    "lastUpdated": "2026-03-30T04:54:49.670Z"
+    "lastUpdated": "2026-03-30T16:35:37.535Z"
   },
   {
     "source": "github:inkeep/skills",
@@ -3753,8 +3756,8 @@
   },
   {
     "source": "github:inkeep/team-skills",
-    "rev": "37207b77c81303f676b9f505929f6663716bbb4b",
-    "hash": "0slafmk9jngmwwyh25i8az4sk1drzk9bwkbnibbb4b9lxx556mk9",
+    "rev": "dd4904269dadb4ea5cf42b4d4a6c4ca0b6a337c5",
+    "hash": "1ypi3ahbbbj6jdymyxbdi590sk3m9ah00sfisa6dj2jfsh831i5r",
     "skills": [
       "ci/closed-pr-review-auto-improver/skills/pr-review-subagents-available",
       "ci/closed-pr-review-auto-improver/skills/pr-review-subagents-guidelines",
@@ -3803,7 +3806,7 @@
       "plugins/shared/skills/consolidate",
       "plugins/shared/skills/saas-session-recon"
     ],
-    "lastUpdated": "2026-03-30T10:31:37.672Z"
+    "lastUpdated": "2026-03-30T16:35:38.361Z"
   },
   {
     "source": "github:innei/media-library-organizer-skill",
@@ -4490,8 +4493,8 @@
   },
   {
     "source": "github:iofficeai/aionui",
-    "rev": "f7ab0158aae5ae63b8391cd8c83e861711be7e18",
-    "hash": "1hgqf2dk0z2lvv2z5ljaih6iakdpsmn9rd6rwdw14m1wy0l1f5lz",
+    "rev": "34ad258c79fb3d7a38c8cea58185aefb36a1e7f8",
+    "hash": "1vwx3192c0gh3lh878vmvy9dv8fah1a3hhakzac15221z61bw4b6",
     "skills": [
       ".claude/skills/architecture",
       ".claude/skills/bump-version",
@@ -4527,12 +4530,12 @@
       "src/process/resources/skills/x-recruiter",
       "src/process/resources/skills/xiaohongshu-recruiter"
     ],
-    "lastUpdated": "2026-03-30T13:24:47.109Z"
+    "lastUpdated": "2026-03-30T16:35:15.879Z"
   },
   {
     "source": "github:ionfury/homelab",
-    "rev": "a4af1c4ff74639608903e37a4747ec9faae0c02a",
-    "hash": "0na899kqm2c83vnvhkqw9rd0qg1pfam2nhicd20l1bs6w8qh4kvy",
+    "rev": "2a703210cd0a627835a4ddc4ea30a55dcab6ce8d",
+    "hash": "1090yvl7hr54l918c3w5kcsvmj78gbbnbxkbhvqip7zn26zd2fxr",
     "skills": [
       ".claude/skills/app-template",
       ".claude/skills/architecture-review",
@@ -4560,7 +4563,7 @@
       ".claude/skills/terragrunt",
       ".claude/skills/versions-renovate"
     ],
-    "lastUpdated": "2026-03-30T07:25:16.291Z"
+    "lastUpdated": "2026-03-30T16:34:48.449Z"
   },
   {
     "source": "github:ioniks/markdowntaskmanager",
