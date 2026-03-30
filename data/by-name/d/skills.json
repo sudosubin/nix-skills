@@ -3983,18 +3983,18 @@
   },
   {
     "source": "github:dagster-io/dagster-claude-plugins",
-    "rev": "27af24bcd3030a1f79ab3d2a6802268c5d5829aa",
-    "hash": "0bvwv30gzwyh7b7w2niphpymshznxssn4jl3lzl4ps3hyiwdllsv",
+    "rev": "2c70f53f7ef78bc7e0a3b6429fc5fb3c16081806",
+    "hash": "0lci3iriygss4ppzdf8mczmabb1h02b9bcs62gkrsyd53zbd06ij",
     "skills": [
       "skills/dagster-expert/skills/dagster-expert",
       "skills/dignified-python/skills/dignified-python"
     ],
-    "lastUpdated": "2026-03-26T19:24:26.465Z"
+    "lastUpdated": "2026-03-30T19:22:24.186Z"
   },
   {
     "source": "github:dagster-io/erk",
-    "rev": "2a179eaeaaa56a502e744c8b3d1aa9a7896f72c8",
-    "hash": "0a3j8nb4vdp0g51l3cv77z8vq9wcq5jz7m2rac7vhsq8fkknxn0y",
+    "rev": "a6d6c1d063672158b1f8b863402483d3a6ee75c9",
+    "hash": "09w51slcp79y4r2125ihrdjic4dyxp0zgy35xg4zq2a8r73sxs3z",
     "skills": [
       ".agents/skills/dignified-python",
       ".agents/skills/fake-driven-testing",
@@ -4022,17 +4022,17 @@
       ".claude/skills/rename-swarm",
       ".claude/skills/session-inspector"
     ],
-    "lastUpdated": "2026-03-26T13:25:08.014Z"
+    "lastUpdated": "2026-03-30T19:22:25.566Z"
   },
   {
     "source": "github:dagster-io/skills",
-    "rev": "27af24bcd3030a1f79ab3d2a6802268c5d5829aa",
-    "hash": "0bvwv30gzwyh7b7w2niphpymshznxssn4jl3lzl4ps3hyiwdllsv",
+    "rev": "2c70f53f7ef78bc7e0a3b6429fc5fb3c16081806",
+    "hash": "0lci3iriygss4ppzdf8mczmabb1h02b9bcs62gkrsyd53zbd06ij",
     "skills": [
       "skills/dagster-expert/skills/dagster-expert",
       "skills/dignified-python/skills/dignified-python"
     ],
-    "lastUpdated": "2026-03-26T19:24:26.476Z"
+    "lastUpdated": "2026-03-30T19:22:24.194Z"
   },
   {
     "source": "github:daheiai/easy-openclaw",
@@ -6552,15 +6552,15 @@
   },
   {
     "source": "github:datadog/dd-trace-java",
-    "rev": "cd5bbe11a69e6f5648816cea1b4b86db05fd60f7",
-    "hash": "18bpnqa4y72amypn77lrqf74838k4ndvylsra1qr72ndb2b76ypn",
+    "rev": "b6e89cdef9283900f20a65dd627151cdc9d9dc20",
+    "hash": "1zpyp08l4q98b9bvv6r2h71r93pj5sfi7pxbpysggwdrn8rmv32z",
     "skills": [
       ".claude/skills/add-apm-integrations",
       ".claude/skills/migrate-groovy-to-java",
       ".claude/skills/migrate-junit-source-to-tabletest",
       ".claude/skills/techdebt"
     ],
-    "lastUpdated": "2026-03-30T16:33:27.545Z"
+    "lastUpdated": "2026-03-30T19:22:02.506Z"
   },
   {
     "source": "github:datadog/stratus-red-team",
@@ -8899,8 +8899,8 @@
   },
   {
     "source": "github:davistroy/claude-marketplace",
-    "rev": "7b95c2344240e4801688fb0760eea75922e49654",
-    "hash": "02hzbykpvpfw0faz39s9d0xg0zmanvcwida94431fjrz3im0rwqv",
+    "rev": "41654e86c3775d2357050ac963bdb9d61627a0c7",
+    "hash": "1jx78s0jial4v43hz34qnmgps77764lvai19ja4xiqaiqgmjs3da",
     "skills": [
       "plugins/bpmn-plugin/skills/bpmn-generator",
       "plugins/bpmn-plugin/skills/bpmn-to-drawio",
@@ -8908,6 +8908,7 @@
       "plugins/personal-plugin/skills/accessibility-annotator",
       "plugins/personal-plugin/skills/evaluate-pipeline-output",
       "plugins/personal-plugin/skills/explain-project",
+      "plugins/personal-plugin/skills/lab-notebook",
       "plugins/personal-plugin/skills/leak-risk-audit",
       "plugins/personal-plugin/skills/plan-gate",
       "plugins/personal-plugin/skills/prime",
@@ -8920,7 +8921,7 @@
       "plugins/personal-plugin/skills/validate-and-ship",
       "plugins/personal-plugin/skills/visual-explainer"
     ],
-    "lastUpdated": "2026-03-28T01:33:46.552Z"
+    "lastUpdated": "2026-03-30T19:25:58.161Z"
   },
   {
     "source": "github:dawiddutoit/custom-claude",
@@ -10492,46 +10493,33 @@
   },
   {
     "source": "github:delorenj/skills",
-    "rev": "985c14f8ed4dca4d52d4a4ef0f6eb49988e9e112",
-    "hash": "0r7d3pbf93xdj5qdg5b96wpmbmj9c3c09spxh7qq7qw96psz33gq",
+    "rev": "f870ebd1b693c5b58c29383985f571c9926ab090",
+    "hash": "1s6fc5rdwr6aaywfl15r1sa4hp6qpvkv0kznp0lkly5lb6lydxp1",
     "skills": [
+      ".system/openai-docs",
+      ".system/skill-installer",
       "33god",
-      "33god-system-expert",
       "33god-task-triage",
-      "absurdist-readme-writer",
       "agent-browser",
       "agent-factory",
       "agent-team-kit",
       "agno",
       "ascii-cli-logo-banner",
       "ascii-terminal-animation-pack",
-      "blog-writing",
-      "bloodbank-n8n-event-driven-workflows",
-      "bmad/bmb/builder",
-      "bmad/bmm/analyst",
-      "bmad/bmm/architect",
-      "bmad/bmm/developer",
-      "bmad/bmm/pm",
-      "bmad/bmm/scrum-master",
-      "bmad/bmm/ux-designer",
-      "bmad/cis/creative-intelligence",
-      "bmad/core/bmad-master",
       "bub-email-triage",
       "c4-architecture",
       "chrome-extension-developer",
-      "coding-conventions",
       "coding-strategy",
+      "context-optimizer",
       "context-self-heal",
       "copilot-money",
       "creating-coloring-books",
-      "creating-workflows",
       "creating-workflows-using-claude-flow",
       "debugging-complex-multi-layer-systems",
       "digipop-coloring-book-creation",
       "ecosystem-patterns",
       "elevenlabs-remotion",
       "elevenlabs-voices",
-      "emergency-ulimit-mitigation",
       "event-driven-architecture",
       "fal-text-to-image",
       "feedback-vector-loop",
@@ -10546,9 +10534,12 @@
       "letta",
       "managing-tickets-and-tasks-in-plane",
       "mise-task-managing",
+      "mise-tasks",
       "monitoring-stack",
       "notebooklm",
       "oauth-helper",
+      "obsidian-vault-management",
+      "openclaw-agent-management",
       "openclaw-runtime-git",
       "openclaw-upgrade",
       "opencode-controller",
@@ -10556,16 +10547,15 @@
       "phone-agent",
       "pjangler-dev",
       "pm2",
+      "product-changelog",
       "project-crank-engine",
       "rabbitmq-management",
       "ralph-wiggum-v2",
-      "recovering-from-bad-git-state",
       "remotion",
       "security-monitor",
       "shadcn-components",
       "shadcn-ui",
       "skill-creator",
-      "software-change-management-using-git",
       "stacks-deploy",
       "stealth-browser",
       "svgme-status-handoff",
@@ -10573,20 +10563,15 @@
       "tanstack-start-best-practices",
       "tauri",
       "temporal-python-testing",
-      "thematic-doc-generator",
-      "thermite-game-development",
       "ui-ux-design",
       "unfuck-my-git-state",
-      "using-reasoningbank-to-manage-memories",
       "vercel-composition-patterns",
       "vercel-react-best-practices",
       "vercel-react-native-skills",
       "web-design-guidelines",
-      "zellij-layouts",
-      "zellij-plugin-dev",
-      "zellij-specialist"
+      "zellij-plugin-dev"
     ],
-    "lastUpdated": "2026-03-29T22:15:19.683Z"
+    "lastUpdated": "2026-03-30T19:21:55.497Z"
   },
   {
     "source": "github:delorenj/unfuck-my-git-state-skill",
@@ -15990,8 +15975,8 @@
   },
   {
     "source": "github:dereekb/dbx-components",
-    "rev": "a0b5fd313c95db6191b7eb888f50abbbfec8f8dc",
-    "hash": "1wcmri4nk0jn0r4fj9jj6wnblmw1i85glpgj77567r46709igc2g",
+    "rev": "0d0bd2e8cacf7e2617e2a327e3f31fa767e0ff3b",
+    "hash": "154rr1r4lkr9p592nssllkv7h9nmm5hjyndylgki1j694q1vw8jg",
     "skills": [
       ".opencode/skills/link-workspace-packages",
       ".opencode/skills/monitor-ci",
@@ -16000,7 +15985,7 @@
       ".opencode/skills/nx-run-tasks",
       ".opencode/skills/nx-workspace"
     ],
-    "lastUpdated": "2026-03-30T16:33:24.141Z"
+    "lastUpdated": "2026-03-30T19:21:53.754Z"
   },
   {
     "source": "github:dereknex/skills",
@@ -17280,12 +17265,12 @@
   },
   {
     "source": "github:dgunning/edgartools",
-    "rev": "70fc501852db17d6749e0d5174abd8d3ab673a97",
-    "hash": "0ha2d6lsrrh25ppxac9qpiv0m776l3mi2nnr55kdmqwdv8dvidjf",
+    "rev": "25f57c1ba7ba630b4ab3d23cb10d8c208eadc024",
+    "hash": "1s9xnmphyhipac2pgk9m2d1js1v5v7l255nx1wm1y1cnaarj5iiv",
     "skills": [
       "edgar/ai/skills/core"
     ],
-    "lastUpdated": "2026-03-30T16:33:36.443Z"
+    "lastUpdated": "2026-03-30T19:22:43.451Z"
   },
   {
     "source": "github:dhananjaypawar26/docs-platform-rollout",
@@ -35812,8 +35797,8 @@
   },
   {
     "source": "github:different-ai/openwork",
-    "rev": "aa06fbb1d68352768a58a39bf84d24c0e8726c88",
-    "hash": "1zjffvjfc4v0g7y7mw4f7k9h7ylzld3ybycllz53mgs20s3d50sp",
+    "rev": "ca002ddc65bb05e3682d168830388ca83f46bc4e",
+    "hash": "1mm55pisgcpvg8d5h1vfh7z339d8gibpj4s3dbsq7zvyadnigyy7",
     "skills": [
       ".opencode/skills/browser-setup-devtools",
       ".opencode/skills/cargo-lock-manager",
@@ -35829,7 +35814,7 @@
       ".opencode/skills/solidjs-patterns",
       ".opencode/skills/tauri-solidjs"
     ],
-    "lastUpdated": "2026-03-30T16:33:26.337Z"
+    "lastUpdated": "2026-03-30T19:21:59.656Z"
   },
   {
     "source": "github:different-ai/zero-finance",
@@ -36344,16 +36329,18 @@
   },
   {
     "source": "github:dirien/claude-skills",
-    "rev": "ee6711f5685002909b7b517de8b7e46afaa93240",
-    "hash": "06w5m7ww0r8yh5xvmcg0rwdxj5achb30bb3jrsva6zf16k7zn5ml",
+    "rev": "85b0ee2a07cb1e3420d445d3f2336eadca45cde5",
+    "hash": "1vpixniy9rwqm8nfdn39rw9nrz6wb13p0av5xjak8gad9acd4j35",
     "skills": [
+      "flux-cli",
+      "flux-operator-cli",
       "pulumi-cli",
       "pulumi-go",
       "pulumi-neo",
       "pulumi-python",
       "pulumi-typescript"
     ],
-    "lastUpdated": "2026-03-22T10:20:09.738Z"
+    "lastUpdated": "2026-03-30T19:22:15.233Z"
   },
   {
     "source": "github:dirien/minectl",
@@ -36903,8 +36890,8 @@
   },
   {
     "source": "github:djnsty23/claude-auto-dev",
-    "rev": "f03c4449c3c73d8fdc2b6f57d58d5af8d7fc1640",
-    "hash": "0ngn8f9x5myq723xa855r93wl3cqzhskayhwk35rjvsi4lq3ylyi",
+    "rev": "2096d9de637f51340707ce774fc545b570dedd5d",
+    "hash": "1vmd00nkhfckcn6pf14dppl98y47i43lpwkh02dkppm663sihd5n",
     "skills": [
       "skills/a11y",
       "skills/agent-browser",
@@ -36943,7 +36930,7 @@
       "skills/update",
       "skills/verify"
     ],
-    "lastUpdated": "2026-03-30T16:34:50.222Z"
+    "lastUpdated": "2026-03-30T19:23:50.810Z"
   },
   {
     "source": "github:djyde/ccmate",
@@ -38401,8 +38388,8 @@
   },
   {
     "source": "github:dojoengine/book",
-    "rev": "9544b48d545e04ad2907fdcd79ff12880bcb7751",
-    "hash": "18ws06jlzxpdhhc6wdp5a21nvbdvs46y1ns20p6dvx2qznf95gga",
+    "rev": "52a1507eb4ef1b4473df1b0c80715d46db1aa194",
+    "hash": "1mm11wlpnm7gqffqf52mpyfhq77caynni2hjbblvkjpdjwhhyipz",
     "skills": [
       "skills/dojo-client",
       "skills/dojo-config",
@@ -38418,7 +38405,7 @@
       "skills/dojo-vrf",
       "skills/dojo-world"
     ],
-    "lastUpdated": "2026-03-26T22:18:31.910Z"
+    "lastUpdated": "2026-03-30T19:21:55.640Z"
   },
   {
     "source": "github:dokhacgiakhoa/antigravity-ide",
@@ -40049,8 +40036,8 @@
   },
   {
     "source": "github:dotnet/msbuild",
-    "rev": "f85136446c600ea9818d588d942c0ae9f2dccbed",
-    "hash": "0b229d13hmrcqsf9mzaz0nfmk8scdmh7ipcpjr6vp400k8z82sw0",
+    "rev": "4fde89a8519bc2ddb04078a82a2082a7071cbfb7",
+    "hash": "0h0lp61nzp3b0mg4869z4hjvlbr7dqnr8iiazd3gndzm9pjq3dz8",
     "skills": [
       ".github/skills/backwards-compatibility",
       ".github/skills/binary-log-considerations",
@@ -40066,7 +40053,7 @@
       ".github/skills/sdk-msbuild-integration",
       ".github/skills/use-bootstrap-msbuild"
     ],
-    "lastUpdated": "2026-03-30T16:33:36.456Z"
+    "lastUpdated": "2026-03-30T19:23:44.318Z"
   },
   {
     "source": "github:dotnet/skills",
@@ -41116,8 +41103,8 @@
   },
   {
     "source": "github:dropseed/plain",
-    "rev": "7cd6ab2412d0c4acd0e93713c34fcaadb621d8b5",
-    "hash": "0wagnjyz2xw3kr0akf7pb56vilaxv3dam2892q1kzk9izjkymg7a",
+    "rev": "efdf13daef55e5538ebd56c86fe6341d8139f3c9",
+    "hash": "10aa7j02m2pgm5sda6ja1gyc6vd8clmfia6slzky4zjs6r3jqsmw",
     "skills": [
       ".claude/skills/future",
       ".claude/skills/plain-bug",
@@ -41130,7 +41117,7 @@
       ".claude/skills/release",
       "plainx-dev/plainx/dev/agents/.claude/skills/plainx-release"
     ],
-    "lastUpdated": "2026-03-29T22:15:15.747Z"
+    "lastUpdated": "2026-03-30T19:24:14.946Z"
   },
   {
     "source": "github:droyd-ai/droyd-skills",
@@ -41463,12 +41450,12 @@
   },
   {
     "source": "github:dstackai/dstack",
-    "rev": "f21cf98a000e6f5e375c6e185fc53f706beae50f",
-    "hash": "1r98gi5im4ik24qmqak7piljngvclf265qzjsszqicipziqwq63w",
+    "rev": "3277143eb1da557e790b09c494829da43fbd93be",
+    "hash": "1zgw33vpk917q4gflnwr40ccz46vrj0p8yygjxqczc35qx80gsm5",
     "skills": [
       "skills/dstack"
     ],
-    "lastUpdated": "2026-03-30T13:22:52.069Z"
+    "lastUpdated": "2026-03-30T19:24:20.498Z"
   },
   {
     "source": "github:dstiliadis/security-review-skill",
@@ -45771,8 +45758,8 @@
   },
   {
     "source": "github:dust-tt/dust",
-    "rev": "7f4bbfa87131f2cc5d7489cb883f78c386b386bc",
-    "hash": "0adv7a158rr9d74g52qv5820dblk3sl2zy9c3f5xwpnzx26qkydn",
+    "rev": "11c5bf78e11b97b4d168302d57ab9276ce2cc9bc",
+    "hash": "0iif17950fs8s6xjbaqqmdmr4v2bwpgm42f0w3ppc2g1f26zmnvr",
     "skills": [
       ".claude/skills/dust-breaking-changes",
       ".claude/skills/dust-call-agent",
@@ -45785,7 +45772,7 @@
       ".claude/skills/dust-writing-react-effects",
       "x/henry/dust-hive/.claude/skills/dust-hive"
     ],
-    "lastUpdated": "2026-03-30T16:35:40.372Z"
+    "lastUpdated": "2026-03-30T19:25:23.057Z"
   },
   {
     "source": "github:duthaho/claudekit",
@@ -46381,8 +46368,8 @@
   },
   {
     "source": "github:dyad-sh/dyad",
-    "rev": "e71ebbe72ccdbc917b3b95655e722a3884bce2fa",
-    "hash": "02mzy0fwg56bx6idghvs4rj74dz1rck8r3j6b9r08clhijd64f21",
+    "rev": "0f077b9d0ad73a725a007c8605d1ea57c215e7a1",
+    "hash": "1qan93bs9f33bmzjj86yliirfp1rq9fjw1lhwfkccgzrm91sjv1f",
     "skills": [
       ".agents/skills/add-models",
       ".agents/skills/check-workflows",
@@ -46409,7 +46396,7 @@
       ".agents/skills/swarm-pr-review",
       ".agents/skills/swarm-to-plan"
     ],
-    "lastUpdated": "2026-03-28T01:33:48.722Z"
+    "lastUpdated": "2026-03-30T19:21:51.013Z"
   },
   {
     "source": "github:dyai2025/stoppclock-page",
