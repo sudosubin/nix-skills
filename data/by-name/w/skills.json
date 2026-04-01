@@ -121,12 +121,9 @@
   },
   {
     "source": "github:WaterplanAI/agentic-config",
-    "rev": "a9a752233b98e50e80f2b8747a6fe22b884379da",
-    "hash": "0hqvfzsnn0a0sqcwy4lfb3aikswp20k01sa6b7gg31f3gjwy7jmj",
+    "rev": "f054f2abda79d7b69a5955d19c1b20e7e358e873",
+    "hash": "05gn1x1gp9fpgz14rnfcldic2ah5hdrz33ibiz8j455xic7a5948",
     "skills": [
-      "core/skills/agent-orchestrator-manager",
-      "core/skills/command-writer",
-      "core/skills/git-rewrite-history",
       "plugins/ac-audit/skills/configure-audit",
       "plugins/ac-git/skills/branch",
       "plugins/ac-git/skills/gh-assets-branch-mgmt",
@@ -145,6 +142,7 @@
       "plugins/ac-qa/skills/prepare-app",
       "plugins/ac-qa/skills/test-e2e",
       "plugins/ac-safety/skills/configure-safety",
+      "plugins/ac-safety/skills/harden-supply-chain-sec",
       "plugins/ac-tools/skills/ac-issue",
       "plugins/ac-tools/skills/adr",
       "plugins/ac-tools/skills/agentic-export",
@@ -169,7 +167,7 @@
       "plugins/ac-workflow/skills/product-manager",
       "plugins/ac-workflow/skills/spec"
     ],
-    "lastUpdated": "2026-03-21T16:14:19.617Z"
+    "lastUpdated": "2026-04-01T22:17:40.546Z"
   },
   {
     "source": "github:WayfinderFoundation/wayfinder-paths-sdk",
@@ -1098,12 +1096,9 @@
   },
   {
     "source": "github:waterplanai/agentic-config",
-    "rev": "a9a752233b98e50e80f2b8747a6fe22b884379da",
-    "hash": "0hqvfzsnn0a0sqcwy4lfb3aikswp20k01sa6b7gg31f3gjwy7jmj",
+    "rev": "ab9b595d60c9398fb17d254aa97bc9b5b4186743",
+    "hash": "0vp1ybl8hyhgzml3iinkifas5dv8jdy5y6gx37y142pykrrcswm0",
     "skills": [
-      "core/skills/agent-orchestrator-manager",
-      "core/skills/command-writer",
-      "core/skills/git-rewrite-history",
       "plugins/ac-audit/skills/configure-audit",
       "plugins/ac-git/skills/branch",
       "plugins/ac-git/skills/gh-assets-branch-mgmt",
@@ -1122,6 +1117,7 @@
       "plugins/ac-qa/skills/prepare-app",
       "plugins/ac-qa/skills/test-e2e",
       "plugins/ac-safety/skills/configure-safety",
+      "plugins/ac-safety/skills/harden-supply-chain-sec",
       "plugins/ac-tools/skills/ac-issue",
       "plugins/ac-tools/skills/adr",
       "plugins/ac-tools/skills/agentic-export",
@@ -1146,7 +1142,7 @@
       "plugins/ac-workflow/skills/product-manager",
       "plugins/ac-workflow/skills/spec"
     ],
-    "lastUpdated": "2026-03-21T16:18:31.165Z"
+    "lastUpdated": "2026-04-01T22:20:37.479Z"
   },
   {
     "source": "github:watthem/similar-files",
@@ -2095,8 +2091,8 @@
   },
   {
     "source": "github:welldundun/selftune",
-    "rev": "ffbc87142169a1ed44bcf23aa5ed0e5a33d1cf26",
-    "hash": "1vhpcp3zzfmwzh8b2s84fhmkd0vrx94xqh5x8p2xdw1h49l0bgc4",
+    "rev": "a8b53e13cad70be351f71a588a00b99f6ab0835f",
+    "hash": "0h8y6w95cmycvdj6rgj7xqlg7624fr91wcsrzv4n35rqfhpy1y8q",
     "skills": [
       "skill",
       "tests/blog-proof/fixtures/seo-audit",
@@ -2107,7 +2103,7 @@
       "tests/sandbox/fixtures/skills/find-skills",
       "tests/sandbox/fixtures/skills/frontend-design"
     ],
-    "lastUpdated": "2026-03-29T13:31:53.382Z"
+    "lastUpdated": "2026-04-01T22:20:27.295Z"
   },
   {
     "source": "github:welldundun/startup-announcement",
@@ -2395,7 +2391,7 @@
   },
   {
     "source": "github:weppa-cloud/bukeer-flutter",
-    "rev": "7fdba1eefb80207ec9ecc8d0b2ed5bd225d3056e",
+    "rev": "5c511e5c3ecd0fdf88b3a79dc74c5b393fbcef1c",
     "hash": "1avyvjspzidxqs254zbsgr7nqkrsxh8rlm4cv22q16gkma1pbnlk",
     "skills": [
       ".claude/skills/architecture-analyzer",
@@ -2422,7 +2418,7 @@
       "ai-system/bukeer-mcp",
       "project/06-marketing/bukeer-video/.skills/remotion"
     ],
-    "lastUpdated": "2026-04-01T19:29:10.006Z"
+    "lastUpdated": "2026-04-01T22:20:39.663Z"
   },
   {
     "source": "github:wesley1600/claudecodeframework",
@@ -4124,8 +4120,8 @@
   },
   {
     "source": "github:windmill-labs/windmill",
-    "rev": "175af8032f5833e0141376efc0c23a4c2408ad79",
-    "hash": "1y97ijyisx443145al61dpwkckbvi935zwfi86rj29a8wja01ig8",
+    "rev": "7ab0ea581d349fbfdb56d22cf9903a90efa045bb",
+    "hash": "1wzcja8pa92rqb8zpmnprylhmk96nx4k41vvvldw5x4x8hm1hrb9",
     "skills": [
       ".agents/skills/commit",
       ".agents/skills/local-review",
@@ -4161,7 +4157,7 @@
       "system_prompts/auto-generated/skills/write-script-rust",
       "system_prompts/auto-generated/skills/write-script-snowflake"
     ],
-    "lastUpdated": "2026-04-01T19:29:58.592Z"
+    "lastUpdated": "2026-04-01T22:19:30.310Z"
   },
   {
     "source": "github:window-ook/fit-checker",
@@ -4591,15 +4587,15 @@
   },
   {
     "source": "github:withastro/astro",
-    "rev": "402193ed5a08a8f65bafc004dc869cbd179039ae",
-    "hash": "0a1vmdrjbm1b2yglrq4bvmmsfdak1fsil9pmyzdzn1yg2yvhxb12",
+    "rev": "fffd290bc9317a5d9369c9f42a2bfe559d0abf01",
+    "hash": "0z5mmmyql0bnm2wci96fmf5icyxc0jw696jf4d65s2pg2d5vb9i7",
     "skills": [
       ".agents/skills/analyze-github-action-logs",
       ".agents/skills/astro-developer",
       ".agents/skills/astro-pr-writer",
       ".agents/skills/triage"
     ],
-    "lastUpdated": "2026-04-01T19:29:53.507Z"
+    "lastUpdated": "2026-04-01T22:19:22.391Z"
   },
   {
     "source": "github:withastro/flue",
@@ -5495,12 +5491,12 @@
   },
   {
     "source": "github:workadventure/workadventure",
-    "rev": "4e33c5a95d0cbe61b83b5f2d8c12b2bd37607e44",
-    "hash": "01knz3fbmvb477q021a7dc8mr762y7qmydh3r559w5s4q58yb8pc",
+    "rev": "2a5fcac6d3b680334d2a74b7baaad8401dd57a59",
+    "hash": "0rvmsvh0lp290pz5ay2k1cxlin6wbvx9dwlyxlvjapnj7mcm8gd0",
     "skills": [
       ".claude/skills/translate"
     ],
-    "lastUpdated": "2026-04-01T19:29:19.255Z"
+    "lastUpdated": "2026-04-01T22:20:41.669Z"
   },
   {
     "source": "github:workersio/spec",
@@ -6194,13 +6190,13 @@
   },
   {
     "source": "github:wsbs20/claude-code-aso-skill",
-    "rev": "10856c914ea3e7b1266ed2639d64979a08b34d9b",
+    "rev": "997166258708739eaef1eac4658b7faeeaf5c936",
     "hash": "0dmywq9k309z3dv5437zc9qmw1jy6v343kj0c1612yplncgrdk3i",
     "skills": [
       ".claude/skills/aso",
       "app-store-optimization"
     ],
-    "lastUpdated": "2026-04-01T19:29:44.265Z"
+    "lastUpdated": "2026-04-01T22:20:02.733Z"
   },
   {
     "source": "github:wsgtcyx/pdf-zusammenfugen-agent-skills",

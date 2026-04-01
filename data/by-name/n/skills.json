@@ -43249,14 +43249,13 @@
   },
   {
     "source": "github:nangohq/skills",
-    "rev": "d95c8d3e889c525b9911f9467bdfa734a7fbb952",
-    "hash": "0fj3fkdsr82pd77c0ihl44njq8k26841fmj4l0wzipf4grdqzxyf",
+    "rev": "63bf4b3e97909e0417d0356922965fc0eb93274b",
+    "hash": "06s94vh4g0cs3sq1s5syfkii4gi16y0wrlqg9isd98qygic2spab",
     "skills": [
-      "skills/migrate-nango-deletion-detection",
-      "skills/migrating-nango-deletion-detection",
-      "skills/nango-function-builder"
+      "skills/building-nango-functions-locally",
+      "skills/migrate-nango-deletion-detection"
     ],
-    "lastUpdated": "2026-03-18T13:30:53.621Z"
+    "lastUpdated": "2026-04-01T22:17:48.485Z"
   },
   {
     "source": "github:nangongwentian-fe/agent-skills",
@@ -45229,14 +45228,14 @@
   },
   {
     "source": "github:netresearch/jira-skill",
-    "rev": "9fe98ca4a640b5b72ef3ff7ae7af7ba5cf432237",
-    "hash": "0xjydb565fdg02cimipl03qhrvgd3v8dlc3s62gn0psvhwsz40f9",
+    "rev": "6517c6c52c793ee14130778c64d5a5764640e1c5",
+    "hash": "0a2x6b898824qlchx93n7arr6i9yv9dzgrikiaadx9awl39viks5",
     "skills": [
       "evals/comprehensive-workspace/baseline-skill",
       "skills/jira-communication",
       "skills/jira-syntax"
     ],
-    "lastUpdated": "2026-04-01T19:27:09.693Z"
+    "lastUpdated": "2026-04-01T22:19:22.660Z"
   },
   {
     "source": "github:netresearch/matrix-skill",
@@ -174478,34 +174477,34 @@
   },
   {
     "source": "github:ngvoicu/datasmith-pg",
-    "rev": "edb1198993a44aefdb506dbc22c0b23add920a36",
-    "hash": "1azpqyvr7hxbk2n1xbnnwh1g9i4makzv91a56yxp6dblaiqvvr6w",
+    "rev": "801532bf4fa65e9c30b80bce6d737db799ede921",
+    "hash": "1gqc6k5ck8pic16nnn5afib25jgqixa58d3x4wkwydwbpqh66xhm",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-03-05T19:30:14.299Z"
+    "lastUpdated": "2026-04-01T22:18:36.700Z"
   },
   {
     "source": "github:ngvoicu/specsmith",
-    "rev": "a2a0633a0d800820a60acea09a4937003c308291",
-    "hash": "076rqsm8w2b9wq7vjbyrl37fl0084qfqjwxk3n2ldwhfhnj8lp69",
+    "rev": "c8bd58dc5d0b5f7e0ba8596945e11d02233ce446",
+    "hash": "15yqb7qcjki9dfa1gdl03j31v4njdjy1jg6j5z7z2qjsifg290qn",
     "skills": [
       ".",
       "skills/specmint-core",
       "specmint-workspace/skill-snapshot"
     ],
-    "lastUpdated": "2026-03-31T16:35:04.224Z"
+    "lastUpdated": "2026-04-01T22:18:36.710Z"
   },
   {
     "source": "github:ngvoicu/specsmith-forge",
-    "rev": "a2a0633a0d800820a60acea09a4937003c308291",
-    "hash": "076rqsm8w2b9wq7vjbyrl37fl0084qfqjwxk3n2ldwhfhnj8lp69",
+    "rev": "c8bd58dc5d0b5f7e0ba8596945e11d02233ce446",
+    "hash": "15yqb7qcjki9dfa1gdl03j31v4njdjy1jg6j5z7z2qjsifg290qn",
     "skills": [
       ".",
       "skills/specmint-core",
       "specmint-workspace/skill-snapshot"
     ],
-    "lastUpdated": "2026-03-31T16:35:03.829Z"
+    "lastUpdated": "2026-04-01T22:18:37.218Z"
   },
   {
     "source": "github:ngxtm/devkit",
@@ -176951,17 +176950,37 @@
   },
   {
     "source": "github:nikolovlazar/dotfiles",
-    "rev": "15698f29e8e4a1c8fcb1fff32bc1b40b13337e8f",
-    "hash": "0v3ylz7ls9qjp8q4rh5hnlp310lf2gj9s1m95ssrimkwzaz9p2va",
+    "rev": "badeb3d42b49e82082121620e2edeb095d8b34fe",
+    "hash": "15f6dgg4jlgpdv7f0m6r2gss8n2i67c66ab6hqf7nx3l1vqb9qb3",
     "skills": [
       ".agents/skills/better-auth-best-practices",
+      ".agents/skills/defuddle",
       ".agents/skills/find-skills",
       ".agents/skills/humanizer",
+      ".agents/skills/json-canvas",
       ".agents/skills/marketing-psychology",
+      ".agents/skills/obsidian-bases",
+      ".agents/skills/obsidian-cli",
+      ".agents/skills/obsidian-markdown",
       ".agents/skills/react-best-practices",
-      ".agents/skills/sentry-blog"
+      ".agents/skills/sentry-blog",
+      ".agents/skills/sentry-browser-sdk",
+      ".agents/skills/sentry-code-review",
+      ".agents/skills/sentry-feature-setup",
+      ".agents/skills/sentry-fix-issues",
+      ".agents/skills/sentry-go-sdk",
+      ".agents/skills/sentry-nextjs-sdk",
+      ".agents/skills/sentry-node-sdk",
+      ".agents/skills/sentry-python-sdk",
+      ".agents/skills/sentry-react-native-sdk",
+      ".agents/skills/sentry-react-sdk",
+      ".agents/skills/sentry-sdk-setup",
+      ".agents/skills/sentry-sdk-upgrade",
+      ".agents/skills/sentry-setup-ai-monitoring",
+      ".agents/skills/sentry-workflow",
+      ".claude/skills/sentry-cli"
     ],
-    "lastUpdated": "2026-03-23T16:30:25.940Z"
+    "lastUpdated": "2026-04-01T22:18:12.781Z"
   },
   {
     "source": "github:nilecui/diagram_wk",
@@ -178753,8 +178772,8 @@
   },
   {
     "source": "github:nousresearch/hermes-agent",
-    "rev": "16d9f58445e7960715585ea96d07908a1c7b5bdc",
-    "hash": "1kqxm5gxj4h3xd5plm659i07k12pxinj2l7av9haqqbvp1vihkbn",
+    "rev": "3628ccc8c435e2d2cc697d9f0fafcca1f20e9db5",
+    "hash": "1bn2mcdljxa41q8xk1xr8635ln85fy0g9w10lmymr2k1s82p10li",
     "skills": [
       "optional-skills/autonomous-ai-agents/blackbox",
       "optional-skills/blockchain/base",
@@ -178874,7 +178893,7 @@
       "skills/software-development/test-driven-development",
       "skills/software-development/writing-plans"
     ],
-    "lastUpdated": "2026-04-01T19:29:35.129Z"
+    "lastUpdated": "2026-04-01T22:18:30.551Z"
   },
   {
     "source": "github:novitalabs/novita-skills",
@@ -179059,8 +179078,8 @@
   },
   {
     "source": "github:nrwl/nx",
-    "rev": "cbeedca9e5f6fb7747195f49adf6360f6186b08f",
-    "hash": "1pyavz2fqbsq9j96vl5wzpg8ain01dc6pb152jlizp1pvyp2wcv5",
+    "rev": "887fca4ac8c143adacab209d68ad60eaf1e58785",
+    "hash": "0i8800lk3pddprh79j9cwsschrl4zzxply0lbqk1j73cwrnzi0ak",
     "skills": [
       ".claude/skills/nx-docs-style-check",
       ".claude/skills/nx-gradle-plugin-version-bump",
@@ -179071,7 +179090,7 @@
       ".github/skills/nx-run-tasks",
       ".github/skills/nx-workspace"
     ],
-    "lastUpdated": "2026-04-01T19:30:10.649Z"
+    "lastUpdated": "2026-04-01T22:19:20.438Z"
   },
   {
     "source": "github:nrwl/nx-ai-agents-config",
@@ -179491,12 +179510,12 @@
   },
   {
     "source": "github:nvidia/osmo",
-    "rev": "e8b9727268991d18ab2ebffe7d46a4986da044c1",
-    "hash": "0xqamxd7v8aqrzz2mn1q8wy9xgjf2i1dsnipc0q7axr758adlcgk",
+    "rev": "41de064de00d0d1d7573a6c353ba030ae9ea3c1a",
+    "hash": "09aa25pffnqz0j5d4vcjb5km7bp41k393jdi4vhz4wjkkamqzwhn",
     "skills": [
       "skills/osmo-agent"
     ],
-    "lastUpdated": "2026-04-01T19:29:36.766Z"
+    "lastUpdated": "2026-04-01T22:18:45.003Z"
   },
   {
     "source": "github:nweii/agent-stuff",
