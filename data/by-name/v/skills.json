@@ -209,8 +209,8 @@
   },
   {
     "source": "github:vadimkomis/ai-playbook",
-    "rev": "3af6448f208e45d14c7feeaa67050b3772012249",
-    "hash": "0mjvhvpjgiyhhzcbpbrfpa8sk0x1j0wa85k1wh8mqn0xik9400r7",
+    "rev": "62ee6e201f00923ce612d296816fd0bf695180b3",
+    "hash": "00rpzlc4150jab0wdblllykrb5q4b0s2n7drbpjrigcc12wcxbx3",
     "skills": [
       "Codex/skills/architecture-reviewer",
       "Codex/skills/code-simplification-architect",
@@ -221,7 +221,7 @@
       "Codex/skills/senior-code-reviewer",
       "Codex/skills/senior-qa-engineer"
     ],
-    "lastUpdated": "2026-03-05T14:31:54.763Z"
+    "lastUpdated": "2026-04-02T01:28:45.431Z"
   },
   {
     "source": "github:vagus95/thought-mining-skill",
@@ -418,8 +418,8 @@
   },
   {
     "source": "github:vamseeachanta/workspace-hub",
-    "rev": "c7c66e5a0db178356472cde4346a8d5eaa4c60b0",
-    "hash": "01b294x8nfy95r9a09cvb1h5a7qsibfhkz42g60vlw06c1wg84gq",
+    "rev": "37816a7c51231d29ebe64dd2d70d7dc3aac7513a",
+    "hash": "1lj3d1z13dz1ykklbik1nw7b38526j83mlchf849vlcbg53lqsmh",
     "skills": [
       ".claude/skills/_archive/ai/agent-usage-optimizer/baseline-route-mapping-quota-agnostic-defaults",
       ".claude/skills/_archive/ai/agent-usage-optimizer/complexity-tier-model-mapping",
@@ -1087,7 +1087,6 @@
       ".claude/skills/_archive/data/documents/xlsx/check-for-errors",
       ".claude/skills/_archive/data/documents/xlsx/financial-model-color-standards",
       ".claude/skills/_archive/data/documents/xlsx/with-pandas",
-      ".claude/skills/_archive/data/documents/xlsx/workflow",
       ".claude/skills/_archive/data/office/docx-templates/1-basic-template-rendering",
       ".claude/skills/_archive/data/office/docx-templates/1-template-design",
       ".claude/skills/_archive/data/office/docx-templates/2-loops-and-iterations",
@@ -2279,11 +2278,11 @@
       ".claude/skills/data/documents/knowledge-base-builder",
       ".claude/skills/data/documents/md-to-pdf",
       ".claude/skills/data/documents/pdf",
-      ".claude/skills/data/documents/pdf-large-reader",
-      ".claude/skills/data/documents/pdf-text-extractor",
-      ".claude/skills/data/documents/pdf-text-extractor/readability-classification",
-      ".claude/skills/data/documents/pdf-utilities",
+      ".claude/skills/data/documents/pdf/large-reader",
       ".claude/skills/data/documents/pdf/pdftotext-poppler",
+      ".claude/skills/data/documents/pdf/text-extractor",
+      ".claude/skills/data/documents/pdf/text-extractor/readability-classification",
+      ".claude/skills/data/documents/pdf/utilities",
       ".claude/skills/data/documents/pptx",
       ".claude/skills/data/documents/rag-system-builder",
       ".claude/skills/data/documents/semantic-search-setup",
@@ -2296,9 +2295,9 @@
       ".claude/skills/data/energy/field-analyzer",
       ".claude/skills/data/energy/hse-risk-analyzer",
       ".claude/skills/data/energy/marine-safety-incidents",
-      ".claude/skills/data/energy/metocean-data-fetcher",
-      ".claude/skills/data/energy/metocean-statistics",
-      ".claude/skills/data/energy/metocean-visualizer",
+      ".claude/skills/data/energy/metocean",
+      ".claude/skills/data/energy/metocean/data-fetcher",
+      ".claude/skills/data/energy/metocean/visualizer",
       ".claude/skills/data/energy/npv-analyzer",
       ".claude/skills/data/energy/production-forecaster",
       ".claude/skills/data/energy/sodir-data-extractor",
@@ -2312,6 +2311,7 @@
       ".claude/skills/data/office/python-docx",
       ".claude/skills/data/office/python-pptx",
       ".claude/skills/data/office/xlsx-to-python",
+      ".claude/skills/data/research-and-literature-gathering",
       ".claude/skills/data/research-literature",
       ".claude/skills/data/scientific/api-integration",
       ".claude/skills/data/scientific/cad-mesh-generation",
@@ -2339,19 +2339,18 @@
       ".claude/skills/development/elite-frontend-ux",
       ".claude/skills/development/engineering-report-generator",
       ".claude/skills/development/git-worktree-workflow",
-      ".claude/skills/development/github/github-code-review",
-      ".claude/skills/development/github/github-issue-tracker",
-      ".claude/skills/development/github/github-modes",
-      ".claude/skills/development/github/github-multi-repo",
-      ".claude/skills/development/github/github-pr-manager",
-      ".claude/skills/development/github/github-project-board",
-      ".claude/skills/development/github/github-release-manager",
-      ".claude/skills/development/github/github-release-swarm",
-      ".claude/skills/development/github/github-repo-architect",
-      ".claude/skills/development/github/github-swarm-issue",
-      ".claude/skills/development/github/github-swarm-pr",
-      ".claude/skills/development/github/github-sync",
-      ".claude/skills/development/github/github-workflow",
+      ".claude/skills/development/github/code-review",
+      ".claude/skills/development/github/issue-tracker",
+      ".claude/skills/development/github/modes",
+      ".claude/skills/development/github/multi-repo",
+      ".claude/skills/development/github/pr-manager",
+      ".claude/skills/development/github/project-board",
+      ".claude/skills/development/github/release-manager",
+      ".claude/skills/development/github/release-swarm",
+      ".claude/skills/development/github/repo-architect",
+      ".claude/skills/development/github/swarm-issue",
+      ".claude/skills/development/github/swarm-pr",
+      ".claude/skills/development/github/workflow",
       ".claude/skills/development/gitignore-scaffold",
       ".claude/skills/development/html-report-verify",
       ".claude/skills/development/mcp-builder",
@@ -2386,7 +2385,7 @@
       ".claude/skills/engineering/cad/gmsh-meshing",
       ".claude/skills/engineering/cad/pyvista-3d",
       ".claude/skills/engineering/cfd/openfoam",
-      ".claude/skills/engineering/cfd/openfoam-analysis",
+      ".claude/skills/engineering/cfd/openfoam/analysis",
       ".claude/skills/engineering/doc-extraction",
       ".claude/skills/engineering/doc-extraction/cp",
       ".claude/skills/engineering/doc-extraction/drilling-riser",
@@ -2416,37 +2415,38 @@
       ".claude/skills/engineering/marine-offshore/mesh-utilities",
       ".claude/skills/engineering/marine-offshore/mooring-analysis",
       ".claude/skills/engineering/marine-offshore/mooring-design",
-      ".claude/skills/engineering/marine-offshore/orcaflex-batch-manager",
-      ".claude/skills/engineering/marine-offshore/orcaflex-code-check",
-      ".claude/skills/engineering/marine-offshore/orcaflex-environment-config",
-      ".claude/skills/engineering/marine-offshore/orcaflex-extreme-analysis",
-      ".claude/skills/engineering/marine-offshore/orcaflex-file-conversion",
-      ".claude/skills/engineering/marine-offshore/orcaflex-installation-analysis",
-      ".claude/skills/engineering/marine-offshore/orcaflex-jumper-analysis",
-      ".claude/skills/engineering/marine-offshore/orcaflex-line-wizard",
-      ".claude/skills/engineering/marine-offshore/orcaflex-modal-analysis",
-      ".claude/skills/engineering/marine-offshore/orcaflex-model-generator",
-      ".claude/skills/engineering/marine-offshore/orcaflex-model-sanitization",
-      ".claude/skills/engineering/marine-offshore/orcaflex-modeling",
-      ".claude/skills/engineering/marine-offshore/orcaflex-monolithic-to-modular",
-      ".claude/skills/engineering/marine-offshore/orcaflex-mooring-iteration",
-      ".claude/skills/engineering/marine-offshore/orcaflex-operability",
-      ".claude/skills/engineering/marine-offshore/orcaflex-post-processing",
-      ".claude/skills/engineering/marine-offshore/orcaflex-rao-import",
-      ".claude/skills/engineering/marine-offshore/orcaflex-results-comparison",
-      ".claude/skills/engineering/marine-offshore/orcaflex-spec-audit",
-      ".claude/skills/engineering/marine-offshore/orcaflex-specialist",
-      ".claude/skills/engineering/marine-offshore/orcaflex-static-debug",
-      ".claude/skills/engineering/marine-offshore/orcaflex-vessel-setup",
-      ".claude/skills/engineering/marine-offshore/orcaflex-visualization",
-      ".claude/skills/engineering/marine-offshore/orcaflex-yaml-gotchas",
-      ".claude/skills/engineering/marine-offshore/orcawave-analysis",
-      ".claude/skills/engineering/marine-offshore/orcawave-aqwa-benchmark",
-      ".claude/skills/engineering/marine-offshore/orcawave-damping-sweep",
-      ".claude/skills/engineering/marine-offshore/orcawave-mesh-generation",
-      ".claude/skills/engineering/marine-offshore/orcawave-multi-body",
-      ".claude/skills/engineering/marine-offshore/orcawave-qtf-analysis",
-      ".claude/skills/engineering/marine-offshore/orcawave-to-orcaflex",
+      ".claude/skills/engineering/marine-offshore/orcaflex",
+      ".claude/skills/engineering/marine-offshore/orcaflex/batch-manager",
+      ".claude/skills/engineering/marine-offshore/orcaflex/code-check",
+      ".claude/skills/engineering/marine-offshore/orcaflex/environment-config",
+      ".claude/skills/engineering/marine-offshore/orcaflex/extreme-analysis",
+      ".claude/skills/engineering/marine-offshore/orcaflex/file-conversion",
+      ".claude/skills/engineering/marine-offshore/orcaflex/installation-analysis",
+      ".claude/skills/engineering/marine-offshore/orcaflex/jumper-analysis",
+      ".claude/skills/engineering/marine-offshore/orcaflex/line-wizard",
+      ".claude/skills/engineering/marine-offshore/orcaflex/modal-analysis",
+      ".claude/skills/engineering/marine-offshore/orcaflex/model-generator",
+      ".claude/skills/engineering/marine-offshore/orcaflex/model-sanitization",
+      ".claude/skills/engineering/marine-offshore/orcaflex/modeling",
+      ".claude/skills/engineering/marine-offshore/orcaflex/monolithic-to-modular",
+      ".claude/skills/engineering/marine-offshore/orcaflex/mooring-iteration",
+      ".claude/skills/engineering/marine-offshore/orcaflex/operability",
+      ".claude/skills/engineering/marine-offshore/orcaflex/post-processing",
+      ".claude/skills/engineering/marine-offshore/orcaflex/rao-import",
+      ".claude/skills/engineering/marine-offshore/orcaflex/results-comparison",
+      ".claude/skills/engineering/marine-offshore/orcaflex/spec-audit",
+      ".claude/skills/engineering/marine-offshore/orcaflex/specialist",
+      ".claude/skills/engineering/marine-offshore/orcaflex/static-debug",
+      ".claude/skills/engineering/marine-offshore/orcaflex/vessel-setup",
+      ".claude/skills/engineering/marine-offshore/orcaflex/visualization",
+      ".claude/skills/engineering/marine-offshore/orcaflex/yaml-gotchas",
+      ".claude/skills/engineering/marine-offshore/orcawave",
+      ".claude/skills/engineering/marine-offshore/orcawave/aqwa-benchmark",
+      ".claude/skills/engineering/marine-offshore/orcawave/damping-sweep",
+      ".claude/skills/engineering/marine-offshore/orcawave/mesh-generation",
+      ".claude/skills/engineering/marine-offshore/orcawave/multi-body",
+      ".claude/skills/engineering/marine-offshore/orcawave/qtf-analysis",
+      ".claude/skills/engineering/marine-offshore/orcawave/to-orcaflex",
       ".claude/skills/engineering/marine-offshore/production-engineering",
       ".claude/skills/engineering/marine-offshore/risk-assessment",
       ".claude/skills/engineering/marine-offshore/ship-dynamics-6dof",
@@ -2551,13 +2551,14 @@
       ".claude/skills/workspace-hub/repo-structure",
       ".claude/skills/workspace-hub/repo-sync",
       ".claude/skills/workspace-hub/sync",
+      "_archive/skills/sme/orcaflex-specialist",
       "_archive/skills/workspace-hub/agent-os-framework",
       "_archive/skills/workspace-hub/claude-reflection",
       "_archive/skills/workspace-hub/data-validation-reporter",
       "_archive/skills/workspace-hub/interactive-report-generator",
       "scripts/skills/tests/fixtures/oversized-test"
     ],
-    "lastUpdated": "2026-04-01T22:20:52.410Z"
+    "lastUpdated": "2026-04-02T01:27:31.347Z"
   },
   {
     "source": "github:vanab/swiftdata-agent-skill",
@@ -3435,8 +3436,8 @@
   },
   {
     "source": "github:velt-js/agent-skills",
-    "rev": "0833118016485793830e8d1544e44a1668228129",
-    "hash": "1qm41pv7j8zwdl1rfkggb1m6csss68p51hf191hjv0yksblvim30",
+    "rev": "018edea2d0b923c8b5f11a146a8b6098f53d2a48",
+    "hash": "18p8yx9635ix1jnwjmfa3mlmzh9n3yi5amnx27s78ljw2qvfnikg",
     "skills": [
       "skills/velt-activity-best-practices",
       "skills/velt-comments-best-practices",
@@ -3447,7 +3448,7 @@
       "skills/velt-setup-best-practices",
       "skills/velt-single-editor-mode-best-practices"
     ],
-    "lastUpdated": "2026-04-01T22:20:08.233Z"
+    "lastUpdated": "2026-04-02T01:28:27.426Z"
   },
   {
     "source": "github:velumkai/metacognition-skill",
@@ -3620,8 +3621,8 @@
   },
   {
     "source": "github:vercel-labs/agent-skills",
-    "rev": "d8d9f624bc54beaf7af9a5033d41d90aa49d7f5a",
-    "hash": "0m03pzdgxbyspj55rcy377rbdarl43b21c03y7a92708hk6a85mj",
+    "rev": "a7b34e89b52036f10ada00bf6e36a9a6cb468fc5",
+    "hash": "0xdm3c6brxc8i6m9cljl71qa9vb375sqh9h7j52r64sin806v84z",
     "skills": [
       "skills/composition-patterns",
       "skills/deploy-to-vercel",
@@ -3631,7 +3632,7 @@
       "skills/vercel-cli-with-tokens",
       "skills/web-design-guidelines"
     ],
-    "lastUpdated": "2026-04-01T22:20:11.224Z"
+    "lastUpdated": "2026-04-02T01:28:27.410Z"
   },
   {
     "source": "github:vercel-labs/agentic-commerce-skills",
@@ -3689,8 +3690,8 @@
   },
   {
     "source": "github:vercel-labs/claude-skills",
-    "rev": "d8d9f624bc54beaf7af9a5033d41d90aa49d7f5a",
-    "hash": "0m03pzdgxbyspj55rcy377rbdarl43b21c03y7a92708hk6a85mj",
+    "rev": "a7b34e89b52036f10ada00bf6e36a9a6cb468fc5",
+    "hash": "0xdm3c6brxc8i6m9cljl71qa9vb375sqh9h7j52r64sin806v84z",
     "skills": [
       "skills/composition-patterns",
       "skills/deploy-to-vercel",
@@ -3700,7 +3701,7 @@
       "skills/vercel-cli-with-tokens",
       "skills/web-design-guidelines"
     ],
-    "lastUpdated": "2026-04-01T22:20:11.211Z"
+    "lastUpdated": "2026-04-02T01:28:29.653Z"
   },
   {
     "source": "github:vercel-labs/cursor-plugin",
@@ -3713,12 +3714,12 @@
   },
   {
     "source": "github:vercel-labs/dev3000",
-    "rev": "893a8da17a27fc76ec797305e8a3694fcdc1742e",
-    "hash": "1bl9y7prh336qai000r4gmg3q92h542qjs2iyzmfxbs9vwawp6lf",
+    "rev": "68cc4ab109de12836b2c326e4d995a7df43075ce",
+    "hash": "1krwhr68hk82ixwq4qg4m3zrwp441nmypingfpy207zbh40rckf6",
     "skills": [
       "skills/d3k"
     ],
-    "lastUpdated": "2026-04-01T22:20:47.757Z"
+    "lastUpdated": "2026-04-02T01:28:33.088Z"
   },
   {
     "source": "github:vercel-labs/json-render",
@@ -3808,14 +3809,13 @@
   },
   {
     "source": "github:vercel-labs/portless",
-    "rev": "3729c2aba178e22453e5dc7f5b5b287b5e22229e",
-    "hash": "0sn8g6l3d282h4f0dpqbyd1gh8pk1nafwa8jmscc31xzvd18vnlx",
+    "rev": "73a30a6cd2eee0800bbfd3632e0956f1a97aa230",
+    "hash": "0ahpcxhwlgzrjmh28mfpqw65hh91p4b9j6gjf9fdk5rcrpnclr0a",
     "skills": [
-      ".agents/skills/skill-creator",
       "skills/oauth",
       "skills/portless"
     ],
-    "lastUpdated": "2026-04-01T19:30:01.427Z"
+    "lastUpdated": "2026-04-02T01:28:33.071Z"
   },
   {
     "source": "github:vercel-labs/py-ai",
@@ -3898,8 +3898,8 @@
   },
   {
     "source": "github:vercel-labs/vercel-plugin",
-    "rev": "44417d3786d4398acc2b61cbeb32e720678b997d",
-    "hash": "196660w00xckwxv90b3f9xc52xl05rfc491rczcrqzkgypwgi3vg",
+    "rev": "f7814a911ef2a6cc6872c570e393486368c7bf9e",
+    "hash": "1jp81kp1jypx39lkvav8z3z1dvpnv23m13xxqxlqq5iyg72zadqg",
     "skills": [
       ".claude/skills/benchmark-agents",
       ".claude/skills/benchmark-e2e",
@@ -3935,7 +3935,7 @@
       "skills/verification",
       "skills/workflow"
     ],
-    "lastUpdated": "2026-04-01T19:30:03.133Z"
+    "lastUpdated": "2026-04-02T01:28:33.109Z"
   },
   {
     "source": "github:vercel-labs/vercel-skills",
@@ -4021,12 +4021,12 @@
   },
   {
     "source": "github:vercel/examples",
-    "rev": "aeb91b14c617e145a3b4fec56efc6d0c78cf133c",
-    "hash": "075bl34g7si02fplzsifls2vwpyghd1y3d4lf7j7p7662fxi8clc",
+    "rev": "7ce52b40377cbddbf4e1339d3854931aeea199ac",
+    "hash": "1v10781lzl7lv3289lrn52iaigp5zgx7ji7v14ji54pwph903aia",
     "skills": [
       ".agents/skills/web-design-guidelines"
     ],
-    "lastUpdated": "2026-04-01T22:20:53.795Z"
+    "lastUpdated": "2026-04-02T01:29:05.504Z"
   },
   {
     "source": "github:vercel/flags",
@@ -4057,8 +4057,8 @@
   },
   {
     "source": "github:vercel/next.js",
-    "rev": "a6df8603a4e164da7d758d0eb4082dc70353450d",
-    "hash": "10w9rln3dz5pafnizbrvd4pd144gahbwll6a6pa10rsngrymv3hw",
+    "rev": "5b8dd58574b471b7daeda05487e9436fa13423a9",
+    "hash": "1gzg80q2jwc7s7ih5wp48g8n8p2w4xqyadnnhjv70q9kwfwzwfp4",
     "skills": [
       ".agents/skills/authoring-skills",
       ".agents/skills/dce-edge",
@@ -4073,7 +4073,7 @@
       ".agents/skills/write-guide",
       ".claude-plugin/plugins/cache-components/skills/cache-components"
     ],
-    "lastUpdated": "2026-04-01T22:23:35.039Z"
+    "lastUpdated": "2026-04-02T01:31:46.594Z"
   },
   {
     "source": "github:vercel/nextjs-skills",
@@ -4106,30 +4106,30 @@
   },
   {
     "source": "github:vercel/turbo",
-    "rev": "39c49344e91d03434770799848b2d8b82cafd3f4",
-    "hash": "0488csf7vbgv166w95mx54wdfwjjqii91iravn1xdkqzicfx4ipy",
+    "rev": "d2944c4e3fd02541a3f189de6bcd10be0c0d4490",
+    "hash": "03kan3irl27gd94n3k9x1112jhjswm7wiqb4z5yvk1jh4wdi9m3w",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-04-01T22:21:41.123Z"
+    "lastUpdated": "2026-04-02T01:29:58.462Z"
   },
   {
     "source": "github:vercel/turborepo",
-    "rev": "39c49344e91d03434770799848b2d8b82cafd3f4",
-    "hash": "0488csf7vbgv166w95mx54wdfwjjqii91iravn1xdkqzicfx4ipy",
+    "rev": "d2944c4e3fd02541a3f189de6bcd10be0c0d4490",
+    "hash": "03kan3irl27gd94n3k9x1112jhjswm7wiqb4z5yvk1jh4wdi9m3w",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-04-01T22:21:39.853Z"
+    "lastUpdated": "2026-04-02T01:30:02.686Z"
   },
   {
     "source": "github:vercel/vercel",
-    "rev": "833621050eb55d5f108c020d34d8b3ab74e3b8a9",
-    "hash": "0qafp5s7d37swwc3saxykkrb8rhbvkksc049gjn7vmprwvp8gpky",
+    "rev": "a50d9615ea546050b9f37dc7e5b4a81228987eef",
+    "hash": "101ndnaydnvcnxy6khvklr4p0673rfzx98s8inihs6jrssfiwy63",
     "skills": [
       "skills/vercel-cli"
     ],
-    "lastUpdated": "2026-04-01T22:20:58.207Z"
+    "lastUpdated": "2026-04-02T01:29:16.792Z"
   },
   {
     "source": "github:vercel/vercel-deploy-claude-code-plugin",
@@ -4143,8 +4143,8 @@
   },
   {
     "source": "github:vercel/vercel-plugin",
-    "rev": "44417d3786d4398acc2b61cbeb32e720678b997d",
-    "hash": "196660w00xckwxv90b3f9xc52xl05rfc491rczcrqzkgypwgi3vg",
+    "rev": "f7814a911ef2a6cc6872c570e393486368c7bf9e",
+    "hash": "1jp81kp1jypx39lkvav8z3z1dvpnv23m13xxqxlqq5iyg72zadqg",
     "skills": [
       ".claude/skills/benchmark-agents",
       ".claude/skills/benchmark-e2e",
@@ -4180,17 +4180,17 @@
       "skills/verification",
       "skills/workflow"
     ],
-    "lastUpdated": "2026-04-01T19:30:40.597Z"
+    "lastUpdated": "2026-04-02T01:29:05.885Z"
   },
   {
     "source": "github:vercel/workflow",
-    "rev": "6dc1b785822af5c1dc3b4a2a9b1dcb7f626cf5ff",
-    "hash": "1shb51n6rqw42rqcp2vlmaf8i9xxi9n76yn60d8yv4a7lqv57nim",
+    "rev": "8462c5df89beb72cda97702ba64686493a729a97",
+    "hash": "0frhaskv84ld55ib09ba8i82ndi1xgvn4j2ci9bxmrxbril83br8",
     "skills": [
       "skills/workflow",
       "skills/workflow-init"
     ],
-    "lastUpdated": "2026-04-01T22:20:55.395Z"
+    "lastUpdated": "2026-04-02T01:29:07.303Z"
   },
   {
     "source": "github:verebelyin/skills",
@@ -4227,12 +4227,12 @@
   },
   {
     "source": "github:verneagent/handoff",
-    "rev": "8bdff4d7a737dfb01a3668c887a24df76e814280",
-    "hash": "05w1hs9kk4djl96xj9akn978r9hq06g0sjjc204r9bhjmf1y5fr2",
+    "rev": "31a391d9e9f903649c196949a2a1805de71656ad",
+    "hash": "18g2mwcbvajg0f0mvwpzx91sz1wjj1i63nxjfngacl44bcq5929m",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-04-01T19:30:09.118Z"
+    "lastUpdated": "2026-04-02T01:27:12.284Z"
   },
   {
     "source": "github:verneagent/lark-suite",
@@ -4609,12 +4609,12 @@
   },
   {
     "source": "github:victor604/frontend-design",
-    "rev": "35ab0e8c2d38b889001115e51028b265f6a4dfa2",
+    "rev": "8d9da81c1ee43d26636eb11bfcdb42117e277211",
     "hash": "1f457pnrhj0jmbv03kg0clx11l92mppw6pn3r5spj5jpa76n6110",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-04-01T22:20:48.113Z"
+    "lastUpdated": "2026-04-02T01:27:13.643Z"
   },
   {
     "source": "github:victoralbino/agent-skills",
@@ -4813,8 +4813,8 @@
   },
   {
     "source": "github:videojs/v10",
-    "rev": "6c5f8c0eda0d35ca6d0ebd9d68533d4133afccde",
-    "hash": "1hgpbllrkhmwqqq0sqpi3w5w31i2sz0hqvw3qp9pmrm4qkijgyq4",
+    "rev": "979d37af2b34fd3952827206d1c60c333a3df84a",
+    "hash": "1b35c10q66kwlvps9sscfwm64adgzvqwm2cnkjpwyh776z43hi6n",
     "skills": [
       ".claude/skills/api",
       ".claude/skills/api-reference",
@@ -4831,7 +4831,7 @@
       ".claude/skills/review-branch",
       ".claude/skills/rfc"
     ],
-    "lastUpdated": "2026-04-01T22:20:52.478Z"
+    "lastUpdated": "2026-04-02T01:27:17.253Z"
   },
   {
     "source": "github:vidyfoo/antigravity-skill-engine",
@@ -6772,8 +6772,8 @@
   },
   {
     "source": "github:vm0-ai/vm0-skills",
-    "rev": "f633650bde8fab7ee0a6695e8c1f54828f7a94be",
-    "hash": "08l19lay18rhc7fvhzaaqdbisdl14sa8ldsbicq88rib7cp3x3si",
+    "rev": "505b907cda4f59ade195712ed4e3ff83590ae6f3",
+    "hash": "09qm4gyzwnqz4cyvxdfrhlz74h4dai0hyh1wqhmj5j99ks6wxhhl",
     "skills": [
       "account-reconciliation",
       "agentmail",
@@ -6781,6 +6781,7 @@
       "airtable",
       "analysis-qa",
       "apify",
+      "apollo",
       "asana",
       "atlassian",
       "audit-readiness",
@@ -6938,7 +6939,7 @@
       "zendesk",
       "zeptomail"
     ],
-    "lastUpdated": "2026-04-01T19:30:39.571Z"
+    "lastUpdated": "2026-04-02T01:28:15.542Z"
   },
   {
     "source": "github:vmathias79/n8n-custom-node-builder-skill",
