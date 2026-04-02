@@ -58,9 +58,19 @@
   },
   {
     "source": "github:TencentBlueKing/bk-bcs",
-    "rev": "33f9185571c1ff5fbc2a6cae22bb29de9ce392df",
-    "hash": "1gbhrhwgr217096k6fk5pc9pg99gq7l80fzdg1kfvnw4f27zlhca",
+    "rev": "8c6c7cff48a83bd24f3912b5aba2a08fa61c1bae",
+    "hash": "1apggbfc86dyc02a76rzjvxriwkcg6yfgz7f5vh533rymg4a2qdl",
     "skills": [
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-apply-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-archive-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-bulk-archive-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-continue-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-explore",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-ff-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-new-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-onboard",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-sync-specs",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-verify-change",
       "bcs-services/bcs-project-manager/.cursor/skills/api-standard",
       "bcs-services/bcs-project-manager/.cursor/skills/bk-monitor-dev-server",
       "bcs-services/bcs-project-manager/.cursor/skills/bk-monitor-security-audit",
@@ -88,7 +98,7 @@
       "bcs-services/bcs-project-manager/.cursor/skills/vue-composables",
       "bcs-services/bcs-project-manager/.cursor/skills/web-security-guide"
     ],
-    "lastUpdated": "2026-04-02T04:50:23.808Z"
+    "lastUpdated": "2026-04-02T07:26:37.901Z"
   },
   {
     "source": "github:Th0rgal/sandboxed.sh",
@@ -620,14 +630,14 @@
   },
   {
     "source": "github:tailor-platform/sdk",
-    "rev": "b7a48958961e2cfcdd0dfa520ed4c569ee2a5ff2",
-    "hash": "0gmsy4kji9b7kjdrrvsp3fs1ckjbjxysvsyqswlq50cbdvwajfqw",
+    "rev": "f40e65487b9e1c8e922d79114eb44d34741e5f10",
+    "hash": "1m60kmp89allfv826pkb0a2ybvvv62pywsmb7jb3rxb30ia4rqpx",
     "skills": [
       ".claude/skills/docs-check",
       ".claude/skills/llm-challenge",
       "packages/sdk/skills/tailor-sdk"
     ],
-    "lastUpdated": "2026-04-01T19:30:08.895Z"
+    "lastUpdated": "2026-04-02T07:28:55.893Z"
   },
   {
     "source": "github:tailuge/nchan-expert",
@@ -1240,8 +1250,8 @@
   },
   {
     "source": "github:tao3k/omni-dev-fusion",
-    "rev": "9192b1f1d8953f400e357ce7e88373aeb7e79835",
-    "hash": "0x1ms2d7wshndf4s19zbq5bs2jwad3vmkkvs349fpavnnb7bz93b",
+    "rev": "a7740294b90122f552971f6316b2cf401951b9c0",
+    "hash": "0nfjgpcgvp6ramj29l3z0drpjbvyndfl8c59af3bxzv7f4fdvv8m",
     "skills": [
       ".gemini/skills/auditor_neuron",
       "internal_skills/wendao",
@@ -1280,7 +1290,7 @@
       "skills/rust_engineering",
       "skills/software_engineering"
     ],
-    "lastUpdated": "2026-04-02T04:54:19.892Z"
+    "lastUpdated": "2026-04-02T07:30:32.984Z"
   },
   {
     "source": "github:taoeffect/tasks",
@@ -5263,14 +5273,14 @@
   },
   {
     "source": "github:tencent-connect/openclaw-qqbot",
-    "rev": "038c97da1993cff6a90da1d29d0c5a9d0bed116c",
-    "hash": "17pwicz29qkm8d7vbdlmyndqvfzr67jrs1bqgahs2mvzg9lvqkfm",
+    "rev": "3a89fe20bc5e875ec914f043babc9a47768a2f70",
+    "hash": "0s2y9dd5yz1n6f1k49ihgcdzlzrnbcymrjasar5fq8nz8x7nv76a",
     "skills": [
       "skills/qqbot-channel",
       "skills/qqbot-media",
       "skills/qqbot-remind"
     ],
-    "lastUpdated": "2026-03-30T16:36:44.034Z"
+    "lastUpdated": "2026-04-02T07:29:25.854Z"
   },
   {
     "source": "github:tencent-rtc/tencent-rtc-skills",
@@ -5299,8 +5309,8 @@
   },
   {
     "source": "github:tencent/tgfx",
-    "rev": "f870cce15016cc1117116175c43a8072f070b83c",
-    "hash": "0q8042dn6p6qxls5zhhsdcz110xig4iczr23iyh363k0xfklsn9m",
+    "rev": "4f4eed7c655c8f0e6e8b025b799e69ab31622879",
+    "hash": "0npxsnmynmx3a3hryr1g8myzq06imc9ajw292jkgn6ian0h44ir0",
     "skills": [
       ".claude/skills/accept-baseline",
       ".claude/skills/commit",
@@ -5308,13 +5318,23 @@
       ".claude/skills/pr",
       ".claude/skills/squash"
     ],
-    "lastUpdated": "2026-04-01T19:28:41.214Z"
+    "lastUpdated": "2026-04-02T07:30:22.742Z"
   },
   {
     "source": "github:tencentblueking/bk-bcs",
-    "rev": "33f9185571c1ff5fbc2a6cae22bb29de9ce392df",
-    "hash": "1gbhrhwgr217096k6fk5pc9pg99gq7l80fzdg1kfvnw4f27zlhca",
+    "rev": "8c6c7cff48a83bd24f3912b5aba2a08fa61c1bae",
+    "hash": "1apggbfc86dyc02a76rzjvxriwkcg6yfgz7f5vh533rymg4a2qdl",
     "skills": [
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-apply-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-archive-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-bulk-archive-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-continue-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-explore",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-ff-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-new-change",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-onboard",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-sync-specs",
+      "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-verify-change",
       "bcs-services/bcs-project-manager/.cursor/skills/api-standard",
       "bcs-services/bcs-project-manager/.cursor/skills/bk-monitor-dev-server",
       "bcs-services/bcs-project-manager/.cursor/skills/bk-monitor-security-audit",
@@ -5342,7 +5362,7 @@
       "bcs-services/bcs-project-manager/.cursor/skills/vue-composables",
       "bcs-services/bcs-project-manager/.cursor/skills/web-security-guide"
     ],
-    "lastUpdated": "2026-04-02T04:53:10.151Z"
+    "lastUpdated": "2026-04-02T07:29:53.774Z"
   },
   {
     "source": "github:tencentblueking/bk-ci",
@@ -10443,8 +10463,8 @@
   },
   {
     "source": "github:thinkinaixyz/deepchat",
-    "rev": "677e4ed807cd523ccdc3ebb47d8786d7e6a9cafb",
-    "hash": "1ffv0n4zsf0hd9by20124a32wrg1scvschrczmss3742smp23cgw",
+    "rev": "0ed5d8f01795d36dfa955b06e476a701929e7f22",
+    "hash": "0n18nazjcpjk8j2r7cmsm6ydyybw17373vx2y3r3wr3w3836426h",
     "skills": [
       "resources/skills/algorithmic-art",
       "resources/skills/code-review",
@@ -10461,7 +10481,7 @@
       "resources/skills/web-artifacts-builder",
       "resources/skills/xlsx"
     ],
-    "lastUpdated": "2026-04-01T19:29:11.831Z"
+    "lastUpdated": "2026-04-02T07:29:06.162Z"
   },
   {
     "source": "github:thinkoodle/rails-skills",
@@ -10900,12 +10920,12 @@
   },
   {
     "source": "github:thu-maic/openmaic",
-    "rev": "25f7908ffb5f902ceac8f73519a45d2993785d04",
-    "hash": "0xf40krr8frq6lk6i0piflazpif9rivmnxihg55w5290mkjjm8r8",
+    "rev": "531b3c101fc34f9ffd67770c17a8d3df477382b2",
+    "hash": "0d7p20afz11cclza6jcy90366g83i119ccyj282gd5qlmz174a8h",
     "skills": [
       "skills/openmaic"
     ],
-    "lastUpdated": "2026-04-01T19:29:14.339Z"
+    "lastUpdated": "2026-04-02T07:29:09.691Z"
   },
   {
     "source": "github:thunderboltdev/make-no-mistakes",
@@ -11444,12 +11464,12 @@
   },
   {
     "source": "github:tiendatne2004/tikhub_api_skill",
-    "rev": "6e0318c708dab544a397bb8e213290d89d76c7ee",
+    "rev": "ce84683ac7e418e06ee4bbfd9fca11cadacb1b3a",
     "hash": "1gixrfwvl7qkrwybvmbaysf9kn65k8kidf66cbcn3b48m08lchnx",
     "skills": [
       ".claude/skills/tikhub-api-helper"
     ],
-    "lastUpdated": "2026-04-02T04:53:43.924Z"
+    "lastUpdated": "2026-04-02T07:29:01.858Z"
   },
   {
     "source": "github:tiennh93/agent-skills",
@@ -11705,8 +11725,8 @@
   },
   {
     "source": "github:timelessco/recollect",
-    "rev": "05295a6f1b971aac60b0fa3e89652bb7a37080a3",
-    "hash": "137i1qysbxpqa726bd5jqbnhn0qahiw92l4szkq5bf0hkp0kfkiq",
+    "rev": "37a64b773cdee280a38abc3467df32747b7a8d45",
+    "hash": "12jvr9rh5bmqjpy07jjjs6alnzbni9hfgnfx4xp64fk01l5i7iab",
     "skills": [
       ".agents/skills/next-best-practices",
       ".agents/skills/next-browser",
@@ -11717,7 +11737,7 @@
       ".claude/skills/release",
       ".claude/skills/v2-route-audit"
     ],
-    "lastUpdated": "2026-04-01T19:27:57.380Z"
+    "lastUpdated": "2026-04-02T07:29:06.641Z"
   },
   {
     "source": "github:timequity/plugins",
@@ -12566,8 +12586,8 @@
   },
   {
     "source": "github:tldraw/tldraw",
-    "rev": "742cbd5fb3f0044ed8d36644b9fbaca7869e97e8",
-    "hash": "0761bdby00kd65dzhcwwv5xgri2zhs71w4bbxkqzpy46zyrbxj1c",
+    "rev": "0d7280ea3ba3a277dde95e8883bd2efd747f2373",
+    "hash": "1bwwryp716q9z52lzk25akzna87v7rl8qdwyg051gpvg9khkkq8k",
     "skills": [
       ".claude/skills/pr-walkthrough",
       ".claude/skills/review-docs",
@@ -12587,7 +12607,7 @@
       "apps/mcp-app/.claude/skills/create-mcp-app",
       "apps/mcp-app/.claude/skills/migrate-oai-app"
     ],
-    "lastUpdated": "2026-04-01T22:20:43.089Z"
+    "lastUpdated": "2026-04-02T07:29:42.168Z"
   },
   {
     "source": "github:tlq5l/tailwindcss-v4-skill",
@@ -12766,8 +12786,8 @@
   },
   {
     "source": "github:tobihagemann/turbo",
-    "rev": "cad1c56ef7a91b3a170a5d4de6e3e21733ba6180",
-    "hash": "00fjzg8dmhs2j2hjqzfpplyr9m73pyww8hmks0q6y04p5v8xfmzn",
+    "rev": "4939c4d7f29d0133f6428b63b7432ad1685f7a16",
+    "hash": "0h8ylk1qp60gzsbxq78hy55dmypiz38s2snv8n6bak6nh5vzpixn",
     "skills": [
       "skills/apply-findings",
       "skills/audit",
@@ -12797,8 +12817,10 @@
       "skills/frontend-design",
       "skills/github-voice",
       "skills/implement-improvements",
+      "skills/interpret-feedback",
       "skills/investigate",
       "skills/note-improvement",
+      "skills/peer-interpret-feedback",
       "skills/peer-review-code",
       "skills/peer-review-plan",
       "skills/peer-review-prompt-plan",
@@ -12831,7 +12853,7 @@
       "skills/update-pr",
       "skills/update-turbo"
     ],
-    "lastUpdated": "2026-04-01T19:28:03.089Z"
+    "lastUpdated": "2026-04-02T07:29:09.886Z"
   },
   {
     "source": "github:tobitech/swift-mvvm",
@@ -13596,8 +13618,8 @@
   },
   {
     "source": "github:tony363/superclaude",
-    "rev": "018b3f0059028317441893ae7ffcc66733d37ac7",
-    "hash": "0kxf1i2nwkn64xmmkpvr2p85knf0lcrag0xrfg4nxgk0z7racwrb",
+    "rev": "088ac3157e1460deda6b8a66da88e3b7c5706f3e",
+    "hash": "1rripid3i7z9zqq55d03ivf6a23bamjm56lmcdglz5nzbd2jg5hx",
     "skills": [
       ".claude/skills/agent-data-engineer",
       ".claude/skills/agent-fullstack-developer",
@@ -13643,7 +13665,7 @@
       ".claude/skills/sc-workflow",
       ".claude/skills/sc-worktree"
     ],
-    "lastUpdated": "2026-04-02T01:28:53.842Z"
+    "lastUpdated": "2026-04-02T07:28:51.540Z"
   },
   {
     "source": "github:tonylofgren/aurora-smart-home",
@@ -15581,8 +15603,8 @@
   },
   {
     "source": "github:trpc-group/trpc-agent-go",
-    "rev": "a4e36132659f6e0ae84d6e3d70d265ae6404a5e4",
-    "hash": "0s96d61vhwbnc5jml8lwviq086pay1j74vp9bh9bxcpvj6g3pkj9",
+    "rev": "3792b32f32f5ade55d6beec64d9f7b06ae08b9cb",
+    "hash": "1nvihp25mill2p14jssm36ffbqyjblwdb2fx98ia6rsyyk952sa6",
     "skills": [
       "examples/agui/server/skill_artifacts/skills/artifact_demo",
       "examples/claudecode/.claude/skills/weather-query",
@@ -15653,7 +15675,7 @@
       "openclaw/skills/weather",
       "openclaw/skills/xurl"
     ],
-    "lastUpdated": "2026-04-02T04:54:16.992Z"
+    "lastUpdated": "2026-04-02T07:29:40.978Z"
   },
   {
     "source": "github:trsoliu/mini-wiki",
@@ -16115,12 +16137,12 @@
   },
   {
     "source": "github:tsukiyokai/vibe-review-skill",
-    "rev": "17adc08abb59296a6d57b4438d960681946add35",
-    "hash": "0sk1x16131na3wbv7b99wxvx7hnxq4prn38265qicdac9j0sdr1j",
+    "rev": "5ab5afe87535d1fc25b3549d329369af95571eff",
+    "hash": "0pj3v6pmy2hzffnp64qm2z60j1gk387qs0mdqjpfnflcyss013mr",
     "skills": [
-      "skills/vibe-review"
+      "skill/vibe-review"
     ],
-    "lastUpdated": "2026-04-02T04:52:25.438Z"
+    "lastUpdated": "2026-04-02T07:28:53.427Z"
   },
   {
     "source": "github:tsurgcom/react-to-svelte",
@@ -16679,8 +16701,8 @@
   },
   {
     "source": "github:twentyhq/twenty",
-    "rev": "5de5ed2cb418e310c5927a32f9ae56fc90c1ead3",
-    "hash": "0a3j6c6qhxvg3aypilip07s1c83i7nbh30i2gww11qm7wh5xvxdz",
+    "rev": "0b2f4cdb57e2831e0a592c7ccdf37ddd46190d39",
+    "hash": "1cqnfvy47rldl8bp22v8jchyji955i906yh5m0dvqkp52n957lbm",
     "skills": [
       ".cursor/skills/syncable-entity-builder-and-validation",
       ".cursor/skills/syncable-entity-cache-and-transform",
@@ -16689,7 +16711,7 @@
       ".cursor/skills/syncable-entity-testing",
       ".cursor/skills/syncable-entity-types-and-constants"
     ],
-    "lastUpdated": "2026-04-02T04:53:20.999Z"
+    "lastUpdated": "2026-04-02T07:29:50.518Z"
   },
   {
     "source": "github:twikus/claude-configuration",
