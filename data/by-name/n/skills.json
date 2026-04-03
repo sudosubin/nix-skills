@@ -1,8 +1,8 @@
 [
   {
     "source": "github:Nevaberry/nevaberry-plugins",
-    "rev": "47fb9ea3163eaf99c0509067959b6a368a7119be",
-    "hash": "0a8rimqq3xb8sszfizw6r91jfsd675frx861v4z0r0y2vx88mzf8",
+    "rev": "c3ed6f22dc568ac2274e9598cdbbb8baaf14d569",
+    "hash": "061mxqbr12q6fkhmc8qbc3m7xspa18iicy2qqhhsvyzddjs20q8v",
     "skills": [
       "plugins/almalinux-knowledge-patch/skills/almalinux-knowledge-patch",
       "plugins/arch-knowledge-patch/skills/arch-knowledge-patch",
@@ -11,6 +11,7 @@
       "plugins/axum-knowledge-patch/skills/axum-knowledge-patch",
       "plugins/better-auth-knowledge-patch/skills/better-auth-knowledge-patch",
       "plugins/bun-knowledge-patch/skills/bun-knowledge-patch",
+      "plugins/caddy-knowledge-patch/skills/caddy-knowledge-patch",
       "plugins/centos-stream-knowledge-patch/skills/centos-stream-knowledge-patch",
       "plugins/clerk-knowledge-patch/skills/clerk-knowledge-patch",
       "plugins/debian-knowledge-patch/skills/debian-knowledge-patch",
@@ -18,11 +19,14 @@
       "plugins/dioxus-knowledge-patch/skills/dioxus-knowledge-patch",
       "plugins/docker-knowledge-patch/skills/docker-knowledge-patch",
       "plugins/drizzle-knowledge-patch/skills/drizzle-knowledge-patch",
+      "plugins/fedora-knowledge-patch/skills/fedora-knowledge-patch",
       "plugins/go-knowledge-patch/skills/go-knowledge-patch",
       "plugins/knowledge-patch/skills/using-knowledge-patch",
       "plugins/leptos-knowledge-patch/skills/leptos-knowledge-patch",
       "plugins/nextjs-knowledge-patch/skills/nextjs-knowledge-patch",
+      "plugins/nginx-knowledge-patch/skills/nginx-knowledge-patch",
       "plugins/nodejs-knowledge-patch/skills/nodejs-knowledge-patch",
+      "plugins/pgvector-knowledge-patch/skills/pgvector-knowledge-patch",
       "plugins/podman-knowledge-patch/skills/podman-knowledge-patch",
       "plugins/postgis-knowledge-patch/skills/postgis-knowledge-patch",
       "plugins/postgresql-knowledge-patch/skills/postgresql-knowledge-patch",
@@ -32,12 +36,16 @@
       "plugins/rhel-knowledge-patch/skills/rhel-knowledge-patch",
       "plugins/rocky-knowledge-patch/skills/rocky-knowledge-patch",
       "plugins/rust-knowledge-patch/skills/rust-knowledge-patch",
+      "plugins/serde-knowledge-patch/skills/serde-knowledge-patch",
       "plugins/sqlite-knowledge-patch/skills/sqlite-knowledge-patch",
       "plugins/sqlx-knowledge-patch/skills/sqlx-knowledge-patch",
+      "plugins/stripe-knowledge-patch/skills/stripe-knowledge-patch",
       "plugins/supabase-knowledge-patch/skills/supabase-knowledge-patch",
       "plugins/suse-knowledge-patch/skills/suse-knowledge-patch",
       "plugins/svelte-knowledge-patch/skills/svelte-knowledge-patch",
       "plugins/tailwind-knowledge-patch/skills/tailwind-knowledge-patch",
+      "plugins/tokio-knowledge-patch/skills/tokio-knowledge-patch",
+      "plugins/traefik-knowledge-patch/skills/traefik-knowledge-patch",
       "plugins/typescript-knowledge-patch/skills/typescript-knowledge-patch",
       "plugins/ubuntu-knowledge-patch/skills/ubuntu-knowledge-patch",
       "plugins/vercel-ai-sdk-knowledge-patch/skills/vercel-ai-sdk-knowledge-patch",
@@ -46,7 +54,7 @@
       "plugins/zig-knowledge-patch/skills/zig-knowledge-patch",
       "plugins/zitadel-knowledge-patch/skills/zitadel-knowledge-patch"
     ],
-    "lastUpdated": "2026-03-31T16:30:49.144Z"
+    "lastUpdated": "2026-04-03T01:24:59.781Z"
   },
   {
     "source": "github:NeverSight/skills_feed",
@@ -43797,8 +43805,8 @@
   },
   {
     "source": "github:nateberkopec/dotfiles",
-    "rev": "9944aa937080b51b8c278b78bb2d2777eaa0608f",
-    "hash": "0xxcf910hv4lj5cz8ymn1gx2fjv12kla58c3hhhcyskvgbdi9qqv",
+    "rev": "ce91c2bb2562168b59d827f980c4e26e98480bb3",
+    "hash": "08ajypfq1c79g27i6vzbxwfif8s82n81jbfy3ql1wlh7ldi8x824",
     "skills": [
       "files/home/.claude/skills/argument-validator",
       "files/home/.claude/skills/deep-research",
@@ -43815,7 +43823,7 @@
       "files/home/.claude/skills/typography",
       "files/home/.claude/skills/webapp-testing"
     ],
-    "lastUpdated": "2026-04-01T19:29:04.835Z"
+    "lastUpdated": "2026-04-03T01:26:14.102Z"
   },
   {
     "source": "github:natedevxyz/rn-meta",
@@ -44866,8 +44874,8 @@
   },
   {
     "source": "github:neonwatty/claude-skills",
-    "rev": "ddf6d09b35cf0b382c53020fa3c4f7bc8a6d0e3c",
-    "hash": "1j92819f19ndcndbl154099vwz9lvj89xhhc918pmvy4fq9svk85",
+    "rev": "17eaba865709ee69a4b9bb7b7a8a276163238b46",
+    "hash": "0rj5vd497l6aiczkljw5chs4p3jcg5xylcisrchyb0148gmvb710",
     "skills": [
       "skills/adversarial-audit",
       "skills/desktop-workflow-generator",
@@ -44877,13 +44885,12 @@
       "skills/mobile-workflow-to-playwright",
       "skills/multi-user-workflow-generator",
       "skills/multi-user-workflow-to-playwright",
-      "skills/performance-profiler",
       "skills/playwright-runner",
       "skills/resilience-audit",
       "skills/trust-builder",
       "skills/use-profiles"
     ],
-    "lastUpdated": "2026-04-02T13:29:36.258Z"
+    "lastUpdated": "2026-04-03T01:26:11.063Z"
   },
   {
     "source": "github:neonwatty/logo-designer-skill",
@@ -45226,14 +45233,14 @@
   },
   {
     "source": "github:netresearch/jira-skill",
-    "rev": "7ea8ad04e6f99cba226b2398f08bb05c181f4b07",
-    "hash": "0qbkdddgpsjarxl025ym6a6ii2clzbalf84fh7cwlcgsnkssc5xd",
+    "rev": "8d82725ae9f2e860bca79c08e679dbe0a15d6ce2",
+    "hash": "1yz2400xk5shf5wgyljm64vhciczj9g036hg1ymwyq4712vxd73l",
     "skills": [
       "evals/comprehensive-workspace/baseline-skill",
       "skills/jira-communication",
       "skills/jira-syntax"
     ],
-    "lastUpdated": "2026-04-02T10:25:47.750Z"
+    "lastUpdated": "2026-04-03T01:26:12.806Z"
   },
   {
     "source": "github:netresearch/matrix-skill",
@@ -45455,8 +45462,8 @@
   },
   {
     "source": "github:nevaberry/nevaberry-plugins",
-    "rev": "47fb9ea3163eaf99c0509067959b6a368a7119be",
-    "hash": "0a8rimqq3xb8sszfizw6r91jfsd675frx861v4z0r0y2vx88mzf8",
+    "rev": "c3ed6f22dc568ac2274e9598cdbbb8baaf14d569",
+    "hash": "061mxqbr12q6fkhmc8qbc3m7xspa18iicy2qqhhsvyzddjs20q8v",
     "skills": [
       "plugins/almalinux-knowledge-patch/skills/almalinux-knowledge-patch",
       "plugins/arch-knowledge-patch/skills/arch-knowledge-patch",
@@ -45465,6 +45472,7 @@
       "plugins/axum-knowledge-patch/skills/axum-knowledge-patch",
       "plugins/better-auth-knowledge-patch/skills/better-auth-knowledge-patch",
       "plugins/bun-knowledge-patch/skills/bun-knowledge-patch",
+      "plugins/caddy-knowledge-patch/skills/caddy-knowledge-patch",
       "plugins/centos-stream-knowledge-patch/skills/centos-stream-knowledge-patch",
       "plugins/clerk-knowledge-patch/skills/clerk-knowledge-patch",
       "plugins/debian-knowledge-patch/skills/debian-knowledge-patch",
@@ -45472,11 +45480,14 @@
       "plugins/dioxus-knowledge-patch/skills/dioxus-knowledge-patch",
       "plugins/docker-knowledge-patch/skills/docker-knowledge-patch",
       "plugins/drizzle-knowledge-patch/skills/drizzle-knowledge-patch",
+      "plugins/fedora-knowledge-patch/skills/fedora-knowledge-patch",
       "plugins/go-knowledge-patch/skills/go-knowledge-patch",
       "plugins/knowledge-patch/skills/using-knowledge-patch",
       "plugins/leptos-knowledge-patch/skills/leptos-knowledge-patch",
       "plugins/nextjs-knowledge-patch/skills/nextjs-knowledge-patch",
+      "plugins/nginx-knowledge-patch/skills/nginx-knowledge-patch",
       "plugins/nodejs-knowledge-patch/skills/nodejs-knowledge-patch",
+      "plugins/pgvector-knowledge-patch/skills/pgvector-knowledge-patch",
       "plugins/podman-knowledge-patch/skills/podman-knowledge-patch",
       "plugins/postgis-knowledge-patch/skills/postgis-knowledge-patch",
       "plugins/postgresql-knowledge-patch/skills/postgresql-knowledge-patch",
@@ -45486,12 +45497,16 @@
       "plugins/rhel-knowledge-patch/skills/rhel-knowledge-patch",
       "plugins/rocky-knowledge-patch/skills/rocky-knowledge-patch",
       "plugins/rust-knowledge-patch/skills/rust-knowledge-patch",
+      "plugins/serde-knowledge-patch/skills/serde-knowledge-patch",
       "plugins/sqlite-knowledge-patch/skills/sqlite-knowledge-patch",
       "plugins/sqlx-knowledge-patch/skills/sqlx-knowledge-patch",
+      "plugins/stripe-knowledge-patch/skills/stripe-knowledge-patch",
       "plugins/supabase-knowledge-patch/skills/supabase-knowledge-patch",
       "plugins/suse-knowledge-patch/skills/suse-knowledge-patch",
       "plugins/svelte-knowledge-patch/skills/svelte-knowledge-patch",
       "plugins/tailwind-knowledge-patch/skills/tailwind-knowledge-patch",
+      "plugins/tokio-knowledge-patch/skills/tokio-knowledge-patch",
+      "plugins/traefik-knowledge-patch/skills/traefik-knowledge-patch",
       "plugins/typescript-knowledge-patch/skills/typescript-knowledge-patch",
       "plugins/ubuntu-knowledge-patch/skills/ubuntu-knowledge-patch",
       "plugins/vercel-ai-sdk-knowledge-patch/skills/vercel-ai-sdk-knowledge-patch",
@@ -45500,7 +45515,7 @@
       "plugins/zig-knowledge-patch/skills/zig-knowledge-patch",
       "plugins/zitadel-knowledge-patch/skills/zitadel-knowledge-patch"
     ],
-    "lastUpdated": "2026-03-31T16:35:00.550Z"
+    "lastUpdated": "2026-04-03T01:26:47.697Z"
   },
   {
     "source": "github:nevamind-ai/memubot",
@@ -178319,8 +178334,8 @@
   },
   {
     "source": "github:noir-lang/noir",
-    "rev": "bd62a7551b43c818aae00542205d053687c427d1",
-    "hash": "0hi53dmiqxa4kaznwnxxi8argxk90idmrgv2n7n5zdirh4s0z82d",
+    "rev": "ed8c124c32d66390b1ed7092e209af9185eb5756",
+    "hash": "1bipyl2b7mp3cczqbrdq7sligf1ync18wbl6gv2kqnk0ll02iali",
     "skills": [
       ".claude/skills/bisect-ssa-pass",
       ".claude/skills/debug-fuzzer-failure",
@@ -178330,7 +178345,7 @@
       ".claude/skills/noir-optimize-acir",
       ".claude/skills/reduce-ssa-repro"
     ],
-    "lastUpdated": "2026-04-02T19:29:15.914Z"
+    "lastUpdated": "2026-04-03T01:28:52.259Z"
   },
   {
     "source": "github:noizai/skills",
@@ -178773,8 +178788,8 @@
   },
   {
     "source": "github:nousresearch/hermes-agent",
-    "rev": "241cbeeccd25177e21a3b31f7ed2579d82f682b1",
-    "hash": "1j7bqijzp4nbaja1diy9rymb40588wxq37rcw6i5ypg5amwn68c4",
+    "rev": "924bc67eee35cc2fbb24d7cbc5649c820beb4406",
+    "hash": "1vwwnai785l0gmr8qvwvspgfyww05nkfi6hz25y80afb8rz71klq",
     "skills": [
       "optional-skills/autonomous-ai-agents/blackbox",
       "optional-skills/blockchain/base",
@@ -178882,8 +178897,8 @@
       "skills/red-teaming/godmode",
       "skills/research/arxiv",
       "skills/research/blogwatcher",
-      "skills/research/ml-paper-writing",
       "skills/research/polymarket",
+      "skills/research/research-paper-writing",
       "skills/smart-home/openhue",
       "skills/social-media/xitter",
       "skills/software-development/code-review",
@@ -178894,7 +178909,7 @@
       "skills/software-development/test-driven-development",
       "skills/software-development/writing-plans"
     ],
-    "lastUpdated": "2026-04-02T19:28:32.515Z"
+    "lastUpdated": "2026-04-03T01:28:26.439Z"
   },
   {
     "source": "github:novitalabs/novita-skills",
@@ -179069,18 +179084,18 @@
   },
   {
     "source": "github:nrslib/takt",
-    "rev": "3b072320b5dc8b6c54936cbb8f8c03618107032f",
-    "hash": "15rpb8yz7by1ijkrxjrvxmzkj3bdwv42xm7rm66l04lyx53nfvg1",
+    "rev": "1ea2e4bc6bd93543dc1736aa6fabcbef4e4d4ad6",
+    "hash": "0zz75zbhlv8yhi812cbfr5dlavy8rmd36nhbvvm5706d4dig5c8i",
     "skills": [
       "builtins/skill",
       "builtins/skill-codex"
     ],
-    "lastUpdated": "2026-04-02T16:25:49.749Z"
+    "lastUpdated": "2026-04-03T01:28:10.523Z"
   },
   {
     "source": "github:nrwl/nx",
-    "rev": "a80f24aaa0cbee08a5b76c51ab6c76fe8f5c0d41",
-    "hash": "184jir13qkm2ssjhrk4ch868vrlz0bxkrklanzx9a342dwmnkn6a",
+    "rev": "557c876e96c1f92f39eb05cb79f0cf06973ee214",
+    "hash": "19d2b5xija7nci38h4k4i87vj62xksyr6w58f523lcqbh9pxprln",
     "skills": [
       ".claude/skills/nx-docs-style-check",
       ".claude/skills/nx-gradle-plugin-version-bump",
@@ -179091,7 +179106,7 @@
       ".github/skills/nx-run-tasks",
       ".github/skills/nx-workspace"
     ],
-    "lastUpdated": "2026-04-02T19:29:14.094Z"
+    "lastUpdated": "2026-04-03T01:29:02.788Z"
   },
   {
     "source": "github:nrwl/nx-ai-agents-config",
@@ -179472,14 +179487,14 @@
   },
   {
     "source": "github:nuxt-content/docus",
-    "rev": "66ea500c79b85874f9ca528238ae65af51f139b5",
-    "hash": "09a9zw5k3c558k5qrf8aymysl1y96n2m1qx1k0chblmrk02f40ib",
+    "rev": "6a070eda7bbce99a031c54aef2c6943c8dd11dda",
+    "hash": "1vsikagmas8xkbjj4jj3w0jzrcri7d9kpp3ljkyxpi6lm57d11y8",
     "skills": [
       "docs/skills/create-docs",
       "docs/skills/review-docs",
       "playground/skills/docus-playground"
     ],
-    "lastUpdated": "2026-04-02T13:29:49.042Z"
+    "lastUpdated": "2026-04-03T01:28:26.418Z"
   },
   {
     "source": "github:nuxt-content/nuxt-studio",
@@ -179510,17 +179525,17 @@
   },
   {
     "source": "github:nvidia/osmo",
-    "rev": "c8bf5bc8b44ccd2307dcdc934f8bddaa19b9ec1b",
-    "hash": "1mhfb44nwvin59vj60wn9pzsg9lnzspdmn193jj99vha4dc123r7",
+    "rev": "762ea599e98302634bf614a929ab1a32913eb6e6",
+    "hash": "02jxrp4qkk98dq7fgp04q5c9kh29khmk13b3qpvmipajp31p2yzg",
     "skills": [
       "skills/osmo-agent"
     ],
-    "lastUpdated": "2026-04-02T01:26:38.653Z"
+    "lastUpdated": "2026-04-03T01:28:28.286Z"
   },
   {
     "source": "github:nweii/agent-stuff",
-    "rev": "60fbd64640fdd0d838f152f31a306011ae40014d",
-    "hash": "0llazapjrpkaw1j9dzrnqbi2jxn8s950993ylyc1if9lwv1g053w",
+    "rev": "b0a8bb4bf21ad4ebfe25eb01137531b383917caf",
+    "hash": "1dh4hxz0wp8bpiq2h6673mmw6n6nw0fk1d10xzb0p0imk7z6bm4v",
     "skills": [
       "skills/aid-finances",
       "skills/archive-conversation",
@@ -179534,6 +179549,7 @@
       "skills/lookup",
       "skills/obsidian-clis",
       "skills/obsidian-granola",
+      "skills/obsidian-log-commits",
       "skills/obsidian-sync-people",
       "skills/obsidian-templater",
       "skills/periodic-rollup",
@@ -179554,7 +179570,7 @@
       "skills/visual-keywords",
       "skills/web-design-guidelines"
     ],
-    "lastUpdated": "2026-04-02T16:26:09.854Z"
+    "lastUpdated": "2026-04-03T01:28:26.836Z"
   },
   {
     "source": "github:nwp/suno-song-creator-plugin",
