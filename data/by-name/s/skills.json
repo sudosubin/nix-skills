@@ -46,23 +46,23 @@
   },
   {
     "source": "github:ScottRBK/forgetful",
-    "rev": "98c7e4f4569c10df68101e6f8b377da0b4a433d1",
-    "hash": "13z2jq2rdh3l2n7nh2m3ai8idp3v3p121bqzvkp71z9ax0w920pa",
+    "rev": "f7879f018a2d14bbda65cc53bc9817677f0e2257",
+    "hash": "1c3hj8z42savv7a6n0l7vkj02cvp06a2fwdd7vbwk7c34fpa7s9c",
     "skills": [
       "docs/copilot-cli/skills/curating-memories",
       "docs/copilot-cli/skills/exploring-knowledge-graph",
       "docs/copilot-cli/skills/using-forgetful-memory"
     ],
-    "lastUpdated": "2026-04-01T19:26:17.727Z"
+    "lastUpdated": "2026-04-04T10:11:21.704Z"
   },
   {
     "source": "github:Shada01245/the-unofficial-swift-programming-language-skill",
-    "rev": "b9272e90f618ca68202cded8ab570da9a442661f",
+    "rev": "88dbf87807d7ce487f88a463cf75776534dac97b",
     "hash": "1dz631pg89idx30lf1inrnj76gk4p8q01a9491pk81gjqr1icn0l",
     "skills": [
       "programming-swift"
     ],
-    "lastUpdated": "2026-04-04T07:34:08.727Z"
+    "lastUpdated": "2026-04-04T10:11:21.367Z"
   },
   {
     "source": "github:ShawhinT/ai-tutor-skill",
@@ -160,7 +160,7 @@
   },
   {
     "source": "github:Squirrelfishcityhall150/claude-code-kit",
-    "rev": "4ef933f06c6c5597276d406f0a019de759ebdf74",
+    "rev": "7d89b831ee874e72036d62375dec843abd2073f3",
     "hash": "1i6bqvz66pns1sv208721ssssks3lnygnj40vga8hv8zj9bzx567",
     "skills": [
       "cli/core/skills/route-tester",
@@ -176,7 +176,7 @@
       "cli/kits/tanstack-query/skills/tanstack-query",
       "cli/kits/tanstack-router/skills/tanstack-router"
     ],
-    "lastUpdated": "2026-04-04T07:34:09.708Z"
+    "lastUpdated": "2026-04-04T10:11:21.641Z"
   },
   {
     "source": "github:SummerKaze/skill-arkts-syntax-assistant",
@@ -5381,13 +5381,14 @@
   },
   {
     "source": "github:sd0xdev/sd0x-dev-flow",
-    "rev": "f1718b4fca35af26f386266e72474e355978e5ca",
-    "hash": "1j5g8q7i4fc6v0xz4y23kn0928fnkbccmv1hdrlzrl06b2zlpqjx",
+    "rev": "fc3cc287cca12f29bf6a88bc72ccdaa581aeed3d",
+    "hash": "0vcw19hs7iy6lcd7ylzak0ljgfc78pzdikwgrwwfi61imp1mvi4d",
     "skills": [
       "skills/architecture",
       "skills/best-practices",
       "skills/bug-fix",
       "skills/bump-version",
+      "skills/check-coverage",
       "skills/claude-health",
       "skills/code-explore",
       "skills/code-investigate",
@@ -5397,15 +5398,25 @@
       "skills/codex-code-review",
       "skills/codex-explain",
       "skills/codex-implement",
+      "skills/codex-review",
+      "skills/codex-review-branch",
+      "skills/codex-review-doc",
+      "skills/codex-review-fast",
+      "skills/codex-security",
       "skills/codex-setup",
+      "skills/codex-test-gen",
+      "skills/codex-test-review",
       "skills/contract-decode",
       "skills/create-pr",
       "skills/create-request",
       "skills/de-ai-flavor",
       "skills/debug",
+      "skills/deep-analyze",
       "skills/deep-explore",
       "skills/deep-research",
+      "skills/dep-audit",
       "skills/dev-security-audit",
+      "skills/doc-refactor",
       "skills/doc-review",
       "skills/feasibility-study",
       "skills/feature-dev",
@@ -5414,6 +5425,9 @@
       "skills/generate-runner",
       "skills/git-investigate",
       "skills/git-profile",
+      "skills/install-hooks",
+      "skills/install-rules",
+      "skills/install-scripts",
       "skills/issue-analyze",
       "skills/jira",
       "skills/load-pr-review",
@@ -5424,9 +5438,13 @@
       "skills/portfolio",
       "skills/post-dev-test",
       "skills/pr-comment",
+      "skills/pr-review",
       "skills/pr-summary",
       "skills/pre-pr-audit",
+      "skills/precommit",
+      "skills/precommit-fast",
       "skills/project-audit",
+      "skills/project-brief",
       "skills/project-setup",
       "skills/push-ci",
       "skills/refactor",
@@ -5434,11 +5452,13 @@
       "skills/repo-intake",
       "skills/req-analyze",
       "skills/request-tracking",
+      "skills/review-spec",
       "skills/risk-assess",
       "skills/safe-remove",
       "skills/security-review",
       "skills/seek-verdict",
       "skills/sharingan",
+      "skills/simplify",
       "skills/skill-health-check",
       "skills/smart-commit",
       "skills/smart-rebase",
@@ -5447,9 +5467,12 @@
       "skills/test-deep",
       "skills/test-health",
       "skills/test-review",
-      "skills/watch-ci"
+      "skills/update-docs",
+      "skills/verify",
+      "skills/watch-ci",
+      "skills/zh-tw"
     ],
-    "lastUpdated": "2026-04-03T07:25:50.722Z"
+    "lastUpdated": "2026-04-04T10:12:30.987Z"
   },
   {
     "source": "github:sdairs/agent-skills",
@@ -8522,8 +8545,8 @@
   },
   {
     "source": "github:sgcarstrends/sgcarstrends",
-    "rev": "34bf3dbfeee43bab8cc0afbf0e723bda476f7231",
-    "hash": "0g4hpix7n2swls6azhs4h2zdd4cbszknk9f9kg6zrn45ywgfy94s",
+    "rev": "e535f1f8e6966887317b0dacc3699ff71fb37b2f",
+    "hash": "13hjfj2ca2i08if3q3lhgvwfi6smv0my2k6rnppnccwl0gqanjah",
     "skills": [
       ".claude/skills/api-testing",
       ".claude/skills/changelog",
@@ -8531,7 +8554,6 @@
       ".claude/skills/code-review",
       ".claude/skills/component-docs",
       ".claude/skills/component-naming",
-      ".claude/skills/conventional-commits",
       ".claude/skills/data-seeding",
       ".claude/skills/dependency-upgrade",
       ".claude/skills/deployment-rollback",
@@ -8542,10 +8564,8 @@
       ".claude/skills/monitoring",
       ".claude/skills/performance",
       ".claude/skills/readme-updates",
-      ".claude/skills/rebrand",
       ".claude/skills/release-management",
       ".claude/skills/security",
-      ".claude/skills/shadcn-components",
       ".claude/skills/tailwind-config",
       ".claude/skills/workflow-management",
       "apps/web/.claude/skills/cache-components",
@@ -8553,12 +8573,12 @@
       "apps/web/.claude/skills/typography-spacing-enforcer",
       "apps/web/.claude/skills/ui-design-system"
     ],
-    "lastUpdated": "2026-04-01T19:28:00.236Z"
+    "lastUpdated": "2026-04-04T10:14:00.537Z"
   },
   {
     "source": "github:sgl-project/sglang",
-    "rev": "ff8e47edf93a6c779eb6f4873704050d2d760f9e",
-    "hash": "1gcvbydfryqahaxkai51yk41wg93dbhg83zlbwi3f7vxjph06vvz",
+    "rev": "e9d92b0e33770651fd065c04ea28d0a5564e229d",
+    "hash": "0inzsynf0pbqpj5ahar4mhyi63kvilh2lwhwavg96gxivi2m3ffp",
     "skills": [
       ".claude/skills/add-jit-kernel",
       ".claude/skills/add-sgl-kernel",
@@ -8574,7 +8594,7 @@
       "python/sglang/multimodal_gen/.claude/skills/sglang-diffusion-performance",
       "python/sglang/multimodal_gen/.claude/skills/sglang-diffusion-triton-kernel"
     ],
-    "lastUpdated": "2026-04-04T07:36:45.563Z"
+    "lastUpdated": "2026-04-04T10:14:05.859Z"
   },
   {
     "source": "github:sh-oh/ios-agent-skills",
@@ -8637,21 +8657,21 @@
   },
   {
     "source": "github:shadcn-ui/ui",
-    "rev": "768d8a808ff93136b50181dd690a4e0547068834",
-    "hash": "047z1rl5iw9cbndn3wxs5cl83vd4xhy7cdbwsz3yl1ly59waf6ws",
+    "rev": "720ccca653436ac1c2293b56eeca71d5ebc7e5f9",
+    "hash": "1ha7mlihd286f6d7mzpz5v78p4ghrvbyyxv0d7q6x6i4ha24aznn",
     "skills": [
       "skills/shadcn"
     ],
-    "lastUpdated": "2026-04-02T16:28:14.280Z"
+    "lastUpdated": "2026-04-04T10:14:03.943Z"
   },
   {
     "source": "github:shadcn/ui",
-    "rev": "768d8a808ff93136b50181dd690a4e0547068834",
-    "hash": "047z1rl5iw9cbndn3wxs5cl83vd4xhy7cdbwsz3yl1ly59waf6ws",
+    "rev": "720ccca653436ac1c2293b56eeca71d5ebc7e5f9",
+    "hash": "1ha7mlihd286f6d7mzpz5v78p4ghrvbyyxv0d7q6x6i4ha24aznn",
     "skills": [
       "skills/shadcn"
     ],
-    "lastUpdated": "2026-04-02T16:28:13.923Z"
+    "lastUpdated": "2026-04-04T10:14:04.111Z"
   },
   {
     "source": "github:shadow-flash/diffscribe",
@@ -8825,7 +8845,7 @@
   },
   {
     "source": "github:shajith003/awesome-claude-skills",
-    "rev": "19c59245b18468baf931d57d178295d4371c0f4e",
+    "rev": "f203efe4dc30ddf8cfd0b8cc5f267397e595d156",
     "hash": "0x5ifxaafl6b86761rzp0qrs40njqm0w4hgp7pv82wn8ky90nnqg",
     "skills": [
       "algorithmic-art",
@@ -8845,7 +8865,7 @@
       "ui-design",
       "webapp-testing"
     ],
-    "lastUpdated": "2026-04-04T07:36:44.707Z"
+    "lastUpdated": "2026-04-04T10:14:00.515Z"
   },
   {
     "source": "github:shakes-tzd/contextune",
@@ -9062,8 +9082,8 @@
   },
   {
     "source": "github:sharex/xerahs",
-    "rev": "71f38ce6c482d23cb32eae3991f343eac3f0a20c",
-    "hash": "0pz8l7q82983iibql071ipyihjafb0sr0bbhdmpn6a1q9x3rnqgv",
+    "rev": "4712e39d1e9b68acf0e16c2f49aadb2c61df1dd5",
+    "hash": "0jk4l52gikgsxzqgw8r0f68b3vi23qa2gncb2malfgr9i9n8y9jg",
     "skills": [
       ".ai/skills/architecture-guidelines",
       ".ai/skills/audit-refactoring",
@@ -9084,7 +9104,7 @@
       ".ai/skills/update-changelog",
       ".ai/skills/write-xip"
     ],
-    "lastUpdated": "2026-04-04T07:37:49.939Z"
+    "lastUpdated": "2026-04-04T10:14:26.141Z"
   },
   {
     "source": "github:sharpai/deepcamera",
@@ -9817,8 +9837,8 @@
   },
   {
     "source": "github:shinpr/claude-code-workflows",
-    "rev": "43cc9fc338be511f1d06b6613c45a3cf4766e96b",
-    "hash": "076vya3kbsagcsws0n2zna5ngr19f8j17p939mr0b3ll6iv82zww",
+    "rev": "2af1b69642200230b9e864ee03e71724965e5141",
+    "hash": "0hhy1mscp6wa7p67dk9iw6q5y056ps0jmhcb3hpszhkig3nmza5m",
     "skills": [
       "skills/ai-development-guide",
       "skills/coding-principles",
@@ -9848,7 +9868,7 @@
       "skills/testing-principles",
       "skills/typescript-rules"
     ],
-    "lastUpdated": "2026-04-04T07:37:49.955Z"
+    "lastUpdated": "2026-04-04T10:14:26.005Z"
   },
   {
     "source": "github:shinpr/mcp-local-rag",
@@ -12282,8 +12302,8 @@
   },
   {
     "source": "github:sien75/graphicode-skills",
-    "rev": "2436d6fa79da742b1a221fc54d650a5c4b50f870",
-    "hash": "0a9axanwss1wjq8qbf731lykrd2sb88bl44vxw1zdq4az7183ixa",
+    "rev": "90fa9a90d12222d2a8ab5b9d5427301a4917deb8",
+    "hash": "1d9js2ylvp44jgx54qfwcww59zjiylrn2srfnr8mvvd5934gihy9",
     "skills": [
       "architect",
       "designer-trans-ts-react-less",
@@ -12295,7 +12315,7 @@
       "start-ts-bun",
       "start-ts-umi"
     ],
-    "lastUpdated": "2026-04-03T13:37:03.451Z"
+    "lastUpdated": "2026-04-04T10:14:05.783Z"
   },
   {
     "source": "github:sifr42/video-understand",
@@ -13052,8 +13072,8 @@
   },
   {
     "source": "github:sipengxie2024/superpower-planning",
-    "rev": "6e7266b81bbeb7882a8fe40920210379f5b0aa31",
-    "hash": "08b0w5q0n4v2b0qj09dgv1l5rc51166b2j4pdjrvfnnkyrg0y6v3",
+    "rev": "6ebe6d2400637dee28928707bf232bc51c3c77c6",
+    "hash": "00w0al3nx4ns5sqvzzxvlgpfvb5gmrzn72swii8aybfy0xyj0xw4",
     "skills": [
       "skills/archiving",
       "skills/brainstorming",
@@ -13076,7 +13096,7 @@
       "skills/verification",
       "skills/writing-plans"
     ],
-    "lastUpdated": "2026-04-03T10:19:21.621Z"
+    "lastUpdated": "2026-04-04T10:14:22.822Z"
   },
   {
     "source": "github:sirius-cc-wu/sirius-skills",
@@ -18441,8 +18461,8 @@
   },
   {
     "source": "github:smith-horn/skillsmith",
-    "rev": "99f792f02ec7989736eb66ece0374e320764c808",
-    "hash": "0xbfrsikvf23kb6bibay7zhky5l5zlxk39yz9g0aky7kngy1bbmd",
+    "rev": "d921089dfc348d53e2ba5a2e29669f8441aa1326",
+    "hash": "151z268l34r9czcxwhyh5an9a80bb43vch1ii2n6wzn6i5wkh85g",
     "skills": [
       ".claude/skills/agentdb-advanced",
       ".claude/skills/agentdb-learning",
@@ -18480,7 +18500,7 @@
       "packages/cli/assets/skillsmith-skill",
       "packages/mcp-server/src/assets/skills/skillsmith"
     ],
-    "lastUpdated": "2026-04-04T07:36:14.372Z"
+    "lastUpdated": "2026-04-04T10:13:45.012Z"
   },
   {
     "source": "github:smithclay/skills",
@@ -19778,14 +19798,16 @@
   },
   {
     "source": "github:sotayamashita/dotfiles",
-    "rev": "d25b6ed5abdf41c220fb6dea10d95eb17aba9be4",
-    "hash": "18l89y3xb1hjd7vdb5mz4ya24sw7pxpy5x8a8bx8mkjz4jr55jiz",
+    "rev": "e05864c602e9442cbe3d758f25dafc3240c0d5c2",
+    "hash": "06q62l1xqcnssrgswkbrrl2ylyx1vlv8n3q0x0ji1g9lsjhc1hcp",
     "skills": [
       ".claude/skills/commit",
       ".claude/skills/obsidian-summary",
+      ".claude/skills/obsidian-wiki-compile",
+      ".claude/skills/obsidian-wiki-lint",
       ".claude/skills/tdd-workflow"
     ],
-    "lastUpdated": "2026-04-04T07:35:38.010Z"
+    "lastUpdated": "2026-04-04T10:14:19.750Z"
   },
   {
     "source": "github:soul-brews-studio/oracle-skills-cli",
@@ -21052,7 +21074,7 @@
   },
   {
     "source": "github:squirrelfishcityhall150/claude-code-kit",
-    "rev": "4ef933f06c6c5597276d406f0a019de759ebdf74",
+    "rev": "7d89b831ee874e72036d62375dec843abd2073f3",
     "hash": "1i6bqvz66pns1sv208721ssssks3lnygnj40vga8hv8zj9bzx567",
     "skills": [
       "cli/core/skills/route-tester",
@@ -21068,7 +21090,7 @@
       "cli/kits/tanstack-query/skills/tanstack-query",
       "cli/kits/tanstack-router/skills/tanstack-router"
     ],
-    "lastUpdated": "2026-04-04T07:38:02.749Z"
+    "lastUpdated": "2026-04-04T10:13:51.150Z"
   },
   {
     "source": "github:squirrelscan/skills",
@@ -21242,8 +21264,8 @@
   },
   {
     "source": "github:srtab/daiv",
-    "rev": "c659ea016e030cdb22be9c0ac3cfa8bd3ddfce27",
-    "hash": "051zd9cmnrmd6djqkip1s81zkp1mbfplpyajs8m9w8hjcl3s1pjn",
+    "rev": "7788a21d90e26f77500d0395cab29abdce5ad30b",
+    "hash": "11nvw45d5n9h057nzdz4fsm76ndl2vk16sws9kr24bjvjldhq5zb",
     "skills": [
       "daiv/automation/agent/skills/code-review",
       "daiv/automation/agent/skills/init",
@@ -21251,7 +21273,7 @@
       "daiv/automation/agent/skills/security-audit",
       "daiv/automation/agent/skills/skill-creator"
     ],
-    "lastUpdated": "2026-04-03T01:27:33.326Z"
+    "lastUpdated": "2026-04-04T10:13:52.738Z"
   },
   {
     "source": "github:sruja-ai/sruja",
@@ -22449,8 +22471,8 @@
   },
   {
     "source": "github:steipete/clawdis",
-    "rev": "545ecc63bdf485919f0118442b97b91c77df7243",
-    "hash": "1447qc2x9475qhj1f4gbd7k7kdyybvbi5l3yd6q1p29wdsbq8nkl",
+    "rev": "ca2fdcc45f36335c1c5719fb699f4f90b351bfc2",
+    "hash": "1brgjy9x8slscfqlj8bsrlrch65dnqbbm7q066j6nxmswk0y6jgv",
     "skills": [
       ".agents/skills/openclaw-ghsa-maintainer",
       ".agents/skills/openclaw-parallels-smoke",
@@ -22525,7 +22547,7 @@
       "skills/weather",
       "skills/xurl"
     ],
-    "lastUpdated": "2026-04-04T07:36:26.500Z"
+    "lastUpdated": "2026-04-04T10:15:17.461Z"
   },
   {
     "source": "github:steipete/oracle",
