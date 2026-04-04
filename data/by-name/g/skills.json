@@ -1113,8 +1113,8 @@
   },
   {
     "source": "github:gadievron/raptor",
-    "rev": "2a6e18f0699ed2025c68a41fc4024e23d6bf968b",
-    "hash": "1255v9r38caix2r9h0byv911qfcg085l6y1hz6qdfvzhxl6b7xcj",
+    "rev": "8139604a56e794b874868bd843f656adb201f05f",
+    "hash": "0v436prbhjciq57xps62mzxr96wyb1cdxxvjvdkzgr8173js57ii",
     "skills": [
       ".claude/skills/code-understanding",
       ".claude/skills/crash-analysis/function-tracing",
@@ -1128,7 +1128,7 @@
       ".claude/skills/oss-forensics/github-wayback-recovery",
       ".claude/skills/oss-forensics/orchestration"
     ],
-    "lastUpdated": "2026-04-04T07:34:44.602Z"
+    "lastUpdated": "2026-04-04T22:20:24.952Z"
   },
   {
     "source": "github:gaearon/woodshed",
@@ -1169,17 +1169,23 @@
   },
   {
     "source": "github:gaelic-ghost/apple-dev-skills",
-    "rev": "a1d425fd8adc7b2c760265812b0633cca05b715d",
-    "hash": "1lwbh2cb6m5gcs3v35rss2m96a2f8m24f0ay373pnb9krc2pwp88",
+    "rev": "db74952a26a410979ebd9971d73555759fbc53e7",
+    "hash": "0fpzd21q58y77qmd7ajhk10rgxwcdz6aaddvciq8s688hsdqgmbf",
     "skills": [
+      "plugins/agent-plugin-skills/skills/bootstrap-skills-plugin-repo",
+      "plugins/agent-plugin-skills/skills/install-plugin-to-socket",
+      "plugins/agent-plugin-skills/skills/maintain-plugin-docs",
+      "plugins/agent-plugin-skills/skills/sync-skills-repo-guidance",
+      "plugins/agent-plugin-skills/skills/validate-plugin-install-surfaces",
       "skills/bootstrap-swift-package",
       "skills/bootstrap-xcode-app-project",
       "skills/explore-apple-swift-docs",
+      "skills/swift-style-tooling-workflow",
       "skills/sync-swift-package-guidance",
       "skills/sync-xcode-project-guidance",
       "skills/xcode-app-project-workflow"
     ],
-    "lastUpdated": "2026-04-04T07:34:44.790Z"
+    "lastUpdated": "2026-04-04T22:20:24.886Z"
   },
   {
     "source": "github:gaelic-ghost/productivity-skills",
@@ -1194,15 +1200,21 @@
   },
   {
     "source": "github:gaelic-ghost/python-skills",
-    "rev": "e5c14273424dcdd882e3783236f8a82ff3718906",
-    "hash": "179wvhsaydmy2afvf62rbhfa2zlz7074niaz2xp57is3fmb2c64w",
+    "rev": "fd149936ec0c650cdb8e5dd14fd909e40a66d603",
+    "hash": "1vzs4gx9bf1njbg26gyw4k59q2hg4vxgppx5kpq5kvb6apnyz0b1",
     "skills": [
+      "plugins/agent-plugin-skills/skills/bootstrap-skills-plugin-repo",
+      "plugins/agent-plugin-skills/skills/install-plugin-to-socket",
+      "plugins/agent-plugin-skills/skills/maintain-plugin-docs",
+      "plugins/agent-plugin-skills/skills/sync-skills-repo-guidance",
+      "plugins/agent-plugin-skills/skills/validate-plugin-install-surfaces",
       "skills/bootstrap-python-mcp-service",
       "skills/bootstrap-python-service",
       "skills/bootstrap-uv-python-workspace",
+      "skills/integrate-fastapi-fastmcp",
       "skills/uv-pytest-unit-testing"
     ],
-    "lastUpdated": "2026-03-29T22:16:48.334Z"
+    "lastUpdated": "2026-04-04T22:20:24.876Z"
   },
   {
     "source": "github:gafapa/skill-tools",
@@ -1639,8 +1651,8 @@
   },
   {
     "source": "github:garrytan/gstack",
-    "rev": "cf73db5f19040218ecd50d0b81acffd40b63f056",
-    "hash": "1gibdw5m4aivwvjn8wq986gfb4k4wmgayw2ddxlil711dm20fnny",
+    "rev": "447851452a3fe967fe418dec7232f2fd158d0a67",
+    "hash": "0l7d8h56c1fz7v1rirdsbj3qnxsagx2n8smrjf0wmwx8xmq5gaca",
     "skills": [
       ".",
       "autoplan",
@@ -1666,6 +1678,7 @@
       "land-and-deploy",
       "learn",
       "office-hours",
+      "open-gstack-browser",
       "plan-ceo-review",
       "plan-design-review",
       "plan-devex-review",
@@ -1679,7 +1692,7 @@
       "ship",
       "unfreeze"
     ],
-    "lastUpdated": "2026-04-04T01:28:42.951Z"
+    "lastUpdated": "2026-04-04T22:20:34.415Z"
   },
   {
     "source": "github:garvit-joshi/jskim",
@@ -1738,64 +1751,57 @@
   },
   {
     "source": "github:garyukong/agents",
-    "rev": "9047993854b610e1a0be2b1ef274ee972a28aced",
-    "hash": "0m2hfn413mkvnqzdp3b1wh1p297jnbdsy7xp9j38jz0wm8psi4wn",
+    "rev": "952c764bd440d9a3636bd5ff696f5c4097b4e4e3",
+    "hash": "0rhr9cis9pgc2m4gfqs5m7a5vciq0zhacyvz7zzdcm5sxal3cmib",
     "skills": [
       ".agents/skills/agent-development",
       ".agents/skills/claude-md-improver",
-      ".agents/skills/openspec-apply-change",
-      ".agents/skills/openspec-archive-change",
-      ".agents/skills/openspec-continue-change",
-      ".agents/skills/openspec-explore",
-      ".agents/skills/openspec-ff-change",
-      ".agents/skills/openspec-new-change",
-      ".agents/skills/openspec-propose",
-      ".agents/skills/openspec-sync-specs",
-      ".agents/skills/openspec-verify-change",
       ".agents/skills/skill-creator",
       ".agents/skills/skill-development",
       ".agents/skills/writing-hookify-rules",
-      "plugin-skill-ports/agent-llm-engineer",
-      "plugin-skill-ports/agent-llm-prompt-engineer",
-      "plugin-skill-ports/agent-llm-vector-database-engineer",
-      "plugin-skill-ports/llm-assistant",
-      "plugin-skill-ports/llm-langchain-agent",
-      "plugin-skill-ports/llm-prompt-optimize",
-      "plugins/llm-application-dev/skills/embedding-strategies",
-      "plugins/llm-application-dev/skills/hybrid-search-implementation",
-      "plugins/llm-application-dev/skills/langchain-architecture",
-      "plugins/llm-application-dev/skills/llm-evaluation",
-      "plugins/llm-application-dev/skills/prompt-engineering-patterns",
-      "plugins/llm-application-dev/skills/rag-implementation",
-      "plugins/llm-application-dev/skills/similarity-search-patterns",
-      "plugins/llm-application-dev/skills/vector-index-tuning",
-      "plugins/machine-learning-ops/skills/ml-pipeline-workflow",
-      "plugins/openspec/skills/openspec-bulk-archive-change",
-      "plugins/openspec/skills/openspec-onboard",
-      "plugins/python-development/skills/async-python-patterns",
-      "plugins/python-development/skills/python-anti-patterns",
-      "plugins/python-development/skills/python-background-jobs",
-      "plugins/python-development/skills/python-code-style",
-      "plugins/python-development/skills/python-configuration",
-      "plugins/python-development/skills/python-design-patterns",
-      "plugins/python-development/skills/python-error-handling",
-      "plugins/python-development/skills/python-observability",
-      "plugins/python-development/skills/python-packaging",
-      "plugins/python-development/skills/python-performance-optimization",
-      "plugins/python-development/skills/python-project-structure",
-      "plugins/python-development/skills/python-resilience",
-      "plugins/python-development/skills/python-resource-management",
-      "plugins/python-development/skills/python-testing-patterns",
-      "plugins/python-development/skills/python-type-safety",
-      "plugins/python-development/skills/uv-package-manager",
-      "skills/context7-mcp",
+      "skills/context-mode",
+      "skills/geekbot-weekly-update",
       "skills/integration-test-suite",
-      "skills/openspec-jira",
-      "skills/plugin-to-skill",
-      "skills/python-pro-agent",
+      "skills/llm-application-dev/embedding-strategies",
+      "skills/llm-application-dev/hybrid-search-implementation",
+      "skills/llm-application-dev/langchain-architecture",
+      "skills/llm-application-dev/llm-evaluation",
+      "skills/llm-application-dev/prompt-engineering-patterns",
+      "skills/llm-application-dev/rag-implementation",
+      "skills/llm-application-dev/similarity-search-patterns",
+      "skills/llm-application-dev/vector-index-tuning",
+      "skills/machine-learning-ops/ml-pipeline-workflow",
+      "skills/openspec/openspec-apply-change",
+      "skills/openspec/openspec-archive-change",
+      "skills/openspec/openspec-bulk-archive-change",
+      "skills/openspec/openspec-continue-change",
+      "skills/openspec/openspec-explore",
+      "skills/openspec/openspec-ff-change",
+      "skills/openspec/openspec-new-change",
+      "skills/openspec/openspec-onboard",
+      "skills/openspec/openspec-propose",
+      "skills/openspec/openspec-sync-specs",
+      "skills/openspec/openspec-verify-change",
+      "skills/package-plugin",
+      "skills/python-development/async-python-patterns",
+      "skills/python-development/python-anti-patterns",
+      "skills/python-development/python-background-jobs",
+      "skills/python-development/python-code-style",
+      "skills/python-development/python-configuration",
+      "skills/python-development/python-design-patterns",
+      "skills/python-development/python-error-handling",
+      "skills/python-development/python-observability",
+      "skills/python-development/python-packaging",
+      "skills/python-development/python-performance-optimization",
+      "skills/python-development/python-project-structure",
+      "skills/python-development/python-resilience",
+      "skills/python-development/python-resource-management",
+      "skills/python-development/python-testing-patterns",
+      "skills/python-development/python-type-safety",
+      "skills/python-development/uv-package-manager",
       "skills/windsurf-to-claude-rules"
     ],
-    "lastUpdated": "2026-04-04T13:28:21.598Z"
+    "lastUpdated": "2026-04-04T22:20:31.497Z"
   },
   {
     "source": "github:gate/gate-skills",
@@ -1948,8 +1954,8 @@
   },
   {
     "source": "github:gavrielc/nanoclaw",
-    "rev": "3608f05233a1c4ff7c85805420330e058025e26b",
-    "hash": "1rs7nqd6q1rjykkvrv5cy5jc51wxzxv187qhxncbnvxshh1dkwky",
+    "rev": "391b729623d9de6838960561f4b54eaa02746a42",
+    "hash": "0vhmrcjsvs25s2zc4m5lp9nl738mmszfngi52kc11vlzan0cyzvh",
     "skills": [
       ".claude/skills/add-compact",
       ".claude/skills/add-discord",
@@ -1973,6 +1979,8 @@
       ".claude/skills/debug",
       ".claude/skills/get-qodo-rules",
       ".claude/skills/init-onecli",
+      ".claude/skills/migrate-from-openclaw",
+      ".claude/skills/migrate-nanoclaw",
       ".claude/skills/qodo-pr-resolver",
       ".claude/skills/setup",
       ".claude/skills/update-nanoclaw",
@@ -1985,7 +1993,7 @@
       "container/skills/slack-formatting",
       "container/skills/status"
     ],
-    "lastUpdated": "2026-04-03T13:34:31.288Z"
+    "lastUpdated": "2026-04-04T22:20:35.102Z"
   },
   {
     "source": "github:gbasin/stress-test-skill",
@@ -2437,15 +2445,15 @@
   },
   {
     "source": "github:geminilight/mindos",
-    "rev": "a8b91e099807e0cc1b5b706e992dcd79660e923b",
-    "hash": "1i125wdfb4nmcgbsg9mkzdm0mmd7mhn24wfyipaf01ffprw4i8dn",
+    "rev": "3519af1995ef85f91b4602f9d50c50a92b353b28",
+    "hash": "02ivk53gdcfph25nb2hv5df7m8k4xxvrjiwy0176aq9ksalapq77",
     "skills": [
       "skills/mindos",
       "skills/mindos-zh",
       "skills/plugin-core-builtin-migration",
       "skills/project-wiki"
     ],
-    "lastUpdated": "2026-04-04T13:28:21.228Z"
+    "lastUpdated": "2026-04-04T22:20:15.287Z"
   },
   {
     "source": "github:gen-verse/openclaw-rl",
@@ -3381,8 +3389,8 @@
   },
   {
     "source": "github:getpaseo/paseo",
-    "rev": "4706d9e3bdb1bae737a15be43fd2c4fdd26e2169",
-    "hash": "1xa1bc4b79ch4s234rxh9842g636hr09q9k97ir4h2k9bp2xyrih",
+    "rev": "7a2d9760817e6c25aed69314b0a2e5f6b4e7be6d",
+    "hash": "1y16z5ni4jrjdn9mc4x9q3zbhhr39psynn5iy0qik8q5hs92p3zp",
     "skills": [
       "skills/paseo",
       "skills/paseo-chat",
@@ -3391,7 +3399,7 @@
       "skills/paseo-loop",
       "skills/paseo-orchestrator"
     ],
-    "lastUpdated": "2026-04-04T13:28:06.285Z"
+    "lastUpdated": "2026-04-04T22:19:44.208Z"
   },
   {
     "source": "github:getsentry/agent-skills",
@@ -4330,14 +4338,14 @@
   },
   {
     "source": "github:git-ai-project/git-ai",
-    "rev": "8cf9bc9f54c55ca3845a1347083d56b541dc0fff",
-    "hash": "0y2ffzsw035qq7vgyqxb3lb3miqlchl0x0z4nvhs6rc6bq1dqrjz",
+    "rev": "05581973d92b4be653a906e31008a89efc530d19",
+    "hash": "0xlgnyv1p09m1nqjiswa3ra52ywgp7h5xpr64aaqky2xm9vczqh3",
     "skills": [
       "skills/ask",
       "skills/git-ai-search",
       "skills/prompt-analysis"
     ],
-    "lastUpdated": "2026-04-03T22:14:30.847Z"
+    "lastUpdated": "2026-04-04T22:19:54.180Z"
   },
   {
     "source": "github:git-fg/thecattoolkit",
@@ -4365,12 +4373,12 @@
   },
   {
     "source": "github:gitbutlerapp/gitbutler",
-    "rev": "dac29dd683432a9444fe8a2916fec7b30bcba35c",
-    "hash": "0wsajzk9zjnz59c8fzz3mm11f63zlx7d2rzza37c557hz2gilzsc",
+    "rev": "907098353feb5d9b8480c2afc37f28001b090a82",
+    "hash": "13nh60dhbh9k1df366jawfbl9p6iz8ljndsvazwq9rlaihpai00m",
     "skills": [
       "crates/but/skill"
     ],
-    "lastUpdated": "2026-04-04T10:12:28.905Z"
+    "lastUpdated": "2026-04-04T22:19:55.094Z"
   },
   {
     "source": "github:gitdolucas/log-to-post",
@@ -4700,8 +4708,8 @@
   },
   {
     "source": "github:github/gh-aw",
-    "rev": "8e0d7a08e85c9a3f3aa35da926dd88e598d7ea74",
-    "hash": "09g8m0211mf5mybywpyv2qfrhlc9mlbhvij9ph8fr68749vynk9a",
+    "rev": "24c23eccc94d3d627558c18c1d15ad2a02e6c26d",
+    "hash": "18s939vfsh6l56x8v8q4mqvmlkxg2bnxj0pq6ck2mmlldkh4srr4",
     "skills": [
       ".github/skills/debugging-workflows",
       "skills/console-rendering",
@@ -4727,12 +4735,12 @@
       "skills/skillz-integration",
       "skills/temporary-id-safe-output"
     ],
-    "lastUpdated": "2026-04-04T13:28:48.656Z"
+    "lastUpdated": "2026-04-04T22:20:04.716Z"
   },
   {
     "source": "github:githubnext/gh-aw",
-    "rev": "8e0d7a08e85c9a3f3aa35da926dd88e598d7ea74",
-    "hash": "09g8m0211mf5mybywpyv2qfrhlc9mlbhvij9ph8fr68749vynk9a",
+    "rev": "24c23eccc94d3d627558c18c1d15ad2a02e6c26d",
+    "hash": "18s939vfsh6l56x8v8q4mqvmlkxg2bnxj0pq6ck2mmlldkh4srr4",
     "skills": [
       ".github/skills/debugging-workflows",
       "skills/console-rendering",
@@ -4758,7 +4766,7 @@
       "skills/skillz-integration",
       "skills/temporary-id-safe-output"
     ],
-    "lastUpdated": "2026-04-04T13:28:47.075Z"
+    "lastUpdated": "2026-04-04T22:20:04.711Z"
   },
   {
     "source": "github:gitroomhq/postiz-agent",
@@ -5664,8 +5672,8 @@
   },
   {
     "source": "github:gmh5225/awesome-ai-security",
-    "rev": "bf5249da924e5781961a52ca86866894a6bed7bb",
-    "hash": "0al8vlx15v3r4ixn4vfsdb6k3l1vpqargj1j1fgxlms5zmfwf2wh",
+    "rev": "fafb091805e6e61892660fac5108b5e0553b9f87",
+    "hash": "0zjdw9p3j2cnfvg0183j0zndh02hrp5cb4q46c4p4ghss2acq9pr",
     "skills": [
       ".claude/skills/adversarial-ml",
       ".claude/skills/ai-pentesting",
@@ -5673,7 +5681,7 @@
       ".claude/skills/overview",
       ".claude/skills/tooling"
     ],
-    "lastUpdated": "2026-04-04T13:27:18.740Z"
+    "lastUpdated": "2026-04-04T22:20:25.078Z"
   },
   {
     "source": "github:gmh5225/awesome-game-security",
@@ -6605,14 +6613,14 @@
   },
   {
     "source": "github:goofansu/pi-stuff",
-    "rev": "7bf5bb6a76148d5e55e0acceacff67faf05ddde4",
-    "hash": "0faax5k5h11npivzfardybj9ckysx907rcrz4kj0khc5az53xb33",
+    "rev": "24b5729fcb3c09009d580a0b15c0003000c85e3f",
+    "hash": "1hmkb59dk25bj8lcpm4p0vxg5j68kab9dk00qdm3wqalrcdq979a",
     "skills": [
       ".pi/skills/check-upstream",
       "skills/gist",
       "skills/note"
     ],
-    "lastUpdated": "2026-04-03T07:24:35.913Z"
+    "lastUpdated": "2026-04-04T22:20:13.814Z"
   },
   {
     "source": "github:google-gemini/gemini-cli",
@@ -7084,13 +7092,13 @@
   },
   {
     "source": "github:gptme/gptme",
-    "rev": "dd8f1c3fad1a99ce72d2ee00266272bcea26ad81",
-    "hash": "15mricqb2j31vdpbhc13qfqzw92ynzr8kk2h1bwj94pgmgk76w3d",
+    "rev": "e3c20a98f04b79472dfd4ec662891e90349046d6",
+    "hash": "1mg1i864l7qyrvz9mca6ij1d8hlyq0w3pji38f03gzqfzx4b268h",
     "skills": [
       "gptme/lessons/skills/codebase-classification",
       "gptme/lessons/skills/python-repl"
     ],
-    "lastUpdated": "2026-04-04T10:11:37.633Z"
+    "lastUpdated": "2026-04-04T22:20:28.651Z"
   },
   {
     "source": "github:gptomics/bioskills",
@@ -8675,8 +8683,8 @@
   },
   {
     "source": "github:gsd-build/gsd-2",
-    "rev": "d77b3dd7fd52060552a83447bc6a8392d8eb2913",
-    "hash": "1xw7zz4pll4pbxrpdnkgl4rciv7a4b9ha3gkqfb2iy08ik80r1li",
+    "rev": "f6ad4859f5c8f81de90e711e933eb3f6edee6082",
+    "hash": "0ab3545iaybh92nc8h9wpr26qdxparq3y3c3pad770rshhfhgi4v",
     "skills": [
       "gsd-orchestrator",
       "src/resources/extensions/gsd/skills/gsd-headless",
@@ -8702,7 +8710,7 @@
       "src/resources/skills/web-design-guidelines",
       "src/resources/skills/web-quality-audit"
     ],
-    "lastUpdated": "2026-04-04T07:34:57.675Z"
+    "lastUpdated": "2026-04-04T22:20:07.523Z"
   },
   {
     "source": "github:gswangg/codex-exec",
@@ -10238,8 +10246,8 @@
   },
   {
     "source": "github:gupsammy/claudest",
-    "rev": "02969e2487d5e8a4efe4ffe6dd42363c7e648095",
-    "hash": "09xfs9jbsyp0lqz8yq0vc8ngvx9a4gp9qqxrd9chyp5m732s9wb7",
+    "rev": "268a7f7ec340fbd53f3c1dcd3a8ed1aaa9be45b2",
+    "hash": "1y0axn7cnfqd89a19464aqcjyirlzqpfi9jaw9n2limccz0na0cn",
     "skills": [
       "plugins/claude-claw/skills/claw-advisor",
       "plugins/claude-claw/skills/create-claw-skill",
@@ -10273,7 +10281,7 @@
       "plugins/claude-thinking/skills/council",
       "plugins/claude-utilities/skills/convert-to-markdown"
     ],
-    "lastUpdated": "2026-04-04T07:34:18.726Z"
+    "lastUpdated": "2026-04-04T22:21:25.079Z"
   },
   {
     "source": "github:guptadeepak/auth-implementation-skill",

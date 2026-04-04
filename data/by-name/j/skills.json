@@ -29,8 +29,8 @@
   },
   {
     "source": "github:JacobPEvans/ai-assistant-instructions",
-    "rev": "7742a34f0d3fca8cbc8969a309cbac444594cdab",
-    "hash": "16yy1wfpk86726mnylda65cf04dlg1m2pw0ch9l8i9v6apn301wh",
+    "rev": "a95c97ccd7eca66e15858e365940ccf8ab2268f4",
+    "hash": "0wvvjfag2ldzr1m3d0jpm2zs0v8i042f54d6wikds2k21mrrii6q",
     "skills": [
       ".claude/skills/github-cli-patterns",
       ".claude/skills/github-graphql",
@@ -40,7 +40,7 @@
       ".claude/skills/worktree-management",
       "docs/archived-skills/consolidate-issues"
     ],
-    "lastUpdated": "2026-04-03T01:24:56.517Z"
+    "lastUpdated": "2026-04-04T22:19:29.587Z"
   },
   {
     "source": "github:JamesPrial/claudefiles",
@@ -127,8 +127,8 @@
   },
   {
     "source": "github:JeremyDev87/codingbuddy",
-    "rev": "e154ec1b08467d52b510f3abe3bda56ee4464237",
-    "hash": "02s6a1225lm71kkpb6b2f5icd5690jxkj9mbxh44qfsz7v2yyb5f",
+    "rev": "5934ca6e695839a9c2371a0cd6af4174b0aba1b4",
+    "hash": "11d7s22b1wrgn5yb6y235pzrmwr6pdsn1clyvgl3pxgb208fdz75",
     "skills": [
       ".claude/skills/parallel-issues",
       ".claude/skills/plan-to-issues",
@@ -183,7 +183,7 @@
       "packages/rules/.ai-rules/skills/widget-slot-architecture",
       "packages/rules/.ai-rules/skills/writing-plans"
     ],
-    "lastUpdated": "2026-04-04T13:26:51.747Z"
+    "lastUpdated": "2026-04-04T22:19:30.856Z"
   },
   {
     "source": "github:JordanCoin/codemap",
@@ -197,12 +197,12 @@
   },
   {
     "source": "github:Junayedahmedd/gemini_cli_skill",
-    "rev": "684d9fd308bd90ef4d9faf1abd843304840afa15",
+    "rev": "bd734b4842dd8ec82738359421ac77a6fd1b7c0f",
     "hash": "00d2pzdsz0dq5aqw3zvmkbrgxi9nm5vp5pislyl0a1yxwj3w267y",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-04-04T13:26:50.976Z"
+    "lastUpdated": "2026-04-04T22:19:30.265Z"
   },
   {
     "source": "github:Justdvp/claude-code-templates",
@@ -450,8 +450,8 @@
   },
   {
     "source": "github:jabrena/cursor-rules-java",
-    "rev": "25a10e74cbfb18d65ede83c4bf2c7d69aff07dc5",
-    "hash": "11glqiwd24wy0amw9mhv49zf1qqxgy4hjdnfj9kbkap0s2ygbrrg",
+    "rev": "5b1079b1d90cb47c9cc98c39481adcb2b52906d2",
+    "hash": "1qa86ymdqn3hfnwx1bv379np0izin1nscc6vljc57m3g4zi0paqm",
     "skills": [
       "skills/012-agile-epic",
       "skills/013-agile-feature",
@@ -512,7 +512,7 @@
       "skills/522-frameworks-micronaut-testing-integration-tests",
       "skills/523-frameworks-micronaut-testing-acceptance-tests"
     ],
-    "lastUpdated": "2026-03-31T16:32:30.380Z"
+    "lastUpdated": "2026-04-04T22:22:01.252Z"
   },
   {
     "source": "github:jacarrara/skills",
@@ -1216,17 +1216,17 @@
   },
   {
     "source": "github:jackwener/opencli",
-    "rev": "81308a474e137fe1f04fb570125f42f315c9e5fd",
-    "hash": "02virwg28q2sd8w4ryx70zgm75srscpl7qwvnkmqf2ya2pbgmshh",
+    "rev": "ab58aa409828f1adaf94f54844212a069067854d",
+    "hash": "04rpbdxckr785pimw6l4cy0kshhhpmf86krq2l6ni8i9w9wck8rf",
     "skills": [
+      "clis/antigravity",
       "skills/opencli-explorer",
       "skills/opencli-oneshot",
       "skills/opencli-operate",
       "skills/opencli-usage",
-      "skills/smart-search",
-      "src/clis/antigravity"
+      "skills/smart-search"
     ],
-    "lastUpdated": "2026-04-04T13:27:39.038Z"
+    "lastUpdated": "2026-04-04T22:21:25.292Z"
   },
   {
     "source": "github:jackwener/rdt-cli",
@@ -2035,8 +2035,8 @@
   },
   {
     "source": "github:jamie-bitflight/claude_skills",
-    "rev": "8b12c2ec3a7514845e4426b1a0398364cdfa790b",
-    "hash": "0aj6240y6xf3852sgrbmm69g7fijmvh35ndp31l1hqc8hdqjdnkb",
+    "rev": "faa172845efe4849ae4195fc8c17d5a4e073c760",
+    "hash": "0bg34l90gv1rraz8vhd93xvr71c8rwv4s3vrcqnnwvviwv3ssm83",
     "skills": [
       ".agent/skills/ccc",
       ".agents/skills/agent-browser",
@@ -2197,16 +2197,26 @@
       "plugins/process-siren/skills/improve-processes",
       "plugins/process-siren/skills/mermaids-treasure",
       "plugins/process-siren/skills/woo-sailor",
+      "plugins/python-engineering/skills/async-python-patterns",
       "plugins/python-engineering/skills/cleanup",
+      "plugins/python-engineering/skills/create-feature-task",
       "plugins/python-engineering/skills/debug",
+      "plugins/python-engineering/skills/hatchling",
+      "plugins/python-engineering/skills/mkdocs",
       "plugins/python-engineering/skills/modernpython",
       "plugins/python-engineering/skills/orchestrate",
+      "plugins/python-engineering/skills/pre-commit",
+      "plugins/python-engineering/skills/pypi-readme-creator",
       "plugins/python-engineering/skills/python-cross-platform-smoothing",
+      "plugins/python-engineering/skills/python3-add-feature",
       "plugins/python-engineering/skills/python3-cli",
       "plugins/python-engineering/skills/python3-core",
       "plugins/python-engineering/skills/python3-data",
+      "plugins/python-engineering/skills/python3-packaging",
+      "plugins/python-engineering/skills/python3-publish-release-pipeline",
       "plugins/python-engineering/skills/python3-stdlib-only",
       "plugins/python-engineering/skills/python3-tdd",
+      "plugins/python-engineering/skills/python3-test-design",
       "plugins/python-engineering/skills/python3-testing",
       "plugins/python-engineering/skills/python3-tools",
       "plugins/python-engineering/skills/python3-typing",
@@ -2214,33 +2224,23 @@
       "plugins/python-engineering/skills/review",
       "plugins/python-engineering/skills/shebangpython",
       "plugins/python-engineering/skills/snakepolish",
+      "plugins/python-engineering/skills/specialist-skill-routing",
       "plugins/python-engineering/skills/stinkysnake",
-      "plugins/python3-development/skills/async-python-patterns",
-      "plugins/python3-development/skills/create-feature-task",
-      "plugins/python3-development/skills/hatchling",
-      "plugins/python3-development/skills/mkdocs",
-      "plugins/python3-development/skills/pre-commit",
-      "plugins/python3-development/skills/pypi-readme-creator",
+      "plugins/python-engineering/skills/textual",
+      "plugins/python-engineering/skills/toml-python",
+      "plugins/python-engineering/skills/ty",
+      "plugins/python-engineering/skills/typer",
+      "plugins/python-engineering/skills/typer-and-rich",
+      "plugins/python-engineering/skills/uv",
       "plugins/python3-development/skills/python-cli-architect",
-      "plugins/python3-development/skills/python3-add-feature",
       "plugins/python3-development/skills/python3-bug",
       "plugins/python3-development/skills/python3-development",
       "plugins/python3-development/skills/python3-development-meta-docs",
-      "plugins/python3-development/skills/python3-packaging",
-      "plugins/python3-development/skills/python3-publish-release-pipeline",
       "plugins/python3-development/skills/python3-review",
-      "plugins/python3-development/skills/python3-test-design",
       "plugins/python3-development/skills/rich",
       "plugins/python3-development/skills/semantic-code-search",
-      "plugins/python3-development/skills/specialist-skill-routing",
       "plugins/python3-development/skills/stdlib-scripting",
-      "plugins/python3-development/skills/textual",
-      "plugins/python3-development/skills/toml-python",
-      "plugins/python3-development/skills/ty",
-      "plugins/python3-development/skills/typer",
-      "plugins/python3-development/skills/typer-and-rich",
       "plugins/python3-development/skills/use-command-template",
-      "plugins/python3-development/skills/uv",
       "plugins/scientific-method/skills/evidence-first-debugging",
       "plugins/scientific-method/skills/experiment-protocol",
       "plugins/scientific-method/skills/scientific-thinking",
@@ -2256,7 +2256,7 @@
       "plugins/verification-gate/skills/verification-gate",
       "plugins/xdg-base-directory/skills/xdg-base-directory"
     ],
-    "lastUpdated": "2026-04-04T01:29:20.986Z"
+    "lastUpdated": "2026-04-04T22:20:22.545Z"
   },
   {
     "source": "github:jamiemason/syncpack",
@@ -2402,8 +2402,8 @@
   },
   {
     "source": "github:jankneumann/agentic-coding-tools",
-    "rev": "c8004cbef71bf6fd049c1e379c004a03515c4645",
-    "hash": "14snhjdb9hf3cnhzndlkws7s47slrkjm9lb779fzq3f49a7jqh1d",
+    "rev": "c49f9db953587b1e90abbbb91c3bdb36985a63d1",
+    "hash": "07001q2ykxwygnig5c7njr34dm69lcxgbx23ld1nsfhhm68l4h7p",
     "skills": [
       ".agent/skills/openspec-apply-change",
       ".agent/skills/openspec-archive-change",
@@ -2425,6 +2425,7 @@
       "skills/explore-feature",
       "skills/fix-scrub",
       "skills/gen-eval",
+      "skills/gen-eval-scenario",
       "skills/implement-feature",
       "skills/iterate-on-implementation",
       "skills/iterate-on-plan",
@@ -2450,7 +2451,7 @@
       "skills/vendor-status",
       "skills/worktree"
     ],
-    "lastUpdated": "2026-04-04T07:35:32.778Z"
+    "lastUpdated": "2026-04-04T22:20:20.642Z"
   },
   {
     "source": "github:jankutschera/adhd-body-doubling",
@@ -3080,9 +3081,10 @@
   },
   {
     "source": "github:jawwad-ali/claude-code-skills",
-    "rev": "5815444c9f1e353e2bb3c29eff255f157dba7e51",
-    "hash": "1skqfg6kfw0z1b932zai3agj6pbr0yprssapzdgvznz5wy3r1mry",
+    "rev": "f7781221c90d3a99a10de83c966fa850fd13d988",
+    "hash": "1zs7xrmdw7r2hdp6mw1agk0h6q16jr7gyz1an3k4fg3paj43qpl4",
     "skills": [
+      ".claude/skills/code-quality",
       ".claude/skills/design-to-code",
       ".claude/skills/docker",
       ".claude/skills/fastapi",
@@ -3098,7 +3100,7 @@
       ".claude/skills/skill-creator",
       ".claude/skills/ui-ux-engineering"
     ],
-    "lastUpdated": "2026-03-25T10:27:58.830Z"
+    "lastUpdated": "2026-04-04T22:19:58.319Z"
   },
   {
     "source": "github:jawwadfirdousi/agent-skills",
@@ -4351,8 +4353,8 @@
   },
   {
     "source": "github:jeremylongshore/claude-code-plugins",
-    "rev": "1a77e753f3bf04063930696cbff438f9506449bd",
-    "hash": "003kmyb2ciqq6anas4xfjdaki4wqpvy5p3vnr4k48m66ds7xwayz",
+    "rev": "ecf40ddf6433aac93da3f466970a5cc82ecef172",
+    "hash": "1mqkydyj9p1vp0pbbnm5lp38yz7gsfd05qnlwsrjzsjknmnnz9w4",
     "skills": [
       "backups/plugin-enhancements/plugin-backups/skills-powerkit_20251019_164014/skills/marketplace-manager",
       "backups/skill-structure-cleanup-20251108-073936/plugins/ai-ml/ai-ethics-validator/skills/ai-ethics-validator",
@@ -7821,12 +7823,12 @@
       "tests/e2e/fixtures/test-plugin/skills/test-skill",
       "workspace/lab/schema-optimization"
     ],
-    "lastUpdated": "2026-04-03T05:01:36.338Z"
+    "lastUpdated": "2026-04-04T22:20:54.779Z"
   },
   {
     "source": "github:jeremylongshore/claude-code-plugins-plus",
-    "rev": "1a77e753f3bf04063930696cbff438f9506449bd",
-    "hash": "003kmyb2ciqq6anas4xfjdaki4wqpvy5p3vnr4k48m66ds7xwayz",
+    "rev": "ecf40ddf6433aac93da3f466970a5cc82ecef172",
+    "hash": "1mqkydyj9p1vp0pbbnm5lp38yz7gsfd05qnlwsrjzsjknmnnz9w4",
     "skills": [
       "backups/plugin-enhancements/plugin-backups/skills-powerkit_20251019_164014/skills/marketplace-manager",
       "backups/skill-structure-cleanup-20251108-073936/plugins/ai-ml/ai-ethics-validator/skills/ai-ethics-validator",
@@ -11295,12 +11297,12 @@
       "tests/e2e/fixtures/test-plugin/skills/test-skill",
       "workspace/lab/schema-optimization"
     ],
-    "lastUpdated": "2026-04-03T05:01:37.566Z"
+    "lastUpdated": "2026-04-04T22:20:54.902Z"
   },
   {
     "source": "github:jeremylongshore/claude-code-plugins-plus-skills",
-    "rev": "1a77e753f3bf04063930696cbff438f9506449bd",
-    "hash": "003kmyb2ciqq6anas4xfjdaki4wqpvy5p3vnr4k48m66ds7xwayz",
+    "rev": "ecf40ddf6433aac93da3f466970a5cc82ecef172",
+    "hash": "1mqkydyj9p1vp0pbbnm5lp38yz7gsfd05qnlwsrjzsjknmnnz9w4",
     "skills": [
       "backups/plugin-enhancements/plugin-backups/skills-powerkit_20251019_164014/skills/marketplace-manager",
       "backups/skill-structure-cleanup-20251108-073936/plugins/ai-ml/ai-ethics-validator/skills/ai-ethics-validator",
@@ -14769,7 +14771,7 @@
       "tests/e2e/fixtures/test-plugin/skills/test-skill",
       "workspace/lab/schema-optimization"
     ],
-    "lastUpdated": "2026-04-03T05:01:37.330Z"
+    "lastUpdated": "2026-04-04T22:20:53.838Z"
   },
   {
     "source": "github:jeremyrdavis/coffeeshop26",
@@ -15961,12 +15963,12 @@
   },
   {
     "source": "github:jim60105/blog",
-    "rev": "8cd32eb6842edbe2e3c3ed4be11f32d99012229a",
-    "hash": "1wa30wa3m8p038dymjby5d357gk5qpcb4h11paribw78zhlqzdrw",
+    "rev": "c0df1906fab0c74417408174a4503f8d5d1bec5e",
+    "hash": "0lxrc1r4d6237bhvy9j8m4h0s8ja6p5fpkqksxy83akzzn8kg1qw",
     "skills": [
       ".github/skills/blog-post"
     ],
-    "lastUpdated": "2026-04-03T13:35:00.116Z"
+    "lastUpdated": "2026-04-04T22:19:54.181Z"
   },
   {
     "source": "github:jim60105/copilot-prompt",
@@ -16923,8 +16925,8 @@
   },
   {
     "source": "github:jmagar/claude-homelab",
-    "rev": "ea1b097b802f0db5af723715548fc9b80b5bd040",
-    "hash": "0c71j2smcwy8zrv2bs8qr180bsm3icxmcqrbz1fv3qsyyyp3h8hw",
+    "rev": "f0e55cf1085c10753efa27e48d4793a32cb3e727",
+    "hash": "0y20izc4rzgcgkkfw17zhyhl0mk3ahz4m8h3wrwq2yhq8hqgmjpq",
     "skills": [
       "skills/bytestash",
       "skills/gh-address-comments",
@@ -16945,7 +16947,7 @@
       "skills/tautulli",
       "skills/zfs"
     ],
-    "lastUpdated": "2026-04-04T07:35:03.324Z"
+    "lastUpdated": "2026-04-04T22:21:02.423Z"
   },
   {
     "source": "github:jmagly/ai-writing-guide",
@@ -18130,8 +18132,8 @@
   },
   {
     "source": "github:jnpiyush/agentx",
-    "rev": "847aaecdeec9d439b795cf444f93c24ab23191f3",
-    "hash": "1y8gvg1dv9jk0lr9kysygmajb2x5grznz09kixpad84izpx06rzm",
+    "rev": "47e9bc9bc12a09f96c90b7334f8bb92a9d6c6fef",
+    "hash": "13wlqlvak11n1hhy6l4lh9d54g7n87x8n2ql4pxiccmx580wl1js",
     "skills": [
       ".github/skills/ai-systems/ai-agent-development",
       ".github/skills/ai-systems/ai-evaluation",
@@ -18140,11 +18142,15 @@
       ".github/skills/ai-systems/context-management",
       ".github/skills/ai-systems/data-drift-strategy",
       ".github/skills/ai-systems/feedback-loops",
+      ".github/skills/ai-systems/foundry-sdk",
+      ".github/skills/ai-systems/genaiops",
+      ".github/skills/ai-systems/langgraph",
       ".github/skills/ai-systems/mcp-apps-development",
       ".github/skills/ai-systems/mcp-server-development",
       ".github/skills/ai-systems/model-drift-management",
       ".github/skills/ai-systems/model-fine-tuning",
       ".github/skills/ai-systems/prompt-engineering",
+      ".github/skills/ai-systems/prompt-versioning",
       ".github/skills/ai-systems/rag-pipelines",
       ".github/skills/architecture/api-design",
       ".github/skills/architecture/core-principles",
@@ -18184,6 +18190,8 @@
       ".github/skills/infrastructure/containerization",
       ".github/skills/infrastructure/terraform",
       ".github/skills/languages/blazor",
+      ".github/skills/languages/c",
+      ".github/skills/languages/cpp",
       ".github/skills/languages/csharp",
       ".github/skills/languages/go",
       ".github/skills/languages/postgresql",
@@ -18203,7 +18211,7 @@
       ".github/skills/testing/security-testing",
       ".github/skills/testing/test-automation"
     ],
-    "lastUpdated": "2026-04-04T01:29:07.052Z"
+    "lastUpdated": "2026-04-04T22:21:03.290Z"
   },
   {
     "source": "github:jnzader/project-starter-framework",
@@ -18567,8 +18575,8 @@
   },
   {
     "source": "github:joaquimscosta/arkhe-claude-plugins",
-    "rev": "d0640f64836d916adcc76220910cf123cd16928e",
-    "hash": "0p95m4666lrll46pzpgl4f7y0m2s4h82p8r0d4vd2xqz4lqh2ni7",
+    "rev": "11094c5724a722f74e695f2bba75544d2f95da29",
+    "hash": "1a1if5262si0rkzv18psdfg2zvi7nbvf9qd1qi6p2yh4q9jhma6y",
     "skills": [
       ".claude/skills/plugin-release-checker",
       ".claude/skills/research-frontmatter",
@@ -18634,7 +18642,7 @@
       "plugins/startup/skills/startup-validating",
       "templates/plugin-template/skills/skill-template"
     ],
-    "lastUpdated": "2026-03-31T16:33:34.675Z"
+    "lastUpdated": "2026-04-04T22:21:05.809Z"
   },
   {
     "source": "github:joaquincampo/agent-debugger",
@@ -20110,8 +20118,8 @@
   },
   {
     "source": "github:jongwony/epistemic-protocols",
-    "rev": "712b7d0371781cdc5bcc7cc134906f8aa96ea716",
-    "hash": "06hfm2mlb9kcixiy819yfmhhhl9r2h259sw756fa0mlmbdy3j03w",
+    "rev": "5321339b720ccc1e20c44ae7fe81edddeace8260",
+    "hash": "0fk098hq668gqgyljaahs7gq7y6m39g6518kfr651r2kkw8a4nln",
     "skills": [
       ".claude/skills/verify",
       "aitesis/skills/inquire",
@@ -20132,7 +20140,7 @@
       "telos/skills/goal",
       "write/skills/write"
     ],
-    "lastUpdated": "2026-04-04T13:28:46.842Z"
+    "lastUpdated": "2026-04-04T22:20:03.095Z"
   },
   {
     "source": "github:jonhill90/vibes",
@@ -21413,14 +21421,14 @@
   },
   {
     "source": "github:jprokay-counterpart/jprokay-counterpart",
-    "rev": "d6d71d6eb5791e8fc5b80c9583bf85de61896514",
-    "hash": "12aq09k4fcx6qyv35ryilbwwpr2p7gmnp1wmxcvv108jy2rz494r",
+    "rev": "83c4cca6e9c6b689fa27650bb07f8259e5cfb7fb",
+    "hash": "0i4wszb9vgl7ni6phgdb1a5qkcv3g5anja9x2df1wmxirmqxmvii",
     "skills": [
       "claude/skills/django-model",
       "claude/skills/knowledge",
       "claude/skills/skill-creator"
     ],
-    "lastUpdated": "2026-04-03T19:20:38.457Z"
+    "lastUpdated": "2026-04-04T22:20:27.842Z"
   },
   {
     "source": "github:jpropato/siba",
@@ -22610,12 +22618,12 @@
   },
   {
     "source": "github:julioccorderoc/doc-generator",
-    "rev": "6e8ec9181c104915b7c0bb9abba4da62c7b63cc7",
-    "hash": "1dr9xscrnaad8wmfjnrsglkgccf46pmqf5g75lizn52s7ggj5him",
+    "rev": "fd6f772f6eb877c5450835fd0fb52eff1a101c27",
+    "hash": "0wqsl628lj55gyh3yjvlgdjnvp3f14vr0qx9rjx2x8rg56qhzirx",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-04-03T22:14:51.338Z"
+    "lastUpdated": "2026-04-04T22:20:01.460Z"
   },
   {
     "source": "github:juliomrqz/skills",
