@@ -1738,9 +1738,23 @@
   },
   {
     "source": "github:garyukong/agents",
-    "rev": "63056aafdcb7e679cc8cfacdb5def96a9af0a89c",
-    "hash": "1iliil463wrwby927y4dn263zm7prbl8v7afisp8j6ic1qaxb3ws",
+    "rev": "9047993854b610e1a0be2b1ef274ee972a28aced",
+    "hash": "0m2hfn413mkvnqzdp3b1wh1p297jnbdsy7xp9j38jz0wm8psi4wn",
     "skills": [
+      ".agents/skills/agent-development",
+      ".agents/skills/claude-md-improver",
+      ".agents/skills/openspec-apply-change",
+      ".agents/skills/openspec-archive-change",
+      ".agents/skills/openspec-continue-change",
+      ".agents/skills/openspec-explore",
+      ".agents/skills/openspec-ff-change",
+      ".agents/skills/openspec-new-change",
+      ".agents/skills/openspec-propose",
+      ".agents/skills/openspec-sync-specs",
+      ".agents/skills/openspec-verify-change",
+      ".agents/skills/skill-creator",
+      ".agents/skills/skill-development",
+      ".agents/skills/writing-hookify-rules",
       "plugin-skill-ports/agent-llm-engineer",
       "plugin-skill-ports/agent-llm-prompt-engineer",
       "plugin-skill-ports/agent-llm-vector-database-engineer",
@@ -1756,17 +1770,8 @@
       "plugins/llm-application-dev/skills/similarity-search-patterns",
       "plugins/llm-application-dev/skills/vector-index-tuning",
       "plugins/machine-learning-ops/skills/ml-pipeline-workflow",
-      "plugins/openspec/skills/openspec-apply-change",
-      "plugins/openspec/skills/openspec-archive-change",
       "plugins/openspec/skills/openspec-bulk-archive-change",
-      "plugins/openspec/skills/openspec-continue-change",
-      "plugins/openspec/skills/openspec-explore",
-      "plugins/openspec/skills/openspec-ff-change",
-      "plugins/openspec/skills/openspec-new-change",
       "plugins/openspec/skills/openspec-onboard",
-      "plugins/openspec/skills/openspec-propose",
-      "plugins/openspec/skills/openspec-sync-specs",
-      "plugins/openspec/skills/openspec-verify-change",
       "plugins/python-development/skills/async-python-patterns",
       "plugins/python-development/skills/python-anti-patterns",
       "plugins/python-development/skills/python-background-jobs",
@@ -1783,7 +1788,6 @@
       "plugins/python-development/skills/python-testing-patterns",
       "plugins/python-development/skills/python-type-safety",
       "plugins/python-development/skills/uv-package-manager",
-      "skills/basic-memory-assistant",
       "skills/context7-mcp",
       "skills/integration-test-suite",
       "skills/openspec-jira",
@@ -1791,7 +1795,7 @@
       "skills/python-pro-agent",
       "skills/windsurf-to-claude-rules"
     ],
-    "lastUpdated": "2026-04-03T13:34:30.625Z"
+    "lastUpdated": "2026-04-04T13:28:21.598Z"
   },
   {
     "source": "github:gate/gate-skills",
@@ -2433,15 +2437,15 @@
   },
   {
     "source": "github:geminilight/mindos",
-    "rev": "475be7985929087b78f784f18460e5c8dc70d966",
-    "hash": "092mryl3dycyy9gmns59h39r4hqwsrha2cvy7y69pjclv9rp9gjs",
+    "rev": "a8b91e099807e0cc1b5b706e992dcd79660e923b",
+    "hash": "1i125wdfb4nmcgbsg9mkzdm0mmd7mhn24wfyipaf01ffprw4i8dn",
     "skills": [
       "skills/mindos",
       "skills/mindos-zh",
       "skills/plugin-core-builtin-migration",
       "skills/project-wiki"
     ],
-    "lastUpdated": "2026-04-04T10:11:43.024Z"
+    "lastUpdated": "2026-04-04T13:28:21.228Z"
   },
   {
     "source": "github:gen-verse/openclaw-rl",
@@ -3377,8 +3381,8 @@
   },
   {
     "source": "github:getpaseo/paseo",
-    "rev": "155c88254b5c53e841e830c208c8dba131a9c3f6",
-    "hash": "1j9l39apswl5pb520dwaw410zxg739x1cp8ricv4y2x6dy33qhix",
+    "rev": "4706d9e3bdb1bae737a15be43fd2c4fdd26e2169",
+    "hash": "1xa1bc4b79ch4s234rxh9842g636hr09q9k97ir4h2k9bp2xyrih",
     "skills": [
       "skills/paseo",
       "skills/paseo-chat",
@@ -3387,7 +3391,7 @@
       "skills/paseo-loop",
       "skills/paseo-orchestrator"
     ],
-    "lastUpdated": "2026-04-04T10:11:53.635Z"
+    "lastUpdated": "2026-04-04T13:28:06.285Z"
   },
   {
     "source": "github:getsentry/agent-skills",
@@ -3422,12 +3426,12 @@
   },
   {
     "source": "github:getsentry/cli",
-    "rev": "e5212224a83f8bb4a6260d15818c183c1d9dc9ab",
-    "hash": "1xbxbf5a5c612jnsla1krcwc8b8iwffshzn4zfyb0b150zxbahpw",
+    "rev": "d5806b4a6767980ed4ff5f4821740974b88f51b5",
+    "hash": "162l2m5k3nwynik90fkh5ar8hpdk0n3mhwbn6xl2hypklfah0pk6",
     "skills": [
       ".cursor/skills/sentry-cli"
     ],
-    "lastUpdated": "2026-04-03T22:14:38.963Z"
+    "lastUpdated": "2026-04-04T13:28:06.279Z"
   },
   {
     "source": "github:getsentry/sentry",
@@ -4696,8 +4700,8 @@
   },
   {
     "source": "github:github/gh-aw",
-    "rev": "e255fc73267fe83918dfc27bc0ef2995cebb1c57",
-    "hash": "0s3v4l37fsjnlzjnjnr6ai0f1j4l46qxv68bcxzx6s4rx2smy6fy",
+    "rev": "8e0d7a08e85c9a3f3aa35da926dd88e598d7ea74",
+    "hash": "09g8m0211mf5mybywpyv2qfrhlc9mlbhvij9ph8fr68749vynk9a",
     "skills": [
       ".github/skills/debugging-workflows",
       "skills/console-rendering",
@@ -4723,12 +4727,12 @@
       "skills/skillz-integration",
       "skills/temporary-id-safe-output"
     ],
-    "lastUpdated": "2026-04-04T07:35:58.827Z"
+    "lastUpdated": "2026-04-04T13:28:48.656Z"
   },
   {
     "source": "github:githubnext/gh-aw",
-    "rev": "e255fc73267fe83918dfc27bc0ef2995cebb1c57",
-    "hash": "0s3v4l37fsjnlzjnjnr6ai0f1j4l46qxv68bcxzx6s4rx2smy6fy",
+    "rev": "8e0d7a08e85c9a3f3aa35da926dd88e598d7ea74",
+    "hash": "09g8m0211mf5mybywpyv2qfrhlc9mlbhvij9ph8fr68749vynk9a",
     "skills": [
       ".github/skills/debugging-workflows",
       "skills/console-rendering",
@@ -4754,7 +4758,7 @@
       "skills/skillz-integration",
       "skills/temporary-id-safe-output"
     ],
-    "lastUpdated": "2026-04-04T07:35:57.868Z"
+    "lastUpdated": "2026-04-04T13:28:47.075Z"
   },
   {
     "source": "github:gitroomhq/postiz-agent",
@@ -5351,8 +5355,8 @@
   },
   {
     "source": "github:glebis/claude-skills",
-    "rev": "b3382432650b9416feb023cf3075efeb1172f5a7",
-    "hash": "0plmdbnvd8a05738nyj395rxk0fdd2d76cf3j7s5g91v46rx8cyd",
+    "rev": "a14533570460d8d3d5e0dedc99d6ac2caffcdd98",
+    "hash": "1vls8j5mzpbxl891s7pj5qz57q1gf64f67k8cs18b79122vfajms",
     "skills": [
       "agency-docs-updater",
       "brand-agency",
@@ -5375,6 +5379,7 @@
       "nano-banana",
       "pdf-generation",
       "presentation-generator",
+      "session-search",
       "sketch",
       "tdd",
       "telegram",
@@ -5386,7 +5391,7 @@
       "youtube-transcript",
       "zoom"
     ],
-    "lastUpdated": "2026-04-03T10:17:36.599Z"
+    "lastUpdated": "2026-04-04T13:27:48.458Z"
   },
   {
     "source": "github:glennguilloux/context-engineering-kit",
@@ -5659,8 +5664,8 @@
   },
   {
     "source": "github:gmh5225/awesome-ai-security",
-    "rev": "dfa72d0d0d8321aea6fdd35648159f74c7ffa37c",
-    "hash": "18kf8gb6s3k5kgqcfzbwhn538jy9qqzbhjq7lf32dxk0x23xy5n3",
+    "rev": "bf5249da924e5781961a52ca86866894a6bed7bb",
+    "hash": "0al8vlx15v3r4ixn4vfsdb6k3l1vpqargj1j1fgxlms5zmfwf2wh",
     "skills": [
       ".claude/skills/adversarial-ml",
       ".claude/skills/ai-pentesting",
@@ -5668,7 +5673,7 @@
       ".claude/skills/overview",
       ".claude/skills/tooling"
     ],
-    "lastUpdated": "2026-04-03T10:17:44.100Z"
+    "lastUpdated": "2026-04-04T13:27:18.740Z"
   },
   {
     "source": "github:gmh5225/awesome-game-security",
@@ -5788,14 +5793,14 @@
   },
   {
     "source": "github:gmickel/gno",
-    "rev": "716132b23f32ad521596dfb044ff1d67e8861580",
-    "hash": "0dzl0di72icq0ifycr92gsb1hrkjlhv36slds4n29q1yr8dzyx4i",
+    "rev": "47dd081efa8e678b29bfb7cce8fa2a21fd1ad8e8",
+    "hash": "1ia3s4lqly28h0zb7rxf9sr09wanwif5jgs9banppndisw4g02xw",
     "skills": [
       ".agents/skills/dogfood",
       "assets/skill",
       "skills/gno"
     ],
-    "lastUpdated": "2026-04-04T01:29:43.984Z"
+    "lastUpdated": "2026-04-04T13:27:21.893Z"
   },
   {
     "source": "github:gmickel/my-claude-skills",
@@ -6898,12 +6903,12 @@
   },
   {
     "source": "github:goorm-dev/vapor-ui",
-    "rev": "5db7efbeea4153e658656e8a6834c1a1640c7b6c",
-    "hash": "1hma5xmgdry62jklp4vclcjlynvnjz394yv2yn3q73cnmasdl8zg",
+    "rev": "cc85508a442db412280074e4d931a1dd97166b12",
+    "hash": "1khj2rl00dcfrs4mysqwgs7xd5x2jnk8yz09x3sads4yhqn4f5cy",
     "skills": [
       "skills/vapor-ui"
     ],
-    "lastUpdated": "2026-04-03T10:18:08.675Z"
+    "lastUpdated": "2026-04-04T13:27:52.130Z"
   },
   {
     "source": "github:goperigon/skills",
