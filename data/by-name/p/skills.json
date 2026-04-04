@@ -163,12 +163,12 @@
   },
   {
     "source": "github:Piebald-AI/tweakcc",
-    "rev": "88b8ed064c22601f3cfdd8023a30b0e9bad36589",
-    "hash": "05r4ig7yd7h981advl4c6xgsqipmpp3nmnd1plnzp9wy9g1an97d",
+    "rev": "0cf8b150336f3afae52a84b8f28cd17eb92eafc0",
+    "hash": "0f24lwxkg0r61v83vcwyqs4yi47ja0l4s7l37ci38hgncnmzga32",
     "skills": [
       ".claude/skills/patch-creation"
     ],
-    "lastUpdated": "2026-04-02T04:50:15.906Z"
+    "lastUpdated": "2026-04-04T01:28:12.168Z"
   },
   {
     "source": "github:PixelML/agenticflow-skill",
@@ -2934,8 +2934,8 @@
   },
   {
     "source": "github:peachsolution/peach-harness",
-    "rev": "47f91934b8bd72a6f6afa31cd12942bff676e0bc",
-    "hash": "14af1x6payl4gbrqk6d78cak1cm3jg09wcjmlrh5qspc2a82p4kr",
+    "rev": "7a02f2e018fe83f33bb35b3f78a6c1b69cc0a1a5",
+    "hash": "170avcbd9538byh1gbjdhrb0a6iz9nsk9jpy50674bmz9lcla0rj",
     "skills": [
       ".claude/skills/peach-release",
       "skills/peach-add-api",
@@ -2943,6 +2943,13 @@
       "skills/peach-add-print",
       "skills/peach-agent-team",
       "skills/peach-agent-team-refactor",
+      "skills/peach-db-extract-schema",
+      "skills/peach-db-migrate",
+      "skills/peach-e2e-browse",
+      "skills/peach-e2e-convert",
+      "skills/peach-e2e-run",
+      "skills/peach-e2e-setup",
+      "skills/peach-erd",
       "skills/peach-gen-backend",
       "skills/peach-gen-db",
       "skills/peach-gen-design",
@@ -2956,9 +2963,10 @@
       "skills/peach-refactor-backend",
       "skills/peach-refactor-frontend",
       "skills/peach-setup-harness",
-      "skills/peach-setup-ui-proto"
+      "skills/peach-setup-ui-proto",
+      "skills/peach-think-team"
     ],
-    "lastUpdated": "2026-04-03T16:13:46.606Z"
+    "lastUpdated": "2026-04-04T01:30:07.876Z"
   },
   {
     "source": "github:pearl799/openclaw-skill-xhs",
@@ -4614,13 +4622,13 @@
   },
   {
     "source": "github:philoserf/claude-code-setup",
-    "rev": "47c0c31769f43355dda68796a53f19e259cdb462",
-    "hash": "04lgxq3psd5fzfrc5d4brdjyi4na1rm8qk6f4cfv5sdvvymw4yi1",
+    "rev": "924c3f2302be8437fb09da80a2a61789dcc86270",
+    "hash": "0g82ik18h7qdsk71q4kzr91yi8nrx3740d6h1vcc9a009gv2jnpd",
     "skills": [
       "skills/bash-quality-gate",
       "skills/cc-automation-recommender",
+      "skills/cc-release-review",
       "skills/cc-review",
-      "skills/compete",
       "skills/deps-audit",
       "skills/fix-issue",
       "skills/go-quality-gate",
@@ -4636,7 +4644,6 @@
       "skills/release",
       "skills/review-fix",
       "skills/scientific-problem-selection",
-      "skills/second-opinion",
       "skills/session-review",
       "skills/tdd-cycle",
       "skills/tech-debt",
@@ -4645,7 +4652,7 @@
       "skills/vc-sync",
       "skills/walkthrough"
     ],
-    "lastUpdated": "2026-04-03T22:15:36.732Z"
+    "lastUpdated": "2026-04-04T01:30:33.484Z"
   },
   {
     "source": "github:philschmid/mcp-cli",
@@ -4805,8 +4812,8 @@
   },
   {
     "source": "github:phuetz/code-buddy",
-    "rev": "6c4dd7dfd752f5bf525dc427c31f63d1cef27e72",
-    "hash": "1if7xi067ipdr1kp5p4pqr8yb08vjb3icc12pyn18xa1n4fcjqdb",
+    "rev": "5bf9f7e3576d9eab5d19340e90008bbb82c2aae7",
+    "hash": "18xsrpijr0snp3j778iiz1kznmfrlf8cii6bcg40zlhjc87i6mnx",
     "skills": [
       ".codebuddy/skills/bundled/ableton-live",
       ".codebuddy/skills/bundled/blender",
@@ -4856,7 +4863,7 @@
       ".codebuddy/skills/bundled/whisper-transcribe",
       ".codebuddy/skills/workspace/personal-assistant"
     ],
-    "lastUpdated": "2026-04-03T22:16:38.532Z"
+    "lastUpdated": "2026-04-04T01:31:30.802Z"
   },
   {
     "source": "github:phumudzosly/cyte",
@@ -5343,13 +5350,13 @@
   },
   {
     "source": "github:pinchtab/pinchtab",
-    "rev": "beda71758c4c9185c28badbf3f753e110fc74e96",
-    "hash": "0sfcgy2wshbz590isrbq9pcy7j8mzxyi7jy4rh04lpmrq4vg7pl7",
+    "rev": "7a3bf22e54f33c0a76084a6fbda5b56c050d82c1",
+    "hash": "09ikbx4ff463zv7msm0rayk7646gijgjsq97jmlcqag0m2yi9vpi",
     "skills": [
       "skills/pinchtab",
       "skills/pinchtab-dev"
     ],
-    "lastUpdated": "2026-04-03T19:22:40.761Z"
+    "lastUpdated": "2026-04-04T01:32:04.840Z"
   },
   {
     "source": "github:pinecone-io/pckle-cli",
@@ -5441,8 +5448,8 @@
   },
   {
     "source": "github:pingcap/tidb",
-    "rev": "fe6237ad31c9b6c28ada6cc273d83279df488639",
-    "hash": "1xybfpkll7a7ihjjf2sx5ghfz6ryl9c8n32p344ma8ngqazs4ypm",
+    "rev": "9670037035aabe92c36d890a0999f1e4384209b2",
+    "hash": "0s8mdp5da1kf61bjalj3x4dh8bgb5pgzr1bbx9845a0xgnq9pgwm",
     "skills": [
       ".agents/skills/tidb-bazel-prepare-gate",
       ".agents/skills/tidb-failpoint-test-runner",
@@ -5452,7 +5459,7 @@
       ".agents/skills/tidb-test-guidelines",
       ".agents/skills/tidb-verify-profile"
     ],
-    "lastUpdated": "2026-04-03T22:17:19.576Z"
+    "lastUpdated": "2026-04-04T01:33:16.076Z"
   },
   {
     "source": "github:pingcy/deepagents-demo",
@@ -9637,8 +9644,8 @@
   },
   {
     "source": "github:posthog/posthog",
-    "rev": "46550d8e75695d131f0c81f82733aec508573aed",
-    "hash": "0c6hrnms0cdsvdvbns1w74aszqs2ghikpljvl47j2mnnyqlhmidl",
+    "rev": "aca7f306ce49a201ae00cf0c082cbf4632000941",
+    "hash": "0r1x314hvs7w43yxc58ahvv4r3n6blr93mqd0yhr335s9hk83g78",
     "skills": [
       ".agents/skills/adopting-generated-api-types",
       ".agents/skills/clickhouse-migrations",
@@ -9667,7 +9674,7 @@
       "products/posthog_ai/skills/query-examples",
       "products/signals/skills/signals"
     ],
-    "lastUpdated": "2026-04-03T22:19:02.460Z"
+    "lastUpdated": "2026-04-04T01:32:03.754Z"
   },
   {
     "source": "github:posthog/posthog-for-claude",
@@ -11715,8 +11722,8 @@
   },
   {
     "source": "github:profpowell/vanilla-breeze",
-    "rev": "9a5d0e963c0654fdeb92546c825802f4ca997bf8",
-    "hash": "03zla6xq0v43j9jkng7j3d1q6c8b3gghy2mk84gm9kjl0ldmyf1q",
+    "rev": "cdf1d85b2a3e6a9f82b58c2399b8711af9db90fe",
+    "hash": "1pg3mkiwixjry6wyqy9v8dk3f0dyh92z2prd2f1nkpasb44pzxqn",
     "skills": [
       ".claude/skills/accessibility-checker",
       ".claude/skills/animation-motion",
@@ -11775,7 +11782,7 @@
       ".claude/skills/vitest",
       ".claude/skills/xhtml-author"
     ],
-    "lastUpdated": "2026-04-03T19:21:53.117Z"
+    "lastUpdated": "2026-04-04T01:30:52.197Z"
   },
   {
     "source": "github:profsynapse/pact-plugin",
@@ -12090,8 +12097,8 @@
   },
   {
     "source": "github:proompteng/lab",
-    "rev": "827923f5dee1cd14d428bf7e14d17b34ea0877f6",
-    "hash": "1wnrr2sk962m6zg5vq3ik6mxcbn66vdrp28w9r3ham1lb0yh15k0",
+    "rev": "8766dbbd3fa9a9297fe1a5c208abf921901f804b",
+    "hash": "0x4gz2ryk3siz56ywnibipg8k0zbrfspjjsldgj5s8pijriiccmd",
     "skills": [
       "skills/ansible",
       "skills/deployment",
@@ -12112,7 +12119,7 @@
       "skills/technicals-regime",
       "skills/temporal"
     ],
-    "lastUpdated": "2026-04-03T10:19:51.800Z"
+    "lastUpdated": "2026-04-04T01:30:00.012Z"
   },
   {
     "source": "github:prorise-cool/claude-code-multi-agent",
@@ -13766,14 +13773,14 @@
   },
   {
     "source": "github:pwrdrvr/ghcrawl",
-    "rev": "4f557cba82dd5110f16ccc37f4a652b3d6c370f7",
-    "hash": "096gq44k5sra7nqpqg821dbn6isk1ffbah18db4fdf31yn9dlaw6",
+    "rev": "fc619ee33c4a8b6398366bb05f8f51032211a01d",
+    "hash": "0vc660i66xrhhlj55cplzz1xbiz5mv6fr3vgj4y2qwn09kksd03a",
     "skills": [
       ".agents/skills/project-manager",
       ".agents/skills/release",
       "skills/ghcrawl"
     ],
-    "lastUpdated": "2026-04-03T22:17:06.277Z"
+    "lastUpdated": "2026-04-04T01:30:38.636Z"
   },
   {
     "source": "github:pxb988/skills-manager",
@@ -13955,8 +13962,8 @@
   },
   {
     "source": "github:pytorch/pytorch",
-    "rev": "cf0901c1e0192a7f3c8ea70f67f8bef4e8bb284e",
-    "hash": "0y6nsikdfaa8vk9db3bpar156vgzp1g05av0cmcihak8l58nfv8l",
+    "rev": "5d6292dfff853cd0559300c88d7330752c185e40",
+    "hash": "1i2nc189avvay61gh1aix623dsxn1cvw8ardhmj4r7kmzfpmil9k",
     "skills": [
       ".claude/skills/add-uint-support",
       ".claude/skills/aoti-debug",
@@ -13971,7 +13978,7 @@
       ".claude/skills/skill-writer",
       ".claude/skills/triaging-issues"
     ],
-    "lastUpdated": "2026-04-03T22:18:42.480Z"
+    "lastUpdated": "2026-04-04T01:30:50.827Z"
   },
   {
     "source": "github:pzep1/xcode-build-skill",
