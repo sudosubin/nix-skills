@@ -3666,12 +3666,12 @@
   },
   {
     "source": "github:d4vinci/scrapling",
-    "rev": "fcf930c5689c545b6d5dd5abac139934e71e29e6",
-    "hash": "1ydz26m3c8lchb7sr1syc80zdahkz6k86yc9qlbskgk3n8x64h61",
+    "rev": "065bf1c0e840516271c6fcaa39451e79d096d7ad",
+    "hash": "1k4jn2yx81dvhnj319ag31pra059zly69gi85dyjvcgyfnahw5d2",
     "skills": [
       "agent-skill/Scrapling-Skill"
     ],
-    "lastUpdated": "2026-04-04T13:27:16.241Z"
+    "lastUpdated": "2026-04-05T05:02:38.642Z"
   },
   {
     "source": "github:d6e-ai/d6e-docker-stf-skills",
@@ -4123,8 +4123,8 @@
   },
   {
     "source": "github:daishiman/aiworkfloworchestrator",
-    "rev": "73e614556685651f28c33c427550bdc18dfc6e2a",
-    "hash": "0ck4g59awi1frbv2d5xxbf27lmraj7lhy96433zf3bfp2qd8mync",
+    "rev": "7121d35ff6081cfe84fe62f1635a003170635cde",
+    "hash": "1kl6r4libj9byk8k7dd8yfkq8qqa6rgnlb9c9yldv8qk899hif8w",
     "skills": [
       ".agents/skills/.backups/claude-agent-sdk.backup.2026-03-20T23-39-27-404Z",
       ".agents/skills/.backups/skill-fixture-runner.backup.2026-03-05T05-27-45-024Z",
@@ -4180,7 +4180,7 @@
       "apps/desktop/src/__tests__/__fixtures__/skills/test-skill",
       "apps/desktop/src/main/services/skill/__tests__/__fixtures__/malformed-skill"
     ],
-    "lastUpdated": "2026-04-05T01:26:12.653Z"
+    "lastUpdated": "2026-04-05T05:02:45.710Z"
   },
   {
     "source": "github:daisuke134/roundcube-webmail-skill",
@@ -7459,8 +7459,8 @@
   },
   {
     "source": "github:davepoon/buildwithclaude",
-    "rev": "7cc63f3632f01e21f414d2d26241e2965153259a",
-    "hash": "03vg7zrwpwl92lkzizcha2b769ycbmvply0848zf20ih04avacj0",
+    "rev": "c2e60982b883858a3b716969da2dd7a95116513e",
+    "hash": "0kl9y9kx2fvd58fgrsph0v52qwd3drlhfvagfygkp7h0cqmg40gh",
     "skills": [
       "plugins/agent-triforce/skills/code-health",
       "plugins/agent-triforce/skills/feature-spec",
@@ -7495,12 +7495,14 @@
       "plugins/all-skills/skills/clickup-automation",
       "plugins/all-skills/skills/close-automation",
       "plugins/all-skills/skills/coda-automation",
+      "plugins/all-skills/skills/coinpaprika-api",
       "plugins/all-skills/skills/competitive-ads-extractor",
       "plugins/all-skills/skills/confluence-automation",
       "plugins/all-skills/skills/content-research-writer",
       "plugins/all-skills/skills/convertkit-automation",
       "plugins/all-skills/skills/datadog-automation",
       "plugins/all-skills/skills/developer-growth-analysis",
+      "plugins/all-skills/skills/dexpaprika-api",
       "plugins/all-skills/skills/discord-automation",
       "plugins/all-skills/skills/docusign-automation",
       "plugins/all-skills/skills/docx",
@@ -7628,7 +7630,7 @@
       "plugins/venture-capital-intelligence/skills/market-size",
       "plugins/venture-capital-intelligence/skills/soft-screening-startup"
     ],
-    "lastUpdated": "2026-03-30T13:22:56.967Z"
+    "lastUpdated": "2026-04-05T05:02:30.337Z"
   },
   {
     "source": "github:daveskender/stock.indicators",
@@ -8114,8 +8116,8 @@
   },
   {
     "source": "github:davila7/claude-code-templates",
-    "rev": "e72ce062de0f50bf0c222d50d346b5e310d962ba",
-    "hash": "1wm3x9jpcxwcdaxm8p3vkcvzlbrl78bfdp8wx62a61mp6x943dcw",
+    "rev": "e53de57a8a5f1ed6dbd5f150f380e7fc9b580cdf",
+    "hash": "137zpcxjs6z3676lsnb23v3amyh3z11mim75zyrqya25q66fqsm6",
     "skills": [
       "cli-tool/components/skills/ai-maestro/agent-management",
       "cli-tool/components/skills/ai-maestro/agent-messaging",
@@ -8924,7 +8926,7 @@
       "cli-tool/components/skills/workflow-automation/yeet",
       "cli-tool/components/skills/workflow-automation/zapier-make-patterns"
     ],
-    "lastUpdated": "2026-04-05T01:27:15.627Z"
+    "lastUpdated": "2026-04-05T05:02:36.490Z"
   },
   {
     "source": "github:davincidreams/agent-team-plugins",
@@ -9438,17 +9440,61 @@
   },
   {
     "source": "github:dbmcco/claude-agent-toolkit",
-    "rev": "1971dd1cf395c30b4d85834fa87a6cbddd62e933",
-    "hash": "0lc6phirfv66lpwb6b4likcwnbzcz4cvidy9q1fqfr27grn9yjzs",
+    "rev": "0ea04be5fb1f5507e84ea38dfe9b81c13c21817e",
+    "hash": "0j60286pdhrjkiipk1wzd6i45y2qlkwpwz1fdf08qyzpfsavxjyz",
     "skills": [
       "skills/gemini-cli-extension-porting",
       "skills/github",
       "skills/google-docs-automation",
+      "skills/grok-aurora-cli",
+      "skills/gws-admin-reports",
+      "skills/gws-calendar",
+      "skills/gws-calendar-agenda",
+      "skills/gws-calendar-insert",
+      "skills/gws-chat",
+      "skills/gws-chat-send",
+      "skills/gws-classroom",
+      "skills/gws-docs",
+      "skills/gws-docs-write",
+      "skills/gws-drive",
+      "skills/gws-drive-upload",
+      "skills/gws-events",
+      "skills/gws-events-renew",
+      "skills/gws-events-subscribe",
+      "skills/gws-forms",
+      "skills/gws-gmail",
+      "skills/gws-gmail-forward",
+      "skills/gws-gmail-read",
+      "skills/gws-gmail-reply",
+      "skills/gws-gmail-reply-all",
+      "skills/gws-gmail-send",
+      "skills/gws-gmail-triage",
+      "skills/gws-gmail-watch",
+      "skills/gws-keep",
+      "skills/gws-meet",
+      "skills/gws-modelarmor",
+      "skills/gws-modelarmor-create-template",
+      "skills/gws-modelarmor-sanitize-prompt",
+      "skills/gws-modelarmor-sanitize-response",
+      "skills/gws-people",
+      "skills/gws-shared",
+      "skills/gws-sheets",
+      "skills/gws-sheets-append",
+      "skills/gws-sheets-read",
+      "skills/gws-slides",
+      "skills/gws-tasks",
+      "skills/gws-workflow",
+      "skills/gws-workflow-email-to-task",
+      "skills/gws-workflow-file-announce",
+      "skills/gws-workflow-meeting-prep",
+      "skills/gws-workflow-standup-report",
+      "skills/gws-workflow-weekly-digest",
       "skills/keynote-slides",
       "skills/linear",
       "skills/model-mediated-development",
       "skills/obsidian-vault-intelligence",
       "skills/orchestrating-tmux-claudes",
+      "skills/orchestrating-tmux-codex",
       "skills/perplexity-research",
       "skills/planforge",
       "skills/reminders-management",
@@ -9459,7 +9505,7 @@
       "skills/white-paper",
       "skills/workspace-cleanup"
     ],
-    "lastUpdated": "2026-04-05T01:25:53.079Z"
+    "lastUpdated": "2026-04-05T05:02:21.382Z"
   },
   {
     "source": "github:dbmcco/keynote-slides-skill",
@@ -10463,8 +10509,8 @@
   },
   {
     "source": "github:dejanvasic85/williamstownsc",
-    "rev": "54fdd7dd681007e881b4d72559d322132a70a288",
-    "hash": "097vy9sys27ix263l4hf4820mklmk37ngavj6apj6xkwilxmsazn",
+    "rev": "7b7ab4536f47b5a5b32b70df49ddfb9308875098",
+    "hash": "074nbf87mgqqs1xb4jrl42wz5m2d6pfgsld7q37fr8qssbygkkqw",
     "skills": [
       ".claude/skills/dribl-crawling",
       ".claude/skills/frontend-design",
@@ -10474,7 +10520,7 @@
       ".claude/skills/wsc-fixture-pipeline",
       ".claude/skills/wsc-sanity-cms"
     ],
-    "lastUpdated": "2026-04-03T01:25:07.824Z"
+    "lastUpdated": "2026-04-05T05:02:03.091Z"
   },
   {
     "source": "github:del-taiseiozaki/claude-code-orchestra",
@@ -17046,9 +17092,10 @@
   },
   {
     "source": "github:devstefancho/claude-plugins",
-    "rev": "d66d7973706ddb83f4cabbfface226cab6043181",
-    "hash": "02yqcsfpmgypizjwnsh38i61r7l3db91w3x83xqc2d1dwbxpxy1y",
+    "rev": "1f776a683d7682610063d479d655304311634f1f",
+    "hash": "07n0l3kwnfs15zyq8pvh65y6zbb3a21n5dg1866iijc9fhppgmyi",
     "skills": [
+      "brain-storm-plugin/skills/brain-storm",
       "code-quality-plugin/skills/code-quality-reviewer",
       "code-style-plugin/skills/code-style-reviewer",
       "frontend-plugin/skills/component-design-reviewer",
@@ -17061,7 +17108,7 @@
       "worktrace-plugin/skills/worktrace",
       "writing-specs-plugin/skills/writing-specs"
     ],
-    "lastUpdated": "2026-04-04T13:27:13.686Z"
+    "lastUpdated": "2026-04-05T05:02:08.091Z"
   },
   {
     "source": "github:devtalkbox/teamwork-messenger-cli-bin",
@@ -35923,8 +35970,8 @@
   },
   {
     "source": "github:different-ai/openwork",
-    "rev": "2b740531a40d7df62ff18ae91558de698ac8dcda",
-    "hash": "1638w53s4r24nwbdjbh14jqxnd92bnjfyk1rg7k2nl9ws49qzl4q",
+    "rev": "980cfcc910d0529a709ac0f10332980c7496cd00",
+    "hash": "0dcz1ygcl9wz157ihvhmmz479i9yxjgy83dvlmy3zjn8xy2nbvsl",
     "skills": [
       ".opencode/skills/browser-setup-devtools",
       ".opencode/skills/cargo-lock-manager",
@@ -35940,7 +35987,7 @@
       ".opencode/skills/solidjs-patterns",
       ".opencode/skills/tauri-solidjs"
     ],
-    "lastUpdated": "2026-04-05T01:25:51.589Z"
+    "lastUpdated": "2026-04-05T05:03:23.126Z"
   },
   {
     "source": "github:different-ai/zero-finance",
@@ -36072,8 +36119,8 @@
   },
   {
     "source": "github:digitalocean-labs/do-app-platform-skills",
-    "rev": "97dcdaaf0d005f7a474ab85bf00b2936e9076c90",
-    "hash": "07z65kj87hhl2z8v2s5ai2w5i1kkc01zbpnh18zg8r3yf7191g41",
+    "rev": "29618d254f07808a7acf31a41746495e18bf51e4",
+    "hash": "01lvz8q8p1z3q0cgfv0n6chjrf01h6ab0xsn03kvfg37fwkksvxd",
     "skills": [
       ".",
       "skills/ai-services",
@@ -36089,7 +36136,7 @@
       "skills/spaces",
       "skills/troubleshooting"
     ],
-    "lastUpdated": "2026-03-05T14:30:32.678Z"
+    "lastUpdated": "2026-04-05T05:03:22.944Z"
   },
   {
     "source": "github:digitalquokka/marketingskills",
@@ -41486,8 +41533,8 @@
   },
   {
     "source": "github:ds-codi/project-memory-mcp",
-    "rev": "1343116ff9f365e2e91807fc83ff44c0ee0e5d55",
-    "hash": "0hrs9lrgfc7nzgj2195wy1r1cc6kgrb786dpy6bacj5z45q7z30h",
+    "rev": "fe1deffadea8b614c3e2a1188213fa22fb8c3b2d",
+    "hash": "1z1gqfs9d2z39y5hbl3cv9aaylq7nb9ji4flv633aw8jarshqmn1",
     "skills": [
       "_archive/skills/bugfix",
       "_archive/skills/copilot-sdk",
@@ -41519,7 +41566,6 @@
       "database-seed-resources/external-skills/imported-NotionArchive-cxxqt-rust-gui",
       "database-seed-resources/external-skills/imported-NotionArchive-datasource-notion-api",
       "database-seed-resources/external-skills/imported-NotionArchive-datasource-notionarchive-mssql",
-      "database-seed-resources/external-skills/imported-NotionArchive-datasource-stonepro-firebird",
       "database-seed-resources/external-skills/imported-NotionArchive-message-broker",
       "database-seed-resources/external-skills/imported-NotionArchive-mvc-architecture",
       "database-seed-resources/external-skills/imported-NotionArchive-notion-api-connection",
@@ -41543,7 +41589,7 @@
       "database-seed-resources/skills/vscode-chat-audit",
       "database-seed-resources/skills/workspace-context-populate"
     ],
-    "lastUpdated": "2026-04-05T01:25:48.932Z"
+    "lastUpdated": "2026-04-05T05:03:06.389Z"
   },
   {
     "source": "github:dsantiagomj/dsmj-ai-toolkit",
@@ -41917,8 +41963,8 @@
   },
   {
     "source": "github:duc01226/easyplatform",
-    "rev": "cea051f6ae6748484fff5f72a48ff3d585dcc093",
-    "hash": "0vlpmrd91klb9wza29174ybbm43zyfdr2w0y9l0z6gshm1idy6zz",
+    "rev": "beba4ec75f069e73acc2bc9c16bb4d547f2cac1c",
+    "hash": "04r1ly6bgr9a5vz658r0dh4i8brgbj9pdif9pngcdq1gnrmkpa88",
     "skills": [
       ".claude/skills/_templates/template-skill",
       ".claude/skills/acceptance",
@@ -42176,7 +42222,7 @@
       ".claude/skills/workflow-visualize",
       ".claude/skills/worktree"
     ],
-    "lastUpdated": "2026-04-04T13:27:22.107Z"
+    "lastUpdated": "2026-04-05T05:03:06.418Z"
   },
   {
     "source": "github:duck4nh/antigravity-kit",
