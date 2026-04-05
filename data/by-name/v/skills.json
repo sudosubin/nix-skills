@@ -279,12 +279,12 @@
   },
   {
     "source": "github:valetdotdev/skills",
-    "rev": "f3f48167f7f3fe05aacb9b99d3f6f536d90afedd",
-    "hash": "1m0bsp1fldkn1isz62y8mqp4m4knkhbwpr67lzhwzx16y1r6qs2a",
+    "rev": "d6df9e232db24f34b805cf196446d4a615d25a4f",
+    "hash": "104d7zd9c7xw5d9swmsfsc7bhr4ab1cf2s90awik66cf6gcgkvka",
     "skills": [
       "skills/valet"
     ],
-    "lastUpdated": "2026-04-01T22:20:44.089Z"
+    "lastUpdated": "2026-04-05T22:11:36.237Z"
   },
   {
     "source": "github:valian/linear-cli-skill",
@@ -317,8 +317,8 @@
   },
   {
     "source": "github:valkryhx/google_adk_agent",
-    "rev": "cb61c8725a04876c674d7f1303a8a7486b26ca6b",
-    "hash": "1ngm7vp7zngzd3pllj3qy29wq6k1ayz6laf13xpy8irdamqabzmm",
+    "rev": "c6549a73dafb8fe06d308a1825ad6d70ab897fb4",
+    "hash": "1blsy2mk16mqycyzwx6532iakyd47nvsrkarkfh5kn3zqg5xjk72",
     "skills": [
       "skills/agent_team",
       "skills/agent_team_to_be_update",
@@ -346,7 +346,7 @@
       "skills/web-search",
       "skills/wireless_energy_saving"
     ],
-    "lastUpdated": "2026-04-05T19:27:03.329Z"
+    "lastUpdated": "2026-04-05T22:11:43.168Z"
   },
   {
     "source": "github:valkyriweb/usage-monitor-skill",
@@ -426,8 +426,8 @@
   },
   {
     "source": "github:vamseeachanta/workspace-hub",
-    "rev": "da2f20e87ffe80daf47cd83ba571ce28ba320545",
-    "hash": "071c6wbrd5shnwjbrn2gd7ndh99wpkjpbnspf8lr12xz4xb8d3r1",
+    "rev": "67a5a3f1784e5bdf3368347c3c115e0f01ba78e9",
+    "hash": "0xsrvrwxdbwxfmq86f8ng44sjjn94krhvvb16fixqyyag366riqa",
     "skills": [
       ".claude/skills/_archive/ai/agent-usage-optimizer/baseline-route-mapping-quota-agnostic-defaults",
       ".claude/skills/_archive/ai/agent-usage-optimizer/complexity-tier-model-mapping",
@@ -2179,6 +2179,8 @@
       ".claude/skills/_internal/workflows/brainstorming",
       ".claude/skills/_internal/workflows/legal-sanity-review",
       ".claude/skills/ai/agent-usage-optimizer",
+      ".claude/skills/ai/gemini-batch-execution",
+      ".claude/skills/ai/hermes-model-switching",
       ".claude/skills/ai/optimization/model-selection",
       ".claude/skills/ai/optimization/usage-optimization",
       ".claude/skills/ai/prompting/agenta",
@@ -2187,6 +2189,14 @@
       ".claude/skills/ai/prompting/langchain",
       ".claude/skills/ai/prompting/pandasai",
       ".claude/skills/ai/prompting/prompt-engineering",
+      ".claude/skills/apple/apple-notes",
+      ".claude/skills/apple/apple-reminders",
+      ".claude/skills/apple/findmy",
+      ".claude/skills/apple/imessage",
+      ".claude/skills/autonomous-ai-agents/claude-code",
+      ".claude/skills/autonomous-ai-agents/codex",
+      ".claude/skills/autonomous-ai-agents/hermes-agent",
+      ".claude/skills/autonomous-ai-agents/opencode",
       ".claude/skills/business/admin/expense-tracking",
       ".claude/skills/business/admin/invoice-automation",
       ".claude/skills/business/admin/modular-architecture-documentation",
@@ -2194,6 +2204,7 @@
       ".claude/skills/business/admin/quantification-metrics",
       ".claude/skills/business/admin/tax-preparation",
       ".claude/skills/business/admin/technology-stack-modernization",
+      ".claude/skills/business/c-corp-tax-consultant",
       ".claude/skills/business/client-demo/engineering-chatbot",
       ".claude/skills/business/communication/brand-guidelines",
       ".claude/skills/business/communication/calendly-api",
@@ -2223,6 +2234,7 @@
       ".claude/skills/business/finance/journal-entry-prep",
       ".claude/skills/business/finance/reconciliation",
       ".claude/skills/business/finance/variance-analysis",
+      ".claude/skills/business/gtm-parametric-demo-reports",
       ".claude/skills/business/legal/canned-responses",
       ".claude/skills/business/legal/compliance",
       ".claude/skills/business/legal/contract-review",
@@ -2244,7 +2256,6 @@
       ".claude/skills/business/product/user-research-synthesis",
       ".claude/skills/business/productivity/memory-management",
       ".claude/skills/business/productivity/notion-api",
-      ".claude/skills/business/productivity/obsidian",
       ".claude/skills/business/productivity/task-management",
       ".claude/skills/business/productivity/time-tracking",
       ".claude/skills/business/productivity/today",
@@ -2256,6 +2267,21 @@
       ".claude/skills/business/sales/create-an-asset",
       ".claude/skills/business/sales/daily-briefing",
       ".claude/skills/business/sales/draft-outreach",
+      ".claude/skills/business/tax-e-filing-research",
+      ".claude/skills/coordination/agent-label-routing",
+      ".claude/skills/coordination/agent-memory-bridge",
+      ".claude/skills/coordination/engineering-issue-workflow",
+      ".claude/skills/coordination/hermes-workflow-audit",
+      ".claude/skills/coordination/legal-sanity-scan",
+      ".claude/skills/coordination/licensed-machine-prompt-orchestration",
+      ".claude/skills/coordination/memory-bridge-operation",
+      ".claude/skills/coordination/workflow-compliance-audit",
+      ".claude/skills/creative/ascii-art",
+      ".claude/skills/creative/ascii-video",
+      ".claude/skills/creative/excalidraw",
+      ".claude/skills/creative/popular-web-designs",
+      ".claude/skills/creative/songwriting-and-ai-music",
+      ".claude/skills/data-science/jupyter-live-kernel",
       ".claude/skills/data/analysis/autoviz",
       ".claude/skills/data/analysis/bsee-sodir-extraction",
       ".claude/skills/data/analysis/dash",
@@ -2312,6 +2338,7 @@
       ".claude/skills/data/energy/well-production-dashboard",
       ".claude/skills/data/engineering/orcaflex-enrichment",
       ".claude/skills/data/knowledge-pipeline",
+      ".claude/skills/data/matlab-dark-port",
       ".claude/skills/data/office/docx-templates",
       ".claude/skills/data/office/office-docs",
       ".claude/skills/data/office/openpyxl",
@@ -2338,6 +2365,7 @@
       ".claude/skills/development/data-pipeline-processor",
       ".claude/skills/development/devtools/pyproject-toml",
       ".claude/skills/development/devtools/uv-package-manager",
+      ".claude/skills/development/doc-audit-and-close-workflow",
       ".claude/skills/development/documentation/documentation",
       ".claude/skills/development/documentation/docusaurus",
       ".claude/skills/development/documentation/gitbook",
@@ -2347,7 +2375,6 @@
       ".claude/skills/development/elite-frontend-ux",
       ".claude/skills/development/engineering-report-generator",
       ".claude/skills/development/git-worktree-workflow",
-      ".claude/skills/development/github/code-review",
       ".claude/skills/development/github/issue-tracker",
       ".claude/skills/development/github/modes",
       ".claude/skills/development/github/multi-repo",
@@ -2361,12 +2388,13 @@
       ".claude/skills/development/github/workflow",
       ".claude/skills/development/gitignore-scaffold",
       ".claude/skills/development/html-report-verify",
+      ".claude/skills/development/investigative-issue-workdown",
       ".claude/skills/development/mcp-builder",
       ".claude/skills/development/parallel-file-processor",
       ".claude/skills/development/planning/planning-code-goal",
       ".claude/skills/development/planning/planning-goal",
-      ".claude/skills/development/planning/writing-plans",
       ".claude/skills/development/plugin-management/cowork-plugin-customizer",
+      ".claude/skills/development/shell-script-hardening-patterns",
       ".claude/skills/development/shell-tdd",
       ".claude/skills/development/skill-eval",
       ".claude/skills/development/sparc/sparc-architecture",
@@ -2385,9 +2413,13 @@
       ".claude/skills/development/workflows/python-project-template",
       ".claude/skills/development/workflows/reporting-workflow",
       ".claude/skills/development/yaml-workflow-executor",
+      ".claude/skills/devops/agent-learnings-portability",
+      ".claude/skills/devops/hermes-ecosystem-integration",
+      ".claude/skills/devops/webhook-subscriptions",
       ".claude/skills/digitalmodel/code-explorer",
       ".claude/skills/digitalmodel/module-lookup",
       ".claude/skills/digitalmodel/naval-architect-expert",
+      ".claude/skills/email/himalaya",
       ".claude/skills/engineering/asset-integrity/fitness-for-service",
       ".claude/skills/engineering/cad/blender",
       ".claude/skills/engineering/cad/cad-engineering",
@@ -2473,6 +2505,20 @@
       ".claude/skills/engineering/standards/iso",
       ".claude/skills/engineering/standards/norsok",
       ".claude/skills/engineering/units",
+      ".claude/skills/finance/tax-consultant-nnn-property",
+      ".claude/skills/gaming/minecraft-modpack-server",
+      ".claude/skills/gaming/pokemon-player",
+      ".claude/skills/github/codebase-inspection",
+      ".claude/skills/github/domain-gap-to-issue-roadmap",
+      ".claude/skills/github/engineering-solver-domain-recon",
+      ".claude/skills/github/external-repo-adoption-recon",
+      ".claude/skills/github/github-auth",
+      ".claude/skills/github/github-code-review",
+      ".claude/skills/github/github-issues",
+      ".claude/skills/github/github-pr-workflow",
+      ".claude/skills/github/github-repo-management",
+      ".claude/skills/github/issue-portfolio-triage",
+      ".claude/skills/github/repo-architecture-analysis",
       ".claude/skills/gsd-add-backlog",
       ".claude/skills/gsd-add-phase",
       ".claude/skills/gsd-add-tests",
@@ -2541,6 +2587,35 @@
       ".claude/skills/gsd-validate-phase",
       ".claude/skills/gsd-verify-work",
       ".claude/skills/gsd-workstreams",
+      ".claude/skills/leisure/find-nearby",
+      ".claude/skills/mcp/mcporter",
+      ".claude/skills/mcp/native-mcp",
+      ".claude/skills/media/gif-search",
+      ".claude/skills/media/heartmula",
+      ".claude/skills/media/songsee",
+      ".claude/skills/media/youtube-content",
+      ".claude/skills/mlops/cloud/modal",
+      ".claude/skills/mlops/evaluation/lm-evaluation-harness",
+      ".claude/skills/mlops/evaluation/weights-and-biases",
+      ".claude/skills/mlops/huggingface-hub",
+      ".claude/skills/mlops/inference/gguf",
+      ".claude/skills/mlops/inference/guidance",
+      ".claude/skills/mlops/inference/llama-cpp",
+      ".claude/skills/mlops/inference/obliteratus",
+      ".claude/skills/mlops/inference/outlines",
+      ".claude/skills/mlops/inference/vllm",
+      ".claude/skills/mlops/models/audiocraft",
+      ".claude/skills/mlops/models/clip",
+      ".claude/skills/mlops/models/segment-anything",
+      ".claude/skills/mlops/models/stable-diffusion",
+      ".claude/skills/mlops/models/whisper",
+      ".claude/skills/mlops/training/axolotl",
+      ".claude/skills/mlops/training/grpo-rl-training",
+      ".claude/skills/mlops/training/peft",
+      ".claude/skills/mlops/training/pytorch-fsdp",
+      ".claude/skills/mlops/training/trl-fine-tuning",
+      ".claude/skills/mlops/training/unsloth",
+      ".claude/skills/note-taking/obsidian",
       ".claude/skills/operations/automation/activepieces",
       ".claude/skills/operations/automation/airflow",
       ".claude/skills/operations/automation/cron-job-management",
@@ -2555,16 +2630,46 @@
       ".claude/skills/operations/devtools/git-advanced",
       ".claude/skills/operations/devtools/raycast-alfred",
       ".claude/skills/operations/devtools/vscode-extensions",
+      ".claude/skills/productivity/google-workspace",
+      ".claude/skills/productivity/linear",
+      ".claude/skills/productivity/nano-pdf",
+      ".claude/skills/productivity/notion",
+      ".claude/skills/productivity/ocr-and-documents",
+      ".claude/skills/productivity/powerpoint",
+      ".claude/skills/red-teaming/godmode",
+      ".claude/skills/research/arxiv",
+      ".claude/skills/research/blogwatcher",
+      ".claude/skills/research/gtm-job-market-scan",
+      ".claude/skills/research/ml-paper-writing",
+      ".claude/skills/research/polymarket",
+      ".claude/skills/research/research-paper-writing",
       ".claude/skills/science/bio-research/clinical-trial-protocol",
       ".claude/skills/science/bio-research/instrument-data-allotrope",
       ".claude/skills/science/bio-research/nextflow-pipelines",
       ".claude/skills/science/bio-research/scientific-problem-selection",
       ".claude/skills/science/bio-research/scvi-tools",
       ".claude/skills/science/bio-research/single-cell-rna-qc",
+      ".claude/skills/smart-home/openhue",
+      ".claude/skills/social-media/xitter",
+      ".claude/skills/software-development/bulk-docstring-addition",
+      ".claude/skills/software-development/code-review",
+      ".claude/skills/software-development/gsd-operational-audit",
+      ".claude/skills/software-development/multi-machine-ai-readiness-and-issue-triage",
+      ".claude/skills/software-development/multi-provider-adversarial-review",
+      ".claude/skills/software-development/overnight-parallel-agent-prompts",
+      ".claude/skills/software-development/plan",
+      ".claude/skills/software-development/requesting-code-review",
+      ".claude/skills/software-development/skeleton-test-coverage-uplift",
+      ".claude/skills/software-development/subagent-driven-development",
+      ".claude/skills/software-development/test-driven-development",
+      ".claude/skills/software-development/workspace-hub-batch-issue-execution",
+      ".claude/skills/software-development/writing-plans",
       ".claude/skills/workspace-hub/agent-teams",
       ".claude/skills/workspace-hub/agent-teams/orchestrator-routing",
+      ".claude/skills/workspace-hub/cc-best-practice-adoption",
       ".claude/skills/workspace-hub/clean-code",
       ".claude/skills/workspace-hub/comprehensive-learning",
+      ".claude/skills/workspace-hub/digitalmodel-orcawave-orcaflex-workflow",
       ".claude/skills/workspace-hub/ecosystem-terminology",
       ".claude/skills/workspace-hub/improve",
       ".claude/skills/workspace-hub/playwright",
@@ -2572,6 +2677,7 @@
       ".claude/skills/workspace-hub/repo-portfolio-steering",
       ".claude/skills/workspace-hub/repo-structure",
       ".claude/skills/workspace-hub/repo-sync",
+      ".claude/skills/workspace-hub/session-corpus-audit",
       ".claude/skills/workspace-hub/sync",
       "_archive/skills/sme/orcaflex-specialist",
       "_archive/skills/workspace-hub/agent-os-framework",
@@ -2580,7 +2686,7 @@
       "_archive/skills/workspace-hub/interactive-report-generator",
       "scripts/skills/tests/fixtures/oversized-test"
     ],
-    "lastUpdated": "2026-04-05T19:27:27.489Z"
+    "lastUpdated": "2026-04-05T22:12:03.542Z"
   },
   {
     "source": "github:vanab/swiftdata-agent-skill",
@@ -2854,8 +2960,8 @@
   },
   {
     "source": "github:varun369/SuperLocalMemoryV2",
-    "rev": "d24ed260e2a77dcd31064aa3b69b1ba59a18147f",
-    "hash": "1khiq0wp32wfw7wby2kfvk39dwrp3iraylj8iwhvswpggaqfg6ml",
+    "rev": "5be2e7a74cb13f495e88ebc3a43cc2c3a442b018",
+    "hash": "0yqpnpx0y3n4wch8acvjrxy78xwb0z9v96klg92am6bpjc5sm1da",
     "skills": [
       ".",
       "ide/skills/slm-build-graph",
@@ -2866,7 +2972,7 @@
       "ide/skills/slm-status",
       "ide/skills/slm-switch-profile"
     ],
-    "lastUpdated": "2026-04-05T19:27:10.101Z"
+    "lastUpdated": "2026-04-05T22:11:48.698Z"
   },
   {
     "source": "github:varunpandey0502/markdown-projects",
@@ -3612,8 +3718,8 @@
   },
   {
     "source": "github:vercel-labs/agent-browser",
-    "rev": "c47756be9becc2f4633c2ad48dcadf57f28d660d",
-    "hash": "1mzhh3bybqwfb5dpbfmzz45d9jwghsch9rnqd2pqh9imp6klw1kh",
+    "rev": "fcb6615f5a1f89b7bb012921a8e489d7d1c8f7e8",
+    "hash": "1v9m47wg7jv5sr7n92msyiwy13d1ss9i6lbmavga1xn7kdrg7nij",
     "skills": [
       "skills/agent-browser",
       "skills/agentcore",
@@ -3622,7 +3728,7 @@
       "skills/slack",
       "skills/vercel-sandbox"
     ],
-    "lastUpdated": "2026-04-05T19:27:49.283Z"
+    "lastUpdated": "2026-04-05T22:12:06.633Z"
   },
   {
     "source": "github:vercel-labs/agent-eval",
@@ -4022,12 +4128,12 @@
   },
   {
     "source": "github:vercel/chat",
-    "rev": "f93228c4ef2631b9f1be55e40133aad3d9c9d622",
-    "hash": "12g0xiljcj26qx3674wkc98zfbld815qjs0x2kjsg2j3q6mhzd2r",
+    "rev": "9215740312d4efd5033d5294d0ee205eda530a8b",
+    "hash": "0dnr81jzz7aqrdsqlavzmsnxyc026m91qdi12z33pw1jm8zfrfnx",
     "skills": [
       "skills/chat"
     ],
-    "lastUpdated": "2026-04-05T19:28:22.955Z"
+    "lastUpdated": "2026-04-05T22:12:43.865Z"
   },
   {
     "source": "github:vercel/components.build",
@@ -4076,8 +4182,8 @@
   },
   {
     "source": "github:vercel/next.js",
-    "rev": "81d5e070f4a84b34bb0efe2524c200584fed3215",
-    "hash": "0cs5fzagb3hym1lnnamkqrisah184l6q97w41v5494c9g0bm70d5",
+    "rev": "7777dadcff070fcf26993ab9a9a8575c8237232e",
+    "hash": "01cxzv0hnf74h48ab63g37cg66vik7bzjk6j4p1y0dv7jc1s0plg",
     "skills": [
       ".agents/skills/authoring-skills",
       ".agents/skills/dce-edge",
@@ -4092,7 +4198,7 @@
       ".agents/skills/write-guide",
       ".claude-plugin/plugins/cache-components/skills/cache-components"
     ],
-    "lastUpdated": "2026-04-05T19:31:06.086Z"
+    "lastUpdated": "2026-04-05T22:15:19.852Z"
   },
   {
     "source": "github:vercel/nextjs-skills",
@@ -4125,21 +4231,21 @@
   },
   {
     "source": "github:vercel/turbo",
-    "rev": "b7d89a4605146baab1311ede0c660adafdef5d12",
-    "hash": "0j9pvhmzddjnaxs6cy0dny07iazsj4q5gfic2k74cqfjpmdg5gn4",
+    "rev": "0346076740866e11fa00b3c095b3df0cd52b5779",
+    "hash": "0i0nd6xk3y4smrn090m5xrybcdx5w905qj84r5c5cn2mic4x6ivh",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-04-03T19:23:29.792Z"
+    "lastUpdated": "2026-04-05T22:13:29.521Z"
   },
   {
     "source": "github:vercel/turborepo",
-    "rev": "b7d89a4605146baab1311ede0c660adafdef5d12",
-    "hash": "0j9pvhmzddjnaxs6cy0dny07iazsj4q5gfic2k74cqfjpmdg5gn4",
+    "rev": "0346076740866e11fa00b3c095b3df0cd52b5779",
+    "hash": "0i0nd6xk3y4smrn090m5xrybcdx5w905qj84r5c5cn2mic4x6ivh",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-04-03T19:23:31.392Z"
+    "lastUpdated": "2026-04-05T22:13:30.976Z"
   },
   {
     "source": "github:vercel/vercel",
@@ -4628,12 +4734,12 @@
   },
   {
     "source": "github:victor604/frontend-design",
-    "rev": "35156a6754f6aff269cd2251746a5d25ba0016e6",
+    "rev": "ce3077214d70d18be4962c386dbda6fff094251c",
     "hash": "1f457pnrhj0jmbv03kg0clx11l92mppw6pn3r5spj5jpa76n6110",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-04-05T19:28:21.313Z"
+    "lastUpdated": "2026-04-05T22:11:29.188Z"
   },
   {
     "source": "github:victoralbino/agent-skills",
@@ -5211,14 +5317,15 @@
   },
   {
     "source": "github:viktor-ferenczi/skills",
-    "rev": "a8ed14b19be6c88eb4772ff53ca9f365e36da80d",
-    "hash": "0r0bv7jsfh8mrvl1zq6y53qah3nd65l5hy3nvfpc8zhdwwhlqz4c",
+    "rev": "450581d8e9fd8558c6d6d07b4fc39bad3b0dc995",
+    "hash": "0b7acfc1ina4yqppscbpxzfmxnbp3y68j94jwy2289w5dn15k0f0",
     "skills": [
       "skills/agent-zero-plugin-scan",
       "skills/busybox-on-windows",
       "skills/consistency-check",
       "skills/dotnet-cli-fix-loop",
       "skills/gcp-batch-inference",
+      "skills/godot-documentation",
       "skills/pr-description-concise-markdown",
       "skills/python-guidelines",
       "skills/recursive-language-model",
@@ -5226,7 +5333,7 @@
       "skills/silent-cli",
       "skills/stabilization-loop"
     ],
-    "lastUpdated": "2026-04-04T01:31:21.055Z"
+    "lastUpdated": "2026-04-05T22:11:27.942Z"
   },
   {
     "source": "github:viktor-silakov/ai-ready",
@@ -6186,8 +6293,8 @@
   },
   {
     "source": "github:vitorpamplona/amethyst",
-    "rev": "3b695dc8b85b1f74af10d8f02c51f34320f63c8f",
-    "hash": "1prprndv69x88rslarr8wjqi97isxbc3kw1g315ncy9x9g5b5nmf",
+    "rev": "458443f156c0a4e8008b818bb2108ff0f1ec4c7c",
+    "hash": "161aa4mhnbj0wpbp4800qnvnxkyg5n52b4zpxd4q8fw6kjl3kvzr",
     "skills": [
       ".",
       ".claude/skills/android-expert",
@@ -6202,7 +6309,7 @@
       ".claude/skills/nostr-expert",
       ".claude/skills/quartz-integration"
     ],
-    "lastUpdated": "2026-04-05T19:27:40.373Z"
+    "lastUpdated": "2026-04-05T22:12:42.700Z"
   },
   {
     "source": "github:vivekgana/databricks-platform-marketplace",
@@ -7513,13 +7620,13 @@
   },
   {
     "source": "github:vuetifyjs/0",
-    "rev": "eeecbdd5e68bdf4600b859fa999f7429f7207bf5",
-    "hash": "0dzxly78x8slk21vnnn793b9rj29sqxb7gwz98mr16ls65xypb6z",
+    "rev": "010bec11b47239aa4fa7c563eba80557e1f557b6",
+    "hash": "0v1fkq0s35fdgaalg3s8dq57n0vwzvjzqy2b6fw3ssyng139brd7",
     "skills": [
       "packages/0",
       "skills/vuetify0"
     ],
-    "lastUpdated": "2026-04-05T05:06:03.264Z"
+    "lastUpdated": "2026-04-05T22:12:19.614Z"
   },
   {
     "source": "github:vueuse/skills",
