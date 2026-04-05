@@ -4262,14 +4262,16 @@
   },
   {
     "source": "github:ono500/infra-ai",
-    "rev": "2d1f65ce8f6d7533717b8ab72412dd64c65649a5",
-    "hash": "1z0whv803rkc50baaghqz72i5bka12wpyhfl90837m0lnc8bgqs2",
+    "rev": "465406cb973d1e826bead7b774ddf33b80d03088",
+    "hash": "088l73jhxs9vlzli32sqq005z48vv09rcfs4vq0yczgprwzpld3d",
     "skills": [
+      "skills/clarify",
       "skills/ctx-init",
       "skills/explain-code",
-      "skills/gitflow-commit"
+      "skills/gitflow-commit",
+      "skills/markdown"
     ],
-    "lastUpdated": "2026-04-05T10:19:27.060Z"
+    "lastUpdated": "2026-04-05T13:29:57.594Z"
   },
   {
     "source": "github:ono500/infra-code",
@@ -4733,13 +4735,14 @@
   },
   {
     "source": "github:open-metadata/openmetadata",
-    "rev": "9da7bea4efc3e023027b4ebd8b31dd45b25a1544",
-    "hash": "0cz5r2jijbig15lg6nr0is1ahdfwd2f1p5vwr21sydgdlkiq09h7",
+    "rev": "38b5ce35f781fef4ffba5a7a7110f4ba85acbbda",
+    "hash": "1v0s2ggmrzxcviffhdvqbg4yns8kgjf9z8s92amy1p2fhrqa0h0n",
     "skills": [
       ".claude/skills/playwright",
       ".claude/skills/playwright-validation",
       ".claude/skills/writing-playwright-tests",
       "skills/code-review",
+      "skills/connector-audit",
       "skills/connector-building",
       "skills/connector-review",
       "skills/connector-standards",
@@ -4751,7 +4754,7 @@
       "skills/test-locally",
       "skills/verification"
     ],
-    "lastUpdated": "2026-04-05T05:06:39.339Z"
+    "lastUpdated": "2026-04-05T13:31:04.979Z"
   },
   {
     "source": "github:open-pencil/skills",
@@ -4842,8 +4845,8 @@
   },
   {
     "source": "github:openagentsinc/openagents",
-    "rev": "469283de79d0fc5b0f790298939e86d56c9aa24c",
-    "hash": "0bm463dkls3g2hcxg3ifxqic85c1xhklc68fayj6y8k51pvg8z06",
+    "rev": "cf31abebb97c6c7497f278ce8aaed9653e34873b",
+    "hash": "0sm6k0ng106l2dg3227yarc9a2pxybfg24j7svqdy6yfxliilbf9",
     "skills": [
       "skills/autopilot-cad-builder",
       "skills/autopilot-data-market-control",
@@ -4859,7 +4862,7 @@
       "skills/moneydevkit",
       "skills/neutronpay"
     ],
-    "lastUpdated": "2026-04-05T10:19:24.303Z"
+    "lastUpdated": "2026-04-05T13:29:56.328Z"
   },
   {
     "source": "github:openai/codex",
@@ -5157,8 +5160,8 @@
   },
   {
     "source": "github:openakita/openakita",
-    "rev": "ae8e57bd009ccfd5f212f2b492f171697dd2b526",
-    "hash": "130s2fj5g5cpy9vlzd6ga51rny4cyz9wacafv4c2310r33r3jdjx",
+    "rev": "6774dbddc85b7d7ed3334ffe697ea5db47cb11c0",
+    "hash": "1szsc9i6mdi7w26dgri1g5c3jgxsr5aiyh8xz7ba9f26z0kf488x",
     "skills": [
       "examples/plugins/obsidian-kb",
       "examples/plugins/translate-skill",
@@ -5313,7 +5316,7 @@
       "skills/youtube-summarizer",
       "skills/yuque-skills"
     ],
-    "lastUpdated": "2026-04-04T22:22:51.281Z"
+    "lastUpdated": "2026-04-05T13:29:56.355Z"
   },
   {
     "source": "github:openameba/spindle",
@@ -6257,8 +6260,8 @@
   },
   {
     "source": "github:openclaw/skills",
-    "rev": "e32a12fdd0e3be918e86710a8cddb4499fffea71",
-    "hash": "1khq1f1215x51dvm5kddbbfwv0f0l4khf236gf9xjq1qzg9abh47",
+    "rev": "a864f98a97cde9aca4ced76f2be72d015ec3b01a",
+    "hash": "0c8myfkh380xsmzn2gvjhvps3hsx8ad7l6wqdjzxnynqn0rsd2h2",
     "skills": [
       "skills/00010110/openclaw-version-monitor",
       "skills/000wonderclaw/clawcv",
@@ -8950,6 +8953,7 @@
       "skills/alekseimarchenko/central-intelligence",
       "skills/alenzhu72/sshot",
       "skills/alessandro-brucato-tracebit/tracebit-canaries",
+      "skills/alessandro-brucato-tracebit/tracebit-canary-honeytokens",
       "skills/alessandropcostabr/clawhub-quarantine-installer",
       "skills/alessandropcostabr/openclaw-backup-safe",
       "skills/alessandropcostabr/openclaw-skill-debugger",
@@ -37097,6 +37101,7 @@
       "skills/nemovideonemo/running-video-maker",
       "skills/nemovideonemo/saas-product-video",
       "skills/nemovideonemo/school-video-maker",
+      "skills/nemovideonemo/senior-care-facility-video",
       "skills/nemovideonemo/shopify-store-video",
       "skills/nemovideonemo/shorts-editor",
       "skills/nemovideonemo/speech-language-pathologist-video",
@@ -41958,6 +41963,7 @@
       "skills/ruitao/funasr-asr",
       "skills/ruiwang20010702/smart-auto-updater",
       "skills/ruiww/grsai-nano-banana",
+      "skills/ruiyongwang/hainan-cost-index",
       "skills/rullys/onivor-playwright",
       "skills/rumengkai/find-slills",
       "skills/rumengkai/slack-1",
@@ -47643,6 +47649,7 @@
       "skills/totoxu/totoxu-montecarlo",
       "skills/totti10hj/ctrip-points",
       "skills/toucao/hsciq-mcp",
+      "skills/touchdeeper/cline-programming",
       "skills/toughcoding/toughcoding",
       "skills/toughspider/knowledge-spider",
       "skills/toughworm/advanced-calendar",
@@ -54303,7 +54310,7 @@
       "skills/zzz-pinking/embedded-dev",
       "skills/zzzilin/food-travel"
     ],
-    "lastUpdated": "2026-04-05T10:22:59.622Z"
+    "lastUpdated": "2026-04-05T13:33:40.693Z"
   },
   {
     "source": "github:openclawart/skills",
@@ -54818,8 +54825,8 @@
   },
   {
     "source": "github:openstatushq/data-table-filters",
-    "rev": "7e55a449844c4bbcc7e0cba6da7ae66584069bde",
-    "hash": "05viz65ajy32r2pgsbhaq1x7k7svfm7bs5bk8k3qmp3asjdqm8ap",
+    "rev": "87f377f73270df93e5a4f4dfe6f90208ed549c3e",
+    "hash": "1id19c4cx0hl0js3nnpxhrccxbs5h2kd2dc4cnjn7d18fxkz6lmb",
     "skills": [
       ".agents/skills/emil-design-eng",
       ".agents/skills/frontend-design",
@@ -54836,7 +54843,7 @@
       ".agents/skills/web-design-guidelines",
       "skills"
     ],
-    "lastUpdated": "2026-04-05T10:18:33.849Z"
+    "lastUpdated": "2026-04-05T13:30:02.557Z"
   },
   {
     "source": "github:openstatushq/openstatus",
@@ -55583,8 +55590,8 @@
   },
   {
     "source": "github:osovv/grace-marketplace",
-    "rev": "af0643fcb93352f8d404c6eb50f8235f941f6a97",
-    "hash": "0irx0l8w365gc9vs761qm0lc6y7qfkpxavf5pxf20mms88d3f900",
+    "rev": "5f1462e8e6fcc06e857e94de0512eb912701ed62",
+    "hash": "0jhlj5gb642nn9rdiafvzq06jrkb2y8jady101j1vv08ix7j5zm3",
     "skills": [
       "skills/grace/grace-ask",
       "skills/grace/grace-execute",
@@ -55593,13 +55600,14 @@
       "skills/grace/grace-init",
       "skills/grace/grace-multiagent-execute",
       "skills/grace/grace-plan",
+      "skills/grace/grace-refactor",
       "skills/grace/grace-refresh",
       "skills/grace/grace-reviewer",
       "skills/grace/grace-setup-subagents",
       "skills/grace/grace-status",
       "skills/grace/grace-verification"
     ],
-    "lastUpdated": "2026-03-26T06:39:25.480Z"
+    "lastUpdated": "2026-04-05T13:30:03.934Z"
   },
   {
     "source": "github:oss-skills/upstream-recon",
@@ -56467,14 +56475,14 @@
   },
   {
     "source": "github:oxc-project/oxc",
-    "rev": "7bc0f2f33099729f606a971191a79d1fad923a77",
-    "hash": "0cwc55nkvdj6p7sww8byr66mn1pay3kz7jy4dpp053qx8sjf0b25",
+    "rev": "9446dcc3eef004d12b3902b7f74c000e3460e5e7",
+    "hash": "1mxgn5mq9mna7iy4dx3p73djq97khkmswdbv150x98g356awfi7d",
     "skills": [
       ".agents/skills/insta-snapshots",
       ".agents/skills/migrate-oxfmt",
       ".agents/skills/migrate-oxlint"
     ],
-    "lastUpdated": "2026-04-04T22:22:34.706Z"
+    "lastUpdated": "2026-04-05T13:30:49.833Z"
   },
   {
     "source": "github:oxedom/haflow",

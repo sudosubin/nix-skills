@@ -4346,14 +4346,15 @@
   },
   {
     "source": "github:petestewart/claude-skills",
-    "rev": "a2f7a415fab873f386a4d9847d3de09b18ae42c2",
-    "hash": "1bv301dfwcj8rjnkjwgpcmwq06iaa0bdpn53nraabfms78sx8m2n",
+    "rev": "e009279862ab2dcc0d06a6267f71069fa5efbd30",
+    "hash": "0j7nsgrm6p59ydr4q0hr890vvyl17lla1jaslbw97qsdv72q1vbz",
     "skills": [
       "skills/article",
       "skills/article-add",
       "skills/article-queue",
       "skills/datadog-logs",
       "skills/explain-project",
+      "skills/fitness-plan",
       "skills/orchestrator",
       "skills/plan",
       "skills/prd",
@@ -4370,7 +4371,7 @@
       "skills/typora-markdown",
       "skills/workato"
     ],
-    "lastUpdated": "2026-04-01T19:28:50.137Z"
+    "lastUpdated": "2026-04-05T13:28:18.138Z"
   },
   {
     "source": "github:petrilahdelma/digitaltableteur",
@@ -9974,8 +9975,8 @@
   },
   {
     "source": "github:pollinations/pollinations",
-    "rev": "e7c93000c304b7e994e964ae63dca3f01733c7b9",
-    "hash": "1q2azg7cl8nscrj6rd7za3cpl8qdsh4ws6qqfh8mhl862zx069i0",
+    "rev": "9081fe5df2911bd9a0ac567ce91980bcdbbb2afc",
+    "hash": "1vmr8dx3arqpmam1bp254d7487rwz98ckiph52l1z76632rqghs2",
     "skills": [
       ".claude/skills/abuse-detection",
       ".claude/skills/app-review",
@@ -9995,7 +9996,7 @@
       ".claude/skills/web-research",
       "apps/openclaw/skills/founder-meditation"
     ],
-    "lastUpdated": "2026-04-05T10:20:45.989Z"
+    "lastUpdated": "2026-04-05T13:30:06.245Z"
   },
   {
     "source": "github:polloaiofficial/pollo-skills",
@@ -10463,8 +10464,8 @@
   },
   {
     "source": "github:posthog/posthog",
-    "rev": "ae4410481c81320d19600338d88c3092e134028f",
-    "hash": "0vmpvb6s6mwm8fbilxrh8bkynk64rk8j38m0fc1kay29vss7w3ij",
+    "rev": "439626a792f0d26953584c5a0a1c148b189f7ad2",
+    "hash": "1q2zw545jai0hmh4vn9l266pvmdwaschkb1cvihyir918zrbj9jx",
     "skills": [
       ".agents/skills/adopting-generated-api-types",
       ".agents/skills/clickhouse-migrations",
@@ -10494,7 +10495,7 @@
       "products/posthog_ai/skills/query-examples",
       "products/signals/skills/signals"
     ],
-    "lastUpdated": "2026-04-05T10:22:38.062Z"
+    "lastUpdated": "2026-04-05T13:32:19.143Z"
   },
   {
     "source": "github:posthog/posthog-for-claude",
@@ -10724,36 +10725,36 @@
   },
   {
     "source": "github:pproenca/agent-tui",
-    "rev": "4e5dc9e7a09570d844c9af8f5f09b5d792ffe85b",
-    "hash": "0v0m66bxzw28b0a2r7a3qhbq82fvix0p1gsm7abm2cd574xqvhnf",
+    "rev": "e57390daf9b001a5f28f92130a5bb854c32a5a78",
+    "hash": "1gnyz0sgzh4vadafkdgqnax758g6sfccph7d0f5sryxyypg0wlqm",
     "skills": [
       "skills/agent-tui",
       "skills/tui-explorer"
     ],
-    "lastUpdated": "2026-02-18T22:10:15.373Z"
+    "lastUpdated": "2026-04-05T13:30:00.714Z"
   },
   {
     "source": "github:pproenca/dot-claude",
-    "rev": "14d60e4554a435d7a0a393ac58d7912d703497a4",
-    "hash": "1cx98qrgnahgaw2d60zy42412d2pifjdgy60q3il326wg9fbsry9",
+    "rev": "b3d33d751efa4dfe020763e52b8ffa29ef7ae244",
+    "hash": "01pxn290ryzr68n3ky1y9fab9r9sz74rzz9843lmvx2biwnxdmfb",
     "skills": [
+      "domain_plugins/app-design/skills/app-design",
+      "domain_plugins/app-design/skills/app-design-architect",
+      "domain_plugins/app-design/skills/app-design-discover",
+      "domain_plugins/app-design/skills/app-design-refactor",
+      "domain_plugins/app-design/skills/app-design-validate",
+      "domain_plugins/app-design/skills/apple-hig",
+      "domain_plugins/app-development/skills/apple-engineering",
+      "domain_plugins/build-ios-apps/skills/ios-debugger-agent",
+      "domain_plugins/build-ios-apps/skills/swiftui-liquid-glass",
+      "domain_plugins/build-ios-apps/skills/swiftui-performance-audit",
+      "domain_plugins/build-ios-apps/skills/swiftui-ui-patterns",
+      "domain_plugins/build-ios-apps/skills/swiftui-view-refactor",
       "domain_plugins/dev-debug-cpp/skills/dev-debug-cpp",
       "domain_plugins/dev-python/skills/python-performance",
       "domain_plugins/dev-python/skills/python-project",
       "domain_plugins/dev-python/skills/python-testing",
       "domain_plugins/dev-shell/skills/google-shell-style",
-      "plugins/app-design/skills/app-design",
-      "plugins/app-design/skills/app-design-architect",
-      "plugins/app-design/skills/app-design-discover",
-      "plugins/app-design/skills/app-design-refactor",
-      "plugins/app-design/skills/app-design-validate",
-      "plugins/app-design/skills/apple-hig",
-      "plugins/app-development/skills/apple-engineering",
-      "plugins/build-ios-apps/skills/ios-debugger-agent",
-      "plugins/build-ios-apps/skills/swiftui-liquid-glass",
-      "plugins/build-ios-apps/skills/swiftui-performance-audit",
-      "plugins/build-ios-apps/skills/swiftui-ui-patterns",
-      "plugins/build-ios-apps/skills/swiftui-view-refactor",
       "plugins/dev-workflow/skills/condition-based-waiting",
       "plugins/dev-workflow/skills/defense-in-depth",
       "plugins/dev-workflow/skills/finishing-a-development-branch",
@@ -10767,7 +10768,7 @@
       "plugins/dev-workflow/skills/testing-anti-patterns",
       "plugins/dev-workflow/skills/verification-before-completion"
     ],
-    "lastUpdated": "2026-03-31T16:32:44.618Z"
+    "lastUpdated": "2026-04-05T13:30:00.718Z"
   },
   {
     "source": "github:pproenca/dot-skills",
@@ -11700,8 +11701,8 @@
   },
   {
     "source": "github:pratos/clanker-setup",
-    "rev": "5afaf31ef4eaa79bc51271f7c5811ecdcd138c69",
-    "hash": "0cz7jj3ifpvk0gq33gzq92gngrgbqznfg6qr40vhkdm7pbkj11rl",
+    "rev": "b91c25c5654db521005f84cf9a55ac2b8b40a333",
+    "hash": "14zq9cbv2zf5bdlvc4gxmdyn76mliqj91v69phr2x54f9iicv481",
     "skills": [
       "skills/adb-ui-tree",
       "skills/agentation",
@@ -11717,7 +11718,7 @@
       "skills/uv-python-execution",
       "skills/web-search-researcher"
     ],
-    "lastUpdated": "2026-04-01T19:28:42.110Z"
+    "lastUpdated": "2026-04-05T13:31:08.501Z"
   },
   {
     "source": "github:praveenspeaks/cinematic-script-writer",
@@ -11939,8 +11940,8 @@
   },
   {
     "source": "github:princejoogie/dotfiles",
-    "rev": "eb3964130badce854255133f9709817ddf620514",
-    "hash": "02r4g9njqjz1bflhhi5vkmg07fdrkdxcjgzd3qhjbqx2nrajddcn",
+    "rev": "197dd3b758a13cdb4d8c8f11e3c945f1913cd0af",
+    "hash": "0y62y32bjz2lv9zmdpdadc63gj1x2nnyqb17jx7sq1y04mmf0scl",
     "skills": [
       "opencode/.config/opencode/skills/frontend-design",
       "opencode/.config/opencode/skills/remotion-best-practices",
@@ -11952,7 +11953,7 @@
       "opencode/.config/opencode/skills/web-design-guidelines",
       "opencode/.config/opencode/skills/worktrees"
     ],
-    "lastUpdated": "2026-03-31T16:34:23.840Z"
+    "lastUpdated": "2026-04-05T13:31:13.965Z"
   },
   {
     "source": "github:prism-php/prism",
@@ -12763,8 +12764,8 @@
   },
   {
     "source": "github:project-n-e-k-o/n.e.k.o",
-    "rev": "f8206626d951cd205508f6adda22b3e0397b07ea",
-    "hash": "0mykfd84g5m1h8cda9zmhsdgf3h6rpw34hcfp20z9b5a3ni2w1bf",
+    "rev": "467cbac9390321153eb92ae9ce33effca4854701",
+    "hash": "0jhf55549s5y5183hdmjl201xh60186af2gi5lpl6c3s602pqzif",
     "skills": [
       ".agent/skills/3d-interaction",
       ".agent/skills/ammo-mmd-physics-hacks",
@@ -12786,7 +12787,7 @@
       ".agent/skills/webapp-testing",
       "plugin/plugins/mijia/.workbuddy/skills/mijia-plugin-guide"
     ],
-    "lastUpdated": "2026-04-05T10:19:04.404Z"
+    "lastUpdated": "2026-04-05T13:31:20.632Z"
   },
   {
     "source": "github:projectashik/commitlint",
