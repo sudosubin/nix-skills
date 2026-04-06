@@ -32,8 +32,8 @@
   },
   {
     "source": "github:GPTomics/bioSkills",
-    "rev": "89b75eb0a4e7907bc81d1e4bd1787780dbb8540e",
-    "hash": "19zq87p0bc5p0x5hyr00vqa4ha9x9mif4hgk0a7mih9lxim8vpds",
+    "rev": "041a57d6638af4f0528f3e89f9ab77a7532642cf",
+    "hash": "12cb82hjmkqwqvb6937kizdwnzlb839sriz8a7n98ac6kyy43asw",
     "skills": [
       "alignment-files/alignment-filtering",
       "alignment-files/alignment-indexing",
@@ -47,6 +47,7 @@
       "alignment/alignment-io",
       "alignment/msa-parsing",
       "alignment/msa-statistics",
+      "alignment/multiple-alignment",
       "alignment/pairwise-alignment",
       "alternative-splicing/differential-splicing",
       "alternative-splicing/isoform-switching",
@@ -163,6 +164,7 @@
       "expression-matrix/counts-ingest",
       "expression-matrix/gene-id-mapping",
       "expression-matrix/metadata-joins",
+      "expression-matrix/normalization",
       "expression-matrix/sparse-handling",
       "flow-cytometry/bead-normalization",
       "flow-cytometry/clustering-phenotyping",
@@ -282,8 +284,11 @@
       "phasing-imputation/haplotype-phasing",
       "phasing-imputation/imputation-qc",
       "phasing-imputation/reference-panels",
+      "phylogenetics/bayesian-inference",
       "phylogenetics/distance-calculations",
+      "phylogenetics/divergence-dating",
       "phylogenetics/modern-tree-inference",
+      "phylogenetics/species-trees",
       "phylogenetics/tree-io",
       "phylogenetics/tree-manipulation",
       "phylogenetics/tree-visualization",
@@ -459,7 +464,7 @@
       "workflows/tcr-pipeline",
       "workflows/timecourse-pipeline"
     ],
-    "lastUpdated": "2026-03-30T19:26:07.697Z"
+    "lastUpdated": "2026-04-06T04:54:09.742Z"
   },
   {
     "source": "github:GantisStorm/autonomous-coding-harness",
@@ -1651,7 +1656,7 @@
   },
   {
     "source": "github:garrytan/gstack",
-    "rev": "422f172fbbcb75774c86bbe5d7c097adaf561380",
+    "rev": "237ae2abbec3a05ae5ab4ea29b2f977ceb06bd5f",
     "hash": "1k7fbl8h3ygcg5b64v270ali3gayw6hbbrc656652vy6yjqyfg1i",
     "skills": [
       ".",
@@ -1696,7 +1701,7 @@
       "ship",
       "unfreeze"
     ],
-    "lastUpdated": "2026-04-05T19:25:20.502Z"
+    "lastUpdated": "2026-04-06T04:55:00.701Z"
   },
   {
     "source": "github:garvit-joshi/jskim",
@@ -1958,8 +1963,8 @@
   },
   {
     "source": "github:gavrielc/nanoclaw",
-    "rev": "ca9333d48dd7ad7e076e63a0fbf327b95f8b66ac",
-    "hash": "0d8bw962fzs6zkabz2lv9hxkvgynac7kl8cxccaxvkkcs26m98vj",
+    "rev": "22d7856ce0b63857d50c9aa26a8bc6bbebdf74f8",
+    "hash": "0xb9iqn9xwx8p1vx6lsd04qkwaydrysv6c6v30lmm0g2dqk2mas6",
     "skills": [
       ".claude/skills/add-compact",
       ".claude/skills/add-discord",
@@ -1998,7 +2003,7 @@
       "container/skills/slack-formatting",
       "container/skills/status"
     ],
-    "lastUpdated": "2026-04-05T22:09:49.883Z"
+    "lastUpdated": "2026-04-06T04:55:01.383Z"
   },
   {
     "source": "github:gbasin/stress-test-skill",
@@ -3792,8 +3797,8 @@
   },
   {
     "source": "github:ggprompts/my-plugins",
-    "rev": "2c759dd2eb8a4dde541c8f90421af5118d3b9156",
-    "hash": "0iz8dwfq74341rwdh6h69l0igz8b5jngj85l9drzpka4hxqnd3x8",
+    "rev": "dc9a5bac4851278b9f0961bd40262621b36bec00",
+    "hash": "00b4hwiifzwnp156fqajmvwdn53xb0lk8p0bq1sl8yq8f69rahn5",
     "skills": [
       "plugins/backend/backend-development/skills/backend-development",
       "plugins/backend/better-auth/skills/better-auth",
@@ -3849,7 +3854,7 @@
       "plugins/visual/canvas-design/skills/canvas-design",
       "plugins/visual/media-processing/skills/media-processing"
     ],
-    "lastUpdated": "2026-04-02T19:26:30.903Z"
+    "lastUpdated": "2026-04-06T04:54:36.817Z"
   },
   {
     "source": "github:ggprompts/tabzchrome",
@@ -4344,14 +4349,14 @@
   },
   {
     "source": "github:git-ai-project/git-ai",
-    "rev": "12e82031ec3340ba21f594ba78dd268486719be1",
-    "hash": "0xgc7haiql0vm8p7nhq4f6i7gjfmzjna553zcqvnkvh7cjiw26p8",
+    "rev": "476b5a4523fa3290b89b85805500377db44bb09b",
+    "hash": "0cxm1yhjrnyb29vb5llc9nvrmcz7kc4sa0y1jxnl5vga7xblny4s",
     "skills": [
       "skills/ask",
       "skills/git-ai-search",
       "skills/prompt-analysis"
     ],
-    "lastUpdated": "2026-04-05T22:09:38.201Z"
+    "lastUpdated": "2026-04-06T04:55:05.555Z"
   },
   {
     "source": "github:git-fg/thecattoolkit",
@@ -4379,12 +4384,12 @@
   },
   {
     "source": "github:gitbutlerapp/gitbutler",
-    "rev": "258a05680af05d7646ea5a13c4f374b8140d4c34",
-    "hash": "12q437800j2s3hqfmdhran0vhw4lls9x0lxn5xk6ynsm78pscgvg",
+    "rev": "6171c41db56ba5a1afa3240f1dcd0e83e0188428",
+    "hash": "0p1rp5bkbx47618hz74pw6jsnlpqldi0rkzmgvcgak2kf564v40h",
     "skills": [
       "crates/but/skill"
     ],
-    "lastUpdated": "2026-04-05T19:25:42.084Z"
+    "lastUpdated": "2026-04-06T04:55:08.633Z"
   },
   {
     "source": "github:gitdolucas/log-to-post",
@@ -4714,8 +4719,8 @@
   },
   {
     "source": "github:github/gh-aw",
-    "rev": "221904826a36fed6f8389b2feb644373a1665909",
-    "hash": "1x50lbbs46ym9wpdbpbv4pm0544zgqj1j8saqy6mbglj125pwy1s",
+    "rev": "13ac7dee59ec5127393ec22dc3f4d0f6987a3842",
+    "hash": "1xdq0c5j9nlpdc8r3myz7wl84gkw4dcryv5d3s8dwfxnmcdi9rz0",
     "skills": [
       ".github/skills/debugging-workflows",
       "skills/console-rendering",
@@ -4741,12 +4746,12 @@
       "skills/skillz-integration",
       "skills/temporary-id-safe-output"
     ],
-    "lastUpdated": "2026-04-05T19:26:40.455Z"
+    "lastUpdated": "2026-04-06T04:56:10.681Z"
   },
   {
     "source": "github:githubnext/gh-aw",
-    "rev": "221904826a36fed6f8389b2feb644373a1665909",
-    "hash": "1x50lbbs46ym9wpdbpbv4pm0544zgqj1j8saqy6mbglj125pwy1s",
+    "rev": "13ac7dee59ec5127393ec22dc3f4d0f6987a3842",
+    "hash": "1xdq0c5j9nlpdc8r3myz7wl84gkw4dcryv5d3s8dwfxnmcdi9rz0",
     "skills": [
       ".github/skills/debugging-workflows",
       "skills/console-rendering",
@@ -4772,7 +4777,7 @@
       "skills/skillz-integration",
       "skills/temporary-id-safe-output"
     ],
-    "lastUpdated": "2026-04-05T19:26:44.090Z"
+    "lastUpdated": "2026-04-06T04:56:10.785Z"
   },
   {
     "source": "github:gitroomhq/postiz-agent",
@@ -5777,8 +5782,8 @@
   },
   {
     "source": "github:gmickel/gmickel-claude-marketplace",
-    "rev": "9c4e54b99d866aad4ead133696ff29f61165c6bd",
-    "hash": "1f859mlppfdrm1h41bv2rw0c3wjqc2xpx3pf2mx8sqnr55msyfpv",
+    "rev": "9014ab7861c916fc7f85b6c3d8133f6c850c3aa5",
+    "hash": "0cipddk8k137aidp5sgrgqfhdkv9c00x3bj2sr8ryz40dm0h261c",
     "skills": [
       "plugins/flow-next/skills/browser",
       "plugins/flow-next/skills/flow-next",
@@ -5804,18 +5809,18 @@
       "plugins/flow/skills/rp-explorer",
       "plugins/flow/skills/worktree-kit"
     ],
-    "lastUpdated": "2026-04-05T16:20:12.381Z"
+    "lastUpdated": "2026-04-06T04:55:19.318Z"
   },
   {
     "source": "github:gmickel/gno",
-    "rev": "a24e055af9102d6625a1c875313dfd743504832a",
-    "hash": "07q95g5rvhh1bhiwvy9x5y4082sd8rxrp900nfyizd0p90yfl70v",
+    "rev": "39bf416cce466899a2942d891f75b6939bd89540",
+    "hash": "0hx86cxncahk07xmqbhp03zhc8sgffdbnrdkk2c5amsandlp8bw7",
     "skills": [
       ".agents/skills/dogfood",
       "assets/skill",
       "skills/gno"
     ],
-    "lastUpdated": "2026-04-05T22:09:52.247Z"
+    "lastUpdated": "2026-04-06T04:55:22.651Z"
   },
   {
     "source": "github:gmickel/my-claude-skills",
@@ -7099,18 +7104,18 @@
   },
   {
     "source": "github:gptme/gptme",
-    "rev": "1a6510eec4b9e7d699b52a358c49dafb24e0d86e",
-    "hash": "18xm1v84bpyr2hgk3x14xyy2bbbjbf4mcxznidlddx69ypvkf00b",
+    "rev": "890f35ed0a3349437a20b7477bbaa9f350c126b4",
+    "hash": "1wabjg673gcs4hhrg6vw57wgahl01r0r9ciwb07jghk657m8q6f9",
     "skills": [
       "gptme/lessons/skills/codebase-classification",
       "gptme/lessons/skills/python-repl"
     ],
-    "lastUpdated": "2026-04-05T22:09:43.389Z"
+    "lastUpdated": "2026-04-06T04:54:35.950Z"
   },
   {
     "source": "github:gptomics/bioskills",
-    "rev": "89b75eb0a4e7907bc81d1e4bd1787780dbb8540e",
-    "hash": "19zq87p0bc5p0x5hyr00vqa4ha9x9mif4hgk0a7mih9lxim8vpds",
+    "rev": "041a57d6638af4f0528f3e89f9ab77a7532642cf",
+    "hash": "12cb82hjmkqwqvb6937kizdwnzlb839sriz8a7n98ac6kyy43asw",
     "skills": [
       "alignment-files/alignment-filtering",
       "alignment-files/alignment-indexing",
@@ -7124,6 +7129,7 @@
       "alignment/alignment-io",
       "alignment/msa-parsing",
       "alignment/msa-statistics",
+      "alignment/multiple-alignment",
       "alignment/pairwise-alignment",
       "alternative-splicing/differential-splicing",
       "alternative-splicing/isoform-switching",
@@ -7240,6 +7246,7 @@
       "expression-matrix/counts-ingest",
       "expression-matrix/gene-id-mapping",
       "expression-matrix/metadata-joins",
+      "expression-matrix/normalization",
       "expression-matrix/sparse-handling",
       "flow-cytometry/bead-normalization",
       "flow-cytometry/clustering-phenotyping",
@@ -7359,8 +7366,11 @@
       "phasing-imputation/haplotype-phasing",
       "phasing-imputation/imputation-qc",
       "phasing-imputation/reference-panels",
+      "phylogenetics/bayesian-inference",
       "phylogenetics/distance-calculations",
+      "phylogenetics/divergence-dating",
       "phylogenetics/modern-tree-inference",
+      "phylogenetics/species-trees",
       "phylogenetics/tree-io",
       "phylogenetics/tree-manipulation",
       "phylogenetics/tree-visualization",
@@ -7536,7 +7546,7 @@
       "workflows/tcr-pipeline",
       "workflows/timecourse-pipeline"
     ],
-    "lastUpdated": "2026-03-30T19:22:38.069Z"
+    "lastUpdated": "2026-04-06T04:54:36.334Z"
   },
   {
     "source": "github:gpu-cli/gpu",
@@ -7588,8 +7598,8 @@
   },
   {
     "source": "github:gracefullight/stock-checker",
-    "rev": "e6a820cefd3c71fbf37318976929ffb7580256fd",
-    "hash": "12vbb2kfy45ivfkj8ilgc60dr4kqfrlgs5ix6gsac8v3rlql773s",
+    "rev": "87227811fd285e44cb51c5c5cb81d3fd605cbd03",
+    "hash": "0wyw45kahra1116l2lvfz8j1v61nhlc0jrf11vd18hw30cyb3ywx",
     "skills": [
       ".agents/skills/Financial Data Fetcher",
       ".agents/skills/backtesting-trading-strategies",
@@ -7625,7 +7635,7 @@
       ".claude/skills/tools",
       ".claude/skills/ultrawork"
     ],
-    "lastUpdated": "2026-04-05T01:26:51.138Z"
+    "lastUpdated": "2026-04-06T04:54:35.772Z"
   },
   {
     "source": "github:gradio-app/daggr",
@@ -8163,15 +8173,15 @@
   },
   {
     "source": "github:gregpr07/browser-use",
-    "rev": "de14b9aa31d167696a7ea7185d71876dbd7e6c94",
-    "hash": "0qhghy4yw19ng53k6vz15q4x1xkk44vp785ds500va7ipjwap0jw",
+    "rev": "55ca9cb27d3ae65e734207224590d705d2ab4afd",
+    "hash": "0x98y976zcm7r6i26aiizsa2fsqk6cwhxw5yp5c8fn5v8z7i2jfc",
     "skills": [
       "skills/browser-use",
       "skills/cloud",
       "skills/open-source",
       "skills/remote-browser"
     ],
-    "lastUpdated": "2026-04-03T19:19:45.357Z"
+    "lastUpdated": "2026-04-06T04:54:34.112Z"
   },
   {
     "source": "github:grenguar/node-aws-security-audit",
@@ -8214,8 +8224,8 @@
   },
   {
     "source": "github:grepug/skills",
-    "rev": "c485e0d5db95b6b19c90221e57ab0215dbe8c426",
-    "hash": "09m6c3bz4vfpcr40lf6bd4is597dgi0g1lhvky990nfgvda9svsr",
+    "rev": "7c43571610cd7479df9c1bfe78565d6313159a92",
+    "hash": "1jb0rbaj9pf5l8b1cc1b2cidp9l6089ip118c18933qs34pp0azb",
     "skills": [
       "skills/github-issue-workflow",
       "skills/module-boundary-governance",
@@ -8223,7 +8233,7 @@
       "skills/xcode-archive-release",
       "templates/skill"
     ],
-    "lastUpdated": "2026-04-03T04:59:16.315Z"
+    "lastUpdated": "2026-04-06T04:54:33.418Z"
   },
   {
     "source": "github:greyc/jules-skill",
@@ -8690,8 +8700,8 @@
   },
   {
     "source": "github:gsd-build/gsd-2",
-    "rev": "786f0ff21235cd3f142d8d92e2340b56e27267e4",
-    "hash": "1cbb4fs2fy125jrqz3nwklw808zrcn1gyf7ryl01f5xzi4lvp573",
+    "rev": "6d17baa2e4fc61ab6abd58d83f0afe6398b6a8c6",
+    "hash": "0yny4l8s9agprhs2h9xwdn9w4hhhf2jgpm0sazjpa63i0cbqir58",
     "skills": [
       "gsd-orchestrator",
       "src/resources/extensions/gsd/skills/gsd-headless",
@@ -8717,7 +8727,7 @@
       "src/resources/skills/web-design-guidelines",
       "src/resources/skills/web-quality-audit"
     ],
-    "lastUpdated": "2026-04-05T22:09:30.932Z"
+    "lastUpdated": "2026-04-06T04:54:36.126Z"
   },
   {
     "source": "github:gswangg/codex-exec",
@@ -9122,8 +9132,8 @@
   },
   {
     "source": "github:guanyang/antigravity-skills",
-    "rev": "8265579e0ca4e011507c6c814086ba744a9433c9",
-    "hash": "1q6rxpbb09qg4vpc790qsaylfwa4p5nda3g7p736n0mrlkvgdm3s",
+    "rev": "0dca6bcfa48960661ab87618e75025c0f8b36429",
+    "hash": "08xyrjsiv0l25ib2kdf0iwvpdqsv9y5g8a8iiq0gcz04bvl2xmky",
     "skills": [
       "skills/advanced-evaluation",
       "skills/algorithmic-art",
@@ -9185,7 +9195,7 @@
       "skills/xlsx",
       "template"
     ],
-    "lastUpdated": "2026-04-03T04:59:18.906Z"
+    "lastUpdated": "2026-04-06T04:54:36.784Z"
   },
   {
     "source": "github:guanyang/super-publisher",

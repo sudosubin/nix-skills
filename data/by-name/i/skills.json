@@ -97,8 +97,8 @@
   },
   {
     "source": "github:i9wa4/dotfiles",
-    "rev": "b19407cdbb68c63c5b2de6b4eb0b4c65c69442f2",
-    "hash": "1yvjfhjs3i4qsj8i5d6mfs7xsdx34fi0r5ngj9f66i4hg370l3vq",
+    "rev": "7eb30ae34def8acc88576d8d651bfecb4bd7adb8",
+    "hash": "1pdhc5igbbvx3wxsmyssq9mgfv46mkgjb9crviia8nfrmxc2gprf",
     "skills": [
       "nix/home-manager/agents/review/skills/subagent-review",
       "nix/home-manager/agents/skills/bigquery-local",
@@ -119,12 +119,12 @@
       "nix/home-manager/agents/skills/tmux",
       "nix/home-manager/agents/skills/using-git-worktrees"
     ],
-    "lastUpdated": "2026-04-05T19:25:32.810Z"
+    "lastUpdated": "2026-04-06T04:56:01.073Z"
   },
   {
     "source": "github:iOfficeAI/AionUi",
-    "rev": "04a17d971db20cef67402f19ceb4056510f0ae22",
-    "hash": "172796j5xfj996kjdl67amh39wkdg9b6538299j7aafxzlrpw0fm",
+    "rev": "a71081db245483da01183e19995bd78e19f5a84b",
+    "hash": "0irv7yw3lgh1x07lsw70amzw4fpy8gxgy8ac066sh46srxja20fh",
     "skills": [
       ".claude/skills/architecture",
       ".claude/skills/bump-version",
@@ -162,7 +162,7 @@
       "src/process/resources/skills/x-recruiter",
       "src/process/resources/skills/xiaohongshu-recruiter"
     ],
-    "lastUpdated": "2026-04-04T13:28:13.346Z"
+    "lastUpdated": "2026-04-06T04:56:34.906Z"
   },
   {
     "source": "github:iabundis29/code-review-expert",
@@ -530,11 +530,12 @@
   },
   {
     "source": "github:iancleary/dotfiles",
-    "rev": "b800d839d6e62651d14b514fdad1a35708c28bc6",
-    "hash": "12awl0pbhp48sd81cm3rl8j4infwz6z4z9li6yrq08rmsfirh072",
+    "rev": "a73dc25ae7e8df31acb66625a0f488c5270d7d3c",
+    "hash": "11vya8nj6xyd48p72ngs2fdnm2v8p1zzw8vwah76l2jg3xjrwml2",
     "skills": [
       ".agents/skills/git-push-pr",
       ".agents/skills/grill",
+      ".agents/skills/weekly-workflow-audit",
       ".claude/skills/autoresearch",
       ".claude/skills/brainstorming",
       ".claude/skills/breadboard-reflection",
@@ -572,7 +573,7 @@
       ".claude/skills/write-a-prd",
       "skills/slidev"
     ],
-    "lastUpdated": "2026-03-19T22:15:51.277Z"
+    "lastUpdated": "2026-04-06T04:55:03.551Z"
   },
   {
     "source": "github:iangcastill0/betterblood",
@@ -638,8 +639,8 @@
   },
   {
     "source": "github:ianphil/my-skills",
-    "rev": "3a9abb2f8a5e3b36cb021e31694ac60579159df7",
-    "hash": "0hcv3l099hn48z5fscgn2gynhwn32n6im88hhwwgm2mmcvvgvwdm",
+    "rev": "8b08445ebb58251e771b963491b09dd7670e4de7",
+    "hash": "15q2lsv030p13dp4a2md3fxfm4gpj7jk7vdldsyrd9g0d1nqfggx",
     "skills": [
       "ado",
       "ainotes",
@@ -649,7 +650,6 @@
       "code-walkthrough",
       "commit",
       "conversation-logging",
-      "daily-report",
       "glab",
       "implement",
       "implement-agents",
@@ -658,13 +658,15 @@
       "prime",
       "prime-feat",
       "quick-plan",
+      "reverse",
       "share-transcript",
+      "skill-creator",
       "spec-tests",
       "tmux-tdd",
       "work-plan",
       "workiq"
     ],
-    "lastUpdated": "2026-03-09T16:20:03.182Z"
+    "lastUpdated": "2026-04-06T04:55:03.485Z"
   },
   {
     "source": "github:ianshaw027/wemp-operator",
@@ -2522,14 +2524,15 @@
   },
   {
     "source": "github:inancgumus/skills",
-    "rev": "1cccc4b449d2ab283490e7b9b3c19d6c67fa06c6",
-    "hash": "00ma9ypsm99s96z5avnycphr4w0wrm2rgvj4zwmxwzpamby5d6x4",
+    "rev": "6f503958154a0bbb85579f285136601880c44a15",
+    "hash": "03xd4gazy17gg97g7fjqmsmrfmb5ydkak96qvpipfqv3fsiw8k7d",
     "skills": [
+      "flowchart",
       "handoff",
       "slack",
       "write-design-doc"
     ],
-    "lastUpdated": "2026-03-24T22:20:01.317Z"
+    "lastUpdated": "2026-04-06T04:54:41.940Z"
   },
   {
     "source": "github:inboundemail/inbound",
@@ -3945,25 +3948,35 @@
   },
   {
     "source": "github:insforge/agent-skills",
-    "rev": "0eff5c484429971980382abb19ac08f7605d975e",
-    "hash": "0fcraphjnnpfig7fm8fp1danzzrcz4v5b73wafq3qw92gid2lmv6",
+    "rev": "a2db1741872712c3d7cf290e874d325fef8ae0b7",
+    "hash": "00cbrf80sadvmz7byxsnh8yhj1i127nwf75makdh1207kb7zm9qw",
     "skills": [
       "skills/insforge",
       "skills/insforge-cli",
-      "skills/insforge-debug"
+      "skills/insforge-debug",
+      "skills/insforge-integrations/auth0",
+      "skills/insforge-integrations/clerk",
+      "skills/insforge-integrations/kinde",
+      "skills/insforge-integrations/stytch",
+      "skills/insforge-integrations/workos"
     ],
-    "lastUpdated": "2026-04-03T01:25:27.260Z"
+    "lastUpdated": "2026-04-06T04:54:58.725Z"
   },
   {
     "source": "github:insforge/insforge-skills",
-    "rev": "0eff5c484429971980382abb19ac08f7605d975e",
-    "hash": "0fcraphjnnpfig7fm8fp1danzzrcz4v5b73wafq3qw92gid2lmv6",
+    "rev": "a2db1741872712c3d7cf290e874d325fef8ae0b7",
+    "hash": "00cbrf80sadvmz7byxsnh8yhj1i127nwf75makdh1207kb7zm9qw",
     "skills": [
       "skills/insforge",
       "skills/insforge-cli",
-      "skills/insforge-debug"
+      "skills/insforge-debug",
+      "skills/insforge-integrations/auth0",
+      "skills/insforge-integrations/clerk",
+      "skills/insforge-integrations/kinde",
+      "skills/insforge-integrations/stytch",
+      "skills/insforge-integrations/workos"
     ],
-    "lastUpdated": "2026-04-03T01:25:27.237Z"
+    "lastUpdated": "2026-04-06T04:54:59.083Z"
   },
   {
     "source": "github:insight68/skills",
@@ -4511,8 +4524,8 @@
   },
   {
     "source": "github:iofficeai/aionui",
-    "rev": "04a17d971db20cef67402f19ceb4056510f0ae22",
-    "hash": "172796j5xfj996kjdl67amh39wkdg9b6538299j7aafxzlrpw0fm",
+    "rev": "a71081db245483da01183e19995bd78e19f5a84b",
+    "hash": "0irv7yw3lgh1x07lsw70amzw4fpy8gxgy8ac066sh46srxja20fh",
     "skills": [
       ".claude/skills/architecture",
       ".claude/skills/bump-version",
@@ -4550,12 +4563,12 @@
       "src/process/resources/skills/x-recruiter",
       "src/process/resources/skills/xiaohongshu-recruiter"
     ],
-    "lastUpdated": "2026-04-04T13:28:20.801Z"
+    "lastUpdated": "2026-04-06T04:55:38.674Z"
   },
   {
     "source": "github:ionfury/homelab",
-    "rev": "c85145a4395af5c16a6761d75217aedf86dec9c4",
-    "hash": "1ims3gyjprxi6z9dhz2pwm5ri5agk7qrq0cl9kixdlf7ppkx1xbp",
+    "rev": "d511361245e2650bc4e7b0f07d2daa9dc27987ff",
+    "hash": "10lgji608yflbcjgzyqhnqxbxanjk11rh9fwnq0sydz3hs8zgs3r",
     "skills": [
       ".claude/skills/app-template",
       ".claude/skills/architecture-review",
@@ -4583,7 +4596,7 @@
       ".claude/skills/terragrunt",
       ".claude/skills/versions-renovate"
     ],
-    "lastUpdated": "2026-04-05T22:10:56.934Z"
+    "lastUpdated": "2026-04-06T04:55:10.054Z"
   },
   {
     "source": "github:ioniks/markdowntaskmanager",
@@ -5954,8 +5967,8 @@
   },
   {
     "source": "github:iyaki/opencode-base-template",
-    "rev": "7dde3f91316da732732e2dfd878615c6b21de05e",
-    "hash": "0m13782icj5l3ifxfxfrznx7kdh0vg8hpc5ykclwi7g60vp6l91l",
+    "rev": "f0ea791889841f77cf959a3808afe75573b7940d",
+    "hash": "1308dnwxs3qng8aawq5s82mb5qihixiw6y2ji79vj1ygfa8p5fnp",
     "skills": [
       ".agents/skills/code-search",
       ".agents/skills/dev-browser",
@@ -5963,9 +5976,10 @@
       ".agents/skills/reddit",
       ".agents/skills/shell-command",
       ".agents/skills/skill-creator",
-      ".agents/skills/spec-creator"
+      ".agents/skills/spec-creator",
+      ".agents/skills/test-driven-development"
     ],
-    "lastUpdated": "2026-04-04T01:29:02.296Z"
+    "lastUpdated": "2026-04-06T04:55:10.182Z"
   },
   {
     "source": "github:iyaki/ralph",
@@ -6003,7 +6017,7 @@
   },
   {
     "source": "github:izyanrajwani/agent-skills-library",
-    "rev": "d47aa6ae6cf8dc0338e32e4f122ca4021f50bce6",
+    "rev": "5fc1116ed4e5e252f28e3855484e0e00174403a0",
     "hash": "15q4vkshfckasx3k15kjawba3lcai651vj4l03hf07hs0d0zpzfj",
     "skills": [
       "skills/brainstorming",
@@ -6021,7 +6035,7 @@
       "skills/writing-plans",
       "skills/writing-skills"
     ],
-    "lastUpdated": "2026-04-05T22:10:55.869Z"
+    "lastUpdated": "2026-04-06T04:55:11.817Z"
   },
   {
     "source": "github:izz520/react-starter-skill",
