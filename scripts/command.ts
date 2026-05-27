@@ -9,6 +9,7 @@ import {
   uniqBy,
 } from "es-toolkit";
 import fg from "fast-glob";
+import ky from "ky";
 import pLimit from "p-limit";
 import childProcess from "node:child_process";
 import { promises as fs } from "node:fs";
@@ -142,53 +143,46 @@ const writeJson = async (file: string, data: unknown) => {
   await fs.writeFile(file, JSON.stringify(data, null, 2) + os.EOL);
 };
 
-const fetchJson = async <T>(url: string): Promise<T> => {
-  const res = await fetch(url);
-  if (!res.ok) {
-    throw new Error(`fetch failed: ${res.status}`);
-  }
-  return res.json() as Promise<T>;
-};
+const api = ky.create({ retry: { limit: 5 } });
 
-async function* paginateSkillsSh() {
-  for (let page = 0; ; page++) {
-    console.log(`[INFO] fetching skills.sh view=all-time page=${page}`);
-    const { skills } = await retry(
-      () =>
-        fetchJson<{ skills: { skillId: string; source: string }[] }>(
-          `https://skills.sh/api/skills/all-time/${page}`,
-        ),
-      { retries: 3, delay: 1000 },
-    );
-    if (skills.length === 0) {
-      break;
-    }
-    yield* skills.map(({ source }) => `github:${source}`);
+async function* paginate<T>(
+  label: string,
+  getPage: (page: number) => Promise<T[]>,
+  startPage = 0,
+): AsyncGenerator<T> {
+  for (let page = startPage; ; page++) {
+    console.log(`[INFO] fetching ${label} page=${page}`);
+    const items = await getPage(page);
+    if (items.length === 0) break;
+    yield* items;
   }
 }
 
-async function* paginateSkillsDirectoryCom() {
-  for (let page = 1; ; page++) {
-    console.log(`[INFO] fetching skillsdirectory.com page=${page}`);
-    const { skills } = await retry(
-      () =>
-        fetchJson<{
+const paginateSkillsSh = () =>
+  paginate("skills.sh view=all-time", async (page) => {
+    const { skills } = await api
+      .get(`https://skills.sh/api/skills/all-time/${page}`)
+      .json<{ skills: { skillId: string; source: string }[] }>();
+    return skills.map(({ source }) => `github:${source}`);
+  });
+
+const paginateSkillsDirectoryCom = () =>
+  paginate(
+    "skillsdirectory.com",
+    async (page) => {
+      const { skills } = await api
+        .get(`https://www.skillsdirectory.com/api/skills?page=${page}`)
+        .json<{
           skills: {
             name: string;
             githubRepoFullName: string;
             skillFilePath: string;
           }[];
-        }>(`https://www.skillsdirectory.com/api/skills?page=${page}`),
-      { retries: 3, delay: 1000 },
-    );
-    if (skills.length === 0) {
-      break;
-    }
-    yield* skills.map(
-      ({ githubRepoFullName }) => `github:${githubRepoFullName}`,
-    );
-  }
-}
+        }>();
+      return skills.map(({ githubRepoFullName }) => `github:${githubRepoFullName}`);
+    },
+    1,
+  );
 
 const fetchAndMergeSources = async (
   sourceName: string,
