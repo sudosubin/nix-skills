@@ -143,7 +143,7 @@ const writeJson = async (file: string, data: unknown) => {
   await fs.writeFile(file, JSON.stringify(data, null, 2) + os.EOL);
 };
 
-const api = ky.create({ retry: { limit: 5 } });
+const api = ky.create({ retry: { limit: 5 }, timeout: 30_000 });
 
 async function* paginate<T>(
   label: string,
