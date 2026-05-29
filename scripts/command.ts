@@ -1,14 +1,6 @@
 import { program } from "commander";
 import { cloneRepository, openRepository } from "es-git";
-import {
-  groupBy,
-  memoize,
-  orderBy,
-  retry,
-  sortBy,
-  uniqBy,
-} from "es-toolkit";
-import fg from "fast-glob";
+import { groupBy, orderBy, retry, sortBy, uniqBy } from "es-toolkit";
 import ky from "ky";
 import pLimit from "p-limit";
 import childProcess from "node:child_process";
@@ -75,25 +67,33 @@ const skillsDirectoryPatterns = [
   ...skillToolDirs.map((tool) => new RegExp(`^\\.${tool}/skills(?:/|$)`)),
 ];
 
-const skillSearchIgnore = [
-  "**/node_modules/**",
-  "**/.git/**",
-  "**/dist/**",
-  "**/build/**",
-  "**/out/**",
-  "**/target/**",
-  "**/.next/**",
-  "**/.nuxt/**",
-  "**/.cache/**",
-  "**/coverage/**",
-  "**/vendor/**",
-  "**/__pycache__/**",
-  "**/.venv/**",
-  "**/venv/**",
-  "**/.tox/**",
-  "**/.mypy_cache/**",
-  "**/.pytest_cache/**",
-];
+const skillSearchIgnoreDirs = new Set([
+  "node_modules",
+  ".git",
+  "dist",
+  "build",
+  "out",
+  "target",
+  ".next",
+  ".nuxt",
+  ".cache",
+  "coverage",
+  "vendor",
+  "__pycache__",
+  ".venv",
+  "venv",
+  ".tox",
+  ".mypy_cache",
+  ".pytest_cache",
+  ".gradle",
+  ".idea",
+  ".bundle",
+  ".pnpm-store",
+  "bin",
+  "obj",
+  "Pods",
+  "DerivedData",
+]);
 
 const getPathPriority = (skillDir: string): number => {
   const index = skillsDirectoryPatterns.findIndex((pattern) =>
@@ -285,7 +285,7 @@ const update = async (input: {
   };
 };
 
-const getRevUsingGh = memoize(async (source: string) => {
+const getRevUsingGh = async (source: string): Promise<string | null> => {
   try {
     const { stdout } = await exec(
       `gh api "repos/${source}/commits/HEAD" --jq '.sha'`,
@@ -295,9 +295,9 @@ const getRevUsingGh = memoize(async (source: string) => {
   } catch {
     return null;
   }
-});
+};
 
-const getRevUsingGit = memoize(async (source: string) => {
+const getRevUsingGit = async (source: string): Promise<string | null> => {
   const clonePath = await cloneGitRepository(source);
   if (!clonePath) {
     return null;
@@ -310,9 +310,9 @@ const getRevUsingGit = memoize(async (source: string) => {
     console.error(`[WARN] failed to get rev using git for ${source}`);
     return null;
   }
-});
+};
 
-const cloneGitRepository = memoize(async (source: string) => {
+const cloneGitRepository = async (source: string): Promise<string | null> => {
   const clonePath = path.join(paths.cloneCache, `${source.replace("/", "--")}`);
   await fs.rm(clonePath, { recursive: true, force: true });
 
@@ -330,35 +330,55 @@ const cloneGitRepository = memoize(async (source: string) => {
     }
     throw error;
   }
-});
+};
 
-const nixPrefetch = memoize(
-  async ({ source, rev }: { source: string; rev: string }) => {
-    const url = `https://github.com/${source}/archive/${rev}.tar.gz`;
-    try {
-      const { stdout } = await retry(
-        () =>
-          exec(`nix-prefetch-url --print-path --unpack "${url}" 2>/dev/null`),
-        { retries: 3, delay: 1000 },
-      );
-      const [hash, storePath] = stdout.trim().split("\n");
-      if (!hash || !storePath) {
-        return null;
-      }
-      return { hash, storePath };
-    } catch (error) {
-      console.error(`[WARN] nix-prefetch-url failed for ${source}: ${error}`);
+const nixPrefetch = async ({
+  source,
+  rev,
+}: {
+  source: string;
+  rev: string;
+}): Promise<{ hash: string; storePath: string } | null> => {
+  const url = `https://github.com/${source}/archive/${rev}.tar.gz`;
+  try {
+    const { stdout } = await retry(
+      () => exec(`nix-prefetch-url --print-path --unpack "${url}" 2>/dev/null`),
+      { retries: 3, delay: 1000 },
+    );
+    const [hash, storePath] = stdout.trim().split("\n");
+    if (!hash || !storePath) {
       return null;
     }
-  },
-);
+    return { hash, storePath };
+  } catch (error) {
+    console.error(`[WARN] nix-prefetch-url failed for ${source}: ${error}`);
+    return null;
+  }
+};
 
 const findAllSkills = async (storePath: string): Promise<string[]> => {
-  return await fg.async("**/SKILL.md", {
-    cwd: storePath,
-    dot: true,
-    ignore: skillSearchIgnore,
-  });
+  const results: string[] = [];
+
+  const walk = async (absDir: string, relDir: string): Promise<void> => {
+    let entries;
+    try {
+      entries = await fs.readdir(absDir, { withFileTypes: true });
+    } catch {
+      return;
+    }
+    for (const entry of entries) {
+      if (entry.isDirectory()) {
+        if (skillSearchIgnoreDirs.has(entry.name)) continue;
+        const nextRel = relDir ? `${relDir}/${entry.name}` : entry.name;
+        await walk(path.join(absDir, entry.name), nextRel);
+      } else if (entry.isFile() && entry.name === "SKILL.md") {
+        results.push(relDir ? `${relDir}/SKILL.md` : "SKILL.md");
+      }
+    }
+  };
+
+  await walk(storePath, "");
+  return results;
 };
 
 program
