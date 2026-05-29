@@ -27,7 +27,7 @@ interface RepoSkills {
   lastUpdated: string;
 }
 
-const limit = pLimit(10);
+const limit = pLimit(2);
 const root = path.join(import.meta.dirname, "..", "data");
 
 const paths = {
@@ -112,6 +112,18 @@ const readAllRepoSkills = async (): Promise<RepoSkills[]> => {
   const skills = await Promise.all(
     dirs.map((dir) =>
       readJson<RepoSkills[]>(path.join(paths.byName, dir, "skills.json")),
+    ),
+  );
+  return skills.flat();
+};
+
+const readRepoSkillsForSources = async (
+  sources: string[],
+): Promise<RepoSkills[]> => {
+  const prefixes = [...new Set(sources.map(getSourcePrefix))];
+  const skills = await Promise.all(
+    prefixes.map((prefix) =>
+      readJson<RepoSkills[]>(path.join(paths.byName, prefix, "skills.json")),
     ),
   );
   return skills.flat();
@@ -208,6 +220,13 @@ const update = async (input: {
 }): Promise<RepoSkills | null> => {
   const { source, prev } = input;
   const { owner, repo } = parseSource(source);
+
+  const m = process.memoryUsage();
+  const mb = (n: number) => Math.round(n / 1024 / 1024);
+  console.log(
+    `[MEM] ${source} heap=${mb(m.heapUsed)}/${mb(m.heapTotal)} ` +
+      `ext=${mb(m.external)} ab=${mb(m.arrayBuffers)} rss=${mb(m.rss)}`,
+  );
 
   const rev =
     (await getRevUsingGh(`${owner}/${repo}`)) ||
@@ -357,7 +376,7 @@ program
 
     const repos = chunk(sources, index - 1, size);
     console.log(`[INFO] load sharded repos: ${repos.length}`);
-    const previous = await readAllRepoSkills();
+    const previous = await readRepoSkillsForSources(repos);
     const previousMap = new Map(previous.map((s) => [s.source, s]));
 
     const data = (
@@ -365,7 +384,9 @@ program
         repos.map((source) =>
           limit(async () => {
             const prev = previousMap.get(source);
-            return update({ source, prev });
+            const result = await update({ source, prev });
+            global.gc?.();
+            return result;
           }),
         ),
       )
