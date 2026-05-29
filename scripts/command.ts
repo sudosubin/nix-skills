@@ -245,12 +245,7 @@ const update = async (input: {
   const { source, prev } = input;
   const { owner, repo } = parseSource(source);
 
-  const m = process.memoryUsage();
-  const mb = (n: number) => Math.round(n / 1024 / 1024);
-  console.log(
-    `[MEM] ${source} heap=${mb(m.heapUsed)}/${mb(m.heapTotal)} ` +
-      `ext=${mb(m.external)} ab=${mb(m.arrayBuffers)} rss=${mb(m.rss)}`,
-  );
+  console.log(`[INFO] processing ${source}`);
 
   const rev =
     (await getRevUsingGh(`${owner}/${repo}`)) ||
