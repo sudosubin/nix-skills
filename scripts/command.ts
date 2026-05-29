@@ -39,36 +39,60 @@ const paths = {
   cloneCache: "/tmp/nix-skills-git-clone-cache",
 };
 
+const skillToolDirs = [
+  "agent",
+  "agents",
+  "claude",
+  "cline",
+  "codebuddy",
+  "codex",
+  "commandcode",
+  "continue",
+  "github",
+  "goose",
+  "iflow",
+  "junie",
+  "kilocode",
+  "kiro",
+  "mux",
+  "neovate",
+  "opencode",
+  "openhands",
+  "pi",
+  "qoder",
+  "roo",
+  "trae",
+  "windsurf",
+  "zencoder",
+];
+
 const skillsDirectoryPatterns = [
   /^(?:\.|(?:\.\/)?[^/]+)$/,
   /^skills(?:\/|$)/,
   /^skills\/\.curated(?:\/|$)/,
   /^skills\/\.experimental(?:\/|$)/,
   /^skills\/\.system(?:\/|$)/,
-  /^\.agent\/skills(?:\/|$)/,
-  /^\.agents\/skills(?:\/|$)/,
-  /^\.claude\/skills(?:\/|$)/,
-  /^\.cline\/skills(?:\/|$)/,
-  /^\.codebuddy\/skills(?:\/|$)/,
-  /^\.codex\/skills(?:\/|$)/,
-  /^\.commandcode\/skills(?:\/|$)/,
-  /^\.continue\/skills(?:\/|$)/,
-  /^\.github\/skills(?:\/|$)/,
-  /^\.goose\/skills(?:\/|$)/,
-  /^\.iflow\/skills(?:\/|$)/,
-  /^\.junie\/skills(?:\/|$)/,
-  /^\.kilocode\/skills(?:\/|$)/,
-  /^\.kiro\/skills(?:\/|$)/,
-  /^\.mux\/skills(?:\/|$)/,
-  /^\.neovate\/skills(?:\/|$)/,
-  /^\.opencode\/skills(?:\/|$)/,
-  /^\.openhands\/skills(?:\/|$)/,
-  /^\.pi\/skills(?:\/|$)/,
-  /^\.qoder\/skills(?:\/|$)/,
-  /^\.roo\/skills(?:\/|$)/,
-  /^\.trae\/skills(?:\/|$)/,
-  /^\.windsurf\/skills(?:\/|$)/,
-  /^\.zencoder\/skills(?:\/|$)/,
+  ...skillToolDirs.map((tool) => new RegExp(`^\\.${tool}/skills(?:/|$)`)),
+];
+
+const skillSearchIgnore = [
+  "**/node_modules/**",
+  "**/.git/**",
+  "**/dist/**",
+  "**/build/**",
+  "**/out/**",
+  "**/target/**",
+  "**/.next/**",
+  "**/.nuxt/**",
+  "**/.cache/**",
+  "**/coverage/**",
+  "**/vendor/**",
+  "**/__pycache__/**",
+  "**/.venv/**",
+  "**/venv/**",
+  "**/.tox/**",
+  "**/.mypy_cache/**",
+  "**/.pytest_cache/**",
 ];
 
 const getPathPriority = (skillDir: string): number => {
@@ -330,9 +354,11 @@ const nixPrefetch = memoize(
 );
 
 const findAllSkills = async (storePath: string): Promise<string[]> => {
-  const pattern = path.join(storePath, "**/SKILL.md");
-  const files = await fg.async(pattern, { dot: true });
-  return files.map((file) => path.relative(storePath, file));
+  return await fg.async("**/SKILL.md", {
+    cwd: storePath,
+    dot: true,
+    ignore: skillSearchIgnore,
+  });
 };
 
 program
