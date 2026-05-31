@@ -42,8 +42,8 @@
   },
   {
     "source": "github:GPTomics/bioSkills",
-    "rev": "323eb09e59ce11015e53bb58b2713f88d0b80e1f",
-    "hash": "0r0lijv4ra7nzqqxamn3g64zqph7jvszq5l92k9g5x6jq0wxkvcl",
+    "rev": "9d6e8d9ee9cd942c8075ff710dbdac0f2c590296",
+    "hash": "0qaymd1k3bzspi5cdhsk28cblm91zvs6frn2bwxds10q8mks08gg",
     "skills": [
       "alignment-files/alignment-amplicon-clipping",
       "alignment-files/alignment-filtering",
@@ -308,6 +308,7 @@
       "genome-intervals/coverage-analysis",
       "genome-intervals/gtf-gff-handling",
       "genome-intervals/interval-arithmetic",
+      "genome-intervals/overlap-significance",
       "genome-intervals/proximity-operations",
       "hi-c-analysis/compartment-analysis",
       "hi-c-analysis/contact-pairs",
@@ -568,7 +569,7 @@
       "workflows/tcr-pipeline",
       "workflows/timecourse-pipeline"
     ],
-    "lastUpdated": "2026-05-30T14:13:56.943Z"
+    "lastUpdated": "2026-05-31T02:41:55.198Z"
   },
   {
     "source": "github:GRCEngClub/claude-grc-engineering",
@@ -45891,13 +45892,13 @@
   },
   {
     "source": "github:garfiec/Librechat-Mobile",
-    "rev": "6e9d447951c9465b4aff786279ee7414d89b8cc0",
-    "hash": "1l11a9jg97vy3vlcy77fpb98212iw4hd99b01wklxz969fjmaxbd",
+    "rev": "fdd07676382ad313dd61dd714a91b51ccc84f8f8",
+    "hash": "1wdyyyv22gfa9w0cywxpqavsb5jj8h0qr4jyjkshx91ikgl7prwg",
     "skills": [
       ".claude/skills/audit-deps",
       ".claude/skills/sync-upstream"
     ],
-    "lastUpdated": "2026-05-30T23:08:49.687Z"
+    "lastUpdated": "2026-05-31T02:42:33.400Z"
   },
   {
     "source": "github:garfield-bb/hap-skills-collection",
@@ -46129,12 +46130,12 @@
   },
   {
     "source": "github:gastownhall/beads",
-    "rev": "45ad2e41a875cf7cefe2fd4765ff37a46350292d",
-    "hash": "0j0y1zi1wk4jd0d5hhhz02366i0zr7l0drjqlr2izrf93895rcmh",
+    "rev": "848d0d7b6c933a00bd3d06a9a7c2de4368a2a8db",
+    "hash": "1mibdijwxyfqnjwcp813ws90kr5a5fj1rmlrkqwn8kagsfiky0hd",
     "skills": [
       "internal/templates/skills/beads"
     ],
-    "lastUpdated": "2026-05-30T23:08:53.724Z"
+    "lastUpdated": "2026-05-31T02:42:41.707Z"
   },
   {
     "source": "github:gate/gate-skills",
@@ -47975,8 +47976,8 @@
   },
   {
     "source": "github:getpaseo/paseo",
-    "rev": "17aa957d3e6bef4fc7d0fb5dcdb63c7b6def5ed7",
-    "hash": "071v6h31xjbvx1q06cy27xz4qmwj7p4bvy62kvpb9nfhpap5f6yd",
+    "rev": "41cb1af036652a688a2ec9566df5a0438eee805e",
+    "hash": "0k9nd3gasqhsqkn1s4fz1l8hriipwj5al443ynhnbn7pz0qvsgwp",
     "skills": [
       ".agents/skills/release-beta",
       ".agents/skills/release-stable",
@@ -47988,7 +47989,7 @@
       "skills/paseo-loop",
       "skills/paseo-orchestrate"
     ],
-    "lastUpdated": "2026-05-30T16:57:28.248Z"
+    "lastUpdated": "2026-05-31T02:42:23.417Z"
   },
   {
     "source": "github:getsentry/XcodeBuildMCP",
@@ -49686,8 +49687,8 @@
   },
   {
     "source": "github:github/gh-aw",
-    "rev": "fd740c1f882f7ddde3322942390f9baeb1ec1c0e",
-    "hash": "1i3vdvmby9iyx5zbnqb1m2hsqw90j0i108pk10mfgfmibbydzmr8",
+    "rev": "3628a8eaa88d16fff3e6681731cee95a1fb2e94c",
+    "hash": "050nmlzrbxh53binvrvay21pghxfk3p2gargn5b0yzrzg4h4ik91",
     "skills": [
       ".",
       ".claude/skills/playwright-cli",
@@ -49711,6 +49712,7 @@
       ".github/skills/github-pr-query",
       ".github/skills/github-script",
       ".github/skills/github-workflows-query",
+      ".github/skills/go-codemod",
       ".github/skills/go-linters",
       ".github/skills/http-mcp-headers",
       ".github/skills/javascript-refactoring",
@@ -49723,7 +49725,7 @@
       ".github/skills/ssl",
       ".github/skills/temporary-id-safe-output"
     ],
-    "lastUpdated": "2026-05-30T23:11:49.619Z"
+    "lastUpdated": "2026-05-31T02:42:39.297Z"
   },
   {
     "source": "github:github/gh-stack",
@@ -49764,8 +49766,8 @@
   },
   {
     "source": "github:githubnext/gh-aw",
-    "rev": "fd740c1f882f7ddde3322942390f9baeb1ec1c0e",
-    "hash": "1i3vdvmby9iyx5zbnqb1m2hsqw90j0i108pk10mfgfmibbydzmr8",
+    "rev": "3628a8eaa88d16fff3e6681731cee95a1fb2e94c",
+    "hash": "050nmlzrbxh53binvrvay21pghxfk3p2gargn5b0yzrzg4h4ik91",
     "skills": [
       ".",
       ".claude/skills/playwright-cli",
@@ -49789,6 +49791,7 @@
       ".github/skills/github-pr-query",
       ".github/skills/github-script",
       ".github/skills/github-workflows-query",
+      ".github/skills/go-codemod",
       ".github/skills/go-linters",
       ".github/skills/http-mcp-headers",
       ".github/skills/javascript-refactoring",
@@ -49801,7 +49804,7 @@
       ".github/skills/ssl",
       ".github/skills/temporary-id-safe-output"
     ],
-    "lastUpdated": "2026-05-30T23:11:53.570Z"
+    "lastUpdated": "2026-05-31T02:42:40.184Z"
   },
   {
     "source": "github:gitroomhq/postiz-agent",
@@ -52725,13 +52728,13 @@
   },
   {
     "source": "github:gptme/gptme",
-    "rev": "969e9accf9a3844d88a27555b4ba0746b0844e49",
-    "hash": "1fsssx7qlyhi0vknc696dci1y6ygcdjl13kxqvf9rf8rx9qwxid3",
+    "rev": "22164215c6946169f3338974166a427743546d02",
+    "hash": "0z1cm82bs4wcg6slipvap3pd2zp9z4ll70spm3r408indpdiqc2c",
     "skills": [
       "gptme/lessons/skills/codebase-classification",
       "gptme/lessons/skills/python-repl"
     ],
-    "lastUpdated": "2026-05-30T23:10:11.657Z"
+    "lastUpdated": "2026-05-31T02:43:26.702Z"
   },
   {
     "source": "github:gptomics/bioskills",
@@ -53385,8 +53388,8 @@
   },
   {
     "source": "github:gracefullight/stock-checker",
-    "rev": "1f0c461d6efdbf57f4280632c7a46a334feee205",
-    "hash": "1x6mjjhjjx5h6nyf5y7vs50cj971vwjfd3097piqqjsizg1fqd7g",
+    "rev": "a859bddc51e257279e7abf2fbc4877831aaefebe",
+    "hash": "1qy50vhi53rwb71xqh5j90b80zvrm99bpmf66nvacm1zznafc2qc",
     "skills": [
       ".agents/skills/Financial Data Fetcher",
       ".agents/skills/backtesting-trading-strategies",
@@ -53422,7 +53425,7 @@
       ".claude/skills/tools",
       ".claude/skills/ultrawork"
     ],
-    "lastUpdated": "2026-05-30T06:07:46.521Z"
+    "lastUpdated": "2026-05-31T02:43:27.550Z"
   },
   {
     "source": "github:gradio-app/daggr",
@@ -53620,8 +53623,8 @@
   },
   {
     "source": "github:gramiojs/documentation",
-    "rev": "3811f90e9759a6eacfd772cf94ced24a15571dd2",
-    "hash": "0gvy51scqn7k6zgh5s6jl1mi4a9wqvfc6zmawx6i9w1czd2xdm28",
+    "rev": "3b986e19436601783acdbce5a29842895aac9b94",
+    "hash": "09m5mm8683nrxjwb53s00nsm8bz27fpzf4sswc14qdy4iwj53lz4",
     "skills": [
       ".claude/skills/add-doc-page",
       ".claude/skills/add-plugin-doc",
@@ -53633,7 +53636,7 @@
       "skills",
       "skills/gramio-pick-username"
     ],
-    "lastUpdated": "2026-05-29T17:11:16.905Z"
+    "lastUpdated": "2026-05-31T02:43:44.457Z"
   },
   {
     "source": "github:grandcamel/GitLab-Assistant-Skills",
@@ -54723,12 +54726,12 @@
   },
   {
     "source": "github:gryszzz/Kaspa-Ai-Agent-Skill",
-    "rev": "416f3736425d0e920a2dca2ebce4d78c8244c132",
-    "hash": "0s9fslzdjj10ia17x1k6l26axrq6j36myigfppq61ldc0b3w5n61",
+    "rev": "d0f35092a422280158f3dd87b75143ee92f37be6",
+    "hash": "0h074ddc0k3jhqvabb8mn56lmn13wpk6nl1p5r3hawkr7v56khs3",
     "skills": [
       "skills/public/kaspa-sovereign-architect-engine"
     ],
-    "lastUpdated": "2026-05-29T17:09:13.075Z"
+    "lastUpdated": "2026-05-31T02:43:34.978Z"
   },
   {
     "source": "github:gsaranti/pantheon",
@@ -54835,8 +54838,8 @@
   },
   {
     "source": "github:gtapps/claude-code-hermit",
-    "rev": "f5297b0d27e8f642be3391a985390637445c09c6",
-    "hash": "159smyz9d9cs507d90cd0nyc0js90da82f1l7k1p8gz4malca6w9",
+    "rev": "42e177203cbfbf713b5413b1b7aa52be052bcb9e",
+    "hash": "0rkcnz4mjnzrp4rf6d7b9hxmgz8vi17qrxvj0vfi2ha3qx62yw3m",
     "skills": [
       ".claude/skills/bump-core-req",
       ".claude/skills/commit",
@@ -54853,6 +54856,7 @@
       "plugins/claude-code-fitness-hermit/skills/activity-deep-dive",
       "plugins/claude-code-fitness-hermit/skills/capture-activity-rpe",
       "plugins/claude-code-fitness-hermit/skills/set-rpe",
+      "plugins/claude-code-fitness-hermit/skills/weekly-coaching-patterns",
       "plugins/claude-code-hermit/skills/brief",
       "plugins/claude-code-hermit/skills/capability-brainstorm",
       "plugins/claude-code-hermit/skills/channel-responder",
@@ -54894,7 +54898,7 @@
       "plugins/claude-code-homeassistant-hermit/skills/ha-safety-audit",
       "plugins/hermit-scribe/skills/hermit-scribe"
     ],
-    "lastUpdated": "2026-05-29T17:09:20.065Z"
+    "lastUpdated": "2026-05-31T02:43:39.046Z"
   },
   {
     "source": "github:gtapps/voice-channel",
