@@ -1,8 +1,8 @@
 [
   {
     "source": "github:K-Dense-AI/claude-scientific-skills",
-    "rev": "effb57c5699c1d400ef461a7aa80fc6693939805",
-    "hash": "06rapmsppnbzjs57mfpnym5pnsf0972m3in5agvggb95n5aiiwd7",
+    "rev": "93124850ef08487e423165554c54f0b333d5631d",
+    "hash": "0il1mfpd11nsq47i2w7ccjh4lcf8xz9d5dnqam3ws7iaqr70rpb9",
     "skills": [
       "skills/adaptyv",
       "skills/aeon",
@@ -148,12 +148,12 @@
       "skills/xlsx",
       "skills/zarr-python"
     ],
-    "lastUpdated": "2026-05-29T17:07:55.440Z"
+    "lastUpdated": "2026-06-01T12:57:14.748Z"
   },
   {
     "source": "github:K-Dense-AI/scientific-agent-skills",
-    "rev": "effb57c5699c1d400ef461a7aa80fc6693939805",
-    "hash": "06rapmsppnbzjs57mfpnym5pnsf0972m3in5agvggb95n5aiiwd7",
+    "rev": "93124850ef08487e423165554c54f0b333d5631d",
+    "hash": "0il1mfpd11nsq47i2w7ccjh4lcf8xz9d5dnqam3ws7iaqr70rpb9",
     "skills": [
       "skills/adaptyv",
       "skills/aeon",
@@ -299,7 +299,7 @@
       "skills/xlsx",
       "skills/zarr-python"
     ],
-    "lastUpdated": "2026-05-29T17:07:55.485Z"
+    "lastUpdated": "2026-06-01T12:57:14.695Z"
   },
   {
     "source": "github:K9i-0/ccpocket",
@@ -686,12 +686,12 @@
   },
   {
     "source": "github:Kayunangka/claude-skill",
-    "rev": "c3edfd0647ef2579d430ca3f7746a3bd4a778658",
+    "rev": "3526830a4232dfa3dd21c39c1851c77d9cfc8b14",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-06-01T09:32:10.731Z"
+    "lastUpdated": "2026-06-01T12:57:20.315Z"
   },
   {
     "source": "github:KevinBatdorf/anna",
@@ -1414,13 +1414,212 @@
   },
   {
     "source": "github:Klotzkette/claude-fuer-deutsches-recht",
-    "rev": "842b877fe12ff4d9d65d36bea47e7bdba9fd2c66",
-    "hash": "1r5dlkd3plmq40wm7lbwnbkz3w4y4kbh2fjv9i5x8dahfpcq8172",
+    "rev": "ed140d6e193faeb83673b32db6aeeeeb6d55bc65",
+    "hash": "0b2yi9x2cqgrvcv7lk0j12zay4j3zr7ia16l2h3gb90maj8rb4z3",
     "skills": [
+      "agb-recht-pruefer/skills/abmahnung-reagieren",
+      "agb-recht-pruefer/skills/abnahme-testing",
+      "agb-recht-pruefer/skills/abtretung",
+      "agb-recht-pruefer/skills/adversarial-test-agb",
+      "agb-recht-pruefer/skills/aenderungsvorbehalt-308",
+      "agb-recht-pruefer/skills/agb-begriff-vorformuliert-305",
+      "agb-recht-pruefer/skills/agb-entwurf-kaltstart",
+      "agb-recht-pruefer/skills/agb-pruefung-kaltstart",
+      "agb-recht-pruefer/skills/agb-risikoklassifizierung-ampel",
+      "agb-recht-pruefer/skills/agb-versionierung-aenderungshistorie",
+      "agb-recht-pruefer/skills/agentur-marketing-agb",
+      "agb-recht-pruefer/skills/allgemein",
+      "agb-recht-pruefer/skills/annahmefrist-leistungsfrist-308",
+      "agb-recht-pruefer/skills/app-agb",
+      "agb-recht-pruefer/skills/arbeitsrecht-agb-310-abs4",
+      "agb-recht-pruefer/skills/architekten-ingenieur-agb",
+      "agb-recht-pruefer/skills/auditrechte",
+      "agb-recht-pruefer/skills/aufrechnung-zurueckbehaltung-309",
+      "agb-recht-pruefer/skills/automatische-verlaengerung",
+      "agb-recht-pruefer/skills/avv-und-agb-schnittstelle",
+      "agb-recht-pruefer/skills/b2b-harte-fassung",
+      "agb-recht-pruefer/skills/b2c-b2b-b2b2c-rollencheck",
+      "agb-recht-pruefer/skills/backup-datenverlust",
+      "agb-recht-pruefer/skills/bank-agb",
+      "agb-recht-pruefer/skills/battle-of-forms-agb-kollision",
+      "agb-recht-pruefer/skills/bau-vob-agb",
+      "agb-recht-pruefer/skills/beweislast-und-zugang-309",
+      "agb-recht-pruefer/skills/bewertung-rezensionen",
+      "agb-recht-pruefer/skills/bildungs-kurs-agb",
+      "agb-recht-pruefer/skills/board-brief-agb",
+      "agb-recht-pruefer/skills/bonitaetspruefung",
+      "agb-recht-pruefer/skills/bonus-rabatt",
+      "agb-recht-pruefer/skills/business-summary-agb",
+      "agb-recht-pruefer/skills/change-request",
+      "agb-recht-pruefer/skills/clickwrap-beweisakte",
+      "agb-recht-pruefer/skills/cloud-hosting-agb",
+      "agb-recht-pruefer/skills/compliance-sanktionen",
+      "agb-recht-pruefer/skills/consulting-agb",
+      "agb-recht-pruefer/skills/crowdfunding-agb",
+      "agb-recht-pruefer/skills/crypto-exchange-agb",
+      "agb-recht-pruefer/skills/darlehen-finanzierung-agb",
+      "agb-recht-pruefer/skills/datenexport-portabilitaet",
+      "agb-recht-pruefer/skills/datenschutzverweise-agb",
+      "agb-recht-pruefer/skills/definitionen-glossar-agb",
+      "agb-recht-pruefer/skills/deutsch-englisch-agb",
+      "agb-recht-pruefer/skills/digitale-inhalte-services",
+      "agb-recht-pruefer/skills/dokumentation-handbuch",
+      "agb-recht-pruefer/skills/dokumentenfamilie-rangfolge",
+      "agb-recht-pruefer/skills/ecommerce-shop-agb",
+      "agb-recht-pruefer/skills/eigentumsvorbehalt",
+      "agb-recht-pruefer/skills/einbeziehung-hinweis-kenntnisnahme-305",
+      "agb-recht-pruefer/skills/einbeziehung-online-clickwrap-browsewrap",
+      "agb-recht-pruefer/skills/einkaufsbedingungen-b2b",
+      "agb-recht-pruefer/skills/einstweilige-verfuegung-agb",
+      "agb-recht-pruefer/skills/energieversorgung-agb",
+      "agb-recht-pruefer/skills/entgelt-nebenkosten-service-fees",
+      "agb-recht-pruefer/skills/erganzende-vertragsauslegung-agb-luecke",
+      "agb-recht-pruefer/skills/exklusivitaet",
+      "agb-recht-pruefer/skills/factoring-agb",
+      "agb-recht-pruefer/skills/feedback-rechte",
+      "agb-recht-pruefer/skills/fiktive-erklaerung-zustimmung-308",
+      "agb-recht-pruefer/skills/fitnessstudio-agb",
+      "agb-recht-pruefer/skills/force-majeure-hoehere-gewalt",
+      "agb-recht-pruefer/skills/formulararbeitsvertrag",
+      "agb-recht-pruefer/skills/formvorgaben-anzeigen-erklaerungen-309",
+      "agb-recht-pruefer/skills/forschung-entwicklung-agb",
+      "agb-recht-pruefer/skills/fragebogen-agb-automation",
+      "agb-recht-pruefer/skills/franchise-agb",
+      "agb-recht-pruefer/skills/gaming-agb",
+      "agb-recht-pruefer/skills/garantie-beschaffenheit",
+      "agb-recht-pruefer/skills/gerichtsstand",
+      "agb-recht-pruefer/skills/gesellschaftsrechtliche-satzungen-agb-abgrenzung",
+      "agb-recht-pruefer/skills/gesetzliches-leitbild-abweichung-307",
+      "agb-recht-pruefer/skills/gewahrleistung-ausschluss",
+      "agb-recht-pruefer/skills/gewerbemiete-agb",
+      "agb-recht-pruefer/skills/haendlervertrag-agb",
+      "agb-recht-pruefer/skills/haftung-grobe-fahrlaessigkeit-vorsatz",
+      "agb-recht-pruefer/skills/haftung-indirekte-schaeden",
+      "agb-recht-pruefer/skills/haftung-leben-koerper-gesundheit-309",
+      "agb-recht-pruefer/skills/haftungscap-summe",
+      "agb-recht-pruefer/skills/handelsvertreter-agb",
+      "agb-recht-pruefer/skills/indexierung",
+      "agb-recht-pruefer/skills/individualabrede-305b",
+      "agb-recht-pruefer/skills/individualklage-verteidigung",
+      "agb-recht-pruefer/skills/inhaltskontrolle-307-generalklausel",
+      "agb-recht-pruefer/skills/insolvenzverkauf-agb",
+      "agb-recht-pruefer/skills/ip-nutzungsrechte",
+      "agb-recht-pruefer/skills/kardinalpflichten",
+      "agb-recht-pruefer/skills/ki-output-nutzung",
+      "agb-recht-pruefer/skills/ki-service-agb",
+      "agb-recht-pruefer/skills/klausel-checkliste-self-service",
+      "agb-recht-pruefer/skills/klausel-entwerfen-aggressiv",
+      "agb-recht-pruefer/skills/klausel-entwerfen-balanced",
+      "agb-recht-pruefer/skills/klausel-entwerfen-low-risk",
+      "agb-recht-pruefer/skills/klauselbibliothek-aufbau",
+      "agb-recht-pruefer/skills/klauselinventar-und-scope",
+      "agb-recht-pruefer/skills/klauselvarianten-vergleich",
+      "agb-recht-pruefer/skills/klauselverbote-308-systematik",
+      "agb-recht-pruefer/skills/klauselverbote-309-systematik",
+      "agb-recht-pruefer/skills/kollisionsrecht-ipr-agb",
+      "agb-recht-pruefer/skills/konto-kuendigung-sperre",
+      "agb-recht-pruefer/skills/konzernklausel",
+      "agb-recht-pruefer/skills/kuendigung-aus-wichtigem-grund",
+      "agb-recht-pruefer/skills/kuendigung-ordentlich",
+      "agb-recht-pruefer/skills/kuendigungsfiktion-und-nachfrist-308",
+      "agb-recht-pruefer/skills/kurzfristige-preiserhoehung-309",
+      "agb-recht-pruefer/skills/lagerbedingungen",
+      "agb-recht-pruefer/skills/laufzeit-verlaengerung-309",
+      "agb-recht-pruefer/skills/leasing-agb",
+      "agb-recht-pruefer/skills/legal-note-redline-output",
+      "agb-recht-pruefer/skills/leistungsaenderung-produktupdate",
+      "agb-recht-pruefer/skills/lieferfrist-teillieferung",
+      "agb-recht-pruefer/skills/liquidated-damages",
+      "agb-recht-pruefer/skills/logistik-spedition-agb",
+      "agb-recht-pruefer/skills/maengelrechte-309",
+      "agb-recht-pruefer/skills/mandanteninterview-agb",
+      "agb-recht-pruefer/skills/mandantenmail-agb",
+      "agb-recht-pruefer/skills/marketplace-agb",
+      "agb-recht-pruefer/skills/massenschaden-datenmodell",
+      "agb-recht-pruefer/skills/mediation-escalation",
+      "agb-recht-pruefer/skills/medizinische-leistungen-agb",
+      "agb-recht-pruefer/skills/mehrdeutigkeit-305c2",
+      "agb-recht-pruefer/skills/mehrsprachige-agb-check",
+      "agb-recht-pruefer/skills/mindestabnahme",
+      "agb-recht-pruefer/skills/mitwirkungspflichten",
+      "agb-recht-pruefer/skills/msa-rahmenvertrag",
+      "agb-recht-pruefer/skills/nacherfuellung-vorrang",
+      "agb-recht-pruefer/skills/nda-standardbedingungen",
+      "agb-recht-pruefer/skills/negative-feststellung-agb",
+      "agb-recht-pruefer/skills/non-solicitation",
+      "agb-recht-pruefer/skills/norm-live-check-gesetze-im-internet",
+      "agb-recht-pruefer/skills/open-source-komponenten",
+      "agb-recht-pruefer/skills/parking-mobility-agb",
+      "agb-recht-pruefer/skills/plain-language-politur",
+      "agb-recht-pruefer/skills/plattform-und-online-checkout",
+      "agb-recht-pruefer/skills/preisanpassung-klausel",
+      "agb-recht-pruefer/skills/product-counsel-workflow",
+      "agb-recht-pruefer/skills/quality-gate-vor-rollout",
+      "agb-recht-pruefer/skills/rangfolge-sprache",
+      "agb-recht-pruefer/skills/rechtsfolge-306-kein-blue-pencil",
+      "agb-recht-pruefer/skills/rechtsfolgen-rueckabwicklung-agb",
+      "agb-recht-pruefer/skills/rechtswahl",
+      "agb-recht-pruefer/skills/red-team-gegneransicht-agb",
+      "agb-recht-pruefer/skills/redline-kommentar-agb",
+      "agb-recht-pruefer/skills/referenznennung",
+      "agb-recht-pruefer/skills/reisebedingungen",
+      "agb-recht-pruefer/skills/reseller-agb",
+      "agb-recht-pruefer/skills/risk-acceptance-memo",
+      "agb-recht-pruefer/skills/rollout-mail-bestandskunden",
+      "agb-recht-pruefer/skills/rollout-monitoring-agb",
+      "agb-recht-pruefer/skills/ruegeobliegenheit",
+      "agb-recht-pruefer/skills/saas-agb",
+      "agb-recht-pruefer/skills/salvatorische-klausel",
+      "agb-recht-pruefer/skills/schadenspauschale-309",
+      "agb-recht-pruefer/skills/schiedsgericht",
+      "agb-recht-pruefer/skills/schriftform-textform",
+      "agb-recht-pruefer/skills/security-incidents",
+      "agb-recht-pruefer/skills/sicherungsrechte",
+      "agb-recht-pruefer/skills/sla-service-credits",
+      "agb-recht-pruefer/skills/social-media-agb",
+      "agb-recht-pruefer/skills/softwarelizenz-agb",
+      "agb-recht-pruefer/skills/sperrung-suspendierung",
+      "agb-recht-pruefer/skills/steuern-umsatzsteuer",
+      "agb-recht-pruefer/skills/stummer-upload-agb-dokumente",
+      "agb-recht-pruefer/skills/subscription-abonnement",
+      "agb-recht-pruefer/skills/subscription-box-agb",
+      "agb-recht-pruefer/skills/subunternehmer",
+      "agb-recht-pruefer/skills/support-response-times",
+      "agb-recht-pruefer/skills/telekommunikation-agb",
+      "agb-recht-pruefer/skills/transparenzgebot-307",
+      "agb-recht-pruefer/skills/ueberraschende-klausel-305c",
+      "agb-recht-pruefer/skills/uklag-unterlassung-verbandsklage",
+      "agb-recht-pruefer/skills/unterlassungserklaerung-modifizieren",
+      "agb-recht-pruefer/skills/unternehmerverkehr-310-abs1",
+      "agb-recht-pruefer/skills/unternehmerverkehr-schnellcheck",
+      "agb-recht-pruefer/skills/user-content-moderation",
+      "agb-recht-pruefer/skills/vdug-abhilfeklage-agb-schnittstelle",
+      "agb-recht-pruefer/skills/verbraucherbesonderheiten-310-abs3",
+      "agb-recht-pruefer/skills/verbraucherfreundliche-fassung",
+      "agb-recht-pruefer/skills/verbraucherschutz-schnellcheck",
+      "agb-recht-pruefer/skills/vereinsbedingungen",
+      "agb-recht-pruefer/skills/verfuegbarkeit-wartungsfenster",
+      "agb-recht-pruefer/skills/vergaberechtliche-vertragsbedingungen",
+      "agb-recht-pruefer/skills/verhandlungs-playbook-agb",
+      "agb-recht-pruefer/skills/verjaehrungsverkuerzung",
+      "agb-recht-pruefer/skills/verkaufsbedingungen-b2b",
+      "agb-recht-pruefer/skills/versicherung-avb",
+      "agb-recht-pruefer/skills/versionsdiff-agb",
+      "agb-recht-pruefer/skills/vertragsstrafe-309",
+      "agb-recht-pruefer/skills/vertraulichkeit-klausel",
+      "agb-recht-pruefer/skills/vollmacht-vertretung",
+      "agb-recht-pruefer/skills/vorkasse-abschlag-sicherheit",
+      "agb-recht-pruefer/skills/wartung-maintenance",
+      "agb-recht-pruefer/skills/website-update-check",
+      "agb-recht-pruefer/skills/wesentliche-rechte-pflichten-307",
+      "agb-recht-pruefer/skills/widerruf-umfeld-agb",
+      "agb-recht-pruefer/skills/wohnraummiete-agb",
+      "agb-recht-pruefer/skills/zahlungsdienste-agb",
+      "agb-recht-pruefer/skills/zahlungsmittel-chargeback",
+      "agb-recht-pruefer/skills/zahlungsverzug-mahnkosten",
       "aktenaufbereiter-strafrecht/skills/aktenaufbereiter-strafrecht",
       "aktenaufbereiter-strafrecht/skills/akteneinsicht-uebersicht",
       "aktenaufbereiter-strafrecht/skills/aktenvorblatt-erstellen",
-      "aktenaufbereiter-strafrecht/skills/allgemein",
       "aktenaufbereiter-strafrecht/skills/anklageschrift-zerlegen",
       "aktenaufbereiter-strafrecht/skills/aussageanalyse-aussagepsychologie",
       "aktenaufbereiter-strafrecht/skills/beweismittel-katalog",
@@ -1779,6 +1978,105 @@
       "aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-zollverfahren-bewilligungen",
       "aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-zollwert-royalties-assists",
       "aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-zollwert-ursprung",
+      "bank-rechtsabteilung/skills/agb-bankrecht-klauselkontrolle",
+      "bank-rechtsabteilung/skills/anwaltliche-rechnungen-review",
+      "bank-rechtsabteilung/skills/app-fraud-social-engineering-bank",
+      "bank-rechtsabteilung/skills/aufsichtsrat-vorlage-bank",
+      "bank-rechtsabteilung/skills/bafin-kommunikation-und-anhoerung",
+      "bank-rechtsabteilung/skills/bafin-pruefung-vor-ort-management",
+      "bank-rechtsabteilung/skills/bankaufsichtsrecht-kwg-marisk-triage",
+      "bank-rechtsabteilung/skills/bankgeheimnis-auskunftsersuchen",
+      "bank-rechtsabteilung/skills/banking-as-a-service-white-label",
+      "bank-rechtsabteilung/skills/bankrechtsabteilung-kaltstart-routing",
+      "bank-rechtsabteilung/skills/beteiligungserwerb-bank-ma",
+      "bank-rechtsabteilung/skills/betriebsrat-change-projekte",
+      "bank-rechtsabteilung/skills/blockchain-settlement-dvp",
+      "bank-rechtsabteilung/skills/chargeback-card-schemes-bankrecht",
+      "bank-rechtsabteilung/skills/correspondent-banking-nostro-vostro",
+      "bank-rechtsabteilung/skills/covenant-waiver-credit-documentation",
+      "bank-rechtsabteilung/skills/crr-crd-eigenmittel-large-exposure",
+      "bank-rechtsabteilung/skills/crypto-tax-reporting-dac8-car",
+      "bank-rechtsabteilung/skills/darlehensrecht-verbraucher-unternehmer",
+      "bank-rechtsabteilung/skills/datenraum-bank-transaktion",
+      "bank-rechtsabteilung/skills/datenschutz-bankgeheimnis",
+      "bank-rechtsabteilung/skills/depotrecht-tokenisierte-wertpapiere",
+      "bank-rechtsabteilung/skills/dlt-pilot-regime-market-infrastructure",
+      "bank-rechtsabteilung/skills/dora-ict-vertraege-vorfall",
+      "bank-rechtsabteilung/skills/einlagensicherung-kundenhinweise",
+      "bank-rechtsabteilung/skills/embedded-finance-kooperation",
+      "bank-rechtsabteilung/skills/esg-sustainable-finance",
+      "bank-rechtsabteilung/skills/ewpg-emission-elektronische-wertpapiere",
+      "bank-rechtsabteilung/skills/ewpg-kryptowertpapierregister-erlaubnis",
+      "bank-rechtsabteilung/skills/ewpg-registerwechsel-registerfehler",
+      "bank-rechtsabteilung/skills/externe-anwaelte-steuerung",
+      "bank-rechtsabteilung/skills/fit-proper-eignungsmatrix-deep-dive",
+      "bank-rechtsabteilung/skills/fit-proper-organe-mitarbeiter",
+      "bank-rechtsabteilung/skills/forbearance-npe-risikoklassifizierung",
+      "bank-rechtsabteilung/skills/geldwaesche-krypto-wallet-screening",
+      "bank-rechtsabteilung/skills/geschaeftsleiter-abberufung-krise",
+      "bank-rechtsabteilung/skills/geschaeftsleiter-bestellung-kwg-zag",
+      "bank-rechtsabteilung/skills/girokonto-firmenkunden-risk-exit",
+      "bank-rechtsabteilung/skills/gwg-aml-kyc-verdachtsmeldung",
+      "bank-rechtsabteilung/skills/handelsvertreter-vertriebsrecht-bank",
+      "bank-rechtsabteilung/skills/hauptversammlung-bank-aktg",
+      "bank-rechtsabteilung/skills/iban-name-check-verification-payee",
+      "bank-rechtsabteilung/skills/insolvenz-anfechtung-bank",
+      "bank-rechtsabteilung/skills/instant-payments-sepa-vo",
+      "bank-rechtsabteilung/skills/interne-richtlinie-policy-drafting",
+      "bank-rechtsabteilung/skills/it-sicherheit-cloud-vertraege",
+      "bank-rechtsabteilung/skills/kontokuendigung-sperre-basiskonto",
+      "bank-rechtsabteilung/skills/kreditentscheidung-weiterfinanzierung",
+      "bank-rechtsabteilung/skills/kreditsicherheiten-bestellung-verwertung",
+      "bank-rechtsabteilung/skills/kreditwesengesetz-erlaubnis-inhaberkontrolle",
+      "bank-rechtsabteilung/skills/kundenbeschwerde-ombudsmann-bafin",
+      "bank-rechtsabteilung/skills/litigation-schlichtung-prozess",
+      "bank-rechtsabteilung/skills/ma-risk-compliance-funktion",
+      "bank-rechtsabteilung/skills/marisk-auslagerungen-at9-dora",
+      "bank-rechtsabteilung/skills/micar-art-emt-bank-emission",
+      "bank-rechtsabteilung/skills/micar-casp-notifikation-bank-art60",
+      "bank-rechtsabteilung/skills/micar-whitepaper-marketing-bank",
+      "bank-rechtsabteilung/skills/mifid-wphg-anlageberatung",
+      "bank-rechtsabteilung/skills/notfallplan-krisenkommunikation",
+      "bank-rechtsabteilung/skills/operational-resilience-concentration-risk",
+      "bank-rechtsabteilung/skills/organhaftung-business-judgment",
+      "bank-rechtsabteilung/skills/organwechsel-ssm-imas-mvp",
+      "bank-rechtsabteilung/skills/outsourcing-crypto-dlt-node-provider",
+      "bank-rechtsabteilung/skills/outsourcing-externe-dienstleister",
+      "bank-rechtsabteilung/skills/outsourcing-fintech-bank-as-a-service",
+      "bank-rechtsabteilung/skills/pfandbriefbank-spezialdeckung",
+      "bank-rechtsabteilung/skills/produktfreigabe-new-product-process",
+      "bank-rechtsabteilung/skills/provisionsmodelle-vertrieb-compliance",
+      "bank-rechtsabteilung/skills/psd2-fraud-refund-unauthorised-payment",
+      "bank-rechtsabteilung/skills/psd2-open-banking-api-xs2a",
+      "bank-rechtsabteilung/skills/psd2-sca-strong-customer-authentication",
+      "bank-rechtsabteilung/skills/psd3-psr-vorschau-gap-analysis",
+      "bank-rechtsabteilung/skills/rechtsmonitoring-bank",
+      "bank-rechtsabteilung/skills/restrukturierung-kreditengagement",
+      "bank-rechtsabteilung/skills/sanierungsgutachten-idw-s6-bewertung",
+      "bank-rechtsabteilung/skills/sanktionsscreening-embargo-bank",
+      "bank-rechtsabteilung/skills/schluesselfunktionen-inhaber-fit-proper",
+      "bank-rechtsabteilung/skills/sepa-direct-debit-return-disputes",
+      "bank-rechtsabteilung/skills/ssm-bundesbank-aufsichtsbrief",
+      "bank-rechtsabteilung/skills/stablecoin-payment-usecase-bank",
+      "bank-rechtsabteilung/skills/staking-lending-token-bank",
+      "bank-rechtsabteilung/skills/stundung-standstill-waiver",
+      "bank-rechtsabteilung/skills/sustainability-linked-loan-greenwashing",
+      "bank-rechtsabteilung/skills/syndizierte-kredite-agent-security-trustee",
+      "bank-rechtsabteilung/skills/tokenisierung-security-token-mica-mifid",
+      "bank-rechtsabteilung/skills/trade-finance-sanctions-lc-guarantee",
+      "bank-rechtsabteilung/skills/travel-rule-krypto-transfers",
+      "bank-rechtsabteilung/skills/verwahrung-kryptowerte-bank-custody",
+      "bank-rechtsabteilung/skills/vorstandsvorlage-gutachten",
+      "bank-rechtsabteilung/skills/wpig-wertpapierinstitut-schnittstelle",
+      "bank-rechtsabteilung/skills/zag-agenten-auslagerung-register",
+      "bank-rechtsabteilung/skills/zag-ausnahmen-limited-network-commercial-agent",
+      "bank-rechtsabteilung/skills/zag-e-geld-institut-emoney",
+      "bank-rechtsabteilung/skills/zag-erlaubnisanalyse-payment-institution",
+      "bank-rechtsabteilung/skills/zag-finanztransfergeschaeft-money-remittance",
+      "bank-rechtsabteilung/skills/zag-kontoinformationsdienst-ais",
+      "bank-rechtsabteilung/skills/zag-negativauskunft-feststellung-bafin",
+      "bank-rechtsabteilung/skills/zag-zahlungsausloesedienst-pis",
+      "bank-rechtsabteilung/skills/zahlungsdienste-zag-psd3-psr",
       "barrierefreiheit-web-checker/skills/agentur-abnahme-vergabe",
       "barrierefreiheit-web-checker/skills/automatisierter-audit-axe-lighthouse",
       "barrierefreiheit-web-checker/skills/bf-kanzleiwebsite-konkret",
@@ -6907,7 +7205,7 @@
       "zwangsvollstreckung/skills/zwv-vollstreckungstitel-bauleiter",
       "zwangsvollstreckung/skills/zwv-zwangsversteigerung-grundstueck-spezial"
     ],
-    "lastUpdated": "2026-06-01T09:32:24.490Z"
+    "lastUpdated": "2026-06-01T12:57:35.271Z"
   },
   {
     "source": "github:KnowledgeXLab/skill-git",
@@ -7510,8 +7808,8 @@
   },
   {
     "source": "github:k-dense-ai/claude-scientific-skills",
-    "rev": "effb57c5699c1d400ef461a7aa80fc6693939805",
-    "hash": "06rapmsppnbzjs57mfpnym5pnsf0972m3in5agvggb95n5aiiwd7",
+    "rev": "93124850ef08487e423165554c54f0b333d5631d",
+    "hash": "0il1mfpd11nsq47i2w7ccjh4lcf8xz9d5dnqam3ws7iaqr70rpb9",
     "skills": [
       "skills/adaptyv",
       "skills/aeon",
@@ -7657,7 +7955,7 @@
       "skills/xlsx",
       "skills/zarr-python"
     ],
-    "lastUpdated": "2026-05-29T17:08:39.334Z"
+    "lastUpdated": "2026-06-01T12:58:46.646Z"
   },
   {
     "source": "github:k-dense-ai/claude-scientific-writer",
@@ -7696,8 +7994,8 @@
   },
   {
     "source": "github:k-dense-ai/scientific-agent-skills",
-    "rev": "effb57c5699c1d400ef461a7aa80fc6693939805",
-    "hash": "06rapmsppnbzjs57mfpnym5pnsf0972m3in5agvggb95n5aiiwd7",
+    "rev": "93124850ef08487e423165554c54f0b333d5631d",
+    "hash": "0il1mfpd11nsq47i2w7ccjh4lcf8xz9d5dnqam3ws7iaqr70rpb9",
     "skills": [
       "skills/adaptyv",
       "skills/aeon",
@@ -7843,7 +8141,7 @@
       "skills/xlsx",
       "skills/zarr-python"
     ],
-    "lastUpdated": "2026-05-29T17:08:41.665Z"
+    "lastUpdated": "2026-06-01T12:58:47.624Z"
   },
   {
     "source": "github:k-kaundal/guardrailx-skill",
@@ -8130,8 +8428,8 @@
   },
   {
     "source": "github:kadel/claude-plugins",
-    "rev": "3dbc4e587e0159494a5e38e21d45382906c1ae9a",
-    "hash": "0vf4d7nw1mwq2r7dhbk3qswf1r2icx46df4n4b069mwqrd30k18s",
+    "rev": "4ee4a6a7cd3898101bc4d7aec4250d9c1d9d53da",
+    "hash": "10h0vwapvpxb2z93y96mzmhyvnnpd1g1570fz455f3llj94rmjjj",
     "skills": [
       "plugins/address-pr-comments/skills/address-pr-comments",
       "plugins/ghostty/skills/ghostty-applescript",
@@ -8155,7 +8453,7 @@
       "plugins/rhdh-plugin-dev/skills/rhdh-frontend-dynamic-plugin",
       "plugins/skills/skills/create-skill"
     ],
-    "lastUpdated": "2026-05-29T17:08:55.844Z"
+    "lastUpdated": "2026-06-01T12:59:18.660Z"
   },
   {
     "source": "github:kaelen-hou/skills-mvp",
@@ -9441,12 +9739,12 @@
   },
   {
     "source": "github:kayunangka/claude-skill",
-    "rev": "c3edfd0647ef2579d430ca3f7746a3bd4a778658",
+    "rev": "3526830a4232dfa3dd21c39c1851c77d9cfc8b14",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-06-01T09:33:17.514Z"
+    "lastUpdated": "2026-06-01T12:59:34.651Z"
   },
   {
     "source": "github:kazan/diagrammer",
@@ -9781,8 +10079,8 @@
   },
   {
     "source": "github:kdlbs/kandev",
-    "rev": "d8e0507d172a2a92654f67fd8827494a10c0d114",
-    "hash": "0z59455i2m9i6hhg483xgnwgpvk02jqxrqjmwzi3l64xilgapxx1",
+    "rev": "96871ccdea74bbf6e174fd4a6e98b3387c90ab9b",
+    "hash": "1580kv8krpkcv48acl6ymcbdxm7ylvjr8rj75v2rpnjxaadbhil6",
     "skills": [
       ".agents/skills/acp-debug",
       ".agents/skills/add-integration",
@@ -9821,7 +10119,7 @@
       "apps/backend/internal/office/configloader/skills/kandev-team",
       "apps/backend/internal/office/configloader/skills/memory"
     ],
-    "lastUpdated": "2026-05-31T23:17:29.961Z"
+    "lastUpdated": "2026-06-01T12:59:54.546Z"
   },
   {
     "source": "github:kdoronin/claude_code_skills",
@@ -11955,8 +12253,8 @@
   },
   {
     "source": "github:kilo-org/kilocode",
-    "rev": "e4b808e267d550bf36372b12cad33e3553a5ef6d",
-    "hash": "05lfp883p9ah2k0vhwj40ypvx6ivnmgkvkrjh6wf8184f4987zd0",
+    "rev": "1eeab10b253aaba5be5f6e7925fbc76eee34f620",
+    "hash": "0b7diablpmckqxv7vib51my6hhw8skziabfws7mns06vmm86b1mp",
     "skills": [
       ".kilo/skills/gh-issues",
       ".kilo/skills/kilocode-merge-minimizer",
@@ -11965,7 +12263,7 @@
       "packages/opencode/test/fixture/skills/agents-sdk",
       "packages/opencode/test/fixture/skills/cloudflare"
     ],
-    "lastUpdated": "2026-06-01T09:34:43.740Z"
+    "lastUpdated": "2026-06-01T13:00:18.021Z"
   },
   {
     "source": "github:kilospark/webact",
@@ -13600,8 +13898,8 @@
   },
   {
     "source": "github:knoopx/pi",
-    "rev": "31b7b526c9c4c6be9c0191503c0d01a8e870a04e",
-    "hash": "18wzidm6kca0smigi0cgnds7qqgjp6hai81yjaxwwrb3j5azphb2",
+    "rev": "5837bda135fb1625c97ac1ea9339bc61bfef81a7",
+    "hash": "0ljhd35771cxdxw5pv5j4jf0frigzfdmykj4n7lk1g1ay65kv267",
     "skills": [
       "agent/skills/knowledge/bfs-state-space",
       "agent/skills/knowledge/binary-search",
@@ -13661,7 +13959,7 @@
       "agent/skills/tools/vitest",
       "agent/skills/tools/write"
     ],
-    "lastUpdated": "2026-06-01T09:36:15.998Z"
+    "lastUpdated": "2026-06-01T12:59:44.003Z"
   },
   {
     "source": "github:knot0-com/vibe-testing",
@@ -13800,7 +14098,7 @@
   },
   {
     "source": "github:kobolden/angular-skills",
-    "rev": "4d397e7dc6b3821e5facda349d188c1ed2985731",
+    "rev": "07f6b0ff8620a4424f1d75845a6c9706d20d95b2",
     "hash": "0npi8l8540h08agnh42lbjnnxxnznd54787h74qgs53dcad9v170",
     "skills": [
       "skills/angular-component",
@@ -13814,7 +14112,7 @@
       "skills/angular-testing",
       "skills/angular-tooling"
     ],
-    "lastUpdated": "2026-06-01T09:36:24.558Z"
+    "lastUpdated": "2026-06-01T12:59:50.164Z"
   },
   {
     "source": "github:kochetkov-ma/claude-brewcode",
@@ -16402,8 +16700,8 @@
   },
   {
     "source": "github:kryptobaseddev/cleo",
-    "rev": "3eda4d9a9f859abe3aa1bafa839727ef18a6b9e9",
-    "hash": "097z200i9630z720rvyn3zr26jlzn6623qgcl25dv94z0wkivxbs",
+    "rev": "719910e4db39c7a825001d848536461672b35132",
+    "hash": "0dvs05bnhhwr4f809y4zgwmq84kvfmm8kkpg7hp7qih5981f7zi1",
     "skills": [
       ".claude/skills/gitnexus/gitnexus-cli",
       ".claude/skills/gitnexus/gitnexus-debugging",
@@ -16444,7 +16742,7 @@
       "packages/skills/skills/ct-validator",
       "packages/skills/skills/signaldock-connect"
     ],
-    "lastUpdated": "2026-06-01T09:35:32.490Z"
+    "lastUpdated": "2026-06-01T12:59:58.822Z"
   },
   {
     "source": "github:kryptogo/kryptogo-meme-trader",
@@ -16585,8 +16883,8 @@
   },
   {
     "source": "github:kserve-fms/skills",
-    "rev": "d7200a51ae63a09d7a35254162231f4586591814",
-    "hash": "106qm7pqcr7y4yik802sbmh1s0kdx5487z3hpr58cgl11fskbp7b",
+    "rev": "db6213a20460387bdf78c0753ae15a0920dcbc0a",
+    "hash": "0pyksi1pr9knkx7q121ks3pdhvql2cal5drpp0f2a8871q39pw7s",
     "skills": [
       ".agents/skills/agent-browser",
       ".agents/skills/dogfood",
@@ -16642,7 +16940,7 @@
       "outreach-email",
       "outreach-email/cold-email"
     ],
-    "lastUpdated": "2026-06-01T09:35:18.930Z"
+    "lastUpdated": "2026-06-01T12:59:46.104Z"
   },
   {
     "source": "github:ksgisang/awt-skill",
@@ -19158,7 +19456,7 @@
   },
   {
     "source": "github:kyawshinethu/ClaudeSkills",
-    "rev": "21ac164aae0f7824a786aac6f28515c6608adf25",
+    "rev": "9101e8273977616f46bcfa0848ed7eb6ca21d0cb",
     "hash": "040is8y9rwlx1c08w3wnc9aw2clyniayimr5q8agxs0fpixbxngj",
     "skills": [
       "skills/code-review",
@@ -19178,7 +19476,7 @@
       "skills/ui-analyzer",
       "skills/wechat-article-writer/wechat-article-writer"
     ],
-    "lastUpdated": "2026-06-01T09:35:35.738Z"
+    "lastUpdated": "2026-06-01T13:00:31.723Z"
   },
   {
     "source": "github:kybernetwork/kyberswap-skills",
