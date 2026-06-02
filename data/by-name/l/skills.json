@@ -39,12 +39,12 @@
   },
   {
     "source": "github:LangcliTeam/langcli",
-    "rev": "611572d2cdb22379896b309981775fd00bc58805",
-    "hash": "0niqasqmcang9nxsf7c9mmbkl6ji1mwr7a1xbmzc2b1vxn09s0z1",
+    "rev": "f0cc523d66fd9927a10931b985fd63d4dd9a05e6",
+    "hash": "1rh2zrig9bakys1a6psfjdqil8gyfhacmc6zr4pdxp3bsj23fy9q",
     "skills": [
       "src/skills/bundled/verify"
     ],
-    "lastUpdated": "2026-05-29T17:08:30.416Z"
+    "lastUpdated": "2026-06-02T12:13:41.104Z"
   },
   {
     "source": "github:Langerrr/zforge",
@@ -1217,8 +1217,8 @@
   },
   {
     "source": "github:LiHongwei-cn/lihongwei-cn",
-    "rev": "eadbf8d173cdc6cdbc1a6368180366a763d8050e",
-    "hash": "15231i0563bchlqfpi0m2b1acphddk4brvf1kxjf9fkaqarjwmhs",
+    "rev": "79cb20037e4166d117080276b6d051d535faa32d",
+    "hash": "07fy3a41i0620ig7738bycnlfmw249y06krxxar695jhrjnwdbpn",
     "skills": [
       "global-specs/skills/code-tidy",
       "global-specs/skills/homepage-layout",
@@ -1320,6 +1320,7 @@
       "mundo-cloud/skills/miniprogram-ai-display",
       "mundo-cloud/skills/mobile-app-builder",
       "mundo-cloud/skills/mundo-agent-builder",
+      "mundo-cloud/skills/mundo-agent-development",
       "mundo-cloud/skills/nano-pdf",
       "mundo-cloud/skills/native-mcp",
       "mundo-cloud/skills/node-inspect-debugger",
@@ -1340,6 +1341,7 @@
       "mundo-cloud/skills/powerpoint",
       "mundo-cloud/skills/pretext",
       "mundo-cloud/skills/product-manager",
+      "mundo-cloud/skills/python-agent-dev",
       "mundo-cloud/skills/python-debugpy",
       "mundo-cloud/skills/rapid-prototyper",
       "mundo-cloud/skills/reality-checker",
@@ -1376,12 +1378,12 @@
       "mundo-cloud/skills/yuanbao",
       "skills/mundo"
     ],
-    "lastUpdated": "2026-06-02T09:12:55.026Z"
+    "lastUpdated": "2026-06-02T12:13:47.591Z"
   },
   {
     "source": "github:Lifecycle-Innovations-Limited/claude-ops",
-    "rev": "05d9463afb6faba18874a1df03c89fbcbe9a6c68",
-    "hash": "0l3fq21m60v1zd0psc0mja4d96ikp21jibnj86d5v0kl7r18rq76",
+    "rev": "e846a7d456cda159054186ad4f56c924e431af05",
+    "hash": "0ah0bi4dg29viddmr2v0vspqkzb5b8x3pixq6yx0aw9qaz0nhsnm",
     "skills": [
       "claude-ops/skills/flow",
       "claude-ops/skills/ledger",
@@ -1436,7 +1438,7 @@
       "claude-ops/skills/tonight",
       "claude-ops/skills/uninstall"
     ],
-    "lastUpdated": "2026-06-02T09:12:53.475Z"
+    "lastUpdated": "2026-06-02T12:13:45.479Z"
   },
   {
     "source": "github:Lightricks/ltx-analytics-agents",
@@ -1574,6 +1576,153 @@
     "lastUpdated": "2026-05-29T17:07:15.192Z"
   },
   {
+    "source": "github:LogauaEngstrom/claude-scientific-skills",
+    "rev": "b706fc30594ed0874109b309240fcb83fbc61e5b",
+    "hash": "19j09sbpmgks57k7n6h0idy9jm0z6mzjipzfmns0vlgbz5iq1xq4",
+    "skills": [
+      "scientific-skills/adaptyv",
+      "scientific-skills/aeon",
+      "scientific-skills/alphafold-database",
+      "scientific-skills/anndata",
+      "scientific-skills/arboreto",
+      "scientific-skills/astropy",
+      "scientific-skills/benchling-integration",
+      "scientific-skills/biomni",
+      "scientific-skills/biopython",
+      "scientific-skills/biorxiv-database",
+      "scientific-skills/bioservices",
+      "scientific-skills/brenda-database",
+      "scientific-skills/cellxgene-census",
+      "scientific-skills/chembl-database",
+      "scientific-skills/cirq",
+      "scientific-skills/citation-management",
+      "scientific-skills/clinical-decision-support",
+      "scientific-skills/clinical-reports",
+      "scientific-skills/clinicaltrials-database",
+      "scientific-skills/clinpgx-database",
+      "scientific-skills/clinvar-database",
+      "scientific-skills/cobrapy",
+      "scientific-skills/cosmic-database",
+      "scientific-skills/dask",
+      "scientific-skills/datacommons-client",
+      "scientific-skills/datamol",
+      "scientific-skills/deepchem",
+      "scientific-skills/deeptools",
+      "scientific-skills/denario",
+      "scientific-skills/diffdock",
+      "scientific-skills/dnanexus-integration",
+      "scientific-skills/document-skills/docx",
+      "scientific-skills/document-skills/pdf",
+      "scientific-skills/document-skills/pptx",
+      "scientific-skills/document-skills/xlsx",
+      "scientific-skills/drugbank-database",
+      "scientific-skills/ena-database",
+      "scientific-skills/ensembl-database",
+      "scientific-skills/esm",
+      "scientific-skills/etetoolkit",
+      "scientific-skills/exploratory-data-analysis",
+      "scientific-skills/fda-database",
+      "scientific-skills/flowio",
+      "scientific-skills/fluidsim",
+      "scientific-skills/gene-database",
+      "scientific-skills/generate-image",
+      "scientific-skills/geniml",
+      "scientific-skills/geo-database",
+      "scientific-skills/geopandas",
+      "scientific-skills/get-available-resources",
+      "scientific-skills/gget",
+      "scientific-skills/gtars",
+      "scientific-skills/gwas-database",
+      "scientific-skills/histolab",
+      "scientific-skills/hmdb-database",
+      "scientific-skills/hypogenic",
+      "scientific-skills/hypothesis-generation",
+      "scientific-skills/kegg-database",
+      "scientific-skills/labarchive-integration",
+      "scientific-skills/lamindb",
+      "scientific-skills/latchbio-integration",
+      "scientific-skills/latex-posters",
+      "scientific-skills/literature-review",
+      "scientific-skills/market-research-reports",
+      "scientific-skills/markitdown",
+      "scientific-skills/matchms",
+      "scientific-skills/matplotlib",
+      "scientific-skills/medchem",
+      "scientific-skills/metabolomics-workbench-database",
+      "scientific-skills/modal",
+      "scientific-skills/molfeat",
+      "scientific-skills/networkx",
+      "scientific-skills/neurokit2",
+      "scientific-skills/neuropixels-analysis",
+      "scientific-skills/omero-integration",
+      "scientific-skills/openalex-database",
+      "scientific-skills/opentargets-database",
+      "scientific-skills/opentrons-integration",
+      "scientific-skills/paper-2-web",
+      "scientific-skills/pathml",
+      "scientific-skills/pdb-database",
+      "scientific-skills/peer-review",
+      "scientific-skills/pennylane",
+      "scientific-skills/perplexity-search",
+      "scientific-skills/plotly",
+      "scientific-skills/polars",
+      "scientific-skills/pptx-posters",
+      "scientific-skills/protocolsio-integration",
+      "scientific-skills/pubchem-database",
+      "scientific-skills/pubmed-database",
+      "scientific-skills/pufferlib",
+      "scientific-skills/pydeseq2",
+      "scientific-skills/pydicom",
+      "scientific-skills/pyhealth",
+      "scientific-skills/pylabrobot",
+      "scientific-skills/pymatgen",
+      "scientific-skills/pymc",
+      "scientific-skills/pymoo",
+      "scientific-skills/pyopenms",
+      "scientific-skills/pysam",
+      "scientific-skills/pytdc",
+      "scientific-skills/pytorch-lightning",
+      "scientific-skills/qiskit",
+      "scientific-skills/qutip",
+      "scientific-skills/rdkit",
+      "scientific-skills/reactome-database",
+      "scientific-skills/research-grants",
+      "scientific-skills/research-lookup",
+      "scientific-skills/scanpy",
+      "scientific-skills/scholar-evaluation",
+      "scientific-skills/scientific-brainstorming",
+      "scientific-skills/scientific-critical-thinking",
+      "scientific-skills/scientific-schematics",
+      "scientific-skills/scientific-slides",
+      "scientific-skills/scientific-visualization",
+      "scientific-skills/scientific-writing",
+      "scientific-skills/scikit-bio",
+      "scientific-skills/scikit-learn",
+      "scientific-skills/scikit-survival",
+      "scientific-skills/scvi-tools",
+      "scientific-skills/seaborn",
+      "scientific-skills/shap",
+      "scientific-skills/simpy",
+      "scientific-skills/stable-baselines3",
+      "scientific-skills/statistical-analysis",
+      "scientific-skills/statsmodels",
+      "scientific-skills/string-database",
+      "scientific-skills/sympy",
+      "scientific-skills/torch_geometric",
+      "scientific-skills/torchdrug",
+      "scientific-skills/transformers",
+      "scientific-skills/treatment-plans",
+      "scientific-skills/umap-learn",
+      "scientific-skills/uniprot-database",
+      "scientific-skills/uspto-database",
+      "scientific-skills/vaex",
+      "scientific-skills/venue-templates",
+      "scientific-skills/zarr-python",
+      "scientific-skills/zinc-database"
+    ],
+    "lastUpdated": "2026-06-02T12:13:50.070Z"
+  },
+  {
     "source": "github:Logiiiii/unity-agent-skills",
     "rev": "ddfb2cac2dd0f21fd06707d11ec1273940461fa4",
     "hash": "1bbqzckpwnps1fb5f0calmwhzsrarm5ryg4jxh3azkmnn8ik5wad",
@@ -1609,7 +1758,7 @@
   },
   {
     "source": "github:Lordjiggy/claude-code-marketplace",
-    "rev": "f03c15b61209d34bcd084d2afd12e56463a6204d",
+    "rev": "618be4ec97d1652b881ac811811c1931c6c1e364",
     "hash": "1j9gvz5kndk6lfffqhjg7dkkjrd2l1my5mm4x47rfcd67jj1a75g",
     "skills": [
       "examples/hello-world",
@@ -1636,7 +1785,7 @@
       "skills/security/security-scanner",
       "skills/testing/unit-test-generator"
     ],
-    "lastUpdated": "2026-06-02T09:13:17.482Z"
+    "lastUpdated": "2026-06-02T12:14:06.881Z"
   },
   {
     "source": "github:LoserLab/eyes-peeled",
@@ -1800,8 +1949,8 @@
   },
   {
     "source": "github:Lum1104/Understand-Anything",
-    "rev": "e5dded62151dca672e57f228c32be115345003c0",
-    "hash": "0wn0ghkbw2dlypa1w9l8cv0ygslp35q2wjqzb4pzrqjriw7fhl1k",
+    "rev": "025b884935a12b11e422d9b7338ca54e368dcbe5",
+    "hash": "1j1cvbvsakm4gjmbaqnmbq0kzi47lg23y5ksf1dl9m5vz417002l",
     "skills": [
       "understand-anything-plugin/skills/understand",
       "understand-anything-plugin/skills/understand-chat",
@@ -1812,7 +1961,7 @@
       "understand-anything-plugin/skills/understand-knowledge",
       "understand-anything-plugin/skills/understand-onboard"
     ],
-    "lastUpdated": "2026-06-01T12:57:37.487Z"
+    "lastUpdated": "2026-06-02T12:14:14.528Z"
   },
   {
     "source": "github:Lupynow/math-modeling-skills",
@@ -2826,8 +2975,8 @@
   },
   {
     "source": "github:langfuse/langfuse",
-    "rev": "c1ab28d9be94e82066207b56f65c4c57d7525957",
-    "hash": "1jgn9w3myr7m999a8sj7k9b1shn4jmjflgnnhd88s74r4ck4mj1x",
+    "rev": "663230dbba0851aa76a3da33a7359c90b7f8ce2b",
+    "hash": "00m0085iaxvimhknhgpi6glccihw3c07r76p0awa3zrm5plinqns",
     "skills": [
       ".agents/skills/add-model-price",
       ".agents/skills/agent-setup-maintenance",
@@ -2847,7 +2996,7 @@
       "web/.agents/skills/vercel-composition-patterns",
       "web/.agents/skills/vercel-react-best-practices"
     ],
-    "lastUpdated": "2026-06-02T09:16:01.230Z"
+    "lastUpdated": "2026-06-02T12:17:54.838Z"
   },
   {
     "source": "github:langfuse/skills",
@@ -2861,8 +3010,8 @@
   },
   {
     "source": "github:langgenius/dify",
-    "rev": "99833f65d80efb441ccbf609bb0ccc567fc5456c",
-    "hash": "0rb01w4nz8v550mvgvihp69xy3hr0b3sp1ymdzw7g7lslyd0ia42",
+    "rev": "f591da7865314749696a41377e1e92215e162731",
+    "hash": "0m1a4qk2w8hybxgmdqs5ik9bs4xdlhydqhaxhvj96922s053csb0",
     "skills": [
       ".agents/skills/backend-code-review",
       ".agents/skills/component-refactoring",
@@ -2871,7 +3020,7 @@
       ".agents/skills/frontend-testing",
       ".agents/skills/how-to-write-component"
     ],
-    "lastUpdated": "2026-06-02T09:16:25.755Z"
+    "lastUpdated": "2026-06-02T12:18:25.148Z"
   },
   {
     "source": "github:langoustine69/skills-market",
@@ -2894,8 +3043,8 @@
   },
   {
     "source": "github:langwatch/langwatch",
-    "rev": "bf08dd1604217957f9b5e936cbe2fe15b36c753b",
-    "hash": "1k1za2vxzlmylmb8vv27w5xhlhwv8mib36dls42vm37q4i5182xj",
+    "rev": "5149e820f02f94a12ecfa295644b6318ee4613b7",
+    "hash": "0a3v7dr4ngcwrg5762rb01ipg8ma19wjr1lr28aixcl0pqksd2if",
     "skills": [
       ".claude/skills/browser-pair",
       ".claude/skills/browser-test",
@@ -2903,7 +3052,7 @@
       ".claude/skills/feature-map",
       ".claude/skills/langwatch-kanban"
     ],
-    "lastUpdated": "2026-06-02T09:16:30.918Z"
+    "lastUpdated": "2026-06-02T12:18:23.097Z"
   },
   {
     "source": "github:lanliwz/neo4j-onto2ai-toolset",
@@ -3224,8 +3373,8 @@
   },
   {
     "source": "github:larksuite/cli",
-    "rev": "57ba4fae613cfa8ed7932f49dc89ed563a4a957b",
-    "hash": "035l56ah3xggc065612n4bfpgx0mrg9p2hg2dw8r1df8pwy80azd",
+    "rev": "b0b163d0ef108635c00664853fd8024281a1a893",
+    "hash": "19y683kanxrwywzaf8sbkiz1zz1szd1pa04l8pzbnr56cr39v2zj",
     "skills": [
       "scripts/skill-format-check/tests/bad-skill",
       "scripts/skill-format-check/tests/bad-skill-no-frontmatter",
@@ -3261,7 +3410,7 @@
       "skills/lark-workflow-standup-report",
       "tests/cli_e2e/cli-e2e-testcase-writer"
     ],
-    "lastUpdated": "2026-06-02T09:15:17.157Z"
+    "lastUpdated": "2026-06-02T12:16:48.864Z"
   },
   {
     "source": "github:larksuite/meegle-cli",
@@ -3565,8 +3714,8 @@
   },
   {
     "source": "github:laulauland/dotfiles",
-    "rev": "9a041f679164deb1fe1732e5afa865c898164c3c",
-    "hash": "1yn6ni83hmwibjzh71banv28fmp1m7ww98anldvrzwaby2npqils",
+    "rev": "41b7fd6771cc7d2de7eb2a0f28c0dbf86aa42a51",
+    "hash": "07422zxrg0j9xqdrckqb27g9pw11xqg8rh793j4zpvv4jzjsfcns",
     "skills": [
       ".claude/skills/fp-implement",
       ".claude/skills/fp-plan",
@@ -3596,7 +3745,7 @@
       "shared/.claude/skills/uv-python",
       "shared/.claude/skills/visual-explainer"
     ],
-    "lastUpdated": "2026-05-29T17:13:27.985Z"
+    "lastUpdated": "2026-06-02T12:16:50.760Z"
   },
   {
     "source": "github:laulauland/jj-hunk",
@@ -8518,14 +8667,14 @@
   },
   {
     "source": "github:letsrevel/revel-backend",
-    "rev": "c72d65293f0675fa65fd81284e6c9a5f7e6825c5",
-    "hash": "1npinh58mvqbrk17br2wy78wfrp9br93qgsayvw1hxhks21ifqay",
+    "rev": "b49e4cabcf3242fb81b12974f5dac95d1da30f05",
+    "hash": "0anrqv357b39l2lqfs6gc0g1x4y2k8p2w8zp2mj50kqw9iyv4968",
     "skills": [
       ".claude/skills/silk-debug",
       ".claude/skills/update-changelog",
       ".claude/skills/updating-deps"
     ],
-    "lastUpdated": "2026-05-31T23:18:04.752Z"
+    "lastUpdated": "2026-06-02T12:16:32.366Z"
   },
   {
     "source": "github:letta-ai/letta",
@@ -15117,8 +15266,8 @@
   },
   {
     "source": "github:lightdash/lightdash",
-    "rev": "4d8e4b54434d9fbb119739775b81792b59979b3d",
-    "hash": "0v8z3ppydpyyr7wk18sjwdiscr0l7q4aaxfp0rs0c32f2d4q86wv",
+    "rev": "14893430b2a423f32c48b7943d1d13bc83f71008",
+    "hash": "1jz7g8jpmkhra0ydl2ybjx50jly0aa7kwlkc5hhp8zvk8mlqr8yk",
     "skills": [
       ".claude/skills/add-warehouse-adapter",
       ".claude/skills/agent-harness",
@@ -15135,12 +15284,12 @@
       "sandboxes/data-apps/template/.claude/skills/frontend-design",
       "skills/developing-in-lightdash"
     ],
-    "lastUpdated": "2026-06-02T09:15:58.571Z"
+    "lastUpdated": "2026-06-02T12:18:23.080Z"
   },
   {
     "source": "github:lightfastai/lightfast",
-    "rev": "cfe7464dc04e2c641a59d1767b1f806088eaa240",
-    "hash": "0hbjn58pwd9s0svgipm2l782w3kygv78y214bg3r5nm2kccpfmzp",
+    "rev": "4d2027a4b65569c35a0a4ea755c8767c4736bf85",
+    "hash": "0cmkv49imdwq86sqsj2dm70khhs02hbi5b9c9vbia30krrngm2x2",
     "skills": [
       ".agents/skills/agent-browser",
       ".agents/skills/ai-elements",
@@ -15194,7 +15343,7 @@
       ".agents/skills/writing-plans",
       ".agents/skills/writing-skills"
     ],
-    "lastUpdated": "2026-06-02T09:15:21.804Z"
+    "lastUpdated": "2026-06-02T12:17:48.151Z"
   },
   {
     "source": "github:lightninglabs/lnget",
@@ -15619,12 +15768,12 @@
   },
   {
     "source": "github:linagora/twake-on-matrix",
-    "rev": "74669f0e9e0844d58f05ff76bdd471bcf99bbfb0",
-    "hash": "0n20ns46z3pyrqymdlxvbpz9pi66v9ncvycdvhzhpqacmyz297c7",
+    "rev": "0fd30e5754b9e49529d3dec4fff89d53e95bea4b",
+    "hash": "16n1cyy5rl9s6nbjb3ilsk92bplq5v5xj4g3z3lnsw5ppzfa0194",
     "skills": [
       ".claude/skills/release"
     ],
-    "lastUpdated": "2026-06-02T09:15:52.822Z"
+    "lastUpdated": "2026-06-02T12:16:47.563Z"
   },
   {
     "source": "github:linakis/ai-assistant-skills",
@@ -18444,13 +18593,13 @@
   },
   {
     "source": "github:linked-api/linkedin-skills",
-    "rev": "d3db0cc0bc0e26623ff326bf3818000878655441",
-    "hash": "08i4gcky94cjx2hal81d2jz1m9h16b26czybwl025zc3w61jfnal",
+    "rev": "3a19661299b71554222988990342feeea0354b3a",
+    "hash": "042w9sa13yahm4s7007yx8j2qbjqfmhvxd0nk58aarkmvkh3wmb9",
     "skills": [
       "linkedin",
       "network-growth"
     ],
-    "lastUpdated": "2026-06-01T23:53:23.324Z"
+    "lastUpdated": "2026-06-02T12:16:53.121Z"
   },
   {
     "source": "github:linkerlin/puax",
@@ -21502,14 +21651,14 @@
   },
   {
     "source": "github:longbridge/gpui-component",
-    "rev": "9ad30e631e15f9bbba049717767bf4cd98e4f179",
-    "hash": "0yaaz7827ccmw7zxhq848y3cnjh2r1vy4kh0862f87lr7m8m8z2d",
+    "rev": "277f220a6196572116a8fd84fba6c36187094cab",
+    "hash": "04g63xvf630qgw5rpi5gfqffcdpk73qaf2iy6pql9mbs8ha0j8wy",
     "skills": [
       ".claude/skills/gpui-component-dev",
       "skills/gpui",
       "skills/gpui-component"
     ],
-    "lastUpdated": "2026-06-02T06:12:25.018Z"
+    "lastUpdated": "2026-06-02T12:16:57.945Z"
   },
   {
     "source": "github:longbridge/longbridge-terminal",
@@ -22552,14 +22701,14 @@
   },
   {
     "source": "github:lucastamoios/celeiro",
-    "rev": "0fa6be5adb6b0431a75dd919e2c66bcb652c1c90",
-    "hash": "1fvp1zpx3p5cl9ic3dq9iflyp8dd83h34bv37yl8v31m8br934z9",
+    "rev": "776021b95f2cdd6f10724388afb3af9ccccb5bc0",
+    "hash": "14xg80v5mqyss0g5vxm918ajv3m04d5bgbk8rynkb86z18mn7haf",
     "skills": [
       ".claude/skills/beads-retrospective",
       ".claude/skills/openspec-to-beads",
       ".claude/skills/tdd"
     ],
-    "lastUpdated": "2026-05-29T22:59:29.633Z"
+    "lastUpdated": "2026-06-02T12:18:11.498Z"
   },
   {
     "source": "github:lucasygu/redbook",
@@ -24074,8 +24223,8 @@
   },
   {
     "source": "github:lum1104/understand-anything",
-    "rev": "e5dded62151dca672e57f228c32be115345003c0",
-    "hash": "0wn0ghkbw2dlypa1w9l8cv0ygslp35q2wjqzb4pzrqjriw7fhl1k",
+    "rev": "025b884935a12b11e422d9b7338ca54e368dcbe5",
+    "hash": "1j1cvbvsakm4gjmbaqnmbq0kzi47lg23y5ksf1dl9m5vz417002l",
     "skills": [
       "understand-anything-plugin/skills/understand",
       "understand-anything-plugin/skills/understand-chat",
@@ -24086,7 +24235,7 @@
       "understand-anything-plugin/skills/understand-knowledge",
       "understand-anything-plugin/skills/understand-onboard"
     ],
-    "lastUpdated": "2026-06-01T12:59:27.543Z"
+    "lastUpdated": "2026-06-02T12:18:23.109Z"
   },
   {
     "source": "github:lumenharbor/garchi-cms-skills",
