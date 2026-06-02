@@ -364,7 +364,7 @@
   },
   {
     "source": "github:KaQus/claude-code-pentest",
-    "rev": "1fcc6182f5f574f32386118a99a6e4cbf7098f9d",
+    "rev": "bbd548bebb1f7b77e5849292ba60e792255b2ff1",
     "hash": "1n5r1db3vx9g6d79sxvvk12fn8jyy3ph4lrxjgkj4ad4vq9fc60c",
     "skills": [
       "api-breaker",
@@ -374,7 +374,7 @@
       "vuln-chain-composer",
       "webapp-exploit-hunter"
     ],
-    "lastUpdated": "2026-06-02T18:08:05.101Z"
+    "lastUpdated": "2026-06-02T20:45:48.076Z"
   },
   {
     "source": "github:Kaakati/rails-enterprise-dev",
@@ -596,58 +596,63 @@
   },
   {
     "source": "github:Kastalien-Research/thoughtbox",
-    "rev": "4e4d10f0a202aea70e7a71f450be5427e4d4d6fb",
-    "hash": "0yjd1wz2dyjhrn98cg6lxqr8bq798xpj7ygrcc3i5g26hb8nkb2p",
+    "rev": "0a55ad63f85f6db37b3c345313503bab6f48101f",
+    "hash": "14kn73bvyprml7mcaapfaivvc0c9iqdvff6bs2fnxh2g551s0pas",
     "skills": [
-      ".claude/skills/assumptions",
-      ".claude/skills/capture-learning",
-      ".claude/skills/claude-opus-4-6-prompting",
-      ".claude/skills/claude-prompt",
-      ".claude/skills/code-mode",
-      ".claude/skills/deploy-team-hub",
-      ".claude/skills/diagram",
-      ".claude/skills/distill",
-      ".claude/skills/effect-ts",
-      ".claude/skills/escalate",
-      ".claude/skills/eval",
-      ".claude/skills/experiment",
-      ".claude/skills/hdd",
-      ".claude/skills/hub-audit",
-      ".claude/skills/hub-collab",
-      ".claude/skills/implement",
-      ".claude/skills/knowledge",
-      ".claude/skills/loop-status",
-      ".claude/skills/peer-notebook-delivery-guard",
-      ".claude/skills/research-task",
-      ".claude/skills/session-review",
-      ".claude/skills/status",
-      ".claude/skills/supabase",
-      ".claude/skills/synthesize",
-      ".claude/skills/taste",
-      ".claude/skills/team",
-      ".claude/skills/test-suite",
-      ".claude/skills/theseus-protocol",
-      ".claude/skills/thoughtbox-debug",
-      ".claude/skills/thoughtbox-decision",
-      ".claude/skills/thoughtbox-evolution",
-      ".claude/skills/thoughtbox-knowledge-query",
-      ".claude/skills/thoughtbox-onboard",
-      ".claude/skills/thoughtbox-refactor",
-      ".claude/skills/thoughtbox-research",
-      ".claude/skills/thoughtbox-session-review",
-      ".claude/skills/thoughtbox-team",
-      ".claude/skills/ulc-loop",
-      ".claude/skills/ulysses-protocol",
-      ".claude/skills/workflow",
-      ".claude/skills/workflow-brainstorming",
-      ".claude/skills/workflow-ideation",
-      ".claude/skills/workflow-reflection",
-      ".claude/skills/workflow-revision",
-      ".claude/skills/workflow-tournament",
-      ".claude/skills/workflows-compound",
-      ".claude/skills/workflows-plan",
-      ".claude/skills/workflows-review",
-      ".claude/skills/workflows-work",
+      ".agents/skills/assumptions",
+      ".agents/skills/capture-learning",
+      ".agents/skills/claude-opus-4-6-prompting",
+      ".agents/skills/claude-prompt",
+      ".agents/skills/code-mode",
+      ".agents/skills/deploy-team-hub",
+      ".agents/skills/diagram",
+      ".agents/skills/distill",
+      ".agents/skills/effect-ts",
+      ".agents/skills/escalate",
+      ".agents/skills/eval",
+      ".agents/skills/experiment",
+      ".agents/skills/hdd",
+      ".agents/skills/hub-audit",
+      ".agents/skills/hub-collab",
+      ".agents/skills/implement",
+      ".agents/skills/knowledge",
+      ".agents/skills/loop-status",
+      ".agents/skills/peer-notebook-delivery-guard",
+      ".agents/skills/research-task",
+      ".agents/skills/session-review",
+      ".agents/skills/source-command-hdd-decide",
+      ".agents/skills/source-command-hdd-hdd",
+      ".agents/skills/source-command-hdd-research",
+      ".agents/skills/source-command-hdd-stage-adr",
+      ".agents/skills/source-command-hdd-validate",
+      ".agents/skills/status",
+      ".agents/skills/supabase",
+      ".agents/skills/synthesize",
+      ".agents/skills/taste",
+      ".agents/skills/team",
+      ".agents/skills/test-suite",
+      ".agents/skills/theseus-protocol",
+      ".agents/skills/thoughtbox-debug",
+      ".agents/skills/thoughtbox-decision",
+      ".agents/skills/thoughtbox-evolution",
+      ".agents/skills/thoughtbox-knowledge-query",
+      ".agents/skills/thoughtbox-onboard",
+      ".agents/skills/thoughtbox-refactor",
+      ".agents/skills/thoughtbox-research",
+      ".agents/skills/thoughtbox-session-review",
+      ".agents/skills/thoughtbox-team",
+      ".agents/skills/ulc-loop",
+      ".agents/skills/ulysses-protocol",
+      ".agents/skills/workflow",
+      ".agents/skills/workflow-brainstorming",
+      ".agents/skills/workflow-ideation",
+      ".agents/skills/workflow-reflection",
+      ".agents/skills/workflow-revision",
+      ".agents/skills/workflow-tournament",
+      ".agents/skills/workflows-compound",
+      ".agents/skills/workflows-plan",
+      ".agents/skills/workflows-review",
+      ".agents/skills/workflows-work",
       ".codex/skills/source-of-truth-preflight",
       "apps/web/.agents/skills/next-best-practices",
       "apps/web/.agents/skills/nextjs-supabase-auth",
@@ -663,7 +668,7 @@
       "apps/web/.roo/skills/writing-cli-skills",
       "automation-self-improvement/agentic-dev-team/skills/research"
     ],
-    "lastUpdated": "2026-06-01T23:51:06.646Z"
+    "lastUpdated": "2026-06-02T20:45:54.550Z"
   },
   {
     "source": "github:Kavin-Kannan/rails-best-practices-skill",
@@ -676,12 +681,12 @@
   },
   {
     "source": "github:Kayunangka/claude-skill",
-    "rev": "8eb8c6e0fdfd93a253d16e2c33e14c9a71079b99",
+    "rev": "23286dbe79709831f0143e8c77d2209983deec6b",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-06-02T15:27:33.668Z"
+    "lastUpdated": "2026-06-02T20:45:51.181Z"
   },
   {
     "source": "github:KevinBatdorf/anna",
@@ -1414,8 +1419,8 @@
   },
   {
     "source": "github:Klotzkette/claude-fuer-deutsches-recht",
-    "rev": "5d9c613d6571f50cf63ed4ebe7282ec892133a00",
-    "hash": "06s1vf7pw1hrp5gwdvwaqmnpnfq4wyqhcbz3v99b59s7abwjpxvv",
+    "rev": "ae07b5304d8d6928896dd2dd11508015f5194f93",
+    "hash": "1x48l35d4sgh6fqkprgcyxqchf030qxvh2l4hv38zp7wkj43zvys",
     "skills": [
       "agb-recht-pruefer/skills/abmahnung-reagieren",
       "agb-recht-pruefer/skills/abnahme-testing",
@@ -2253,77 +2258,127 @@
       "bav-strategie-konzern/skills/spezial-versorgungssystem-international-schnittstellen",
       "bav-strategie-konzern/skills/versorgungsordnung-und-betriebsvereinbarung-drafting",
       "beamtenrecht/skills/agg-gleichstellung-und-frauenvertretung",
+      "beamtenrecht/skills/agg-vs-9-bbg-auswahlverfahren",
       "beamtenrecht/skills/aktenstruktur-und-dokumentenintake",
+      "beamtenrecht/skills/altersteilzeit-93-bbg-blockmodell",
       "beamtenrecht/skills/amtsangemessene-alimentation",
+      "beamtenrecht/skills/amtsangemessene-alimentation-bverfg",
       "beamtenrecht/skills/amtsangemessene-beschaeftigung",
       "beamtenrecht/skills/anfaenger-modus-beamtenrecht",
+      "beamtenrecht/skills/anforderungsprofil-konstitutiv-deklaratorisch",
+      "beamtenrecht/skills/anlassbeurteilung-vs-regelbeurteilung",
+      "beamtenrecht/skills/anrechnung-55-beamtvg-mehrere-renten",
       "beamtenrecht/skills/anwaltliche-mandatsstrategie-beamtenrecht",
       "beamtenrecht/skills/arbeitszeit-mehrarbeit-und-ruhezeiten",
+      "beamtenrecht/skills/auslandsdienstbezuege-bbesg",
+      "beamtenrecht/skills/auswahlgespraech-dokumentationspflicht",
       "beamtenrecht/skills/beamtstg-bbg-landesrecht-abgrenzung",
       "beamtenrecht/skills/beforderung-und-erprobung",
+      "beamtenrecht/skills/begrenzte-dienstfaehigkeit-27-bbg",
       "beamtenrecht/skills/begrenzte-dienstfaehigkeit-und-reaktivierung",
+      "beamtenrecht/skills/beihilfe-chronische-krankheit",
+      "beamtenrecht/skills/beihilfe-heilbehandlung-ausland",
+      "beamtenrecht/skills/beihilfe-implantatfaehige-hoergeraete",
       "beamtenrecht/skills/beihilfe-und-heilfuersorge",
       "beamtenrecht/skills/besoldung-bund-bbesg",
       "beamtenrecht/skills/besoldung-bverfg-dreischritt-2025",
       "beamtenrecht/skills/besoldung-laender-check",
+      "beamtenrecht/skills/besoldung-verfassungswidrig-a-besoldung",
       "beamtenrecht/skills/besoldung-versorgung-familienzuschlag",
       "beamtenrecht/skills/besoldung-zeitnahe-geltendmachung-und-musterverfahren",
       "beamtenrecht/skills/bestenauslese-art-33-ii-gg",
+      "beamtenrecht/skills/beurteilungsbeitrag-heilung-maengel",
+      "beamtenrecht/skills/bindungswirkung-strafurteil-23-bdg",
       "beamtenrecht/skills/bverfg-resilienz-und-bundesverfassungsgerichtswahl-2024-2025",
+      "beamtenrecht/skills/dienstgericht-richter-disziplinar-63-drig",
       "beamtenrecht/skills/dienstliche-beurteilung-angriff",
       "beamtenrecht/skills/dienstpflichten-treue-maessigung-neutralitaet",
+      "beamtenrecht/skills/dienstunfaehigkeit-amtsaerztliches-gutachten",
       "beamtenrecht/skills/dienstunfaehigkeit-zurruhesetzung",
       "beamtenrecht/skills/dienstunfall-anerkennung",
+      "beamtenrecht/skills/dienstunfall-anerkennung-45-beamtvg",
+      "beamtenrecht/skills/dienstvergehen-ausser-dienst-47-beamtstg",
       "beamtenrecht/skills/disziplinar-bemessung-13-bdg-stufenfolge",
+      "beamtenrecht/skills/disziplinarmassnahmebemessung-13-bdg",
       "beamtenrecht/skills/disziplinarrecht-bdg-2024-vollzugsmodell",
       "beamtenrecht/skills/disziplinarrecht-bund-bdg",
       "beamtenrecht/skills/disziplinarrecht-laender",
       "beamtenrecht/skills/einstweiliger-rechtsschutz-vwgo",
+      "beamtenrecht/skills/elternzeit-versorgungsanwartschaft",
+      "beamtenrecht/skills/entfernung-aus-dem-beamtenverhaeltnis-unterhalt",
       "beamtenrecht/skills/entlassung-und-statusbeendigung",
+      "beamtenrecht/skills/erholungsurlaub-verfall-eugh-c518-20",
       "beamtenrecht/skills/ernennung-wirksamkeit-ruecknahme-widerruf",
+      "beamtenrecht/skills/erschwerniszulage-vollzugsdienst",
       "beamtenrecht/skills/eu-justizunabhaengigkeit-art-19-euv-art-47-grch",
+      "beamtenrecht/skills/familienzuschlag-drittes-kind-bverfg",
       "beamtenrecht/skills/familienzuschlag-kinder-und-rueckforderung",
       "beamtenrecht/skills/foederalismusreform-kompetenzmatrix-beamtenrecht",
       "beamtenrecht/skills/formular-generator-beamtenrecht",
       "beamtenrecht/skills/fristen-und-sofortmassnahmen",
       "beamtenrecht/skills/fuersorgepflicht-mobbing-konflikt",
+      "beamtenrecht/skills/geschaeftsverteilung-richter-21e-gvg",
       "beamtenrecht/skills/geschenke-korruption-compliance",
+      "beamtenrecht/skills/heilfuersorge-vs-beihilfe-vollzugsdienst",
+      "beamtenrecht/skills/hinterbliebenenversorgung-witwen-waisen",
       "beamtenrecht/skills/hochschule-professoren-w-besoldung",
       "beamtenrecht/skills/kommunalbeamte-und-wahlbeamte",
+      "beamtenrecht/skills/konkurrentenklage-einstweiliger-rechtsschutz",
+      "beamtenrecht/skills/konkurrentenschutz-bestenauslese-art-33-ii-gg",
       "beamtenrecht/skills/konkurrentenstreit-eilverfahren",
+      "beamtenrecht/skills/krankheitsbedingte-urlaubsuebertragung",
       "beamtenrecht/skills/landesrecht-16-laender-routenplan",
       "beamtenrecht/skills/laufbahnrecht-bund",
       "beamtenrecht/skills/laufbahnrecht-laender-matrix",
       "beamtenrecht/skills/lehrer-schule-beamtenrecht",
       "beamtenrecht/skills/live-quellencheck-bund-land-richter",
       "beamtenrecht/skills/mandantenbrief-verstaendlich-beamtenrecht",
+      "beamtenrecht/skills/mehrarbeitsverguetung-88-bbg",
+      "beamtenrecht/skills/mobbing-fuersorgepflicht-78-bbg",
+      "beamtenrecht/skills/nebentaetigkeit-99-bbg-anzeige-genehmigung",
       "beamtenrecht/skills/nebentaetigkeit-genehmigung-und-untersagung",
       "beamtenrecht/skills/output-waehlen-memo-widerspruch-eilantrag",
       "beamtenrecht/skills/personalakte-einsicht-datenschutz",
+      "beamtenrecht/skills/plausibilisierung-gleicher-gesamtnoten",
+      "beamtenrecht/skills/politische-maessigung-60-bbg",
       "beamtenrecht/skills/polizei-feuerwehr-vollzug-sonderdienst",
+      "beamtenrecht/skills/praesidialrat-mitwirkung-richterernennung",
       "beamtenrecht/skills/probezeit-und-lebenszeiternennung",
+      "beamtenrecht/skills/ptbs-polizei-anerkennung-dienstunfall",
       "beamtenrecht/skills/quellenhygiene-beamtenrecht-fundstellen-red-team",
+      "beamtenrecht/skills/reaktivierung-29-bbg-rechtsanspruch",
       "beamtenrecht/skills/red-team-beamtenrecht",
       "beamtenrecht/skills/remonstration-rechtswidrige-weisung",
       "beamtenrecht/skills/richter-praesidium-und-geschaeftsverteilung",
+      "beamtenrecht/skills/richteranklage-art-98-gg",
       "beamtenrecht/skills/richterbeurteilung-praesidialrat",
       "beamtenrecht/skills/richterdienst-drig-grundlagen",
       "beamtenrecht/skills/richterdienstgericht-und-rechtswegabgrenzung",
       "beamtenrecht/skills/richterliche-unabhaengigkeit-dienstaufsicht",
       "beamtenrecht/skills/richterliche-unabhaengigkeit-drig-26-pruefungsverfahren",
       "beamtenrecht/skills/richterwahl-art-33-ii-und-praesidialrat",
+      "beamtenrecht/skills/ruhensregelung-53-beamtvg",
+      "beamtenrecht/skills/schadensersatz-nichtbefoerderung",
+      "beamtenrecht/skills/schwerbehinderte-bewerber-165-sgb-9",
       "beamtenrecht/skills/schwerbehinderung-bem-gleichstellung",
       "beamtenrecht/skills/soldaten-und-beamte-abgrenzung",
       "beamtenrecht/skills/status-und-rechtsquellenfinder",
       "beamtenrecht/skills/statusamt-funktionsamt-dienstposten",
       "beamtenrecht/skills/strafverfahren-und-disziplinarverfahren",
+      "beamtenrecht/skills/stufenfeststellung-besoldung-27-bbesg",
       "beamtenrecht/skills/suspendierung-38-bdg-63-bdg-eilrechtsschutz",
       "beamtenrecht/skills/tarifbeschaeftigte-abgrenzung-tv-l",
       "beamtenrecht/skills/teilzeit-beurlaubung-familienpflege",
       "beamtenrecht/skills/umsetzung-versetzung-abordnung-zuweisung",
+      "beamtenrecht/skills/unfallruhegehalt-36-beamtvg",
       "beamtenrecht/skills/urlaub-erkrankung-und-verfall",
+      "beamtenrecht/skills/verfassungstreue-7-bbg-reichsbuerger",
       "beamtenrecht/skills/verfassungstreue-extremismus-chatgruppen-disziplinarrecht",
+      "beamtenrecht/skills/versetzung-gegen-willen-28-bbg",
       "beamtenrecht/skills/versorgung-ruhegehalt-beamtvg",
+      "beamtenrecht/skills/versorgungsabschlag-14-beamtvg",
+      "beamtenrecht/skills/versorgungslastenteilung-107b-beamtvg",
+      "beamtenrecht/skills/vorlaeufige-dienstenthebung-38-bdg",
       "beamtenrecht/skills/vorlaeufige-dienstenthebung-bezuege",
       "beamtenrecht/skills/widerspruch-klage-vwgo",
       "bereicherungs-und-anfechtungsrecht-pruefer/skills/abgetretene-forderung-und-zession",
@@ -5858,52 +5913,102 @@
       "grosskanzlei-corporate-ma/skills/gk-sanierungsgewinn-tax-warranty-und-tax-indemnity-im-spa",
       "grosskanzlei-corporate-ma/skills/gk-sanierungsgewinn-verlustvortraege-sanity-im-dd-prozess",
       "grosskanzlei-corporate-ma/skills/gk-sanierungsgewinn-vorbescheid-und-verbindliche-auskunft",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-ai-vdr-classifier",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-ancillary-documents-tsa-sla",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-anfaenger-modus",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-antitrust-gun-jumping-clean-team",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-auction-process-letter",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-authority-matrix-approvals",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-automation-monitoring",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-bank-consents-change-control",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-bidder-instructions-vdr-rules",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-billing-narratives",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-board-consents-minutes-resolutions",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-board-paper-business-judgment",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-cap-table-ownership-chain",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-carve-out-separation-tsa",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-client-update-pack",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-closing-bible-archiv",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-conflict-gwg-sanctions",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-data-protection-transfer-dd",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-datenqualitaet-xai-qualitaetskontrolle",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-datenraum-aufbau",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-datenraum-gap-clean-room",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-deal-intake",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-deal-os-orchestrator",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-deal-team-staffing",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-disclosure-schedules",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-distressed-ma",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-due-diligence-commercial-contracts",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-due-diligence-legal",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-due-diligence-reporting",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-employment-works-council-613a",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-environmental-esg-compliance-dd",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-exclusivity-no-shop-process-discipline",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-executive-summary-onepager",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-expert-calls-transkripte",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-fair-disclosure-knowledge",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-financing-security-documents",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-foreign-subsidies-regulation-fsr",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-freundlicher-copilot",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-gesellschaftsrecht-register",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-handelsregisterabruf",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-insurance-risk-dd",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-ip-it-data-assets-dd",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-junior-mentor-training-loop",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-kaltstart",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-kg-personengesellschaften",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-ki-governance-berufsrecht",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-kommandocenter",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-legal-fact-book-generator",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-lessons-learned-post-mortem",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-liability-limitations-basket-cap",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-litigation-disputes-dd",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-locked-box-completion-accounts",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-look-and-feel",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-mac-ordinary-course-covenants",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-management-presentation-prep",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-matter-file",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-nda-clean-team-protokoll",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-negotiation-strategy-battlecards",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-notar-vollmachten-signaturmechanik",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-output-versand-signing",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-outside-in-target-screening",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-padlet-deal-canvas",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-pension-bav-liabilities",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-post-closing-integration",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-public-ma-kapitalmarkt-mar",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-purchase-price-adjustment-earn-out",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-qa-information-requests",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-real-estate-leases-sites",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-rechtsprechungsrecherche",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-redline-comparison-automation",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-register-filings-implementation",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-regulatory-fdi-merger-control",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-restructuring-starug-insolvenzplan",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-risk-heatmap-board",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-sector-regulatory-dd",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-shareholder-loans-subordination",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-signing-closing-conditions",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-signing-closing-room-manager",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-simulation-bidder-process",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-spa-apa-entwurf",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-specific-indemnities-risk-transfer",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-steps-plan-pmo",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-tabellen-und-matrix-factory",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-tabellenreview-3d-datenraum",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-tax-structuring-general",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-teaser-im-processdocs",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-term-sheet-to-spa-bridge",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-transaktionsstruktur",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-translations-multijurisdictional",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-transparenzregister-ubo-chain",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-umwandlungsrecht",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-umwandlungssteuerrecht",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-vendor-due-diligence-vdd",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-vertragsmarkup-key-issues",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-warranty-catalogue-negotiation",
+      "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-weakness-diagnostic-coach",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-wi-insurance",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-ma-aktenanlage",
       "grosskanzlei-corporate-ma/skills/grosskanzlei-ma-erechnung-gobd",
@@ -9576,7 +9681,7 @@
       "zwangsvollstreckung/skills/zwv-vollstreckungstitel-bauleiter",
       "zwangsvollstreckung/skills/zwv-zwangsversteigerung-grundstueck-spezial"
     ],
-    "lastUpdated": "2026-06-02T18:08:47.291Z"
+    "lastUpdated": "2026-06-02T20:46:23.058Z"
   },
   {
     "source": "github:KnowledgeXLab/skill-git",
@@ -10165,8 +10270,8 @@
   },
   {
     "source": "github:Kyure-A/agent-skills-nix",
-    "rev": "df7a6e0fa87655cf28369781232d153c1c7b55ca",
-    "hash": "1sng9csnhrkva51mhvdbawynq2d0d7mrdccl2qf6484h48d70bbb",
+    "rev": "ba550ebf77004b8a1f865528fc9a1d7e22628501",
+    "hash": "1gw685r4fxyzj5h6kazchd8fwmz06fl6vgshsqqwg7j6fbafkn4w",
     "skills": [
       "test/fixtures/escaping-skill-target",
       "test/fixtures/multi-skill-shared-root/skill-a",
@@ -10175,7 +10280,7 @@
       "test/fixtures/nested-skills/cat-a/skill-2",
       "test/fixtures/test-skill"
     ],
-    "lastUpdated": "2026-05-29T17:08:24.193Z"
+    "lastUpdated": "2026-06-02T20:46:14.407Z"
   },
   {
     "source": "github:k-dense-ai/claude-scientific-skills",
@@ -11774,12 +11879,12 @@
   },
   {
     "source": "github:karebeauti/Agent-Reach",
-    "rev": "5ccb86be7bea12a9603b2fdc031240ca2ad65198",
+    "rev": "bbe1d3884be335810c34171e4468109784f27563",
     "hash": "0ya7glgka373j6s1636l0cln01xf65i3nvf15incbpqjzq0hr2p7",
     "skills": [
       "agent_reach/skill"
     ],
-    "lastUpdated": "2026-06-02T18:10:10.914Z"
+    "lastUpdated": "2026-06-02T20:46:28.154Z"
   },
   {
     "source": "github:kareem-aez/convit",
@@ -12071,12 +12176,12 @@
   },
   {
     "source": "github:kaushikgopal/dotfiles",
-    "rev": "64229360bbc33761f45539da31e308084eb7f747",
-    "hash": "09q5wckg4xj3d3h59mqzzrs1dbq6akdiz2n0j0ibfdksj3izlly5",
+    "rev": "3d6bf81a9e4ab2bae83f3d8d8fb90a8cc2825ab6",
+    "hash": "1xgbxxka9vh557k7hq8dvycqcrizd5pv24wy4w3bk0s01xbjmcxc",
     "skills": [
       "notes/obsd/.agents/skills/submit-forma-reimbursement"
     ],
-    "lastUpdated": "2026-05-31T23:17:11.673Z"
+    "lastUpdated": "2026-06-02T20:46:43.387Z"
   },
   {
     "source": "github:kaustav-payday/pitch-deck-reviewer",
@@ -12137,12 +12242,12 @@
   },
   {
     "source": "github:kayunangka/claude-skill",
-    "rev": "8eb8c6e0fdfd93a253d16e2c33e14c9a71079b99",
+    "rev": "23286dbe79709831f0143e8c77d2209983deec6b",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-06-02T15:31:05.506Z"
+    "lastUpdated": "2026-06-02T20:47:48.766Z"
   },
   {
     "source": "github:kazan/diagrammer",
@@ -12258,8 +12363,8 @@
   },
   {
     "source": "github:kborovik/pilot-skills",
-    "rev": "e8e689c75b39687180979063e219ee600c8981eb",
-    "hash": "1jc2915zknq7qihnhd64fn351r8gzqrqg6nx7r0a19r4xslw0ghf",
+    "rev": "770a81618a99322ce911fbd5c35a1f0db984f698",
+    "hash": "0y507kbccla46dpayxlr23c7khk8m3r5bn42ha8gs5lk5f3scxqa",
     "skills": [
       "pilot-core/skills/socratic",
       "pilot-core/skills/steno",
@@ -12278,7 +12383,7 @@
       "pilot-spec/skills/reorganize",
       "pilot-spec/skills/spec"
     ],
-    "lastUpdated": "2026-06-02T06:11:01.046Z"
+    "lastUpdated": "2026-06-02T20:47:52.577Z"
   },
   {
     "source": "github:kbravh/skills",
@@ -12478,8 +12583,8 @@
   },
   {
     "source": "github:kdlbs/kandev",
-    "rev": "8eb0850c51482a5ad652a51455625df454d12374",
-    "hash": "1gkqyd2xpj1byhxdi1dd6gzgfayw1s96q7wl9x6y89kacbany8wj",
+    "rev": "6a684211fc5ac75d7795ad03ba60f92312d7ec3d",
+    "hash": "1k2qwk8yj8m5fg64dgk3sv72shfaypaydy9d1g5vypmbjkgp76wf",
     "skills": [
       ".agents/skills/acp-debug",
       ".agents/skills/add-integration",
@@ -12518,7 +12623,7 @@
       "apps/backend/internal/office/configloader/skills/kandev-team",
       "apps/backend/internal/office/configloader/skills/memory"
     ],
-    "lastUpdated": "2026-06-02T18:08:54.303Z"
+    "lastUpdated": "2026-06-02T20:48:07.250Z"
   },
   {
     "source": "github:kdoronin/claude_code_skills",
@@ -14652,8 +14757,8 @@
   },
   {
     "source": "github:kilo-org/kilocode",
-    "rev": "f7641c1b4d66b648afc4c92bf1dc20ef1c6b3b8c",
-    "hash": "0zzmmp0ijwiik1dl65548q8ixbh830airi3mmz60w9ggh42xnygi",
+    "rev": "ab62726d38b2c021191978c2b64fcd63f8353552",
+    "hash": "1cpy1l53p1p2smv0r38s7c72nxqcgiig092xxrxvqal2y6wzrgr8",
     "skills": [
       ".kilo/skills/gh-issues",
       ".kilo/skills/kilocode-merge-minimizer",
@@ -14662,7 +14767,7 @@
       "packages/opencode/test/fixture/skills/agents-sdk",
       "packages/opencode/test/fixture/skills/cloudflare"
     ],
-    "lastUpdated": "2026-06-02T18:12:59.226Z"
+    "lastUpdated": "2026-06-02T20:49:53.348Z"
   },
   {
     "source": "github:kilospark/webact",
@@ -15652,8 +15757,8 @@
   },
   {
     "source": "github:kjaylee/misskim-skills",
-    "rev": "fb06e86fba467bb77dce5c7cd7336cab3c9a3cbb",
-    "hash": "1gl9m5afxmsyjfdzqrj2mlvk90i6f4xfs2gw92ankprgbzimygwj",
+    "rev": "009bebc93e28f72baa5a28c151a4217b987253a2",
+    "hash": "095pw67yghzq9knqp6jvh4n86dmifamjfy4nrlzbq8hwc9ngjczj",
     "skills": [
       "game-marketing-context",
       "openclaw-mem",
@@ -15707,7 +15812,7 @@
       "skills/web-design-pro",
       "skills/youtube-pro"
     ],
-    "lastUpdated": "2026-05-31T19:57:43.489Z"
+    "lastUpdated": "2026-06-02T20:50:08.115Z"
   },
   {
     "source": "github:kjcarnahan/skills",
@@ -15720,8 +15825,8 @@
   },
   {
     "source": "github:kjdragan/universal_agent",
-    "rev": "bc509de3bf4b5a1a27ee9b4dacb9f7b35bfef9ba",
-    "hash": "0cshfadfx298h422hgmgk2aqsi9nkrbw2hrwxz0zyqnalc769617",
+    "rev": "77a6b4cb10bdc44cd7c481de9553c76070b088f3",
+    "hash": "0dqcvg3f8x0cs7rv8aknmlvmm4h08cqc5dgkbxv0hdvfnwksphpd",
     "skills": [
       ".agent/skills/agentmail",
       ".agent/skills/excalidraw-diagram",
@@ -15824,7 +15929,7 @@
       ".claude/skills/youtube-tutorial-creation",
       ".claude/skills/zread-dependency-docs"
     ],
-    "lastUpdated": "2026-06-02T18:13:31.779Z"
+    "lastUpdated": "2026-06-02T20:48:51.740Z"
   },
   {
     "source": "github:kjgarza/marketplace-claude",
@@ -16498,7 +16603,7 @@
   },
   {
     "source": "github:kobolden/angular-skills",
-    "rev": "f0990027521b25f36ccefc311fd80d4ab5ee6c5a",
+    "rev": "ac6f6513805281c682c51332c8466ad145888bf4",
     "hash": "0npi8l8540h08agnh42lbjnnxxnznd54787h74qgs53dcad9v170",
     "skills": [
       "skills/angular-component",
@@ -16512,7 +16617,7 @@
       "skills/angular-testing",
       "skills/angular-tooling"
     ],
-    "lastUpdated": "2026-06-02T18:11:02.446Z"
+    "lastUpdated": "2026-06-02T20:49:04.613Z"
   },
   {
     "source": "github:kochetkov-ma/claude-brewcode",
@@ -18650,14 +18755,14 @@
   },
   {
     "source": "github:kreuzberg-dev/liter-llm",
-    "rev": "dd0bbd3118cb62748957260db9de1d14fcc2cbad",
-    "hash": "1881i8fns8i7s88kac08gr8x47nr9sx6rn3a4ga9ablg02w9pr09",
+    "rev": "9015a79fdead6a87c27c5313a96afd90eb2280d3",
+    "hash": "08xxnkdqygxv8pcid34qg25r833c83gy63kicn5ywf7h281gjs6r",
     "skills": [
       ".agents/skills/add-language-generator",
       ".agents/skills/create-e2e-fixture",
       "skills/liter-llm"
     ],
-    "lastUpdated": "2026-06-02T18:11:45.735Z"
+    "lastUpdated": "2026-06-02T20:50:12.166Z"
   },
   {
     "source": "github:kriscard/kriscard-claude-plugins",
@@ -19124,8 +19229,8 @@
   },
   {
     "source": "github:kryptobaseddev/cleo",
-    "rev": "8b0c0945a0039aae0454bc1b35b954fcfbe306b8",
-    "hash": "1a95p9slf94lwpq545z9v125b4jmfz4pfm7qhc519nzrdlgbp8kg",
+    "rev": "2c0aab3eb69601082f54cae62601ea078863e013",
+    "hash": "1xad8r3wjzglixc4dabkk1bacj8sjab93h3lkzs2z9s670dgqsy3",
     "skills": [
       ".claude/skills/gitnexus/gitnexus-cli",
       ".claude/skills/gitnexus/gitnexus-debugging",
@@ -19166,7 +19271,7 @@
       "packages/skills/skills/ct-validator",
       "packages/skills/skills/signaldock-connect"
     ],
-    "lastUpdated": "2026-06-02T18:12:21.796Z"
+    "lastUpdated": "2026-06-02T20:50:39.813Z"
   },
   {
     "source": "github:kryptogo/kryptogo-meme-trader",
@@ -19479,8 +19584,8 @@
   },
   {
     "source": "github:kubb-labs/kubb",
-    "rev": "61ca8876281afe919e5e76ef8b8b50cc0af64cc9",
-    "hash": "1s7yq15vg04ga80825ca5ivc9swvkqv1yxrcfdvcawym8asx2agr",
+    "rev": "e0c41cde3763f3d88f0128684095ea1984c44754",
+    "hash": "09x4km8hnzd57lyg3gk48sxz1sgmpcicj8sqgm4p2ini7b3wimp0",
     "skills": [
       ".agents/skills/changelog",
       ".agents/skills/documentation",
@@ -19491,7 +19596,7 @@
       "tools/claude/skills/config",
       "tools/claude/skills/output"
     ],
-    "lastUpdated": "2026-06-02T12:16:34.247Z"
+    "lastUpdated": "2026-06-02T20:49:18.935Z"
   },
   {
     "source": "github:kubrickcode/workflow-toolkit",
@@ -21880,7 +21985,7 @@
   },
   {
     "source": "github:kyawshinethu/ClaudeSkills",
-    "rev": "1a85e7f5754d1cbae5783181273fe9810d29e802",
+    "rev": "ef1a265f013df39460b65b43a6e643ffc8ba39a3",
     "hash": "040is8y9rwlx1c08w3wnc9aw2clyniayimr5q8agxs0fpixbxngj",
     "skills": [
       "skills/code-review",
@@ -21900,7 +22005,7 @@
       "skills/ui-analyzer",
       "skills/wechat-article-writer/wechat-article-writer"
     ],
-    "lastUpdated": "2026-06-02T15:30:32.670Z"
+    "lastUpdated": "2026-06-02T20:49:29.208Z"
   },
   {
     "source": "github:kybernetwork/kyberswap-skills",
