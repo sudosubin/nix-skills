@@ -19,8 +19,8 @@
   },
   {
     "source": "github:NVIDIA/Megatron-LM",
-    "rev": "bdcaf267ffb244061885fe2f0abec90cb2a0f491",
-    "hash": "1glkk3mbl6byidz4p5pqfgkk51h6mybkjpj0x0n2qfli37idq93b",
+    "rev": "16b71941e289907420c99c649b54ec1778e61440",
+    "hash": "1k9bwwnmbciyl9dkccgiz0a1rg3rw9nwd104dgbj3k2h0silg820",
     "skills": [
       "skills/mcore-build-and-dependency",
       "skills/mcore-bump-base-image",
@@ -35,7 +35,7 @@
       "skills/respond-to-issue",
       "skills/update-golden-values"
     ],
-    "lastUpdated": "2026-06-04T11:48:02.338Z"
+    "lastUpdated": "2026-06-04T14:51:35.045Z"
   },
   {
     "source": "github:NYTC69/review-loop",
@@ -59839,8 +59839,8 @@
   },
   {
     "source": "github:NousResearch/hermes-agent",
-    "rev": "d3fab54933c3866d2c7cf5e51dc63e9e494c9f47",
-    "hash": "0sjx128hc46snzyqbzdc10x7z6vlpxwgnppw9x25mgl387frr3sk",
+    "rev": "693f4c7e9ce583ed740daaa5aa8eb738390c643b",
+    "hash": "07dyib0q6kzljvqf4cd04na3xm9kiscfcphgx7px99n9b80lkvkc",
     "skills": [
       "optional-skills/autonomous-ai-agents/antigravity-cli",
       "optional-skills/autonomous-ai-agents/blackbox",
@@ -59851,13 +59851,18 @@
       "optional-skills/blockchain/hyperliquid",
       "optional-skills/blockchain/solana",
       "optional-skills/communication/one-three-one-rule",
+      "optional-skills/creative/baoyu-article-illustrator",
+      "optional-skills/creative/baoyu-comic",
       "optional-skills/creative/blender-mcp",
       "optional-skills/creative/concept-diagrams",
+      "optional-skills/creative/creative-ideation",
       "optional-skills/creative/hyperframes",
       "optional-skills/creative/kanban-video-orchestrator",
       "optional-skills/creative/meme-generation",
+      "optional-skills/creative/pixel-art",
       "optional-skills/devops/cli",
       "optional-skills/devops/docker-management",
+      "optional-skills/devops/hermes-s6-container-supervision",
       "optional-skills/devops/pinggy-tunnel",
       "optional-skills/devops/watchers",
       "optional-skills/dogfood/adversarial-ux-test",
@@ -59870,6 +59875,8 @@
       "optional-skills/finance/merger-model",
       "optional-skills/finance/pptx-author",
       "optional-skills/finance/stocks",
+      "optional-skills/gaming/minecraft-modpack-server",
+      "optional-skills/gaming/pokemon-player",
       "optional-skills/health/fitness-nutrition",
       "optional-skills/health/neuroskill-bci",
       "optional-skills/mcp/fastmcp",
@@ -59893,6 +59900,7 @@
       "optional-skills/mlops/pytorch-fsdp",
       "optional-skills/mlops/pytorch-lightning",
       "optional-skills/mlops/qdrant",
+      "optional-skills/mlops/research/dspy",
       "optional-skills/mlops/saelens",
       "optional-skills/mlops/simpo",
       "optional-skills/mlops/slime",
@@ -59927,6 +59935,7 @@
       "optional-skills/security/web-pentest",
       "optional-skills/software-development/code-wiki",
       "optional-skills/software-development/rest-graphql-debug",
+      "optional-skills/software-development/subagent-driven-development",
       "optional-skills/web-development/page-agent",
       "plugins/google_meet",
       "skills/apple/apple-notes",
@@ -59937,23 +59946,18 @@
       "skills/autonomous-ai-agents/claude-code",
       "skills/autonomous-ai-agents/codex",
       "skills/autonomous-ai-agents/hermes-agent",
-      "skills/autonomous-ai-agents/kanban-codex-lane",
       "skills/autonomous-ai-agents/opencode",
       "skills/creative/architecture-diagram",
       "skills/creative/ascii-art",
       "skills/creative/ascii-video",
-      "skills/creative/baoyu-article-illustrator",
-      "skills/creative/baoyu-comic",
       "skills/creative/baoyu-infographic",
       "skills/creative/claude-design",
       "skills/creative/comfyui",
-      "skills/creative/creative-ideation",
       "skills/creative/design-md",
       "skills/creative/excalidraw",
       "skills/creative/humanizer",
       "skills/creative/manim-video",
       "skills/creative/p5js",
-      "skills/creative/pixel-art",
       "skills/creative/popular-web-designs",
       "skills/creative/pretext",
       "skills/creative/sketch",
@@ -59962,22 +59966,17 @@
       "skills/data-science/jupyter-live-kernel",
       "skills/devops/kanban-orchestrator",
       "skills/devops/kanban-worker",
-      "skills/devops/webhook-subscriptions",
       "skills/dogfood",
       "skills/email/himalaya",
-      "skills/gaming/minecraft-modpack-server",
-      "skills/gaming/pokemon-player",
       "skills/github/codebase-inspection",
       "skills/github/github-auth",
       "skills/github/github-code-review",
       "skills/github/github-issues",
       "skills/github/github-pr-workflow",
       "skills/github/github-repo-management",
-      "skills/mcp/native-mcp",
       "skills/media/gif-search",
       "skills/media/heartmula",
       "skills/media/songsee",
-      "skills/media/spotify",
       "skills/media/youtube-content",
       "skills/mlops/evaluation/lm-evaluation-harness",
       "skills/mlops/evaluation/weights-and-biases",
@@ -59987,11 +59986,9 @@
       "skills/mlops/inference/vllm",
       "skills/mlops/models/audiocraft",
       "skills/mlops/models/segment-anything",
-      "skills/mlops/research/dspy",
       "skills/note-taking/obsidian",
       "skills/productivity/airtable",
       "skills/productivity/google-workspace",
-      "skills/productivity/linear",
       "skills/productivity/maps",
       "skills/productivity/nano-pdf",
       "skills/productivity/notion",
@@ -60006,21 +60003,26 @@
       "skills/research/research-paper-writing",
       "skills/smart-home/openhue",
       "skills/social-media/xurl",
-      "skills/software-development/debugging-hermes-tui-commands",
       "skills/software-development/hermes-agent-skill-authoring",
-      "skills/software-development/hermes-s6-container-supervision",
       "skills/software-development/node-inspect-debugger",
       "skills/software-development/plan",
       "skills/software-development/python-debugpy",
       "skills/software-development/requesting-code-review",
       "skills/software-development/spike",
-      "skills/software-development/subagent-driven-development",
       "skills/software-development/systematic-debugging",
       "skills/software-development/test-driven-development",
-      "skills/software-development/writing-plans",
       "skills/yuanbao"
     ],
-    "lastUpdated": "2026-06-04T11:48:23.946Z"
+    "lastUpdated": "2026-06-04T14:51:49.645Z"
+  },
+  {
+    "source": "github:Nyx-abu/awwwards-ui-skill",
+    "rev": "95ffe7d7bd3944b632d45ac2ac3d3d831be17e03",
+    "hash": "0brcrych6qgb7dnaw854nf6lxakmsf012z1lfyiqzn6675v5ihk0",
+    "skills": [
+      "skills/awwwards_ui_design"
+    ],
+    "lastUpdated": "2026-06-04T14:51:44.960Z"
   },
   {
     "source": "github:n-n-code/n-n-code-skills",
@@ -60079,8 +60081,8 @@
   },
   {
     "source": "github:n8n-io/n8n",
-    "rev": "f16befcb3b6939ec683f2b6c71aab92583eb29fd",
-    "hash": "0lfc6qxijnk8s2h201931blibjmcs8lm2dhnwbmcwj8k6dfqdm5z",
+    "rev": "ac4778bb5c956e6d8e98d347d1e13bcb6ea6d4cd",
+    "hash": "1705fv4nba5yp5p91bzr5i32zywgfsdwm02z65614hi2f4m6mbkj",
     "skills": [
       ".claude/plugins/n8n/skills/community-pr-readiness-check",
       ".claude/plugins/n8n/skills/content-design",
@@ -60108,7 +60110,7 @@
       "packages/@n8n/instance-ai/skills/data-table-manager",
       "packages/@n8n/instance-ai/skills/workflow-builder"
     ],
-    "lastUpdated": "2026-06-04T11:51:38.781Z"
+    "lastUpdated": "2026-06-04T14:54:30.681Z"
   },
   {
     "source": "github:nWave-ai/nWave",
@@ -60608,12 +60610,12 @@
   },
   {
     "source": "github:nainsharma01/claude-code-visualizer",
-    "rev": "b2d2330e314dc37a77fe8c565e8276b8687f17f3",
+    "rev": "11ccf7bb9c0da50aa71026f094c1f854d9feab61",
     "hash": "12qbiihj2lykmk2z63mwiyqbml63hdsax8dlf8grvijwsfgqs8w1",
     "skills": [
       ".claude/skills/agent-skill-visualizer"
     ],
-    "lastUpdated": "2026-06-04T11:51:13.442Z"
+    "lastUpdated": "2026-06-04T14:54:00.025Z"
   },
   {
     "source": "github:nakajito/software-docs",
@@ -61681,8 +61683,8 @@
   },
   {
     "source": "github:navikt/copilot",
-    "rev": "fa11e0d6f28951ff30163169739f3527d9549175",
-    "hash": "0f04i546ssw3f30c9m2z0yh0lsfwc3nwiw94c0j9lr94ifjby8n4",
+    "rev": "5c5135dc7cddd1128cb32702e4c1dbe115f88131",
+    "hash": "0bi5x3b0pnzn4nx93wf2xdrnkfn1ac2adwld4mh7vbwax31k5n5f",
     "skills": [
       "skills/ai-news-research",
       "skills/aksel-spacing",
@@ -61714,7 +61716,7 @@
       "skills/web-design-reviewer",
       "skills/workstation-security"
     ],
-    "lastUpdated": "2026-06-04T11:50:40.583Z"
+    "lastUpdated": "2026-06-04T14:54:41.002Z"
   },
   {
     "source": "github:navraj007in/architecture-cowork-plugin",
@@ -64011,12 +64013,12 @@
   },
   {
     "source": "github:netresearch/git-workflow-skill",
-    "rev": "e63589b45648bcff6333103ba199713275233be2",
-    "hash": "1ar9qaqvac2crjwjlgkdhfx2bns5b880n0plv2v59jj6w85py2lv",
+    "rev": "e8d4cd361fd10286fcaa5b1917b843150201d760",
+    "hash": "08h97nsb89pdql1sgalwjz7bhqaw8dgf3ax2dly57y5bfg0jq51w",
     "skills": [
       "skills/git-workflow"
     ],
-    "lastUpdated": "2026-06-02T12:17:29.363Z"
+    "lastUpdated": "2026-06-04T14:55:20.921Z"
   },
   {
     "source": "github:netresearch/go-development-skill",
@@ -241639,8 +241641,8 @@
   },
   {
     "source": "github:nexu-io/open-design",
-    "rev": "d6fe99bcdfd33c347bdf7d29130e21df4becf49d",
-    "hash": "0ywnys0ms9h5apjqxbqlaabk2vklq2nbniglj5df2qqh3r8by2lc",
+    "rev": "8920577f434c1312bf210b8e957cefe8d765ee89",
+    "hash": "0n9zi2r2f0paq74r1bgnym8gf9v072cns12jwqbpvv0g1xcagx9q",
     "skills": [
       ".claude/skills/od-contribute",
       "apps/daemon/tests/fixtures/plugin-fixtures/sample-plugin",
@@ -241954,7 +241956,7 @@
       "skills/wpds",
       "skills/youtube-clipper"
     ],
-    "lastUpdated": "2026-06-04T12:12:58.175Z"
+    "lastUpdated": "2026-06-04T15:00:25.788Z"
   },
   {
     "source": "github:nexus-labs-automation/mobile-observability",
@@ -241974,8 +241976,8 @@
   },
   {
     "source": "github:nexus-substrate/nexus-agents",
-    "rev": "aa744c52148993df651b05f407c7bb394db86749",
-    "hash": "03r2agxwx4dzjfmkrxv052i5nd0vpjc4i7bi9gqq2v5dyz0jrvlb",
+    "rev": "fda24cc4112d5a885e880b59ccafba3ac15719ed",
+    "hash": "0ghm8z5pmdcb932z3b9bpasbmlwjbinhinby0a7j9fxm23alxjfh",
     "skills": [
       "skills/api-and-interface-design",
       "skills/browser-testing-with-devtools",
@@ -242010,7 +242012,7 @@
       "skills/ui-ux-design",
       "skills/version-check"
     ],
-    "lastUpdated": "2026-06-04T12:13:06.410Z"
+    "lastUpdated": "2026-06-04T15:00:33.928Z"
   },
   {
     "source": "github:nexusgpu/repterm",
@@ -242912,15 +242914,15 @@
   },
   {
     "source": "github:ngvoicu/kluris",
-    "rev": "3e70d9f54bcd3c6d384718efa6c631b6472b8f2a",
-    "hash": "1fm8f521wsbmkz52pnf5gwzxn4wijka54psk2r8qn9imz6m7xszp",
+    "rev": "2de755001f72a6235ad9f07aa89f145477c78b5d",
+    "hash": "0j5zfwbp7xsadc0bwyasgpqnkkzw2wllxf79pbvn81yqszjznczg",
     "skills": [
       "src/kluris/vendored/specmint-core",
       "src/kluris/vendored/specmint-core-html",
       "src/kluris/vendored/specmint-tdd",
       "src/kluris/vendored/specmint-tdd-html"
     ],
-    "lastUpdated": "2026-06-03T21:31:11.903Z"
+    "lastUpdated": "2026-06-04T14:54:37.641Z"
   },
   {
     "source": "github:ngvoicu/specmint-core",
@@ -245027,8 +245029,8 @@
   },
   {
     "source": "github:nicmarti/skills-weaver",
-    "rev": "1557f0174cf72649c2eac5d59b20f806af0b4795",
-    "hash": "0bn1zy3rdf8f28b3lz174nslmyahgbil5mvwqxwdslkb26skld9v",
+    "rev": "ac05a650c80f11ffacba581ccf7b36f5620b2600",
+    "hash": "0a99vr5fkzxmm667df2xifh8a8m4f4hm9cpwz8q70cgbdygqjj9m",
     "skills": [
       ".claude/skills/decision-council",
       "core_agents/skills/adventure-manager",
@@ -245045,7 +245047,7 @@
       "core_agents/skills/spell-reference",
       "core_agents/skills/treasure-generator"
     ],
-    "lastUpdated": "2026-06-04T11:52:49.977Z"
+    "lastUpdated": "2026-06-04T14:54:58.058Z"
   },
   {
     "source": "github:nicmeriano/agent-skills",
@@ -245943,8 +245945,8 @@
   },
   {
     "source": "github:ninehills/skills",
-    "rev": "ec34501350ae2825b8f1c98c4cf7c74853af6b0b",
-    "hash": "1p24p0rsqjz2fsf6nflcclsaj9ys0annb6p965a23p22a87milnz",
+    "rev": "af04d82414f9c5530c72ee76852599d0d0ef9fcf",
+    "hash": "0ghkja5d80p007hh2zdjkd7vxy564y8rqcsd05r492d4614z76m2",
     "skills": [
       "agent-browser",
       "alphaear-deepear-lite",
@@ -246014,7 +246016,7 @@
       "write",
       "zoom-out"
     ],
-    "lastUpdated": "2026-06-03T09:27:53.562Z"
+    "lastUpdated": "2026-06-04T14:53:51.951Z"
   },
   {
     "source": "github:ninestep/docx-format-skill",
@@ -248229,13 +248231,13 @@
   },
   {
     "source": "github:njbrake/agent-of-empires",
-    "rev": "4b19740b853ca2ef25687e9ed786044a7f3df68a",
-    "hash": "1i4fcwx776zqgsnb2qzcap25nddcqqvzjgnqh96rax8r7qng415q",
+    "rev": "07e93fdbbf41c920da705d71b9de7c1360987782",
+    "hash": "0w2njmyx3by8m6gq86p1f4lncpmw3c3di95fi3wa5djnaw2f9s9x",
     "skills": [
       "contrib/hermes-skill",
       "contrib/openclaw-skill"
     ],
-    "lastUpdated": "2026-06-04T11:50:41.600Z"
+    "lastUpdated": "2026-06-04T14:54:08.047Z"
   },
   {
     "source": "github:njzjz/nsfc-agent-skills",
@@ -249022,8 +249024,8 @@
   },
   {
     "source": "github:noir-lang/noir",
-    "rev": "9c428b60df5207d7e7fd7f7c49541f7b61d8e589",
-    "hash": "1hixp3w8n60q74jv2wbpdkhpg8kd1iqrv1x5sdp92rsiiki44i9j",
+    "rev": "a0738c3507611813c460726ab6037681f9330c45",
+    "hash": "0xa1m54xddkr8nh8hqkna719vzgrs4m6l5scn7b22y341gwf7bgr",
     "skills": [
       ".claude/skills/bisect-ssa-pass",
       ".claude/skills/debug-fuzzer-failure",
@@ -249033,7 +249035,7 @@
       ".claude/skills/noir-optimize-acir",
       ".claude/skills/reduce-ssa-repro"
     ],
-    "lastUpdated": "2026-06-04T11:53:52.653Z"
+    "lastUpdated": "2026-06-04T14:55:40.081Z"
   },
   {
     "source": "github:noizai/skills",
@@ -249747,8 +249749,8 @@
   },
   {
     "source": "github:nousresearch/hermes-agent",
-    "rev": "d3fab54933c3866d2c7cf5e51dc63e9e494c9f47",
-    "hash": "0sjx128hc46snzyqbzdc10x7z6vlpxwgnppw9x25mgl387frr3sk",
+    "rev": "30412a9771cc81861c58a94fdb64fc49036ef307",
+    "hash": "19h72c2cq6nbf9b89pv9k2ins16psxac7svhqh8ixylj131gqdly",
     "skills": [
       "optional-skills/autonomous-ai-agents/antigravity-cli",
       "optional-skills/autonomous-ai-agents/blackbox",
@@ -249759,13 +249761,18 @@
       "optional-skills/blockchain/hyperliquid",
       "optional-skills/blockchain/solana",
       "optional-skills/communication/one-three-one-rule",
+      "optional-skills/creative/baoyu-article-illustrator",
+      "optional-skills/creative/baoyu-comic",
       "optional-skills/creative/blender-mcp",
       "optional-skills/creative/concept-diagrams",
+      "optional-skills/creative/creative-ideation",
       "optional-skills/creative/hyperframes",
       "optional-skills/creative/kanban-video-orchestrator",
       "optional-skills/creative/meme-generation",
+      "optional-skills/creative/pixel-art",
       "optional-skills/devops/cli",
       "optional-skills/devops/docker-management",
+      "optional-skills/devops/hermes-s6-container-supervision",
       "optional-skills/devops/pinggy-tunnel",
       "optional-skills/devops/watchers",
       "optional-skills/dogfood/adversarial-ux-test",
@@ -249778,6 +249785,8 @@
       "optional-skills/finance/merger-model",
       "optional-skills/finance/pptx-author",
       "optional-skills/finance/stocks",
+      "optional-skills/gaming/minecraft-modpack-server",
+      "optional-skills/gaming/pokemon-player",
       "optional-skills/health/fitness-nutrition",
       "optional-skills/health/neuroskill-bci",
       "optional-skills/mcp/fastmcp",
@@ -249801,6 +249810,7 @@
       "optional-skills/mlops/pytorch-fsdp",
       "optional-skills/mlops/pytorch-lightning",
       "optional-skills/mlops/qdrant",
+      "optional-skills/mlops/research/dspy",
       "optional-skills/mlops/saelens",
       "optional-skills/mlops/simpo",
       "optional-skills/mlops/slime",
@@ -249835,6 +249845,7 @@
       "optional-skills/security/web-pentest",
       "optional-skills/software-development/code-wiki",
       "optional-skills/software-development/rest-graphql-debug",
+      "optional-skills/software-development/subagent-driven-development",
       "optional-skills/web-development/page-agent",
       "plugins/google_meet",
       "skills/apple/apple-notes",
@@ -249845,23 +249856,18 @@
       "skills/autonomous-ai-agents/claude-code",
       "skills/autonomous-ai-agents/codex",
       "skills/autonomous-ai-agents/hermes-agent",
-      "skills/autonomous-ai-agents/kanban-codex-lane",
       "skills/autonomous-ai-agents/opencode",
       "skills/creative/architecture-diagram",
       "skills/creative/ascii-art",
       "skills/creative/ascii-video",
-      "skills/creative/baoyu-article-illustrator",
-      "skills/creative/baoyu-comic",
       "skills/creative/baoyu-infographic",
       "skills/creative/claude-design",
       "skills/creative/comfyui",
-      "skills/creative/creative-ideation",
       "skills/creative/design-md",
       "skills/creative/excalidraw",
       "skills/creative/humanizer",
       "skills/creative/manim-video",
       "skills/creative/p5js",
-      "skills/creative/pixel-art",
       "skills/creative/popular-web-designs",
       "skills/creative/pretext",
       "skills/creative/sketch",
@@ -249870,22 +249876,17 @@
       "skills/data-science/jupyter-live-kernel",
       "skills/devops/kanban-orchestrator",
       "skills/devops/kanban-worker",
-      "skills/devops/webhook-subscriptions",
       "skills/dogfood",
       "skills/email/himalaya",
-      "skills/gaming/minecraft-modpack-server",
-      "skills/gaming/pokemon-player",
       "skills/github/codebase-inspection",
       "skills/github/github-auth",
       "skills/github/github-code-review",
       "skills/github/github-issues",
       "skills/github/github-pr-workflow",
       "skills/github/github-repo-management",
-      "skills/mcp/native-mcp",
       "skills/media/gif-search",
       "skills/media/heartmula",
       "skills/media/songsee",
-      "skills/media/spotify",
       "skills/media/youtube-content",
       "skills/mlops/evaluation/lm-evaluation-harness",
       "skills/mlops/evaluation/weights-and-biases",
@@ -249895,11 +249896,9 @@
       "skills/mlops/inference/vllm",
       "skills/mlops/models/audiocraft",
       "skills/mlops/models/segment-anything",
-      "skills/mlops/research/dspy",
       "skills/note-taking/obsidian",
       "skills/productivity/airtable",
       "skills/productivity/google-workspace",
-      "skills/productivity/linear",
       "skills/productivity/maps",
       "skills/productivity/nano-pdf",
       "skills/productivity/notion",
@@ -249914,21 +249913,17 @@
       "skills/research/research-paper-writing",
       "skills/smart-home/openhue",
       "skills/social-media/xurl",
-      "skills/software-development/debugging-hermes-tui-commands",
       "skills/software-development/hermes-agent-skill-authoring",
-      "skills/software-development/hermes-s6-container-supervision",
       "skills/software-development/node-inspect-debugger",
       "skills/software-development/plan",
       "skills/software-development/python-debugpy",
       "skills/software-development/requesting-code-review",
       "skills/software-development/spike",
-      "skills/software-development/subagent-driven-development",
       "skills/software-development/systematic-debugging",
       "skills/software-development/test-driven-development",
-      "skills/software-development/writing-plans",
       "skills/yuanbao"
     ],
-    "lastUpdated": "2026-06-04T11:51:55.342Z"
+    "lastUpdated": "2026-06-04T14:53:31.207Z"
   },
   {
     "source": "github:nouvath07/KhamLao",
@@ -249971,8 +249966,8 @@
   },
   {
     "source": "github:novuhq/novu",
-    "rev": "7cad2fb0aa7cf96068f14fc380f2bd4a6052bf26",
-    "hash": "1r1qrip13rg74k5l51k22c5fag3wxqc2fsc8lxjc9xq3jy9hfvad",
+    "rev": "82bb6c721064e7597b1b7766df87522a8eda9179",
+    "hash": "0k3b4f6kc27gzl7vsa9q36c4jzj3h6azqc4krbw3qgm93pvfjpx4",
     "skills": [
       ".agents/skills/email-best-practices",
       ".agents/skills/figma-use",
@@ -249989,7 +249984,7 @@
       ".cursor/skills/run-api-e2e-tests",
       "packages/novu/src/commands/wizard/skills/content/env-setup"
     ],
-    "lastUpdated": "2026-06-04T06:18:22.503Z"
+    "lastUpdated": "2026-06-04T14:53:41.691Z"
   },
   {
     "source": "github:novuhq/skills",
@@ -250191,8 +250186,8 @@
   },
   {
     "source": "github:nrwl/nx",
-    "rev": "dc3aab552f2912a5102d648a760dab1b5c06083f",
-    "hash": "01xd2yjkazk1hxg0abqd02pkkqsgkwfb7f5k0x1mfirhg6039ws8",
+    "rev": "82c182548667f910ff28cfd708053acc187a5ddd",
+    "hash": "01fzjlf9lrqxkn9c7np2j6n9njbl8ab8y518p0hljzc75np1h10a",
     "skills": [
       ".claude/skills/diagnose-sandbox-report",
       ".claude/skills/dist-build-migration",
@@ -250206,7 +250201,7 @@
       ".github/skills/nx-run-tasks",
       ".github/skills/nx-workspace"
     ],
-    "lastUpdated": "2026-06-04T11:52:52.252Z"
+    "lastUpdated": "2026-06-04T14:54:28.654Z"
   },
   {
     "source": "github:nrwl/nx-ai-agents-config",
@@ -250462,12 +250457,12 @@
   },
   {
     "source": "github:numbagg/numbagg",
-    "rev": "e437cfcbba75762bc214cb2804bf3dff9f745774",
-    "hash": "01hhd6dj757zwvagh3qd94iv497ipxnz0v48jhaqr80haca7gr1s",
+    "rev": "8e89a59c4809c6f6db15c48bdcc5fc22a2298e92",
+    "hash": "1b5zs3m4r6zl7sr24r4dasz8qc8w5mq95yvnlnbbn2jf06svnkg3",
     "skills": [
       ".claude/skills/running-tend"
     ],
-    "lastUpdated": "2026-06-02T18:12:21.284Z"
+    "lastUpdated": "2026-06-04T14:53:57.095Z"
   },
   {
     "source": "github:numbero/github-kb-skill",
@@ -250610,14 +250605,14 @@
   },
   {
     "source": "github:nuxt-content/docus",
-    "rev": "0eb1a36196de5ec6fbd2b42e9ff49db4c08c7911",
-    "hash": "0i9vqfwlvah4hwllkrdky5fl1qccgzmh5006vy13dyrr5d4hzgz7",
+    "rev": "671ba626961baf504633f01e8ea07643c0a4372c",
+    "hash": "1isb8mc7jmqhgfnzynyr32xyvrm25g3ibxw4mjrh8inrjzyh08g2",
     "skills": [
       "docs/skills/create-docs",
       "docs/skills/review-docs",
       "playground/skills/docus-playground"
     ],
-    "lastUpdated": "2026-05-29T17:14:59.480Z"
+    "lastUpdated": "2026-06-04T14:54:20.833Z"
   },
   {
     "source": "github:nuxt-content/nuxt-studio",
@@ -250640,12 +250635,12 @@
   },
   {
     "source": "github:nuxt/ui",
-    "rev": "ee996542e51d2b2b7e8fc3373d3eadd07b8f3877",
-    "hash": "1x9yx1z8658fxf97bknrwaqygi7f7wwkgzx9krm196l43cf1g6kx",
+    "rev": "d6341d559c191558bf7fc5e613023b0589047c07",
+    "hash": "0j2hjd1n7dcc4d6b4n8s0vc0pynxgxaz1j9497kmhns03cls09x4",
     "skills": [
       "skills/nuxt-ui"
     ],
-    "lastUpdated": "2026-06-04T11:52:47.941Z"
+    "lastUpdated": "2026-06-04T14:54:32.921Z"
   },
   {
     "source": "github:nv-action/vllm-benchmarks",

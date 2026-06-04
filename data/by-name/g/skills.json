@@ -45632,8 +45632,8 @@
   },
   {
     "source": "github:gaia-react/gaia",
-    "rev": "c533575862bd7610c9505e08cf87ec2ee3eda7b3",
-    "hash": "06gk33jfgmg574sh6hjbm5ffgslsmxx177cy1h06h6adrb6dpvaf",
+    "rev": "ddf057b8a45a9f65503f1653a86a5114af4f8f6f",
+    "hash": "08l2g4kdvaq4jppj8s48jrp5x9zyr1bbhbwkn7wffrr0y6iys54x",
     "skills": [
       ".claude/skills/a11y-fixes",
       ".claude/skills/eslint-fixes",
@@ -45654,7 +45654,7 @@
       ".claude/skills/update-deps",
       ".claude/skills/update-gaia"
     ],
-    "lastUpdated": "2026-06-04T11:50:32.301Z"
+    "lastUpdated": "2026-06-04T14:52:02.228Z"
   },
   {
     "source": "github:gainforest/agent-skills",
@@ -46965,12 +46965,14 @@
   },
   {
     "source": "github:geekjourneyx/geekx-skills",
-    "rev": "b13b3ebee30f765245458ba3922ca6d24808f094",
-    "hash": "1ik01vbvk59gq2z6hx5yrjr478nxgyp0xi30g0nmqr90qmpg0wiw",
+    "rev": "3c52de248ec2ea041ac7fdde5a8faccaa6d1c538",
+    "hash": "08jyf9nqml096lbk5xlhc2fvax8sh4dghih2v0dg7x6q7q57cav8",
     "skills": [
-      "skills/geekx-necessity-gatekeeper"
+      "skills/geekx-commitment-gate",
+      "skills/geekx-gate",
+      "skills/geekx-scope-gate"
     ],
-    "lastUpdated": "2026-06-02T06:10:03.489Z"
+    "lastUpdated": "2026-06-04T14:52:09.800Z"
   },
   {
     "source": "github:geekjourneyx/github-demand-radar",
@@ -48173,6 +48175,23 @@
     "lastUpdated": "2026-03-11T01:32:05.306Z"
   },
   {
+    "source": "github:gergchen/astock-market-engine",
+    "rev": "b994afc0a6f2cb01e977dce609dc2d64f8e3ceff",
+    "hash": "1xkvqi8w96y72pdigbnbinv36chfddccvvnhsm11prx487lj3dlk",
+    "skills": [
+      ".claude/skills/astock-mpquant-optimizer",
+      ".claude/skills/astock_data",
+      ".claude/skills/market-monitor",
+      ".claude/skills/model-switch",
+      ".claude/skills/morning-scan",
+      ".claude/skills/postmarket-recap",
+      ".claude/skills/risk-assessor",
+      ".claude/skills/signal-generator",
+      ".claude/skills/ui-ux-pro-max"
+    ],
+    "lastUpdated": "2026-06-04T14:52:35.050Z"
+  },
+  {
     "source": "github:germanfndez/fiveai-skills",
     "rev": "5400340491d4bb36efbe645102e5690ae5f71be9",
     "hash": "0di1ngb8k3fj0sydmyqs0mcxp76dya35l6fwmdv4xf7yi2mvf0ma",
@@ -48389,8 +48408,8 @@
   },
   {
     "source": "github:getpaseo/paseo",
-    "rev": "74d42cb3d0c18ca81541d90a95e52bc5bbb28d7a",
-    "hash": "1zg9pjc0q52pw80glj7w8rvyfricmipbrsnqcv14lrxhhi1fca4c",
+    "rev": "b5192e577ae9ca1cc8c97ed7b1df93fa663286b2",
+    "hash": "04igi9kswfi5blv6bn8hmwj3d0lac5rjfpbyai1d1qah48n8r278",
     "skills": [
       ".agents/skills/release-beta",
       ".agents/skills/release-stable",
@@ -48402,7 +48421,7 @@
       "skills/paseo-loop",
       "skills/paseo-orchestrate"
     ],
-    "lastUpdated": "2026-06-04T11:49:10.031Z"
+    "lastUpdated": "2026-06-04T14:52:11.481Z"
   },
   {
     "source": "github:getsentry/XcodeBuildMCP",
@@ -48467,8 +48486,8 @@
   },
   {
     "source": "github:getsentry/sentry",
-    "rev": "552fb5c0ae661ab7629bb00654cb35888fdd5377",
-    "hash": "1pmz3q7kk5lg2i32343bw2lmzkk7il9349k0pgkj2c7dzcag3zsx",
+    "rev": "5881013a0b2b0bbae0eed649616b9f9a2a9fefe8",
+    "hash": "1qbfndqwjj8vnspfjxxw0w2095wb2npm20cj8xgplny2v1a9r81x",
     "skills": [
       ".agents/skills/analytics",
       ".agents/skills/cell-architecture",
@@ -48491,7 +48510,7 @@
       ".agents/skills/sentry-security",
       ".agents/skills/setup-dev"
     ],
-    "lastUpdated": "2026-06-04T11:50:38.453Z"
+    "lastUpdated": "2026-06-04T14:53:41.975Z"
   },
   {
     "source": "github:getsentry/sentry-agent-skills",
@@ -48526,8 +48545,8 @@
   },
   {
     "source": "github:getsentry/sentry-for-ai",
-    "rev": "849303a8411c242d250885ffe714235a3bc2f5fe",
-    "hash": "0hw3vd2k28mg8gcn64b36hab770z9k3nkx8z54xwahgkbsjx21da",
+    "rev": "dcfc2650fa79103060dde990c37b50ee56aecce6",
+    "hash": "09nvcs8fzy7mf2yglvq3i4gr9wrj8aiqwf6z35hkzy4mv0rfbzn9",
     "skills": [
       "skills/sentry-android-sdk",
       "skills/sentry-browser-sdk",
@@ -48541,6 +48560,7 @@
       "skills/sentry-fix-issues",
       "skills/sentry-flutter-sdk",
       "skills/sentry-go-sdk",
+      "skills/sentry-instrumentation-guide",
       "skills/sentry-nestjs-sdk",
       "skills/sentry-nextjs-sdk",
       "skills/sentry-node-sdk",
@@ -48560,12 +48580,12 @@
       "skills/sentry-tanstack-start-sdk",
       "skills/sentry-workflow"
     ],
-    "lastUpdated": "2026-05-29T17:10:35.578Z"
+    "lastUpdated": "2026-06-04T14:52:13.140Z"
   },
   {
     "source": "github:getsentry/sentry-for-claude",
-    "rev": "849303a8411c242d250885ffe714235a3bc2f5fe",
-    "hash": "0hw3vd2k28mg8gcn64b36hab770z9k3nkx8z54xwahgkbsjx21da",
+    "rev": "dcfc2650fa79103060dde990c37b50ee56aecce6",
+    "hash": "09nvcs8fzy7mf2yglvq3i4gr9wrj8aiqwf6z35hkzy4mv0rfbzn9",
     "skills": [
       "skills/sentry-android-sdk",
       "skills/sentry-browser-sdk",
@@ -48579,6 +48599,7 @@
       "skills/sentry-fix-issues",
       "skills/sentry-flutter-sdk",
       "skills/sentry-go-sdk",
+      "skills/sentry-instrumentation-guide",
       "skills/sentry-nestjs-sdk",
       "skills/sentry-nextjs-sdk",
       "skills/sentry-node-sdk",
@@ -48598,7 +48619,7 @@
       "skills/sentry-tanstack-start-sdk",
       "skills/sentry-workflow"
     ],
-    "lastUpdated": "2026-05-29T17:10:36.426Z"
+    "lastUpdated": "2026-06-04T14:52:14.125Z"
   },
   {
     "source": "github:getsentry/sentry-for-cursor",
@@ -48747,8 +48768,8 @@
   },
   {
     "source": "github:getstream/agent-skills",
-    "rev": "c21d20f5326b5e776f2d4ef17772e210d5ebf0fe",
-    "hash": "15klny483wbw01a986li8d972cni1hwpfdivf3ga6b1c6ipn7f72",
+    "rev": "4f8f5b333137d98430a377c147191eaba7516bac",
+    "hash": "1vabnf1ywy9w6ir0rgsv44zrg5f4y7wqrdn0j6190lrxq4y9damk",
     "skills": [
       "skills/stream",
       "skills/stream-android",
@@ -48759,7 +48780,7 @@
       "skills/stream-react-native",
       "skills/stream-swift"
     ],
-    "lastUpdated": "2026-06-04T11:49:21.192Z"
+    "lastUpdated": "2026-06-04T14:52:21.109Z"
   },
   {
     "source": "github:gexijin/vibe",
@@ -48773,13 +48794,13 @@
   },
   {
     "source": "github:gfazioli/mantine-select-stepper",
-    "rev": "28c69c45af8dbed81fa413dfb0abccc8c5b6bf39",
-    "hash": "03qj0m9ggrh7ncqrh8wg48i5hs745nh9940b863pxpc49n5xb2jw",
+    "rev": "fa7b282f111f6028a0bb6e0b9d535f01a7c83494",
+    "hash": "18zaf7l4qsa8z4x1zxys7ga51hlmz4x114rsbsncm7x71a78h299",
     "skills": [
       ".agents/skills/mantine-custom-components",
       ".github/skills/mantine-react-component-dev"
     ],
-    "lastUpdated": "2026-06-04T11:49:23.661Z"
+    "lastUpdated": "2026-06-04T14:52:23.373Z"
   },
   {
     "source": "github:gfx-rs/wgpu",
@@ -49690,12 +49711,12 @@
   },
   {
     "source": "github:gitbutlerapp/gitbutler",
-    "rev": "7fca05d0ab4af9724c8fefab9a102d8da0dfce61",
-    "hash": "0bj1x8dkfaaj535jwlpi91f69606d0zfbjki06rwia9jr54vnpz0",
+    "rev": "371f2a43e40f9c0c7c1ef32e8fe0e4a504de1b99",
+    "hash": "0x2jj9fcqj530y6c3w36ziccgl4q0f97jpiqlykg2hr010lbdbq8",
     "skills": [
       "crates/but-agentlog/skill"
     ],
-    "lastUpdated": "2026-06-04T11:50:31.682Z"
+    "lastUpdated": "2026-06-04T14:53:15.241Z"
   },
   {
     "source": "github:gitdolucas/log-to-post",
@@ -50119,8 +50140,8 @@
   },
   {
     "source": "github:github/gh-aw",
-    "rev": "9d16cd8340abcea9b26d92d3b59040cf89291723",
-    "hash": "0w941z9yk3h9xwkjrb18bja5si90hr8rs4zqkl82yrf5c1wk3hx7",
+    "rev": "26af3380a2b2673f5456cbe443be3fc489db8ec5",
+    "hash": "0izhnw3i42vfikyyr2lpnidvfbc5ammfww4chrhvzbsc7zlqf0kk",
     "skills": [
       ".",
       ".claude/skills/playwright-cli",
@@ -50155,12 +50176,13 @@
       ".github/skills/otel-queries",
       ".github/skills/pr-to-go-linter",
       ".github/skills/reporting",
+      ".github/skills/sergo-examples",
       ".github/skills/skillz-integration",
       ".github/skills/ssl",
       ".github/skills/temporary-id-safe-output",
       ".github/skills/workflow-step-summaries"
     ],
-    "lastUpdated": "2026-06-04T06:16:22.763Z"
+    "lastUpdated": "2026-06-04T14:54:55.038Z"
   },
   {
     "source": "github:github/gh-stack",
@@ -50201,8 +50223,8 @@
   },
   {
     "source": "github:githubnext/gh-aw",
-    "rev": "9d16cd8340abcea9b26d92d3b59040cf89291723",
-    "hash": "0w941z9yk3h9xwkjrb18bja5si90hr8rs4zqkl82yrf5c1wk3hx7",
+    "rev": "26af3380a2b2673f5456cbe443be3fc489db8ec5",
+    "hash": "0izhnw3i42vfikyyr2lpnidvfbc5ammfww4chrhvzbsc7zlqf0kk",
     "skills": [
       ".",
       ".claude/skills/playwright-cli",
@@ -50237,12 +50259,13 @@
       ".github/skills/otel-queries",
       ".github/skills/pr-to-go-linter",
       ".github/skills/reporting",
+      ".github/skills/sergo-examples",
       ".github/skills/skillz-integration",
       ".github/skills/ssl",
       ".github/skills/temporary-id-safe-output",
       ".github/skills/workflow-step-summaries"
     ],
-    "lastUpdated": "2026-06-04T06:16:23.405Z"
+    "lastUpdated": "2026-06-04T14:54:57.559Z"
   },
   {
     "source": "github:gitroomhq/postiz-agent",
@@ -51087,8 +51110,8 @@
   },
   {
     "source": "github:glitchwerks/claude-wayfinder",
-    "rev": "66bbb1c5d9daf92e3f3661459ac4d7245b1871ba",
-    "hash": "0v6v9ffky6m861j7d76hsd4kqiczj1asayrlpp62298rjzpsqsgi",
+    "rev": "e439c4cee467c70f01d9778a27f8a893e1599110",
+    "hash": "0x1ix7aj2zf9dwd01fygc8rkqyg0b3rfvkvfh93m9w0m4k94cv1g",
     "skills": [
       "skills/dispatch",
       "skills/dispatch-authoring",
@@ -51101,7 +51124,7 @@
       "tests/fixtures/skills/legacy",
       "tests/fixtures/skills/refactoring-discipline"
     ],
-    "lastUpdated": "2026-06-04T11:52:00.167Z"
+    "lastUpdated": "2026-06-04T14:55:03.726Z"
   },
   {
     "source": "github:glittercowboy/plugin-freedom-system",
@@ -51272,8 +51295,8 @@
   },
   {
     "source": "github:gmgnai/gmgn-skills",
-    "rev": "2d0cb7348d3b3f2e0f86f7adf063765699eb5eb1",
-    "hash": "1bxwk4c8xi4p51qk8rbdbiykl808cfc2b4cc4d8d5i8xgj2m0syv",
+    "rev": "f5442f624746834354dc181897077ca035f37038",
+    "hash": "0l5rwy69s4cc4mmm5ab13sjmb25czkjqrs63r1wx2s82v07mr287",
     "skills": [
       "skills/gmgn-cooking",
       "skills/gmgn-market",
@@ -51282,7 +51305,7 @@
       "skills/gmgn-token",
       "skills/gmgn-track"
     ],
-    "lastUpdated": "2026-06-04T11:49:19.859Z"
+    "lastUpdated": "2026-06-04T14:52:28.690Z"
   },
   {
     "source": "github:gmh5225/awesome-ai-security",
@@ -52322,13 +52345,12 @@
   },
   {
     "source": "github:goofansu/pi-stuff",
-    "rev": "697ef2b9fe22d8bbcf0d7a078da1063e40e34e90",
-    "hash": "15k9i5h4vnsj0f1kgz9iasygh0s4dp37ysi2ny539vc4xbsxz9ma",
+    "rev": "6f86d72d695064f8c3adb7d32a9d5f32c2521479",
+    "hash": "046l68p32p4n70analpws81zz9492n4izyy1b9k9ir24npwh8i4x",
     "skills": [
       ".pi/skills/check-upstream",
       "skills/commit",
       "skills/github",
-      "skills/grill-with-docs",
       "skills/handoff",
       "skills/pi-share",
       "skills/simplify",
@@ -52336,16 +52358,16 @@
       "skills/transcribe",
       "skills/web-research"
     ],
-    "lastUpdated": "2026-06-04T11:49:50.179Z"
+    "lastUpdated": "2026-06-04T14:53:00.371Z"
   },
   {
     "source": "github:googlarz/finance-assistant",
-    "rev": "ebff5ea0e203ed1ff552751ae9f19409ec8f2210",
-    "hash": "0p360gm1vqhp8y4jagnn6sfmhpnh83a1qhb7sns7ibxl1795z2c8",
+    "rev": "202726ac88ba06ac5f9e56fcda6b83002b35ec21",
+    "hash": "0xrc0wc4ajp9y4fyncm1nl1zpsn4qjagz48sb3la2a2sdb3v36al",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-06-04T11:50:13.816Z"
+    "lastUpdated": "2026-06-04T14:53:01.152Z"
   },
   {
     "source": "github:googlarz/stapler",
@@ -53258,13 +53280,13 @@
   },
   {
     "source": "github:gptme/gptme",
-    "rev": "35613fcc5083f4816d38f47d34e89bd140d07c7d",
-    "hash": "0k4vvbz3pfgfsi6i9aaipw0i5mj7jch86gc04f1p42al9aiqv1w1",
+    "rev": "3c7038529f197f58157ce888a3f807dfcc037f58",
+    "hash": "122817ckihfhgv9gx3i3dl3h3nhm30lrf8z9xhvqmdh5448s2kk0",
     "skills": [
       "gptme/lessons/skills/codebase-classification",
       "gptme/lessons/skills/python-repl"
     ],
-    "lastUpdated": "2026-06-04T02:32:46.051Z"
+    "lastUpdated": "2026-06-04T14:54:00.661Z"
   },
   {
     "source": "github:gptomics/bioskills",
@@ -54014,21 +54036,21 @@
   },
   {
     "source": "github:grafana/loki",
-    "rev": "667121ad33b7755b5f334cd559622edde0819373",
-    "hash": "1fy5gsfjc1ns3y30jc7chqz8z9n6djfsxkrf4f4jhgbqi4h63hij",
+    "rev": "bd4eab223cbe3a7d4d4eb467c43e5c687b006780",
+    "hash": "1c0770y8jh4a5936ifmc60cv5xdnd8nhy88v0s9dvqxgyfgsjffw",
     "skills": [
       ".cursor/skills/go"
     ],
-    "lastUpdated": "2026-06-04T11:52:11.407Z"
+    "lastUpdated": "2026-06-04T14:55:09.646Z"
   },
   {
     "source": "github:grafana/mcp-grafana",
-    "rev": "388a584afd52828e9364fd053f06e4f87e0fe1c9",
-    "hash": "0xr52nfnzma693pv2qafp4l1q80qs94ldq5krzc79klwy8p8d65j",
+    "rev": "1321c5c0bf145beebcac054f84f265753398cc7d",
+    "hash": "0wk4bv7hzg73wxa98v8qlwy2s50d189xc1fib40nfk6lg6zvqcma",
     "skills": [
       ".claude/skills/draft-release"
     ],
-    "lastUpdated": "2026-06-03T21:24:04.933Z"
+    "lastUpdated": "2026-06-04T14:54:20.809Z"
   },
   {
     "source": "github:grafana/skills",
@@ -54154,8 +54176,8 @@
   },
   {
     "source": "github:gramiojs/documentation",
-    "rev": "c8213ba6fc4dd4943b65a3e7de84d74b47664ac8",
-    "hash": "1fqx3nd1ziihsvkcp6v76hxqsqbcwrz2z017nmyaw029nvwj6jzd",
+    "rev": "6aacf62464dbc3e3b4be78e5c216651102f76720",
+    "hash": "0dh96xnfynwkakjxmg4rxfy8w61jk5g00pjc70ral2ra3736652i",
     "skills": [
       ".claude/skills/add-doc-page",
       ".claude/skills/add-plugin-doc",
@@ -54168,7 +54190,7 @@
       "skills/gramio-pick-username",
       "skills/gramio-upgrade"
     ],
-    "lastUpdated": "2026-06-03T23:29:47.014Z"
+    "lastUpdated": "2026-06-04T14:54:28.025Z"
   },
   {
     "source": "github:grandcamel/GitLab-Assistant-Skills",
@@ -54814,8 +54836,8 @@
   },
   {
     "source": "github:griddynamics/rosetta",
-    "rev": "e09732fae1ced5419bc3ed6f10d5688bb3783552",
-    "hash": "1m7z8x85nk6ici8rf2vjkwd9vc46dn4mnc6iwlxglkwjzccmdi76",
+    "rev": "cefeea4bfb1c043a491ca56776ee3723d9b2ea33",
+    "hash": "0gdgc6vkmmvdnwvl2mbf1nzn68xk5szvqzw706nbwnrsh30ycc78",
     "skills": [
       ".claude/skills/documentation",
       "instructions/r3/core/skills/gitnexus-cli",
@@ -54862,7 +54884,7 @@
       "plugins/core-claude/skills/tech-specs",
       "plugins/core-claude/skills/testing"
     ],
-    "lastUpdated": "2026-06-03T21:22:53.420Z"
+    "lastUpdated": "2026-06-04T14:52:59.879Z"
   },
   {
     "source": "github:griffin-open-source/skills",
