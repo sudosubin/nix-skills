@@ -268,15 +268,15 @@
   },
   {
     "source": "github:BerriAI/litellm",
-    "rev": "c7f1bcfd0d25f261384fb930b0026dbdaa23e01d",
-    "hash": "12zpr7yf3jcda78p32rr9rg8pw55b01d4xargfifny7hhqqnh1n4",
+    "rev": "e9417603a38d53765894254fc6b588ff6700bf6a",
+    "hash": "014i4sh9z41y9ps98hy9wldc97yf8fifhhi1j26mfyi4cnacmaqb",
     "skills": [
       "tests/llm_translation/test-skill",
       "tests/llm_translation/test_skills_data/slack-gif-creator",
       "tests/llm_translation/test_skills_data/test-delete-skill",
       "tests/llm_translation/test_skills_data/test-skill-litellm"
     ],
-    "lastUpdated": "2026-06-03T23:27:31.913Z"
+    "lastUpdated": "2026-06-04T02:30:22.455Z"
   },
   {
     "source": "github:Besty0728/Unity-Skills",
@@ -2324,8 +2324,8 @@
   },
   {
     "source": "github:BuilderIO/agent-native",
-    "rev": "f06b9b55f992991cada6d9f84bddcc8294007336",
-    "hash": "01wy6lcd1fnzzjk9j7lxl0gsmac5slsf0c80ifq6l9mb6iyy2383",
+    "rev": "f424018e0ddec616fc75809b856a034bdddc6fe6",
+    "hash": "1cplq66dygkabrvz8wx7qql2qjww138qwqqcl4gp52hbp1r22lcf",
     "skills": [
       ".agents/skills/a2a-protocol",
       ".agents/skills/actions",
@@ -2381,6 +2381,7 @@
       "skills/assets",
       "skills/context-xray",
       "skills/design-exploration",
+      "skills/ui-plan",
       "skills/visual-plans",
       "skills/visualize-plan",
       "templates/analytics/.agents/skills/adhoc-analysis",
@@ -2447,7 +2448,7 @@
       "templates/videos/.builder/remotion-best-practices",
       "templates/videos/.builder/skills/remotion"
     ],
-    "lastUpdated": "2026-06-03T21:22:12.188Z"
+    "lastUpdated": "2026-06-04T02:30:41.172Z"
   },
   {
     "source": "github:ByamB4/find-cve-agent",
@@ -4481,12 +4482,12 @@
   },
   {
     "source": "github:basecamp/fizzy-cli",
-    "rev": "ebf77b23d500f725fd5c43975afacaa3a9a6e094",
-    "hash": "1pddxm6589v569v3jhkf9z7wy4kg346g1qgvlrplb9p7cf6qplm1",
+    "rev": "f6929b3881f46d62d44151f7053e4872e3cc6a3e",
+    "hash": "13xl63g74kykn095mw0ydccjqwf5h0xgb01xbpqmv8x2zwcs2f46",
     "skills": [
       "skills/fizzy"
     ],
-    "lastUpdated": "2026-06-03T21:22:02.798Z"
+    "lastUpdated": "2026-06-04T02:30:05.191Z"
   },
   {
     "source": "github:basecamp/omarchy",
@@ -5813,7 +5814,7 @@
   },
   {
     "source": "github:beggarticksarthurtatum121/reddit-skills",
-    "rev": "f417946ea7596fef380e3386fffa47823d780dea",
+    "rev": "03476e4514f439cf0dbb2e71d0f65f000a7cb567",
     "hash": "04dlbd6l6dmzp4ciiq1y1zrbszjwidzxa1bk2jv0jjrib1hr8q3i",
     "skills": [
       ".",
@@ -5823,7 +5824,7 @@
       "skills/reddit-interact",
       "skills/reddit-publish"
     ],
-    "lastUpdated": "2026-06-03T21:22:44.904Z"
+    "lastUpdated": "2026-06-04T02:30:37.268Z"
   },
   {
     "source": "github:begin-software/plop-skill",
@@ -6289,8 +6290,8 @@
   },
   {
     "source": "github:benchflow-ai/skillsbench",
-    "rev": "15ef2e7e1131d490c9f00f8aa770d25f4442d945",
-    "hash": "17k4vyb3kc1gmp6rrkxh3lzdf1361hyqnccmfd7sv5zz65jp4xwn",
+    "rev": "97fbd56b48a9f169ee4e2e3c07a80b174f1e2e60",
+    "hash": "0x68jp80xkj7fpjzgdd4lfvm9s7rs7pa3r3siaffd8adzbdswcdx",
     "skills": [
       ".agents/skills/skill-creator",
       ".agents/skills/skillsbench",
@@ -6307,6 +6308,10 @@
       "tasks-extra/gpu-cluster-online-scheduling/environment/skills/online-resource-scheduling",
       "tasks-extra/mhc-layer-impl/environment/skills/mhc-algorithm",
       "tasks-extra/mhc-layer-impl/environment/skills/nanogpt-training",
+      "tasks-extra/pedestrian-traffic-counting/environment/skills/gemini-count-in-video",
+      "tasks-extra/pedestrian-traffic-counting/environment/skills/gemini-video-understanding",
+      "tasks-extra/pedestrian-traffic-counting/environment/skills/gpt-multimodal",
+      "tasks-extra/pedestrian-traffic-counting/environment/skills/video-frame-extraction",
       "tasks-extra/pg-essay-to-audiobook/environment/skills/audiobook",
       "tasks-extra/pg-essay-to-audiobook/environment/skills/elevenlabs-tts",
       "tasks-extra/pg-essay-to-audiobook/environment/skills/gtts",
@@ -6317,6 +6322,10 @@
       "tasks-extra/speaker-diarization-subtitles/environment/skills/multimodal-fusion",
       "tasks-extra/speaker-diarization-subtitles/environment/skills/speaker-clustering",
       "tasks-extra/speaker-diarization-subtitles/environment/skills/voice-activity-detection",
+      "tasks-extra/video-filler-word-remover/environment/skills/ffmpeg-video-editing",
+      "tasks-extra/video-filler-word-remover/environment/skills/filler-word-processing",
+      "tasks-extra/video-filler-word-remover/environment/skills/whisper-transcription",
+      "tasks-extra/video-tutorial-indexer/environment/skills/speech-to-text",
       "tasks/3d-scan-calc/environment/skills/mesh-analysis",
       "tasks/ada-bathroom-plan-repair/environment/skills/ada-plan-view-accessibility",
       "tasks/ada-bathroom-plan-repair/environment/skills/architectural-dxf-extraction",
@@ -6418,7 +6427,6 @@
       "tasks/jax-computing-basics/environment/skills/jax-skills",
       "tasks/jpg-ocr-stat/environment/skills/image-ocr",
       "tasks/jpg-ocr-stat/environment/skills/openai-vision",
-      "tasks/jpg-ocr-stat/environment/skills/video-frame-extraction",
       "tasks/lab-unit-harmonization/environment/skills/lab-unit-harmonization",
       "tasks/lake-warming-attribution/environment/skills/contribution-analysis",
       "tasks/lake-warming-attribution/environment/skills/meteorology-driver-classification",
@@ -6442,7 +6450,6 @@
       "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-audio-processing",
       "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-format-conversion",
       "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-media-info",
-      "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-video-editing",
       "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-video-filters",
       "tasks/multilingual-video-dubbing/environment/skills/text-to-speech",
       "tasks/offer-letter-generator/environment/skills/docx",
@@ -6455,9 +6462,6 @@
       "tasks/paratransit-routing/environment/skills/ortools-pickup-delivery-routing",
       "tasks/paratransit-routing/environment/skills/ortools-routing-modeling",
       "tasks/pddl-airport-planning/environment/skills/pddl-skills",
-      "tasks/pedestrian-traffic-counting/environment/skills/gemini-count-in-video",
-      "tasks/pedestrian-traffic-counting/environment/skills/gemini-video-understanding",
-      "tasks/pedestrian-traffic-counting/environment/skills/gpt-multimodal",
       "tasks/powerlifting-coef-calc/environment/skills/powerlifting",
       "tasks/powerlifting-coef-calc/environment/skills/senior-data-scientist",
       "tasks/python-scala-translation/environment/skills/python-scala-collections",
@@ -6507,8 +6511,6 @@
       "tasks/travel-planning/environment/skills/search-driving-distance",
       "tasks/travel-planning/environment/skills/search-flights",
       "tasks/travel-planning/environment/skills/search-restaurants",
-      "tasks/video-filler-word-remover/environment/skills/filler-word-processing",
-      "tasks/video-filler-word-remover/environment/skills/whisper-transcription",
       "tasks/video-silence-remover/environment/skills/audio-extractor",
       "tasks/video-silence-remover/environment/skills/energy-calculator",
       "tasks/video-silence-remover/environment/skills/pause-detector",
@@ -6516,10 +6518,9 @@
       "tasks/video-silence-remover/environment/skills/segment-combiner",
       "tasks/video-silence-remover/environment/skills/silence-detector",
       "tasks/video-silence-remover/environment/skills/video-processor",
-      "tasks/video-tutorial-indexer/environment/skills/speech-to-text",
       "tasks/xlsx-recover-data/environment/skills/data-reconciliation"
     ],
-    "lastUpdated": "2026-06-03T23:28:23.900Z"
+    "lastUpdated": "2026-06-04T02:31:17.455Z"
   },
   {
     "source": "github:bencium/bencium-claude-code-design-skill",
@@ -6576,8 +6577,8 @@
   },
   {
     "source": "github:bendrucker/claude",
-    "rev": "4cb32f642f828cd7db7b76ecb724217aa94f9fc2",
-    "hash": "0mhcs80vwxrarchyacz7bymjsd5hbmkivmbk7kcxrf64k1a6s9i8",
+    "rev": "b0676e78f04be3d24e5aa8a9e2a3325c5164341b",
+    "hash": "0l5ndm8j1crwh941zlappiyxdz7i9y26xzfmq2azpb8nd11xjlxx",
     "skills": [
       ".claude/skills/agent-ideas",
       ".claude/skills/cleye",
@@ -6645,7 +6646,7 @@
       "user/skills/improve-claude-code",
       "user/skills/improve-codebase-architecture"
     ],
-    "lastUpdated": "2026-06-03T23:28:01.843Z"
+    "lastUpdated": "2026-06-04T02:30:45.711Z"
   },
   {
     "source": "github:bendusy/file-to-markdown",
@@ -7882,8 +7883,8 @@
   },
   {
     "source": "github:bfly123/claude_code_bridge",
-    "rev": "9a5149f54a7b77d7ace50a79154b16974dd2fff8",
-    "hash": "0ilm6lxkv176w4lhpl3cz35s3fmrxwxwm6b3mgqcpzhk79s6j6m3",
+    "rev": "b6444b2ffdfbfacfe21819da3c5d28a8de125455",
+    "hash": "1lcfglc5dp5kwnbnaqzynlfjx045kx98i0k1yggfdggbi6kwqh00",
     "skills": [
       "dev_tools/skills/ccb-github",
       "inherit_skills/claude_skills/ask",
@@ -7891,7 +7892,7 @@
       "inherit_skills/claude_skills/ccb-config",
       "useful_tools/claude_skills/plan-tree"
     ],
-    "lastUpdated": "2026-06-03T21:22:13.950Z"
+    "lastUpdated": "2026-06-04T02:30:12.367Z"
   },
   {
     "source": "github:bfmcneill/agi-marketplace",
@@ -10424,12 +10425,12 @@
   },
   {
     "source": "github:blindlove200/sub-agents-skills",
-    "rev": "7149531c7d0f66c4b9957b5945babf3894b43642",
+    "rev": "daf96a5e4eae0aeb665f7e554834fb389d06f28b",
     "hash": "0ni866nccgs3v6brx08aqzjqyxzfrk56r0qpspx7wc4djnf4ka0f",
     "skills": [
       "skills/sub-agents"
     ],
-    "lastUpdated": "2026-06-03T21:22:03.495Z"
+    "lastUpdated": "2026-06-04T02:30:08.263Z"
   },
   {
     "source": "github:blindpaylabs/blindpay-skills",
@@ -10776,7 +10777,7 @@
   },
   {
     "source": "github:bloody2634/claud-skills",
-    "rev": "53175e148700b1dd380253ba60611ac753cbc7b9",
+    "rev": "80ffab2e647a042f02ab7f6eda63f721be42996e",
     "hash": "02fmvshv71kjn2f9rqac9l8d0f62njp94paxqi3wn0s3wd4y28na",
     "skills": [
       ".claude/skills/document-skills/docx",
@@ -10792,7 +10793,7 @@
       "generic-claude-framework/skills/sql-cli",
       "generic-claude-framework/skills/webapp-testing"
     ],
-    "lastUpdated": "2026-06-03T21:22:08.171Z"
+    "lastUpdated": "2026-06-04T02:30:12.176Z"
   },
   {
     "source": "github:bloominggrace/create-fullstack-service",
@@ -11488,8 +11489,8 @@
   },
   {
     "source": "github:bobmatnyc/claude-mpm",
-    "rev": "5b784ac9f6214e4d18afbbeb029406e9b4bf1011",
-    "hash": "1cfy9np7zdpyc6xr5ylfflvsqah2idlhbh2dprmr2gbdrzz3cjal",
+    "rev": "2ba5fb7f4d78b47cdd42bbd8fc3926c3ffa321d8",
+    "hash": "0njv6zdy4makj4blq64ayw0gm12pkdr1z01kdr4r043sglyzp7cg",
     "skills": [
       ".claude/skills/auto-bug-reporter",
       ".claude/skills/migration-wizard",
@@ -11582,7 +11583,7 @@
       "src/claude_mpm/skills/bundled/toolchains/golang/core",
       "src/claude_mpm/skills/bundled/universal/spec-linked-docs"
     ],
-    "lastUpdated": "2026-06-03T21:22:36.972Z"
+    "lastUpdated": "2026-06-04T02:30:15.436Z"
   },
   {
     "source": "github:bobmatnyc/claude-mpm-skills",
@@ -14996,8 +14997,8 @@
   },
   {
     "source": "github:booch/config_files",
-    "rev": "4340265cfc74833333b5d65296880422aabe2b63",
-    "hash": "10ml0p02mlnj022g21w9g098pqivhgd6la8ws8brvp0gypk25bhn",
+    "rev": "3175f0b49076df627fc3b4eaec4f588e370a29aa",
+    "hash": "0167hd76v6jabdb4v8b5iyl3ank13rycapc9x4xnpy8ph961mvxm",
     "skills": [
       "ai/skills/code-quality",
       "ai/skills/coding",
@@ -15012,7 +15013,7 @@
       "ai/skills/tdd",
       "ai/skills/testing"
     ],
-    "lastUpdated": "2026-06-02T06:08:54.581Z"
+    "lastUpdated": "2026-06-04T02:30:18.829Z"
   },
   {
     "source": "github:boojack/skills",
@@ -17192,8 +17193,8 @@
   },
   {
     "source": "github:boshu2/agentops",
-    "rev": "8be8d678f2ca0e39baeed684dd99bdb5a600e311",
-    "hash": "0i8y25vb1k7c6wx2gayhv0p504gs5m1392lx47br3q21zpsbcif6",
+    "rev": "72219bed2c26fb54d371468ea8051831717d3625",
+    "hash": "1q841mrk91gbc7fvgq53pgwakl1ka7fwqhgd2i9k5nfvgd9018cr",
     "skills": [
       "skills/agent-native",
       "skills/autodev",
@@ -17280,7 +17281,7 @@
       "tests/fixtures/skills/known-bad",
       "tests/fixtures/skills/known-good"
     ],
-    "lastUpdated": "2026-06-03T23:27:35.677Z"
+    "lastUpdated": "2026-06-04T02:30:25.095Z"
   },
   {
     "source": "github:bossjones/boss-skills",
@@ -18613,13 +18614,13 @@
   },
   {
     "source": "github:brilliantdirectories/brilliant-directories-mcp",
-    "rev": "b2c741e057bd67bddf2afd1ab6f264318ce6e98b",
-    "hash": "09qyqgwb6mknn6kaiz5ghsj0v2pmq2dnqj3vh1n0vb4padmndnl0",
+    "rev": "ca7e864d748524c242edb2bda9456f79e78c345f",
+    "hash": "1vmnyc06jidghqz8lw2qg716j03avzs10rnxm8yqslpfck7a34wc",
     "skills": [
       ".",
       "bd-skill-content"
     ],
-    "lastUpdated": "2026-05-30T14:14:14.171Z"
+    "lastUpdated": "2026-06-04T02:30:08.459Z"
   },
   {
     "source": "github:brimtown/claude-fortress",
@@ -19286,7 +19287,7 @@
   },
   {
     "source": "github:bs779517/story-skills",
-    "rev": "44a38a4467a2d2a09342fd98c802b179f3e75ef7",
+    "rev": "a521e632cdb50decb6daad60bc2f299b2db9f515",
     "hash": "17fqi70bf7xqvw1b5lhbk83v58nhk12p25x0a8k9qsg164wkbhia",
     "skills": [
       "skills/chapter-writing",
@@ -19295,7 +19296,7 @@
       "skills/story-init",
       "skills/worldbuilding"
     ],
-    "lastUpdated": "2026-06-03T21:22:34.650Z"
+    "lastUpdated": "2026-06-04T02:30:19.786Z"
   },
   {
     "source": "github:bsamiee/parametric_forge",
@@ -19933,8 +19934,8 @@
   },
   {
     "source": "github:bumgeunsong/daily-writing-friends",
-    "rev": "f2f3a7c21f86afaf3cf2ef9193ff30a0fcfe60aa",
-    "hash": "06pamqlxyyk2582f3wjzrbmw0d0chv0miy22q437yajfjbg2b636",
+    "rev": "69197cd34741c7cf20655dcb6b3adadb3633bf67",
+    "hash": "07x36cnfwslqvss6n3rr74gp7a72phkh564xnvj89asji7z2l35i",
     "skills": [
       ".agents/skills/supabase-postgres-best-practices",
       ".claude/skills/api-layer",
@@ -19956,7 +19957,7 @@
       ".claude/skills/type-system",
       ".claude/skills/verify-runtime"
     ],
-    "lastUpdated": "2026-06-02T15:27:58.822Z"
+    "lastUpdated": "2026-06-04T02:30:53.091Z"
   },
   {
     "source": "github:burakdirin/skills",
