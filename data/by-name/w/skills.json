@@ -876,8 +876,8 @@
   },
   {
     "source": "github:wahidyankf/open-sharia-enterprise",
-    "rev": "6b8b15dc8026064928c5d0cdded67d2ad991cd6a",
-    "hash": "1scqdhrbf7p6pr5caz2xx369dy2w7rj8d1lqfm1rrliy2v6p8g7d",
+    "rev": "5a38af190c0f7dbe279b26701444ca1d6e318852",
+    "hash": "01s9k1h8xhhjilb83lm5cmc1pkjhbv9vs99afsmvqqvf46m2m8qh",
     "skills": [
       ".agents/skills/cavecrew",
       ".agents/skills/caveman",
@@ -927,7 +927,7 @@
       ".github/skills/nx-run-tasks",
       ".github/skills/nx-workspace"
     ],
-    "lastUpdated": "2026-06-04T06:20:21.212Z"
+    "lastUpdated": "2026-06-05T09:18:59.345Z"
   },
   {
     "source": "github:wakeup-jin/learned-skill",
@@ -1067,6 +1067,75 @@
       "skills/social-media"
     ],
     "lastUpdated": "2026-05-29T17:18:08.403Z"
+  },
+  {
+    "source": "github:wan-huiyan/agent-traffic-control",
+    "rev": "e0987e1cb247e7800d1d86ea0c79a294d437bcf2",
+    "hash": "16whrni6adxifs1k40ph4p11h4dsw0qhn1f2vrcxi1n9z7hv9jki",
+    "skills": [
+      "plugins/agent-traffic-control/skills/claude-code-projects-jsonl-worktree-fanout",
+      "plugins/agent-traffic-control/skills/code-review-subagent-fabricates-specifics-to-inflate-severity",
+      "plugins/agent-traffic-control/skills/code-reviewer-subagent-no-bash-blocked-on-pr-diff",
+      "plugins/agent-traffic-control/skills/concurrent-session-checkout-clobbers-shared-worktree",
+      "plugins/agent-traffic-control/skills/credit-stall-mid-orchestration-revive-collision",
+      "plugins/agent-traffic-control/skills/cross-worktree-spec-handoff-via-checkout-paths",
+      "plugins/agent-traffic-control/skills/db-access-review-subagent-needs-explicit-probe-budget",
+      "plugins/agent-traffic-control/skills/deploy-from-stale-worktree-silent-rollback",
+      "plugins/agent-traffic-control/skills/docs-branch-off-feature-branch-smuggles-code",
+      "plugins/agent-traffic-control/skills/factcheck-subagent-needs-complete-sources",
+      "plugins/agent-traffic-control/skills/flask-debug-cross-worktree-edit-stale",
+      "plugins/agent-traffic-control/skills/gh-issue-claim-coordination",
+      "plugins/agent-traffic-control/skills/gh-pr-create-orchestration-cwd-wrong-head",
+      "plugins/agent-traffic-control/skills/gh-pr-merge-squash-stdout-shows-sibling-files-as-created",
+      "plugins/agent-traffic-control/skills/gh-pr-merge-unstable-state-needs-auto-and-watch-branch-deletes",
+      "plugins/agent-traffic-control/skills/gh-pr-merge-worktree-checkout-trap",
+      "plugins/agent-traffic-control/skills/gh-squash-merge-closes-only-one-issue",
+      "plugins/agent-traffic-control/skills/gha-pr-merge-ref-shows-upstream-changes",
+      "plugins/agent-traffic-control/skills/git-add-u-after-async-post-commit-hook",
+      "plugins/agent-traffic-control/skills/git-amend-hits-async-post-commit-hook-commit",
+      "plugins/agent-traffic-control/skills/git-diff-2dot-vs-3dot-merge-safety",
+      "plugins/agent-traffic-control/skills/git-pull-after-squash-merge",
+      "plugins/agent-traffic-control/skills/git-rebase-stalls-async-post-commit-hook",
+      "plugins/agent-traffic-control/skills/git-stash-pop-pulls-unrelated-stash",
+      "plugins/agent-traffic-control/skills/git-worktree",
+      "plugins/agent-traffic-control/skills/handoff-prompt-stale-user-hint-newer-state",
+      "plugins/agent-traffic-control/skills/main-bash-cwd-persists-nested-worktree",
+      "plugins/agent-traffic-control/skills/merge-conflict-generated-files",
+      "plugins/agent-traffic-control/skills/merged-pr-not-deployed-gate-label-missing",
+      "plugins/agent-traffic-control/skills/multi-agent-skill-silent-phase-compression",
+      "plugins/agent-traffic-control/skills/multi-phase-skill-disk-reading-strategy",
+      "plugins/agent-traffic-control/skills/multi-worktree-file-url-stale-content",
+      "plugins/agent-traffic-control/skills/parallel-pr-scope-overlap-tiebreaker-delta-check",
+      "plugins/agent-traffic-control/skills/parallel-pr-template-fork-duplicates-moved-section",
+      "plugins/agent-traffic-control/skills/pr-conflict-from-mid-flight-merges",
+      "plugins/agent-traffic-control/skills/pr-followup-commit-stranded-after-squash",
+      "plugins/agent-traffic-control/skills/pr-hijack-via-stale-worktree-branch-ref",
+      "plugins/agent-traffic-control/skills/pr-plan-bucket-triage-before-sizing",
+      "plugins/agent-traffic-control/skills/prep-pr-close-keyword-auto-closes-issue",
+      "plugins/agent-traffic-control/skills/safe-bulk-worktree-branch-cleanup",
+      "plugins/agent-traffic-control/skills/session-handoff-detect-prior-orphan-pr",
+      "plugins/agent-traffic-control/skills/session-handoff-number-collision-with-unmerged-sibling",
+      "plugins/agent-traffic-control/skills/solo-repo-branch-protection-stable-gate-and-self-merge",
+      "plugins/agent-traffic-control/skills/squash-merge-content-preservation-vs-ancestor-check",
+      "plugins/agent-traffic-control/skills/stacked-pr-base-branch-deletion-auto-closes-dependent",
+      "plugins/agent-traffic-control/skills/stacked-pr-review-per-base-diff-and-attach",
+      "plugins/agent-traffic-control/skills/stale-base-pr-silently-reverts-upstream-content",
+      "plugins/agent-traffic-control/skills/subagent-bash-cd-wrong-worktree",
+      "plugins/agent-traffic-control/skills/subagent-driven-branch-ref-froze-stranded-commits",
+      "plugins/agent-traffic-control/skills/subagent-external-wait-orchestrator-takeover",
+      "plugins/agent-traffic-control/skills/subagent-pre-existing-misattribution",
+      "plugins/agent-traffic-control/skills/subagent-reports-complete-but-pr-unmerged",
+      "plugins/agent-traffic-control/skills/subagent-watchdog-stall-on-ui-template-track",
+      "plugins/agent-traffic-control/skills/synthetic-id-collision-rebase",
+      "plugins/agent-traffic-control/skills/task-framing-claims-need-subagent-grep-verify",
+      "plugins/agent-traffic-control/skills/using-git-worktrees",
+      "plugins/agent-traffic-control/skills/wip-branch-linter-revert-system-reminder-trap",
+      "plugins/agent-traffic-control/skills/working-tree-edits-stranded-on-squash-merge",
+      "plugins/agent-traffic-control/skills/worktree-historical-test-replay-missing-dirs",
+      "plugins/agent-traffic-control/skills/worktree-index-corrupt-async-post-commit-hook",
+      "plugins/agent-traffic-control/skills/worktree-outer-ls-mistaken-for-main-state"
+    ],
+    "lastUpdated": "2026-06-05T09:18:53.468Z"
   },
   {
     "source": "github:wandb/skills",
@@ -2330,8 +2399,8 @@
   },
   {
     "source": "github:weapp-vite/weapp-vite",
-    "rev": "9ab067dd230e3fc6946c70151c9f68e8dd03434d",
-    "hash": "1pn17nbgka48r22sxz0wzy7ry6gyckqafs00llqi8gn8d0cmgbwx",
+    "rev": "700b1f9c4d576bb754c30789d335844eb6fcddfa",
+    "hash": "0n82g3my5ahsnw6wrcd0f0by5jcxniihvzhs213cm6k5dd7i4jwx",
     "skills": [
       ".claude/skills/playwright-cli",
       "maintainers/skills/weapp-vite-website-curator",
@@ -2343,7 +2412,7 @@
       "skills/weapp-vite-vue-sfc-best-practices",
       "skills/wevu-best-practices"
     ],
-    "lastUpdated": "2026-06-05T06:10:26.438Z"
+    "lastUpdated": "2026-06-05T09:18:54.985Z"
   },
   {
     "source": "github:weave-ai-dev/agent-skills",
@@ -2366,8 +2435,8 @@
   },
   {
     "source": "github:web-infra-dev/midscene-skills",
-    "rev": "2be5ec2b3f93ff1abe4d6eaf6181ed288317263c",
-    "hash": "1flhis1bclvngng03n4dnd2z0cn9ry0vwpwdcri5rjr69md8xm6y",
+    "rev": "a9211f4bd52631b24db32e35c8c87dad9099f89b",
+    "hash": "0z4m293dzm0gvim3s8q379lghiy0yriqp7g8ny9cz72n9lxavvri",
     "skills": [
       "skills/android-automation",
       "skills/browser",
@@ -2376,7 +2445,7 @@
       "skills/ios-automation",
       "skills/vitest-midscene-e2e"
     ],
-    "lastUpdated": "2026-05-29T17:14:49.273Z"
+    "lastUpdated": "2026-06-05T09:18:52.364Z"
   },
   {
     "source": "github:webbertakken/agent-skills",
@@ -2639,8 +2708,8 @@
   },
   {
     "source": "github:wechatpay-apiv3/wechatpay-skills",
-    "rev": "40aca6cb240e032ebd48b2d08c66e23582941f3e",
-    "hash": "1q4274i486jiwsjfm2scsgl3pzyjgbrfdib9cr1nf4pg73zydxck",
+    "rev": "63915b4f07c5ee334ce7c6c76e1897c50d01c36e",
+    "hash": "1g9wv1l1g9mlkg5m08bhl397zgsjim0cw3qcqqa4a446ia676jsj",
     "skills": [
       "wechatpay-basic-payment",
       "wechatpay-deduction-service",
@@ -2648,7 +2717,7 @@
       "wechatpay-payscore",
       "wechatpay-product-coupon"
     ],
-    "lastUpdated": "2026-06-05T06:10:34.145Z"
+    "lastUpdated": "2026-06-05T09:18:58.913Z"
   },
   {
     "source": "github:wecoai/weco-skill",
@@ -2661,8 +2730,8 @@
   },
   {
     "source": "github:wecode-ai/Wegent",
-    "rev": "a103e15dc6c698af36517b41fd823ff7438a06c2",
-    "hash": "1523wd2gcrf2wdn0jwma3lp2f78ppcncnipkkjjp98qc1anki3ly",
+    "rev": "c5ee56585c246dfb6eb3276d4b9a0e6702813eb7",
+    "hash": "1aicwma6kgjg00kvd5zhxvxkxnhi2m8rvk927srqfzhdaslypx2y",
     "skills": [
       "backend/init_data/skills/browser",
       "backend/init_data/skills/conversation_to_prompt",
@@ -2676,12 +2745,12 @@
       "backend/init_data/skills/wegent-knowledge",
       "backend/init_data/skills/wiki_submit"
     ],
-    "lastUpdated": "2026-06-05T06:10:40.465Z"
+    "lastUpdated": "2026-06-05T09:19:05.894Z"
   },
   {
     "source": "github:wecode-ai/wegent",
-    "rev": "a103e15dc6c698af36517b41fd823ff7438a06c2",
-    "hash": "1523wd2gcrf2wdn0jwma3lp2f78ppcncnipkkjjp98qc1anki3ly",
+    "rev": "c5ee56585c246dfb6eb3276d4b9a0e6702813eb7",
+    "hash": "1aicwma6kgjg00kvd5zhxvxkxnhi2m8rvk927srqfzhdaslypx2y",
     "skills": [
       "backend/init_data/skills/browser",
       "backend/init_data/skills/conversation_to_prompt",
@@ -2695,7 +2764,7 @@
       "backend/init_data/skills/wegent-knowledge",
       "backend/init_data/skills/wiki_submit"
     ],
-    "lastUpdated": "2026-06-05T06:10:41.149Z"
+    "lastUpdated": "2026-06-05T09:19:05.990Z"
   },
   {
     "source": "github:wecomteam/wecom-cli",
@@ -5825,8 +5894,8 @@
   },
   {
     "source": "github:windmill-labs/windmill",
-    "rev": "fee23a51859d84e843a789958db8eae6b771bacc",
-    "hash": "049hyxawyx40610f0dkykil7xv73073f18h2k49aidl99x58cxr7",
+    "rev": "1727271e197b34026efeaf1b6561bb404a440baa",
+    "hash": "1y30wq2s9qqikjjcrkcs2ywr1p19dvzbbz38r3zifavmzhpxjxwp",
     "skills": [
       ".agents/skills/adding-a-trigger",
       ".agents/skills/commit",
@@ -5865,7 +5934,7 @@
       "system_prompts/auto-generated/skills/write-script-snowflake",
       "system_prompts/auto-generated/skills/write-workflow-as-code"
     ],
-    "lastUpdated": "2026-06-05T06:12:42.696Z"
+    "lastUpdated": "2026-06-05T09:18:42.302Z"
   },
   {
     "source": "github:window-ook/fit-checker",
@@ -6516,15 +6585,15 @@
   },
   {
     "source": "github:wix/skills",
-    "rev": "49684b071f7fd00c70fcb4d62d6a518609eca1ee",
-    "hash": "1zppbaiz79lb31759dyryilgrf2ma2yks5xn8qpny3spz9vlwk05",
+    "rev": "9dca098f4b6fb31bff51be29547879033f314381",
+    "hash": "16901s88jyh3wgm6cjkn1nd4pm5jmb084n2sirs1n48l9sb8z5f9",
     "skills": [
       "skills/wix-app",
       "skills/wix-design-system",
       "skills/wix-headless",
       "skills/wix-manage"
     ],
-    "lastUpdated": "2026-06-04T14:57:45.187Z"
+    "lastUpdated": "2026-06-05T09:16:42.214Z"
   },
   {
     "source": "github:wizardofwozzz/bac-presentation-generator",
@@ -6795,8 +6864,8 @@
   },
   {
     "source": "github:wlzh/skills",
-    "rev": "e4abd96088ad4bf6115749907a7e0ae28b0712ed",
-    "hash": "0cjcaadcrrig789skw3vjnjg06qpbi44kswb25ziyil1wzi5qm8g",
+    "rev": "5823a6b2e773cc2b6c8d2a715fda320a19066a47",
+    "hash": "1fyh9p942bwb3qhxq7jadx4kl2knm1q9xsq9kc1hlhs5dawkz5jq",
     "skills": [
       "audiocut-keyword",
       "code-roaster",
@@ -6814,7 +6883,7 @@
       "youtube-to-blog-post",
       "youtube-tracker"
     ],
-    "lastUpdated": "2026-06-02T09:19:10.683Z"
+    "lastUpdated": "2026-06-05T09:16:49.578Z"
   },
   {
     "source": "github:wm9139/baoyu-skills",
@@ -7161,8 +7230,8 @@
   },
   {
     "source": "github:woocommerce/woocommerce",
-    "rev": "89c0bccb539157a247a0bf42914234dbe708a2a7",
-    "hash": "1qc8q7yxjazabg49bskfcvs5lwa3pfjgncx2nrxqfpq10c0gvmdn",
+    "rev": "4d03fc5876167e578e1e68b6213859643b9d0549",
+    "hash": "0bmisdrjvxryjlw70pr9mdjh1937938lmbi7vf5mn3z7s6cdnsji",
     "skills": [
       ".ai/skills/woocommerce-backend-dev",
       ".ai/skills/woocommerce-code-review",
@@ -7176,7 +7245,7 @@
       ".ai/skills/woocommerce-performance",
       ".ai/skills/woocommerce-store-api"
     ],
-    "lastUpdated": "2026-06-04T23:50:40.350Z"
+    "lastUpdated": "2026-06-05T09:17:42.482Z"
   },
   {
     "source": "github:woodfantasy/Seedance2.0-ShotDesign-Skills",
@@ -7312,12 +7381,12 @@
   },
   {
     "source": "github:workadventure/workadventure",
-    "rev": "150e2fcb7de1e5dd0eb54d295cad07d540f81b50",
-    "hash": "1qmrh9cvha22is6qnjj66hgw08yqh1m8w0hg1z8ljzc05pw08hnj",
+    "rev": "86d03cb6a60976f0168060424171b1cb387c9495",
+    "hash": "0hb918jrpl8cyfb3ksb729nfi56ypa6bpywda6xa41xmb58r6dqs",
     "skills": [
       ".codex/skills/translate"
     ],
-    "lastUpdated": "2026-06-04T23:50:42.822Z"
+    "lastUpdated": "2026-06-05T09:17:33.995Z"
   },
   {
     "source": "github:workersio/spec",
@@ -7561,15 +7630,15 @@
   },
   {
     "source": "github:wox-launcher/wox",
-    "rev": "3d34076490802736a72fc216e80503d30917b506",
-    "hash": "1hkl1g8r8dnr3awpdmc49795q32by7s7ar5s5mhd865madzm4lni",
+    "rev": "5fd7d7662d9d1d2912c838e95a8db9d63dcbf427",
+    "hash": "0h8kggvjcj12fkqchc2qqmw08qryj8xvnks5xmdj25b05l9p8svy",
     "skills": [
       ".agents/skills/wox-changelog-update",
       ".agents/skills/wox-plugin-creator",
       ".agents/skills/wox-plugin-submit2store",
       ".agents/skills/wox-test-ensurance"
     ],
-    "lastUpdated": "2026-06-04T23:51:03.846Z"
+    "lastUpdated": "2026-06-05T09:18:15.029Z"
   },
   {
     "source": "github:wpacademy/wordpress-dev-skills",
@@ -8103,13 +8172,13 @@
   },
   {
     "source": "github:wsbs20/claude-code-aso-skill",
-    "rev": "d466ae9e606bc568c73693e8223b74c66bae5743",
+    "rev": "3e5b45b5881f86bc4aa9e85693ea7418c6eb044f",
     "hash": "0dmywq9k309z3dv5437zc9qmw1jy6v343kj0c1612yplncgrdk3i",
     "skills": [
       ".claude/skills/aso",
       "app-store-optimization"
     ],
-    "lastUpdated": "2026-06-05T06:11:54.149Z"
+    "lastUpdated": "2026-06-05T09:18:14.453Z"
   },
   {
     "source": "github:wsgtcyx/pdf-zusammenfugen-agent-skills",
@@ -8297,8 +8366,8 @@
   },
   {
     "source": "github:wshobson/agents",
-    "rev": "767d969a73ce6608d10ac713e52be9ac7f061ab9",
-    "hash": "11alsrmjrpagflf4jxcx1yad2vs85qjgv43mj9q5zrl99hqvc8c8",
+    "rev": "cf6059d030bf4fe96623ae2e596d2f31e35fedc0",
+    "hash": "1avijij1vjagq6q16lvnz8k2rdln9yk52nfl4zvyix79001xx5s2",
     "skills": [
       "plugins/accessibility-compliance/skills/screen-reader-testing",
       "plugins/accessibility-compliance/skills/wcag-audit-patterns",
@@ -8457,7 +8526,7 @@
       "plugins/ui-design/skills/visual-design-foundations",
       "plugins/ui-design/skills/web-component-design"
     ],
-    "lastUpdated": "2026-06-03T02:48:45.591Z"
+    "lastUpdated": "2026-06-05T09:18:16.817Z"
   },
   {
     "source": "github:wshuyi/deep-research",
