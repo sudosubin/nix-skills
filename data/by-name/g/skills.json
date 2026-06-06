@@ -42,8 +42,8 @@
   },
   {
     "source": "github:GPTomics/bioSkills",
-    "rev": "e8d9b137ad202e589d7861123ba1af2557bcaa27",
-    "hash": "0w0gg8yhrg42d8xij95s3a997al00x22an846313xb6lrywpzpiv",
+    "rev": "394ea6b7087ef74109ebd949a81d0089c4a2f0d8",
+    "hash": "0pm92inxzi1wi53ls91kvy14353v47pxymdc767m8hr0y9cw9l2r",
     "skills": [
       "alignment-files/alignment-amplicon-clipping",
       "alignment-files/alignment-filtering",
@@ -331,6 +331,7 @@
       "immunoinformatics/mhc-class-ii-prediction",
       "immunoinformatics/neoantigen-prediction",
       "immunoinformatics/tcr-epitope-binding",
+      "liquid-biopsy/analytical-validation",
       "liquid-biopsy/cfdna-preprocessing",
       "liquid-biopsy/ctdna-mutation-detection",
       "liquid-biopsy/fragment-analysis",
@@ -339,6 +340,7 @@
       "liquid-biopsy/tumor-fraction-estimation",
       "long-read-sequencing/basecalling",
       "long-read-sequencing/clair3-variants",
+      "long-read-sequencing/haplotype-phasing",
       "long-read-sequencing/isoseq-analysis",
       "long-read-sequencing/long-read-alignment",
       "long-read-sequencing/long-read-qc",
@@ -387,7 +389,6 @@
       "pathway-analysis/reactome-pathways",
       "pathway-analysis/wikipathways",
       "phasing-imputation/genotype-imputation",
-      "phasing-imputation/haplotype-phasing",
       "phasing-imputation/imputation-qc",
       "phasing-imputation/reference-panels",
       "phylogenetics/bayesian-inference",
@@ -571,7 +572,7 @@
       "workflows/tcr-pipeline",
       "workflows/timecourse-pipeline"
     ],
-    "lastUpdated": "2026-06-05T17:42:13.674Z"
+    "lastUpdated": "2026-06-06T02:38:29.121Z"
   },
   {
     "source": "github:GRCEngClub/claude-grc-engineering",
@@ -46644,12 +46645,12 @@
   },
   {
     "source": "github:gastownhall/beads",
-    "rev": "a5e5cd71f15c9ff99ab1a3c80d1e642be72d4112",
-    "hash": "0syvxckmdbqqdsjvzqa3f4m64v7j16ywpld0bdsrrahwigzr200x",
+    "rev": "0da7f51f3bcb6ae350f836f616d8c7244c2868d0",
+    "hash": "0lh7x87qjllfxp875jv525a3bj8dh16nq0fldfwwaf21yd7kb38r",
     "skills": [
       "internal/templates/skills/beads"
     ],
-    "lastUpdated": "2026-06-03T23:29:37.828Z"
+    "lastUpdated": "2026-06-06T02:39:54.243Z"
   },
   {
     "source": "github:gate/gate-skills",
@@ -47466,8 +47467,8 @@
   },
   {
     "source": "github:gemini-cli-extensions/workspace",
-    "rev": "f1f7e272963c6d50676e5e99babc53ae025bdb2c",
-    "hash": "1y3cnmglhfwgkx0npry3z6rcvj8wc1cp911kvarjs7gnmw1mf4xq",
+    "rev": "7ddc18129cab70763e0c9c2cb33868954b384941",
+    "hash": "1apj06mxm67ppb36f59ywpylr9ynlkjy78y4ln5zd6lzchghxazm",
     "skills": [
       ".gemini/skills/code-reviewer",
       "skills/gmail",
@@ -47477,7 +47478,7 @@
       "skills/google-sheets",
       "skills/google-slides"
     ],
-    "lastUpdated": "2026-06-05T17:43:16.729Z"
+    "lastUpdated": "2026-06-06T02:39:16.317Z"
   },
   {
     "source": "github:gemini960114/skills",
@@ -48358,8 +48359,8 @@
   },
   {
     "source": "github:getaero-io/gtm-eng-skills",
-    "rev": "a254e820964c881418e430dad5954b43fa2bc72d",
-    "hash": "0xchn80x1skgm8p6zgn6jnsx47jfbwww6rgqkg3bicrmriyv6xzm",
+    "rev": "c1daf3773ab7bae46272f6c4fdfe1a27775737d3",
+    "hash": "141743zss33gbb5xhhaay0cmnl3dnja3dsaqrc9cqfccmzl42isc",
     "skills": [
       "skills/build-tam",
       "skills/clay-to-deepline",
@@ -48373,7 +48374,7 @@
       "skills/portfolio-prospecting",
       "skills/workflow-hello-world"
     ],
-    "lastUpdated": "2026-06-05T06:07:18.879Z"
+    "lastUpdated": "2026-06-06T02:39:29.625Z"
   },
   {
     "source": "github:getalby/alby-agent-skill",
@@ -48593,8 +48594,8 @@
   },
   {
     "source": "github:getsentry/sentry",
-    "rev": "86877ae04bf07f97572144572336234f6286000c",
-    "hash": "0akyjlb978fc42fmmhm4zjzmnsnl98j95wkyc1z1b24i8wgygifv",
+    "rev": "1b85133527378e1425c861153775b4fb04a0942d",
+    "hash": "0xjs8q8sq253bzp3ymydabh71xwgzf1mcy8wfhkr14rjlz45f428",
     "skills": [
       ".agents/skills/analytics",
       ".agents/skills/cell-architecture",
@@ -48617,7 +48618,7 @@
       ".agents/skills/sentry-security",
       ".agents/skills/setup-dev"
     ],
-    "lastUpdated": "2026-06-05T20:38:45.949Z"
+    "lastUpdated": "2026-06-06T02:41:09.648Z"
   },
   {
     "source": "github:getsentry/sentry-agent-skills",
@@ -49310,8 +49311,8 @@
   },
   {
     "source": "github:ghosttypes/ff-5mp-api-ts",
-    "rev": "5753e89e33e5eaf6de5b624772a40bee46b763f7",
-    "hash": "0i79syal8c1bfi30ivf6qa86l931cd6whjl48fjfczq2f13ky7iy",
+    "rev": "2ea04ff6864bde4c45cc46eb3622977ddb13ac6d",
+    "hash": "113dpc1jw9mdz7i97w5dk1zi4gbxlbg5vhiyxy2h1n7bgrj2nclz",
     "skills": [
       ".claude/skills/best-practices",
       ".claude/skills/biome",
@@ -49323,7 +49324,7 @@
       ".claude/skills/typescript-best-practices",
       ".claude/skills/vitest"
     ],
-    "lastUpdated": "2026-05-29T17:10:52.093Z"
+    "lastUpdated": "2026-06-06T02:40:13.537Z"
   },
   {
     "source": "github:ghostwright/phantom",
@@ -49796,14 +49797,14 @@
   },
   {
     "source": "github:git-ai-project/git-ai",
-    "rev": "d802515c90b0925931b14c1b4ea6bf9884fed943",
-    "hash": "0zk9iak68n6bp7q2l4kb9raxp98z6qlrrj5q3ww02vajmiblppi2",
+    "rev": "5647ea559450b5a9d7841f27fc4406ddc090facf",
+    "hash": "1xy9bvhwqnz2gm82vydmpypdzfi4pgl3gglj9hwpsx01vv4614ld",
     "skills": [
       "skills/ask",
       "skills/git-ai-search",
       "skills/prompt-analysis"
     ],
-    "lastUpdated": "2026-06-05T20:37:11.537Z"
+    "lastUpdated": "2026-06-06T02:40:31.727Z"
   },
   {
     "source": "github:git-fg/thecattoolkit",
@@ -49876,8 +49877,8 @@
   },
   {
     "source": "github:github/awesome-copilot",
-    "rev": "880b059b6203fd209cd6f0c25fdb77d9279fcce0",
-    "hash": "0103wfcacmpznm3b1m1p5km7kjkc5f2yxc827c5204w9zazqd63a",
+    "rev": "07b34ec9cf66c55c1deae1f1ac7248dca6d3fa9e",
+    "hash": "1q2mhws9va93ba072agsf50sxn43la403pn4p2j8kdi9fccyy8lw",
     "skills": [
       "skills/acquire-codebase-knowledge",
       "skills/acreadiness-assess",
@@ -50097,6 +50098,7 @@
       "skills/mvvm-toolkit",
       "skills/mvvm-toolkit-di",
       "skills/mvvm-toolkit-messenger",
+      "skills/namecheap",
       "skills/nano-banana-pro-openrouter",
       "skills/napkin",
       "skills/next-intl-add-language",
@@ -50244,7 +50246,7 @@
       "skills/write-coding-standards-from-file",
       "skills/x-twitter-scraper"
     ],
-    "lastUpdated": "2026-06-04T23:44:09.049Z"
+    "lastUpdated": "2026-06-06T02:39:24.661Z"
   },
   {
     "source": "github:github/copilot-plugins",
@@ -50260,8 +50262,8 @@
   },
   {
     "source": "github:github/gh-aw",
-    "rev": "a7d4043a8224182262356a32931099b76fd332eb",
-    "hash": "05vipr75b3pdfvbyrzn7sgr4nn6cdmf75mgwqwamjglmcm6n5qqn",
+    "rev": "885f5a7347c7f5e1c2820383bacc0fbfb461de5d",
+    "hash": "1pg2rf4c42v9y8dmmr16cg91qksp220a3w0lpf4c5dlqpsm7f72q",
     "skills": [
       ".",
       ".claude/skills/playwright-cli",
@@ -50303,7 +50305,7 @@
       ".github/skills/temporary-id-safe-output",
       ".github/skills/workflow-step-summaries"
     ],
-    "lastUpdated": "2026-06-05T20:39:00.681Z"
+    "lastUpdated": "2026-06-06T02:39:34.056Z"
   },
   {
     "source": "github:github/gh-stack",
@@ -50316,8 +50318,8 @@
   },
   {
     "source": "github:githubnext/apm",
-    "rev": "16628125679b44d86eb09fccee3c1e0e25864df8",
-    "hash": "0fs448is6w5iqvlib6pyykkifgi6hfyjikvw65y7si1p6y1z8ylf",
+    "rev": "101f1629c5dd3539c25982251eb5465ff9240d99",
+    "hash": "1icixyq31bz6x2dm6iyqs3hq9ry0i1qj83dvjrhg9dmrp3r9kcb0",
     "skills": [
       ".agents/skills/apm-review-panel",
       ".agents/skills/apm-strategy",
@@ -50340,12 +50342,12 @@
       "tests/integration/fixtures/target_resolution/s01_claude_md_only/.apm/skills/placeholder",
       "tests/integration/fixtures/target_resolution/s07_compile_all_single/.apm/skills/hello"
     ],
-    "lastUpdated": "2026-06-05T17:44:45.856Z"
+    "lastUpdated": "2026-06-06T02:39:28.521Z"
   },
   {
     "source": "github:githubnext/gh-aw",
-    "rev": "a7d4043a8224182262356a32931099b76fd332eb",
-    "hash": "05vipr75b3pdfvbyrzn7sgr4nn6cdmf75mgwqwamjglmcm6n5qqn",
+    "rev": "885f5a7347c7f5e1c2820383bacc0fbfb461de5d",
+    "hash": "1pg2rf4c42v9y8dmmr16cg91qksp220a3w0lpf4c5dlqpsm7f72q",
     "skills": [
       ".",
       ".claude/skills/playwright-cli",
@@ -50387,7 +50389,7 @@
       ".github/skills/temporary-id-safe-output",
       ".github/skills/workflow-step-summaries"
     ],
-    "lastUpdated": "2026-06-05T20:39:07.328Z"
+    "lastUpdated": "2026-06-06T02:41:11.502Z"
   },
   {
     "source": "github:gitroomhq/postiz-agent",
@@ -51538,8 +51540,8 @@
   },
   {
     "source": "github:gmickel/flow-next",
-    "rev": "b509e8dde3c2b0153478d775639500f368f4c686",
-    "hash": "1rfpkdqd5wlv0r400qzxqwjv72hdaji90zzdfzdjlv5bcmb60nag",
+    "rev": "d39f75e8e3987231b113b2e0260bc9721bf91c3b",
+    "hash": "013qxh5r3qhpdl6ii510bf93ifbjx0q0rgqxq45fb3i9xapk5aik",
     "skills": [
       "plugins/flow-next/codex/skills/flow-next-epic-review",
       "plugins/flow-next/skills/flow-next",
@@ -51569,12 +51571,12 @@
       "plugins/flow-next/skills/flow-next-work",
       "plugins/flow-next/skills/flow-next-worktree-kit"
     ],
-    "lastUpdated": "2026-06-05T17:42:49.131Z"
+    "lastUpdated": "2026-06-06T02:41:15.355Z"
   },
   {
     "source": "github:gmickel/gmickel-claude-marketplace",
-    "rev": "b509e8dde3c2b0153478d775639500f368f4c686",
-    "hash": "1rfpkdqd5wlv0r400qzxqwjv72hdaji90zzdfzdjlv5bcmb60nag",
+    "rev": "d39f75e8e3987231b113b2e0260bc9721bf91c3b",
+    "hash": "013qxh5r3qhpdl6ii510bf93ifbjx0q0rgqxq45fb3i9xapk5aik",
     "skills": [
       "plugins/flow-next/codex/skills/flow-next-epic-review",
       "plugins/flow-next/skills/flow-next",
@@ -51604,18 +51606,18 @@
       "plugins/flow-next/skills/flow-next-work",
       "plugins/flow-next/skills/flow-next-worktree-kit"
     ],
-    "lastUpdated": "2026-06-05T17:42:49.492Z"
+    "lastUpdated": "2026-06-06T02:41:17.465Z"
   },
   {
     "source": "github:gmickel/gno",
-    "rev": "8bfd55a2da7a21939f355cc0924bdb3fd58bca66",
-    "hash": "091550pqxw4ag04b3wiwbzn439r598fxl7x3r4f6ip7k1zihpkvh",
+    "rev": "7721f4fcee568be682cd5c4cb3b1396b1fc0cada",
+    "hash": "090sdfgb3inzwzccqnwxhb32qkxjsi8c2d9q43imyzsf402vlhib",
     "skills": [
       ".agents/skills/dogfood",
       "assets/skill",
       "skills/gno"
     ],
-    "lastUpdated": "2026-06-05T17:42:55.017Z"
+    "lastUpdated": "2026-06-06T02:41:23.631Z"
   },
   {
     "source": "github:gmickel/my-claude-skills",
@@ -52656,12 +52658,12 @@
   },
   {
     "source": "github:google/adk-docs",
-    "rev": "1d3029aed5a0b1b1f35ea6edb6e05c1b29490de9",
-    "hash": "134yqcsi1jgyh0gh6iim4qxp974s1magwg91a6z6khxjxc5abm4x",
+    "rev": "e3e51aeb9a785cf8ddf1d22f55799dc25ececf3c",
+    "hash": "1w2j5spl8lf6jd1kmgfk9mg9g6dlkrby5smrj6qb9vdk56ihlwq5",
     "skills": [
       "examples/typescript/snippets/skills/skills/weather_skill"
     ],
-    "lastUpdated": "2026-06-05T17:43:20.078Z"
+    "lastUpdated": "2026-06-06T02:41:06.613Z"
   },
   {
     "source": "github:google/adk-python",
@@ -53448,8 +53450,8 @@
   },
   {
     "source": "github:gptomics/bioskills",
-    "rev": "e8d9b137ad202e589d7861123ba1af2557bcaa27",
-    "hash": "0w0gg8yhrg42d8xij95s3a997al00x22an846313xb6lrywpzpiv",
+    "rev": "394ea6b7087ef74109ebd949a81d0089c4a2f0d8",
+    "hash": "0pm92inxzi1wi53ls91kvy14353v47pxymdc767m8hr0y9cw9l2r",
     "skills": [
       "alignment-files/alignment-amplicon-clipping",
       "alignment-files/alignment-filtering",
@@ -53737,6 +53739,7 @@
       "immunoinformatics/mhc-class-ii-prediction",
       "immunoinformatics/neoantigen-prediction",
       "immunoinformatics/tcr-epitope-binding",
+      "liquid-biopsy/analytical-validation",
       "liquid-biopsy/cfdna-preprocessing",
       "liquid-biopsy/ctdna-mutation-detection",
       "liquid-biopsy/fragment-analysis",
@@ -53745,6 +53748,7 @@
       "liquid-biopsy/tumor-fraction-estimation",
       "long-read-sequencing/basecalling",
       "long-read-sequencing/clair3-variants",
+      "long-read-sequencing/haplotype-phasing",
       "long-read-sequencing/isoseq-analysis",
       "long-read-sequencing/long-read-alignment",
       "long-read-sequencing/long-read-qc",
@@ -53793,7 +53797,6 @@
       "pathway-analysis/reactome-pathways",
       "pathway-analysis/wikipathways",
       "phasing-imputation/genotype-imputation",
-      "phasing-imputation/haplotype-phasing",
       "phasing-imputation/imputation-qc",
       "phasing-imputation/reference-panels",
       "phylogenetics/bayesian-inference",
@@ -53977,7 +53980,7 @@
       "workflows/tcr-pipeline",
       "workflows/timecourse-pipeline"
     ],
-    "lastUpdated": "2026-06-05T17:43:56.821Z"
+    "lastUpdated": "2026-06-06T02:39:14.340Z"
   },
   {
     "source": "github:gpu-cli/gpu",
@@ -54100,8 +54103,8 @@
   },
   {
     "source": "github:gracefullight/stock-checker",
-    "rev": "64460cbb2abc7445773bbe5f66439ca9417ae522",
-    "hash": "0pnyq8j2gkmczi12w3dv13w9cpfgawgdri6lzwhnp9xn5hqnmihx",
+    "rev": "3245450f9213c83d7869e0fd07364123fb4f561d",
+    "hash": "11jrbgnyiwfqv9p2kjy9gzb2iwqvvws02shklmmzpd0zspxgajjv",
     "skills": [
       ".agents/skills/Financial Data Fetcher",
       ".agents/skills/backtesting-trading-strategies",
@@ -54137,7 +54140,7 @@
       ".claude/skills/tools",
       ".claude/skills/ultrawork"
     ],
-    "lastUpdated": "2026-06-04T23:45:14.623Z"
+    "lastUpdated": "2026-06-06T02:39:15.034Z"
   },
   {
     "source": "github:gradio-app/daggr",
@@ -54898,8 +54901,8 @@
   },
   {
     "source": "github:greptimeteam/docs",
-    "rev": "bd7473872de0cc659884870c3c1a5f9ea7cc9bc9",
-    "hash": "028z13zf23kambclqv1m0zjvc8x63h69yjpa3ynyy4wgp6r7mmn3",
+    "rev": "2ccd815b57ff322b8d19d262572f3fd5417f2a19",
+    "hash": "02w222wy9kqj5ggk3jyyksmwlv3280j1rc76n63rqz33hpb0d56r",
     "skills": [
       "skills/greptimedb-flow",
       "skills/greptimedb-pipeline",
@@ -54907,7 +54910,7 @@
       "skills/greptimedb-trigger",
       "skills/self-monitoring-export"
     ],
-    "lastUpdated": "2026-06-03T09:26:52.665Z"
+    "lastUpdated": "2026-06-06T02:39:09.185Z"
   },
   {
     "source": "github:grepug/skills",
@@ -54936,13 +54939,13 @@
   },
   {
     "source": "github:greyhaven-ai/autocontext",
-    "rev": "5f8c1442953d5f335a32329d01e3bd47c5ee2259",
-    "hash": "0m6j8hpkdqylzkdw886xs2amhi6a99n9skzml3x5k4jcgz3mh5sv",
+    "rev": "c8843fafcc3cd00a0529c36296a20ef968a37c65",
+    "hash": "1c9by2pizr7vyziqqaja4vq1q25vyjzvq5ibs7bz4r5q3wlb488b",
     "skills": [
       "autocontext/skills/grid-ctf-ops",
       "skills/autocontext"
     ],
-    "lastUpdated": "2026-06-05T20:38:09.112Z"
+    "lastUpdated": "2026-06-06T02:39:07.498Z"
   },
   {
     "source": "github:greyhaven-ai/claude-code-config",
@@ -55151,8 +55154,8 @@
   },
   {
     "source": "github:groeimetai/snow-flow",
-    "rev": "0772630f18897c21f3a39b738e7fc7752f44b5cd",
-    "hash": "1ihxdsg95kci2cwl5zm6jjc2s7xiz46sfivcnamhmqkr3v65irwi",
+    "rev": "773af421c0ecb928c84f3ef786e9909674d16164",
+    "hash": "023zkciar6m6d427a5l3aklx0cbsx278xxr74380ghdydc5blqnl",
     "skills": [
       ".snowcode/skill/bun-file-io",
       "packages/opencode/src/bundled-skills/acl-security",
@@ -55211,7 +55214,7 @@
       "packages/opencode/src/bundled-skills/widget-coherence",
       "packages/opencode/src/bundled-skills/workspace-builder"
     ],
-    "lastUpdated": "2026-06-03T21:22:58.734Z"
+    "lastUpdated": "2026-06-06T02:39:15.568Z"
   },
   {
     "source": "github:groupzer0/vs-code-agents",
@@ -55640,8 +55643,8 @@
   },
   {
     "source": "github:gtapps/claude-code-hermit",
-    "rev": "f9be863efee222af75733c1abf6cb996b6952d4f",
-    "hash": "0x54js3r6rxrjx08pkzfgdf9xgj91bspah6rhkia5cyk4k73iknf",
+    "rev": "cc08b53abd5461541e595509dc34f5c1bf7db39c",
+    "hash": "0mpp8y5qqzhsw2jw2b4jp6ynv7qk35bw7l007dcyqj1wadybsdmy",
     "skills": [
       ".claude/skills/bump-core-req",
       ".claude/skills/commit",
@@ -55706,7 +55709,7 @@
       "plugins/claude-code-homeassistant-hermit/skills/ha-safety-audit",
       "plugins/hermit-scribe/skills/hermit-scribe"
     ],
-    "lastUpdated": "2026-06-05T17:43:29.420Z"
+    "lastUpdated": "2026-06-06T02:39:17.265Z"
   },
   {
     "source": "github:gtapps/voice-channel",

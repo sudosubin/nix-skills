@@ -18,6 +18,43 @@
     "lastUpdated": "2026-02-07T04:24:24.202Z"
   },
   {
+    "source": "github:Lambenthan/empiricalwiki",
+    "rev": "d475ac070e1e3bbca74b28eac3605afcfe7338be",
+    "hash": "1lw4ij7v7zbfginjv9iqn6j85jspq6hpfxpskzxvvnnrg56zm48h",
+    "skills": [
+      ".claude/skills/ask",
+      ".claude/skills/check",
+      ".claude/skills/daily-arxiv",
+      ".claude/skills/discover",
+      ".claude/skills/edit",
+      ".claude/skills/empirical-design",
+      ".claude/skills/empirical-ingest",
+      ".claude/skills/exp-design",
+      ".claude/skills/exp-eval",
+      ".claude/skills/exp-run",
+      ".claude/skills/exp-status",
+      ".claude/skills/ideate",
+      ".claude/skills/ingest",
+      ".claude/skills/init",
+      ".claude/skills/novelty",
+      ".claude/skills/paper-compile",
+      ".claude/skills/paper-draft",
+      ".claude/skills/paper-plan",
+      ".claude/skills/prefill",
+      ".claude/skills/rebuttal",
+      ".claude/skills/refine",
+      ".claude/skills/research",
+      ".claude/skills/reset",
+      ".claude/skills/review",
+      ".claude/skills/setup",
+      ".claude/skills/stata-plan",
+      ".claude/skills/survey",
+      ".claude/skills/theory-ingest",
+      ".claude/skills/variable-map"
+    ],
+    "lastUpdated": "2026-06-06T02:38:52.212Z"
+  },
+  {
     "source": "github:Lambenthan/paper-discipline-skills",
     "rev": "53d4382f942f486791150accda5bdd873615c623",
     "hash": "1kbcshchp063fm0v18f48cwxkl4xddrjrvj526cpy1aczp22gc6y",
@@ -1545,8 +1582,8 @@
   },
   {
     "source": "github:LiHongwei-cn/lihongwei-cn",
-    "rev": "517772e5636ed003c6d99c78c5f5133378900aa9",
-    "hash": "0b6vcl74ss7i0zxrnqnm11dnfr3g2xxydi84bzbxz1ilfqq7d02d",
+    "rev": "bbb7e6cd8bd4818701697e56afb2ec6c11251a8c",
+    "hash": "0qzjiy13bd8xmavg78sijr0v2dgwwanhgdb7r8fwrkff9zcrv0qa",
     "skills": [
       "global-specs/skills/code-tidy",
       "global-specs/skills/homepage-layout",
@@ -1715,7 +1752,7 @@
       "mundo-cloud/skills/yuanbao",
       "skills/mundo"
     ],
-    "lastUpdated": "2026-06-05T12:04:04.179Z"
+    "lastUpdated": "2026-06-06T02:39:15.128Z"
   },
   {
     "source": "github:Lifecycle-Innovations-Limited/claude-ops",
@@ -2061,7 +2098,7 @@
   },
   {
     "source": "github:Logiiiii/unity-agent-skills",
-    "rev": "abc0713d852f2136bbbe59ecae0c68569c756a29",
+    "rev": "18a1b98c57b1ff34deabd17b49c641baed37d3f6",
     "hash": "1bbqzckpwnps1fb5f0calmwhzsrarm5ryg4jxh3azkmnn8ik5wad",
     "skills": [
       "skills/jahro-commands",
@@ -2073,7 +2110,7 @@
       "skills/jahro-troubleshooting",
       "skills/jahro-watcher"
     ],
-    "lastUpdated": "2026-06-05T17:42:35.321Z"
+    "lastUpdated": "2026-06-06T02:39:19.460Z"
   },
   {
     "source": "github:Lohomi15/claude-search-conversations",
@@ -2094,8 +2131,128 @@
     "lastUpdated": "2026-05-29T17:07:36.984Z"
   },
   {
+    "source": "github:Lonsdale201/wp-agent-skills",
+    "rev": "60ae9fe5c71920b091774e8370109ddfacc4bdbd",
+    "hash": "0lw0fj886sqqj0kpnkqjd03xh68av7an8xvia8549q8hx36qhymh",
+    "skills": [
+      "better-data/bd-attribute",
+      "better-data/bd-better-route-bridge",
+      "better-data/bd-companion-plugin",
+      "better-data/bd-data-object",
+      "better-data/bd-hydration-coercion",
+      "better-data/bd-presenter",
+      "better-data/bd-security",
+      "better-data/bd-sink",
+      "better-data/bd-source-adapter",
+      "better-data/bd-validation-rule",
+      "better-route/br-atomic-idempotency",
+      "better-route/br-audit-enrichment",
+      "better-route/br-auth-middleware",
+      "better-route/br-cors-public-client",
+      "better-route/br-crypto",
+      "better-route/br-error-contract",
+      "better-route/br-etag-cache",
+      "better-route/br-hmac-signature",
+      "better-route/br-idempotency",
+      "better-route/br-install-and-migrate",
+      "better-route/br-jwks-jwt-auth",
+      "better-route/br-network-security",
+      "better-route/br-openapi",
+      "better-route/br-owned-resource-guards",
+      "better-route/br-rate-limiting",
+      "better-route/br-resource-cpt",
+      "better-route/br-resource-policy",
+      "better-route/br-resource-table",
+      "better-route/br-routes",
+      "better-route/br-single-use-token",
+      "better-route/br-woo-routes",
+      "better-route/br-write-schema",
+      "fluentcrm/fluentcrm-funnel-action",
+      "fluentcrm/fluentcrm-funnel-benchmark",
+      "fluentcrm/fluentcrm-funnel-trigger",
+      "fluentcrm/fluentcrm-overview",
+      "fluentcrm/fluentcrm-rest-options",
+      "jet-engine/je-dynamic-visibility-condition",
+      "jet-engine/je-listings-callback",
+      "jet-engine/je-query-builder-custom-type",
+      "jetformbuilder/jfb-action-events",
+      "jetformbuilder/jfb-action-external-api",
+      "jetformbuilder/jfb-action-item-decorator",
+      "jetformbuilder/jfb-action-messages",
+      "jetformbuilder/jfb-form-action",
+      "jetformbuilder/jfb-form-sidebar-panel",
+      "jetformbuilder/jfb-settings-tab",
+      "lw-plugins/lw-lms-abilities",
+      "lw-plugins/lw-lms-backend-extend",
+      "lw-plugins/lw-lms-learndash-migration",
+      "lw-plugins/lw-lms-rest-frontend",
+      "lw-plugins/lw-site-manager-extend-abilities",
+      "lw-plugins/lw-site-manager-overview",
+      "plugin-scaffold/wp-action-scheduler",
+      "plugin-scaffold/wp-plugin-architecture",
+      "plugin-scaffold/wp-plugin-assets-loading",
+      "plugin-scaffold/wp-plugin-bootstrap",
+      "plugin-scaffold/wp-plugin-cron",
+      "plugin-scaffold/wp-plugin-dto",
+      "plugin-scaffold/wp-plugin-hooks",
+      "plugin-scaffold/wp-plugin-lifecycle",
+      "plugin-scaffold/wp-plugin-options-storage",
+      "plugin-scaffold/wp-plugin-presenter",
+      "plugin-scaffold/wp-plugin-rewrite-rules",
+      "woocommerce/wc-action-scheduler-jobs",
+      "woocommerce/wc-cart-checkout-classic",
+      "woocommerce/wc-coupon-dynamic",
+      "woocommerce/wc-customer-and-sessions",
+      "woocommerce/wc-emails-classic",
+      "woocommerce/wc-hpos-compatibility",
+      "woocommerce/wc-order-lifecycle-and-items",
+      "woocommerce/wc-payment-gateway",
+      "woocommerce/wc-payment-tokens",
+      "woocommerce/wc-product-search-select",
+      "woocommerce/wc-rest-api-v4",
+      "woocommerce/wc-shipping-method",
+      "woocommerce/wc-shipping-providers",
+      "woocommerce/wc-store-api",
+      "woocommerce/wc-stripe-add-payment-method",
+      "woocommerce/wc-variations-data",
+      "woocommerce/wc-variations-pricing-filters",
+      "woocommerce/wcm-access-discounts",
+      "woocommerce/wcm-data-model-subscriptions-link",
+      "woocommerce/wcm-membership-hooks",
+      "woocommerce/wcs-data-model-switching-gifting",
+      "woocommerce/wcs-renewal-scheduler",
+      "woocommerce/wcs-subscription-hooks",
+      "wordpress/wp-abilities-api",
+      "wordpress/wp-admin-codemirror",
+      "wordpress/wp-admin-drag-and-drop",
+      "wordpress/wp-admin-form-controls",
+      "wordpress/wp-admin-list-table",
+      "wordpress/wp-admin-media-frame",
+      "wordpress/wp-admin-notices",
+      "wordpress/wp-admin-postbox-sortable",
+      "wordpress/wp-admin-settings-api",
+      "wordpress/wp-ai-client",
+      "wordpress/wp-cli-extending",
+      "wordpress/wp-connectors-api",
+      "wordpress/wp-filesystem-api",
+      "wordpress/wp-html-api",
+      "wordpress/wp-i18n-audit",
+      "wordpress/wp-locale-and-dates",
+      "wordpress/wp-presence-api",
+      "wordpress/wp-query-cache",
+      "wordpress/wp-rest-api",
+      "wordpress/wp-security-audit",
+      "wordpress/wp-security-deep",
+      "wordpress/wp-security-secrets",
+      "wordpress/wp-utf8-text",
+      "wp-rocket/wp-rocket-cache-invalidation",
+      "wp-rocket/wp-rocket-cache-rejection-and-filters"
+    ],
+    "lastUpdated": "2026-06-06T02:39:35.954Z"
+  },
+  {
     "source": "github:Lordjiggy/claude-code-marketplace",
-    "rev": "eee0baa0c6e729b2f0909215a108d813821c640a",
+    "rev": "1789ceb146e9b53c013668a90e66b47c6d769566",
     "hash": "1j9gvz5kndk6lfffqhjg7dkkjrd2l1my5mm4x47rfcd67jj1a75g",
     "skills": [
       "examples/hello-world",
@@ -2122,7 +2279,7 @@
       "skills/security/security-scanner",
       "skills/testing/unit-test-generator"
     ],
-    "lastUpdated": "2026-06-05T20:35:50.398Z"
+    "lastUpdated": "2026-06-06T02:39:37.951Z"
   },
   {
     "source": "github:LoserLab/eyes-peeled",
@@ -2153,12 +2310,12 @@
   },
   {
     "source": "github:Louishin/claude-api-cost-optimization",
-    "rev": "9f045a8d5df2086bf81314276e9f840a2e26a28f",
+    "rev": "ba74dde346f9c76077fb7b1a6899c4efcdfd194b",
     "hash": "1dbhr2s32bl3dw12iz4fdc8v2hkgkgsalbv8h214jafdc377zjbw",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-06-05T17:42:52.944Z"
+    "lastUpdated": "2026-06-06T02:39:44.931Z"
   },
   {
     "source": "github:Louismao8888/girlfriends-skill",
@@ -2762,13 +2919,13 @@
   },
   {
     "source": "github:lahfir/agent-desktop",
-    "rev": "594e93f4dbbfceff614a444fcdb35317f315c8c4",
-    "hash": "07y6xkz8gyiv4s3b5vs4bgzpxsa5qg36v8fdjffq7qaydnl3431i",
+    "rev": "239ebf023062d8cf904ec2cfc573bb12b771acfa",
+    "hash": "1i50n0k6alavwmwyd1fdykd174v84x6m85sh3k5b587zsrmc8anm",
     "skills": [
       "skills/agent-desktop",
       "skills/agent-desktop-ffi"
     ],
-    "lastUpdated": "2026-06-02T06:11:04.841Z"
+    "lastUpdated": "2026-06-06T02:42:00.745Z"
   },
   {
     "source": "github:lahfir/agent-skills",
@@ -3184,8 +3341,8 @@
   },
   {
     "source": "github:langchain-ai/deepagents",
-    "rev": "f98fb0c80d08e408a018ea33a8aa7144180f4e93",
-    "hash": "1l7l97410hpm9cx578ilmhdv227iasizkhjy4k33hh3jjmj9b76p",
+    "rev": "c160ea3eeda1d0ba707bb524cfd0ce087a854e08",
+    "hash": "0xvirvkl86j78b1b31yw3js8kbl1m6gjahqi36qi5329mai1p2b2",
     "skills": [
       "examples/content-builder-agent/skills/blog-post",
       "examples/content-builder-agent/skills/social-media",
@@ -3209,7 +3366,7 @@
       "libs/cli/tests/unit_tests/deploy/fixtures/projects/with_skills/skills/summarize",
       "libs/code/deepagents_code/built_in_skills/remember"
     ],
-    "lastUpdated": "2026-06-05T20:38:42.040Z"
+    "lastUpdated": "2026-06-06T02:42:17.345Z"
   },
   {
     "source": "github:langchain-ai/deepagentsjs",
@@ -3357,8 +3514,8 @@
   },
   {
     "source": "github:langgenius/dify",
-    "rev": "6b12152ce807e5d12b9caffc3bee61f871a898f9",
-    "hash": "1117898z4gl8jwgsmhahmyjh3lzzw4nh1zlw40nmbrx1xfyhb1zj",
+    "rev": "157ba6f5a0a9fb648ab66732575b86051954133b",
+    "hash": "0r8f4k0pm192avsbamc3hxf09rlzyg1d2ysv739ws0rdkinkiqyi",
     "skills": [
       ".agents/skills/backend-code-review",
       ".agents/skills/component-refactoring",
@@ -3367,7 +3524,7 @@
       ".agents/skills/frontend-testing",
       ".agents/skills/how-to-write-component"
     ],
-    "lastUpdated": "2026-06-05T17:45:12.787Z"
+    "lastUpdated": "2026-06-06T02:42:53.678Z"
   },
   {
     "source": "github:langoustine69/skills-market",
@@ -3390,8 +3547,8 @@
   },
   {
     "source": "github:langwatch/langwatch",
-    "rev": "84bd2de8c1377b1267deeee54254340d1b29b50e",
-    "hash": "0qa46n93q2r123d12ma8yyxb1p9m93xbj0qkw4avgrmj2ih54l3r",
+    "rev": "895635d65db6b17e8798962648227657564864db",
+    "hash": "0kca3skmxyh3zd6r6ci7srqjknaml5c360lamvpiwv05rywbpigx",
     "skills": [
       ".claude/skills/browser-pair",
       ".claude/skills/browser-test",
@@ -3399,7 +3556,7 @@
       ".claude/skills/feature-map",
       ".claude/skills/langwatch-kanban"
     ],
-    "lastUpdated": "2026-06-05T17:45:04.817Z"
+    "lastUpdated": "2026-06-06T02:41:35.911Z"
   },
   {
     "source": "github:lanliwz/neo4j-onto2ai-toolset",
@@ -7017,12 +7174,12 @@
   },
   {
     "source": "github:leonense22/wechat-daily-report-skill",
-    "rev": "c9331ad099273384028bc087125d3fc9ce50066c",
+    "rev": "4c0fb8ba81e50d44a90ca136003e222843c9b06e",
     "hash": "1m1hyz3ygv7cqzrw8cqq3ngkrjk9lx24b85fv05izb7lgssaxp3j",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-06-05T17:45:30.486Z"
+    "lastUpdated": "2026-06-06T02:41:24.947Z"
   },
   {
     "source": "github:leonidas810/save-your-music",
@@ -8978,8 +9135,8 @@
   },
   {
     "source": "github:letehaha/budget-tracker",
-    "rev": "f0d062468af00c032b1e134a76e54dd98a818316",
-    "hash": "0q65qrjghchd8nmci8ga20rgq91frw6sqa1a0lnaaxnqcvp3p5zl",
+    "rev": "f18acf7e26752ab730e7548ef1c53253b103d3da",
+    "hash": "1h889wwj9n0i1h7vlirl58sv268v525fjpv19gm687f3kj6f9dyx",
     "skills": [
       ".claude/skills/add-mcp-tool",
       ".claude/skills/caveman",
@@ -8998,7 +9155,7 @@
       ".claude/skills/worktree",
       "packages/frontend/public/skills/connect-moneymatter"
     ],
-    "lastUpdated": "2026-06-05T17:44:27.033Z"
+    "lastUpdated": "2026-06-06T02:41:34.263Z"
   },
   {
     "source": "github:leto-labs/openclaw-bootstrap-config",
@@ -9047,8 +9204,8 @@
   },
   {
     "source": "github:letta-ai/letta-code",
-    "rev": "c77937f0ed1fbfc47acc79dbf5c6544b179cf4f1",
-    "hash": "0iil9zxqvngfrmz5qwhdbnnw9fxz9w2z394il7ch8qdz1jvfqq55",
+    "rev": "33a21140af0c854597636eb24f29a7a2756f848e",
+    "hash": "1c1zjk1bkgfa83f2p141xgxwcfinrim6pb8b4caw0minh8ai3f4z",
     "skills": [
       ".skills/adding-models",
       "src/skills/builtin/acquiring-skills",
@@ -9067,7 +9224,7 @@
       "src/skills/builtin/scheduling-tasks",
       "src/skills/builtin/syncing-memory-filesystem"
     ],
-    "lastUpdated": "2026-06-05T20:38:48.218Z"
+    "lastUpdated": "2026-06-06T02:41:39.982Z"
   },
   {
     "source": "github:letta-ai/letta-code-action",
@@ -22019,8 +22176,8 @@
   },
   {
     "source": "github:lobehub/lobe-chat",
-    "rev": "b1ada9e5fc37a0fa0133f85e5b99b19553c23f49",
-    "hash": "0alyp6pdzh8nj826b1yp5dfl9v0gl4n3zrbyxwnm0djipf9h5hmr",
+    "rev": "485d664589a94dd9921e09060a6062941f11a32c",
+    "hash": "0pk9r2kbz2wk9cj74qp23fly9qnjqv4v4dzhad2pb7gm9443wzcl",
     "skills": [
       ".agents/skills/add-provider-doc",
       ".agents/skills/add-setting-env",
@@ -22060,12 +22217,12 @@
       ".agents/skills/zustand",
       "packages/builtin-skills/src/task"
     ],
-    "lastUpdated": "2026-06-05T20:38:42.695Z"
+    "lastUpdated": "2026-06-06T02:42:25.861Z"
   },
   {
     "source": "github:lobehub/lobehub",
-    "rev": "b1ada9e5fc37a0fa0133f85e5b99b19553c23f49",
-    "hash": "0alyp6pdzh8nj826b1yp5dfl9v0gl4n3zrbyxwnm0djipf9h5hmr",
+    "rev": "485d664589a94dd9921e09060a6062941f11a32c",
+    "hash": "0pk9r2kbz2wk9cj74qp23fly9qnjqv4v4dzhad2pb7gm9443wzcl",
     "skills": [
       ".agents/skills/add-provider-doc",
       ".agents/skills/add-setting-env",
@@ -22105,7 +22262,7 @@
       ".agents/skills/zustand",
       "packages/builtin-skills/src/task"
     ],
-    "lastUpdated": "2026-06-05T20:38:42.314Z"
+    "lastUpdated": "2026-06-06T02:42:25.540Z"
   },
   {
     "source": "github:lobstergeneralintelligence/x-api",
@@ -24903,15 +25060,16 @@
   },
   {
     "source": "github:lukenguyen-me/skills",
-    "rev": "0001185d2361a979f5e1dde847be234eea52e451",
-    "hash": "12af247pv2n4knz2vmwxriw52j9qnbcjvrqx1gn91463qywd2359",
+    "rev": "45897e3879b2bb620b694f30ee26818867c4612c",
+    "hash": "1yyvx2x5qvfbidyq8wgzrpq8agf8ssg9rry0df1sy25z9qrrm2iz",
     "skills": [
       "appstore-release-notes",
       "appstore-submission-content",
+      "commit-message",
       "pastbuild-export",
       "playstore-submission-content"
     ],
-    "lastUpdated": "2026-05-29T17:12:57.939Z"
+    "lastUpdated": "2026-06-06T02:41:33.884Z"
   },
   {
     "source": "github:lukeslp/dreamer-skills",
@@ -25946,7 +26104,7 @@
   },
   {
     "source": "github:lyx2022518/sherlock-ai-plugin",
-    "rev": "eac5b2b5907d1326137b15fcd13867048e2d171f",
+    "rev": "91a9f0e76a485336a4b8aacd4fa2942dc0472d7d",
     "hash": "1ccirzhfbpb2cksbgs8wml5wwkzzr544ii7m2wwxvhkvh0bxj9w1",
     "skills": [
       "skills/deep-research",
@@ -25956,7 +26114,7 @@
       "skills/paper2code",
       "skills/visual-architect"
     ],
-    "lastUpdated": "2026-06-05T17:45:35.257Z"
+    "lastUpdated": "2026-06-06T02:41:11.741Z"
   },
   {
     "source": "github:lyymuwu/TokTrans",
