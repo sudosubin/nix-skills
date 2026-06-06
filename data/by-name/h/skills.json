@@ -741,8 +741,8 @@
   },
   {
     "source": "github:HKUDS/nanobot",
-    "rev": "73353785a023925e35f7913b4ba8c49449f96233",
-    "hash": "05swwzqdz2ix27hpl0g3nj7f1f9ss652i9zs5h1aslgkrhr5srj9",
+    "rev": "ab9f49970d95cca40b172d3bf3a6ae0e76ea88c5",
+    "hash": "0x0b80i3r5vdw0pbkrjr15643pfzqxyx9m8yirfissawl0wdfydy",
     "skills": [
       "nanobot/skills/clawhub",
       "nanobot/skills/cron",
@@ -757,7 +757,7 @@
       "nanobot/skills/update-setup",
       "nanobot/skills/weather"
     ],
-    "lastUpdated": "2026-06-06T08:45:15.135Z"
+    "lastUpdated": "2026-06-06T20:25:35.358Z"
   },
   {
     "source": "github:Haaaiawd/Nexus-skills",
@@ -1187,6 +1187,312 @@
     "lastUpdated": "2026-05-29T17:07:15.885Z"
   },
   {
+    "source": "github:HoangNguyen0403/agent-skills-standard",
+    "rev": "abad064dd976be9083a017184ad981867255ae76",
+    "hash": "16hgx4z7mvr99dnq8zc0hsz46hmnzg5gij3s4mf1a4fncsrz3grf",
+    "skills": [
+      ".agents/skills/caveman",
+      ".agents/skills/caveman-commit",
+      ".agents/skills/caveman-compress",
+      ".agents/skills/caveman-review",
+      ".agents/skills/javascript/best-practices",
+      ".agents/skills/javascript/language",
+      ".agents/skills/javascript/tooling",
+      ".codex/skills/battle-test",
+      ".codex/skills/brainstorm-feature",
+      ".codex/skills/code-review",
+      ".codex/skills/codebase-review",
+      ".codex/skills/deploy-release",
+      ".codex/skills/design-solution",
+      ".codex/skills/dev-fix",
+      ".codex/skills/implement-feature",
+      ".codex/skills/implementation-readiness",
+      ".codex/skills/pentest",
+      ".codex/skills/plan-feature",
+      ".codex/skills/publish-notes",
+      ".codex/skills/retro-learn",
+      ".codex/skills/review-ticket",
+      ".codex/skills/sdlc",
+      ".codex/skills/security-test",
+      ".codex/skills/session-report",
+      ".codex/skills/skill-benchmark",
+      ".codex/skills/traceability-audit",
+      ".codex/skills/update-docs",
+      ".codex/skills/verify-bug",
+      ".codex/skills/verify-work",
+      ".codex/skills/zephyr-coverage-analysis",
+      ".github/skills/skill-creator",
+      "skills/android/android-agp-upgrade",
+      "skills/android/android-architecture",
+      "skills/android/android-background-work",
+      "skills/android/android-compose",
+      "skills/android/android-compose-migration",
+      "skills/android/android-concurrency",
+      "skills/android/android-deployment",
+      "skills/android/android-design-system",
+      "skills/android/android-di",
+      "skills/android/android-edge-to-edge",
+      "skills/android/android-legacy-navigation",
+      "skills/android/android-legacy-security",
+      "skills/android/android-legacy-state",
+      "skills/android/android-navigation",
+      "skills/android/android-navigation-3",
+      "skills/android/android-navigation-type-safe",
+      "skills/android/android-networking",
+      "skills/android/android-notifications",
+      "skills/android/android-performance",
+      "skills/android/android-persistence",
+      "skills/android/android-resources",
+      "skills/android/android-security",
+      "skills/android/android-state",
+      "skills/android/android-testing",
+      "skills/android/android-tooling",
+      "skills/android/android-xml-views",
+      "skills/angular/angular-architecture",
+      "skills/angular/angular-components",
+      "skills/angular/angular-dependency-injection",
+      "skills/angular/angular-directives-pipes",
+      "skills/angular/angular-forms",
+      "skills/angular/angular-http-client",
+      "skills/angular/angular-performance",
+      "skills/angular/angular-routing",
+      "skills/angular/angular-rxjs-interop",
+      "skills/angular/angular-security",
+      "skills/angular/angular-ssr",
+      "skills/angular/angular-state-management",
+      "skills/angular/angular-style-guide",
+      "skills/angular/angular-testing",
+      "skills/angular/angular-tooling",
+      "skills/common/common-accessibility",
+      "skills/common/common-api-design",
+      "skills/common/common-architecture-audit",
+      "skills/common/common-architecture-diagramming",
+      "skills/common/common-best-practices",
+      "skills/common/common-business-requirements",
+      "skills/common/common-code-review",
+      "skills/common/common-context-optimization",
+      "skills/common/common-dast-tooling",
+      "skills/common/common-debugging",
+      "skills/common/common-documentation",
+      "skills/common/common-error-handling",
+      "skills/common/common-exploit-verification",
+      "skills/common/common-feedback-reporter",
+      "skills/common/common-git-collaboration",
+      "skills/common/common-learning-log",
+      "skills/common/common-llm-security",
+      "skills/common/common-mobile-animation",
+      "skills/common/common-mobile-ux-core",
+      "skills/common/common-mobile-visual-testing",
+      "skills/common/common-observability",
+      "skills/common/common-owasp",
+      "skills/common/common-pentest-methodology",
+      "skills/common/common-performance-engineering",
+      "skills/common/common-product-requirements",
+      "skills/common/common-protocol-enforcement",
+      "skills/common/common-security-audit",
+      "skills/common/common-security-standards",
+      "skills/common/common-session-retrospective",
+      "skills/common/common-skill-creator",
+      "skills/common/common-software-requirements",
+      "skills/common/common-store-changelog",
+      "skills/common/common-system-design",
+      "skills/common/common-tdd",
+      "skills/common/common-telemetry",
+      "skills/common/common-ui-design",
+      "skills/common/common-web-visual-testing",
+      "skills/common/common-workflow-writing",
+      "skills/dart/dart-best-practices",
+      "skills/dart/dart-language",
+      "skills/dart/dart-tooling",
+      "skills/database/database-mongodb",
+      "skills/database/database-postgresql",
+      "skills/database/database-redis",
+      "skills/flutter/flutter-auto-route-navigation",
+      "skills/flutter/flutter-bloc-state-management",
+      "skills/flutter/flutter-cicd",
+      "skills/flutter/flutter-concurrency",
+      "skills/flutter/flutter-dependency-injection",
+      "skills/flutter/flutter-design-system",
+      "skills/flutter/flutter-error-handling",
+      "skills/flutter/flutter-feature-based-clean-architecture",
+      "skills/flutter/flutter-getx-navigation",
+      "skills/flutter/flutter-getx-state-management",
+      "skills/flutter/flutter-go-router-navigation",
+      "skills/flutter/flutter-idiomatic-flutter",
+      "skills/flutter/flutter-layer-based-clean-architecture",
+      "skills/flutter/flutter-localization",
+      "skills/flutter/flutter-navigation",
+      "skills/flutter/flutter-notifications",
+      "skills/flutter/flutter-performance",
+      "skills/flutter/flutter-retrofit-networking",
+      "skills/flutter/flutter-riverpod-state-management",
+      "skills/flutter/flutter-security",
+      "skills/flutter/flutter-testing",
+      "skills/flutter/flutter-widgets",
+      "skills/golang/golang-api-server",
+      "skills/golang/golang-architecture",
+      "skills/golang/golang-concurrency",
+      "skills/golang/golang-configuration",
+      "skills/golang/golang-database",
+      "skills/golang/golang-error-handling",
+      "skills/golang/golang-language",
+      "skills/golang/golang-logging",
+      "skills/golang/golang-security",
+      "skills/golang/golang-testing",
+      "skills/golang/golang-tooling",
+      "skills/ios/ios-app-lifecycle",
+      "skills/ios/ios-architecture",
+      "skills/ios/ios-dependency-injection",
+      "skills/ios/ios-deployment",
+      "skills/ios/ios-design-system",
+      "skills/ios/ios-localization",
+      "skills/ios/ios-navigation",
+      "skills/ios/ios-networking",
+      "skills/ios/ios-notifications",
+      "skills/ios/ios-performance",
+      "skills/ios/ios-persistence",
+      "skills/ios/ios-security",
+      "skills/ios/ios-state-management",
+      "skills/ios/ios-swiftui",
+      "skills/ios/ios-ui-navigation",
+      "skills/java/java-best-practices",
+      "skills/java/java-concurrency",
+      "skills/java/java-language",
+      "skills/java/java-testing",
+      "skills/java/java-tooling",
+      "skills/javascript/javascript-best-practices",
+      "skills/javascript/javascript-language",
+      "skills/javascript/javascript-tooling",
+      "skills/kotlin/kotlin-best-practices",
+      "skills/kotlin/kotlin-coroutines",
+      "skills/kotlin/kotlin-language",
+      "skills/kotlin/kotlin-tooling",
+      "skills/laravel/laravel-api",
+      "skills/laravel/laravel-architecture",
+      "skills/laravel/laravel-background-processing",
+      "skills/laravel/laravel-clean-architecture",
+      "skills/laravel/laravel-database-expert",
+      "skills/laravel/laravel-eloquent",
+      "skills/laravel/laravel-security",
+      "skills/laravel/laravel-sessions-middleware",
+      "skills/laravel/laravel-testing",
+      "skills/laravel/laravel-tooling",
+      "skills/nestjs/nestjs-api-standards",
+      "skills/nestjs/nestjs-architecture",
+      "skills/nestjs/nestjs-bullmq",
+      "skills/nestjs/nestjs-caching",
+      "skills/nestjs/nestjs-configuration",
+      "skills/nestjs/nestjs-controllers-services",
+      "skills/nestjs/nestjs-database",
+      "skills/nestjs/nestjs-deployment",
+      "skills/nestjs/nestjs-documentation",
+      "skills/nestjs/nestjs-error-handling",
+      "skills/nestjs/nestjs-file-uploads",
+      "skills/nestjs/nestjs-notification",
+      "skills/nestjs/nestjs-observability",
+      "skills/nestjs/nestjs-performance",
+      "skills/nestjs/nestjs-real-time",
+      "skills/nestjs/nestjs-scheduling",
+      "skills/nestjs/nestjs-search",
+      "skills/nestjs/nestjs-security",
+      "skills/nestjs/nestjs-security-isolation",
+      "skills/nestjs/nestjs-testing",
+      "skills/nestjs/nestjs-transport",
+      "skills/nextjs/nextjs-app-router",
+      "skills/nextjs/nextjs-architecture",
+      "skills/nextjs/nextjs-authentication",
+      "skills/nextjs/nextjs-caching",
+      "skills/nextjs/nextjs-data-access-layer",
+      "skills/nextjs/nextjs-data-fetching",
+      "skills/nextjs/nextjs-i18n",
+      "skills/nextjs/nextjs-optimization",
+      "skills/nextjs/nextjs-pages-router",
+      "skills/nextjs/nextjs-rendering",
+      "skills/nextjs/nextjs-security",
+      "skills/nextjs/nextjs-server-actions",
+      "skills/nextjs/nextjs-server-components",
+      "skills/nextjs/nextjs-state-management",
+      "skills/nextjs/nextjs-styling",
+      "skills/nextjs/nextjs-testing",
+      "skills/nextjs/nextjs-tooling",
+      "skills/nextjs/nextjs-upgrade",
+      "skills/php/php-best-practices",
+      "skills/php/php-concurrency",
+      "skills/php/php-error-handling",
+      "skills/php/php-language",
+      "skills/php/php-security",
+      "skills/php/php-testing",
+      "skills/php/php-tooling",
+      "skills/quality-engineering/quality-engineering-appium-mcp",
+      "skills/quality-engineering/quality-engineering-business-analysis",
+      "skills/quality-engineering/quality-engineering-jira-integration",
+      "skills/quality-engineering/quality-engineering-playwright-cli",
+      "skills/quality-engineering/quality-engineering-quality-assurance",
+      "skills/quality-engineering/quality-engineering-zephyr-coverage-analysis",
+      "skills/quality-engineering/quality-engineering-zephyr-test-generation",
+      "skills/react-native/react-native-architecture",
+      "skills/react-native/react-native-components",
+      "skills/react-native/react-native-deployment",
+      "skills/react-native/react-native-dls",
+      "skills/react-native/react-native-navigation",
+      "skills/react-native/react-native-navigation-v6",
+      "skills/react-native/react-native-notifications",
+      "skills/react-native/react-native-performance",
+      "skills/react-native/react-native-platform-specific",
+      "skills/react-native/react-native-security",
+      "skills/react-native/react-native-state-management",
+      "skills/react-native/react-native-styling",
+      "skills/react-native/react-native-testing",
+      "skills/react/react-component-patterns",
+      "skills/react/react-hooks",
+      "skills/react/react-performance",
+      "skills/react/react-security",
+      "skills/react/react-state-management",
+      "skills/react/react-testing",
+      "skills/react/react-tooling",
+      "skills/react/react-typescript",
+      "skills/specialists/specialist-ac-verifier",
+      "skills/specialists/specialist-architecture-guard",
+      "skills/specialists/specialist-aspm-correlator",
+      "skills/specialists/specialist-codebase-scout",
+      "skills/specialists/specialist-confluence-searcher",
+      "skills/specialists/specialist-integration-test-generator",
+      "skills/specialists/specialist-jira-analyst",
+      "skills/specialists/specialist-logic-hacker",
+      "skills/specialists/specialist-mobile-reverser",
+      "skills/specialists/specialist-pr-commenter-batch",
+      "skills/specialists/specialist-pr-reviewer",
+      "skills/specialists/specialist-security-reviewer",
+      "skills/specialists/specialist-tc-creator",
+      "skills/specialists/specialist-tdd-implementer",
+      "skills/specialists/specialist-test-gap-finder",
+      "skills/specialists/specialist-zephyr-scanner",
+      "skills/spring-boot/spring-boot-api-design",
+      "skills/spring-boot/spring-boot-architecture",
+      "skills/spring-boot/spring-boot-best-practices",
+      "skills/spring-boot/spring-boot-data-access",
+      "skills/spring-boot/spring-boot-deployment",
+      "skills/spring-boot/spring-boot-microservices",
+      "skills/spring-boot/spring-boot-observability",
+      "skills/spring-boot/spring-boot-scheduling",
+      "skills/spring-boot/spring-boot-security",
+      "skills/spring-boot/spring-boot-testing",
+      "skills/swift/swift-best-practices",
+      "skills/swift/swift-concurrency",
+      "skills/swift/swift-error-handling",
+      "skills/swift/swift-language",
+      "skills/swift/swift-memory-management",
+      "skills/swift/swift-swiftui",
+      "skills/swift/swift-testing",
+      "skills/swift/swift-tooling",
+      "skills/typescript/typescript-best-practices",
+      "skills/typescript/typescript-language",
+      "skills/typescript/typescript-security",
+      "skills/typescript/typescript-tooling"
+    ],
+    "lastUpdated": "2026-06-06T20:25:41.794Z"
+  },
+  {
     "source": "github:HorizonGazer/weex-trader-skill",
     "rev": "c2890897678c412d7f6f97cb8a2bb6cbc3e87367",
     "hash": "1nhsrk5afnjl66wxm4dr1kzii5cm5731yljkw9gxvlblpvklv63z",
@@ -1274,8 +1580,8 @@
   },
   {
     "source": "github:HsuanYuLee/polaris",
-    "rev": "1b868a3c8e067051cbbb403257b1a80e406932d6",
-    "hash": "1l3cj2qa0j3qpy8cwdlry7cd4n58fgksnaa178qy4sbw8mkk6h3c",
+    "rev": "9df026a31946c5ac6c0937095445878b05a91d78",
+    "hash": "1l0fdp516r1xc91r2q5av4pw17fifd7ynqqnagj42d1xgkn9lw93",
     "skills": [
       ".claude/skills/auto-pass",
       ".claude/skills/breakdown",
@@ -1303,7 +1609,7 @@
       ".claude/skills/verify-AC",
       ".claude/skills/visual-regression"
     ],
-    "lastUpdated": "2026-06-05T06:05:38.349Z"
+    "lastUpdated": "2026-06-06T20:25:43.383Z"
   },
   {
     "source": "github:HuangYuChuh/ComfyUI_Skills_OpenClaw",
@@ -1562,12 +1868,12 @@
   },
   {
     "source": "github:h5i-dev/h5i",
-    "rev": "f1d6d8276c0ab360371c85a54db74b73d4518222",
-    "hash": "039agmccp2alkmddxagi7y1wa2pzny1lyc9w32vls1qnvryapm72",
+    "rev": "6d746f6cf561d478f4ee18ac2f06c2b3d490c69e",
+    "hash": "14nhn186zwgj239b4ilb0a7zyzmad72187xa14d3iy8ygab3zfnw",
     "skills": [
       ".claude/skills/h5i-workflow"
     ],
-    "lastUpdated": "2026-06-06T02:40:27.977Z"
+    "lastUpdated": "2026-06-06T20:26:39.018Z"
   },
   {
     "source": "github:hAcKlyc/MyAgents",
@@ -1697,12 +2003,12 @@
   },
   {
     "source": "github:habibbedawi/claude-code-tips",
-    "rev": "ab9bcc38865aa2e4ab9c8fe0bcb24567ce9485fd",
+    "rev": "8736185bf7c29599648bd91746e3ebafc4647f1f",
     "hash": "0pr3ihxgnqm244pf06ac9fynhl17wsdj6a1kl3248cxalvs5szv4",
     "skills": [
       "plugins/miner/skills/miner"
     ],
-    "lastUpdated": "2026-06-06T08:46:59.314Z"
+    "lastUpdated": "2026-06-06T20:26:39.804Z"
   },
   {
     "source": "github:habibium/agent-skills",
@@ -1835,8 +2141,8 @@
   },
   {
     "source": "github:hack23/homepage",
-    "rev": "4b83316474269da5297e44a4d0398fe94774055b",
-    "hash": "0kswlzd7c25mw5kjix13w4yc52qz60kip2mchzjn76wqwcwc19g6",
+    "rev": "630614ccaeb9d2c096806f45aeb5707065774a60",
+    "hash": "1m8vlg3lf5q4694ynwsdn6nl0mswcny6pz2g699iih2glp6adv04",
     "skills": [
       ".github/skills/architecture/c4-modeling",
       ".github/skills/architecture/documentation-portfolio",
@@ -1897,7 +2203,7 @@
       ".github/skills/security/threat-modeling",
       ".github/skills/security/vulnerability-management"
     ],
-    "lastUpdated": "2026-06-05T20:38:30.966Z"
+    "lastUpdated": "2026-06-06T20:27:22.069Z"
   },
   {
     "source": "github:hack23/riksdagsmonitor",
@@ -5090,9 +5396,12 @@
   },
   {
     "source": "github:haowjy/creative-writing-skills",
-    "rev": "340edf14bdc1bdb32adea3b1ee883f2d91955df3",
-    "hash": "1pgdzifmgj1z6hcd998nslbbkyjz4bkxsrd8gwh4sngn3s2v1s6j",
+    "rev": "66a97d6350b143fed36173d4bfb03ae77873e5f8",
+    "hash": "0r4w88jka1plxrhwh3x92iq5j6dk312fv1p9sqs9wdkmlblns0zn",
     "skills": [
+      "cw/skills/cw-muse",
+      "cw/skills/grill-with-docs",
+      "cw/skills/intent-modeling",
       "cw/skills/kb-management",
       "cw/skills/llm-writing",
       "cw/skills/project-setup",
@@ -5109,7 +5418,7 @@
       "skills/writing-principles",
       "skills/writing-staffing"
     ],
-    "lastUpdated": "2026-06-05T14:47:49.586Z"
+    "lastUpdated": "2026-06-06T20:27:59.957Z"
   },
   {
     "source": "github:haoxuanlithuai/awesome_cognitive_and_neuroscience_skills",
@@ -5456,8 +5765,8 @@
   },
   {
     "source": "github:harbor-framework/harbor",
-    "rev": "48a577a47f4982e43e099051e015a0c5e2c37ddb",
-    "hash": "0c48g2cn9pd1aiyxizyhixygxpwdrmpd7c3jq0shviyal7d9iv86",
+    "rev": "9801da1b302813f4f0529be297a60a4cdf3a1d4e",
+    "hash": "17509nnrrn71blnwxp3mgg9rwxjzhi1q9qcsl7h6fhqgi1bhb854",
     "skills": [
       "examples/jobs/skills-merge/runtime-skill-merge/environment/skills/bundled-keep",
       "examples/jobs/skills-merge/skills/runtime-proof",
@@ -5468,7 +5777,7 @@
       "skills/rewardkit",
       "skills/upload-parity-experiments"
     ],
-    "lastUpdated": "2026-06-05T20:36:39.693Z"
+    "lastUpdated": "2026-06-06T20:28:15.199Z"
   },
   {
     "source": "github:harborgrid-justin/lexiflow-premium",
@@ -5613,12 +5922,12 @@
   },
   {
     "source": "github:harehare/mq",
-    "rev": "f1047854cdf592f664d4758eb4a4689365114675",
-    "hash": "04r49y1zp7qpi5a8x26wwal97vv5l7zflxny8ja0xk7avi0kjps9",
+    "rev": "23cce827af793833cc49f312c7d3f9a341ce3801",
+    "hash": "1d10wh90yb94v3nd3lmw0alvvslp9jlwyj7lv4vxhd8dn9fna751",
     "skills": [
       "skills/processing-markdown"
     ],
-    "lastUpdated": "2026-06-06T08:45:56.911Z"
+    "lastUpdated": "2026-06-06T20:28:18.006Z"
   },
   {
     "source": "github:harifatherkr/hwp-parser",
@@ -5711,8 +6020,8 @@
   },
   {
     "source": "github:harnessprotocol/harness-kit",
-    "rev": "26c49cf22556ff654dad729ac7dee4e87e14a856",
-    "hash": "1y6i6n6g0hf1dh0kmi6j7xzpfg11d5p39vy9dkmraa3zx2syh7jz",
+    "rev": "0904ba26a94c6788e2a99c3b626966547608e1e3",
+    "hash": "1ibzb9z8yxr165c9ypqvwvs4jr11gcm2hxn5bm4rhv4mgjs77yyx",
     "skills": [
       "plugins/board/skills/board",
       "plugins/capture/skills/capture",
@@ -5739,7 +6048,7 @@
       "plugins/stats/skills/stats",
       "skills/harness-docs"
     ],
-    "lastUpdated": "2026-06-05T14:48:19.229Z"
+    "lastUpdated": "2026-06-06T20:28:24.246Z"
   },
   {
     "source": "github:haroexplorium/explorium-cli",
@@ -6289,13 +6598,13 @@
   },
   {
     "source": "github:hatchet-dev/hatchet",
-    "rev": "002b4f719a9b3d329519039565310ed802106460",
-    "hash": "158kggc4hr2wb9kb9zxcw76rxgbksi1ch5akmvpk5n8m1rf0044p",
+    "rev": "645738ce49b11f7bdc57d1a7939134a66252147f",
+    "hash": "1qyhdgrphrj26rcz0xqqi8pvpdxz7rd65n7z361r6phjdz01irvv",
     "skills": [
       ".claude/skills/build-tui-view",
       "cmd/hatchet-cli/cli/skill-assets/hatchet-cli"
     ],
-    "lastUpdated": "2026-06-05T20:36:58.128Z"
+    "lastUpdated": "2026-06-06T20:27:06.842Z"
   },
   {
     "source": "github:hau823823/gen-paylink-govilo",
@@ -6791,8 +7100,8 @@
   },
   {
     "source": "github:hellowind777/helloagents",
-    "rev": "68eec9e7b9cc70ce146d21cb0010fc1e99f24749",
-    "hash": "03pz7anjfc4vkfgk0wzxmw3a6vd485b7rl8f938753xds14a5cfv",
+    "rev": "bac0710098461b3e41ae20777acd7038eb6dec1d",
+    "hash": "1xbpfcmlwv7bvhm4njz0ph0ms4b6bybfig7mpplb2kfn2d11cvr1",
     "skills": [
       "skills/_meta",
       "skills/commands/auto",
@@ -6802,6 +7111,7 @@
       "skills/commands/idea",
       "skills/commands/init",
       "skills/commands/loop",
+      "skills/commands/office",
       "skills/commands/plan",
       "skills/commands/prd",
       "skills/commands/qa",
@@ -6821,7 +7131,7 @@
       "skills/helloagents",
       "skills/qa-review"
     ],
-    "lastUpdated": "2026-05-29T17:10:57.142Z"
+    "lastUpdated": "2026-06-06T20:27:18.243Z"
   },
   {
     "source": "github:help-me-test/skills",
@@ -8814,14 +9124,14 @@
   },
   {
     "source": "github:heroui-inc/heroui",
-    "rev": "bf7e58f396bf7d908cb7651ca2fdc31f6a3f8eef",
-    "hash": "1ph7sxydalznz771mbfvsanpvyqwbca5f71f6lkpiyjjzr9p0hzp",
+    "rev": "95fc2cd5874173a48a712b905d07a15f2cb8ac29",
+    "hash": "0lr0wqgb07nillq3dhrgpzzsiqdx4kmkd760lg4m7l2j3cm6z6dh",
     "skills": [
       "skills/heroui-migration",
       "skills/heroui-native",
       "skills/heroui-react"
     ],
-    "lastUpdated": "2026-06-05T17:43:42.999Z"
+    "lastUpdated": "2026-06-06T20:27:41.933Z"
   },
   {
     "source": "github:heroygt/skills",
@@ -8875,15 +9185,15 @@
   },
   {
     "source": "github:heshengtao/super-agent-party",
-    "rev": "90f1e15b7550856b35f0f1a5715380f74af10d0b",
-    "hash": "0768lwqjn3q3y2b2i9x03qarm81blhrk69fvl7gn6s3gnmgrh2h7",
+    "rev": "341b32066b7d6c33d81e3e5930985036d6f507da",
+    "hash": "0i7pmndiwnk9lpi6mxw3xng3fyimaslwwk5vhs43cvylqlwkxfzc",
     "skills": [
       "skills/find-skills",
       "skills/officeCLI",
       "skills/sap-extension-creator",
       "skills/skill-creator"
     ],
-    "lastUpdated": "2026-06-05T14:48:11.826Z"
+    "lastUpdated": "2026-06-06T20:27:58.935Z"
   },
   {
     "source": "github:hesprs/synthkernel",
@@ -9041,8 +9351,8 @@
   },
   {
     "source": "github:hex0xdeadbeef/claude-kit",
-    "rev": "49dd248b049680f846e0951aa23824264acba930",
-    "hash": "16r5myv8x87xni2hmqfsgq5sl753gm50sm2sm5v0dlw2ndfvwk0i",
+    "rev": "ca7a465d60724c5c0f0e4d8631d79bed227aa27c",
+    "hash": "0gxxbipc4aymflhwj4rc4wmci7jwac72wblxhbalpwgycs9x5zzq",
     "skills": [
       ".claude/skills/caveman",
       ".claude/skills/code-review-rules",
@@ -9054,7 +9364,7 @@
       ".claude/skills/tdd-rules",
       ".claude/skills/workflow-protocols"
     ],
-    "lastUpdated": "2026-06-04T23:45:15.050Z"
+    "lastUpdated": "2026-06-06T20:27:58.441Z"
   },
   {
     "source": "github:hexabot-ai/action-creator",
@@ -9200,8 +9510,8 @@
   },
   {
     "source": "github:heygen-com/hyperframes",
-    "rev": "164167341fa43d494d19f13cfe212e53acccf02c",
-    "hash": "0csqjgnjw76n56fki9z1dl9xbhzxs296b3l6mg95vg73nf68infw",
+    "rev": "731bc78f630bee5dd306493b323cf991f2b6c1dd",
+    "hash": "0gam05v9pmb13zskqxznhqcwvx8q4ya42hi397srb4hvj06ycim2",
     "skills": [
       "skills/animejs",
       "skills/contribute-catalog",
@@ -9219,7 +9529,7 @@
       "skills/waapi",
       "skills/website-to-hyperframes"
     ],
-    "lastUpdated": "2026-06-06T08:47:04.893Z"
+    "lastUpdated": "2026-06-06T20:28:19.905Z"
   },
   {
     "source": "github:heygen-com/skills",
@@ -9638,13 +9948,14 @@
   },
   {
     "source": "github:hideki5123/agent-skill-set",
-    "rev": "486585ba89827fa6100808dfe1cb15e678c89fff",
-    "hash": "01299506ybjm0kh6zh0di00f1hcml8hcv3m91m78j0vfpr7439pq",
+    "rev": "82b7ba777985973599c85d1437dc56807fbf51a3",
+    "hash": "127czmkcp9k52glyhmfcqnw86ci800ap2227xycgbs5aafpb162i",
     "skills": [
       "address-pr-comments",
       "agents-init",
       "auto-mode",
       "bypass-toggle",
+      "chrome-use",
       "codex-cli",
       "codex-server",
       "confluence",
@@ -9688,7 +9999,7 @@
       "triage",
       "zoom-out"
     ],
-    "lastUpdated": "2026-06-02T20:47:06.596Z"
+    "lastUpdated": "2026-06-06T20:27:47.163Z"
   },
   {
     "source": "github:hideturno/andrej_hide_skills",
@@ -9997,8 +10308,8 @@
   },
   {
     "source": "github:hiroro-work/claude-plugins",
-    "rev": "989eec513bc497b573555e3fb760608a00be1d76",
-    "hash": "0zvjglz0b9l2znkibhhydw3mkfkbmilmlblmrqyyp2bymdn3kay4",
+    "rev": "25bb9341c6329035bb62546fa178d4b6e63872b7",
+    "hash": "09wilmyn8l81yxnbp4zwag0rf3vd24isjldq306mj7mw63v3xnd0",
     "skills": [
       ".claude/skills/dev-workflow-triage",
       ".claude/skills/inbox-add",
@@ -10026,7 +10337,7 @@
       "skills/tidy/skills/tidy",
       "skills/tr"
     ],
-    "lastUpdated": "2026-06-06T08:46:23.863Z"
+    "lastUpdated": "2026-06-06T20:27:59.012Z"
   },
   {
     "source": "github:hisami/grpc-practice",
@@ -10302,8 +10613,8 @@
   },
   {
     "source": "github:hkuds/nanobot",
-    "rev": "73353785a023925e35f7913b4ba8c49449f96233",
-    "hash": "05swwzqdz2ix27hpl0g3nj7f1f9ss652i9zs5h1aslgkrhr5srj9",
+    "rev": "ab9f49970d95cca40b172d3bf3a6ae0e76ea88c5",
+    "hash": "0x0b80i3r5vdw0pbkrjr15643pfzqxyx9m8yirfissawl0wdfydy",
     "skills": [
       "nanobot/skills/clawhub",
       "nanobot/skills/cron",
@@ -10318,7 +10629,7 @@
       "nanobot/skills/update-setup",
       "nanobot/skills/weather"
     ],
-    "lastUpdated": "2026-06-06T08:46:29.829Z"
+    "lastUpdated": "2026-06-06T20:28:07.385Z"
   },
   {
     "source": "github:hllqkb/Claudio",
@@ -11093,20 +11404,20 @@
   },
   {
     "source": "github:holon-run/holon",
-    "rev": "8ffe6a4408c461b53a457cee938860581f3d9f98",
-    "hash": "02akcm14hmx0hl3rx6jyiyiria3zmbqhlb90x10b25rglysa5i4f",
+    "rev": "c192a106e08fdd8789b51e96df0d36724d3281a2",
+    "hash": "0sdh6ay8hw38a1jhck8c3pija8y1vd6wld8k8hsa8nh2c7af679y",
     "skills": [
       "skills/ghx",
       "skills/github-issue-solve",
       "skills/github-pr-fix",
       "skills/github-review"
     ],
-    "lastUpdated": "2026-06-06T08:46:42.047Z"
+    "lastUpdated": "2026-06-06T20:28:23.990Z"
   },
   {
     "source": "github:holon-run/uxc",
-    "rev": "7b8d7aeca83ca0b6338dfd90d75e7e3079e269bb",
-    "hash": "1f4c76agxxia35mn81xzsasjgp7qf2hgrcb9sr6xj2rrb9rkd5a5",
+    "rev": "38755576965c1260431391d589c93774ddb41e7f",
+    "hash": "0ddza0lvv7vxayjhh839iqaxy57r4v4jmzjhpyy35j28fssyadzf",
     "skills": [
       "skills/alchemy-openapi-skill",
       "skills/binance-spot-openapi-skill",
@@ -11171,7 +11482,7 @@
       "skills/whatsapp-openapi-skill",
       "skills/x-openapi-skill"
     ],
-    "lastUpdated": "2026-06-06T08:46:41.480Z"
+    "lastUpdated": "2026-06-06T20:26:41.679Z"
   },
   {
     "source": "github:holon-run/webmcp-bridge",
@@ -11189,14 +11500,14 @@
   },
   {
     "source": "github:home-assistant/core",
-    "rev": "86ccc59a5f9ca7f17811227931693b06dcc35693",
-    "hash": "1qwq5wyw1a29wwd5hmz2nwfh3wqf158axvwm6z4iy8284n0rbzi4",
+    "rev": "3a46d1088b683802e1a2dd3b1f1a1745d7b4fa16",
+    "hash": "0xrw08jq151yn8241wam0pxis0q8g55jpxb61lkr75pnlz9vgavq",
     "skills": [
       ".claude/skills/github-pr-reviewer",
       ".claude/skills/ha-integration-knowledge",
       ".claude/skills/review"
     ],
-    "lastUpdated": "2026-06-06T08:47:30.318Z"
+    "lastUpdated": "2026-06-06T20:27:32.187Z"
   },
   {
     "source": "github:homeassistant-ai/skills",
@@ -11618,15 +11929,15 @@
   },
   {
     "source": "github:hotovo/aider-desk",
-    "rev": "1ca82cd7aa4d9fec044e91d6dd538f2a83879a39",
-    "hash": "1c1dq6awz6skk4sy2r0aayfbhaqxplj9rn58ypaabkjc3b3rwwvj",
+    "rev": "5f5769b6536ee40d8732ec308e23bace44082a04",
+    "hash": "1mym843swdsdjjq8cvwrygckljq66wi2l99kbr8ddy3xk3p4y2c5",
     "skills": [
       ".aider-desk/skills/agent-creator",
       ".aider-desk/skills/theme-factory",
       ".aider-desk/skills/writing-tests",
       "resources/skills/extension-creator"
     ],
-    "lastUpdated": "2026-06-06T08:47:31.015Z"
+    "lastUpdated": "2026-06-06T20:27:28.340Z"
   },
   {
     "source": "github:hotriluan/alkana-dashboard",
@@ -12532,8 +12843,8 @@
   },
   {
     "source": "github:huangwb8/ChineseResearchLaTeX",
-    "rev": "51a5e635833321867616197fc5ccdd2a78b1f1f5",
-    "hash": "0qm3a5mr250finnmxpkvh6rdqcda9sp0ckl29bll1cd77sc5isdg",
+    "rev": "a040b92df0501b067e4590545c6a96847d942723",
+    "hash": "0nmqriqf8i5av8mba9lgrb518ag9gls8yqp73a0jpd14nawkhl0m",
     "skills": [
       "skills/check-review-alignment",
       "skills/complete-example",
@@ -12559,12 +12870,12 @@
       "skills/systematic-literature-review",
       "skills/transfer-old-latex-to-new"
     ],
-    "lastUpdated": "2026-06-06T08:46:48.023Z"
+    "lastUpdated": "2026-06-06T20:26:39.741Z"
   },
   {
     "source": "github:huangwb8/chineseresearchlatex",
-    "rev": "51a5e635833321867616197fc5ccdd2a78b1f1f5",
-    "hash": "0qm3a5mr250finnmxpkvh6rdqcda9sp0ckl29bll1cd77sc5isdg",
+    "rev": "a040b92df0501b067e4590545c6a96847d942723",
+    "hash": "0nmqriqf8i5av8mba9lgrb518ag9gls8yqp73a0jpd14nawkhl0m",
     "skills": [
       "skills/check-review-alignment",
       "skills/complete-example",
@@ -12590,7 +12901,7 @@
       "skills/systematic-literature-review",
       "skills/transfer-old-latex-to-new"
     ],
-    "lastUpdated": "2026-06-06T08:46:48.281Z"
+    "lastUpdated": "2026-06-06T20:26:40.046Z"
   },
   {
     "source": "github:huangwb8/skills",
@@ -12747,14 +13058,14 @@
   },
   {
     "source": "github:huggingface/kernels",
-    "rev": "ae36559c31cc642fceaa7300edbda77a547436bf",
-    "hash": "13bqjzsz782vh9d4j7fzbb1wwqj85r516xaiwlilf2wgh7spgddj",
+    "rev": "0b3c8f445264cca9519163e277f736924cdd8f2f",
+    "hash": "0hjqn3d7g8a7hw7bwmksxw231l1gzc3wds2da9vnclxn0vpwf470",
     "skills": [
       "kernel-builder/skills/cuda-kernels",
       "kernel-builder/skills/rocm-kernels",
       "kernel-builder/skills/xpu-kernels"
     ],
-    "lastUpdated": "2026-06-05T12:05:37.761Z"
+    "lastUpdated": "2026-06-06T20:26:44.304Z"
   },
   {
     "source": "github:huggingface/skills",
@@ -14652,12 +14963,12 @@
   },
   {
     "source": "github:hypnosdesign/claude-skill-scrittura-italiana",
-    "rev": "6f0933ff14f8c66b2c9b19a40c18ba6c4927587f",
+    "rev": "9c5df20bf8f63857976e819b765aefa3f3cd5d2d",
     "hash": "1f222996s0gr8i4bfg1lvn56jh90zkd2m8yjzcr692s2jfw7bqq3",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-06-06T02:39:53.858Z"
+    "lastUpdated": "2026-06-06T20:27:11.125Z"
   },
   {
     "source": "github:hypothesi/mcp-server-tauri",
