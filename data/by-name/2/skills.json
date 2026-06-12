@@ -129,8 +129,8 @@
   },
   {
     "source": "github:23ag1/completely",
-    "rev": "d7a76ef7c72f5ef15fb1de66b4904e3d2e7c083a",
-    "hash": "0irhjnm5b7fmfr7d0yz3mfsv76nrmszhxga5gd1vypya0vfzfzkk",
+    "rev": "be0dd058891a573d02ea8f3ec75c7f4bf7e2391a",
+    "hash": "0wbmkijvnd35pkf8vrw7s3nja7v8ll64bjy7sfszdxr7n2f4r5i2",
     "skills": [
       "plugin/skills/auto",
       "plugin/skills/check",
@@ -149,7 +149,7 @@
       "research/ecc/skills/research-ops",
       "research/ecc/skills/security-review"
     ],
-    "lastUpdated": "2026-06-09T18:21:28.688Z"
+    "lastUpdated": "2026-06-12T09:05:49.443Z"
   },
   {
     "source": "github:23blocks-OS/ai-maestro",
@@ -289,8 +289,8 @@
   },
   {
     "source": "github:26zl/cybersec-toolkit",
-    "rev": "8deb950d4cd6f0acf37d24e54f2427473970fbf9",
-    "hash": "16x72yz423wxg2a7l2rfksrng8wsmqsdz5f54zqzqn1269vkjg09",
+    "rev": "7cde2fdd075ea9a9412620d1dbb08180ad1efe5d",
+    "hash": "1kjg0n2nk7bx8p75vyx7nbwcihxc06d4nz8irljn1h8kd3kfac1l",
     "skills": [
       ".claude/skills/acquiring-disk-image-with-dd-and-dcfldd",
       ".claude/skills/add-tool",
@@ -379,6 +379,7 @@
       ".claude/skills/auditing-kubernetes-cluster-rbac",
       ".claude/skills/auditing-terraform-infrastructure-for-security",
       ".claude/skills/auditing-tls-certificate-transparency-logs",
+      ".claude/skills/authorization-gate",
       ".claude/skills/automating-ioc-enrichment",
       ".claude/skills/blockchain-security",
       ".claude/skills/bounty-api",
@@ -619,6 +620,7 @@
       ".claude/skills/extracting-iocs-from-malware-samples",
       ".claude/skills/extracting-memory-artifacts-with-rekall",
       ".claude/skills/extracting-windows-event-logs-artifacts",
+      ".claude/skills/finding-triage",
       ".claude/skills/fp-check",
       ".claude/skills/generating-threat-intelligence-reports",
       ".claude/skills/grc-compliance-privacy-program",
@@ -1106,6 +1108,7 @@
       ".claude/skills/securing-kubernetes-on-cloud",
       ".claude/skills/securing-remote-access-to-ot-environment",
       ".claude/skills/securing-serverless-functions",
+      ".claude/skills/security-comms",
       ".claude/skills/security-payloads",
       ".claude/skills/security-wordlists",
       ".claude/skills/semgrep",
@@ -1150,7 +1153,7 @@
       ".claude/skills/yara-rule-authoring",
       ".claude/skills/zeroize-audit"
     ],
-    "lastUpdated": "2026-06-05T17:42:11.725Z"
+    "lastUpdated": "2026-06-12T09:05:55.077Z"
   },
   {
     "source": "github:2898117012/agent-skills",
@@ -1220,11 +1223,12 @@
   },
   {
     "source": "github:2ykwang/agent-skills",
-    "rev": "da28a2ce7ec39c1851b810a9c19ebb5761fb4417",
-    "hash": "0kz8qmqn143qy050ng9d3qpy1mn5dmzp5v31a0rd6h0dnd2pnmky",
+    "rev": "ba84e4a46158759ca8abfb14306815d13aca3638",
+    "hash": "1aciv1q08jfd1s355xg5bsvm9gm32yywf5xdrjngczhclwvicf6r",
     "skills": [
       "plugins/code-history/skills",
       "skills/code-history",
+      "skills/code-review-report",
       "skills/decision-board",
       "skills/django-ticket-triage",
       "skills/docs",
@@ -1237,6 +1241,6 @@
       "skills/ralph-loop-template",
       "skills/write-pr"
     ],
-    "lastUpdated": "2026-05-29T17:08:22.600Z"
+    "lastUpdated": "2026-06-12T09:05:58.952Z"
   }
 ]
