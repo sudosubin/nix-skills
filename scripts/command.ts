@@ -207,7 +207,7 @@ const paginateSkillsDirectoryCom = () =>
     "skillsdirectory.com",
     async (page) => {
       const { skills } = await api
-        .get(`https://www.skillsdirectory.com/api/skills?page=${page}`)
+        .get(`https://www.skillsdirectory.com/api/skills?page=${page}`, { timeout: 120_000 })
         .json<{
           skills: {
             name: string;
