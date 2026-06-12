@@ -94,68 +94,10 @@ const skillSearchIgnoreDirs = new Set([
   "DerivedData",
 ]);
 
-const getPathPriority = (skillDir: string): number => {
-  const index = skillsDirectoryPatterns.findIndex((pattern) =>
-    pattern.test(skillDir),
-  );
-  return index >= 0 ? index : 10_000;
-};
-
-const selectCanonicalSkills = (repo: string, skillPaths: string[]) => {
-  const sorted = orderBy(
-    skillPaths.map((skillPath) => {
-      const skillDir = path.dirname(skillPath).replace(/\/+$/, "") || ".";
-      const skillName = skillDir === "." ? repo : path.basename(skillDir);
-      const pathPriority = getPathPriority(skillDir);
-      const pathDepth = skillDir === "." ? 0 : skillDir.split("/").length;
-      return { skillName, skillDir, pathPriority, pathDepth };
-    }),
-    ["pathPriority", "pathDepth", "skillDir"],
-    ["asc", "asc", "asc"],
-  );
-
-  return uniqBy(sorted, (c) => c.skillName);
-};
-
-const parseSource = (
-  source: string,
-): { type: string; owner: string; repo: string } => {
-  const [type, ownerRepo] = source.split(":", 2) as [string, string];
-  const [owner, repo] = ownerRepo.split("/", 2) as [string, string];
-  return { type, owner, repo };
-};
-
-const getSourcePrefix = (source: string): string => {
-  const { owner } = parseSource(source);
-  return owner.charAt(0).toLowerCase();
-};
-
-const readAllRepoSkills = async (): Promise<RepoSkills[]> => {
-  const dirs = await fs.readdir(paths.byName).catch(() => []);
-  const skills = await Promise.all(
-    dirs.map((dir) =>
-      readJson<RepoSkills[]>(path.join(paths.byName, dir, "skills.json")),
-    ),
-  );
-  return skills.flat();
-};
-
-const readRepoSkillsForSources = async (
-  sources: string[],
-): Promise<RepoSkills[]> => {
-  const prefixes = [...new Set(sources.map(getSourcePrefix))];
-  const skills = await Promise.all(
-    prefixes.map((prefix) =>
-      readJson<RepoSkills[]>(path.join(paths.byName, prefix, "skills.json")),
-    ),
-  );
-  return skills.flat();
-};
-
-const chunk = <T>(input: T[], index: number, size: number): T[] => {
-  const unit = Math.ceil(input.length / size);
-  return input.slice(index * unit, (index + 1) * unit);
-};
+const ownerOf = (source: string) => source.split(":")[1]?.split("/")[0] ?? "";
+const prefixOf = (source: string) => ownerOf(source).charAt(0).toLowerCase();
+const repoOf = (source: string) => source.split(":")[1]?.split("/")[1] ?? "";
+const ownerRepoOf = (source: string) => source.split(":")[1] ?? "";
 
 const readJson = async <T>(file: string): Promise<T> => {
   try {
@@ -170,123 +112,105 @@ const writeJson = async (file: string, data: unknown) => {
   await fs.writeFile(file, JSON.stringify(data, null, 2) + os.EOL);
 };
 
-const update = async (input: {
-  source: string;
-  prev?: RepoSkills;
-}): Promise<RepoSkills | null> => {
-  const { source, prev } = input;
-  const { owner, repo } = parseSource(source);
-
-  console.log(`[INFO] processing ${source}`);
-
-  const rev =
-    (await getRevUsingGh(`${owner}/${repo}`)) ||
-    (await getRevUsingGit(`${owner}/${repo}`));
-  if (!rev) {
-    return null;
-  }
-  if (prev?.rev === rev) {
-    return null;
-  }
-
-  const prefetch = await nixPrefetch({ source: `${owner}/${repo}`, rev });
-  if (!prefetch) {
-    return null;
-  }
-
-  const { hash, storePath } = prefetch;
-  const skillPaths = await findAllSkills(storePath);
-  if (skillPaths.length === 0) {
-    console.info(`[WARN] no skills found in ${owner}/${repo}`);
-    return null;
-  }
-
-  const selected = selectCanonicalSkills(repo, skillPaths);
-
-  return {
-    source,
-    rev,
-    hash,
-    skills: selected.map(({ skillDir }) => skillDir).sort(),
-    lastUpdated: new Date().toISOString(),
-  };
+const readSkillsForSources = async (
+  sources: string[],
+): Promise<RepoSkills[]> => {
+  const prefixes = [...new Set(sources.map(prefixOf))];
+  const results = await Promise.all(
+    prefixes.map((p) =>
+      readJson<RepoSkills[]>(path.join(paths.byName, p, "skills.json")),
+    ),
+  );
+  return results.flat();
 };
 
-const getRevUsingGh = async (source: string): Promise<string | null> => {
+const readAllSkills = async (): Promise<RepoSkills[]> => {
+  const dirs = await fs.readdir(paths.byName).catch(() => []);
+  const results = await Promise.all(
+    dirs.map((d) =>
+      readJson<RepoSkills[]>(path.join(paths.byName, d, "skills.json")),
+    ),
+  );
+  return results.flat();
+};
+
+const chunk = <T>(input: T[], index: number, size: number): T[] => {
+  const unit = Math.ceil(input.length / size);
+  return input.slice(index * unit, (index + 1) * unit);
+};
+
+const selectCanonicalSkills = (repo: string, skillPaths: string[]) => {
+  const getPathPriority = (skillDir: string) => {
+    const i = skillsDirectoryPatterns.findIndex((p) => p.test(skillDir));
+    return i >= 0 ? i : 10_000;
+  };
+
+  return uniqBy(
+    orderBy(
+      skillPaths.map((skillPath) => {
+        const skillDir = path.dirname(skillPath).replace(/\/+$/, "") || ".";
+        return {
+          skillName: skillDir === "." ? repo : path.basename(skillDir),
+          skillDir,
+          pathPriority: getPathPriority(skillDir),
+          pathDepth: skillDir === "." ? 0 : skillDir.split("/").length,
+        };
+      }),
+      ["pathPriority", "pathDepth", "skillDir"],
+      ["asc", "asc", "asc"],
+    ),
+    (c) => c.skillName,
+  );
+};
+
+const getRev = async (ownerRepo: string): Promise<string | null> => {
   try {
     const { stdout } = await exec(
-      `gh api "repos/${source}/commits/HEAD" --jq '.sha'`,
+      `gh api "repos/${ownerRepo}/commits/HEAD" --jq '.sha'`,
       { timeout: 10000 },
     );
-    return stdout.trim() || null;
-  } catch {
-    return null;
-  }
-};
+    if (stdout.trim()) return stdout.trim();
+  } catch {}
 
-const getRevUsingGit = async (source: string): Promise<string | null> => {
-  const clonePath = await cloneGitRepository(source);
-  if (!clonePath) {
-    return null;
-  }
-
-  try {
-    const repository = await openRepository(clonePath);
-    return repository.revparseSingle("HEAD");
-  } catch {
-    console.error(`[WARN] failed to get rev using git for ${source}`);
-    return null;
-  }
-};
-
-const cloneGitRepository = async (source: string): Promise<string | null> => {
-  const clonePath = path.join(paths.cloneCache, `${source.replace("/", "--")}`);
+  const clonePath = path.join(paths.cloneCache, ownerRepo.replace("/", "--"));
   await fs.rm(clonePath, { recursive: true, force: true });
-
   try {
-    await cloneRepository(`https://github.com/${source}.git`, clonePath, {
+    await cloneRepository(`https://github.com/${ownerRepo}.git`, clonePath, {
       fetch: { depth: 1, downloadTags: "None" },
     });
-    return clonePath;
+    const repo = await openRepository(clonePath);
+    return repo.revparseSingle("HEAD");
   } catch (error) {
-    console.error(`[WARN] failed to clone ${source}: ${error}`);
-    if (`${error}`.includes("remote authentication required")) {
-      return null;
-    } else if (`${error}`.includes("unexpected http status code")) {
+    console.error(`[WARN] failed to get rev for ${ownerRepo}: ${error}`);
+    const msg = `${error}`;
+    if (
+      msg.includes("remote authentication required") ||
+      msg.includes("unexpected http status code")
+    ) {
       return null;
     }
     throw error;
   }
 };
 
-const nixPrefetch = async ({
-  source,
-  rev,
-}: {
-  source: string;
-  rev: string;
-}): Promise<{ hash: string; storePath: string } | null> => {
-  const url = `https://github.com/${source}/archive/${rev}.tar.gz`;
+const nixPrefetch = async (ownerRepo: string, rev: string) => {
+  const url = `https://github.com/${ownerRepo}/archive/${rev}.tar.gz`;
   try {
     const { stdout } = await retry(
       () => exec(`nix-prefetch-url --print-path --unpack "${url}" 2>/dev/null`),
       { retries: 3, delay: 1000 },
     );
     const [hash, storePath] = stdout.trim().split("\n");
-    if (!hash || !storePath) {
-      return null;
-    }
-    return { hash, storePath };
+    return hash && storePath ? { hash, storePath } : null;
   } catch (error) {
-    console.error(`[WARN] nix-prefetch-url failed for ${source}: ${error}`);
+    console.error(`[WARN] nix-prefetch-url failed for ${ownerRepo}: ${error}`);
     return null;
   }
 };
 
 const findAllSkills = async (storePath: string): Promise<string[]> => {
   const results: string[] = [];
-
-  const walk = async (absDir: string, relDir: string): Promise<void> => {
+  const walk = async (absDir: string, relDir: string) => {
     let entries: import("node:fs").Dirent[];
     try {
       entries = await fs.readdir(absDir, { withFileTypes: true });
@@ -295,23 +219,56 @@ const findAllSkills = async (storePath: string): Promise<string[]> => {
     }
     for (const entry of entries) {
       if (entry.isDirectory()) {
-        if (skillSearchIgnoreDirs.has(entry.name)) continue;
-        const nextRel = relDir ? `${relDir}/${entry.name}` : entry.name;
-        await walk(path.join(absDir, entry.name), nextRel);
+        if (!skillSearchIgnoreDirs.has(entry.name)) {
+          await walk(
+            path.join(absDir, entry.name),
+            relDir ? `${relDir}/${entry.name}` : entry.name,
+          );
+        }
       } else if (entry.isFile() && entry.name === "SKILL.md") {
         results.push(relDir ? `${relDir}/SKILL.md` : "SKILL.md");
       }
     }
   };
-
   await walk(storePath, "");
   return results;
+};
+
+const updateRepo = async (
+  source: string,
+  prev?: RepoSkills,
+): Promise<RepoSkills | null> => {
+  const ownerRepo = ownerRepoOf(source);
+  const repo = repoOf(source);
+  console.log(`[INFO] processing ${source}`);
+
+  const rev = await getRev(ownerRepo);
+  if (!rev || prev?.rev === rev) return null;
+
+  const prefetch = await nixPrefetch(ownerRepo, rev);
+  if (!prefetch) return null;
+
+  const skillPaths = await findAllSkills(prefetch.storePath);
+  if (skillPaths.length === 0) {
+    console.warn(`[WARN] no skills found in ${ownerRepo}`);
+    return null;
+  }
+
+  return {
+    source,
+    rev,
+    hash: prefetch.hash,
+    skills: selectCanonicalSkills(repo, skillPaths)
+      .map(({ skillDir }) => skillDir)
+      .sort(),
+    lastUpdated: new Date().toISOString(),
+  };
 };
 
 program
   .command("update [shard]")
   .description("update skills from fetched data (shard format: index/total)")
-  .action(async (shard: string = "1/1") => {
+  .action(async (shard = "1/1") => {
     const raws = await Promise.all([
       readJson<string[]>(paths.sourceCustom),
       readJson<string[]>(paths.sourceSkillsSh),
@@ -319,23 +276,22 @@ program
     ]);
     const sources = [...new Set(raws.flat())].sort();
 
+    const [index, size] = shard
+      .split("/")
+      .map((v: string) => Number.parseInt(v, 10));
+    if (!index || !size) throw new Error(`invalid shard: ${shard}`);
     console.log(`[INFO] update shard: ${shard}`);
-    const [index, size] = shard.split("/").map((v) => Number.parseInt(v, 10));
-    if (index === undefined || size === undefined) {
-      throw new Error(`invalid shard: ${shard}`);
-    }
 
     const repos = chunk(sources, index - 1, size);
-    console.log(`[INFO] load sharded repos: ${repos.length}`);
-    const previous = await readRepoSkillsForSources(repos);
-    const previousMap = new Map(previous.map((s) => [s.source, s]));
+    const previousMap = new Map(
+      (await readSkillsForSources(repos)).map((s) => [s.source, s]),
+    );
 
     const data = (
       await Promise.all(
         repos.map((source) =>
           limit(async () => {
-            const prev = previousMap.get(source);
-            const result = await update({ source, prev });
+            const result = await updateRepo(source, previousMap.get(source));
             global.gc?.();
             return result;
           }),
@@ -344,6 +300,7 @@ program
     )
       .filter((v): v is RepoSkills => v !== null)
       .sort((a, b) => a.source.localeCompare(b.source));
+
     await writeJson(path.join(paths.shard, `${index}.json`), data);
   });
 
@@ -357,31 +314,27 @@ program
       process.exit(1);
     }
 
-    // Read existing repo skills from by-name first
-    const existing = await readAllRepoSkills();
-    const existingMap = new Map(existing.map((s) => [s.source, s]));
+    const existingMap = new Map(
+      (await readAllSkills()).map((s) => [s.source, s]),
+    );
 
-    // Read all shard files and override existing by source
     const shards = await Promise.all(
       files.map((f) => readJson<RepoSkills[]>(path.join(paths.shard, f))),
     );
-    for (const repo of shards.flat()) {
-      existingMap.set(repo.source, repo);
-    }
+    for (const repo of shards.flat()) existingMap.set(repo.source, repo);
 
-    // Group by source prefix and write to by-name structure
     const allRepos = Array.from(existingMap.values());
-    const byPrefix = groupBy(allRepos, (s) => getSourcePrefix(s.source));
-
+    const byPrefix = groupBy(allRepos, (s) => prefixOf(s.source));
     for (const [prefix, repos] of Object.entries(byPrefix)) {
-      const sorted = sortBy(repos, [(s) => s.source]);
-      await writeJson(path.join(paths.byName, prefix, "skills.json"), sorted);
+      await writeJson(
+        path.join(paths.byName, prefix, "skills.json"),
+        sortBy(repos, [(s) => s.source]),
+      );
     }
 
     console.log(
       `[INFO] combined ${allRepos.length} repos into ${Object.keys(byPrefix).length} prefixes`,
     );
-
     await fs.rm(paths.shard, { recursive: true, force: true });
   });
 
@@ -390,7 +343,7 @@ program
   .description("clean git clone cache")
   .action(async () => {
     await fs.rm(paths.cloneCache, { recursive: true, force: true });
-    console.log(`[INFO] cleaned cache`);
+    console.log("[INFO] cleaned cache");
   });
 
 await program.parseAsync();
