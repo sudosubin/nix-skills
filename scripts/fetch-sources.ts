@@ -1,8 +1,8 @@
-import { program } from "commander";
-import ky from "ky";
 import { promises as fs } from "node:fs";
 import os from "node:os";
 import path from "node:path";
+import { program } from "commander";
+import ky from "ky";
 
 const root = path.join(import.meta.dirname, "..", "data");
 
@@ -52,7 +52,9 @@ const paginateSkillsDirectoryCom = () =>
     "skillsdirectory.com",
     async (page) => {
       const { skills } = await api
-        .get(`https://www.skillsdirectory.com/api/skills?page=${page}`, { timeout: 120_000 })
+        .get(`https://www.skillsdirectory.com/api/skills?page=${page}`, {
+          timeout: 120_000,
+        })
         .json<{
           skills: {
             name: string;
@@ -60,7 +62,9 @@ const paginateSkillsDirectoryCom = () =>
             skillFilePath: string;
           }[];
         }>();
-      return skills.map(({ githubRepoFullName }) => `github:${githubRepoFullName}`);
+      return skills.map(
+        ({ githubRepoFullName }) => `github:${githubRepoFullName}`,
+      );
     },
     1,
   );

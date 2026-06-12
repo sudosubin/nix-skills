@@ -1,12 +1,12 @@
-import { program } from "commander";
-import { cloneRepository, openRepository } from "es-git";
-import { groupBy, orderBy, retry, sortBy, uniqBy } from "es-toolkit";
-import pLimit from "p-limit";
 import childProcess from "node:child_process";
 import { promises as fs } from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { promisify } from "node:util";
+import { program } from "commander";
+import { cloneRepository, openRepository } from "es-git";
+import { groupBy, orderBy, retry, sortBy, uniqBy } from "es-toolkit";
+import pLimit from "p-limit";
 
 const exec = promisify(childProcess.exec);
 
@@ -287,7 +287,7 @@ const findAllSkills = async (storePath: string): Promise<string[]> => {
   const results: string[] = [];
 
   const walk = async (absDir: string, relDir: string): Promise<void> => {
-    let entries;
+    let entries: import("node:fs").Dirent[];
     try {
       entries = await fs.readdir(absDir, { withFileTypes: true });
     } catch {
@@ -320,7 +320,7 @@ program
     const sources = [...new Set(raws.flat())].sort();
 
     console.log(`[INFO] update shard: ${shard}`);
-    const [index, size] = shard.split("/").map((v) => Number.parseInt(v));
+    const [index, size] = shard.split("/").map((v) => Number.parseInt(v, 10));
     if (index === undefined || size === undefined) {
       throw new Error(`invalid shard: ${shard}`);
     }
