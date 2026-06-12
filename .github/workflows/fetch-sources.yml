@@ -1,0 +1,35 @@
+name: Fetch Sources
+
+on:
+  schedule:
+    - cron: "45 */3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+
+jobs:
+  fetch:
+    name: Fetch
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - run: pnpm fetch-sources fetch skills.sh
+      - run: pnpm fetch-sources fetch skillsdirectory.com
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: update source lists"
+          file_pattern: data/source-*.json

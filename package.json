@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "command": "tsx ./scripts/command.ts"
+    "fetch-sources": "tsx ./scripts/fetch-sources.ts",
+    "update-skills": "tsx ./scripts/update-skills.ts"
   },
   "dependencies": {
     "commander": "^14.0.3",
