@@ -1,0 +1,60 @@
+name: Commit and Push
+description: Commit changed files and push to a branch, rebasing and retrying on conflict.
+
+inputs:
+  message:
+    description: Commit message
+    required: true
+  paths:
+    description: Pathspec passed to git add
+    required: false
+    default: "."
+  author-name:
+    description: Commit author name
+    required: false
+    default: "github-actions[bot]"
+  author-email:
+    description: Commit author email
+    required: false
+    default: "41898282+github-actions[bot]@users.noreply.github.com"
+  branch:
+    description: Branch to push to
+    required: false
+    default: main
+  max-attempts:
+    description: Maximum push attempts
+    required: false
+    default: "5"
+  retry-wait-seconds:
+    description: Seconds to wait between push attempts
+    required: false
+    default: "10"
+  timeout-minutes:
+    description: Timeout in minutes for each push attempt
+    required: false
+    default: "5"
+
+runs:
+  using: composite
+  steps:
+    - id: commit
+      shell: bash
+      run: |
+        git config user.name "${{ inputs.author-name }}"
+        git config user.email "${{ inputs.author-email }}"
+        git add ${{ inputs.paths }}
+        if git diff --cached --quiet; then
+          echo "skip=1" >> $GITHUB_OUTPUT
+          echo "no changes to commit"
+          exit 0
+        fi
+        git commit -m "${{ inputs.message }}"
+
+    - if: steps.commit.outputs.skip != '1'
+      uses: nick-fields/retry@v3
+      with:
+        timeout_minutes: ${{ inputs.timeout-minutes }}
+        max_attempts: ${{ inputs.max-attempts }}
+        retry_wait_seconds: ${{ inputs.retry-wait-seconds }}
+        command: "git push origin HEAD:${{ inputs.branch }}"
+        on_retry_command: "git pull --rebase --autostash origin ${{ inputs.branch }}"
