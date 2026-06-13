@@ -17,6 +17,9 @@ importers:
       es-toolkit:
         specifier: ^1.44.0
         version: 1.44.0
+      fast-xml-parser:
+        specifier: ^5.8.0
+        version: 5.8.0
       ky:
         specifier: ^2.0.2
         version: 2.0.2
@@ -67,28 +70,24 @@ packages:
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@biomejs/cli-linux-arm64@2.4.16':
     resolution: {integrity: sha512-2kFb4//jxfZaP6D+Rj5VkHkxgyD9EoRAVBEQb8PKRv+s4NO2zYNJKXFaJmK1CmhufJOWEfpHKaRbOja7qjmdhQ==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@biomejs/cli-linux-x64-musl@2.4.16':
     resolution: {integrity: sha512-iHDS+MCM65DPqWGu+ECC3uoALyj2H7F4nVUPxIPjz/PIl94EUu+EDfGZDzFP+NY1EOPVt9NQvwFqq7HdMmowdg==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@biomejs/cli-linux-x64@2.4.16':
     resolution: {integrity: sha512-NbcBbi/nJqn5baae6wqRXdS7Gadf2uRpehSh6vMSYpG8OhkXl/Xg8aorWrJ+9VWqAT5ml90alLvorkpMW0nBwQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@biomejs/cli-win32-arm64@2.4.16':
     resolution: {integrity: sha512-0rgImMsNb5v/chhkIFe3wu7PEFClS6RBAYUijGL9UsYN3PanSaoK24HSSuSJb1pYbYYVjzAyZTl3gtjJ84BM8A==}
@@ -258,6 +257,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@nodable/entities@2.2.0':
+    resolution: {integrity: sha512-9uGyhaQavEUMC8AIddIjau4NsnsXhou+j5sBAGojCM1oxmQpVKTWR/9JxABD6UAv12vpIms55fPZKFQEhG6uBg==}
+
   '@tsconfig/node24@24.0.4':
     resolution: {integrity: sha512-2A933l5P5oCbv6qSxHs7ckKwobs8BDAe9SJ/Xr2Hy+nDlwmLE1GhFh/g/vXGRZWgxBg9nX/5piDtHR9Dkw/XuA==}
 
@@ -266,6 +268,9 @@ packages:
 
   '@types/node@24.10.9':
     resolution: {integrity: sha512-ne4A0IpG3+2ETuREInjPNhUGis1SFjv1d5asp8MzEAGtOZeTeHVDOYqOgqfhvseqg/iXty2hjBf1zAOb7RNiNw==}
+
+  anynum@1.0.0:
+    resolution: {integrity: sha512-xjR9/zBVnUOP6ztMIIgShjsxui80nQUQH+5xJnvrYLs+90bF25/KJqaAi8mk+B4RDtX1Nspi6fmp4YTEts8SfA==}
 
   commander@14.0.3:
     resolution: {integrity: sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw==}
@@ -300,28 +305,24 @@ packages:
     engines: {node: '>= 10.20.0 < 11 || >= 12.17.0 < 13 || >= 14.0.0'}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   es-git-linux-arm64-musl@0.6.0:
     resolution: {integrity: sha512-eKFg8E5O8gji0e+S3R50NxJN8BnIdmTJtzJWyHbM+c8i5pYO1wRnD8HIFOwf/Lbe5m29WWbNXIJdv0d6UkqYlQ==}
     engines: {node: '>= 10.20.0 < 11 || >= 12.17.0 < 13 || >= 14.0.0'}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   es-git-linux-x64-gnu@0.6.0:
     resolution: {integrity: sha512-4iv+FSIqqNrKec+3oARsM05ftK1QDoD5bOZqW+XraQwp2/rfDLeV84KS8lCKj3YpZKoof4p6JH5rqxoGfkTKUw==}
     engines: {node: '>= 10.20.0 < 11 || >= 12.17.0 < 13 || >= 14.0.0'}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   es-git-linux-x64-musl@0.6.0:
     resolution: {integrity: sha512-sQ23mFLUdNAqcNkOxtUvpJAPHBP5CtbFEQPYL/fyAo8VhcmDiEMVoDzYPaI4+EgKRhJnZVH511wD7Ym147+5uQ==}
     engines: {node: '>= 10.20.0 < 11 || >= 12.17.0 < 13 || >= 14.0.0'}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   es-git-win32-arm64-msvc@0.6.0:
     resolution: {integrity: sha512-X4U7FV4/WuUED8XHmjmziuP6HLOwHmdlVhw59DnARdWEBSKC9L4z4/q90R5EBKr6ooihVqwv3yCU8Mgjgcp/MA==}
@@ -347,6 +348,13 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
+  fast-xml-builder@1.2.0:
+    resolution: {integrity: sha512-00aAWieqff+ZJhsXA4g1g7M8k+7AYoMUUHF+/zFb5U6Uv/P0Vl4QZo84/IcufzYalLuEj9928bXN9PbbFzMF0Q==}
+
+  fast-xml-parser@5.8.0:
+    resolution: {integrity: sha512-6bIM7fsJxeo3uXv7OncQYsBAMPJ7V16Slahl/6M98C/i2q+vB1+4a0MtrvYwDFEUrwDSbAmeLDRXsOBwrL7yAg==}
+    hasBin: true
+
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
@@ -363,8 +371,15 @@ packages:
     resolution: {integrity: sha512-7cIXg/Z0M5WZRblrsOla88S4wAK+zOQQWeBYfV3qJuJXMr+LnbYjaadrFaS0JILfEDPVqHyKnZ1Z/1d6J9VVUw==}
     engines: {node: '>=20'}
 
+  path-expression-matcher@1.5.0:
+    resolution: {integrity: sha512-cbrerZV+6rvdQrrD+iGMcZFEiiSrbv9Tfdkvnusy6y0x0GKBXREFg/Y65GhIfm0tnLntThhzCnfKwp1WRjeCyQ==}
+    engines: {node: '>=14.0.0'}
+
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
+
+  strnum@2.4.0:
+    resolution: {integrity: sha512-sHrVyWWdq28RbhjuJdZsA1SnGRJV6NiXbk6AXBxDOsgAcA+lmpUZCYjOdLBxkXMwis6RRe7dlZt4VlIWFVzkmg==}
 
   tsx@4.21.0:
     resolution: {integrity: sha512-5C1sg4USs1lfG0GFb2RLXsdpXqBSEhAaA/0kPL01wxzpMqLILNxIxIOKiILz+cdg/pLnOUxFYOR5yhHU666wbw==}
@@ -378,6 +393,10 @@ packages:
 
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+
+  xml-naming@0.1.0:
+    resolution: {integrity: sha512-k8KO9hrMyNk6tUWqUfkTEZbezRRpONVOzUTnc97VnCvyj6Tf9lyUR9EDAIeiVLv56jsMcoXEwjW8Kv5yPY52lw==}
+    engines: {node: '>=16.0.0'}
 
   yocto-queue@1.2.2:
     resolution: {integrity: sha512-4LCcse/U2MHZ63HAJVE+v71o7yOdIe4cZ70Wpf8D/IyjDKYQLV5GD46B+hSTjJsvV5PztjvHoU580EftxjDZFQ==}
@@ -498,6 +517,8 @@ snapshots:
   '@esbuild/win32-x64@0.27.2':
     optional: true
 
+  '@nodable/entities@2.2.0': {}
+
   '@tsconfig/node24@24.0.4': {}
 
   '@tsconfig/strictest@2.0.8': {}
@@ -505,6 +526,8 @@ snapshots:
   '@types/node@24.10.9':
     dependencies:
       undici-types: 7.16.0
+
+  anynum@1.0.0: {}
 
   commander@14.0.3: {}
 
@@ -582,6 +605,19 @@ snapshots:
       '@esbuild/win32-ia32': 0.27.2
       '@esbuild/win32-x64': 0.27.2
 
+  fast-xml-builder@1.2.0:
+    dependencies:
+      path-expression-matcher: 1.5.0
+      xml-naming: 0.1.0
+
+  fast-xml-parser@5.8.0:
+    dependencies:
+      '@nodable/entities': 2.2.0
+      fast-xml-builder: 1.2.0
+      path-expression-matcher: 1.5.0
+      strnum: 2.4.0
+      xml-naming: 0.1.0
+
   fsevents@2.3.3:
     optional: true
 
@@ -595,7 +631,13 @@ snapshots:
     dependencies:
       yocto-queue: 1.2.2
 
+  path-expression-matcher@1.5.0: {}
+
   resolve-pkg-maps@1.0.0: {}
+
+  strnum@2.4.0:
+    dependencies:
+      anynum: 1.0.0
 
   tsx@4.21.0:
     dependencies:
@@ -607,5 +649,7 @@ snapshots:
   typescript@5.9.3: {}
 
   undici-types@7.16.0: {}
+
+  xml-naming@0.1.0: {}
 
   yocto-queue@1.2.2: {}

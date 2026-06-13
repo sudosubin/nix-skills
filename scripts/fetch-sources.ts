@@ -2,69 +2,67 @@ import { promises as fs } from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { program } from "commander";
-import { retry } from "es-toolkit";
+import { XMLParser } from "fast-xml-parser";
 import ky from "ky";
 
 const root = path.join(import.meta.dirname, "..", "data");
 
-type Fetcher = ReturnType<typeof ky.create>;
+const api = ky.create({ retry: { limit: 5 }, timeout: 120_000 });
 
-const fetchPage = async <T>(
-  api: Fetcher,
-  url: string,
-  isComplete: (data: T) => boolean,
-): Promise<T> =>
-  retry(
-    async () => {
-      const data = await api.get(url).json<T>();
-      if (!isComplete(data)) {
-        throw new Error(`degraded response from ${url}`);
-      }
-      return data;
-    },
-    { retries: 5, delay: 2_000 },
-  );
+const xmlParser = new XMLParser({
+  isArray: (name) => name === "sitemap" || name === "url",
+});
+
+const locsOf = (xml: string): string[] => {
+  const doc = xmlParser.parse(xml) as {
+    sitemapindex?: { sitemap?: { loc?: string }[] };
+    urlset?: { url?: { loc?: string }[] };
+  };
+  const entries = doc.sitemapindex?.sitemap ?? doc.urlset?.url ?? [];
+  return entries.flatMap((e) => (e.loc ? [e.loc] : []));
+};
 
 const sources = {
   "skills.sh": {
     path: path.join(root, "source-skills-sh.json"),
-    async *paginate() {
-      const api = ky.create({ retry: { limit: 5 }, timeout: 30_000 });
-      for (let page = 0; ; page++) {
-        console.log(`[INFO] fetching skills.sh page=${page}`);
-        const data = await fetchPage<{
-          skills?: { source: string }[];
-          hasMore?: boolean;
-        }>(
-          api,
-          `https://skills.sh/api/skills/all-time/${page}`,
-          (d) => (d.skills?.length ?? 0) > 0 || d.hasMore === false,
-        );
-        yield* (data.skills ?? []).map(({ source }) => `github:${source}`);
-        if (data.hasMore === false) break;
+    async fetch(): Promise<string[]> {
+      const base = "https://www.skills.sh";
+      const index = await api.get(`${base}/sitemap.xml`).text();
+      const sitemaps = locsOf(index).filter((u) =>
+        /\/sitemap-(owners|skills)/.test(u),
+      );
+
+      const repos: string[] = [];
+      for (const sitemap of sitemaps) {
+        console.log(`[INFO] fetching ${sitemap}`);
+        const xml = await api.get(sitemap).text();
+        for (const loc of locsOf(xml)) {
+          const [owner, repo] = new URL(loc).pathname.slice(1).split("/");
+          // GitHub owner logins never contain dots; skip non-GitHub sources.
+          if (owner && repo && !owner.includes(".")) {
+            repos.push(`github:${owner}/${repo}`);
+          }
+        }
       }
+      return repos;
     },
   },
   "skillsdirectory.com": {
     path: path.join(root, "source-skillsdirectory-com.json"),
-    async *paginate() {
-      const api = ky.create({ retry: { limit: 5 }, timeout: 120_000 });
+    async fetch(): Promise<string[]> {
+      const repos: string[] = [];
       for (let page = 1; ; page++) {
         console.log(`[INFO] fetching skillsdirectory.com page=${page}`);
-        const data = await fetchPage<{
-          skills?: { githubRepoFullName: string }[];
-          pagination?: { hasNextPage?: boolean };
-        }>(
-          api,
-          `https://www.skillsdirectory.com/api/skills?page=${page}`,
-          (d) =>
-            (d.skills?.length ?? 0) > 0 || d.pagination?.hasNextPage === false,
-        );
-        yield* (data.skills ?? []).map(
-          ({ githubRepoFullName }) => `github:${githubRepoFullName}`,
-        );
-        if (data.pagination?.hasNextPage === false) break;
+        const { skills, pagination } = await api
+          .get(`https://www.skillsdirectory.com/api/skills?page=${page}`)
+          .json<{
+            skills: { githubRepoFullName: string }[];
+            pagination: { hasNextPage: boolean };
+          }>();
+        repos.push(...skills.map((s) => `github:${s.githubRepoFullName}`));
+        if (!pagination.hasNextPage) break;
       }
+      return repos;
     },
   },
 };
@@ -93,12 +91,7 @@ program
     }
 
     const previous = await readJson<string[]>(source.path);
-    const fetched: string[] = [];
-    for await (const item of source.paginate()) {
-      fetched.push(item);
-    }
-
-    const unique = [...new Set(fetched)];
+    const unique = [...new Set(await source.fetch())];
     const merged = [...new Set([...unique, ...previous])].sort();
     await writeJson(source.path, merged);
     console.log(
