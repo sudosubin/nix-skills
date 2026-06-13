@@ -64,9 +64,11 @@ program
 
     const previous = await readJson<string[]>(source.path);
     const fetched: string[] = [];
-    for await (const item of source.paginate()) fetched.push(item);
-    const unique = [...new Set(fetched)];
+    for await (const item of source.paginate()) {
+      fetched.push(item);
+    }
 
+    const unique = [...new Set(fetched)];
     const merged = [...new Set([...unique, ...previous])].sort();
     await writeJson(source.path, merged);
     console.log(

@@ -17,6 +17,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
@@ -29,7 +31,23 @@ jobs:
       - run: pnpm fetch-sources fetch skills.sh
       - run: pnpm fetch-sources fetch skillsdirectory.com
 
-      - uses: stefanzweifel/git-auto-commit-action@v7
+      - id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source-*.json
+          if git diff --cached --quiet; then
+            echo "skip=1" >> $GITHUB_OUTPUT
+            echo "no changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update source lists"
+
+      - if: steps.commit.outputs.skip != '1'
+        uses: nick-fields/retry@v3
         with:
-          commit_message: "chore: update source lists"
-          file_pattern: data/source-*.json
+          timeout_minutes: 5
+          max_attempts: 5
+          retry_wait_seconds: 10
+          command: "git push origin HEAD:main"
+          on_retry_command: "git pull --rebase --autostash origin main"

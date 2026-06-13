@@ -1,6 +1,6 @@
 # nix-skills
 
-Nix expressions for AI agent skills from [skills.sh](https://skills.sh) and [skillsdirectory.com](https://www.skillsdirectory.com). A [GitHub Action](https://github.com/sudosubin/nix-skills/actions/workflows/update-skills.yml) updates the skills every 3 hours.
+Nix expressions for AI agent skills from [skills.sh](https://skills.sh) and [skillsdirectory.com](https://www.skillsdirectory.com). Two independent GitHub Actions workflows keep the data fresh: [Fetch Sources](https://github.com/sudosubin/nix-skills/actions/workflows/fetch-sources.yml) and [Update Skills](https://github.com/sudosubin/nix-skills/actions/workflows/update-skills.yml), each running every 3 hours.
 
 As of March 2026, this flake provides Nix derivations for over **480,000** skills sourced from nearly **13,000** GitHub repositories. Each **skill** is individually packaged, pinned to a specific revision, and made available through a nixpkgs overlay.
 
@@ -155,11 +155,20 @@ nix build github:sudosubin/nix-skills#skills.aarch64-darwin.vercel-labs.skills.f
 
 ## How it works
 
-1. A GitHub Actions workflow runs every 3 hours.
-2. It fetches the latest skill listings from [skills.sh](https://skills.sh) and [skillsdirectory.com](https://www.skillsdirectory.com).
-3. For each source repository, it resolves the latest commit, prefetches the tarball via `nix-prefetch-url`, and discovers all `SKILL.md` files.
-4. The results are stored in `data/by-name/` as JSON files.
-5. At evaluation time, Nix reads these JSON files and builds each skill using `fetchFromGitHub` with the pinned revision and hash.
+Two independent GitHub Actions workflows run on their own schedules (every 3 hours, offset from each other) and exchange data through committed JSON files in `data/`:
+
+### Fetch Sources
+
+1. Fetches the latest skill listings from [skills.sh](https://skills.sh) and [skillsdirectory.com](https://www.skillsdirectory.com).
+2. Merges them into the existing source lists and commits the result to `data/source-*.json`.
+
+### Update Skills
+
+1. Reads the committed source lists (`data/source-*.json`) to determine which repositories to process.
+2. Splits the work across 256 parallel shards. For each source repository, it resolves the latest commit, prefetches the tarball via `nix-prefetch-url`, and discovers all `SKILL.md` files.
+3. Combines the shard results and stores them in `data/by-name/` as JSON files.
+
+At evaluation time, Nix reads these JSON files and builds each skill using `fetchFromGitHub` with the pinned revision and hash.
 
 ## License
 
