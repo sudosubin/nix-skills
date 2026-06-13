@@ -2,9 +2,28 @@ import { promises as fs } from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { program } from "commander";
+import { retry } from "es-toolkit";
 import ky from "ky";
 
 const root = path.join(import.meta.dirname, "..", "data");
+
+type Fetcher = ReturnType<typeof ky.create>;
+
+const fetchPage = async <T>(
+  api: Fetcher,
+  url: string,
+  isComplete: (data: T) => boolean,
+): Promise<T> =>
+  retry(
+    async () => {
+      const data = await api.get(url).json<T>();
+      if (!isComplete(data)) {
+        throw new Error(`degraded response from ${url}`);
+      }
+      return data;
+    },
+    { retries: 5, delay: 2_000 },
+  );
 
 const sources = {
   "skills.sh": {
@@ -13,11 +32,16 @@ const sources = {
       const api = ky.create({ retry: { limit: 5 }, timeout: 30_000 });
       for (let page = 0; ; page++) {
         console.log(`[INFO] fetching skills.sh page=${page}`);
-        const { skills } = await api
-          .get(`https://skills.sh/api/skills/all-time/${page}`)
-          .json<{ skills: { source: string }[] }>();
-        if (skills.length === 0) break;
-        yield* skills.map(({ source }) => `github:${source}`);
+        const data = await fetchPage<{
+          skills?: { source: string }[];
+          hasMore?: boolean;
+        }>(
+          api,
+          `https://skills.sh/api/skills/all-time/${page}`,
+          (d) => (d.skills?.length ?? 0) > 0 || d.hasMore === false,
+        );
+        yield* (data.skills ?? []).map(({ source }) => `github:${source}`);
+        if (data.hasMore === false) break;
       }
     },
   },
@@ -27,13 +51,19 @@ const sources = {
       const api = ky.create({ retry: { limit: 5 }, timeout: 120_000 });
       for (let page = 1; ; page++) {
         console.log(`[INFO] fetching skillsdirectory.com page=${page}`);
-        const { skills } = await api
-          .get(`https://www.skillsdirectory.com/api/skills?page=${page}`)
-          .json<{ skills: { githubRepoFullName: string }[] }>();
-        if (skills.length === 0) break;
-        yield* skills.map(
+        const data = await fetchPage<{
+          skills?: { githubRepoFullName: string }[];
+          pagination?: { hasNextPage?: boolean };
+        }>(
+          api,
+          `https://www.skillsdirectory.com/api/skills?page=${page}`,
+          (d) =>
+            (d.skills?.length ?? 0) > 0 || d.pagination?.hasNextPage === false,
+        );
+        yield* (data.skills ?? []).map(
           ({ githubRepoFullName }) => `github:${githubRepoFullName}`,
         );
+        if (data.pagination?.hasNextPage === false) break;
       }
     },
   },
