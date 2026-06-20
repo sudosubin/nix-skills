@@ -185,7 +185,8 @@ const getRev = async (ownerRepo: string): Promise<string | null> => {
     const msg = `${error}`;
     if (
       msg.includes("remote authentication required") ||
-      msg.includes("unexpected http status code")
+      msg.includes("unexpected http status code") ||
+      msg.includes("revspec 'HEAD' not found")
     ) {
       return null;
     }
