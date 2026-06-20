@@ -167,6 +167,16 @@
     "lastUpdated": "2026-05-29T17:07:07.417Z"
   },
   {
+    "source": "github:0x0funky/agent-sprite-forge",
+    "rev": "fff651a89223b044ccfc0b75ed9f3754c6d739b1",
+    "hash": "1nv7d3bb2nfs5000acz6vvh0ac3f6srw2zrjgmxzyxvxmmksh9ca",
+    "skills": [
+      "skills/generate2dmap",
+      "skills/generate2dsprite"
+    ],
+    "lastUpdated": "2026-06-20T07:39:08.408Z"
+  },
+  {
     "source": "github:0x1notme/shaping-skills",
     "rev": "dae1c97f163f2a33a3738a8078a6a7006b3763fb",
     "hash": "1bbdfhv2gbqbhj693fa1r2835gwyd92dljkdlm7x3qn4z9mxk84k",
@@ -218,12 +228,12 @@
   },
   {
     "source": "github:0xArchiveIO/0xarchive-skill",
-    "rev": "feaef788b5b048be07a75e453078c355db918812",
-    "hash": "0axa6i1pq2l55qypx94262gbalryk4w43bkq6cnm97hjdbdrp0vs",
+    "rev": "3190c4a39ee37ef5ab5fee9a24f719ace95010bf",
+    "hash": "07f6cms9hk3s3i0wqykqildbfh9gnv69iksb5vxlgn0pkc0lhp1z",
     "skills": [
       "skills/query"
     ],
-    "lastUpdated": "2026-06-09T03:08:48.842Z"
+    "lastUpdated": "2026-06-20T07:39:07.388Z"
   },
   {
     "source": "github:0xArx/claude-managed-agents-skill",
@@ -236,9 +246,10 @@
   },
   {
     "source": "github:0xDarkMatter/claude-mods",
-    "rev": "71b9420713bbd91496533b654d587a58fe740574",
-    "hash": "05sqrnx4vvasj8f6fz5z389xgjznrzxxyhjsdi9a8ssqm4vbw7b1",
+    "rev": "5edc0c12b09ad964b8f20af44984335f13663853",
+    "hash": "0nb4h4s8j41ifglzvqr1rbxv1252nhaz1w0n82dal2wwxnva4vc3",
     "skills": [
+      "skills/adr-ops",
       "skills/api-design-ops",
       "skills/astro-ops",
       "skills/asus-router-ops",
@@ -261,6 +272,7 @@
       "skills/doc-scanner",
       "skills/docker-ops",
       "skills/explain",
+      "skills/ffmpeg-ops",
       "skills/file-search",
       "skills/find-replace",
       "skills/fleet-ops",
@@ -275,12 +287,14 @@
       "skills/leveldb-ops",
       "skills/log-ops",
       "skills/mac-ops",
+      "skills/mapbox-ops",
       "skills/markitdown",
       "skills/mcp-ops",
       "skills/migrate-ops",
       "skills/monitoring-ops",
       "skills/net-ops",
       "skills/nginx-ops",
+      "skills/okf-ops",
       "skills/payloadcms-ops",
       "skills/perf-ops",
       "skills/pigeon",
@@ -291,6 +305,7 @@
       "skills/project-planner",
       "skills/prompt-injection-defense",
       "skills/push-gate",
+      "skills/pypi-ops",
       "skills/python-async-ops",
       "skills/python-cli-ops",
       "skills/python-database-ops",
@@ -325,9 +340,10 @@
       "skills/typescript-ops",
       "skills/unfold-admin",
       "skills/vue-ops",
-      "skills/windows-ops"
+      "skills/windows-ops",
+      "skills/ytdlp-ops"
     ],
-    "lastUpdated": "2026-06-12T09:05:45.268Z"
+    "lastUpdated": "2026-06-20T07:39:08.799Z"
   },
   {
     "source": "github:0xE1337/thesis-figure-skill",
@@ -396,14 +412,14 @@
   },
   {
     "source": "github:0xNyk/lacp",
-    "rev": "003eef16a583dbaa3fdd56e5efe393397f463f3f",
-    "hash": "05ws25vycs9id7vz60kfinrimz5pcnjwc5bw5p47lk03f1jvc3vf",
+    "rev": "b7b8fc87715b777e4091f4e030cec7156155ec4f",
+    "hash": "1avsfc69lyg5j316gryy9sfdwqqmxqgrfm200xc96sznh1lp58ba",
     "skills": [
       "plugin/skills/context-modes",
       "plugin/skills/quality-gate",
       "plugin/skills/session-hardening"
     ],
-    "lastUpdated": "2026-05-31T05:56:35.685Z"
+    "lastUpdated": "2026-06-20T07:39:10.374Z"
   },
   {
     "source": "github:0xabrar/gstack-distilled",
@@ -465,8 +481,8 @@
   },
   {
     "source": "github:0xaxiom/axiom-public",
-    "rev": "f77b9828798fe99a63244cbf2f9c17fbf101c802",
-    "hash": "0ay18gcfj2982xaaxiamlxnigan51kbsyfdn7wpq9295f1zhsq0v",
+    "rev": "0cd5487305160a2ca679f408bc86796b78630fa0",
+    "hash": "0c3g8s46b89gcnjy2gxhkzjvdqs6lm6qdw6jg4jxbi0fvzf6s03v",
     "skills": [
       "agent-skills/skills/abi-encoder",
       "agent-skills/skills/abi-fetcher",
@@ -543,15 +559,16 @@
       "agent-skills/skills/x402-gate",
       "agent-tools/skills/social-intel-hub"
     ],
-    "lastUpdated": "2026-06-12T09:05:47.996Z"
+    "lastUpdated": "2026-06-20T07:39:11.983Z"
   },
   {
     "source": "github:0xbigboss/claude-code",
-    "rev": "87dca2cc7eac9cffe5d8ff72c392744018c63009",
-    "hash": "0vigwng730paa42fgbrb21x0sjaif0nq01x19bp9rwg8v9y8ks9q",
+    "rev": "ab27c57c9d213c243bac52c67a893cc07ad36606",
+    "hash": "01pb0kj4pwf7q5jc8hwqafyswjrjaq6z3bmydnqh35d0131pb9cy",
     "skills": [
       ".claude/skills/atlas-best-practices",
       ".claude/skills/axe-ios-simulator",
+      ".claude/skills/brief-best-practices",
       ".claude/skills/canton-network-repos",
       ".claude/skills/e2e",
       ".claude/skills/electrobun-best-practices",
@@ -576,12 +593,11 @@
       ".claude/skills/web-fetch",
       ".claude/skills/zig-best-practices",
       ".claude/skills/zmx",
-      "codex-overrides/skills/canton-nodes",
       "codex-overrides/skills/dispatching-parallel-agents",
       "codex-overrides/skills/writing-plans",
       "codex-overrides/skills/writing-skills"
     ],
-    "lastUpdated": "2026-06-12T09:05:47.644Z"
+    "lastUpdated": "2026-06-20T07:39:11.638Z"
   },
   {
     "source": "github:0xbreadguy/megaeth-ai-developer-skills",
@@ -594,9 +610,10 @@
   },
   {
     "source": "github:0xdarkmatter/claude-mods",
-    "rev": "71b9420713bbd91496533b654d587a58fe740574",
-    "hash": "05sqrnx4vvasj8f6fz5z389xgjznrzxxyhjsdi9a8ssqm4vbw7b1",
+    "rev": "5edc0c12b09ad964b8f20af44984335f13663853",
+    "hash": "0nb4h4s8j41ifglzvqr1rbxv1252nhaz1w0n82dal2wwxnva4vc3",
     "skills": [
+      "skills/adr-ops",
       "skills/api-design-ops",
       "skills/astro-ops",
       "skills/asus-router-ops",
@@ -619,6 +636,7 @@
       "skills/doc-scanner",
       "skills/docker-ops",
       "skills/explain",
+      "skills/ffmpeg-ops",
       "skills/file-search",
       "skills/find-replace",
       "skills/fleet-ops",
@@ -633,12 +651,14 @@
       "skills/leveldb-ops",
       "skills/log-ops",
       "skills/mac-ops",
+      "skills/mapbox-ops",
       "skills/markitdown",
       "skills/mcp-ops",
       "skills/migrate-ops",
       "skills/monitoring-ops",
       "skills/net-ops",
       "skills/nginx-ops",
+      "skills/okf-ops",
       "skills/payloadcms-ops",
       "skills/perf-ops",
       "skills/pigeon",
@@ -649,6 +669,7 @@
       "skills/project-planner",
       "skills/prompt-injection-defense",
       "skills/push-gate",
+      "skills/pypi-ops",
       "skills/python-async-ops",
       "skills/python-cli-ops",
       "skills/python-database-ops",
@@ -683,9 +704,10 @@
       "skills/typescript-ops",
       "skills/unfold-admin",
       "skills/vue-ops",
-      "skills/windows-ops"
+      "skills/windows-ops",
+      "skills/ytdlp-ops"
     ],
-    "lastUpdated": "2026-06-12T09:05:48.811Z"
+    "lastUpdated": "2026-06-20T07:39:12.866Z"
   },
   {
     "source": "github:0xdesign/design-plugin",
@@ -695,6 +717,15 @@
       "design-and-refine/skills/design-lab"
     ],
     "lastUpdated": "2026-02-04T01:13:54.471Z"
+  },
+  {
+    "source": "github:0xe1337/thesis-figure-skill",
+    "rev": "3845170faeee7c0cf5c9b014bf2db6824aa45d11",
+    "hash": "05fk0xydwqh6r12xjbgc8s3nib9a4ymdyxxx3il67lxw4f8pkx95",
+    "skills": [
+      "skills/thesis-figure-skill"
+    ],
+    "lastUpdated": "2026-06-20T07:39:13.104Z"
   },
   {
     "source": "github:0xenzyme/polanyi-skill",
@@ -725,12 +756,12 @@
   },
   {
     "source": "github:0xhimanshu/governor",
-    "rev": "e6426cf229932756d02e6453416b076b96d2576c",
-    "hash": "1z0kvhgkjwa0bahb36k9nzcnk8pvasxmfrffg7vqzbmdzpdymjw9",
+    "rev": "daa1499210dd2bc3f32669e8ada859dda0e23d82",
+    "hash": "1nzl57zk23rkbkv8ghygds0qg1bjkmx69vdwhz1bh8fkgi3q8a45",
     "skills": [
       "skills/usage-governor"
     ],
-    "lastUpdated": "2026-06-07T23:38:03.684Z"
+    "lastUpdated": "2026-06-20T07:39:14.034Z"
   },
   {
     "source": "github:0xhubed/agent-trading-arena",
@@ -772,6 +803,18 @@
       "skills/intuition"
     ],
     "lastUpdated": "2026-05-29T17:07:31.647Z"
+  },
+  {
+    "source": "github:0xkey-io/enclave-keyops-skills",
+    "rev": "d4da1e0211e0467e6ab18f6cf1b2ecccbf323e8c",
+    "hash": "10jy99v9k6kaqfd1y2b82bkg1935rmmsdv2ggd9biww0ljn4rljk",
+    "skills": [
+      "skills/0xkey-keyops-builder",
+      "skills/0xkey-keyops-coordinator",
+      "skills/0xkey-keyops-manifest",
+      "skills/0xkey-keyops-share"
+    ],
+    "lastUpdated": "2026-06-20T07:39:15.260Z"
   },
   {
     "source": "github:0xkynz/codekit",
@@ -832,8 +875,8 @@
   },
   {
     "source": "github:0xlayerghost/solidity-agent-kit",
-    "rev": "0b91f906a5b5cf2be5e24e5e3851cccdf8a3597c",
-    "hash": "1qg77l131m8apql4y3cbm3imln9mfk4bkx4ks5rx77faslqv00i4",
+    "rev": "c003c2146229af5349e1bf05d0dee30bb80b3d2f",
+    "hash": "1khw6gmv4qnn690mxlpqi3fiyvi635hg441ry76pa2qzxpk52nk9",
     "skills": [
       "skills/claude-code-usage",
       "skills/defi-security",
@@ -847,7 +890,7 @@
       "skills/solidity-testing",
       "skills/token-antiflash"
     ],
-    "lastUpdated": "2026-05-29T17:07:32.266Z"
+    "lastUpdated": "2026-06-20T07:39:15.603Z"
   },
   {
     "source": "github:0xmariowu/Autosearch",
@@ -929,12 +972,21 @@
   },
   {
     "source": "github:0xmsc/coding_assistant",
-    "rev": "946b32674289cfd1de822c0a6b4e66221ef4640e",
-    "hash": "0a1ihkg943086cjq1rhfnix4ahr7gfkgg7sl1lmc3wk4v9iwd8r1",
+    "rev": "ae2b683501ac0b7e9b29661ee13241c81b082853",
+    "hash": "1l12d1lar1dmkqffvvxr57r1sicj4rs8jqdxx7f2ck7xs2562zhl",
     "skills": [
       "src/coding_assistant/builtin/skills/advanced-tool-usage"
     ],
-    "lastUpdated": "2026-05-29T17:07:34.060Z"
+    "lastUpdated": "2026-06-20T07:39:16.381Z"
+  },
+  {
+    "source": "github:0xnyk/council-of-high-intelligence",
+    "rev": "13c2cc3501e2a098dac6d2de439e733b709b0e2f",
+    "hash": "16h8zbbfkf63qdw95i23kvakn69qs4r91xpxjhqkyfm5883ghf7m",
+    "skills": [
+      "."
+    ],
+    "lastUpdated": "2026-06-20T07:39:16.079Z"
   },
   {
     "source": "github:0xnyk/xint",
@@ -982,6 +1034,16 @@
     "lastUpdated": "2026-06-09T12:07:40.562Z"
   },
   {
+    "source": "github:0xproject/0x-ai",
+    "rev": "0167bbb411cc972b966127d23c23de801061fa99",
+    "hash": "1fj9gcf3bf2db47am6ngp9d2045q19m32dqif21ivsjalisk4gcx",
+    "skills": [
+      "skills/0x-agentic-gateway",
+      "skills/0x-api"
+    ],
+    "lastUpdated": "2026-06-20T07:39:17.808Z"
+  },
+  {
     "source": "github:0xquqi/sun-skill",
     "rev": "f34609682095665e37d283bd6fdf6e0c2fceb492",
     "hash": "1v1c5y98znns6frpim0nlacs28w67xp8ciipdz84a7y6nd2npi6w",
@@ -1013,8 +1075,8 @@
   },
   {
     "source": "github:0xranx/golembot",
-    "rev": "01fe6370007dd65eeb2681c8b3433c63db1ea236",
-    "hash": "1xskkws3bifazqppmzjf68ycrf7az4sa6xla3sd18qzgims1i04v",
+    "rev": "24ba24005f536175852f1ffc10e1e542ad80b613",
+    "hash": "1apr80xzcb140mhhxhmqpwnxv74apx9hcffp6y27lc9nsk7igg0v",
     "skills": [
       "examples/multi-bot-group/bot-a/skills/researcher",
       "examples/multi-bot-group/bot-b/skills/coder",
@@ -1032,7 +1094,7 @@
       "templates/ops-assistant/skills/ops",
       "templates/research/skills/research"
     ],
-    "lastUpdated": "2026-05-29T17:07:39.932Z"
+    "lastUpdated": "2026-06-20T07:39:19.248Z"
   },
   {
     "source": "github:0xrdan/claude-router",
@@ -1109,14 +1171,57 @@
   },
   {
     "source": "github:0xsero/vllm-studio",
-    "rev": "9dba2240769e1f664371afe22311d7da71bd3497",
-    "hash": "153q3hc0vrzz5hnsfw4x4m158iqhdxkw44mynzrl5ixd6d7ggs37",
+    "rev": "99396e92c773e64508a0e46b89ed1d6a1985b0e6",
+    "hash": "08nssjfa5r4fj9qpvzk5xys11iz6zan8g7gh7bc540pklah6lprm",
     "skills": [
       "frontend/desktop/resources/skills/browser",
       "frontend/desktop/resources/skills/canvas",
       "frontend/desktop/resources/skills/parchi-browser"
     ],
-    "lastUpdated": "2026-06-12T09:05:55.347Z"
+    "lastUpdated": "2026-06-20T07:39:20.644Z"
+  },
+  {
+    "source": "github:0xshe/php-code-audit-skill",
+    "rev": "69d883e7983a09f72fd047a96e2377bee9a95d7e",
+    "hash": "18m12r5jrpgsj3ncafvghy7y1mkr42l2vxv9b1rq8380ikgimxwd",
+    "skills": [
+      "php-archive-extract-audit",
+      "php-audit-pipeline",
+      "php-auth-audit",
+      "php-cmd-audit",
+      "php-codeigniter-audit",
+      "php-config-audit",
+      "php-crlf-audit",
+      "php-crypto-audit",
+      "php-csrf-audit",
+      "php-deser-audit",
+      "php-exploit-chain-audit",
+      "php-expr-audit",
+      "php-file-read-audit",
+      "php-file-upload-audit",
+      "php-file-write-audit",
+      "php-filesystem-audit",
+      "php-laravel-audit",
+      "php-ldap-audit",
+      "php-logging-audit",
+      "php-logic-audit",
+      "php-nosql-audit",
+      "php-open-redirect-audit",
+      "php-route-mapper",
+      "php-route-tracer",
+      "php-session-cookie-audit",
+      "php-sql-audit",
+      "php-ssrf-audit",
+      "php-symfony-audit",
+      "php-thinkphp-audit",
+      "php-tpl-audit",
+      "php-vuln-scanner",
+      "php-wordpress-audit",
+      "php-xss-audit",
+      "php-xxe-audit",
+      "php-yii-audit"
+    ],
+    "lastUpdated": "2026-06-20T07:39:20.495Z"
   },
   {
     "source": "github:0xweaksheep/aave_farmore",
