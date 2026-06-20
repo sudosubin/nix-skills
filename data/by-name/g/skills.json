@@ -42,8 +42,8 @@
   },
   {
     "source": "github:GPTomics/bioSkills",
-    "rev": "042eef03bf388eada9e6fdea805786926035b646",
-    "hash": "1hwy62qbfkwndyq3qsmi7fisxd2h2lyaag4mqxz2qpjxvby47cxf",
+    "rev": "53b804816ac36d45b75c9179afd3b678e76f55ad",
+    "hash": "11vz58h4wd14hinjcw81axfllbl2c0im2q68x8fhh4lsk2fnxgzw",
     "skills": [
       "alignment-files/alignment-amplicon-clipping",
       "alignment-files/alignment-filtering",
@@ -447,6 +447,7 @@
       "restriction-analysis/golden-gate-assembly",
       "restriction-analysis/restriction-mapping",
       "restriction-analysis/restriction-sites",
+      "ribo-seq/initiation-site-mapping",
       "ribo-seq/orf-detection",
       "ribo-seq/riboseq-preprocessing",
       "ribo-seq/ribosome-periodicity",
@@ -584,7 +585,7 @@
       "workflows/tcr-pipeline",
       "workflows/timecourse-pipeline"
     ],
-    "lastUpdated": "2026-06-20T12:54:14.577Z"
+    "lastUpdated": "2026-06-20T15:51:58.961Z"
   },
   {
     "source": "github:GRCEngClub/claude-grc-engineering",
@@ -49633,8 +49634,8 @@
   },
   {
     "source": "github:geminilight/mindos",
-    "rev": "3bd628152e2bdbc3bb6b0daa972527cfb9f94df3",
-    "hash": "1q9nb46aaj7nf2cl7y59ga0c13l5b35rcnqnm19d74b1ryp28i8f",
+    "rev": "9b20234321ccaa958e8d2a3bf7bd542de8e52bd5",
+    "hash": "0jmc6d265p255bam5fw8zsn3fxf162h9phm2cqbiyrf3wx6zax7b",
     "skills": [
       "skills/find-skills",
       "skills/mindos",
@@ -49645,7 +49646,7 @@
       "skills/plugin-core-builtin-migration",
       "skills/project-wiki"
     ],
-    "lastUpdated": "2026-06-20T12:56:05.496Z"
+    "lastUpdated": "2026-06-20T15:53:40.192Z"
   },
   {
     "source": "github:gen-verse/openclaw-rl",
@@ -50957,8 +50958,8 @@
   },
   {
     "source": "github:getpaseo/paseo",
-    "rev": "8bd6c617a30094c6bc4a6bf39307121a38565b1c",
-    "hash": "0q56k64fp414zcarynch161sfsgibfg7zqjjgcb5vkha2baf86m6",
+    "rev": "5180708e26b9b8dfe07e583ff8813f1f0bd3cf34",
+    "hash": "1x462ij07cq5sphzs7v18jv9i4z2jqgiis8f4i9nsnk19rm7g6yv",
     "skills": [
       ".agents/skills/release-beta",
       ".agents/skills/release-stable",
@@ -50968,7 +50969,7 @@
       "skills/paseo-handoff",
       "skills/paseo-loop"
     ],
-    "lastUpdated": "2026-06-20T12:55:00.505Z"
+    "lastUpdated": "2026-06-20T15:54:21.940Z"
   },
   {
     "source": "github:getpaykit/skills",
@@ -52559,21 +52560,22 @@
   },
   {
     "source": "github:gitbutlerapp/gitbutler",
-    "rev": "fad08511318f3988a607edc78cb6a8c24782ca55",
-    "hash": "1v9mxwwshl0nkxphw3zs0fx93h7ibgayr5z9kqb99gq4c76h10sc",
+    "rev": "ff4334f3cf265bff49d5675a9f747d39507c0a6a",
+    "hash": "1lys3zd07vyc1vkd19b10vi5n3wc8g7m35kcvgyb9rx2lp9qndf4",
     "skills": [
       ".agents/skills/tui-tests",
       "crates/but-agentlog/skill"
     ],
-    "lastUpdated": "2026-06-20T07:41:07.520Z"
+    "lastUpdated": "2026-06-20T15:54:11.859Z"
   },
   {
     "source": "github:gitbyeos/open-part-skills",
-    "rev": "23703898997bd5170a7dca39a1609533e5b693db",
-    "hash": "0fj603lkmi4vi7nc6vsabh90dzqv4f2wk22a5rhfffikypwlb0hg",
+    "rev": "dacf2231ea78474a537fa09c68fdffd5e4b97bad",
+    "hash": "1nskdi9fa655djkh5c50hsshbgf25h0nq6m8dgg5jlnhdcs1k5cz",
     "skills": [
       "skills/blog-narrator",
       "skills/cc-claude",
+      "skills/fetch-what-say",
       "skills/git-review",
       "skills/juya",
       "skills/memory-graph",
@@ -52584,7 +52586,7 @@
       "skills/vite-plus",
       "skills/webfetch-plus"
     ],
-    "lastUpdated": "2026-06-20T07:40:58.213Z"
+    "lastUpdated": "2026-06-20T15:54:00.976Z"
   },
   {
     "source": "github:gitdolucas/log-to-post",
@@ -53033,8 +53035,8 @@
   },
   {
     "source": "github:github/gh-aw",
-    "rev": "e1d2f30e59a8beae8c5a6c97cd9eedd5fc573753",
-    "hash": "0m6nq9kv4fyb3rs8d74q7n1km2pjzgxmkv8jim77fr8pss25kxdd",
+    "rev": "8c05160adbd4e544fb06a38d79e7010b03066e67",
+    "hash": "1brpxss823ajfpfzsgvmh936kg1zkspylh12rw2m39c9n57s63yj",
     "skills": [
       ".",
       ".claude/skills/playwright-cli",
@@ -53079,12 +53081,12 @@
       ".github/skills/temporary-id-safe-output",
       ".github/skills/workflow-step-summaries"
     ],
-    "lastUpdated": "2026-06-20T07:43:05.792Z"
+    "lastUpdated": "2026-06-20T15:56:15.239Z"
   },
   {
     "source": "github:github/gh-aw-firewall",
-    "rev": "6707484c9ad9f537f1c989351ebedfe9900c0757",
-    "hash": "1qb8jbrrz81rnnbldxc5z0djb8yfh4652qzx3d21dqg7dv56ba8g",
+    "rev": "5d53832b5be64e8b8b36fbee4f47bf016297b911",
+    "hash": "1yafvqzww95cxz1jl2n7rl4bpvki7g22v5ad5clqp5kzy21cy2y2",
     "skills": [
       ".claude/skills/awf-debug-tools",
       ".claude/skills/awf-skill",
@@ -53093,7 +53095,7 @@
       ".github/skills/agentic-workflows",
       ".github/skills/debugging-workflows"
     ],
-    "lastUpdated": "2026-06-20T07:41:16.511Z"
+    "lastUpdated": "2026-06-20T15:54:16.768Z"
   },
   {
     "source": "github:github/gh-stack",
@@ -53143,8 +53145,8 @@
   },
   {
     "source": "github:githubnext/gh-aw",
-    "rev": "e1d2f30e59a8beae8c5a6c97cd9eedd5fc573753",
-    "hash": "0m6nq9kv4fyb3rs8d74q7n1km2pjzgxmkv8jim77fr8pss25kxdd",
+    "rev": "8c05160adbd4e544fb06a38d79e7010b03066e67",
+    "hash": "1brpxss823ajfpfzsgvmh936kg1zkspylh12rw2m39c9n57s63yj",
     "skills": [
       ".",
       ".claude/skills/playwright-cli",
@@ -53189,7 +53191,7 @@
       ".github/skills/temporary-id-safe-output",
       ".github/skills/workflow-step-summaries"
     ],
-    "lastUpdated": "2026-06-20T07:43:17.781Z"
+    "lastUpdated": "2026-06-20T15:56:27.258Z"
   },
   {
     "source": "github:gitlayzer/sealtun",
@@ -54148,8 +54150,8 @@
   },
   {
     "source": "github:glitchwerks/claude-wayfinder",
-    "rev": "b070d47c14d9cd145ac1c7ee33216bd76eef2b60",
-    "hash": "0a693wywhbycxzgk9dsksf75jswvwgfcz6kgg243a1cyhccxda0y",
+    "rev": "a138f0012e038010e63ef47b292ffa86851450f9",
+    "hash": "0w6jxsran01j7sfijgvvbjgciyygz45fk61jdgckjbs8rnpsx4hv",
     "skills": [
       "skills/dispatch",
       "skills/dispatch-authoring",
@@ -54162,7 +54164,7 @@
       "tests/fixtures/skills/legacy",
       "tests/fixtures/skills/refactoring-discipline"
     ],
-    "lastUpdated": "2026-06-20T12:55:08.275Z"
+    "lastUpdated": "2026-06-20T15:52:32.041Z"
   },
   {
     "source": "github:glittercowboy/plugin-freedom-system",
@@ -55495,16 +55497,14 @@
   },
   {
     "source": "github:goofansu/pi-stuff",
-    "rev": "eeee543fc30b0382dc739bfdaa518aa959883cf4",
-    "hash": "01vcxhrsc7g27dbd30v0c32krad4p3rj0n7cpl60gxkd4avrsa2s",
+    "rev": "0a5c87ff5d9c0a2da3890e11a8b6c7d7ce39c9c8",
+    "hash": "15l29pycqi6c5bkiava2izsgkd1229b143nba24z28h3l5ibbznw",
     "skills": [
       ".pi/skills/check-upstream",
       "skills/commit",
-      "skills/handoff",
-      "skills/simplify",
-      "skills/summarize"
+      "skills/handoff"
     ],
-    "lastUpdated": "2026-06-20T07:41:08.427Z"
+    "lastUpdated": "2026-06-20T15:53:22.296Z"
   },
   {
     "source": "github:googlarz/finance-assistant",
@@ -56669,18 +56669,18 @@
   },
   {
     "source": "github:gptme/gptme",
-    "rev": "94f0c6e793d85ac11075007f598468d47fdb5e58",
-    "hash": "03nk43pryxa21nyi2qji82p4hi0pi9wyfc0qcha2v18hiigsw4q3",
+    "rev": "27e6942fe24ad14c01016f7a33bfa13dc0727cc2",
+    "hash": "15c53jfmhyiligzddmr4l5zi12df0pr4b9ipsddf18idqvy0056k",
     "skills": [
       "gptme/lessons/skills/codebase-classification",
       "gptme/lessons/skills/python-repl"
     ],
-    "lastUpdated": "2026-06-20T07:42:08.222Z"
+    "lastUpdated": "2026-06-20T15:52:52.758Z"
   },
   {
     "source": "github:gptomics/bioskills",
-    "rev": "042eef03bf388eada9e6fdea805786926035b646",
-    "hash": "1hwy62qbfkwndyq3qsmi7fisxd2h2lyaag4mqxz2qpjxvby47cxf",
+    "rev": "53b804816ac36d45b75c9179afd3b678e76f55ad",
+    "hash": "11vz58h4wd14hinjcw81axfllbl2c0im2q68x8fhh4lsk2fnxgzw",
     "skills": [
       "alignment-files/alignment-amplicon-clipping",
       "alignment-files/alignment-filtering",
@@ -57084,6 +57084,7 @@
       "restriction-analysis/golden-gate-assembly",
       "restriction-analysis/restriction-mapping",
       "restriction-analysis/restriction-sites",
+      "ribo-seq/initiation-site-mapping",
       "ribo-seq/orf-detection",
       "ribo-seq/riboseq-preprocessing",
       "ribo-seq/ribosome-periodicity",
@@ -57221,7 +57222,7 @@
       "workflows/tcr-pipeline",
       "workflows/timecourse-pipeline"
     ],
-    "lastUpdated": "2026-06-20T12:54:54.890Z"
+    "lastUpdated": "2026-06-20T15:52:51.536Z"
   },
   {
     "source": "github:gpttang/skill-atlas",
