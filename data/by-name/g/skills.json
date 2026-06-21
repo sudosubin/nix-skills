@@ -16594,8 +16594,8 @@
   },
   {
     "source": "github:gabrielmoreira/agent-skills-mirror",
-    "rev": "3a3791388e201c3450ae79caa2ba944e88a82f43",
-    "hash": "1yd120pcmc69vcyxzmna6mfbz9ysnip6z3fhmgxamh11v3ddb45i",
+    "rev": "17595f4e22210d9a216e0dfa371aba639dfaeda5",
+    "hash": "0wmcji6b9n91ihyk5crzyiglqjily7cvlw4ynkm6bqg93d2qm8f4",
     "skills": [
       "mirrors/repos/001TMF@harness-forge/examples/memory-summary/.claude/skills/meta-harness-proteus",
       "mirrors/repos/001TMF@harness-forge/skills/meta-harness",
@@ -17074,7 +17074,7 @@
       "mirrors/repos/ClawBio@ClawBio/skills/claw-metagenomics",
       "mirrors/repos/ClawBio@ClawBio/skills/claw-methylation-cycle",
       "mirrors/repos/ClawBio@ClawBio/skills/claw-semantic-sim",
-      "mirrors/repos/ClawBio@ClawBio/skills/clawpathy_autoresearch",
+      "mirrors/repos/ClawBio@ClawBio/skills/clawpathy-autoresearch",
       "mirrors/repos/ClawBio@ClawBio/skills/clinical-trial-finder",
       "mirrors/repos/ClawBio@ClawBio/skills/clinical-variant-reporter",
       "mirrors/repos/ClawBio@ClawBio/skills/clinpgx",
@@ -18112,6 +18112,7 @@
       "mirrors/repos/Cranot@super-hermes/skills/prism-scan",
       "mirrors/repos/CreminiAI@skillpack/skills/skillpack-creator",
       "mirrors/repos/CursorTouch@Windows-MCP/.claude/skills/windows-mcp-tool-tester",
+      "mirrors/repos/CyberJ0605@cinematic-video-prompt-engineer-skill/cinematic-video-prompt-engineer",
       "mirrors/repos/D4Vinci@Scrapling/agent-skill/Scrapling-Skill",
       "mirrors/repos/DanielFreitas@lorebase/.github/skills/learn-capture",
       "mirrors/repos/DanielFreitas@lorebase/.github/skills/learn-discovery",
@@ -23216,6 +23217,8 @@
       "mirrors/repos/NeoLabHQ@context-engineering-kit/plugins/customaize-agent/skills/create-rule",
       "mirrors/repos/NeoLabHQ@context-engineering-kit/plugins/git/skills/git-notes",
       "mirrors/repos/NeoLabHQ@context-engineering-kit/plugins/git/skills/git-worktrees",
+      "mirrors/repos/NeoLabHQ@context-engineering-kit/plugins/git/skills/load-pr-comments",
+      "mirrors/repos/NeoLabHQ@context-engineering-kit/plugins/git/skills/resolve-fixed-pr-comments",
       "mirrors/repos/NeoLabHQ@context-engineering-kit/plugins/sdd/skills/implement-task",
       "mirrors/repos/NeoLabHQ@context-engineering-kit/plugins/sdd/skills/plan-task",
       "mirrors/repos/NeoLabHQ@context-engineering-kit/plugins/tdd/skills/design-testing-strategy",
@@ -23875,11 +23878,12 @@
       "mirrors/repos/PaulRBerg@agent-skills/skills/create-skill",
       "mirrors/repos/PaulRBerg@agent-skills/skills/debrief",
       "mirrors/repos/PaulRBerg@agent-skills/skills/effect-ts",
-      "mirrors/repos/PaulRBerg@agent-skills/skills/evm-chains",
+      "mirrors/repos/PaulRBerg@agent-skills/skills/evm-atlas",
       "mirrors/repos/PaulRBerg@agent-skills/skills/find-tool",
       "mirrors/repos/PaulRBerg@agent-skills/skills/git-squash",
       "mirrors/repos/PaulRBerg@agent-skills/skills/loop-skill",
       "mirrors/repos/PaulRBerg@agent-skills/skills/playground",
+      "mirrors/repos/PaulRBerg@agent-skills/skills/repo-rename",
       "mirrors/repos/PaulRBerg@agent-skills/skills/skill-map",
       "mirrors/repos/PaulRBerg@agent-skills/skills/spreadsheets",
       "mirrors/repos/PaulRBerg@agent-skills/skills/tailwind-css",
@@ -24013,6 +24017,7 @@
       "mirrors/repos/PostHog@posthog/products/reminders/skills/managing-reminders",
       "mirrors/repos/PostHog@posthog/products/replay/skills/debugging-local-replay",
       "mirrors/repos/PostHog@posthog/products/replay/skills/diagnosing-missing-recordings",
+      "mirrors/repos/PostHog@posthog/products/replay/skills/exporting-session-recordings",
       "mirrors/repos/PostHog@posthog/products/replay/skills/finding-replay-for-issue",
       "mirrors/repos/PostHog@posthog/products/replay/skills/finding-sessions-to-watch",
       "mirrors/repos/PostHog@posthog/products/replay/skills/investigating-replay",
@@ -24699,17 +24704,7 @@
       "mirrors/repos/SuperClaude-Org@SuperClaude_Framework/plugins/superclaude/skills/troubleshoot",
       "mirrors/repos/SuperClaude-Org@SuperClaude_Framework/skills/confidence-check",
       "mirrors/repos/SwanHubX@SwanLab/skills/swanlab-skill",
-      "mirrors/repos/SynaLinks@synalinks-skills/synalinks-agents",
-      "mirrors/repos/SynaLinks@synalinks-skills/synalinks-control-flow",
-      "mirrors/repos/SynaLinks@synalinks-skills/synalinks-core",
-      "mirrors/repos/SynaLinks@synalinks-skills/synalinks-datasets",
-      "mirrors/repos/SynaLinks@synalinks-skills/synalinks-knowledge",
-      "mirrors/repos/SynaLinks@synalinks-skills/synalinks-modules",
-      "mirrors/repos/SynaLinks@synalinks-skills/synalinks-optimizers",
-      "mirrors/repos/SynaLinks@synalinks-skills/synalinks-programs",
-      "mirrors/repos/SynaLinks@synalinks-skills/synalinks-providers",
-      "mirrors/repos/SynaLinks@synalinks-skills/synalinks-rewards",
-      "mirrors/repos/SynaLinks@synalinks-skills/synalinks-training",
+      "mirrors/repos/SynaLinks@synalinks-skills/skills/synalinks",
       "mirrors/repos/THU-MAIC@OpenMAIC/packages/@maic/importer",
       "mirrors/repos/THU-MAIC@OpenMAIC/skills/openmaic",
       "mirrors/repos/TanShilongMario@PromptSkill4image",
@@ -24878,6 +24873,7 @@
       "mirrors/repos/Versatly@clawvault/tests/compat-fixtures/unsafe-hook-handler",
       "mirrors/repos/Versatly@clawvault/tests/compat-fixtures/unsafe-shell-handler",
       "mirrors/repos/Wei-Shaw@sub2api/skills/sub2api-admin",
+      "mirrors/repos/WenyuChiou@awesome-agentic-ai-zh/examples/stage-5/tool-calling-tutor",
       "mirrors/repos/WilcoRakhorst@helder-ai-marketing-skills/content-creator",
       "mirrors/repos/WilcoRakhorst@helder-ai-marketing-skills/geo-optimization",
       "mirrors/repos/WilcoRakhorst@helder-ai-marketing-skills/seo-keyword-research",
@@ -28214,6 +28210,15 @@
       "mirrors/repos/astral-sh@ruff/.agents/skills/summarise-ecosystem-results",
       "mirrors/repos/athola@skrills/assets/demo-skills/coding-assistant",
       "mirrors/repos/athola@skrills/skills/html-portal-generator",
+      "mirrors/repos/atsushi-green@ds-ai-coding-skills/.github/skills/analysis-reporting",
+      "mirrors/repos/atsushi-green@ds-ai-coding-skills/.github/skills/dataframe-polars",
+      "mirrors/repos/atsushi-green@ds-ai-coding-skills/.github/skills/notebook-workflow",
+      "mirrors/repos/atsushi-green@ds-ai-coding-skills/.github/skills/path-and-io",
+      "mirrors/repos/atsushi-green@ds-ai-coding-skills/.github/skills/python-project-ops",
+      "mirrors/repos/atsushi-green@ds-ai-coding-skills/.github/skills/python-style",
+      "mirrors/repos/atsushi-green@ds-ai-coding-skills/.github/skills/safe-data-handling",
+      "mirrors/repos/atsushi-green@ds-ai-coding-skills/.github/skills/sql-analysis",
+      "mirrors/repos/atsushi-green@ds-ai-coding-skills/.github/skills/statistical-ml-review",
       "mirrors/repos/austinsonger@GRC-Mapping-Analyst/skills/strm-mapping",
       "mirrors/repos/automateyournetwork@netclaw/workspace/skills/aap-automation",
       "mirrors/repos/automateyournetwork@netclaw/workspace/skills/aap-eda",
@@ -29293,7 +29298,6 @@
       "mirrors/repos/brycewang-stanford@Auto-Empirical-Research-Skills/skills/68-research-productivity-skills/literature-survey-generator",
       "mirrors/repos/brycewang-stanford@Auto-Empirical-Research-Skills/skills/68-research-productivity-skills/nber-working-papers-api",
       "mirrors/repos/brycewang-stanford@Auto-Empirical-Research-Skills/skills/68-research-productivity-skills/unpaywall-api",
-      "mirrors/repos/brycewang-stanford@Auto-Empirical-Research-Skills/skills/69-Paper-WorkFlow",
       "mirrors/repos/buiducnhat@agent-skills/plugins/cobrew/skills/quick-implement",
       "mirrors/repos/builderz-labs@mission-control",
       "mirrors/repos/butterbase-ai@butterbase-skills",
@@ -29559,7 +29563,6 @@
       "mirrors/repos/christophacham@agent-skills-library/skills/ai-ml/consult",
       "mirrors/repos/christophacham@agent-skills-library/skills/ai-ml/coverage-analysis",
       "mirrors/repos/christophacham@agent-skills-library/skills/ai-ml/coverage-check",
-      "mirrors/repos/christophacham@agent-skills-library/skills/ai-ml/create-hook",
       "mirrors/repos/christophacham@agent-skills-library/skills/ai-ml/create-workflow-command",
       "mirrors/repos/christophacham@agent-skills-library/skills/ai-ml/cursor-subagent-creator",
       "mirrors/repos/christophacham@agent-skills-library/skills/ai-ml/do-and-judge",
@@ -30818,6 +30821,7 @@
       "mirrors/repos/davila7@claude-code-templates/cli-tool/components/skills/development/brightdata-local-search",
       "mirrors/repos/davila7@claude-code-templates/cli-tool/components/skills/development/cloud-run-basics",
       "mirrors/repos/davila7@claude-code-templates/cli-tool/components/skills/development/cocoindex",
+      "mirrors/repos/davila7@claude-code-templates/cli-tool/components/skills/development/context-architecture",
       "mirrors/repos/davila7@claude-code-templates/cli-tool/components/skills/development/devops-iac-engineer",
       "mirrors/repos/davila7@claude-code-templates/cli-tool/components/skills/development/fastmcp-server",
       "mirrors/repos/davila7@claude-code-templates/cli-tool/components/skills/development/feature-design-assistant",
@@ -32405,6 +32409,7 @@
       "mirrors/repos/gadievron@raptor/.claude/skills/crash-analysis/line-execution-checker",
       "mirrors/repos/gadievron@raptor/.claude/skills/crash-analysis/rr-debugger",
       "mirrors/repos/gadievron@raptor/.claude/skills/exploitability-validation",
+      "mirrors/repos/gadievron@raptor/.claude/skills/frida",
       "mirrors/repos/gadievron@raptor/.claude/skills/oss-forensics/github-archive",
       "mirrors/repos/gadievron@raptor/.claude/skills/oss-forensics/github-commit-recovery",
       "mirrors/repos/gadievron@raptor/.claude/skills/oss-forensics/github-evidence-kit",
@@ -32649,6 +32654,7 @@
       "mirrors/repos/ginlix-ai@LangAlpha/skills/3-statements",
       "mirrors/repos/ginlix-ai@LangAlpha/skills/automation",
       "mirrors/repos/ginlix-ai@LangAlpha/skills/catalyst-calendar",
+      "mirrors/repos/ginlix-ai@LangAlpha/skills/chart-annotation",
       "mirrors/repos/ginlix-ai@LangAlpha/skills/check-deck",
       "mirrors/repos/ginlix-ai@LangAlpha/skills/check-model",
       "mirrors/repos/ginlix-ai@LangAlpha/skills/competitive-analysis",
@@ -38181,6 +38187,15 @@
       "mirrors/repos/labring@FastGPT/.agents/skills/system/api-development",
       "mirrors/repos/labring@FastGPT/.agents/skills/system/pr-change-analysis",
       "mirrors/repos/labring@FastGPT/.agents/skills/system/test-case",
+      "mirrors/repos/langbot-app@LangBot/skills/skills/langbot-deploy",
+      "mirrors/repos/langbot-app@LangBot/skills/skills/langbot-dev",
+      "mirrors/repos/langbot-app@LangBot/skills/skills/langbot-eba-adapter-dev",
+      "mirrors/repos/langbot-app@LangBot/skills/skills/langbot-env-setup",
+      "mirrors/repos/langbot-app@LangBot/skills/skills/langbot-mcp-ops",
+      "mirrors/repos/langbot-app@LangBot/skills/skills/langbot-plugin-dev",
+      "mirrors/repos/langbot-app@LangBot/skills/skills/langbot-skills-maintenance",
+      "mirrors/repos/langbot-app@LangBot/skills/skills/langbot-space-ops",
+      "mirrors/repos/langbot-app@LangBot/skills/skills/langbot-testing",
       "mirrors/repos/langchain-ai@deepagents/examples/deploy-coding-agent/skills/coding-prefs",
       "mirrors/repos/langchain-ai@deepagents/examples/deploy-gtm-agent/subagents/market-researcher/skills/analyze-market",
       "mirrors/repos/langchain-ai@deepagents/examples/nvidia_deep_agent/skills/cudf-analytics",
@@ -39751,6 +39766,7 @@
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/cicd-playbook",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/claude-superpowers",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/clinical-case-summary",
+      "mirrors/repos/mohitagw15856@pm-claude-skills/skills/code-explainer",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/code-review-checklist",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/community-management-playbook",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/competitive-intelligence-monitor",
@@ -39767,6 +39783,7 @@
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/database-schema-design",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/debugging-log-analyser",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/dependency-audit",
+      "mirrors/repos/mohitagw15856@pm-claude-skills/skills/dependency-conflict-resolver",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/design-critique",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/design-handoff-brief",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/design-system-audit",
@@ -39780,6 +39797,7 @@
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/employee-engagement-survey",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/engineering-hiring-rubric",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/engineering-weekly-report",
+      "mirrors/repos/mohitagw15856@pm-claude-skills/skills/error-decoder",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/executive-summary",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/executive-update",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/experiment-designer",
@@ -39797,6 +39815,7 @@
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/figma-variant-matrix",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/financial-due-diligence",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/financial-model-narrative",
+      "mirrors/repos/mohitagw15856@pm-claude-skills/skills/git-troubleshooter",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/go-to-market",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/go-to-market-planner",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/grant-proposal",
@@ -39840,7 +39859,9 @@
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/proposal-writer",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/qbr-deck",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/raci-matrix",
+      "mirrors/repos/mohitagw15856@pm-claude-skills/skills/red-team-review",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/redundancy-consultation",
+      "mirrors/repos/mohitagw15856@pm-claude-skills/skills/regex-builder",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/renewal-playbook",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/research-protocol",
       "mirrors/repos/mohitagw15856@pm-claude-skills/skills/retro-analysis",
@@ -39932,6 +39953,7 @@
       "mirrors/repos/mui@material-ui/skills/material-ui-styling",
       "mirrors/repos/mui@material-ui/skills/material-ui-tailwind",
       "mirrors/repos/mui@material-ui/skills/material-ui-theming",
+      "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/achieving-cmmc-level-2-compliance",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/acquiring-disk-image-with-dd-and-dcfldd",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/analyzing-active-directory-acl-abuse",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/analyzing-android-malware-with-apktool",
@@ -40012,6 +40034,7 @@
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/auditing-aws-s3-bucket-permissions",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/auditing-azure-active-directory-configuration",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/auditing-cloud-with-cis-benchmarks",
+      "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/auditing-foundry-smart-contract-security",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/auditing-gcp-iam-permissions",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/auditing-kubernetes-cluster-rbac",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/auditing-terraform-infrastructure-for-security",
@@ -40059,6 +40082,7 @@
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/conducting-api-security-testing",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/conducting-cloud-incident-response",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/conducting-cloud-penetration-testing",
+      "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/conducting-cyber-risk-assessment-with-nist-800-30",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/conducting-domain-persistence-with-dcsync",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/conducting-external-reconnaissance-with-osint",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/conducting-full-scope-red-team-engagement",
@@ -40100,6 +40124,7 @@
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/deobfuscating-javascript-malware",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/deobfuscating-powershell-obfuscated-malware",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/deploying-active-directory-honeytokens",
+      "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/deploying-cloud-deception-with-decoy-resources",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/deploying-cloudflare-access-for-zero-trust",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/deploying-decoy-files-for-ransomware-detection",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/deploying-edr-agent-with-crowdstrike",
@@ -40108,6 +40133,7 @@
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/deploying-ransomware-canary-files",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/deploying-software-defined-perimeter",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/deploying-tailscale-for-zero-trust-vpn",
+      "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/designing-adversary-engagement-with-mitre-engage",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/detecting-ai-model-prompt-injection-attacks",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/detecting-anomalies-in-industrial-control-systems",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/detecting-anomalous-authentication-patterns",
@@ -40196,6 +40222,7 @@
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/detecting-typosquatting-packages-in-npm-pypi",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/detecting-wmi-persistence",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/evaluating-threat-intelligence-platforms",
+      "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/executing-nist-rmf-authorization-to-operate",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/exploiting-active-directory-certificate-services-esc1",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/exploiting-active-directory-with-bloodhound",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/exploiting-api-injection-vulnerabilities",
@@ -40344,6 +40371,7 @@
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/implementing-google-workspace-sso-configuration",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/implementing-hardware-security-key-authentication",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/implementing-hashicorp-vault-dynamic-secrets",
+      "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/implementing-hipaa-security-rule-safeguards",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/implementing-honeypot-for-ransomware-detection",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/implementing-honeytokens-for-breach-detection",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/implementing-ics-firewall-with-tofino",
@@ -40445,6 +40473,7 @@
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/investigating-ransomware-attack-artifacts",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/managing-cloud-identity-with-okta",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/managing-intelligence-lifecycle",
+      "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/managing-third-party-vendor-risk",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/monitoring-scada-modbus-traffic-anomalies",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/performing-access-recertification-with-saviynt",
       "mirrors/repos/mukul975@Anthropic-Cybersecurity-Skills/skills/performing-access-review-and-certification",
@@ -40734,7 +40763,6 @@
       "mirrors/repos/mxyhi@ok-skills/exa-search",
       "mirrors/repos/mxyhi@ok-skills/find-docs",
       "mirrors/repos/mxyhi@ok-skills/find-skills",
-      "mirrors/repos/mxyhi@ok-skills/frontend-skill",
       "mirrors/repos/mxyhi@ok-skills/get-api-docs",
       "mirrors/repos/mxyhi@ok-skills/gh-address-comments",
       "mirrors/repos/mxyhi@ok-skills/gh-fix-ci",
@@ -41204,6 +41232,7 @@
       "mirrors/repos/nexu-io@open-design/skills/frame-logo-outro",
       "mirrors/repos/nexu-io@open-design/skills/frame-macos-notification",
       "mirrors/repos/nexu-io@open-design/skills/frontend-dev",
+      "mirrors/repos/nexu-io@open-design/skills/frontend-skill",
       "mirrors/repos/nexu-io@open-design/skills/full-page-screenshot",
       "mirrors/repos/nexu-io@open-design/skills/gif-sticker-maker",
       "mirrors/repos/nexu-io@open-design/skills/hand-drawn-diagrams",
@@ -42268,7 +42297,6 @@
       "mirrors/repos/rohitg00@awesome-claude-code-toolkit/skills/monitoring-observability",
       "mirrors/repos/rohitg00@awesome-claude-code-toolkit/skills/nextjs-mastery",
       "mirrors/repos/rohitg00@awesome-claude-code-toolkit/skills/postgres-optimization",
-      "mirrors/repos/rohitg00@awesome-claude-code-toolkit/skills/prompt-engineering",
       "mirrors/repos/rohitg00@awesome-claude-code-toolkit/skills/python-best-practices",
       "mirrors/repos/rohitg00@awesome-claude-code-toolkit/skills/rust-systems",
       "mirrors/repos/rohitg00@awesome-claude-code-toolkit/skills/styleseed",
@@ -45268,6 +45296,7 @@
       "mirrors/repos/tradermonty@claude-trading-skills/skills/skill-idea-miner",
       "mirrors/repos/tradermonty@claude-trading-skills/skills/skill-integration-tester",
       "mirrors/repos/tradermonty@claude-trading-skills/skills/stanley-druckenmiller-investment",
+      "mirrors/repos/tradermonty@claude-trading-skills/skills/stockbee-momentum-burst-screener",
       "mirrors/repos/tradermonty@claude-trading-skills/skills/strategy-pivot-designer",
       "mirrors/repos/tradermonty@claude-trading-skills/skills/technical-analyst",
       "mirrors/repos/tradermonty@claude-trading-skills/skills/theme-detector",
@@ -45280,6 +45309,7 @@
       "mirrors/repos/tradermonty@claude-trading-skills/skills/us-stock-analysis",
       "mirrors/repos/tradermonty@claude-trading-skills/skills/value-dividend-screener",
       "mirrors/repos/tradermonty@claude-trading-skills/skills/vcp-screener",
+      "mirrors/repos/tradermonty@claude-trading-skills/skills/weekly-performance-digest",
       "mirrors/repos/trading212-labs@agent-skills/plugins/trading212-api/skills/trading212-api",
       "mirrors/repos/trailofbits@skills/plugins/c-review/skills/c-review",
       "mirrors/repos/trailofbits@skills/plugins/claude-in-chrome-troubleshooting/skills/chrome-mcp-troubleshooting",
@@ -45580,7 +45610,6 @@
       "mirrors/repos/vercel@next.js/.agents/skills/v8-jit",
       "mirrors/repos/vercel@next.js/.agents/skills/write-api-reference",
       "mirrors/repos/vercel@next.js/.agents/skills/write-guide",
-      "mirrors/repos/vercel@next.js/.claude-plugin/plugins/cache-components/skills/cache-components",
       "mirrors/repos/vercel@next.js/skills/next-cache-components-optimizer",
       "mirrors/repos/vercel@next.js/skills/next-dev-loop",
       "mirrors/repos/vibheksoni@stealth-browser-mcp/skills/stealth-browser-mcp",
@@ -46875,6 +46904,11 @@
       "mirrors/repos/zhizhuodemao@ai-reverse-toolkit/skills/find-crypto-entry",
       "mirrors/repos/zhouwei713@fpv-immersive-video-prompting",
       "mirrors/repos/zhouwei713@gpt-image-2-prompting-skill",
+      "mirrors/repos/zhuangwenhui@CodingSkills/cpp-code-format",
+      "mirrors/repos/zhuangwenhui@CodingSkills/create-hook",
+      "mirrors/repos/zhuangwenhui@CodingSkills/incremental-change-cycle",
+      "mirrors/repos/zhuangwenhui@CodingSkills/prompt-engineering",
+      "mirrors/repos/zhuangwenhui@CodingSkills/python-code-format",
       "mirrors/repos/zilliztech@memsearch/plugins/claude-code/skills/memory-config",
       "mirrors/repos/zilliztech@memsearch/plugins/claude-code/skills/memory-recall",
       "mirrors/repos/zilliztech@memsearch/plugins/claude-code/skills/memory-to-skill",
@@ -46927,7 +46961,7 @@
       "mirrors/repos/zy-zmc@tianming-skill",
       "mirrors/repos/zylon-ai@private-gpt/private_gpt/resources/skills/guidelines"
     ],
-    "lastUpdated": "2026-06-20T07:43:54.411Z"
+    "lastUpdated": "2026-06-21T04:59:09.462Z"
   },
   {
     "source": "github:gabrielmoreira/skills",
@@ -48593,12 +48627,12 @@
   },
   {
     "source": "github:gastownhall/beads",
-    "rev": "b4d999fa9e55cfa174ac2a08aba5a81b09019f96",
-    "hash": "0xh3b0ddwlw566lzirwfmrik1rx4rjjp7z8hmq4b4xzkwmyakwfl",
+    "rev": "4d08edbeb77209d801daae42ba6de5484e7b95b8",
+    "hash": "1kcfbynbcdbig1l9g93wr9jk3z25ris366dbz8acsrphkzwl4fbb",
     "skills": [
       "internal/templates/skills/beads"
     ],
-    "lastUpdated": "2026-06-21T01:33:39.504Z"
+    "lastUpdated": "2026-06-21T04:55:21.273Z"
   },
   {
     "source": "github:gate/gate-skills",
@@ -49635,8 +49669,8 @@
   },
   {
     "source": "github:geminilight/mindos",
-    "rev": "baf5da01051615d78c85ea5419cecc7b4dbf48e6",
-    "hash": "0zvxwjfpnj6z1gyk69kq6fxw15gd0lvwpsl60n8dffgdh5yjz12m",
+    "rev": "e36b45653a793f576f3f1b58d0c0f985e5ca39ff",
+    "hash": "1v0ly21awc81l450iqih3x0qfkyzbz80gympjzp3bi4kg2gx5vd2",
     "skills": [
       "skills/find-skills",
       "skills/mindos",
@@ -49647,7 +49681,7 @@
       "skills/plugin-core-builtin-migration",
       "skills/project-wiki"
     ],
-    "lastUpdated": "2026-06-21T01:32:24.293Z"
+    "lastUpdated": "2026-06-21T04:56:29.819Z"
   },
   {
     "source": "github:gen-verse/openclaw-rl",
@@ -51397,13 +51431,13 @@
   },
   {
     "source": "github:gexijin/vibe",
-    "rev": "cfc0c590ec73ad49a91b01343a342a53118a94b2",
-    "hash": "07xd09zl6y0p5vnk8wd2j08vzdrhchrxf381hxy8l0glw6rk9h48",
+    "rev": "f1f0f00cefd8b190466c84a0ac8ef68c4523f791",
+    "hash": "0dwv3jypskc22vsmk6adlm396qs3yzdmkrbvjgmkpmyjdf88sjdr",
     "skills": [
       ".claude/skills/generating-stock-reports",
       ".claude/skills/medical-research"
     ],
-    "lastUpdated": "2026-06-21T01:33:06.231Z"
+    "lastUpdated": "2026-06-21T04:57:30.331Z"
   },
   {
     "source": "github:gfargo/tui-design-skill",
@@ -52562,23 +52596,24 @@
   },
   {
     "source": "github:gitbutlerapp/gitbutler",
-    "rev": "0278a5a71f8ffbb6a5f7a1cb53e5e7dd40f62908",
-    "hash": "0aw9pslikn274ivh6xx7qk6f2ic1rjalr9xpjfdi60x6b2x7hb29",
+    "rev": "4d10909e2802751d99097906bc83826fa79ecc03",
+    "hash": "1s18wy82imnqgsrm9s9xz4x9hlasyj4znvxkrgdifb2mla1v16ji",
     "skills": [
       ".agents/skills/tui-tests",
       "crates/but-agentlog/skill"
     ],
-    "lastUpdated": "2026-06-21T01:32:31.444Z"
+    "lastUpdated": "2026-06-21T04:56:08.471Z"
   },
   {
     "source": "github:gitbyeos/open-part-skills",
-    "rev": "dacf2231ea78474a537fa09c68fdffd5e4b97bad",
-    "hash": "1nskdi9fa655djkh5c50hsshbgf25h0nq6m8dgg5jlnhdcs1k5cz",
+    "rev": "8d6e6394c850b0564ac8ab45db778f1f6e4db8a0",
+    "hash": "05i8832m9khif5i19p2r8px6bdfk4q5q9czkz6ax1f3mqlqbd07b",
     "skills": [
       "skills/blog-narrator",
       "skills/cc-claude",
       "skills/fetch-what-say",
       "skills/git-review",
+      "skills/holiday-of-12306",
       "skills/juya",
       "skills/memory-graph",
       "skills/mock-ollama",
@@ -52588,7 +52623,7 @@
       "skills/vite-plus",
       "skills/webfetch-plus"
     ],
-    "lastUpdated": "2026-06-20T15:54:00.976Z"
+    "lastUpdated": "2026-06-21T04:55:58.682Z"
   },
   {
     "source": "github:gitdolucas/log-to-post",
@@ -53037,8 +53072,8 @@
   },
   {
     "source": "github:github/gh-aw",
-    "rev": "4e8930f4bccfe46043f7b6e7b93c0b5d5e6cdaac",
-    "hash": "038m8m7qbf12h0dxni6s11qy1kv2swimhin4casj0ikhzbryysgh",
+    "rev": "c43679bb20527885ce1750bc4edfbc2eb34f1a9a",
+    "hash": "0jkxynkrs3r19g8bzsnasb5sdy22yzif49hjm7mgznpaq8pzvn4d",
     "skills": [
       ".",
       ".claude/skills/playwright-cli",
@@ -53083,7 +53118,7 @@
       ".github/skills/temporary-id-safe-output",
       ".github/skills/workflow-step-summaries"
     ],
-    "lastUpdated": "2026-06-21T01:34:18.525Z"
+    "lastUpdated": "2026-06-21T04:58:06.942Z"
   },
   {
     "source": "github:github/gh-aw-firewall",
@@ -53147,8 +53182,8 @@
   },
   {
     "source": "github:githubnext/gh-aw",
-    "rev": "4e8930f4bccfe46043f7b6e7b93c0b5d5e6cdaac",
-    "hash": "038m8m7qbf12h0dxni6s11qy1kv2swimhin4casj0ikhzbryysgh",
+    "rev": "c43679bb20527885ce1750bc4edfbc2eb34f1a9a",
+    "hash": "0jkxynkrs3r19g8bzsnasb5sdy22yzif49hjm7mgznpaq8pzvn4d",
     "skills": [
       ".",
       ".claude/skills/playwright-cli",
@@ -53193,7 +53228,7 @@
       ".github/skills/temporary-id-safe-output",
       ".github/skills/workflow-step-summaries"
     ],
-    "lastUpdated": "2026-06-21T01:34:26.150Z"
+    "lastUpdated": "2026-06-21T04:58:10.569Z"
   },
   {
     "source": "github:gitlayzer/sealtun",
@@ -55499,14 +55534,14 @@
   },
   {
     "source": "github:goofansu/pi-stuff",
-    "rev": "0a5c87ff5d9c0a2da3890e11a8b6c7d7ce39c9c8",
-    "hash": "15l29pycqi6c5bkiava2izsgkd1229b143nba24z28h3l5ibbznw",
+    "rev": "1319946d4c782183c72e7aee002b16929541b272",
+    "hash": "0c7azpga5klqmq9clj52dl931qrfkcpwa30i8ly82cwfpbyap0aa",
     "skills": [
       ".pi/skills/check-upstream",
       "skills/commit",
       "skills/handoff"
     ],
-    "lastUpdated": "2026-06-20T15:53:22.296Z"
+    "lastUpdated": "2026-06-21T04:56:04.951Z"
   },
   {
     "source": "github:googlarz/finance-assistant",
@@ -58416,13 +58451,13 @@
   },
   {
     "source": "github:greyhaven-ai/autocontext",
-    "rev": "fe80c08ac82323b31ebd4878ade666d99a463024",
-    "hash": "0fmradqh92f7qk02mbrzkxb2bxr31m3g38403w5r2wm8jrwc6s2i",
+    "rev": "f94b9e25f42ca0f29ca03acfc63418c5fbf1cf2b",
+    "hash": "1dra9kshkh8i7sf56l9c8qi9npgcrivd2lm0pg1l704slypkbp22",
     "skills": [
       "autocontext/skills/grid-ctf-ops",
       "skills/autocontext"
     ],
-    "lastUpdated": "2026-06-20T07:43:36.054Z"
+    "lastUpdated": "2026-06-21T04:56:16.924Z"
   },
   {
     "source": "github:greyhaven-ai/claude-code-config",
