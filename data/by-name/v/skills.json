@@ -324,8 +324,8 @@
   },
   {
     "source": "github:Vinix24/vnx-orchestration",
-    "rev": "f04324477207e8742d152d35fd4ce32dc11948ce",
-    "hash": "1sh1lgi4qy4g5ggq78skxy4lwzd8rp86vs6ijcp0wm7chv75s4r9",
+    "rev": "1f35145189e0e25bd8be19ed750f38d992b60ef0",
+    "hash": "1g48ld9yx7250fk2zk99myfbr836ds0h0q1x0fpdxchx1fh367y9",
     "skills": [
       ".claude/skills/control-centre",
       ".claude/skills/featureplan-kickoff",
@@ -352,7 +352,7 @@
       "skills/test-engineer",
       "skills/vnx-manager"
     ],
-    "lastUpdated": "2026-06-23T10:28:04.027Z"
+    "lastUpdated": "2026-06-23T13:17:37.881Z"
   },
   {
     "source": "github:ViryaZheng/ai-humanizer",
@@ -650,48 +650,10 @@
   },
   {
     "source": "github:v1truv1us/ai-eng-system",
-    "rev": "6792fd66c7c91d5b2a06c7b1f7f362ac83164d41",
-    "hash": "1784m7fhdnlcl9dvbyg6f76zmbp3rlfrawvvxpr8b9lx4s1r2y03",
+    "rev": "73b800db9cae25aefc78ece388242a6dd3223ab6",
+    "hash": "1mxlf46z260awx7zifjg5canxim7vypnkqv4v1sfkrflhf6zgqii",
     "skills": [
-      ".agents/skills/check-compiler-errors",
-      ".agents/skills/context-budget",
-      ".agents/skills/continuous-learning-v2",
-      ".agents/skills/create-learning-path",
-      ".agents/skills/cursor-sdk",
-      ".agents/skills/doc-review",
-      ".agents/skills/docs-canvas",
-      ".agents/skills/eval-harness",
-      ".agents/skills/fix-merge-conflicts",
-      ".agents/skills/get-pr-comments",
-      ".agents/skills/morning-brief",
-      ".agents/skills/new-branch-and-pr",
-      ".agents/skills/pstack/arena",
-      ".agents/skills/pstack/automate-me",
-      ".agents/skills/pstack/how",
-      ".agents/skills/pstack/poteto-mode",
-      ".agents/skills/pstack/principle-boundary-discipline",
-      ".agents/skills/pstack/principle-encode-lessons-in-structure",
-      ".agents/skills/pstack/principle-exhaust-the-design-space",
-      ".agents/skills/pstack/principle-experience-first",
-      ".agents/skills/pstack/principle-foundational-thinking",
-      ".agents/skills/pstack/principle-guard-the-context-window",
-      ".agents/skills/pstack/principle-make-operations-idempotent",
-      ".agents/skills/pstack/principle-migrate-callers-then-delete-legacy-apis",
-      ".agents/skills/pstack/principle-minimize-reader-load",
-      ".agents/skills/pstack/principle-outcome-oriented-execution",
-      ".agents/skills/pstack/principle-redesign-from-first-principles",
-      ".agents/skills/pstack/principle-separate-before-serializing-shared-state",
-      ".agents/skills/pstack/principle-subtract-before-you-add",
-      ".agents/skills/pstack/reflect",
-      ".agents/skills/pstack/typescript-best-practices",
-      ".agents/skills/pstack/why",
-      ".agents/skills/repurpose",
-      ".agents/skills/research-deep",
-      ".agents/skills/run-learning-retrospective",
-      ".agents/skills/weekly-review",
-      ".agents/skills/what-did-i-get-done",
-      ".agents/skills/workflow-from-chats",
-      ".pi/skills/dynamic-claude-router",
+      ".gemini/skills/continuous-learning-v2",
       "agents/research-runner/deploy/skills/auto-research",
       "agents/research-runner/deploy/skills/wiki-research-engineering",
       "agents/research-runner/deploy/skills/wiki-research-personal",
@@ -702,28 +664,38 @@
       "skills/architect",
       "skills/browser-testing-with-devtools",
       "skills/check-agent-compatibility",
+      "skills/check-compiler-errors",
       "skills/ci-cd-and-automation",
       "skills/cli-for-agents",
       "skills/code-review-and-quality",
       "skills/code-simplification",
       "skills/comprehensive-research",
       "skills/content-optimization",
+      "skills/context-budget",
       "skills/context-engineering",
       "skills/continuous-learning",
       "skills/control-cli",
       "skills/control-ui",
       "skills/coolify-deploy",
       "skills/create-goal",
+      "skills/create-learning-path",
       "skills/cross-repo-refactor",
+      "skills/cursor-sdk",
       "skills/debugging-and-error-recovery",
       "skills/dependency-graph-analysis",
       "skills/deprecation-and-migration",
+      "skills/doc-review",
       "skills/docker",
+      "skills/docs-canvas",
       "skills/documentation-and-adrs",
       "skills/dreaming-consolidator",
+      "skills/dynamic-claude-router",
+      "skills/eval-harness",
       "skills/fix-ci",
+      "skills/fix-merge-conflicts",
       "skills/frontend-ui-engineering",
       "skills/gemini-agent-sdk",
+      "skills/get-pr-comments",
       "skills/git-workflow-and-versioning",
       "skills/git-worktree",
       "skills/github",
@@ -743,7 +715,9 @@
       "skills/make-pr-easy-to-review",
       "skills/monitoring",
       "skills/monorepo-initialization",
+      "skills/morning-brief",
       "skills/multimodal-corpus-ingestion",
+      "skills/new-branch-and-pr",
       "skills/npm-trusted-publishing",
       "skills/orchestrate",
       "skills/performance-optimization",
@@ -758,8 +732,31 @@
       "skills/principle-type-system-discipline",
       "skills/prompt-engineering",
       "skills/prompt-refinement",
+      "skills/pstack/arena",
+      "skills/pstack/automate-me",
+      "skills/pstack/how",
+      "skills/pstack/poteto-mode",
+      "skills/pstack/principle-boundary-discipline",
+      "skills/pstack/principle-encode-lessons-in-structure",
+      "skills/pstack/principle-exhaust-the-design-space",
+      "skills/pstack/principle-experience-first",
+      "skills/pstack/principle-foundational-thinking",
+      "skills/pstack/principle-guard-the-context-window",
+      "skills/pstack/principle-make-operations-idempotent",
+      "skills/pstack/principle-migrate-callers-then-delete-legacy-apis",
+      "skills/pstack/principle-minimize-reader-load",
+      "skills/pstack/principle-outcome-oriented-execution",
+      "skills/pstack/principle-redesign-from-first-principles",
+      "skills/pstack/principle-separate-before-serializing-shared-state",
+      "skills/pstack/principle-subtract-before-you-add",
+      "skills/pstack/reflect",
+      "skills/pstack/typescript-best-practices",
+      "skills/pstack/why",
       "skills/repo-audit",
+      "skills/repurpose",
+      "skills/research-deep",
       "skills/review-and-ship",
+      "skills/run-learning-retrospective",
       "skills/run-smoke-tests",
       "skills/security-and-hardening",
       "skills/sentry",
@@ -768,6 +765,8 @@
       "skills/slack",
       "skills/source-driven-development",
       "skills/spec-driven-development",
+      "skills/storm-research",
+      "skills/sync-skill-taxonomy",
       "skills/tdd",
       "skills/teach",
       "skills/test-driven-development",
@@ -781,10 +780,13 @@
       "skills/using-agent-skills",
       "skills/verification-loop",
       "skills/verify-this",
+      "skills/weekly-review",
+      "skills/what-did-i-get-done",
+      "skills/workflow-from-chats",
       "skills/workflow/ralph-wiggum",
       "skills/xcodebuild"
     ],
-    "lastUpdated": "2026-06-20T07:46:08.790Z"
+    "lastUpdated": "2026-06-23T13:24:29.040Z"
   },
   {
     "source": "github:v5tech/skills",
@@ -798,8 +800,8 @@
   },
   {
     "source": "github:vaadin/agent-skills",
-    "rev": "88af97dd436e6ee53343f04971ae0fff12be7025",
-    "hash": "1ilg8djahwrf2p9w70x2cdmby3hcasy7dl1mx5vzp57h7wvi3f54",
+    "rev": "76644f5c25c3d6413275adcc805b153327dbcb64",
+    "hash": "189w9w3ymw7xphbpazvg5c682mqm03zgvnw3ksnp7ivxrydvh0js",
     "skills": [
       "skills/aura-theme",
       "skills/client-side-views",
@@ -818,12 +820,12 @@
       "skills/vaadin-layouts",
       "skills/views-and-navigation"
     ],
-    "lastUpdated": "2026-06-23T10:33:17.347Z"
+    "lastUpdated": "2026-06-23T13:24:27.515Z"
   },
   {
     "source": "github:vaayne/agent-kit",
-    "rev": "991f2e9737bc97d3c1f0b198a6512464f8b2c4ef",
-    "hash": "1x3wl74g15vq8xyhf9ilnk2nmikycf27xli8bdmbaab7mwgpk8kz",
+    "rev": "24268895f87e08d5c6d8b96ea1e9259232ef7f81",
+    "hash": "12p66wwfh9ckfxrkynfb7v41lfi8rigxx4wprs74wm2kxx20a37z",
     "skills": [
       "skills/cf-email",
       "skills/code-review",
@@ -842,12 +844,12 @@
       "skills/teach",
       "skills/vertex-ai-image"
     ],
-    "lastUpdated": "2026-06-22T05:00:31.263Z"
+    "lastUpdated": "2026-06-23T13:24:29.841Z"
   },
   {
     "source": "github:vaayne/cc-plugins",
-    "rev": "991f2e9737bc97d3c1f0b198a6512464f8b2c4ef",
-    "hash": "1x3wl74g15vq8xyhf9ilnk2nmikycf27xli8bdmbaab7mwgpk8kz",
+    "rev": "24268895f87e08d5c6d8b96ea1e9259232ef7f81",
+    "hash": "12p66wwfh9ckfxrkynfb7v41lfi8rigxx4wprs74wm2kxx20a37z",
     "skills": [
       "skills/cf-email",
       "skills/code-review",
@@ -866,7 +868,7 @@
       "skills/teach",
       "skills/vertex-ai-image"
     ],
-    "lastUpdated": "2026-06-22T05:00:31.685Z"
+    "lastUpdated": "2026-06-23T13:24:31.040Z"
   },
   {
     "source": "github:vabole/apple-skills",
@@ -1273,8 +1275,8 @@
   },
   {
     "source": "github:vamseeachanta/workspace-hub",
-    "rev": "aa09e275be556afb7589f610af22de2f9a1097e4",
-    "hash": "0f8p37ysn24jgi46vcbscjqs610i0rbyw7abavhgpgbq5250r0nj",
+    "rev": "98fa865a3eae03feb30f76a437fda54d3708b98e",
+    "hash": "0l6hnv2s2k10c8x30vizkw7z11z2hvb3f1qa47qb9ah64mcbsihz",
     "skills": [
       ".agents/skills/_archive/ai/agent-usage-optimizer/baseline-route-mapping-quota-agnostic-defaults",
       ".agents/skills/_archive/ai/agent-usage-optimizer/complexity-tier-model-mapping",
@@ -3866,7 +3868,7 @@
       "_archive/skills/workspace-hub/interactive-report-generator",
       "scripts/skills/tests/fixtures/oversized-test"
     ],
-    "lastUpdated": "2026-06-23T10:34:05.973Z"
+    "lastUpdated": "2026-06-23T13:25:26.630Z"
   },
   {
     "source": "github:vanab/swiftdata-agent-skill",
@@ -4792,8 +4794,8 @@
   },
   {
     "source": "github:vectorize-io/hindsight",
-    "rev": "4db8a123622fb5f9bd2efc2231ea3800dddbd549",
-    "hash": "0yvw3wzm9w54kjlmh599jp597zqsj793ybh6xmw80xf21qzisdjq",
+    "rev": "9e06237e4006c564cb3fa4842e06314366031865",
+    "hash": "1v1052ffx4ncnkik22kxf5kigsv91kw98j1xr9vi3ir5wxzmdfzp",
     "skills": [
       ".claude/skills/code-review",
       ".claude/skills/hs-release",
@@ -4805,7 +4807,7 @@
       "skills/hindsight-local",
       "skills/hindsight-self-hosted"
     ],
-    "lastUpdated": "2026-06-23T10:34:38.739Z"
+    "lastUpdated": "2026-06-23T13:25:57.705Z"
   },
   {
     "source": "github:vectorize-io/hindsight-skills",
@@ -4988,8 +4990,8 @@
   },
   {
     "source": "github:vellum-ai/vellum-assistant",
-    "rev": "3d7d15408fc6ef605e295681131a9c7abde71d43",
-    "hash": "0r9liiq3rmlwfsmkd75d9n1qpijfqszwm4nprgm1hy40dif2c5wr",
+    "rev": "7769fb37bfc6b7afefdff9e71b2293185984e4ce",
+    "hash": "19p9z8nz18rkxpffg792rwghbxcwj84fvq8h0iqvq74291nn7b84",
     "skills": [
       ".claude/skills/cli-testing",
       ".claude/skills/release",
@@ -5092,7 +5094,7 @@
       "skills/watcher",
       "skills/weather"
     ],
-    "lastUpdated": "2026-06-23T10:34:33.907Z"
+    "lastUpdated": "2026-06-23T13:26:05.107Z"
   },
   {
     "source": "github:velonone/Aeonsage",
@@ -5974,12 +5976,12 @@
   },
   {
     "source": "github:vercel/flags",
-    "rev": "d8ed11ef0871a580fa404d8cbcbfc9827add7c3d",
-    "hash": "1q0pny1np8nz437wq7y7s12gjs62da46245zclcw412n1zi35a38",
+    "rev": "c35f38dfb9f85940033160554822607a763f8310",
+    "hash": "0cay42njhzgjf3cf4f5rsba2pnhmr7f9wi589j2zjrvlna2673lm",
     "skills": [
       "skills/flags-sdk"
     ],
-    "lastUpdated": "2026-06-20T07:49:12.971Z"
+    "lastUpdated": "2026-06-23T13:23:19.010Z"
   },
   {
     "source": "github:vercel/microfrontends",
@@ -6001,8 +6003,8 @@
   },
   {
     "source": "github:vercel/next.js",
-    "rev": "4638ab18fb92a6a919e27cb7a58994d1536019cd",
-    "hash": "0919x8j7qrn69gqif1zk63rbykyglncnzik9nrr4sb5mywwy60ic",
+    "rev": "406523ea55ab26362c18cf7075254559808e4902",
+    "hash": "05qnx2ksgllmq6kcs47vqr32mpakrxzq07p424x65hbn8800y3wj",
     "skills": [
       ".agents/skills/authoring-skills",
       ".agents/skills/backport-pr",
@@ -6024,7 +6026,7 @@
       "skills/next-cache-components-optimizer",
       "skills/next-dev-loop"
     ],
-    "lastUpdated": "2026-06-23T07:42:48.648Z"
+    "lastUpdated": "2026-06-23T13:26:39.603Z"
   },
   {
     "source": "github:vercel/nextjs-skills",
@@ -7189,8 +7191,8 @@
   },
   {
     "source": "github:victorgarciaesgi/regle",
-    "rev": "7f850ccba86181379b80c188a9044ef134d96090",
-    "hash": "1nb9ak2hiqsan47fyf4l3b3s0f1wcpch1rxix4alglsp9g425k86",
+    "rev": "7e61586c71655ebd2b9f1819e8d2d9979bbbf1ce",
+    "hash": "1xwdy4fg9glxkixr7y8kvvg69jkjj9xwj0qnxr4by1w8i2pawilk",
     "skills": [
       ".cursor/skills/antfu",
       ".cursor/skills/caveman",
@@ -7217,7 +7219,7 @@
       "skills/regle-schemas",
       "skills/regle-typescript"
     ],
-    "lastUpdated": "2026-06-22T14:19:52.270Z"
+    "lastUpdated": "2026-06-23T13:26:39.644Z"
   },
   {
     "source": "github:victorgrein/spec-crew",
@@ -10048,8 +10050,8 @@
   },
   {
     "source": "github:vladm3105/aidoc-flow-framework",
-    "rev": "8ac45339de939e5d954ca38d46ee9d736c58a904",
-    "hash": "1qdr4nllp27rvrqsn7pyc18l33vby0i1lddjfps3b3454m82cj6v",
+    "rev": "5140e3a6347eca939a75c453455dc360bc893633",
+    "hash": "11f05k2bwm5km6iym7c8ksrva0y92xscbl2155wcsyc8mbqh76ly",
     "skills": [
       "legacy/claude-code-plugin/project-mngt",
       "platforms/claude-code-plugin/skills/adr-roadmap",
@@ -10112,7 +10114,7 @@
       "platforms/hermes/skills/hermes/ucx-kb-maintenance",
       "platforms/hermes/skills/hermes/ucx-sdd-bridge"
     ],
-    "lastUpdated": "2026-06-23T01:24:41.330Z"
+    "lastUpdated": "2026-06-23T13:24:05.014Z"
   },
   {
     "source": "github:vladmdgolam/agent-skills",
@@ -10164,13 +10166,13 @@
   },
   {
     "source": "github:vllm-project/vllm-ascend",
-    "rev": "4fcffdae97aa13c2752350385bb04288951eb6b5",
-    "hash": "1c2ldv694n8qyz1gkm793x0gbbna0wwwpkfih2k20avjhm943pyf",
+    "rev": "6e9fabbc3e44bdee96d6a03db6715a461cb0a431",
+    "hash": "1dvwgw8525ll6bgwlhbn1mcxklmbyll2kag44k5cvyx795rjdh4z",
     "skills": [
       ".agents/skills/vllm-ascend-model-adapter",
       ".agents/skills/vllm-ascend-release"
     ],
-    "lastUpdated": "2026-06-23T10:36:23.408Z"
+    "lastUpdated": "2026-06-23T13:24:30.303Z"
   },
   {
     "source": "github:vllm-project/vllm-skills",
@@ -10256,8 +10258,8 @@
   },
   {
     "source": "github:vm0-ai/vm0",
-    "rev": "fdccc38bbd5b6cacac21926e233dec8f649e087b",
-    "hash": "1x0gbymsg9xs3wn7yr3nbj7g6nfl7vk94s5vqlwc6s7qpplhflnk",
+    "rev": "c2bb1fa331a0df01f132d4f246c31a83f545f176",
+    "hash": "135qnz48m7k0382qgr6gdna9xi4vlp8bc8hdcjnic1q8vf5kn8vm",
     "skills": [
       ".claude/skills/ccstate",
       ".claude/skills/cli-design",
@@ -10269,7 +10271,7 @@
       ".claude/skills/tech-debt",
       ".claude/skills/testing"
     ],
-    "lastUpdated": "2026-06-23T10:36:46.190Z"
+    "lastUpdated": "2026-06-23T13:24:49.970Z"
   },
   {
     "source": "github:vm0-ai/vm0-skills",
@@ -10822,15 +10824,15 @@
   },
   {
     "source": "github:voidmatcha/e2e-skills",
-    "rev": "7a8990b59828b91c1124a65afd153491cb500a89",
-    "hash": "0l0gv5fbnjwl07xcm2d2y0pz681ljidabjp0ld6s8rqbw7h0cksd",
+    "rev": "16dabbe98ba7d2ade88f18641bc2d31dbfadfb0d",
+    "hash": "1gbxbvnxfszzdm5j4zxz4qdwmxm7r5w0xbaqkgfks3axqrwp6l19",
     "skills": [
       "skills/cypress-debugger",
       "skills/e2e-reviewer",
       "skills/playwright-debugger",
       "skills/playwright-test-generator"
     ],
-    "lastUpdated": "2026-06-20T07:48:07.590Z"
+    "lastUpdated": "2026-06-23T13:24:51.306Z"
   },
   {
     "source": "github:voidxai/taste",
@@ -10852,8 +10854,8 @@
   },
   {
     "source": "github:volcengine/openviking",
-    "rev": "9ec15c8e07bb358ec2c35155df4bdeb5f9a7fc5a",
-    "hash": "1vjsq72xa8qc2rf3vx49r08a0lrqfr9yjlz6s1nb2yqzj3aj6mff",
+    "rev": "5f8547a48a6a8475ddf940b3712ac24d67210da2",
+    "hash": "107m74rv6rrfda2nfd8qq5lwnm4zp2my13m35gzpbadal2sipl6q",
     "skills": [
       "bot/workspace/skills/cron",
       "bot/workspace/skills/github",
@@ -10871,7 +10873,7 @@
       "examples/skills/ov-skills",
       "examples/skills/ov_dream"
     ],
-    "lastUpdated": "2026-06-23T10:37:02.463Z"
+    "lastUpdated": "2026-06-23T13:25:00.950Z"
   },
   {
     "source": "github:volientduan/skills",
