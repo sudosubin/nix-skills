@@ -516,8 +516,8 @@
   },
   {
     "source": "github:Kanevry/session-orchestrator",
-    "rev": "793bde90af0d9c27c368a73f14ddbf571d44a68e",
-    "hash": "0w6k7xybhv3mjqnd1gcihp7nd2nd1c5ix54wr1sk5954yl2ji8hi",
+    "rev": "baa70e8921d11af9aed41892e2b5317166725d0d",
+    "hash": "1hq8wpaws91bw16ryq06nbindizg7maqcdpy3fdvqv00wvmmcgnr",
     "skills": [
       "skills/architecture",
       "skills/autopilot",
@@ -562,7 +562,7 @@
       "skills/wave-executor",
       "skills/write-executable-plan"
     ],
-    "lastUpdated": "2026-06-22T08:29:58.014Z"
+    "lastUpdated": "2026-06-23T21:51:38.497Z"
   },
   {
     "source": "github:Karanjot786/agent-skills-cli",
@@ -731,12 +731,12 @@
   },
   {
     "source": "github:Kayunangka/claude-skill",
-    "rev": "bd8e82a8c52d26cc240a54403cf3116fe9053a98",
+    "rev": "2bc2b8df85a4ffab9ba503ac249c51a2094877f7",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-06-23T18:58:09.776Z"
+    "lastUpdated": "2026-06-23T21:51:44.763Z"
   },
   {
     "source": "github:Kdevos12/ALKYL",
@@ -1536,8 +1536,8 @@
   },
   {
     "source": "github:Klotzkette/claude-fuer-deutsches-recht",
-    "rev": "c0ad5634bd94afe7ff8c0f9ec7de9e4906857299",
-    "hash": "0gnwf811b2gf0vfkkkqmqhrsiyngm1rfbjblwik31jaxcz1r0r0z",
+    "rev": "ea797d986d1dead8ff8f04535592b28ea35d417a",
+    "hash": "1p0435wcmca5wzh3ry0q7pq5nxr4y3vih1w5q9bqqp3v1g0cmzpv",
     "skills": [
       "agb-recht-pruefer/skills/abmahnung-reagieren",
       "agb-recht-pruefer/skills/abnahme-testing",
@@ -2358,6 +2358,74 @@
       "arbeitszeugnis-analyse/skills/zeugnis-ueberblick-extraktion",
       "arbeitszeugnis-analyse/skills/zeugnisart-erkennung",
       "arbeitszeugnis-analyse/skills/zufriedenheitsformel-decodierung",
+      "arbeitszeugnisgenerator/skills/auslassungen-vermeiden",
+      "arbeitszeugnisgenerator/skills/bag-leitentscheidungen-beweislast",
+      "arbeitszeugnisgenerator/skills/bag-leitentscheidungen-notenstufen",
+      "arbeitszeugnisgenerator/skills/beendigungsgrund-formulieren",
+      "arbeitszeugnisgenerator/skills/belastbarkeit-formeln",
+      "arbeitszeugnisgenerator/skills/besondere-leistungen-projekte",
+      "arbeitszeugnisgenerator/skills/compliance-integritaet-formeln",
+      "arbeitszeugnisgenerator/skills/drift-und-schaufenster-vermeiden",
+      "arbeitszeugnisgenerator/skills/einfuehrung-mandantenanliegen",
+      "arbeitszeugnisgenerator/skills/engagement-motivation-formeln",
+      "arbeitszeugnisgenerator/skills/frequenzadverbien-katalog",
+      "arbeitszeugnisgenerator/skills/fuehrungskraft-bewertung",
+      "arbeitszeugnisgenerator/skills/geheimcodes-vermeiden",
+      "arbeitszeugnisgenerator/skills/kopfdaten-und-aussere-form",
+      "arbeitszeugnisgenerator/skills/langzeit-arbeitsverhaeltnis",
+      "arbeitszeugnisgenerator/skills/mehrere-positionen-im-zeugnis",
+      "arbeitszeugnisgenerator/skills/note-1-formeln-leistung",
+      "arbeitszeugnisgenerator/skills/note-2-formeln-leistung",
+      "arbeitszeugnisgenerator/skills/note-3-formeln-leistung",
+      "arbeitszeugnisgenerator/skills/note-4-formeln-leistung",
+      "arbeitszeugnisgenerator/skills/note-5-formeln-leistung",
+      "arbeitszeugnisgenerator/skills/notenwahl-modus",
+      "arbeitszeugnisgenerator/skills/rechtlicher-anker-109-gewo",
+      "arbeitszeugnisgenerator/skills/revision-und-aenderungswuensche",
+      "arbeitszeugnisgenerator/skills/rollen-und-harness-wahl",
+      "arbeitszeugnisgenerator/skills/schlussformel-baukasten",
+      "arbeitszeugnisgenerator/skills/schlussformel-notenwirkung",
+      "arbeitszeugnisgenerator/skills/stammdaten-erhebung",
+      "arbeitszeugnisgenerator/skills/taetigkeitsbeschreibung-erheben",
+      "arbeitszeugnisgenerator/skills/teamarbeit-formeln",
+      "arbeitszeugnisgenerator/skills/teilzeit-elternzeit-darstellung",
+      "arbeitszeugnisgenerator/skills/verhalten-vorgesetzte-kollegen-kunden",
+      "arbeitszeugnisgenerator/skills/wohlwollensgrundsatz-und-wahrheit",
+      "arbeitszeugnisgenerator/skills/zeugnisart-ausbildungszeugnis-16-bbig",
+      "arbeitszeugnisgenerator/skills/zeugnisart-einfach",
+      "arbeitszeugnisgenerator/skills/zeugnisart-praktikum",
+      "arbeitszeugnisgenerator/skills/zeugnisart-qualifiziert",
+      "arbeitszeugnisgenerator/skills/zeugnisart-zwischenzeugnis",
+      "arbeitszeugnisgenerator/skills/zeugnisklarheit-bag-9-azr-227-11",
+      "arbeitszeugnispruefer/skills/aeussere-form-und-briefkopf",
+      "arbeitszeugnispruefer/skills/ampel-einschaetzung-pro-satz",
+      "arbeitszeugnispruefer/skills/aufforderungsschreiben-berichtigung",
+      "arbeitszeugnispruefer/skills/auslassungen-erkennen",
+      "arbeitszeugnispruefer/skills/beendigungsgrund-pruefen",
+      "arbeitszeugnispruefer/skills/beweislast-bag-9-azr-584-13",
+      "arbeitszeugnispruefer/skills/doppelboeden-und-verneinungen",
+      "arbeitszeugnispruefer/skills/einfuehrung-pruefauftrag",
+      "arbeitszeugnispruefer/skills/frequenzadverbien-pruefen",
+      "arbeitszeugnispruefer/skills/fuehrungskraft-verhalten-pruefen",
+      "arbeitszeugnispruefer/skills/geheimcodes-katalog",
+      "arbeitszeugnispruefer/skills/intake-und-stammdaten-pruefen",
+      "arbeitszeugnispruefer/skills/klagestrategie-und-vollstreckung",
+      "arbeitszeugnispruefer/skills/mandantenbericht-erstellen",
+      "arbeitszeugnispruefer/skills/note-1-formeln-erkennen",
+      "arbeitszeugnispruefer/skills/note-2-formeln-erkennen",
+      "arbeitszeugnispruefer/skills/note-3-formeln-erkennen",
+      "arbeitszeugnispruefer/skills/note-4-formeln-erkennen",
+      "arbeitszeugnispruefer/skills/note-5-formeln-erkennen",
+      "arbeitszeugnispruefer/skills/notenstufen-bag-9-azr-386-10",
+      "arbeitszeugnispruefer/skills/personenreihenfolge-pruefen",
+      "arbeitszeugnispruefer/skills/rollen-und-modus-wahl",
+      "arbeitszeugnispruefer/skills/schaufenster-und-drift-erkennen",
+      "arbeitszeugnispruefer/skills/schlussformel-notenwirkung-bewerten",
+      "arbeitszeugnispruefer/skills/schlussformel-pruefen",
+      "arbeitszeugnispruefer/skills/steigerungsadverbien-pruefen",
+      "arbeitszeugnispruefer/skills/taetigkeitsabschnitt-wertigkeit-pruefen",
+      "arbeitszeugnispruefer/skills/verhaltensabschnitt-pruefen",
+      "arbeitszeugnispruefer/skills/zusammenfassungsformel-erkennen",
       "aufsichtsrat-ag-se-praxis/skills/abschlusspruefer-steuerung-aufsichtsrat",
       "aufsichtsrat-ag-se-praxis/skills/ad-hoc-und-aufsichtsrat",
       "aufsichtsrat-ag-se-praxis/skills/ag-se-boersennotiert-router",
@@ -25577,7 +25645,7 @@
       "zwangsvollstreckung/skills/zwv-vollstreckungstitel-bauleiter",
       "zwangsvollstreckung/skills/zwv-zwangsversteigerung-grundstueck-spezial"
     ],
-    "lastUpdated": "2026-06-23T18:58:27.427Z"
+    "lastUpdated": "2026-06-23T21:50:40.462Z"
   },
   {
     "source": "github:KnowledgeXLab/skill-git",
@@ -27282,12 +27350,12 @@
   },
   {
     "source": "github:kaitranntt/ccs",
-    "rev": "4eda1b81da10df8580ae287fb3431c459b12cf11",
-    "hash": "1ayfk39bqnidsdq3h1sj3kb7vr2b36yikhzbqjpd6ddskwgd46d0",
+    "rev": "984b1393e6522ab24312b0a12cf3412452b7cd04",
+    "hash": "0wcg5kmvx69gvz1vk4jpraal0mgmjnvv6f48ipfyqqxq1fw8dqn3",
     "skills": [
       ".claude/skills/ccs-delegation"
     ],
-    "lastUpdated": "2026-06-23T04:42:04.794Z"
+    "lastUpdated": "2026-06-23T21:53:30.819Z"
   },
   {
     "source": "github:kaizhi/agent-speak",
@@ -28700,12 +28768,12 @@
   },
   {
     "source": "github:kayunangka/claude-skill",
-    "rev": "bd8e82a8c52d26cc240a54403cf3116fe9053a98",
+    "rev": "2bc2b8df85a4ffab9ba503ac249c51a2094877f7",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-06-23T19:00:28.230Z"
+    "lastUpdated": "2026-06-23T21:53:36.665Z"
   },
   {
     "source": "github:kazan/diagrammer",
@@ -31394,8 +31462,8 @@
   },
   {
     "source": "github:khoahyh/skills",
-    "rev": "18145cbba8fd10bb7637a4bfb882722fc6905d96",
-    "hash": "1pskrgbb3ljjpig6si8c7w8h1g0li3ahbjaxwx84b2xc6v3ydsfy",
+    "rev": "286d44a10fec1e01b7a58bde057d19a6cc614a60",
+    "hash": "0pnv7s6qcls3lwq6hc917l5mgdcywmrsisgaf01f8hqq4rqkmn30",
     "skills": [
       "computa-please",
       "deepen-codebase-design",
@@ -31404,7 +31472,7 @@
       "sharingan",
       "write-effect-ts"
     ],
-    "lastUpdated": "2026-06-22T19:31:13.535Z"
+    "lastUpdated": "2026-06-23T21:54:52.425Z"
   },
   {
     "source": "github:khoi/skills",
@@ -31699,8 +31767,8 @@
   },
   {
     "source": "github:kilo-org/kilocode",
-    "rev": "614be76937dce12e6486ef6a7cc17d81ac0409d0",
-    "hash": "1l9why12ndcxqrzx1953df2hh3h700ydc6f14dx6adys98wx2m1r",
+    "rev": "b554850fb6b054e3545240591c094a373b033cbd",
+    "hash": "0xadjhax6mf6g686y1h9lw543kdg8kzwfkgmff1nq488dlm2f12f",
     "skills": [
       ".kilo/skills/gh-issues",
       ".kilo/skills/kilocode-merge-minimizer",
@@ -31710,7 +31778,7 @@
       "packages/opencode/test/fixture/skills/agents-sdk",
       "packages/opencode/test/fixture/skills/cloudflare"
     ],
-    "lastUpdated": "2026-06-23T19:00:59.475Z"
+    "lastUpdated": "2026-06-23T21:54:10.486Z"
   },
   {
     "source": "github:kilospark/webact",
@@ -33098,8 +33166,8 @@
   },
   {
     "source": "github:kjaylee/misskim-skills",
-    "rev": "0727fc4b450871bc499356efb807dbb4eec4106d",
-    "hash": "174cfm7aj4ghm51skwai4dsj33yhpm2h95p3j2phpzmjp28175sb",
+    "rev": "dcd1d424d547c843cfa9409bbcdbd758dbdfc5b8",
+    "hash": "0b77cs7mmgpa2hd21xl7rc4yszr7h10hfqvp58jj6d3i3pbzbc2r",
     "skills": [
       "game-marketing-context",
       "openclaw-mem",
@@ -33153,7 +33221,7 @@
       "skills/web-design-pro",
       "skills/youtube-pro"
     ],
-    "lastUpdated": "2026-06-23T19:01:36.287Z"
+    "lastUpdated": "2026-06-23T21:54:55.597Z"
   },
   {
     "source": "github:kjcarnahan/skills",
@@ -36219,8 +36287,8 @@
   },
   {
     "source": "github:kreuzberg-dev/kreuzberg",
-    "rev": "dac0d52353ba6ba8c1f7a82b2a2d0202d1324979",
-    "hash": "1qbvfg3fbk12srwwkrlpng7s10hi7rcmbx19a443iwmf583givlb",
+    "rev": "4dd8f33ac35f972ee4a9f7ff95233d4f3c41f351",
+    "hash": "0vhxapicnnhli30k6n47n9ghyy7bdqrcgvihf9q2bj6i5gv0mccb",
     "skills": [
       ".ai-rulez/skills/api-server-mcp",
       ".ai-rulez/skills/chunking-embeddings",
@@ -36228,7 +36296,7 @@
       ".ai-rulez/skills/format-specific-extraction",
       ".ai-rulez/skills/plugin-architecture-patterns"
     ],
-    "lastUpdated": "2026-06-23T13:22:02.154Z"
+    "lastUpdated": "2026-06-23T21:54:50.828Z"
   },
   {
     "source": "github:kreuzberg-dev/liter-llm",
@@ -37240,13 +37308,13 @@
   },
   {
     "source": "github:kucherenko/jscpd",
-    "rev": "b42843a0f4154c0225b170d900029ee8c311a78e",
-    "hash": "0ayknhnswp5gh73hiffglrvm21iab1r0hdfg1fx8k4s6xlimhz49",
+    "rev": "9cf3cc353340f6d3ffedf33add3488154891de67",
+    "hash": "1q4jja5ybh51557zijqixjfw4vsrdpzcb0lyk3x4dkzl462fxjd5",
     "skills": [
       "skills/dry-refactoring",
       "skills/jscpd"
     ],
-    "lastUpdated": "2026-06-23T16:15:35.103Z"
+    "lastUpdated": "2026-06-23T21:55:52.086Z"
   },
   {
     "source": "github:kucoin/kucoin-skills-hub",
@@ -39392,8 +39460,8 @@
   },
   {
     "source": "github:kurtosis-tech/kurtosis",
-    "rev": "a5214409af07e775a96918b2f18bf862ee4fa8ea",
-    "hash": "0x8lk6gjfqn9z9pbv03r32z9lvq2k52a2h9h628lqyh10ilvws8g",
+    "rev": "0de861e946248b8dd8d8435542bd62eefa10444d",
+    "hash": "1vghbv8466yfalrf6dr4i5yg76fagj42snjbjsvm2r70rnsingh5",
     "skills": [
       "skills/clean",
       "skills/cli-local-build",
@@ -39418,7 +39486,7 @@
       "skills/service-manage",
       "skills/starlark-dev"
     ],
-    "lastUpdated": "2026-06-23T19:02:35.137Z"
+    "lastUpdated": "2026-06-23T21:54:17.003Z"
   },
   {
     "source": "github:kuse-ai/kuse-skills",
