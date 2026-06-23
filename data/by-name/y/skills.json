@@ -322,8 +322,8 @@
   },
   {
     "source": "github:YuDefine/nuxt-supabase-starter",
-    "rev": "7a7da3fa43aa75dae43e9548de5cf6e3dbef5ec0",
-    "hash": "1xahjaxi9mb8j1wyy2l6cxv4rccg21h3jv7c26xfyb133fjjlsj3",
+    "rev": "c3ac17adf3c82d1e3e8e5c4dde70eaee58474aa0",
+    "hash": "1ha3fmzfs8f7z839hyiwgf655v5qqa27lmw3k4qwgfkcq3d3fs27",
     "skills": [
       "template/.agents/skills/adapt",
       "template/.agents/skills/analyze-logs",
@@ -357,6 +357,7 @@
       "template/.agents/skills/nuxt-auth-utils",
       "template/.agents/skills/nuxt-better-auth",
       "template/.agents/skills/nuxt-content",
+      "template/.agents/skills/nuxt-data-audit",
       "template/.agents/skills/nuxt-modules",
       "template/.agents/skills/nuxt-ui",
       "template/.agents/skills/nuxthub",
@@ -413,7 +414,7 @@
       "template/.agents/skills/wrangler",
       "template/.agents/skills/wt"
     ],
-    "lastUpdated": "2026-06-23T13:17:44.063Z"
+    "lastUpdated": "2026-06-23T16:10:18.631Z"
   },
   {
     "source": "github:YuLinzhong/pm-group-interview",
@@ -801,14 +802,14 @@
   },
   {
     "source": "github:yaleh/meta-cc",
-    "rev": "26a1706a047bd574577fa2c4106fad07a0bdeeef",
-    "hash": "0hpfj5js3mxrdj4wj46m480bg8s1xhfw2ypnk7i1r7jam33v90sm",
+    "rev": "52a03745db5690675773169e3d19740a739cea1c",
+    "hash": "0wz53w3jmvh14nvw7dxgag1315lcb6zpg9xsh2462g2cgi41pbc5",
     "skills": [
       "plugin-src/skills/prompt-find",
       "plugin-src/skills/prompt-list",
       "plugin-src/skills/prompt-show"
     ],
-    "lastUpdated": "2026-06-23T13:25:39.548Z"
+    "lastUpdated": "2026-06-23T16:17:12.360Z"
   },
   {
     "source": "github:yamadashy/repomix",
@@ -907,21 +908,21 @@
   },
   {
     "source": "github:yan-labs/serenity-aleabitoreddit",
-    "rev": "c76f214f1d0e3a006fa290657649a805a55f8a79",
-    "hash": "08fn83j7dawk0qp3kdd71w312c17bhg5k1snqdbfzm0y4jx9k3m8",
+    "rev": "8c82571274bb0d691a1d58b02eba2de742dc9356",
+    "hash": "0gyns3f3g2wiv17pw139x2j3jn91rlg8j6cz6rxn8w3i224278k5",
     "skills": [
       "serenity-aleabitoreddit"
     ],
-    "lastUpdated": "2026-06-23T13:25:43.316Z"
+    "lastUpdated": "2026-06-23T16:17:15.493Z"
   },
   {
     "source": "github:yan-labs/trump-truthsocial-catalyst",
-    "rev": "3147d9e99139edc0251bffbfc944f674926d1eef",
-    "hash": "02xsf55d34idq77q5v1i8rc8da3g0pkyqz0q701hq3q7ryy7cpcq",
+    "rev": "ea6cac2bf2e6c1201d23b5190a75b4694c1cc6be",
+    "hash": "19p2dsw1cf3aliz3s81c082k4zndrnik403ryqvb6jk9bggd28zh",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-06-23T13:25:42.386Z"
+    "lastUpdated": "2026-06-23T16:17:15.018Z"
   },
   {
     "source": "github:yan5xu/bb-browser",
@@ -3042,10 +3043,23 @@
   },
   {
     "source": "github:yikart/aitoearn",
-    "rev": "e88aa14e7b7c804a6eab718c9ef6001fd6c71162",
-    "hash": "1jw3866j5yirrjaj8v0gx2mwj7bd6spsv9vavqcvvahrlarh58by",
+    "rev": "e3abc458482265f2c2384f95168ceec4500622b8",
+    "hash": "191mgj9xwycnzbjng54dfi1v9n1cwkkdfnhzp91j62hykbjzzjax",
     "skills": [
-      "project/aitoearn-backend/.claude/skills/sync-service-docs",
+      "project/aitoearn-backend/.agents/skills/caveman",
+      "project/aitoearn-backend/.agents/skills/diagnose",
+      "project/aitoearn-backend/.agents/skills/grill-me",
+      "project/aitoearn-backend/.agents/skills/grill-with-docs",
+      "project/aitoearn-backend/.agents/skills/handoff",
+      "project/aitoearn-backend/.agents/skills/improve-codebase-architecture",
+      "project/aitoearn-backend/.agents/skills/prototype",
+      "project/aitoearn-backend/.agents/skills/setup-matt-pocock-skills",
+      "project/aitoearn-backend/.agents/skills/tdd",
+      "project/aitoearn-backend/.agents/skills/to-issues",
+      "project/aitoearn-backend/.agents/skills/to-prd",
+      "project/aitoearn-backend/.agents/skills/triage",
+      "project/aitoearn-backend/.agents/skills/write-a-skill",
+      "project/aitoearn-backend/.agents/skills/zoom-out",
       "project/aitoearn-backend/apps/aitoearn-ai/src/core/agent/skills/analyzing-videos",
       "project/aitoearn-backend/apps/aitoearn-ai/src/core/agent/skills/composing-videos",
       "project/aitoearn-backend/apps/aitoearn-ai/src/core/agent/skills/crawling-social-media",
@@ -3058,9 +3072,14 @@
       "project/aitoearn-backend/apps/aitoearn-ai/src/core/agent/skills/managing-content",
       "project/aitoearn-backend/apps/aitoearn-ai/src/core/agent/skills/removing-subtitles",
       "project/aitoearn-backend/apps/aitoearn-ai/src/core/agent/skills/transferring-video-styles",
-      "project/aitoearn-backend/apps/aitoearn-ai/src/core/agent/skills/translating-videos"
+      "project/aitoearn-backend/apps/aitoearn-ai/src/core/agent/skills/translating-videos",
+      "project/aitoearn-web/.agents/skills/imagegen-frontend-web",
+      "project/aitoearn-web/.agents/skills/impeccable",
+      "project/aitoearn-web/.agents/skills/karpathy-guidelines",
+      "project/aitoearn-web/.agents/skills/taste-skill",
+      "project/aitoearn-web/.agents/skills/vercel-react-best-practices"
     ],
-    "lastUpdated": "2026-06-22T05:01:47.560Z"
+    "lastUpdated": "2026-06-23T16:16:53.223Z"
   },
   {
     "source": "github:yikuaibanzi/forge-skill",
@@ -5687,8 +5706,8 @@
   },
   {
     "source": "github:yoshiko-pg/difit",
-    "rev": "25cc355bdcb255e447db9f45c6d2244a4982c7a6",
-    "hash": "0mb2yivmd5i0k3z7sax7hi8sh6h50hacr6qy5ch4wfn4izdnansp",
+    "rev": "43d4445ac6cb2fe9a6978173d538d36bd2983f1e",
+    "hash": "08fzlxlqyfzqkgmz0r4b3vw63sjzsnr7rsjw6vv8dnrd98dxd8vf",
     "skills": [
       ".claude/skills/difit-dev",
       ".codex/skills/release",
@@ -5696,7 +5715,7 @@
       "skills/difit",
       "skills/difit-review"
     ],
-    "lastUpdated": "2026-06-20T07:48:29.911Z"
+    "lastUpdated": "2026-06-23T16:18:18.651Z"
   },
   {
     "source": "github:yoshinani-dev/skills",
@@ -5832,21 +5851,21 @@
   },
   {
     "source": "github:youmind-openlab/ai-image-prompts-skill",
-    "rev": "1a4e3ca643ab1bfa9d0d9281f6d1e3ef8f0829a3",
-    "hash": "152ny83zrk4m317nwpb1shyiavp5g66p4l29y771nbd2npcyrm37",
+    "rev": "e2514cb6ec57e298a60835fe13bf16f110f5893f",
+    "hash": "12qyb2fc3912fg6mm7vjpx59i2dikyilaf96x5g4894fwl8xq4w8",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-06-23T04:48:18.154Z"
+    "lastUpdated": "2026-06-23T16:18:29.434Z"
   },
   {
     "source": "github:youmind-openlab/gpt-image-2-prompts-search",
-    "rev": "ea88fd26088c4e9311a7dedb8a988613ecffc788",
-    "hash": "0rpxb5b13kpnpg77kcgpfy91rpmrjacc98vnc3clnn375d1jb0jj",
+    "rev": "2168845d663f2c06ef5a79fb9aede16cc8d10de8",
+    "hash": "0g89gmqfn1573jfp95k4b9n0al7claajkmk04lzfvajqza4q72wc",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-06-23T04:48:18.006Z"
+    "lastUpdated": "2026-06-23T16:18:27.274Z"
   },
   {
     "source": "github:youmind-openlab/karpathy-rss-daily-skill",
@@ -5859,12 +5878,12 @@
   },
   {
     "source": "github:youmind-openlab/nano-banana-pro-prompts-recommend-skill",
-    "rev": "8db028863154a5f2613b879a63c3750e8a0ba401",
-    "hash": "0dksan6hdmqxk74v0gbp29id32aadw1pvgaawnc6rf2s9gnr1gdi",
+    "rev": "c4a8571679fb8f853bfb3fbd8cee7f4a65500363",
+    "hash": "00qc1qii4y27fbhkgqfdf4s3cw54his0c9q68kqbliyvpwiqnjya",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-06-23T04:48:25.305Z"
+    "lastUpdated": "2026-06-23T16:18:34.956Z"
   },
   {
     "source": "github:youmind-openlab/skills",
@@ -14301,13 +14320,13 @@
   },
   {
     "source": "github:yutakobayashidev/dotnix",
-    "rev": "45cb79b7515d27fcc95fd8336e937c4c4fcf6aaf",
-    "hash": "13cjvrdh528fr2n6kvv3r228qx81w1qi5xhcp5p262waf2cl63da",
+    "rev": "36d947a42db8f7cf22989af8bbebc0c2b6f182d6",
+    "hash": "0ihmrv59p94kfa95437bdh1wkwkk7ki2qm3y4d3v2alf2k83p805",
     "skills": [
       "codex/session-tts/skills/tts",
       "codex/session-tts/skills/volume"
     ],
-    "lastUpdated": "2026-06-23T13:22:51.314Z"
+    "lastUpdated": "2026-06-23T16:16:00.091Z"
   },
   {
     "source": "github:yutori-ai/frontend-visualqa",
@@ -14454,13 +14473,13 @@
   },
   {
     "source": "github:yvgude/lean-ctx",
-    "rev": "a7873b97063a3250b61040f840b9c1a424a2d4b1",
-    "hash": "0ngsxkvjh4m0b2l0qi8xma0h5p84lrf0l0v1pjkkqh5fbp70pswd",
+    "rev": "eb9f400004a0752b67f6963c501604feed2021a9",
+    "hash": "1x02va1gp6p9xi70qj2xv5s5g4haqfqqkn9gnybi5042zc5f82ih",
     "skills": [
       "rust/src/templates",
       "skills/lean-ctx"
     ],
-    "lastUpdated": "2026-06-23T13:23:01.620Z"
+    "lastUpdated": "2026-06-23T16:16:13.306Z"
   },
   {
     "source": "github:yvictor/skills",
