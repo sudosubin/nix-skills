@@ -69,7 +69,7 @@
   },
   {
     "source": "github:Rainbowlight-pixel/claude-cowork-content-plugin",
-    "rev": "1908bf51e7f6c891a394acf200750d065d376afb",
+    "rev": "2a5d328a9b68cb930df2a8d6da09d5d23ad8be7e",
     "hash": "1ih593rwl2szpjfn2xpwy04q89hl9mp7zrv3g5gn1805gk51fcbs",
     "skills": [
       "content-repurposing/skills/content-extraction",
@@ -80,7 +80,7 @@
       "content-repurposing/skills/title-generator",
       "content-repurposing/skills/twitter-thread"
     ],
-    "lastUpdated": "2026-06-23T04:40:32.735Z"
+    "lastUpdated": "2026-06-23T07:33:00.122Z"
   },
   {
     "source": "github:Raishin/vanguard-frontier-agentic",
@@ -705,8 +705,8 @@
   },
   {
     "source": "github:ReScienceLab/opc-skills",
-    "rev": "272b4ad8d826a8ae905fdf3ed94af8cdca160985",
-    "hash": "16hpgzfwc7xx91ny026va15z60higc9062rxhsa9qr8z5nhywfig",
+    "rev": "54bede66c7ab251c1b435029e412155e8509ee86",
+    "hash": "1s9psy26hc1ggdqhw5l6qx36pl57js5ckk820pswp9ibwp3fl6di",
     "skills": [
       ".factory/skills/add-new-opc-skill",
       "skills/archive",
@@ -721,7 +721,7 @@
       "skills/twitter",
       "template"
     ],
-    "lastUpdated": "2026-06-22T08:29:43.611Z"
+    "lastUpdated": "2026-06-23T07:33:02.567Z"
   },
   {
     "source": "github:RealBombi/suno-songsmith",
@@ -784,8 +784,8 @@
   },
   {
     "source": "github:ReinaMacCredy/maestro",
-    "rev": "93f5e8bc1d1d1b90105a36c470292b5f91cc090c",
-    "hash": "0pccmkq38h070x86gmlrmmn4i5a71h9d7f0lmvqicc8kbsk0qvqc",
+    "rev": "625fccffba21a633790ccd44a1a3e9e2b80aed7b",
+    "hash": "0pkcgaws9700nzk0ajimb4dg9lck82ja96ki55qhc4q9fi2536nk",
     "skills": [
       ".claude/skills/cli-for-agent",
       ".claude/skills/docs",
@@ -814,7 +814,7 @@
       "embedded/skills/maestro-design",
       "embedded/skills/maestro-setup"
     ],
-    "lastUpdated": "2026-06-21T18:49:17.620Z"
+    "lastUpdated": "2026-06-23T07:33:05.117Z"
   },
   {
     "source": "github:ReinforceNow/reinforcenow-cli",
@@ -5580,8 +5580,8 @@
   },
   {
     "source": "github:rashidee/co2-skills",
-    "rev": "866475d9e69fc052e3ec40f8697680a96c67da79",
-    "hash": "18bbn4b23j4w6c1nwp7drwh5npfcli628bvw517a95bvjza8sg60",
+    "rev": "922d22b52b8360344f29bbc9a946d0211e352141",
+    "hash": "094949skir6y35yybwz2am9r6xdb2nyr3f0xld03rrii1c5yf6yw",
     "skills": [
       "skills/conductor-defect",
       "skills/conductor-feature-develop",
@@ -5600,13 +5600,14 @@
       "skills/specgen-spring-jpa-restapi",
       "skills/specgen-ts-cli",
       "skills/testgen-functional",
+      "skills/tracegen-matrix",
       "skills/util-preparek8senv",
       "skills/util-projectinit",
       "skills/util-projectsync",
       "skills/util-usanalyzer",
       "skills/util-ustagger"
     ],
-    "lastUpdated": "2026-05-29T17:13:09.704Z"
+    "lastUpdated": "2026-06-23T07:38:34.182Z"
   },
   {
     "source": "github:rasmusgodske/dev-agent-workflow",
@@ -7456,12 +7457,12 @@
   },
   {
     "source": "github:rbnd-studio/flows.sh",
-    "rev": "2806ee46e816ca3a07aae258eb1a202aca7b6b33",
-    "hash": "0aw7gzvhkzzjhj62kkyj9l3vrxjgzwl63hlkjisqgawms5a3wnmd",
+    "rev": "4caa49c1c5c700ecf0493d800f098bd63b32679e",
+    "hash": "0gm5k1cgscm5x5ifl02k09hfal9x5bj95zmz50ji6rjbg292y0d8",
     "skills": [
       "skills/flows-install"
     ],
-    "lastUpdated": "2026-06-20T07:45:18.746Z"
+    "lastUpdated": "2026-06-23T07:39:16.886Z"
   },
   {
     "source": "github:rbouschery/marketplace",
@@ -8550,57 +8551,42 @@
   },
   {
     "source": "github:recoupable/skills",
-    "rev": "468205dd8181c4226718cfebe71f9f83932eb322",
-    "hash": "0hjv4l9z9snr5h00ar3nnn4vai9dwk1hkz0km80g9h4zw39n949q",
+    "rev": "10995ea0acfeb13a32f0299e86cb1278a52a7834",
+    "hash": "0xjlaqzc2cyqw2vjw96g9f12n5vxyk3ss6cki78a2a109j49agly",
     "skills": [
-      "plugins/recoup-internal/skills/recoup-account-health-report",
-      "plugins/recoup-internal/skills/recoup-dev-issue-tracker",
-      "plugins/recoup-internal/skills/recoup-dev-ship-issue",
-      "plugins/recoup-internal/skills/recoup-eval-skill-benchmark",
-      "plugins/recoup-internal/skills/recoup-funnel-valuation-pipeline",
-      "plugins/recoup-internal/skills/recoup-social-ship-posts",
-      "plugins/recoup-records/skills/recoup-catalog-estimate-value",
-      "plugins/recoup-records/skills/recoup-catalog-review-deal",
-      "plugins/recoup-records/skills/recoup-content-asset-pack",
-      "plugins/recoup-records/skills/recoup-content-make-graphics",
-      "plugins/recoup-records/skills/recoup-content-make-video",
-      "plugins/recoup-records/skills/recoup-content-reactive-post",
-      "plugins/recoup-records/skills/recoup-content-write-caption",
-      "plugins/recoup-records/skills/recoup-platform-api-access",
-      "plugins/recoup-records/skills/recoup-platform-build-workspace",
-      "plugins/recoup-records/skills/recoup-platform-capture-lesson",
-      "plugins/recoup-records/skills/recoup-platform-connect-account",
-      "plugins/recoup-records/skills/recoup-release-plan-rollout",
-      "plugins/recoup-records/skills/recoup-release-track-drop",
-      "plugins/recoup-records/skills/recoup-research-artist-overview",
-      "plugins/recoup-records/skills/recoup-research-find-contacts",
-      "plugins/recoup-records/skills/recoup-research-find-talent",
-      "plugins/recoup-records/skills/recoup-research-playlist-targets",
-      "plugins/recoup-records/skills/recoup-research-the-web",
-      "plugins/recoup-records/skills/recoup-research-weekly-brief",
-      "plugins/recoup-records/skills/recoup-roster-add-artist",
-      "plugins/recoup-records/skills/recoup-roster-list-artists",
-      "plugins/recoup-records/skills/recoup-roster-manage-artist",
-      "plugins/recoup-records/skills/recoup-song-analyze-audio",
-      "plugins/recoup-records/skills/recoup-song-find-hook",
-      "plugins/recoup-records/skills/recoup-song-placement-pitch",
-      "skills/catalog-value-estimator",
-      "skills/chart-metric",
-      "skills/content-creation",
-      "skills/issue-implementation",
-      "skills/issue-management",
-      "skills/music-industry-research",
-      "skills/recoup-account-status",
-      "skills/release-management",
-      "skills/short-video",
-      "skills/skill-pack-benchmark",
-      "skills/social-posts",
-      "skills/song-writing",
-      "skills/streaming-growth",
-      "skills/trend-to-song",
-      "skills/valuation-sales-pipeline"
+      "skills/recoup-catalog-estimate-value",
+      "skills/recoup-catalog-review-deal",
+      "skills/recoup-content-asset-pack",
+      "skills/recoup-content-make-graphics",
+      "skills/recoup-content-make-video",
+      "skills/recoup-content-reactive-post",
+      "skills/recoup-content-write-caption",
+      "skills/recoup-internal-account-health-report",
+      "skills/recoup-internal-dev-issue-tracker",
+      "skills/recoup-internal-dev-ship-issue",
+      "skills/recoup-internal-eval-skill-benchmark",
+      "skills/recoup-internal-funnel-valuation-pipeline",
+      "skills/recoup-internal-social-ship-posts",
+      "skills/recoup-platform-api-access",
+      "skills/recoup-platform-build-workspace",
+      "skills/recoup-platform-capture-lesson",
+      "skills/recoup-platform-connect-account",
+      "skills/recoup-release-plan-rollout",
+      "skills/recoup-release-track-drop",
+      "skills/recoup-research-artist-overview",
+      "skills/recoup-research-find-contacts",
+      "skills/recoup-research-find-talent",
+      "skills/recoup-research-playlist-targets",
+      "skills/recoup-research-the-web",
+      "skills/recoup-research-weekly-brief",
+      "skills/recoup-roster-add-artist",
+      "skills/recoup-roster-list-artists",
+      "skills/recoup-roster-manage-artist",
+      "skills/recoup-song-analyze-audio",
+      "skills/recoup-song-find-hook",
+      "skills/recoup-song-placement-pitch"
     ],
-    "lastUpdated": "2026-06-23T04:44:41.728Z"
+    "lastUpdated": "2026-06-23T07:38:48.672Z"
   },
   {
     "source": "github:recrsn/claude-plugins",
@@ -8698,8 +8684,8 @@
   },
   {
     "source": "github:redfox-data/redfox-community",
-    "rev": "10879808631c51f20973e728445e7eebc7dd918e",
-    "hash": "0f1qijnpjr0jymvc5xdvmizrg53g0600286vxkkryyz14bmh90xx",
+    "rev": "5b35049398a45c4d65f9912611f4d91fa1cb2876",
+    "hash": "0f11m155bpv87gypb471n2hhrfgj2q7m5676mwyjcbkm92mjgbkd",
     "skills": [
       "skills/ai-intelligence-investigator",
       "skills/bili-ai-feed",
@@ -8768,7 +8754,7 @@
       "skills/xiaohongshu-write",
       "skills/zhihu-rewrite"
     ],
-    "lastUpdated": "2026-06-23T04:44:45.694Z"
+    "lastUpdated": "2026-06-23T07:38:54.465Z"
   },
   {
     "source": "github:redhat-developer/red-hat-developers-documentation-rhdh",
@@ -9619,8 +9605,8 @@
   },
   {
     "source": "github:reinamaccredy/maestro",
-    "rev": "93f5e8bc1d1d1b90105a36c470292b5f91cc090c",
-    "hash": "0pccmkq38h070x86gmlrmmn4i5a71h9d7f0lmvqicc8kbsk0qvqc",
+    "rev": "625fccffba21a633790ccd44a1a3e9e2b80aed7b",
+    "hash": "0pkcgaws9700nzk0ajimb4dg9lck82ja96ki55qhc4q9fi2536nk",
     "skills": [
       ".claude/skills/cli-for-agent",
       ".claude/skills/docs",
@@ -9649,7 +9635,7 @@
       "embedded/skills/maestro-design",
       "embedded/skills/maestro-setup"
     ],
-    "lastUpdated": "2026-06-21T18:53:40.978Z"
+    "lastUpdated": "2026-06-23T07:36:21.519Z"
   },
   {
     "source": "github:reiver/vibefed",
@@ -10192,8 +10178,8 @@
   },
   {
     "source": "github:resciencelab/opc-skills",
-    "rev": "272b4ad8d826a8ae905fdf3ed94af8cdca160985",
-    "hash": "16hpgzfwc7xx91ny026va15z60higc9062rxhsa9qr8z5nhywfig",
+    "rev": "54bede66c7ab251c1b435029e412155e8509ee86",
+    "hash": "1s9psy26hc1ggdqhw5l6qx36pl57js5ckk820pswp9ibwp3fl6di",
     "skills": [
       ".factory/skills/add-new-opc-skill",
       "skills/archive",
@@ -10208,7 +10194,7 @@
       "skills/twitter",
       "template"
     ],
-    "lastUpdated": "2026-06-22T08:35:16.440Z"
+    "lastUpdated": "2026-06-23T07:37:00.128Z"
   },
   {
     "source": "github:research-ag/motoko-skills",
@@ -10956,8 +10942,8 @@
   },
   {
     "source": "github:rhecosystemappeng/agentic-collections",
-    "rev": "4c46ab0c92347a9f26332e7dc0eae0b38ac2236d",
-    "hash": "1xrvl18nzk7zi048ay9l4i8klc2009q247c3hmi8mfdnn9121iyz",
+    "rev": "523e305813559abb09be9551cafe60cc1f69b262",
+    "hash": "0gj0vxfnjh25q3fm0v434am12nini5l260pcf4bs2b5a4mv1g2l2",
     "skills": [
       ".claude/skills/agentic-contribution-skill",
       ".claude/skills/collection-compliance",
@@ -11041,7 +11027,7 @@
       "rh-virt/skills/vm-snapshot-list",
       "rh-virt/skills/vm-snapshot-restore"
     ],
-    "lastUpdated": "2026-06-22T17:00:12.324Z"
+    "lastUpdated": "2026-06-23T07:37:07.543Z"
   },
   {
     "source": "github:rheinmir/setup",
@@ -15557,13 +15543,13 @@
   },
   {
     "source": "github:rolldown/rolldown",
-    "rev": "114565ae8ea6073b56a88eab044c12210da93212",
-    "hash": "071jd05m5mx0jb95ij562w4s80rapik6x0rqlcyrvgf2c3lriq8j",
+    "rev": "b311823d9a944131555102a462ba1822ea9a8bcc",
+    "hash": "0hmp8wsvf4s8s6gkdpzilb5rv4p6jjzzp3r3ii82mdk3p8hhxlpx",
     "skills": [
       ".claude/skills/rolldown-repl",
       ".claude/skills/upgrade-oxc"
     ],
-    "lastUpdated": "2026-06-23T04:47:31.324Z"
+    "lastUpdated": "2026-06-23T07:40:07.538Z"
   },
   {
     "source": "github:rolldown/tsdown",
@@ -17283,8 +17269,8 @@
   },
   {
     "source": "github:roymccrain/dotsfile",
-    "rev": "a9d3c475ab0d5b31acab4efb18409dba160bd560",
-    "hash": "0s39pn91kq55ll1aa9h5lxf23xkmhqiqngx6aikchinbk7f51xa4",
+    "rev": "8f79038c80ccdfe27236f4a57431c9ee48eab59e",
+    "hash": "1jmzg12h2sfxg5kbmw1xdqx0k4njgnjqyswyd3cwz9p7viwvv1sf",
     "skills": [
       ".agents/skills/cmux",
       ".agents/skills/cmux-architecture",
@@ -17340,7 +17326,7 @@
       "claude/skills/wrangler",
       "codex/skills/context-loader"
     ],
-    "lastUpdated": "2026-06-23T04:47:47.513Z"
+    "lastUpdated": "2026-06-23T07:40:23.500Z"
   },
   {
     "source": "github:roymondliao/paper-prereq-analyzer",
@@ -20007,8 +19993,8 @@
   },
   {
     "source": "github:rustfs/rustfs",
-    "rev": "a6878e8fce23a8e7af627c2dfd81a3216135544d",
-    "hash": "1shq6w9gzg1gmh0kjsvx50jl29jz1ba7cb43i1nwjbq98fj0ayfx",
+    "rev": "e42c6df0e8be5fbe83b4343e76a3516f76c277b5",
+    "hash": "1hcykrsnd3yv867cdf8zib180zc7syiqhs624997yl0jizszzbx7",
     "skills": [
       ".agents/skills/code-change-verification",
       ".agents/skills/pr-creation-checker",
@@ -20018,7 +20004,7 @@
       ".agents/skills/security-advisory-lessons",
       ".agents/skills/test-coverage-improver"
     ],
-    "lastUpdated": "2026-06-23T04:46:27.995Z"
+    "lastUpdated": "2026-06-23T07:38:49.372Z"
   },
   {
     "source": "github:rustydotwtf/doppler-skills",
@@ -21157,8 +21143,8 @@
   },
   {
     "source": "github:ryoppippi/dotfiles",
-    "rev": "c4250f9faf21f3c1a8b0688f617d493f58e1f74b",
-    "hash": "1gmr4nyib162nz294y8m4l60lwg3shyw99bb17yh027q6l8b85k0",
+    "rev": "bcd126393c9b9a9f3c77b79b63cc666700760243",
+    "hash": "0kql1wp44i4f28ry3vrg3wsyyx0gcbpq7ia7c0v3ri2siqv9gshk",
     "skills": [
       ".claude/skills/nix-gc-direnv",
       "agents/skills/ask-codex",
@@ -21183,7 +21169,7 @@
       "agents/skills/vitest-testing",
       "agents/skills/you-might-not-need-an-effect"
     ],
-    "lastUpdated": "2026-06-23T04:47:08.778Z"
+    "lastUpdated": "2026-06-23T07:39:19.376Z"
   },
   {
     "source": "github:ryoshimm/ai-dev-tools",
