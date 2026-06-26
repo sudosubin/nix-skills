@@ -944,8 +944,8 @@
   },
   {
     "source": "github:Fmarzochi/EGC",
-    "rev": "8e1fd3e396e3d5d55e6edf33d34afc6d7bc397d9",
-    "hash": "0azg4pb553nxfz4vck6h6sg4j1ha71cdzrj5gk22ncshryn5s3mw",
+    "rev": "81c26d2c01917fcdae33cf8946a7547c9fb479ed",
+    "hash": "190j398pwbkqk40di9pjxm760sgpkqp9n27jbxp864byw01yskr6",
     "skills": [
       ".agents/skills/egc",
       "skills/ai/agent-eval",
@@ -1178,12 +1178,12 @@
       "skills/workflows/skill-stocktake",
       "skills/workflows/strategic-compact"
     ],
-    "lastUpdated": "2026-06-26T04:44:36.892Z"
+    "lastUpdated": "2026-06-26T07:35:58.031Z"
   },
   {
     "source": "github:Fmarzochi/everything-gemini",
-    "rev": "8e1fd3e396e3d5d55e6edf33d34afc6d7bc397d9",
-    "hash": "0azg4pb553nxfz4vck6h6sg4j1ha71cdzrj5gk22ncshryn5s3mw",
+    "rev": "81c26d2c01917fcdae33cf8946a7547c9fb479ed",
+    "hash": "190j398pwbkqk40di9pjxm760sgpkqp9n27jbxp864byw01yskr6",
     "skills": [
       ".agents/skills/egc",
       "skills/ai/agent-eval",
@@ -1416,7 +1416,7 @@
       "skills/workflows/skill-stocktake",
       "skills/workflows/strategic-compact"
     ],
-    "lastUpdated": "2026-06-26T04:44:36.915Z"
+    "lastUpdated": "2026-06-26T07:35:58.304Z"
   },
   {
     "source": "github:ForceInjection/domain-driven-design-skills",
@@ -17016,8 +17016,8 @@
   },
   {
     "source": "github:faasjs/faasjs",
-    "rev": "b2574e8fa7d10c3348f2ff0f34139aaff5aa3e90",
-    "hash": "1il936v9hsn3wlcdxzbl392fas71mwgv1rw43zq4s33hs8njaasv",
+    "rev": "6b3bde1c0dc6aab43dd5d315615a0ce1918c1284",
+    "hash": "08906qb9byb2pwm24lwn01gqv5y7q2gn15yqpd79ikp3mzk4k9im",
     "skills": [
       "skills/faasjs-api-jobs",
       "skills/faasjs-best-practices",
@@ -17028,7 +17028,7 @@
       "skills/faasjs-specs",
       "skills/faasjs-utils-data"
     ],
-    "lastUpdated": "2026-06-26T04:45:37.579Z"
+    "lastUpdated": "2026-06-26T07:40:22.976Z"
   },
   {
     "source": "github:faasjs/faasjs-skills",
@@ -18743,10 +18743,10 @@
   },
   {
     "source": "github:faroke/backcap",
-    "rev": "19f99c32fb703a5ed1d654611b190687bcf430ec",
-    "hash": "0k50y578a7xnj9k1hmay72z5xxn83kvx6scymkr03f4kk75f8m12",
+    "rev": "7f2a3b38dbf6090455be29a8558741255990d5d1",
+    "hash": "1f4h8xrrvzqhv4d8vpka4dz1yxql5nab1gph0cy7917623hvps0w",
     "skills": [
-      "packages/registry/skills/backcap-analytics",
+      "packages/registry/skills/backcap-activity",
       "packages/registry/skills/backcap-audit-log",
       "packages/registry/skills/backcap-auth",
       "packages/registry/skills/backcap-billing",
@@ -18755,20 +18755,20 @@
       "packages/registry/skills/backcap-catalog",
       "packages/registry/skills/backcap-comments",
       "packages/registry/skills/backcap-core",
-      "packages/registry/skills/backcap-feature-flags",
+      "packages/registry/skills/backcap-discounts",
       "packages/registry/skills/backcap-files",
       "packages/registry/skills/backcap-forms",
-      "packages/registry/skills/backcap-media",
+      "packages/registry/skills/backcap-inventory",
       "packages/registry/skills/backcap-notifications",
       "packages/registry/skills/backcap-orders",
       "packages/registry/skills/backcap-organizations",
-      "packages/registry/skills/backcap-queues",
       "packages/registry/skills/backcap-rbac",
-      "packages/registry/skills/backcap-search",
+      "packages/registry/skills/backcap-reviews",
+      "packages/registry/skills/backcap-shipping",
       "packages/registry/skills/backcap-tags",
-      "packages/registry/skills/backcap-webhooks"
+      "packages/registry/skills/backcap-users"
     ],
-    "lastUpdated": "2026-03-24T22:20:06.556Z"
+    "lastUpdated": "2026-06-26T07:38:45.298Z"
   },
   {
     "source": "github:fartlabs/sql-embedder",
@@ -22221,17 +22221,12 @@
   },
   {
     "source": "github:fjrevoredo/mini-diarium",
-    "rev": "d78775dbc9619ff2ab277298102c2371bfbef4b5",
-    "hash": "122dpcrghk2m7qylxchpyj959vjjbzh7fdqk274lm91nhn0h9wa3",
+    "rev": "368a9b66f4ee1d2205d3676947de6b62416ed1a6",
+    "hash": "0v8x4lfpqmw2bxym5amgndchckp03649rd6v3ywb78z91w0khdv8",
     "skills": [
-      ".agents/skills/add-locale",
-      ".agents/skills/apply-dependency-prs",
       ".agents/skills/coding-guidelines",
-      ".agents/skills/diagram-maintainer",
       ".agents/skills/domain-web",
       ".agents/skills/flathub-maintenance",
-      ".agents/skills/implementation-review",
-      ".agents/skills/integrate-stale-pr",
       ".agents/skills/m01-ownership",
       ".agents/skills/m02-resource",
       ".agents/skills/m03-mutability",
@@ -22247,8 +22242,7 @@
       ".agents/skills/m14-mental-model",
       ".agents/skills/m15-anti-pattern",
       ".agents/skills/manual-planning",
-      ".agents/skills/pre-release",
-      ".agents/skills/review-external-pr",
+      ".agents/skills/runbooks",
       ".agents/skills/rust-call-graph",
       ".agents/skills/rust-code-navigator",
       ".agents/skills/rust-daily",
@@ -22267,10 +22261,9 @@
       ".agents/skills/tiptap",
       ".agents/skills/todo-manager",
       ".agents/skills/unsafe-checker",
-      ".agents/skills/update-app-icons",
       ".claude/skills/security-stance"
     ],
-    "lastUpdated": "2026-06-26T04:46:57.582Z"
+    "lastUpdated": "2026-06-26T07:38:21.193Z"
   },
   {
     "source": "github:fkesheh/skill-mcp",
@@ -22846,8 +22839,8 @@
   },
   {
     "source": "github:flora131/atomic",
-    "rev": "8cb16f7015ada10d42cdb7414be2d2b6eefa1762",
-    "hash": "13m388jg48kdv3v7lg2v8dphg6b6yz5x4asscfnwdmj28a28s5ph",
+    "rev": "7aae86f30647f015792cf461d3f80b5fe83912a4",
+    "hash": "0dhzv9n4fyi8yijifbqp0f0v9qs2qfrnz5xgghsqddm6hw6nyk59",
     "skills": [
       ".agents/skills/bun",
       ".agents/skills/gh-commit",
@@ -22883,7 +22876,7 @@
       "packages/workflows/skills/research-codebase",
       "packages/workflows/skills/skill-creator"
     ],
-    "lastUpdated": "2026-06-26T04:45:22.701Z"
+    "lastUpdated": "2026-06-26T07:37:57.883Z"
   },
   {
     "source": "github:floracat526/floracat-skills",
@@ -25449,8 +25442,8 @@
   },
   {
     "source": "github:foxminchan/BookWorm",
-    "rev": "1417e4f8e39e92d3a3dabf06ffc84239941114ac",
-    "hash": "094b0rn88qb6w6g2rc0xlyq3j273r95g7rcfr3vq1yp6ijfm0qnk",
+    "rev": "f69abe1386cf3b6a961c80a34446b9e29af7f324",
+    "hash": "1jr5a1p77vmz36swqjv0w7drk68pl5knh6ywij4vy39dv6n1lw3i",
     "skills": [
       ".agents/skills/aspire",
       ".agents/skills/aspire-deployment",
@@ -25469,12 +25462,12 @@
       "src/Services/Chat/BookWorm.Chat/Skills/book-catalog",
       "src/Services/Chat/BookWorm.Chat/Skills/store-policies"
     ],
-    "lastUpdated": "2026-06-20T07:41:50.868Z"
+    "lastUpdated": "2026-06-26T07:38:22.774Z"
   },
   {
     "source": "github:foxminchan/bookworm",
-    "rev": "1417e4f8e39e92d3a3dabf06ffc84239941114ac",
-    "hash": "094b0rn88qb6w6g2rc0xlyq3j273r95g7rcfr3vq1yp6ijfm0qnk",
+    "rev": "f69abe1386cf3b6a961c80a34446b9e29af7f324",
+    "hash": "1jr5a1p77vmz36swqjv0w7drk68pl5knh6ywij4vy39dv6n1lw3i",
     "skills": [
       ".agents/skills/aspire",
       ".agents/skills/aspire-deployment",
@@ -25493,7 +25486,7 @@
       "src/Services/Chat/BookWorm.Chat/Skills/book-catalog",
       "src/Services/Chat/BookWorm.Chat/Skills/store-policies"
     ],
-    "lastUpdated": "2026-06-20T07:41:50.897Z"
+    "lastUpdated": "2026-06-26T07:38:26.829Z"
   },
   {
     "source": "github:foxted/skills",
@@ -25508,8 +25501,8 @@
   },
   {
     "source": "github:foxzool/open-lark",
-    "rev": "d13fe7b253a22b82c584686cb4f141c061bb15d7",
-    "hash": "1zbbagwy3zhnnznxzddcwxz78m40f3xw8nnhc9kpyqi6hfb7m7ly",
+    "rev": "13676a2b70477cf060b6430865ce2182c37e718a",
+    "hash": "1yabmdxf7vi2i803isgqc7acydm4fv0mzjwak1pn4c4ij1gkwfrw",
     "skills": [
       ".agents/skills/openlark-api",
       ".agents/skills/openlark-api-field-verify",
@@ -25519,7 +25512,7 @@
       ".agents/skills/openlark-naming",
       ".agents/skills/openlark-validation-style"
     ],
-    "lastUpdated": "2026-06-26T04:47:48.223Z"
+    "lastUpdated": "2026-06-26T07:38:30.382Z"
   },
   {
     "source": "github:fpl9000/ai-skills",
@@ -27396,12 +27389,12 @@
   },
   {
     "source": "github:frappe/frappe-ui",
-    "rev": "dcf776b3e8f86e3ebcd766cdf33ba1c382553aa6",
-    "hash": "1c0x9yi0gs6pl7fv760z5nr89l5qcb28xcf5krlh4habjc9gkrkn",
+    "rev": "f91c1f6066d6f2fdf25c5f8fd54cbf0ea0095b03",
+    "hash": "1w112y5m293kf8jax163f5bpcc5vvkhya3nhqqxfpciypw9k8cd3",
     "skills": [
       "skills/frappe-ui"
     ],
-    "lastUpdated": "2026-06-25T19:05:03.429Z"
+    "lastUpdated": "2026-06-26T07:38:06.467Z"
   },
   {
     "source": "github:frappe/skills",
@@ -27474,8 +27467,8 @@
   },
   {
     "source": "github:fred-drake/nix",
-    "rev": "6228c7badb6c7154c0ef0f32633ee43125a35081",
-    "hash": "101ydnydq9p9pxlw4ym3y3jaalqbllkqy5n972z994ldnhqb7z2k",
+    "rev": "9bd2ebfc44f3184eb74c9d1c0bfdb79f47a3ec26",
+    "hash": "0q54v2jxiw5p3zl31dlimdhgibrv9kqawnsr30kzbwf7rlgxv39a",
     "skills": [
       ".claude/skills/claude-plugin",
       ".claude/skills/container-update-report",
@@ -27491,7 +27484,7 @@
       "apps/agent-common/skills/woodpecker-cli",
       "apps/agent-common/skills/woodpecker-pipelines"
     ],
-    "lastUpdated": "2026-06-26T04:46:15.048Z"
+    "lastUpdated": "2026-06-26T07:38:12.895Z"
   },
   {
     "source": "github:fredchu/claude-session-handoff",
@@ -28615,8 +28608,8 @@
   },
   {
     "source": "github:fudesign2008/open-skills",
-    "rev": "b65920f7fcca6a0ce197a254c69fab1d16f031d7",
-    "hash": "04qjz6d8iywnr3320lm225mkw7rq02g25j766rkapfy7d1p1v0wz",
+    "rev": "f0376961e5cf3e944501f32b635a778925086079",
+    "hash": "1pqpn8lfhfm408vfgdhs9nmxa0v1b1sqmvdnz6lhqql1kq8r6gpx",
     "skills": [
       "skills/android-webview-debug",
       "skills/article-writer",
@@ -28644,7 +28637,7 @@
       "skills/unbox-anything",
       "skills/xquik-social-data"
     ],
-    "lastUpdated": "2026-06-26T04:47:29.580Z"
+    "lastUpdated": "2026-06-26T07:39:29.621Z"
   },
   {
     "source": "github:fuenfgeld/pydantic-ai-skills",
