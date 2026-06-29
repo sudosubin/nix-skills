@@ -1630,8 +1630,8 @@
   },
   {
     "source": "github:HsuanYuLee/polaris",
-    "rev": "007d802526ba6946c733cd6a02d7474a3256edfe",
-    "hash": "050kkmqnixmllww2z2ync5izj9p3kavhb8hqiw6z5mqf759vawj3",
+    "rev": "0f9cb9f5c7e448083fe033e18a7fd433c52d2430",
+    "hash": "0j28a17lk8plq2igkq40fk7dkr0hv0jsnhr8lm0p81lpb4snll6c",
     "skills": [
       ".claude/skills/auto-pass",
       ".claude/skills/breakdown",
@@ -1659,7 +1659,7 @@
       ".claude/skills/verify-AC",
       ".claude/skills/visual-regression"
     ],
-    "lastUpdated": "2026-06-29T01:24:30.464Z"
+    "lastUpdated": "2026-06-29T04:54:16.850Z"
   },
   {
     "source": "github:HuangYuChuh/ComfyUI_Skills_OpenClaw",
@@ -2172,12 +2172,12 @@
   },
   {
     "source": "github:habibbedawi/claude-code-tips",
-    "rev": "d851ba105048dd9ba0464067a1bd2d7794e11a95",
+    "rev": "36223f49a39f2e6cb3c0c6a88dc43939969ab95a",
     "hash": "0pr3ihxgnqm244pf06ac9fynhl17wsdj6a1kl3248cxalvs5szv4",
     "skills": [
       "plugins/miner/skills/miner"
     ],
-    "lastUpdated": "2026-06-29T01:25:41.152Z"
+    "lastUpdated": "2026-06-29T04:55:12.213Z"
   },
   {
     "source": "github:habibium/agent-skills",
@@ -6084,11 +6084,12 @@
   },
   {
     "source": "github:haowjy/creative-writing-skills",
-    "rev": "7d394d98266ae6b9fca9132fbcba57a603b4d940",
-    "hash": "0ffwlg4q92hyxyayr91d6b6r1zczvhyv4c2sgcq8rd6nvbi59jrg",
+    "rev": "3338495f0fabf778720effdda9386ab56d4ebf6e",
+    "hash": "1nq7zy637nwinkyqdc9dp47xjgfrg3z1l799imvgf2d7zkfwr106",
     "skills": [
       "cw/skills/grill-with-docs",
       "cw/skills/intent-modeling",
+      "cw/skills/interactive-artifact",
       "cw/skills/kb-management",
       "cw/skills/llm-writing",
       "cw/skills/project-setup",
@@ -6105,7 +6106,7 @@
       "skills/writing-principles",
       "skills/writing-staffing"
     ],
-    "lastUpdated": "2026-06-29T01:25:38.333Z"
+    "lastUpdated": "2026-06-29T04:54:48.881Z"
   },
   {
     "source": "github:haoxuanlithuai/awesome_cognitive_and_neuroscience_skills",
@@ -6633,8 +6634,8 @@
   },
   {
     "source": "github:harbor-framework/harbor",
-    "rev": "b276e04c857307b25ff9117c18bda7a5d47e419c",
-    "hash": "0px5dbmczirprah3jr8k75db86v0glh360p5cjbss2zbm7bvhn60",
+    "rev": "64e82179472b45ef624fed5b61d7abdd88d56709",
+    "hash": "0rfm8xkx9ak1549zi8ixirdy16ppnqwwa40nl43fpipk3rb90y1q",
     "skills": [
       "examples/jobs/skills-merge/runtime-skill-merge/environment/skills/bundled-keep",
       "examples/jobs/skills-merge/skills/runtime-proof",
@@ -6645,7 +6646,7 @@
       "skills/rewardkit",
       "skills/upload-parity-experiments"
     ],
-    "lastUpdated": "2026-06-28T12:46:28.978Z"
+    "lastUpdated": "2026-06-29T04:54:59.890Z"
   },
   {
     "source": "github:harbor-framework/skills",
@@ -6810,12 +6811,12 @@
   },
   {
     "source": "github:harehare/mq",
-    "rev": "fc6500e81bbae6882bc7ed05c30e5a0ff2192907",
-    "hash": "0dfp3wvzhn1sj8c5jb5nwmkjc3ifzal37gknb8w35ckhx0bs9djc",
+    "rev": "fee7c09d484685a018dda26a0ded48ddce92d847",
+    "hash": "0ayfk02734shl8sgfagg0fldpkm13i0rmrr0r38dds35gf5h2fqd",
     "skills": [
       "skills/processing-markdown"
     ],
-    "lastUpdated": "2026-06-28T15:45:24.351Z"
+    "lastUpdated": "2026-06-29T04:55:04.122Z"
   },
   {
     "source": "github:harifatherkr/hwp-parser",
@@ -11093,8 +11094,8 @@
   },
   {
     "source": "github:heymegabyte/claude-skills",
-    "rev": "74f037aef43f28f79496a7a30af897abc880909e",
-    "hash": "0sn0f6gmn8yzcpwlrl13npcn4zjjq6w69xa9dkgs5w3js8prahjf",
+    "rev": "d3d308c91685f2c8b22abe07c98f810838b26dd9",
+    "hash": "0m7s2bfsdi0n4gbv65al2nkgp56rf4778p9s1h27q2w9k60k71ha",
     "skills": [
       ".devin/skills/emdash",
       "01-operating-system",
@@ -11115,9 +11116,18 @@
       "16-cinematic-website-prime-directive",
       "17-non-engineering-verticals",
       "18-document-processing",
-      "19-mcp-authoring"
+      "19-mcp-authoring",
+      "20-superpowers",
+      "20-superpowers/brainstorming",
+      "20-superpowers/finishing-a-development-branch",
+      "20-superpowers/receiving-code-review",
+      "20-superpowers/requesting-code-review",
+      "20-superpowers/subagent-driven-development",
+      "20-superpowers/using-git-worktrees",
+      "20-superpowers/writing-plans",
+      "20-superpowers/writing-skills"
     ],
-    "lastUpdated": "2026-06-28T07:41:07.897Z"
+    "lastUpdated": "2026-06-29T04:54:31.245Z"
   },
   {
     "source": "github:heymynameisrob/agent-config",
@@ -11850,8 +11860,8 @@
   },
   {
     "source": "github:hiroro-work/claude-plugins",
-    "rev": "0485ad64aa41f8e4977c92283352044c167c4ec2",
-    "hash": "0h7qs3vrlyjqj8w1zmvmbw3marjibx6prdnq1plgk5sfy6gcqqw2",
+    "rev": "7af42358be39697e66031c377ad94b0cc90040a9",
+    "hash": "0jmkgjl0jpbhpwp8zwrr6n9y4wknlmbg82a10dv02v6famjm5dpx",
     "skills": [
       ".claude/skills/dev-workflow-triage",
       ".claude/skills/inbox-add",
@@ -11881,7 +11891,7 @@
       "skills/tidy",
       "skills/tr"
     ],
-    "lastUpdated": "2026-06-29T01:25:39.629Z"
+    "lastUpdated": "2026-06-29T04:55:31.532Z"
   },
   {
     "source": "github:hisami/grpc-practice",
@@ -15225,8 +15235,8 @@
   },
   {
     "source": "github:huaweicloud/huaweicloud-skills",
-    "rev": "993e4f0a0e819c0c37bdf091ad75ead1603bc469",
-    "hash": "10xrdagrh1sbhahjn8nnzp9j9451n7acd409wpas2nky0kavrlw3",
+    "rev": "f18c356692632c8019d4e817ca0c3618ad3be896",
+    "hash": "056wgr2a5w49xzjqmv3hyqdcnf25yybx8xckyzrli9fmbzbb2rj7",
     "skills": [
       "skills/ai/ges/huawei-cloud-ges-graph",
       "skills/ai/maas/huawei-cloud-maas-tokens-usage",
@@ -15284,7 +15294,7 @@
       "skills/storage/obs/huawei-cloud-obs-website-host",
       "skills/storage/obs/huawei-cloud-storage-query"
     ],
-    "lastUpdated": "2026-06-27T12:46:22.082Z"
+    "lastUpdated": "2026-06-29T04:55:37.909Z"
   },
   {
     "source": "github:hubblevision/hubble-data-service-skill",
@@ -15671,12 +15681,12 @@
   },
   {
     "source": "github:hugohe3/ppt-master",
-    "rev": "8e2b5b9a0312df3710568d8a0638d1b53356af2b",
-    "hash": "03dkvnl4i49jsmcbympn598acbm1qba7s2yb1r9gdc88byp5r4lr",
+    "rev": "dcc7ff6c0f96971dd451a465476b09876889ce76",
+    "hash": "1jg6vh7v9izbgihrqaq9ms7svi2wdz69p50v5iaxbpc0xnd5zg2c",
     "skills": [
       "skills/ppt-master"
     ],
-    "lastUpdated": "2026-06-28T15:46:22.984Z"
+    "lastUpdated": "2026-06-29T04:56:43.013Z"
   },
   {
     "source": "github:hugokick/notebooklm_upgraded-skill",
@@ -16458,8 +16468,8 @@
   },
   {
     "source": "github:hungv47/meta-skills",
-    "rev": "98fd72c1ee260854d9ffd4fde9a18d97acc83c65",
-    "hash": "0ycwm80cyd5iy7s4ynjn5a0pfrbmybhamkfy3psx6gjs6pcn9p5g",
+    "rev": "d848221e6b15f65e08a79685d3a8fabd55000257",
+    "hash": "01b1lz7yw91fzzgrd0vcbi79nfn7wpd4pychwg8ixrvphivjhjfw",
     "skills": [
       "forsvn-dev/skills/meta/breakdown-tasks",
       "forsvn-dev/skills/product/architect-system",
@@ -16522,7 +16532,7 @@
       "skills/research/research-platform",
       "skills/research/research-shortform"
     ],
-    "lastUpdated": "2026-06-29T01:26:45.936Z"
+    "lastUpdated": "2026-06-29T04:56:44.339Z"
   },
   {
     "source": "github:hungv47/prod-skills",
