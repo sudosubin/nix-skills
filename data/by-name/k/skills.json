@@ -470,8 +470,8 @@
   },
   {
     "source": "github:Kaelio/ktx",
-    "rev": "139ac0832004533cc3626e98f6272cef7c32dd7e",
-    "hash": "1slp5bw0caiw4wwagpgq0gsd5rjnw4wwynb9hal80r6dfryljxzb",
+    "rev": "f21594c42ab601fef6d1a6ee332795411fc6d4c0",
+    "hash": "0s903yd1rds3shb5gzwrrh254akcnk7x1kinbwxwzzqx9p03s0ii",
     "skills": [
       "packages/cli/src/skills/analytics",
       "packages/cli/src/skills/dbt_ingest",
@@ -485,12 +485,13 @@
       "packages/cli/src/skills/metabase_ingest",
       "packages/cli/src/skills/metricflow_ingest",
       "packages/cli/src/skills/notion_synthesize",
+      "packages/cli/src/skills/sigma_ingest",
       "packages/cli/src/skills/sl",
       "packages/cli/src/skills/sl_capture",
       "packages/cli/src/skills/wiki_capture",
       "skills/ktx"
     ],
-    "lastUpdated": "2026-06-30T16:08:49.886Z"
+    "lastUpdated": "2026-07-01T01:23:58.982Z"
   },
   {
     "source": "github:KaguraNanaga/document-format-skills",
@@ -736,12 +737,12 @@
   },
   {
     "source": "github:Kayunangka/claude-skill",
-    "rev": "3832b711c209392bfb32f6e5f00a00171f792a5b",
+    "rev": "db15ba5137444595773e4c4f67d69547bcb6928f",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-06-30T18:55:42.046Z"
+    "lastUpdated": "2026-07-01T01:24:01.862Z"
   },
   {
     "source": "github:Kdevos12/ALKYL",
@@ -1545,8 +1546,8 @@
   },
   {
     "source": "github:Klotzkette/claude-fuer-deutsches-recht",
-    "rev": "485d6664f91754008e294f1fbb15768b5e0e5c7e",
-    "hash": "17012p8aaddpayh3b55xr3k5kd18lf90blb8960jbg58336khfrb",
+    "rev": "cbd7ff22f8972968b2fcf946a4542093c75d9599",
+    "hash": "0abd2hb3wdy6nlc1kbnbwndy04l6g1zzpyzkwq0lrk2nxnl7qj05",
     "skills": [
       "agb-recht-pruefer/skills/abmahnung-reagieren",
       "agb-recht-pruefer/skills/abnahme-testing",
@@ -18707,6 +18708,7 @@
       "regulatorisches-recht/skills/wpig-und-zag-pruefung",
       "rentenpruefer/skills/aerzte-apotheker-altersrente-langjaehrig",
       "rentenpruefer/skills/altersrente-langjaehrig-besonders-langjaehrig",
+      "rentenpruefer/skills/angestellten-rentenfahrplan-erstberatung",
       "rentenpruefer/skills/anwaelte-versorgungswerk-arbeitslosigkeit",
       "rentenpruefer/skills/arbeitslosigkeit-buergergeld-und-rente",
       "rentenpruefer/skills/auslandszeiten-eu",
@@ -18715,44 +18717,63 @@
       "rentenpruefer/skills/auswanderung-rente-ins-ausland-zahlung",
       "rentenpruefer/skills/beitraege-luecken-und-nachzahlung",
       "rentenpruefer/skills/berufswechsel-angestellte-beweisnot",
+      "rentenpruefer/skills/bescheid-widerspruch-klage-sozialgericht",
+      "rentenpruefer/skills/betriebsrente-anpassung-abfindung",
       "rentenpruefer/skills/betriebsrente-private-krankheit-reha",
+      "rentenpruefer/skills/betriebsrente-zusage-unverfallbarkeit",
       "rentenpruefer/skills/beweisnot-eidesstattliche-erklaerung-zeugen",
       "rentenpruefer/skills/dokumente-uebersetzung-doppelversicherung",
       "rentenpruefer/skills/doppelversicherung-und-erstattung",
+      "rentenpruefer/skills/drv-kontenklaerung-beweisersatz",
+      "rentenpruefer/skills/erwerbsminderung-reha-gutachtenstrategie",
       "rentenpruefer/skills/erwerbsminderungsrente-medizinische",
       "rentenpruefer/skills/freiwillige-beitraege-fremdrentengesetz",
+      "rentenpruefer/skills/freiwillige-beitraege-nachzahlung-entscheidung",
       "rentenpruefer/skills/fremdrentengesetz-und-spaetaussiedler",
       "rentenpruefer/skills/grundrente-zuschlaege-hinterbliebenenrente",
+      "rentenpruefer/skills/hinterbliebene-rente-einkommen",
       "rentenpruefer/skills/hinterbliebenenrente-witwen-waisen",
       "rentenpruefer/skills/hinzuverdienst-teilrente-datenaustausch",
+      "rentenpruefer/skills/hinzuverdienst-teilrente-weiterarbeit",
       "rentenpruefer/skills/internationaler-datenaustausch-formulare",
       "rentenpruefer/skills/kindererziehungszeiten-zeitenklaerung",
       "rentenpruefer/skills/kontenklaerung-drv",
       "rentenpruefer/skills/krankheit-reha-uebergangsgeld",
+      "rentenpruefer/skills/kvdr-nettorente-abzuege",
       "rentenpruefer/skills/lebensbescheinigung-auslandszahlung",
+      "rentenpruefer/skills/mandantenbrief-rentenstrategie-mehrsaeulen",
       "rentenpruefer/skills/mandantenbrief-verstaendlich-rente",
       "rentenpruefer/skills/minijob-midijob-nachversicherung-beamte",
       "rentenpruefer/skills/nachversicherung-beamte-referendare-soldaten",
       "rentenpruefer/skills/oeffentlicher-dienst-pflegezeiten",
       "rentenpruefer/skills/oeffentlicher-dienst-vbl-und-zusatzversorgung",
       "rentenpruefer/skills/pflegezeiten-rentenpunkte",
+      "rentenpruefer/skills/private-rentenversicherung-vertragscheck",
       "rentenpruefer/skills/quellen-livecheck-regelaltersrente-vorzeitige",
       "rentenpruefer/skills/red-team-rentenbescheid",
       "rentenpruefer/skills/regelaltersrente-und-vorzeitige-rente",
       "rentenpruefer/skills/rentenantrag-startdatum-auswanderung-rente",
+      "rentenpruefer/skills/rentenauskunft-prognose-variantenvergleich",
       "rentenpruefer/skills/rentenbescheid-widerspruch-rentencheck-fuenf",
       "rentenpruefer/skills/rentencheck-ein-steuer-krankenversicherung",
       "rentenpruefer/skills/rentencheck-fuenf-jahre-vorher",
       "rentenpruefer/skills/renteninformation-rentenauskunft",
       "rentenpruefer/skills/rentenluecken-matrix",
+      "rentenpruefer/skills/riester-basisrente-nettoentscheidung",
       "rentenpruefer/skills/russland-sibirien-scheidung",
       "rentenpruefer/skills/scheidung-versorgungsausgleich-folgen",
       "rentenpruefer/skills/serbien-zeiten-tod-ausland",
       "rentenpruefer/skills/steuer-krankenversicherung-pflegeversicherung-rente",
       "rentenpruefer/skills/tod-im-ausland-hinterbliebene",
+      "rentenpruefer/skills/versicherungsverlauf-monatsraster-luecken",
+      "rentenpruefer/skills/versorgungsausgleich-rentenfolgen",
+      "rentenpruefer/skills/versorgungswerk-befreiung-angestellt",
       "rentenpruefer/skills/versorgungswerk-befreiung-rentenantrag",
+      "rentenpruefer/skills/versorgungswerk-doppelversicherung-erstattung",
       "rentenpruefer/skills/versorgungswerk-drv-widerspruch-sozialgericht",
       "rentenpruefer/skills/versorgungswerk-rentenantrag",
+      "rentenpruefer/skills/vorzeitige-altersrente-abschlag-ausgleich",
+      "rentenpruefer/skills/wartezeit-35-45-jahre-visualisierung",
       "rentenpruefer/skills/widerspruch-sozialgericht-klage",
       "robotik-recht/skills/accuracy-robustness-cybersecurity-ai",
       "robotik-recht/skills/agile-entwicklung-und-compliance-gates",
@@ -25736,7 +25757,7 @@
       "zwangsvollstreckung/skills/zwv-vollstreckungstitel-bauleiter",
       "zwangsvollstreckung/skills/zwv-zwangsversteigerung-grundstueck-spezial"
     ],
-    "lastUpdated": "2026-06-30T16:09:21.928Z"
+    "lastUpdated": "2026-07-01T01:24:33.865Z"
   },
   {
     "source": "github:KnowledgeXLab/skill-git",
@@ -26783,12 +26804,12 @@
   },
   {
     "source": "github:k1low/gh-pr-reviews",
-    "rev": "31866cec5cfda62303332f80439b01485942bca1",
-    "hash": "092lkbzx76vh135yzs837i01galp19gfk4sfc3h3c301ah5bln7b",
+    "rev": "e8e499d7ee2bc044d5522de29796ceb21f92d3aa",
+    "hash": "1dx02cp6126vapbv9dm8a5kgfsyiv1sa848wgmnlh77lrivhnxhz",
     "skills": [
       "skills/triage-pr-reviews"
     ],
-    "lastUpdated": "2026-06-24T04:46:10.406Z"
+    "lastUpdated": "2026-07-01T01:25:34.024Z"
   },
   {
     "source": "github:k1p1l0/claude-telegram-supercharged",
@@ -27044,8 +27065,8 @@
   },
   {
     "source": "github:kaelio/ktx",
-    "rev": "139ac0832004533cc3626e98f6272cef7c32dd7e",
-    "hash": "1slp5bw0caiw4wwagpgq0gsd5rjnw4wwynb9hal80r6dfryljxzb",
+    "rev": "f21594c42ab601fef6d1a6ee332795411fc6d4c0",
+    "hash": "0s903yd1rds3shb5gzwrrh254akcnk7x1kinbwxwzzqx9p03s0ii",
     "skills": [
       "packages/cli/src/skills/analytics",
       "packages/cli/src/skills/dbt_ingest",
@@ -27059,12 +27080,13 @@
       "packages/cli/src/skills/metabase_ingest",
       "packages/cli/src/skills/metricflow_ingest",
       "packages/cli/src/skills/notion_synthesize",
+      "packages/cli/src/skills/sigma_ingest",
       "packages/cli/src/skills/sl",
       "packages/cli/src/skills/sl_capture",
       "packages/cli/src/skills/wiki_capture",
       "skills/ktx"
     ],
-    "lastUpdated": "2026-06-30T16:10:30.617Z"
+    "lastUpdated": "2026-07-01T01:25:41.850Z"
   },
   {
     "source": "github:kaerez/skills-plugins",
@@ -27536,8 +27558,8 @@
   },
   {
     "source": "github:kali-decoder/midnight-skills",
-    "rev": "4b3ee8cb977c8d8f49b6cd8c48f71324499140d5",
-    "hash": "1s25j0gpp4qrci5a53ssdf840c1gvbxx6c3c66k63ybl8xcxx1vp",
+    "rev": "c0e503edb29fb50a6d1d517b4e0f5e998e49f099",
+    "hash": "149qaaqm1q7dvf9ipzq0ml8x8c72g2wmg35j579r22a6n5mji80p",
     "skills": [
       ".",
       ".agents/skills/gsap-core",
@@ -27559,7 +27581,7 @@
       "token-transfers",
       "why-midnight"
     ],
-    "lastUpdated": "2026-06-30T13:01:32.624Z"
+    "lastUpdated": "2026-07-01T01:24:41.977Z"
   },
   {
     "source": "github:kali20gakki/gitcode-code-reviewer",
@@ -27662,12 +27684,12 @@
   },
   {
     "source": "github:kamskans/pandastudio-skills",
-    "rev": "1020bd03af7fab6bad950cfe94ed626dcdf05b1b",
-    "hash": "0fr41kp63gvjjwv53irw697qp1wcwcibl986kib5k3ymnqmkmi6l",
+    "rev": "c6ff72bfa97a8727f81827b9302ae3d9a5cc2047",
+    "hash": "1zfj6yc2aqy59nplgwvxkjvnzb35m3679x572hlip9lll1pmjha3",
     "skills": [
       "skills/pandastudio"
     ],
-    "lastUpdated": "2026-06-30T16:09:35.947Z"
+    "lastUpdated": "2026-07-01T01:24:44.659Z"
   },
   {
     "source": "github:kanfu-panda/pdlc-skills",
@@ -28898,12 +28920,12 @@
   },
   {
     "source": "github:kayunangka/claude-skill",
-    "rev": "3832b711c209392bfb32f6e5f00a00171f792a5b",
+    "rev": "db15ba5137444595773e4c4f67d69547bcb6928f",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-06-30T18:57:56.191Z"
+    "lastUpdated": "2026-07-01T01:26:03.195Z"
   },
   {
     "source": "github:kazan/diagrammer",
@@ -29296,8 +29318,8 @@
   },
   {
     "source": "github:kdlbs/kandev",
-    "rev": "7893a5e33e585615fa5874a04e41e6153432f1d9",
-    "hash": "1lpskcpskklzdyjab4fr6r5fw6lzs1238rbqnd96zp37i5bn9dqb",
+    "rev": "ec04d3d6e6bf99a5cd724ceebeff77a4c1774381",
+    "hash": "0xhfni1a3yrqs5h817m2c4brr39sjaydwh8jypkka2ha5q7vs2my",
     "skills": [
       ".agents/skills/acp-debug",
       ".agents/skills/add-integration",
@@ -29339,7 +29361,7 @@
       "apps/backend/internal/office/configloader/skills/kandev-team",
       "apps/backend/internal/office/configloader/skills/memory"
     ],
-    "lastUpdated": "2026-06-30T18:58:16.703Z"
+    "lastUpdated": "2026-07-01T01:26:22.992Z"
   },
   {
     "source": "github:kdnsna/ultimate-ppt-master-skill",
@@ -31630,8 +31652,8 @@
   },
   {
     "source": "github:khoahyh/skills",
-    "rev": "286d44a10fec1e01b7a58bde057d19a6cc614a60",
-    "hash": "0pnv7s6qcls3lwq6hc917l5mgdcywmrsisgaf01f8hqq4rqkmn30",
+    "rev": "3aa0701463598ba8b1c45f3f2b8397e7d4c9a5b1",
+    "hash": "059ijj16nlryhzd13qc008ng1wkkwhzwf805qlk9yphn6f0ph0hf",
     "skills": [
       "computa-please",
       "deepen-codebase-design",
@@ -31640,7 +31662,7 @@
       "sharingan",
       "write-effect-ts"
     ],
-    "lastUpdated": "2026-06-23T21:54:52.425Z"
+    "lastUpdated": "2026-07-01T01:26:59.706Z"
   },
   {
     "source": "github:khoi/skills",
@@ -32090,8 +32112,8 @@
   },
   {
     "source": "github:kilo-org/kilocode",
-    "rev": "5c6cc984d6d85bc56324b7926fdee6dbed4e9a69",
-    "hash": "1ip0w8nn3k3zhqs6gkc5zz7iphpz6cmrnsybkrbmkwx4sbmzq6ar",
+    "rev": "78cdc9c8960c8feb7dae0f334644da5a9a7be499",
+    "hash": "0zfm04xc812hfjn6j7ap7iglz0v5z94sys0ly3zffy2biyxvxlgg",
     "skills": [
       ".kilo/skills/gh-issues",
       ".kilo/skills/kilocode-merge-minimizer",
@@ -32101,7 +32123,7 @@
       "packages/opencode/test/fixture/skills/agents-sdk",
       "packages/opencode/test/fixture/skills/cloudflare"
     ],
-    "lastUpdated": "2026-06-30T16:14:06.865Z"
+    "lastUpdated": "2026-07-01T01:28:16.428Z"
   },
   {
     "source": "github:kilospark/webact",
@@ -33375,12 +33397,12 @@
   },
   {
     "source": "github:kitlangton/stack",
-    "rev": "75d27206f18c99f6e59fa88f0a4b8ed18933de81",
-    "hash": "161bd4w5kdjchyzkx1kyi3vp02pz5xb2d634gz4v0nxmx63k9rlc",
+    "rev": "749260c2a188468f631277d7db2a8b14b237c4dd",
+    "hash": "1l4a07f56f8lcpi1y1rgkw59lzy7iiqbhw7pnqkw72n52b9dz5s9",
     "skills": [
       "skills/stack"
     ],
-    "lastUpdated": "2026-06-30T18:59:19.325Z"
+    "lastUpdated": "2026-07-01T01:28:30.475Z"
   },
   {
     "source": "github:kitlangton/terminal-control",
@@ -33568,8 +33590,8 @@
   },
   {
     "source": "github:kjdragan/universal_agent",
-    "rev": "df021fc98baaf3a29055cdd53e0e3fb9009817fa",
-    "hash": "0398ndd6fncyl5h87qf9g2hxiy7i71ymr15w38q7ajd8xi2f4wp3",
+    "rev": "1402d84dc48f78d0b071f9504cf36d7867c24317",
+    "hash": "0yqsmxw83n5p6b75sh1v6gb88gn31n4n7bw711s37acjzmgiv5nf",
     "skills": [
       ".agent/skills/agentmail",
       ".agent/skills/excalidraw-diagram",
@@ -33681,7 +33703,7 @@
       ".claude/skills/youtube-tutorial-creation",
       ".claude/skills/zread-dependency-docs"
     ],
-    "lastUpdated": "2026-06-30T16:15:11.287Z"
+    "lastUpdated": "2026-07-01T01:28:52.544Z"
   },
   {
     "source": "github:kjgarza/marketplace-claude",
@@ -34269,8 +34291,8 @@
   },
   {
     "source": "github:knowhiz/dowhiz",
-    "rev": "89cff70b86da0f9a1e24f296570050fdbe05a27f",
-    "hash": "0yiqnjv7x32swixwb5sa846dw7m1b6a69jpd38lxs8qcd3snyw1q",
+    "rev": "c7436f2b86c97c9d8e66adc1c19de8610d623c73",
+    "hash": "0szwmn3gqfh5g0s46rwq0k693njlff3i8h55gmy6dijh4mgfqxd5",
     "skills": [
       ".agents/skills/browser-use",
       ".agents/skills/canvas-design",
@@ -34322,7 +34344,7 @@
       "DoWhiz_service/skills/tpm",
       "DoWhiz_service/skills/used-car-search"
     ],
-    "lastUpdated": "2026-06-23T01:19:56.158Z"
+    "lastUpdated": "2026-07-01T01:27:58.734Z"
   },
   {
     "source": "github:knowlet/skills",
@@ -34349,12 +34371,12 @@
   },
   {
     "source": "github:knowsuchagency/mcp2cli",
-    "rev": "e3fa0f957155da6fe8dbb981441c41b2131feda0",
-    "hash": "00xv7piyw3jh7sv6b83i2a06d75djqal5dgscmvw8jsrxjmdxa1g",
+    "rev": "dd2a5a6353060a7bf8d2599bf5d037d75b26a7ae",
+    "hash": "051sj3gncx5vziyvrklli1q489h0xv41l813sjjby4jva3jg4c5j",
     "skills": [
       "skills/mcp2cli"
     ],
-    "lastUpdated": "2026-06-20T07:43:15.956Z"
+    "lastUpdated": "2026-07-01T01:27:39.302Z"
   },
   {
     "source": "github:knowsuchagency/pocketbase-template",
@@ -34416,18 +34438,17 @@
   },
   {
     "source": "github:kochetkov-ma/claude-brewcode",
-    "rev": "a6c1b14965d2b3ee1ef33931f537154ea6fe3591",
-    "hash": "0xh763vhflx3nz23yfpqnqn34ayqzbfm62zf12vm0ylk1bc0nvsn",
+    "rev": "58dc559478f7b0db93014d32d6b5cc5233c29457",
+    "hash": "04cj702vdqd6cwz4irzp34zpkmzj9glcl2hg0l87amahc6jfm36z",
     "skills": [
       "brewcode/skills/agents",
       "brewcode/skills/convention",
       "brewcode/skills/e2e",
       "brewcode/skills/grepai",
       "brewcode/skills/rules",
-      "brewcode/skills/setup",
       "brewcode/skills/skills",
       "brewcode/skills/spec",
-      "brewcode/skills/standards-review",
+      "brewcode/skills/superreview",
       "brewcode/skills/teams",
       "brewdoc/skills/auto-sync",
       "brewdoc/skills/guide",
@@ -34435,14 +34456,11 @@
       "brewdoc/skills/memory",
       "brewdoc/skills/my-claude",
       "brewdoc/skills/publish",
-      "brewtools/skills/agent-toggle",
-      "brewtools/skills/debate",
       "brewtools/skills/deploy",
       "brewtools/skills/manager",
       "brewtools/skills/plugin-update",
       "brewtools/skills/provider-switch",
       "brewtools/skills/secrets-scan",
-      "brewtools/skills/skill-toggle",
       "brewtools/skills/ssh",
       "brewtools/skills/task-board-init",
       "brewtools/skills/text-human",
@@ -34452,7 +34470,7 @@
       "skills/memory-optimize",
       "skills/text-optimizer"
     ],
-    "lastUpdated": "2026-06-30T04:44:45.001Z"
+    "lastUpdated": "2026-07-01T01:27:46.544Z"
   },
   {
     "source": "github:kodjunkie/nestjs-crud",
@@ -36439,6 +36457,15 @@
     "lastUpdated": "2026-06-24T13:10:53.079Z"
   },
   {
+    "source": "github:kotot/byted-ark-seedream-skill",
+    "rev": "cb8c923893ba10db6739dd145537b261a8d92176",
+    "hash": "0mc76iz3byj5d05d8lfkkgn0qx9422fca26qaiq1l9fllgxnjrjm",
+    "skills": [
+      "."
+    ],
+    "lastUpdated": "2026-07-01T01:27:22.865Z"
+  },
+  {
     "source": "github:kotot/vision",
     "rev": "2b66dfe12f42a3ca5609195263dd3e2711f41c20",
     "hash": "0yjs0x3q8zm2416zbnhz3a8w6rrqsza1f3w5dlqxbiab7gxiik75",
@@ -36602,8 +36629,8 @@
   },
   {
     "source": "github:krazyuniks/guitar-tone-shootout",
-    "rev": "1e9d7b4e909badc743c0345b146c8ce1003b48ad",
-    "hash": "0pi65x9699ddf4zgzh9mm65m0bmqik7dfg46w3ipi7mcnjm8c4y1",
+    "rev": "38f276a84e3c62e151198f1c0df928891b569fb1",
+    "hash": "03gsd60g0853kwc2k2jgy4kvh7r0lv92knifjfsirby4jvq9inq0",
     "skills": [
       ".claude/skills/gts-architecture",
       ".claude/skills/gts-auth",
@@ -36612,19 +36639,19 @@
       ".claude/skills/gts-testing",
       ".claude/skills/gts-video"
     ],
-    "lastUpdated": "2026-06-30T13:02:26.269Z"
+    "lastUpdated": "2026-07-01T01:27:31.526Z"
   },
   {
     "source": "github:krea-ai/skills",
-    "rev": "8ff3b417fb7ed50833b7534cc14d4c3f9e6f8b3a",
-    "hash": "15v2p46mffys8ija8fgl24gb1jj0n0r7ax1af2wj3sbpimc7hy2x",
+    "rev": "5c753e8d1011906e58b9bb5ba11281ae57a92433",
+    "hash": "14b70w72a1fww2qyw6902h6bixjr7svpkchcccvcmrqs0awccr69",
     "skills": [
       "krea-animation",
       "krea-generate",
       "krea-marketing",
       "wip/krea-build"
     ],
-    "lastUpdated": "2026-06-26T18:58:08.762Z"
+    "lastUpdated": "2026-07-01T01:27:31.455Z"
   },
   {
     "source": "github:kreerc/accessibility.md",
@@ -36662,8 +36689,8 @@
   },
   {
     "source": "github:kriscard/kriscard-claude-plugins",
-    "rev": "d3b84a66f64ae380b2175e62c7c6582f6528da80",
-    "hash": "0rfdys9a6qq4rq7sdg7aspspixa2p5wc00x6j5kj9kcdq72s2a7k",
+    "rev": "665f24995ccde845d2598addec3df0e6fbf49315",
+    "hash": "1fb9qyv6h9dgr63kk1xa3w8mdy81brfkbsly04dnpyngr33yikv3",
     "skills": [
       "skills/dev/analyze-repo",
       "skills/dev/architect",
@@ -36709,7 +36736,7 @@
       "skills/writing/talk",
       "skills/writing/tutorial"
     ],
-    "lastUpdated": "2026-06-20T07:43:46.432Z"
+    "lastUpdated": "2026-07-01T01:27:51.101Z"
   },
   {
     "source": "github:krishagel/geoffrey",
@@ -37214,8 +37241,8 @@
   },
   {
     "source": "github:kryptobaseddev/cleo",
-    "rev": "0232e6d1d28c09a6644cf3fbf19ffe205782d896",
-    "hash": "11iz8jr5zw7kkrj0k376wmcmcv5inb71hhsg0djr288fssl92pxa",
+    "rev": "9454b7b8a4fbbec6bd6da434e8fe65dbe665cd06",
+    "hash": "0bmspxwiii2y410yam5b0flnz35an94fzvjhsw387c28xa224wi8",
     "skills": [
       ".cleo/skills/cleo-validator",
       "docs/generated/SKILL-monorepo",
@@ -37250,7 +37277,7 @@
       "packages/skills/skills/ct-validator",
       "packages/skills/skills/signaldock-connect"
     ],
-    "lastUpdated": "2026-06-30T19:00:13.478Z"
+    "lastUpdated": "2026-07-01T01:28:38.588Z"
   },
   {
     "source": "github:kryptogo/kryptogo-meme-trader",
@@ -37822,22 +37849,22 @@
   },
   {
     "source": "github:kunchenguid/lavish-axi",
-    "rev": "0b3e28eae0a139540b7b274293cea98d49961dc4",
-    "hash": "00qla1g5va5gkp74468cggvcxhnxbpjk0n3yscpmp43qix8fy9i0",
+    "rev": "d7deba16aec45a5752a853303f60b5c8dc45e535",
+    "hash": "1zsh19lk8wi8wfdw7mw2gcbpxrpnndak2qp66vxh3b33b7rz3044",
     "skills": [
       ".agents/skills/lavish-design",
       "skills/lavish"
     ],
-    "lastUpdated": "2026-06-29T04:57:55.938Z"
+    "lastUpdated": "2026-07-01T01:28:00.281Z"
   },
   {
     "source": "github:kunchenguid/no-mistakes",
-    "rev": "1432f3b301e7606ce82cc2539879807a94691a98",
-    "hash": "1xyfq7lpqsxzby6nf8qxsnvpa337avg2j9ddfnijalbmvz7acdni",
+    "rev": "9059685ad88e30554e5228fbb45ffd70f61caf00",
+    "hash": "0hqp3293waw6maxaxnb0y91aszqnczkrqvxbz5ik5zkrb3i0mh14",
     "skills": [
       "skills/no-mistakes"
     ],
-    "lastUpdated": "2026-06-30T07:41:04.516Z"
+    "lastUpdated": "2026-07-01T01:28:02.773Z"
   },
   {
     "source": "github:kunchenguid/tasks-axi",
@@ -39869,8 +39896,8 @@
   },
   {
     "source": "github:kurtosis-tech/kurtosis",
-    "rev": "0de861e946248b8dd8d8435542bd62eefa10444d",
-    "hash": "1vghbv8466yfalrf6dr4i5yg76fagj42snjbjsvm2r70rnsingh5",
+    "rev": "ec23778e5dced68c445b41f4dca7ba1861b536ef",
+    "hash": "1aavz63smyx5fsn5j1cyyyvqqsmyhq7fg34j8kgrv704dllbqr77",
     "skills": [
       "skills/clean",
       "skills/cli-local-build",
@@ -39895,7 +39922,7 @@
       "skills/service-manage",
       "skills/starlark-dev"
     ],
-    "lastUpdated": "2026-06-23T21:54:17.003Z"
+    "lastUpdated": "2026-07-01T01:28:26.227Z"
   },
   {
     "source": "github:kuse-ai/kuse-skills",
@@ -40554,12 +40581,12 @@
   },
   {
     "source": "github:kylezantos/skill-distillery",
-    "rev": "51881b52cf4910c7adc611676569b6c643a296a2",
-    "hash": "0mp21sbafazqzl5qyyycmn8h3sksflndakrbphcscwlc9sfw5x7f",
+    "rev": "6e7da8451e4ef671a7acac9c635c9b39b645fc18",
+    "hash": "0a5nl8bmpsfp2i0wlqpzlb2y5gxd02lc5kiijp2n9q4qp27cbzdr",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-06-20T07:43:15.354Z"
+    "lastUpdated": "2026-07-01T01:28:40.163Z"
   },
   {
     "source": "github:kylezantos/soleio-design-hiring",
