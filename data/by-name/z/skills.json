@@ -1663,7 +1663,7 @@
   },
   {
     "source": "github:zacklecon/claude-skills",
-    "rev": "d0400c5659a54b2e5551c078c766d5c466c947b1",
+    "rev": "8fdfe9566937111f349aff2d7d734d61e109f261",
     "hash": "1k3ghqg71y0sxcdm52mqw0faap2anxr8k1riv4hbgpkgixfry5zj",
     "skills": [
       "skills/angular-architect",
@@ -1733,7 +1733,7 @@
       "skills/websocket-engineer",
       "skills/wordpress-pro"
     ],
-    "lastUpdated": "2026-07-04T04:08:07.427Z"
+    "lastUpdated": "2026-07-04T08:58:11.612Z"
   },
   {
     "source": "github:zadanthony/arbiscan-skill",
@@ -2108,12 +2108,12 @@
   },
   {
     "source": "github:zarazhangrui/follow-builders",
-    "rev": "279e3b02cff58f747347884e186f2ffa41228829",
-    "hash": "1v1gk7ffi7hllr1z8hnifcnbi3ljwz7ifdgjxm0gcd5ra41fx5yk",
+    "rev": "ef3e1aa7f9c3e6f918c32cefea998f901f1339ef",
+    "hash": "0855rzf8lpljqp0sai7axx8qrn982kmixwiqv303n2nhdsr2vb9m",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-03T09:43:06.242Z"
+    "lastUpdated": "2026-07-04T08:58:15.264Z"
   },
   {
     "source": "github:zarazhangrui/frontend-slides",
@@ -3002,9 +3002,10 @@
   },
   {
     "source": "github:zeikar/hyperclaude",
-    "rev": "3cd54792b841f13fc99b6cbf7b61dfd50555e19a",
-    "hash": "0484i4m7fhhsfzvn7z588yyh2p3wn7ff4ja5r9kyvc2d8hcs0cb8",
+    "rev": "688c9a9dbb67679b210069c54d0b2046a6581a39",
+    "hash": "0svlh1ymng027jnx9zhsbzv5lpfg5m22lld099lj93mbzipwkf95",
     "skills": [
+      ".claude/skills/cc-changelog",
       "skills/hyper-auto",
       "skills/hyper-code-review",
       "skills/hyper-debug",
@@ -3021,7 +3022,7 @@
       "skills/hyper-research",
       "skills/hyper-tdd"
     ],
-    "lastUpdated": "2026-07-02T01:26:06.707Z"
+    "lastUpdated": "2026-07-04T08:58:33.383Z"
   },
   {
     "source": "github:zeinalii/skills",
@@ -4343,8 +4344,8 @@
   },
   {
     "source": "github:zgbrenner/agentcounsel",
-    "rev": "8315fb1f41d370c504fc5598c759b71f015e00e3",
-    "hash": "0cqlyfvnkvqg56pbympvpm2k5agmp9nqn618v99mc5cqg75kzcz9",
+    "rev": "685f92a98395f3764fc4c734db57f43dd1f8e678",
+    "hash": "101fvwa8v06lc5pj1q9fz7clcb3jzhsxmda8znd8rcx3362i0ag4",
     "skills": [
       "adapters/claude-code-plugin/skills/legal-core",
       "skills/ai-governance/ai-use-case-intake",
@@ -4383,11 +4384,14 @@
       "skills/corporate/diligence-issue-extraction",
       "skills/corporate/entity-compliance",
       "skills/corporate/material-contract-schedule",
+      "skills/corporate/shareholder-meeting-minutes",
       "skills/corporate/written-consent",
       "skills/employment/employee-policy-review",
       "skills/employment/hiring-review",
       "skills/employment/internal-investigation",
       "skills/employment/protected-leave-review",
+      "skills/employment/reduction-in-force-review",
+      "skills/employment/restrictive-covenant-review",
       "skills/employment/severance-review",
       "skills/employment/termination-risk",
       "skills/employment/wage-hour-qa",
@@ -4446,12 +4450,14 @@
       "skills/legal-research/authority-synthesis",
       "skills/legal-research/case-brief",
       "skills/legal-research/legal-research-memo",
+      "skills/legal-research/negative-treatment-check",
       "skills/legal-research/regulatory-history-tracer",
       "skills/legal-research/research-plan",
       "skills/litigation/brief-section-drafter",
       "skills/litigation/claim-chart",
       "skills/litigation/demand-letter",
       "skills/litigation/deposition-prep",
+      "skills/litigation/discovery-response-workflow",
       "skills/litigation/legal-hold",
       "skills/litigation/litigation-chronology",
       "skills/litigation/privilege-log-review",
@@ -4465,6 +4471,7 @@
       "skills/m-and-a/post-closing-obligations-tracker",
       "skills/m-and-a/purchase-agreement-issue-list",
       "skills/m-and-a/reps-warranties-disclosure-schedule-review",
+      "skills/m-and-a/rw-insurance-review",
       "skills/m-and-a/third-party-consents-assignment-review",
       "skills/privacy/breach-response-workflow",
       "skills/privacy/cross-border-transfer-review",
@@ -4481,6 +4488,7 @@
       "skills/real-estate/estoppel-snda-review",
       "skills/real-estate/lease-abstract",
       "skills/real-estate/lease-amendment-reconciliation",
+      "skills/real-estate/loan-document-review",
       "skills/real-estate/psa-review",
       "skills/real-estate/real-estate-diligence-checklist",
       "skills/real-estate/title-survey-objection-tracker",
@@ -4488,9 +4496,11 @@
       "skills/regulatory/compliance-gap-matrix",
       "skills/regulatory/compliance-program-tracker",
       "skills/regulatory/enforcement-risk-memo",
+      "skills/regulatory/regulatory-exam-response",
       "skills/regulatory/rule-change-summary",
       "skills/securities-capital-markets/capital-markets-closing-checklist",
       "skills/securities-capital-markets/comfort-backup-request-tracker",
+      "skills/securities-capital-markets/equity-incentive-plan-review",
       "skills/securities-capital-markets/form-d-blue-sky-tracker",
       "skills/securities-capital-markets/insider-trading-policy-review",
       "skills/securities-capital-markets/investor-rights-agreement-review",
@@ -4544,7 +4554,7 @@
       "skills/trusts-estates/trust-administration-tracker",
       "skills/trusts-estates/trust-funding-checklist"
     ],
-    "lastUpdated": "2026-07-03T04:14:33.342Z"
+    "lastUpdated": "2026-07-04T08:58:35.257Z"
   },
   {
     "source": "github:zgid123/skills",
@@ -6532,15 +6542,15 @@
   },
   {
     "source": "github:zhulinsen/daily_stock_analysis",
-    "rev": "a3e1b9e3ba485a7666c29a09275bd176d84a9c4a",
-    "hash": "17gv4vzrymsknjij7gwb2wqxpqmv9fffdn1jfss4xz9wglq07yp0",
+    "rev": "c1a324d208de130e651fc6ca22b6b3fc43815a00",
+    "hash": "1gfyc3wllg38jigh7zchpmn6khgyijnxckin7szm6bpf052a6i4g",
     "skills": [
       ".",
       ".claude/skills/analyze-issue",
       ".claude/skills/analyze-pr",
       ".claude/skills/fix-issue"
     ],
-    "lastUpdated": "2026-07-04T04:09:05.103Z"
+    "lastUpdated": "2026-07-04T08:58:45.955Z"
   },
   {
     "source": "github:zhumon/claude-code-hubs",
@@ -8805,8 +8815,8 @@
   },
   {
     "source": "github:zolotukhin/zinc",
-    "rev": "49a14c18d788a94c6d5420724e865d9d45323761",
-    "hash": "0lga7k65dhnysqa9ch2ihydfswx9wv9rvc9dagr9fkslqnn044x4",
+    "rev": "d7e33d7f44b8704b46e6f978faaaf87d9e165088",
+    "hash": "097hdln82lfq0ybvr03dp1y289qpygf2vkr5v7hgdk15mbd381pq",
     "skills": [
       ".agents/skills/speckit-analyze",
       ".agents/skills/speckit-checklist",
@@ -8819,7 +8829,7 @@
       ".agents/skills/speckit-taskstoissues",
       ".claude/skills/zig-docgen"
     ],
-    "lastUpdated": "2026-07-04T04:08:39.079Z"
+    "lastUpdated": "2026-07-04T08:58:29.550Z"
   },
   {
     "source": "github:zonein-workspace/zonein-skill",
@@ -9250,8 +9260,8 @@
   },
   {
     "source": "github:zrong/skills",
-    "rev": "a442910feacab2fa2f82bb54c6cd55a48aa814ca",
-    "hash": "0n7q88lyajcwrbszwil6l8ip8kr6jrb400230y93l60q27ypzm7p",
+    "rev": "e1a5c5a41d96d8984c44865f54db80dcad58a5ae",
+    "hash": "130wm56k66y2517ifpyj9a2ymg1a9v66bz2ivh7qlvr8y14ih064",
     "skills": [
       "email",
       "feishu-image",
@@ -9269,7 +9279,7 @@
       "video-downloader",
       "vikunja"
     ],
-    "lastUpdated": "2026-07-02T01:25:16.305Z"
+    "lastUpdated": "2026-07-04T08:58:33.107Z"
   },
   {
     "source": "github:zrosenbauer/skills",
@@ -9747,8 +9757,8 @@
   },
   {
     "source": "github:zuoa/aj-skills",
-    "rev": "b1fe84076127c25a8ad6cfe03d7941a248308f6c",
-    "hash": "0hx6hyyfx8sf6kblac2j8rk5nad8hs10jp8la76d2cc896n42hl2",
+    "rev": "7674b84ea5b4fb778a6401286437ad7ee582e874",
+    "hash": "0pa16j62yqkhwwi9kbwvxrl8k56ab8zjcpa2isw6z5q6ahwzqwbc",
     "skills": [
       "skills/activity-push",
       "skills/aj-copyright-writer",
@@ -9761,7 +9771,7 @@
       "skills/stock-sector-monitoring",
       "skills/weekly-report-skill"
     ],
-    "lastUpdated": "2026-07-01T13:21:33.888Z"
+    "lastUpdated": "2026-07-04T08:58:25.497Z"
   },
   {
     "source": "github:zura1555/agents",
@@ -9956,8 +9966,8 @@
   },
   {
     "source": "github:zxkane/autonomous-dev-team",
-    "rev": "db2d94b793cf63d4a8217d5919bb461b8a3b4874",
-    "hash": "1aja56dp29awxj0yjdvr0yna6ym4r8xhayba76q70dnfsh6wf05k",
+    "rev": "5a9f24ca96f41077d07b3a33f8a5161b877caad3",
+    "hash": "1vpgdjhkqvssvzk9bcxfacrw1adgn0mwsradd8bybybr5r1ny3yk",
     "skills": [
       "skills/autonomous-common",
       "skills/autonomous-dev",
@@ -9965,7 +9975,7 @@
       "skills/autonomous-review",
       "skills/create-issue"
     ],
-    "lastUpdated": "2026-07-04T04:07:38.969Z"
+    "lastUpdated": "2026-07-04T08:58:31.654Z"
   },
   {
     "source": "github:zxkane/aws-skills",
