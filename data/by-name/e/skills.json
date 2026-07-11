@@ -8459,8 +8459,8 @@
   },
   {
     "source": "github:edmundmiller/dotfiles",
-    "rev": "ea9d7cc24ef9583d19ef72a236353b69e193a2fa",
-    "hash": "0qb3h5vdwf7lz1rkygk9rijma0ry3yavc6nz11ph81pa9rimfdd7",
+    "rev": "6d94e5fc42fa6b1c25280cf3b00320887999970f",
+    "hash": "10yy03bxh6q67cjqpzzlws4dld4df4xlhykvw4yn8kyhbv2jf6vi",
     "skills": [
       ".agents/skills/agent-ci",
       ".agents/skills/dagster-per-asset-healthchecks",
@@ -8505,6 +8505,7 @@
       "skills/catalog/python-scripts",
       "skills/catalog/simplify",
       "skills/catalog/skill-quality",
+      "skills/catalog/skillopt-sleep-learned",
       "skills/catalog/spec-driven-spock",
       "skills/catalog/stack-maintenance",
       "skills/catalog/tdd",
@@ -8517,7 +8518,7 @@
       "skills/conditional/herdr/herdr",
       "tools/linear/skills/linear"
     ],
-    "lastUpdated": "2026-07-10T22:16:25.474Z"
+    "lastUpdated": "2026-07-11T10:35:53.782Z"
   },
   {
     "source": "github:edmundmiller/opencode-canvas",
@@ -9483,12 +9484,12 @@
   },
   {
     "source": "github:eiwru/creative-director-skill",
-    "rev": "f04beea5a0f2a82af566f488d3c61b4e7b4110b6",
+    "rev": "3aa020e92d7a478c190a35609517167050a8edfa",
     "hash": "067a5klqfgrmzgp5335w57knrrv24hccjw2vb1rgfyd8v9pgxs59",
     "skills": [
       "creative-director"
     ],
-    "lastUpdated": "2026-07-11T08:17:03.610Z"
+    "lastUpdated": "2026-07-11T10:36:27.587Z"
   },
   {
     "source": "github:ejirocodes/agent-skills",
@@ -10413,8 +10414,8 @@
   },
   {
     "source": "github:elizaOS/eliza",
-    "rev": "5ff608452d0700973259064dd5516bad3d80abd2",
-    "hash": "0kxlv467gr4c9b9birc2g8x6vc7vfir0dhsmja208kcyh7vi52ya",
+    "rev": "c19e94d31dbafac50d8d145821366b7108accdc6",
+    "hash": "1inbjkz5yl2kwf5dpj0jq2khivhkvv1i79dx8wjk1mq3cp4nqhxz",
     "skills": [
       "packages/feed/skills/feed",
       "packages/skills/skills/1password",
@@ -10452,12 +10453,12 @@
       "packages/skills/skills/weather",
       "packages/skills/skills/yara-authoring"
     ],
-    "lastUpdated": "2026-07-11T08:18:06.048Z"
+    "lastUpdated": "2026-07-11T10:36:29.353Z"
   },
   {
     "source": "github:elizaos/eliza",
-    "rev": "5ff608452d0700973259064dd5516bad3d80abd2",
-    "hash": "0kxlv467gr4c9b9birc2g8x6vc7vfir0dhsmja208kcyh7vi52ya",
+    "rev": "c19e94d31dbafac50d8d145821366b7108accdc6",
+    "hash": "1inbjkz5yl2kwf5dpj0jq2khivhkvv1i79dx8wjk1mq3cp4nqhxz",
     "skills": [
       "packages/feed/skills/feed",
       "packages/skills/skills/1password",
@@ -10495,7 +10496,7 @@
       "packages/skills/skills/weather",
       "packages/skills/skills/yara-authoring"
     ],
-    "lastUpdated": "2026-07-11T08:18:47.875Z"
+    "lastUpdated": "2026-07-11T10:36:46.291Z"
   },
   {
     "source": "github:eljun/claude-skills",
@@ -11859,12 +11860,12 @@
   },
   {
     "source": "github:entiwee-ship-it/project-memory-manager",
-    "rev": "28cf3ef721c9967336b84d0707e120842eb18da8",
-    "hash": "1ndyrykww5z2vp6j2mlr46pcfcwc8g0jhjhbv2x8adcfx30fpsah",
+    "rev": "972674c7135672102611da3930ab9d086ae3cb68",
+    "hash": "122ip4q565l8167m0nmkdbqa03r6ihhapv91vvlg4f9cyqrg956c",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-11T03:44:42.950Z"
+    "lastUpdated": "2026-07-11T10:35:45.082Z"
   },
   {
     "source": "github:entr0pia/scoop-skills",
@@ -12156,22 +12157,23 @@
   },
   {
     "source": "github:envoydev/skills",
-    "rev": "34c860cfc1d5807708e084bb36b9c42388a0bb3f",
-    "hash": "1cccysg6afn971hnx8slmpx26yhnhy9639zkngwlpxbi9x1vrsvl",
+    "rev": "c447157f1b7da9f67ad250e0069fa63c56f65a48",
+    "hash": "0mv7vkn79y6gjgf48z1rdgmaxhn6p82cgsq6v1s43q8mkh7qqmzn",
     "skills": [
       "skills/angular-conventions",
       "skills/angular-material",
       "skills/angular-security",
       "skills/angular-styling",
       "skills/capacitor-release",
+      "skills/ci-triage",
       "skills/create-ticket",
+      "skills/cross-stack-agents-flow",
       "skills/csharp",
       "skills/csharp-design-patterns",
       "skills/data-security",
       "skills/database-conventions",
       "skills/dev-log-convert",
       "skills/devops",
-      "skills/domain-build",
       "skills/dotnet",
       "skills/dotnet-architecture",
       "skills/dotnet-architecture-tests",
@@ -12199,9 +12201,11 @@
       "skills/dotnet-winforms",
       "skills/dotnet-wpf",
       "skills/explain-code-tutor",
+      "skills/failure-signatures",
       "skills/frontend",
       "skills/ilspy-decompile",
       "skills/ionic",
+      "skills/main-stack-agents-flow",
       "skills/markdown-style",
       "skills/mobile",
       "skills/mobile-security",
@@ -12209,12 +12213,12 @@
       "skills/postgres",
       "skills/project-quality-loop",
       "skills/project-scaffold",
+      "skills/solution-design",
       "skills/sqlite",
-      "skills/subagent-flow",
       "skills/typescript",
       "skills/verify-plan"
     ],
-    "lastUpdated": "2026-07-10T09:55:43.353Z"
+    "lastUpdated": "2026-07-11T10:35:48.956Z"
   },
   {
     "source": "github:enze00/uniapp-frontend-skills",
@@ -16127,7 +16131,7 @@
   },
   {
     "source": "github:event4u-app/agent-config",
-    "rev": "cb514d9624e53173eb578917d2e1527088b2a2c6",
+    "rev": "87b66151cbf2393791b507d921c176192fe0da6e",
     "hash": "1hib3zvcaqr6s9v862y9j11cjrzmv0z0qbsl6awarq76xvnivd0i",
     "skills": [
       ".claude-plugin/skills/install-agent-config",
@@ -16402,7 +16406,7 @@
       "src/skills/wireframe",
       "src/skills/worktree-lifecycle"
     ],
-    "lastUpdated": "2026-07-11T08:17:54.813Z"
+    "lastUpdated": "2026-07-11T10:35:46.347Z"
   },
   {
     "source": "github:eventual-inc/daft",
@@ -16553,8 +16557,8 @@
   },
   {
     "source": "github:everyinc/compound-engineering-plugin",
-    "rev": "3519336ecdf204e418a325d961a834abd8507d89",
-    "hash": "1rfwyz10b5z66z8raqz2la462ljzrg8bjzbzf6zq7j3i87mdzdxv",
+    "rev": "7f86be9d02679adeb93951587dee40de42c5bf82",
+    "hash": "00m3rvlaf7vkhj24j71a1g6yww6ac8i7cs9nrn39sd83pdv88mwq",
     "skills": [
       "skills/ce-brainstorm",
       "skills/ce-code-review",
@@ -16592,12 +16596,12 @@
       "tests/fixtures/sample-plugin/skills/disabled-skill",
       "tests/fixtures/sample-plugin/skills/skill-one"
     ],
-    "lastUpdated": "2026-07-10T17:10:07.887Z"
+    "lastUpdated": "2026-07-11T10:35:51.567Z"
   },
   {
     "source": "github:everyinc/every-marketplace",
-    "rev": "3519336ecdf204e418a325d961a834abd8507d89",
-    "hash": "1rfwyz10b5z66z8raqz2la462ljzrg8bjzbzf6zq7j3i87mdzdxv",
+    "rev": "7f86be9d02679adeb93951587dee40de42c5bf82",
+    "hash": "00m3rvlaf7vkhj24j71a1g6yww6ac8i7cs9nrn39sd83pdv88mwq",
     "skills": [
       "skills/ce-brainstorm",
       "skills/ce-code-review",
@@ -16635,7 +16639,7 @@
       "tests/fixtures/sample-plugin/skills/disabled-skill",
       "tests/fixtures/sample-plugin/skills/skill-one"
     ],
-    "lastUpdated": "2026-07-10T17:10:10.124Z"
+    "lastUpdated": "2026-07-11T10:35:51.817Z"
   },
   {
     "source": "github:everyinc/everyskill",
