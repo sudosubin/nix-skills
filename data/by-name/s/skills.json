@@ -574,12 +574,12 @@
   },
   {
     "source": "github:Shada01245/the-unofficial-swift-programming-language-skill",
-    "rev": "a8e2a6588ffb97bbcfceebc930f48acaccb7db60",
+    "rev": "63321ef3cfb929d360f0db3b480e2e435f04f4f7",
     "hash": "1dz631pg89idx30lf1inrnj76gk4p8q01a9491pk81gjqr1icn0l",
     "skills": [
       "programming-swift"
     ],
-    "lastUpdated": "2026-07-11T13:54:49.458Z"
+    "lastUpdated": "2026-07-11T16:10:43.837Z"
   },
   {
     "source": "github:ShaheerKhawaja/ProductionOS",
@@ -5382,8 +5382,8 @@
   },
   {
     "source": "github:samuerio/.dotfiles",
-    "rev": "5c8a301b883259164157bf66732debecad939730",
-    "hash": "14k7w863sdsix3y8ximli3gq2nvaiyniks44kj023y3ssx2ykvb7",
+    "rev": "7dbe20bc462397e83e2ce8e14a34d93bdad90426",
+    "hash": "0xlq07fm82afy8y5z7hynhrvzch27y998b8jxwp1rr72b6vjh69l",
     "skills": [
       "agents/skills/aider-context",
       "agents/skills/architecture",
@@ -5423,7 +5423,7 @@
       "agents/skills/write-a-skill",
       "agents/skills/youtube-music"
     ],
-    "lastUpdated": "2026-07-11T08:22:45.657Z"
+    "lastUpdated": "2026-07-11T16:17:28.760Z"
   },
   {
     "source": "github:samunderwood/agent-skills",
@@ -6555,10 +6555,11 @@
   },
   {
     "source": "github:sapdev-ai/sap-dev",
-    "rev": "cb5d0d8877b8264255d8cc90587723115a4761fc",
-    "hash": "0d24kyy7p4qh6dhh5c5aaxc650wg90fqc92cjn4qrgcj0bh5q4h2",
+    "rev": "dcc79b9db8d4599adbb9ae7c95202c942422b6a7",
+    "hash": "1rcbgz788pjvay4p4vhgbh1iyys73xzgm0fvhj0p6imwza6pyn8r",
     "skills": [
       "plugins/sap-dev-core/skills/sap-activate-object",
+      "plugins/sap-dev-core/skills/sap-api-advisor",
       "plugins/sap-dev-core/skills/sap-atc",
       "plugins/sap-dev-core/skills/sap-call-bdc",
       "plugins/sap-dev-core/skills/sap-change-package",
@@ -6578,7 +6579,9 @@
       "plugins/sap-dev-core/skills/sap-file-transfer",
       "plugins/sap-dev-core/skills/sap-fix-abap",
       "plugins/sap-dev-core/skills/sap-fix-incident",
+      "plugins/sap-dev-core/skills/sap-forms",
       "plugins/sap-dev-core/skills/sap-function-group",
+      "plugins/sap-dev-core/skills/sap-git",
       "plugins/sap-dev-core/skills/sap-gui-inspect",
       "plugins/sap-dev-core/skills/sap-gui-probe",
       "plugins/sap-dev-core/skills/sap-gui-skill-scaffold",
@@ -6589,8 +6592,10 @@
       "plugins/sap-dev-core/skills/sap-rfc-wrapper",
       "plugins/sap-dev-core/skills/sap-run-abap-unit",
       "plugins/sap-dev-core/skills/sap-run-report",
+      "plugins/sap-dev-core/skills/sap-scratch-run",
       "plugins/sap-dev-core/skills/sap-se01",
       "plugins/sap-dev-core/skills/sap-se11",
+      "plugins/sap-dev-core/skills/sap-se14",
       "plugins/sap-dev-core/skills/sap-se16n",
       "plugins/sap-dev-core/skills/sap-se19",
       "plugins/sap-dev-core/skills/sap-se21",
@@ -6601,35 +6606,83 @@
       "plugins/sap-dev-core/skills/sap-se51",
       "plugins/sap-dev-core/skills/sap-se54",
       "plugins/sap-dev-core/skills/sap-se91",
+      "plugins/sap-dev-core/skills/sap-sm12",
       "plugins/sap-dev-core/skills/sap-snro",
       "plugins/sap-dev-core/skills/sap-sp02",
+      "plugins/sap-dev-core/skills/sap-sql-query",
       "plugins/sap-dev-core/skills/sap-st22",
       "plugins/sap-dev-core/skills/sap-stms",
       "plugins/sap-dev-core/skills/sap-trace",
       "plugins/sap-dev-core/skills/sap-transport-readiness",
       "plugins/sap-dev-core/skills/sap-transport-request",
       "plugins/sap-dev-core/skills/sap-update-addon",
+      "plugins/sap-dev-core/skills/sap-version-history",
+      "plugins/sap-dev-core/skills/sap-vofm",
       "plugins/sap-dev-core/skills/sap-where-used-list",
       "plugins/sap-gen-code/skills/sap-docs-check",
       "plugins/sap-gen-code/skills/sap-docs-convert",
+      "plugins/sap-gen-code/skills/sap-docs-estimate",
       "plugins/sap-gen-code/skills/sap-docs-extract",
       "plugins/sap-gen-code/skills/sap-docs-layout",
       "plugins/sap-gen-code/skills/sap-gen-abap",
       "plugins/sap-gen-code/skills/sap-gen-abap-unit",
       "plugins/sap-gen-code/skills/sap-gen-cds",
+      "plugins/sap-gen-code/skills/sap-gen-idoc-handler",
+      "plugins/sap-gen-code/skills/sap-gen-rap",
+      "plugins/sap-gen-code/skills/sap-gen-test-plan",
       "plugins/sap-gen-code/skills/sap-review-abap",
       "plugins/sap-migrate/skills/sap-cc-analyze",
       "plugins/sap-migrate/skills/sap-cc-campaign",
+      "plugins/sap-migrate/skills/sap-cc-cloud-readiness",
       "plugins/sap-migrate/skills/sap-cc-decommission",
       "plugins/sap-migrate/skills/sap-cc-inventory",
       "plugins/sap-migrate/skills/sap-cc-remediate",
       "plugins/sap-migrate/skills/sap-cc-triage",
       "plugins/sap-migrate/skills/sap-cc-usage",
-      "plugins/sap-tcd/skills/sap-bp",
-      "plugins/sap-tcd/skills/sap-mm01",
-      "plugins/sap-tcd/skills/sap-va01"
+      "plugins/sap-migrate/skills/sap-exit-modernize",
+      "plugins/sap-migrate/skills/sap-spau-triage",
+      "plugins/sap-project/skills/sap-auth-diagnose",
+      "plugins/sap-project/skills/sap-auth-requirements",
+      "plugins/sap-project/skills/sap-bp",
+      "plugins/sap-project/skills/sap-change-history",
+      "plugins/sap-project/skills/sap-config-compare",
+      "plugins/sap-project/skills/sap-cutover-runbook",
+      "plugins/sap-project/skills/sap-data-volume",
+      "plugins/sap-project/skills/sap-delivery-report",
+      "plugins/sap-project/skills/sap-doc-flow",
+      "plugins/sap-project/skills/sap-explain-role",
+      "plugins/sap-project/skills/sap-fi-post",
+      "plugins/sap-project/skills/sap-fiori-flp-audit",
+      "plugins/sap-project/skills/sap-gateway-service",
+      "plugins/sap-project/skills/sap-golden-master",
+      "plugins/sap-project/skills/sap-health-check",
+      "plugins/sap-project/skills/sap-idoc",
+      "plugins/sap-project/skills/sap-img-find",
+      "plugins/sap-project/skills/sap-interface-inventory",
+      "plugins/sap-project/skills/sap-mass-load",
+      "plugins/sap-project/skills/sap-mm01",
+      "plugins/sap-project/skills/sap-note-status",
+      "plugins/sap-project/skills/sap-output-diagnose",
+      "plugins/sap-project/skills/sap-pfcg",
+      "plugins/sap-project/skills/sap-refresh-verify",
+      "plugins/sap-project/skills/sap-release-notes",
+      "plugins/sap-project/skills/sap-retrofit",
+      "plugins/sap-project/skills/sap-rfc-monitor",
+      "plugins/sap-project/skills/sap-sm30",
+      "plugins/sap-project/skills/sap-sm35",
+      "plugins/sap-project/skills/sap-sost",
+      "plugins/sap-project/skills/sap-su01",
+      "plugins/sap-project/skills/sap-suim",
+      "plugins/sap-project/skills/sap-tcd-chain",
+      "plugins/sap-project/skills/sap-test-replay",
+      "plugins/sap-project/skills/sap-translate",
+      "plugins/sap-project/skills/sap-transport-copies",
+      "plugins/sap-project/skills/sap-transport-sequencer",
+      "plugins/sap-project/skills/sap-user-guide",
+      "plugins/sap-project/skills/sap-va01",
+      "plugins/sap-project/skills/sap-workflow"
     ],
-    "lastUpdated": "2026-07-10T22:22:11.101Z"
+    "lastUpdated": "2026-07-11T16:16:54.709Z"
   },
   {
     "source": "github:sapiencezk/eae-skills",
@@ -7975,14 +8028,14 @@
   },
   {
     "source": "github:scalus3/scalus",
-    "rev": "95e2191fae19b02f948dd15b463e0986f06669ab",
-    "hash": "1ygpl947k5vnsyq51mqgdhwn5r8kj2bsqgwakf0pbwf6pnymy2i8",
+    "rev": "1804e524ef6edd795d0320d1bc729c750a82a546",
+    "hash": "07fn4p6v6l0lrsq49a3a6h865q21i885f7swjj9rz9xw6rs14r5z",
     "skills": [
       ".claude/skills/local-development",
       "scalus-skills/optimize-contract",
       "scalus-skills/smart-contract-security-review"
     ],
-    "lastUpdated": "2026-07-11T14:00:53.120Z"
+    "lastUpdated": "2026-07-11T16:17:44.719Z"
   },
   {
     "source": "github:scanaislop/aislop-skill",
@@ -8204,14 +8257,14 @@
   },
   {
     "source": "github:sceneview/sceneview",
-    "rev": "6231b5d2aa9c42e3e086e1e4767a98fab72412b6",
-    "hash": "17aidaxd07zpqbdsmw57jw30r92mz0ff9ndf53gbsyfcn1pbcipx",
+    "rev": "d430f9c8715467e350c433ce0abf297bfffd306a",
+    "hash": "15hpj9wy9xj4h6ygz140hhza8ykdzqhmzp69jk1blqsk6nafgdr5",
     "skills": [
       "agents/sceneview",
       "agents/sceneview-ios",
       "agents/sceneview-web"
     ],
-    "lastUpdated": "2026-07-10T22:24:45.964Z"
+    "lastUpdated": "2026-07-11T16:18:17.085Z"
   },
   {
     "source": "github:schalkneethling/webdev-agent-skills",
@@ -9996,8 +10049,8 @@
   },
   {
     "source": "github:sdyckjq-lab/llm-wiki-skill",
-    "rev": "de4af3cb9abecfedbb2a245c3287d13ad805bd2d",
-    "hash": "1p5d6aj8ll12mlglwxwyh8fzrh651vy5iggda98dfs2yqr9yi3ji",
+    "rev": "159d1a9325556352419f197246f87a6d0e71a0c0",
+    "hash": "0wmachvfx91vp4incrl5cs55xjda2f4gkzca2qip6imsx7s3ppi2",
     "skills": [
       ".",
       "deps/baoyu-url-to-markdown",
@@ -10008,7 +10061,7 @@
       "workbench/.claude/skills/pptx",
       "workbench/.claude/skills/xlsx"
     ],
-    "lastUpdated": "2026-07-11T13:59:39.572Z"
+    "lastUpdated": "2026-07-11T16:18:24.551Z"
   },
   {
     "source": "github:seabasst/claude-smb-sverige",
@@ -12872,6 +12925,18 @@
     "lastUpdated": "2026-07-08T22:24:59.084Z"
   },
   {
+    "source": "github:sentimony/skills",
+    "rev": "4dee71449d76e91b1c73c20df798c09c6940f179",
+    "hash": "1dm1dx0sbd52bn0wkwypqqnwc8g4sqjy8ksvzajww0j927il2gkf",
+    "skills": [
+      "skills/echarts",
+      "skills/typescript",
+      "skills/vitest",
+      "skills/web-debug"
+    ],
+    "lastUpdated": "2026-07-11T16:17:06.484Z"
+  },
+  {
     "source": "github:sentinelcore/roblox-skills",
     "rev": "f2b1910a7fb898ed35cf2f856e2a2e48e38276bf",
     "hash": "0gaybir5fq9yi7rg23c0n097baflx1988rv9mwwa0w3yc9qwayhs",
@@ -14739,8 +14804,8 @@
   },
   {
     "source": "github:shabaraba/vibing.nvim",
-    "rev": "7105e262f3376e19702e761b38bf57b93f70094d",
-    "hash": "1zvjc0abi15whkakw837cck7z0sca2k23lyv61xmlcj4w9rcdnan",
+    "rev": "1425ac6c8ddba84b3e79acefdda0252bd3130588",
+    "hash": "16976l9asfsijsk62njw2wm3ibb55cajn7ka6h9nvh2cmqrrjzpb",
     "skills": [
       ".claude/skills/github-flow-for-claude-on-web",
       ".claude/skills/test-design",
@@ -14750,7 +14815,7 @@
       "skills/vibing-chat-search",
       "skills/vibing-worktree"
     ],
-    "lastUpdated": "2026-07-11T14:01:00.967Z"
+    "lastUpdated": "2026-07-11T16:16:08.656Z"
   },
   {
     "source": "github:shadcn-ui/ui",
@@ -14997,7 +15062,7 @@
   },
   {
     "source": "github:shajith003/awesome-claude-skills",
-    "rev": "c440dbe017576af3c8e9143dc2b4230468c4b633",
+    "rev": "eeef3be131bcbe450c62cdf0185d9b3f90c03701",
     "hash": "0x5ifxaafl6b86761rzp0qrs40njqm0w4hgp7pv82wn8ky90nnqg",
     "skills": [
       "algorithmic-art",
@@ -15017,7 +15082,7 @@
       "ui-design",
       "webapp-testing"
     ],
-    "lastUpdated": "2026-07-11T14:01:20.027Z"
+    "lastUpdated": "2026-07-11T16:16:26.881Z"
   },
   {
     "source": "github:shakes-tzd/contextune",
@@ -15450,8 +15515,8 @@
   },
   {
     "source": "github:sharex/xerahs",
-    "rev": "b2da966585648b4e637dea76757f2bd0aeac14f9",
-    "hash": "1im3q94lb6f2sylpra4f4vz0rg8g6y3hnapwdnf4x0ky8ls7panv",
+    "rev": "22c8b34abfcab350753a342ce5c44da5d7259174",
+    "hash": "167fd5fxb96xzhfhggs6frgvdxxkzwym6b1z4rrpjj7w4nnmnvfp",
     "skills": [
       ".ai/skills/architecture-guidelines",
       ".ai/skills/audit-refactoring",
@@ -15476,7 +15541,7 @@
       ".ai/skills/update-changelog",
       ".ai/skills/write-xip"
     ],
-    "lastUpdated": "2026-07-10T17:15:58.348Z"
+    "lastUpdated": "2026-07-11T16:16:06.181Z"
   },
   {
     "source": "github:sharkui-inc/shark-ui",
@@ -21588,15 +21653,15 @@
   },
   {
     "source": "github:singh-gur/agent_skills",
-    "rev": "a99fa93b654c1afaaae8d3cf1b05bf1316f22a30",
-    "hash": "1ifyx1hdpjsjrwm8kz3ndrgk70i1az22ica9p3bvxj1z0zznww4x",
+    "rev": "1da5bf84e7ff666d518a8ef1a7fd4cb5a1307543",
+    "hash": "0xjkkn8g3gvji0k9g97fhxzgz43szdjakjp29pxbv61x54pq7lqc",
     "skills": [
       "arch-design",
       "caveman",
       "simple-plan",
       "super-plan"
     ],
-    "lastUpdated": "2026-07-11T08:23:20.757Z"
+    "lastUpdated": "2026-07-11T16:16:35.323Z"
   },
   {
     "source": "github:singhsume123/xml-to-compose-skill",
@@ -24344,8 +24409,8 @@
   },
   {
     "source": "github:sipyourdrink-ltd/bernstein",
-    "rev": "aae6ad66125b9f496f89855ae88103865c58f5e6",
-    "hash": "1n323yy7j8acjqwg98priifydy7ydl7vaj50qqlima7px6af3jpx",
+    "rev": "d1e15d8103474b5bb16f6bed28a7e9ce31c275bb",
+    "hash": "140lajj369qb5rgj83yi44zv2liasml5sbrvm79hqwrwpx09a27j",
     "skills": [
       "packages/cursor-plugin/skills/bernstein-agents",
       "packages/cursor-plugin/skills/bernstein-alerts",
@@ -24374,7 +24439,7 @@
       "templates/skills/visionary",
       "templates/skills/vp"
     ],
-    "lastUpdated": "2026-07-11T14:02:11.424Z"
+    "lastUpdated": "2026-07-11T16:18:13.275Z"
   },
   {
     "source": "github:siren403/pi-workspace",
@@ -26881,8 +26946,8 @@
   },
   {
     "source": "github:sliamh11/Deus",
-    "rev": "f2247b08c75b7c6460cfd32f7b17c2068a1fbaf2",
-    "hash": "0ajplwrbvh7fv4mdlydn3acp41awm7fbdf64lpjhd2vxvk9ym07z",
+    "rev": "50cfe95b38afb9c1717e062aa89e91aecd32b388",
+    "hash": "0bpigsg9xya6his841hfm84imfzf4f3r7qbwjfz4w1869v2aaa47",
     "skills": [
       ".claude/skills/add-asana",
       ".claude/skills/add-claude-context",
@@ -26942,7 +27007,7 @@
       "container/skills/resume",
       "container/skills/status"
     ],
-    "lastUpdated": "2026-07-11T14:01:21.647Z"
+    "lastUpdated": "2026-07-11T16:18:59.187Z"
   },
   {
     "source": "github:slicervm/agent-skills",
@@ -32262,8 +32327,8 @@
   },
   {
     "source": "github:solidspoon/dashplayer",
-    "rev": "2d3f8d2514b24717e1b2dfb549c4f7cb0783cb80",
-    "hash": "1zd6ir6r921h4s7sm07frqv7mi7g2k8r9zkmj99hwk8n2gp92rak",
+    "rev": "8d9ec1de4eaa89e2494fa62e70e6f0d379a42888",
+    "hash": "1sl3dy3cmw5xrdixghzxlh26b6ffi88f50wgivwxrwwbb1pdgaqv",
     "skills": [
       ".agents/skills/ai-sdk",
       ".agents/skills/log-focus-debug",
@@ -32271,7 +32336,7 @@
       ".agents/skills/shadcn",
       ".agents/skills/vitest-bdd-3layer"
     ],
-    "lastUpdated": "2026-07-11T14:00:55.542Z"
+    "lastUpdated": "2026-07-11T16:16:36.122Z"
   },
   {
     "source": "github:solinkz/micro-interactions-skill",
@@ -32751,14 +32816,14 @@
   },
   {
     "source": "github:soniqo/speech-swift",
-    "rev": "8fb94f638d51d6b000a7026a8514500791c442a3",
-    "hash": "02q4pnh2z6zm0833wpx6040gszj9s0gmb3x4gm01ylcd3ncsspyj",
+    "rev": "ad3c2706bb0d8318b0e5bd02e875806d3e63ad84",
+    "hash": "1v8r9qnkqiqkmh6g8hbjjly4h2lbg1di7608x09nyx84b77hc49j",
     "skills": [
       ".claude/skills/benchmark",
       ".claude/skills/review-pr",
       ".claude/skills/test"
     ],
-    "lastUpdated": "2026-07-11T14:01:03.669Z"
+    "lastUpdated": "2026-07-11T16:16:43.555Z"
   },
   {
     "source": "github:sonix03/skills-update-rce-poc",
@@ -32788,15 +32853,15 @@
   },
   {
     "source": "github:sonofmagic/weapp-tailwindcss",
-    "rev": "484a384bd190dc648cdd491ced97c03c59a64424",
-    "hash": "0vfqfz4xb6n32jlcjlnvj8n7ra3cx00mjzhp4ygj0hj1da0dzgnp",
+    "rev": "405f3149f8ebff7d7d7654ba18d503e1f42d777a",
+    "hash": "1pamah1dia8qjwmxp1h7m9276a1jhp7wx6rbp66vzwy9nc4g0k2m",
     "skills": [
       ".claude/skills/playwright-cli",
       ".codex/skills/content-research-writer",
       ".codex/skills/scientific-critical-thinking",
       "skills/weapp-tailwindcss"
     ],
-    "lastUpdated": "2026-07-11T03:49:55.116Z"
+    "lastUpdated": "2026-07-11T16:16:59.999Z"
   },
   {
     "source": "github:sonomirco/agents-and-commands",
@@ -33879,8 +33944,8 @@
   },
   {
     "source": "github:spec2ship/spec2ship",
-    "rev": "4017c4683733dcd421e0ac1cf88f621636e8f60d",
-    "hash": "1jz966sx61lxh4hky8jjk1p7m6zgyyd644lvlrwp6ybg1ga886w4",
+    "rev": "7340fd0b5fb632f7568f76358773032a0a2d56b0",
+    "hash": "0g8x8d63gjnbx507hbkkajgc9xcaijwxpx8w50nzvapdmjw11fag",
     "skills": [
       "skills/arc42-templates",
       "skills/backlog-management",
@@ -33895,7 +33960,7 @@
       "skills/s2s-guide",
       "skills/threat-modeling"
     ],
-    "lastUpdated": "2026-06-12T09:13:15.850Z"
+    "lastUpdated": "2026-07-11T16:17:44.748Z"
   },
   {
     "source": "github:specdd/agentskills",
@@ -36472,8 +36537,8 @@
   },
   {
     "source": "github:starlitnightly/omicverse",
-    "rev": "bac171d3098a97ef713191aa328d015d2ea7bc97",
-    "hash": "0izzsgs28hvrf75h5a2ysl54g884n4ay4qgqh6jls2mp2d5jdsvd",
+    "rev": "959c962059d417f688b558b1ade28dba62a95d91",
+    "hash": "0k7xpxyzgy03mmn90cjpjhm1izk8403626ny834bxjgbdw97cb72",
     "skills": [
       ".claude/skills/biocontext-knowledge",
       ".claude/skills/bulk-combat-correction",
@@ -36507,7 +36572,7 @@
       ".claude/skills/spatial-tutorials",
       ".claude/skills/tcga-preprocessing"
     ],
-    "lastUpdated": "2026-07-10T17:15:30.690Z"
+    "lastUpdated": "2026-07-11T16:17:19.413Z"
   },
   {
     "source": "github:starpig1129/PheroPath",
@@ -37342,8 +37407,8 @@
   },
   {
     "source": "github:steipete/clawdis",
-    "rev": "ba826be268a75a63014021e040e8c960866b9d4f",
-    "hash": "117y15z3m81j4n7pwwa8w4yv1xppszj02dcmlmcr42nsxry1m19w",
+    "rev": "b769964e82abd5e975941fb9abad7c6360000c8a",
+    "hash": "14mw9kdmbiwlggnm9hhfqrbls6d79sqhm636y6r8n35r7g62n9zb",
     "skills": [
       ".agents/skills/agent-transcript",
       ".agents/skills/autoreview",
@@ -37462,7 +37527,7 @@
       "skills/weather",
       "skills/xurl"
     ],
-    "lastUpdated": "2026-07-11T14:02:58.838Z"
+    "lastUpdated": "2026-07-11T16:19:25.176Z"
   },
   {
     "source": "github:steipete/oracle",
@@ -38375,8 +38440,8 @@
   },
   {
     "source": "github:strands-agents/harness-sdk",
-    "rev": "dad124e5b0c50916073da7d22f040371c09628ef",
-    "hash": "1aykdzcipypl77g1p4mvsvym4fdbmpz90y41vn6k6rzpps5xvr04",
+    "rev": "941d52513ea948b97c540e680c5cc8d6c0aeb54d",
+    "hash": "1mqnjs9h1pjbry2x9qd3s27p6ijlq0rlvnzdwy6gah5a4w9n3dbg",
     "skills": [
       ".agents/skills/docs-audit",
       ".agents/skills/docs-planner",
@@ -38388,7 +38453,7 @@
       ".agents/skills/pre-push",
       ".agents/skills/strands-review"
     ],
-    "lastUpdated": "2026-07-10T22:22:39.190Z"
+    "lastUpdated": "2026-07-11T16:18:03.900Z"
   },
   {
     "source": "github:strantalis/agent-skills",
@@ -38766,13 +38831,13 @@
   },
   {
     "source": "github:stuckinaboot/net-public",
-    "rev": "8c5ba98e8109afd68aa442ae0043490863d16613",
-    "hash": "054cpy4b4i674hr5yl77aipv7xcyjqirwdxj0c0kisc3jl4yy3i8",
+    "rev": "573ea3e784e24a89661a4f8483b57598eda5a6f2",
+    "hash": "0ckbz23xy62rq6wrmqynpnkxy25nri9wz42dq25py7pcg3fc52i3",
     "skills": [
       ".",
       "plugins/net-protocol/skills/net-protocol"
     ],
-    "lastUpdated": "2026-07-09T20:13:09.228Z"
+    "lastUpdated": "2026-07-11T16:18:41.000Z"
   },
   {
     "source": "github:stuckinforloop/harness",
@@ -40450,8 +40515,8 @@
   },
   {
     "source": "github:sungjunlee/dev-relay",
-    "rev": "041ace3f1249309dd4b9ce3849569efb2c25d592",
-    "hash": "1cds1bmjfq7ixrjyxbi2gx2ld5xz7pdb5cy8ikvc7znz17kyvlcz",
+    "rev": "30853dcdb774430364b01b6670d7f381f19afe8f",
+    "hash": "135k1r5cfrzgncligms20k1irjc6z2ykyx3x70s1hggvi21nph71",
     "skills": [
       "skills/relay",
       "skills/relay-config",
@@ -40462,7 +40527,7 @@
       "skills/relay-ready",
       "skills/relay-review"
     ],
-    "lastUpdated": "2026-07-11T10:41:53.724Z"
+    "lastUpdated": "2026-07-11T16:17:16.806Z"
   },
   {
     "source": "github:sungkhum/agent-skills",
@@ -40501,8 +40566,8 @@
   },
   {
     "source": "github:sunholo-data/ailang",
-    "rev": "c4dd9aa1f9e6425ae37f3b40dcf82c1bae7b8857",
-    "hash": "0rsnfgg2hqz5qvgrb4jp14w1dc81ml9i6rhfwvz4lnagix6vdsb0",
+    "rev": "c2a8077091c503b4616350130f8b9707b91177f2",
+    "hash": "13xsmkkirighawrg6iy5axd7ncnj3x0gi3m2bs4a7zcm6rmkqz8g",
     "skills": [
       ".claude/skills/agent-inbox",
       ".claude/skills/ailang-packages",
@@ -40543,7 +40608,7 @@
       ".claude/skills/use-ailang",
       ".claude/skills/wasm-debugger"
     ],
-    "lastUpdated": "2026-07-11T14:00:04.119Z"
+    "lastUpdated": "2026-07-11T16:17:43.760Z"
   },
   {
     "source": "github:sunic4/skills",
@@ -40661,13 +40726,13 @@
   },
   {
     "source": "github:sunpeak-ai/sunpeak",
-    "rev": "42a295d962f7689a608b16a630c9fae4d400a37a",
-    "hash": "1qq6mwkgcjlpymqaa4p826xmdqx74r6gk8ph5bdsrwbf0d9qkab2",
+    "rev": "6aa8f4ecf9a9d08f539fd267d886c66eca85f258",
+    "hash": "1av28jinlygc4k3vyvxzz3qk0pxclyz8mc8h5v6yvaq82zsic2kg",
     "skills": [
       "skills/create-sunpeak-app",
       "skills/test-mcp-server"
     ],
-    "lastUpdated": "2026-07-10T19:59:11.099Z"
+    "lastUpdated": "2026-07-11T16:17:25.566Z"
   },
   {
     "source": "github:sunqb/ccsdk",
