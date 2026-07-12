@@ -5709,8 +5709,8 @@
   },
   {
     "source": "github:Lonsdale201/wp-agent-skills",
-    "rev": "15374053f46d562e72487a88ac3175340f2391af",
-    "hash": "1a7mc8d8wr79c8s9vl9daz0qzakc9a09an1cy2pnar00wi11q0w9",
+    "rev": "9d7d1c0e4c9d3f9a39d0814066c3fc58a26a9f4e",
+    "hash": "1ab2dhc4lgzis3vdfi48vj7p43mjyzzfbdy4hq5vkmrwq3l8396c",
     "skills": [
       "better-data/bd-attribute",
       "better-data/bd-better-route-bridge",
@@ -5876,14 +5876,17 @@
       "wordpress/wp-admin-postbox-sortable",
       "wordpress/wp-admin-settings-api",
       "wordpress/wp-ai-client",
+      "wordpress/wp-batch-mutation-audit",
       "wordpress/wp-cli-extending",
       "wordpress/wp-connectors-api",
+      "wordpress/wp-database-performance-audit",
       "wordpress/wp-file-upload-security",
       "wordpress/wp-filesystem-api",
       "wordpress/wp-html-api",
       "wordpress/wp-http-api-client",
       "wordpress/wp-i18n-audit",
       "wordpress/wp-locale-and-dates",
+      "wordpress/wp-metadata-api",
       "wordpress/wp-presence-api",
       "wordpress/wp-privacy-personal-data",
       "wordpress/wp-query-cache",
@@ -5902,7 +5905,7 @@
       "wpml/wpml-overview",
       "wpml/wpml-string-translation"
     ],
-    "lastUpdated": "2026-07-10T19:51:37.060Z"
+    "lastUpdated": "2026-07-12T13:56:19.767Z"
   },
   {
     "source": "github:Lordjiggy/claude-code-marketplace",
@@ -5964,12 +5967,12 @@
   },
   {
     "source": "github:Louishin/claude-api-cost-optimization",
-    "rev": "3a10736feecd59d538b0f05c9f929ef85362e805",
+    "rev": "e17da434c3c0c575f253db6711becba87fd46da5",
     "hash": "1dbhr2s32bl3dw12iz4fdc8v2hkgkgsalbv8h214jafdc377zjbw",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-12T10:43:39.028Z"
+    "lastUpdated": "2026-07-12T13:56:22.541Z"
   },
   {
     "source": "github:Louismao8888/girlfriends-skill",
@@ -6526,12 +6529,12 @@
   },
   {
     "source": "github:ladderchaos/tmuxx",
-    "rev": "cefd36fdef5d6048e5449b920d67a9f8412836f8",
-    "hash": "00fda6ld8b1xfgh1hqbms4vgcc18wyvqcmd4q3p0h205wf9hjcrx",
+    "rev": "2c448949734c72932e4b6b44913a5b0a5665a161",
+    "hash": "13lind8jvx5s5s9wfs5mvqbwvnhq390czb1sxmyfdl56qi6brfk8",
     "skills": [
       "skills/tmuxx"
     ],
-    "lastUpdated": "2026-07-10T14:56:44.204Z"
+    "lastUpdated": "2026-07-12T14:02:51.600Z"
   },
   {
     "source": "github:ladderchaos/tora-skills",
@@ -9518,13 +9521,13 @@
   },
   {
     "source": "github:learnprompt/ai-news-radar",
-    "rev": "5f53180fb536b891b6e91e098c2c1de9e20a39bf",
-    "hash": "16v0l4cl0z9cj8x4zxc3l0rjqs5xbczxdr0hqkdpnf59ncsmvhib",
+    "rev": "ec857abcc3bb270e892539c39b2fe46ffa3e2313",
+    "hash": "1d1cpzy0n3bjrh0d8l7kk3rfy9h9hhlfwbmdg5qsrx4wdr8v0fn9",
     "skills": [
       "skills/ai-news-radar",
       "skills/radar"
     ],
-    "lastUpdated": "2026-07-12T10:48:06.547Z"
+    "lastUpdated": "2026-07-12T14:00:20.156Z"
   },
   {
     "source": "github:learnprompt/cc-harness-skills",
@@ -12044,12 +12047,12 @@
   },
   {
     "source": "github:leonense22/wechat-daily-report-skill",
-    "rev": "591b6503bd4355b988a05a5be77549760c797e2b",
+    "rev": "fabaf3135a226c91129c815c5c6c1f591d3de41c",
     "hash": "1m1hyz3ygv7cqzrw8cqq3ngkrjk9lx24b85fv05izb7lgssaxp3j",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-12T10:47:51.366Z"
+    "lastUpdated": "2026-07-12T13:58:46.487Z"
   },
   {
     "source": "github:leonidas810/save-your-music",
@@ -20164,14 +20167,18 @@
   },
   {
     "source": "github:levnikolaevich/claude-code-skills",
-    "rev": "5967ec7f58a66b254db8c2369cff0bae410b770e",
-    "hash": "07whnnyksnp1mrr43fqw32ckxgm72r1j1y1l2kv0dsx9crc3z2wv",
+    "rev": "3654a3f0a00d545b51978501c39d62f22cf6f424",
+    "hash": "149ni2lrwk6fdw64kr6iwy9pp3x4vw1f1l6cggr5imv74ja57hwv",
     "skills": [
       "plugins/codebase-audit-suite/skills/ln-21-documentation-auditor",
       "plugins/codebase-audit-suite/skills/ln-22-codebase-auditor",
       "plugins/codebase-audit-suite/skills/ln-23-test-suite-auditor",
       "plugins/codebase-audit-suite/skills/ln-24-architecture-auditor",
       "plugins/codebase-audit-suite/skills/ln-25-persistence-auditor",
+      "plugins/maintainer-suite/skills/ln-61-skill-reviewer",
+      "plugins/maintainer-suite/skills/ln-62-repository-publisher",
+      "plugins/maintainer-suite/skills/ln-63-release-publisher",
+      "plugins/maintainer-suite/skills/ln-64-community-announcer",
       "plugins/optimization-suite/skills/ln-31-performance-optimizer",
       "plugins/optimization-suite/skills/ln-32-dependency-upgrader",
       "plugins/optimization-suite/skills/ln-33-code-modernizer",
@@ -20182,7 +20189,7 @@
       "plugins/testing-suite/skills/ln-41-test-strategy-planner",
       "plugins/testing-suite/skills/ln-42-acceptance-test-builder"
     ],
-    "lastUpdated": "2026-07-12T04:00:34.304Z"
+    "lastUpdated": "2026-07-12T13:59:18.353Z"
   },
   {
     "source": "github:levwtech/yc-startup-websites-rules",
@@ -21102,8 +21109,8 @@
   },
   {
     "source": "github:lidge-jun/cli-jaw-skills",
-    "rev": "9833557752e685c13777d7d744e97f8afc2ab2cb",
-    "hash": "064sb2gwmh46m5pkjsvznyb20alwsq6ba001434whr21q2lg4j3d",
+    "rev": "a47c47f36fff813879b472c20aa4b567e081a9df",
+    "hash": "1pzaawbi5jfcd69h4bkww39hi8ziysppkw6k3ynsgad6fx1akydc",
     "skills": [
       "1password",
       "agent-eval",
@@ -21357,7 +21364,7 @@
       "xlsx_original",
       "xurl"
     ],
-    "lastUpdated": "2026-07-12T10:46:16.275Z"
+    "lastUpdated": "2026-07-12T13:59:28.700Z"
   },
   {
     "source": "github:lidpeng/openclaw_swarm",
@@ -28181,8 +28188,8 @@
   },
   {
     "source": "github:livsy90/ios-performance-agent-skills",
-    "rev": "54dd1e658f9bbbc3c376eeab81a3f9df890b683c",
-    "hash": "1nimwwxjjawn1xkcn0v1wdahh4zc10q91596bf8nirwzxry5zxx2",
+    "rev": "c259885045dd50f3a27b4df0eeab537b58799777",
+    "hash": "1y3mg6x5hj9j2h7m5ib6y8l5732x4s03d9597790l05z3hh0f5jw",
     "skills": [
       "ios-launch-performance",
       "ios-perceived-performance",
@@ -28191,7 +28198,7 @@
       "swift-runtime-performance",
       "swiftui-performance"
     ],
-    "lastUpdated": "2026-07-11T19:34:58.108Z"
+    "lastUpdated": "2026-07-12T13:59:21.604Z"
   },
   {
     "source": "github:liwanlei/AITestCraft",
@@ -28282,8 +28289,8 @@
   },
   {
     "source": "github:liyecom/liye-ai",
-    "rev": "01e563e2301d9d4086ac425cf26261cd4fa7b33a",
-    "hash": "0jw28zk3agjml78asxj9c453jd7fj2qhaw4hklg0r20q2rslqx5z",
+    "rev": "9b8173087b8b6ce2160ed0e13a583bbde6537e44",
+    "hash": "1g6i5w0pyppcan5lim870vn0msdgvwkwdfcs13dyxsm24vnjbh4m",
     "skills": [
       "Skills/00_Core_Utilities/communication/content-writer",
       "Skills/00_Core_Utilities/creative/canvas-design",
@@ -28305,7 +28312,7 @@
       "Skills/01_Research_Intelligence/prior-art/github-digest",
       "tests/fixtures/sfc/v0_2_sample"
     ],
-    "lastUpdated": "2026-07-11T03:46:01.626Z"
+    "lastUpdated": "2026-07-12T13:59:25.362Z"
   },
   {
     "source": "github:liyimil/markdown-poster",
@@ -43860,8 +43867,8 @@
   },
   {
     "source": "github:lobehub/lobe-chat",
-    "rev": "9331c9c9650271d90e39117062d0d2338f4dab1c",
-    "hash": "0qpsb782na7b1fqiq64i2vs1gljkwx32g9rmap8bdl0kxq5h5v93",
+    "rev": "4dd3b8f383983fbbb9d7fd6b77c0a43cda638ea8",
+    "hash": "1irgy2h3075ih7s2h567crvydc7r2wij955zjqifwxhrvsm3gfp2",
     "skills": [
       ".agents/skills/add-provider-doc",
       ".agents/skills/add-setting-env",
@@ -43904,12 +43911,12 @@
       "packages/builtin-skills/src/task",
       "packages/builtin-skills/src/verify"
     ],
-    "lastUpdated": "2026-07-12T10:47:25.629Z"
+    "lastUpdated": "2026-07-12T14:00:21.743Z"
   },
   {
     "source": "github:lobehub/lobehub",
-    "rev": "9331c9c9650271d90e39117062d0d2338f4dab1c",
-    "hash": "0qpsb782na7b1fqiq64i2vs1gljkwx32g9rmap8bdl0kxq5h5v93",
+    "rev": "4dd3b8f383983fbbb9d7fd6b77c0a43cda638ea8",
+    "hash": "1irgy2h3075ih7s2h567crvydc7r2wij955zjqifwxhrvsm3gfp2",
     "skills": [
       ".agents/skills/add-provider-doc",
       ".agents/skills/add-setting-env",
@@ -43952,7 +43959,7 @@
       "packages/builtin-skills/src/task",
       "packages/builtin-skills/src/verify"
     ],
-    "lastUpdated": "2026-07-12T10:47:25.191Z"
+    "lastUpdated": "2026-07-12T14:00:20.497Z"
   },
   {
     "source": "github:lobstergeneralintelligence/x-api",
@@ -47588,8 +47595,8 @@
   },
   {
     "source": "github:lukevella/rallly",
-    "rev": "79a27ad6f44f05208e712860636a308250393d3c",
-    "hash": "1yrci6xxwwi6b6z9715ypjnmg8i9ixscxdgjfmx9zg8pbjpdp3j3",
+    "rev": "9616bdf6a369dfe3d58212be0c03a311cd398c85",
+    "hash": "0hgppwn8lmn0iirrgwyc52r0wmhxq7a7yx1jpv9i126xahkx6rmy",
     "skills": [
       ".agents/skills/better-auth-best-practices",
       ".agents/skills/create-auth-skill",
@@ -47604,7 +47611,7 @@
       ".agents/skills/prisma-upgrade-v7",
       ".agents/skills/two-factor-authentication-best-practices"
     ],
-    "lastUpdated": "2026-07-11T13:57:44.602Z"
+    "lastUpdated": "2026-07-12T14:00:15.802Z"
   },
   {
     "source": "github:lukinov/ai-form-builder",
@@ -47645,8 +47652,8 @@
   },
   {
     "source": "github:lulu-eva/eva-skill",
-    "rev": "23bbb57c4eb295c9e17ea11f324e645de937bef9",
-    "hash": "137q8gc0hlr57snkv36g6m0lcrz9p8mnl48qhnizh4xbqxbmh0wc",
+    "rev": "83c4001afb7ca1dc5a58006e5122d7fe4d44f1c6",
+    "hash": "08qhgs0r8riz0y1wx5rn7s61lfagb0iljx9fxcyai4hc42qzjn9x",
     "skills": [
       "skills/eva",
       "skills/eva-brief",
@@ -47659,7 +47666,7 @@
       "skills/eva-shared",
       "skills/eva-think"
     ],
-    "lastUpdated": "2026-07-11T16:13:53.738Z"
+    "lastUpdated": "2026-07-12T13:59:43.134Z"
   },
   {
     "source": "github:lululu811/zettaranc-skill",
@@ -49130,7 +49137,7 @@
   },
   {
     "source": "github:lyx2022518/sherlock-ai-plugin",
-    "rev": "246c897c034de613547c6c3f378465dc8c3854b4",
+    "rev": "4ba2937b3a7525ed101ba16a0b8bb51b64809ca3",
     "hash": "1ccirzhfbpb2cksbgs8wml5wwkzzr544ii7m2wwxvhkvh0bxj9w1",
     "skills": [
       "skills/deep-research",
@@ -49140,7 +49147,7 @@
       "skills/paper2code",
       "skills/visual-architect"
     ],
-    "lastUpdated": "2026-07-12T10:48:30.545Z"
+    "lastUpdated": "2026-07-12T14:00:15.660Z"
   },
   {
     "source": "github:lyymuwu/TokTrans",
