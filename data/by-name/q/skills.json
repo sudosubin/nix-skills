@@ -1,8 +1,8 @@
 [
   {
     "source": "github:Q00/ouroboros",
-    "rev": "cf15274b6a2b992a40feb3573e353e6cfd94ceae",
-    "hash": "0lc8rpljllgnag65lpw3kr2669hvqcgc6vyjd98cyx5p3sxdqlkb",
+    "rev": "deba4919f8fdc04e1b5f87dc5f6e69a3bbbd123d",
+    "hash": "16krg9pwxy8w819dbxsb8z5i6xpssw6jsg0a1vaa4p5dj674bzx7",
     "skills": [
       "skills/auto",
       "skills/brownfield",
@@ -26,7 +26,7 @@
       "skills/update",
       "skills/welcome"
     ],
-    "lastUpdated": "2026-07-11T16:10:45.196Z"
+    "lastUpdated": "2026-07-12T03:57:46.540Z"
   },
   {
     "source": "github:QBall-Inc/the-bulwark",
@@ -121,8 +121,8 @@
   },
   {
     "source": "github:q00/ouroboros",
-    "rev": "cf15274b6a2b992a40feb3573e353e6cfd94ceae",
-    "hash": "0lc8rpljllgnag65lpw3kr2669hvqcgc6vyjd98cyx5p3sxdqlkb",
+    "rev": "deba4919f8fdc04e1b5f87dc5f6e69a3bbbd123d",
+    "hash": "16krg9pwxy8w819dbxsb8z5i6xpssw6jsg0a1vaa4p5dj674bzx7",
     "skills": [
       "skills/auto",
       "skills/brownfield",
@@ -146,12 +146,12 @@
       "skills/update",
       "skills/welcome"
     ],
-    "lastUpdated": "2026-07-11T16:14:20.211Z"
+    "lastUpdated": "2026-07-12T04:01:23.053Z"
   },
   {
     "source": "github:q512426816/sillyspec",
-    "rev": "abb1d48728551b8f07036742f7564ed2f910bfd9",
-    "hash": "0ik77y2ifaqb0fc2j6lx9ndz8plbjv1mpnklvrmja0k3akqyyq3p",
+    "rev": "768f7e332ab5ed3cb62fde82b61977e2160c032a",
+    "hash": "0kiisv38v52gjspiplqfdhks2h5p2d3dfajhvcbng5mnl38crh1m",
     "skills": [
       ".",
       ".claude/skills/sillyspec-archive",
@@ -175,7 +175,7 @@
       ".claude/skills/sillyspec-verify",
       ".claude/skills/sillyspec-workspace"
     ],
-    "lastUpdated": "2026-07-11T19:37:39.487Z"
+    "lastUpdated": "2026-07-12T04:01:24.954Z"
   },
   {
     "source": "github:qGolem/orc",
@@ -1003,28 +1003,65 @@
   },
   {
     "source": "github:qredence/skills",
-    "rev": "9cb869897249b0c49f14ff41f0db1ee24395279e",
-    "hash": "01p9sdq5rznqja8a8a40gg1rvxvw6shr1lj10hj7y2yy19g5zdgf",
+    "rev": "83c0cbbffb20cd63276e701fba8600f3346beb12",
+    "hash": "1p9x27ib8nqq6r9lq4awkmc6ib6bdryijpmcz8ww01lhpsm6dsqf",
     "skills": [
-      "skills/agent-converter",
-      "skills/babysit-pr",
-      "skills/dspy-core",
-      "skills/dspy-development",
-      "skills/dspy-fleet-rlm",
-      "skills/dspy-gepa",
-      "skills/dspy-optimization",
-      "skills/fastapi",
-      "skills/fastapi-router-py",
-      "skills/rlm",
-      "skills/rlm-batch",
-      "skills/rlm-debug",
-      "skills/rlm-execute",
-      "skills/rlm-long-context",
-      "skills/rlm-memory",
-      "skills/rlm-run",
-      "skills/rlm-test-suite"
+      "skills/figma-agent/accessibility-audit",
+      "skills/figma-agent/affinity-mapping",
+      "skills/figma-agent/animation-consistency-check",
+      "skills/figma-agent/apply-color-variables",
+      "skills/figma-agent/base-ui-primitive-composition",
+      "skills/figma-agent/branch-review-summary",
+      "skills/figma-agent/brand-kit-asset-generator",
+      "skills/figma-agent/build-from-prd",
+      "skills/figma-agent/code-connect-mapper",
+      "skills/figma-agent/color-token-format-normalizer",
+      "skills/figma-agent/comment-triage",
+      "skills/figma-agent/competitive-teardown",
+      "skills/figma-agent/component-audit",
+      "skills/figma-agent/component-naming-sync",
+      "skills/figma-agent/container-layout-normalizer",
+      "skills/figma-agent/content-inventory",
+      "skills/figma-agent/content-tone-review",
+      "skills/figma-agent/cva-variant-generator",
+      "skills/figma-agent/deck-from-outline",
+      "skills/figma-agent/design-brief-generator",
+      "skills/figma-agent/design-change-diff",
+      "skills/figma-agent/design-crit",
+      "skills/figma-agent/design-tokens-sync",
+      "skills/figma-agent/dev-handoff-prep",
+      "skills/figma-agent/figma-to-code-component",
+      "skills/figma-agent/file-cleanup",
+      "skills/figma-agent/follow-ds-guidelines",
+      "skills/figma-agent/handoff-summary",
+      "skills/figma-agent/heuristic-evaluation",
+      "skills/figma-agent/journey-map-builder",
+      "skills/figma-agent/legacy-styles-to-variables",
+      "skills/figma-agent/library-health-report",
+      "skills/figma-agent/localization-readiness",
+      "skills/figma-agent/microcopy-generator",
+      "skills/figma-agent/motion-spec-generator",
+      "skills/figma-agent/naming-convention-enforcer",
+      "skills/figma-agent/persona-builder",
+      "skills/figma-agent/plugin-widget-recommender",
+      "skills/figma-agent/prototype-from-flow",
+      "skills/figma-agent/prototype-qa",
+      "skills/figma-agent/rename-layers-batch",
+      "skills/figma-agent/responsive-breakpoint-check",
+      "skills/figma-agent/semantic-color-audit",
+      "skills/figma-agent/shadcn-component-structure",
+      "skills/figma-agent/site-launch-checklist",
+      "skills/figma-agent/spacing-scale-enforcer",
+      "skills/figma-agent/states-completeness-check",
+      "skills/figma-agent/sticky-synthesis",
+      "skills/figma-agent/tailwind-class-order-check",
+      "skills/figma-agent/token-tailwind-theme-sync",
+      "skills/figma-agent/variable-driven-prototype",
+      "skills/figma-agent/visual-consistency-check",
+      "skills/figma-agent/wire-up-interactions",
+      "skills/figma-agent/workshop-facilitator"
     ],
-    "lastUpdated": "2026-04-04T07:35:44.360Z"
+    "lastUpdated": "2026-07-12T04:02:34.142Z"
   },
   {
     "source": "github:qu-skills/skills",
@@ -2189,12 +2226,12 @@
   },
   {
     "source": "github:qwexs/engram",
-    "rev": "ea10e6b7ab9d2326d3796b468cfbb719b375a9ec",
-    "hash": "140xx1i89f7l2jihh54jrza9zrcysjhkn07axbarfb5pizmgl375",
+    "rev": "f80979d88f3b861f4d892e82542ceaa25eae7e55",
+    "hash": "0xrsw5pm7wyxsn41486nx20kql9x2958p1msag2mwy3szzvabckz",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-11T13:58:30.479Z"
+    "lastUpdated": "2026-07-12T04:02:28.263Z"
   },
   {
     "source": "github:qwexs/kysely-postgres-skill",
