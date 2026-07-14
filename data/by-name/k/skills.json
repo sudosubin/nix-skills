@@ -738,12 +738,12 @@
   },
   {
     "source": "github:Kayunangka/claude-skill",
-    "rev": "3d0b82bb2d6f532a2889108f211977a20950cb27",
+    "rev": "22697c2b5eba2828978b10ccfd398d872751fdbf",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-07-14T14:14:20.942Z"
+    "lastUpdated": "2026-07-14T16:38:51.108Z"
   },
   {
     "source": "github:Kdevos12/ALKYL",
@@ -791,8 +791,8 @@
   },
   {
     "source": "github:KevinZai/commander",
-    "rev": "3add4dfcfe6b39d86ac2bb643c5363a9a4d9060f",
-    "hash": "0a2qc0za3imy1ixpl4hm94bvhy8q2km9mdmfc9p1hr7zzz1c0a3n",
+    "rev": "4057354d5e5c34673e2a9237320b24b726156fa1",
+    "hash": "0fkbgbcn4373slw6kskvy54r2gps1qkrpxvcxryga5vc9knicz4j",
     "skills": [
       ".agents/skills/mintlify",
       "commander/cowork-plugin-codex/skills/ccc",
@@ -847,6 +847,7 @@
       "commander/cowork-plugin-codex/skills/ccc-session",
       "commander/cowork-plugin-codex/skills/ccc-settings",
       "commander/cowork-plugin-codex/skills/ccc-ship",
+      "commander/cowork-plugin-codex/skills/ccc-spawn",
       "commander/cowork-plugin-codex/skills/ccc-standup",
       "commander/cowork-plugin-codex/skills/ccc-start",
       "commander/cowork-plugin-codex/skills/ccc-suggest",
@@ -1312,7 +1313,7 @@
       "skills/wifi-captive-portal",
       "skills/writing-plans"
     ],
-    "lastUpdated": "2026-07-14T14:14:24.916Z"
+    "lastUpdated": "2026-07-14T16:38:55.042Z"
   },
   {
     "source": "github:KhazP/vibe-coding-prompt-template",
@@ -1434,84 +1435,84 @@
   },
   {
     "source": "github:KirKruglov/claude-skills-kit",
-    "rev": "784112f4c9d92826d763ccf54e2936a8846d5ddb",
-    "hash": "1s42a5n5975n16v548xk9db8lfr5x4p4rx440zjkqbnffrj9jrkb",
+    "rev": "22458b78f534f733cfdfcd47a096f3572a751155",
+    "hash": "143fj61skdiih8c2vqwcrf1v5f8zsk3jd7anhfhqxxmhmjjfidlf",
     "skills": [
-      "skills/accounts-receivable-followup-writer",
-      "skills/backlog-grooming-assistant",
-      "skills/campaign-retrospective-writer",
-      "skills/changelog-narrator",
-      "skills/company-policy-drafter",
-      "skills/competitive-feature-matrix-builder",
-      "skills/content-performance-reporter",
-      "skills/context-builder-cowork",
-      "skills/context-window-health-check",
-      "skills/cowork-plugin-audit",
-      "skills/cowork-session-planner",
-      "skills/csv-data-analyzer",
-      "skills/data-room-prep-checklist",
-      "skills/decision-log",
-      "skills/delegation-brief",
-      "skills/exec-metrics-storyteller",
-      "skills/experiment-results-interpreter",
-      "skills/feature-announcement-writer",
-      "skills/feature-guide",
-      "skills/fundraise-pipeline-tracker",
-      "skills/hiring-pipeline-reviewer",
-      "skills/industry-trend-brief",
-      "skills/invoice-and-payment-tracker-summary",
-      "skills/job-description-and-scorecard-builder",
-      "skills/jobs-to-be-done-extractor",
-      "skills/kpi-digest-builder",
-      "skills/legal-matter-tracker",
-      "skills/meeting-prep-briefer",
-      "skills/memory-auditor-chat",
-      "skills/memory-auditor-cowork",
-      "skills/metrics-anomaly-investigator",
-      "skills/monthly-close-checklist-and-reconciliation-prep",
-      "skills/morning-standup-brief-generator",
-      "skills/newsletter-digest-builder",
-      "skills/north-star-metric-auditor",
-      "skills/okr-progress-narrator",
-      "skills/onboarding-plan-30-60-90",
-      "skills/one-to-one-prep",
-      "skills/prd-review-challenger",
-      "skills/project-management-kit/generate-charter",
-      "skills/project-management-kit/generate-closure-report",
-      "skills/project-management-kit/generate-comm-plan",
-      "skills/project-management-kit/generate-meeting-protocol",
-      "skills/project-management-kit/generate-plan-fact-report",
-      "skills/project-management-kit/generate-project-plan",
-      "skills/project-management-kit/generate-risk-register",
-      "skills/project-onboarding",
-      "skills/prompt-builder",
-      "skills/prompt-library-curator",
-      "skills/proposal-and-quote-drafter",
-      "skills/reading-list-prioritizer",
-      "skills/release-notes-generator",
-      "skills/report-analyzer",
-      "skills/research-folder-synthesizer",
-      "skills/research-to-content-brief",
-      "skills/retention-cohort-interpreter",
-      "skills/retro-pattern-analyzer",
-      "skills/routines-setup-assistant",
-      "skills/session-handoff-composer",
-      "skills/skill-usage-log-reviewer",
-      "skills/sprint-review-summarizer",
-      "skills/stakeholder-adapter",
-      "skills/survey-results-analyzer",
-      "skills/team-update-aggregator",
-      "skills/user-feedback-synthesizer",
-      "skills/user-persona-synthesizer",
-      "skills/weekly-ai-workflow-review",
-      "skills/weekly-competitor-tracker",
-      "skills/weekly-digest-synthesizer",
-      "skills/weekly-metrics-story-writer",
-      "skills/weekly-status-report-generator",
-      "skills/win-loss-debrief-writer",
-      "skills/workspace-health-monitor"
+      "skills/business-ops/company-policy-drafter",
+      "skills/business-ops/data-room-prep-checklist",
+      "skills/business-ops/fundraise-pipeline-tracker",
+      "skills/business-ops/legal-matter-tracker",
+      "skills/business-ops/proposal-and-quote-drafter",
+      "skills/business-ops/win-loss-debrief-writer",
+      "skills/data-analysis/csv-data-analyzer",
+      "skills/data-analysis/experiment-results-interpreter",
+      "skills/data-analysis/metrics-anomaly-investigator",
+      "skills/data-analysis/report-analyzer",
+      "skills/data-analysis/retention-cohort-interpreter",
+      "skills/discovery-and-user-research/jobs-to-be-done-extractor",
+      "skills/discovery-and-user-research/user-feedback-synthesizer",
+      "skills/discovery-and-user-research/user-persona-synthesizer",
+      "skills/finance-and-billing/accounts-receivable-followup-writer",
+      "skills/finance-and-billing/invoice-and-payment-tracker-summary",
+      "skills/finance-and-billing/monthly-close-checklist-and-reconciliation-prep",
+      "skills/hiring-and-hr/hiring-pipeline-reviewer",
+      "skills/hiring-and-hr/job-description-and-scorecard-builder",
+      "skills/hiring-and-hr/onboarding-plan-30-60-90",
+      "skills/launch-and-releases/changelog-narrator",
+      "skills/launch-and-releases/feature-announcement-writer",
+      "skills/launch-and-releases/prd-review-challenger",
+      "skills/launch-and-releases/release-notes-generator",
+      "skills/launch-and-releases/survey-results-analyzer",
+      "skills/market-and-competitive-intelligence/competitive-feature-matrix-builder",
+      "skills/market-and-competitive-intelligence/industry-trend-brief",
+      "skills/market-and-competitive-intelligence/weekly-competitor-tracker",
+      "skills/marketing-and-content/campaign-retrospective-writer",
+      "skills/marketing-and-content/content-performance-reporter",
+      "skills/marketing-and-content/research-to-content-brief",
+      "skills/metrics-and-exec-narratives/exec-metrics-storyteller",
+      "skills/metrics-and-exec-narratives/kpi-digest-builder",
+      "skills/metrics-and-exec-narratives/north-star-metric-auditor",
+      "skills/metrics-and-exec-narratives/weekly-metrics-story-writer",
+      "skills/personal-productivity/newsletter-digest-builder",
+      "skills/personal-productivity/reading-list-prioritizer",
+      "skills/personal-productivity/research-folder-synthesizer",
+      "skills/personal-productivity/workspace-health-monitor",
+      "skills/project-management/backlog-grooming-assistant",
+      "skills/project-management/context-builder-cowork",
+      "skills/project-management/decision-log",
+      "skills/project-management/project-management-kit/generate-charter",
+      "skills/project-management/project-management-kit/generate-closure-report",
+      "skills/project-management/project-management-kit/generate-comm-plan",
+      "skills/project-management/project-management-kit/generate-meeting-protocol",
+      "skills/project-management/project-management-kit/generate-plan-fact-report",
+      "skills/project-management/project-management-kit/generate-project-plan",
+      "skills/project-management/project-management-kit/generate-risk-register",
+      "skills/project-management/project-onboarding",
+      "skills/project-management/retro-pattern-analyzer",
+      "skills/project-management/sprint-review-summarizer",
+      "skills/prompts-and-memory/memory-auditor-chat",
+      "skills/prompts-and-memory/memory-auditor-cowork",
+      "skills/prompts-and-memory/prompt-builder",
+      "skills/prompts-and-memory/prompt-library-curator",
+      "skills/sessions-and-context/context-window-health-check",
+      "skills/sessions-and-context/cowork-session-planner",
+      "skills/sessions-and-context/session-handoff-composer",
+      "skills/setup-and-audit/cowork-plugin-audit",
+      "skills/setup-and-audit/feature-guide",
+      "skills/setup-and-audit/routines-setup-assistant",
+      "skills/setup-and-audit/skill-usage-log-reviewer",
+      "skills/setup-and-audit/weekly-ai-workflow-review",
+      "skills/status-reports-and-stakeholder-updates/morning-standup-brief-generator",
+      "skills/status-reports-and-stakeholder-updates/okr-progress-narrator",
+      "skills/status-reports-and-stakeholder-updates/stakeholder-adapter",
+      "skills/status-reports-and-stakeholder-updates/team-update-aggregator",
+      "skills/status-reports-and-stakeholder-updates/weekly-digest-synthesizer",
+      "skills/status-reports-and-stakeholder-updates/weekly-status-report-generator",
+      "skills/team-leadership/delegation-brief",
+      "skills/team-leadership/meeting-prep-briefer",
+      "skills/team-leadership/one-to-one-prep"
     ],
-    "lastUpdated": "2026-07-14T14:14:25.606Z"
+    "lastUpdated": "2026-07-14T16:38:55.210Z"
   },
   {
     "source": "github:Kit4Some/Oh-my-ClaudeClaw",
@@ -29084,12 +29085,12 @@
   },
   {
     "source": "github:kayunangka/claude-skill",
-    "rev": "3d0b82bb2d6f532a2889108f211977a20950cb27",
+    "rev": "22697c2b5eba2828978b10ccfd398d872751fdbf",
     "hash": "1m5h0qcfy27x00aw6674zfdvlkq5nys5vy9sjmhglr46q01p0cfn",
     "skills": [
       "ast-grep/skills/ast-grep"
     ],
-    "lastUpdated": "2026-07-14T14:14:34.691Z"
+    "lastUpdated": "2026-07-14T16:42:01.871Z"
   },
   {
     "source": "github:kazan/diagrammer",
@@ -29482,8 +29483,8 @@
   },
   {
     "source": "github:kdlbs/kandev",
-    "rev": "3e68fd3da6b456e68b4db5b8cb373c4452f4c36a",
-    "hash": "1h3q546x1bcsckc0395bv06npwajxc83v117244r0vjxjwazyz4g",
+    "rev": "39ee058f0c2ba7a4d443679978361e6c0ebc725d",
+    "hash": "1vwvhg5qk4a43vh5mg857m5q4r8flfz344hib2nl3nkw39hffvq2",
     "skills": [
       ".agents/skills/acp-debug",
       ".agents/skills/add-integration",
@@ -29520,7 +29521,7 @@
       "apps/backend/internal/office/configloader/skills/kandev-team-admin",
       "apps/backend/internal/office/configloader/skills/memory"
     ],
-    "lastUpdated": "2026-07-14T14:14:50.987Z"
+    "lastUpdated": "2026-07-14T16:42:21.816Z"
   },
   {
     "source": "github:kdnsna/ultimate-ppt-master-skill",
@@ -32482,8 +32483,8 @@
   },
   {
     "source": "github:kilo-org/kilocode",
-    "rev": "675d970990bcde8ce1f359816af51d0a72d242b3",
-    "hash": "01d8dbl01zcd8kjq7x5y3prg68f2l26q47zm5ds6jgglkawfqawd",
+    "rev": "38d760896573a4667bc87c67da5b304f39f14b0a",
+    "hash": "19h85qc4zg2n213khpwx1ipgyrcybxb1kd9a7730jw1s1nc5zpph",
     "skills": [
       ".kilo/skills/gh-issues",
       ".kilo/skills/kilocode-merge-minimizer",
@@ -32493,7 +32494,7 @@
       "packages/opencode/test/fixture/skills/agents-sdk",
       "packages/opencode/test/fixture/skills/cloudflare"
     ],
-    "lastUpdated": "2026-07-14T14:17:15.130Z"
+    "lastUpdated": "2026-07-14T16:43:23.325Z"
   },
   {
     "source": "github:kilospark/webact",
@@ -36178,8 +36179,8 @@
   },
   {
     "source": "github:konecty/skills",
-    "rev": "163768468f3cf172963ad62a3ae42efe35c2d8ed",
-    "hash": "1cx4vxp0l30hfcns2qn0lpkzlsc4rk3zxsgkmwwvdy6mnvyp7fkj",
+    "rev": "f6cce1ab1e0b802c96cc90c072bd04517717b6d9",
+    "hash": "0ajj360p74amzzhm3ca4gzr8sy8x58hmjc836w4xlvd8cjryl1np",
     "skills": [
       ".agents/skills/code-review-skill",
       "skills/konecty-data",
@@ -36188,7 +36189,7 @@
       "skills/konecty-setup",
       "template"
     ],
-    "lastUpdated": "2026-07-14T14:18:09.095Z"
+    "lastUpdated": "2026-07-14T16:44:20.445Z"
   },
   {
     "source": "github:kong-baiming/cangjie-dev",
@@ -38071,8 +38072,8 @@
   },
   {
     "source": "github:kubb-labs/kubb",
-    "rev": "ba471f32acceec813f0229707e3ca14026fc9afb",
-    "hash": "0wqzxx3pmk79lsmwgq9648nvxx4i9iff3w48hgdyaqprmx17psih",
+    "rev": "c5d9d62fb9eb9a42e23e1e5f09d6bc6568e06261",
+    "hash": "16ykhz2xsb69sl45hdpbicry8q5blz6mf026mf2msa01qmaa9pap",
     "skills": [
       ".agents/skills/changelog",
       ".agents/skills/deslop",
@@ -38083,7 +38084,7 @@
       "tools/claude/skills/config",
       "tools/claude/skills/output"
     ],
-    "lastUpdated": "2026-07-14T10:59:01.505Z"
+    "lastUpdated": "2026-07-14T16:42:15.457Z"
   },
   {
     "source": "github:kubrickcode/workflow-toolkit",
