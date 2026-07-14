@@ -190,9 +190,10 @@
   },
   {
     "source": "github:u9401066/med-paper-assistant",
-    "rev": "a9a5901bafd84541f7e953adfcdec705e237f98e",
-    "hash": "0c8m3av3ahpfn7jdyx7n25i4c07zszjgj4z2w9xlnwpwyvji64d6",
+    "rev": "d8afb8462ccc343e5a0905d49b1518c05e4f3dac",
+    "hash": "11ahlhr00gxnk7ksl7aw6s1mzahb5kcvs61y0h78ybbjvd97glb5",
     "skills": [
+      ".agents/skills/academic-writing-harness",
       ".claude/skills/academic-debate",
       ".claude/skills/auto-paper",
       ".claude/skills/changelog-updater",
@@ -210,8 +211,19 @@
       ".claude/skills/memory-checkpoint",
       ".claude/skills/memory-updater",
       ".claude/skills/parallel-search",
+      ".claude/skills/pdf-asset-extractor",
+      ".claude/skills/pipeline-persistence",
       ".claude/skills/project-init",
       ".claude/skills/project-management",
+      ".claude/skills/pubmed-export-citations",
+      ".claude/skills/pubmed-fulltext-access",
+      ".claude/skills/pubmed-gene-drug-research",
+      ".claude/skills/pubmed-mcp-tools-reference",
+      ".claude/skills/pubmed-multi-source-search",
+      ".claude/skills/pubmed-paper-exploration",
+      ".claude/skills/pubmed-pico-search",
+      ".claude/skills/pubmed-quick-search",
+      ".claude/skills/pubmed-systematic-search",
       ".claude/skills/readme-i18n",
       ".claude/skills/readme-updater",
       ".claude/skills/reference-management",
@@ -220,7 +232,7 @@
       ".claude/skills/test-generator",
       ".claude/skills/word-export"
     ],
-    "lastUpdated": "2026-06-12T09:12:21.304Z"
+    "lastUpdated": "2026-07-14T11:03:51.767Z"
   },
   {
     "source": "github:u9401066/template-is-all-you-need",
@@ -363,8 +375,8 @@
   },
   {
     "source": "github:udecode/better-convex",
-    "rev": "52aa69c593722f853dba127d8f04d579d2ee1435",
-    "hash": "18lc6fx4sscb3py71n25m3ykf2mb6lq1807mah4wig2gld45lqcl",
+    "rev": "8d176e9f6e1bcafcdbbb130f9286179af05c59c6",
+    "hash": "02jpv4i07njac0719z817inns81xp0jlhyagzczp0nz5b61hjpr2",
     "skills": [
       ".agents/skills/4-ultracite",
       ".agents/skills/agent-browser-issue",
@@ -396,7 +408,7 @@
       ".agents/skills/toast",
       ".agents/skills/video-transcripts"
     ],
-    "lastUpdated": "2026-06-20T07:46:02.027Z"
+    "lastUpdated": "2026-07-14T11:03:57.162Z"
   },
   {
     "source": "github:udecode/dotai",
@@ -425,8 +437,8 @@
   },
   {
     "source": "github:udecode/kitcn",
-    "rev": "52aa69c593722f853dba127d8f04d579d2ee1435",
-    "hash": "18lc6fx4sscb3py71n25m3ykf2mb6lq1807mah4wig2gld45lqcl",
+    "rev": "8d176e9f6e1bcafcdbbb130f9286179af05c59c6",
+    "hash": "02jpv4i07njac0719z817inns81xp0jlhyagzczp0nz5b61hjpr2",
     "skills": [
       ".agents/skills/4-ultracite",
       ".agents/skills/agent-browser-issue",
@@ -458,7 +470,7 @@
       ".agents/skills/toast",
       ".agents/skills/video-transcripts"
     ],
-    "lastUpdated": "2026-06-20T07:46:04.098Z"
+    "lastUpdated": "2026-07-14T11:04:01.218Z"
   },
   {
     "source": "github:udecode/plate",
@@ -740,8 +752,8 @@
   },
   {
     "source": "github:uinaf/agents",
-    "rev": "e5601036a16d723a27f7654f1a956a9ac5e5cb6d",
-    "hash": "0vllqz7ixn8fzs5sc1bkwf01js2hawl7jpcazyi0zjrghpng43kz",
+    "rev": "fdc61210bd398dcb8f336412e6ddae3e296d67dd",
+    "hash": "0vp5ymapqmza23ldxz60rqhhymbjdbclgg0wcbszkdcz6y7mdymk",
     "skills": [
       "skills/agent-readiness",
       "skills/autoreview",
@@ -753,12 +765,12 @@
       "skills/verify",
       "skills/vite-plus"
     ],
-    "lastUpdated": "2026-07-14T08:36:53.025Z"
+    "lastUpdated": "2026-07-14T11:04:15.957Z"
   },
   {
     "source": "github:uinaf/skills",
-    "rev": "e5601036a16d723a27f7654f1a956a9ac5e5cb6d",
-    "hash": "0vllqz7ixn8fzs5sc1bkwf01js2hawl7jpcazyi0zjrghpng43kz",
+    "rev": "fdc61210bd398dcb8f336412e6ddae3e296d67dd",
+    "hash": "0vp5ymapqmza23ldxz60rqhhymbjdbclgg0wcbszkdcz6y7mdymk",
     "skills": [
       "skills/agent-readiness",
       "skills/autoreview",
@@ -770,12 +782,12 @@
       "skills/verify",
       "skills/vite-plus"
     ],
-    "lastUpdated": "2026-07-14T08:36:53.548Z"
+    "lastUpdated": "2026-07-14T11:04:16.539Z"
   },
   {
     "source": "github:uipath/skills",
-    "rev": "bdd038b479df828a6c6b5ff0dee5465fc9989815",
-    "hash": "137ci0pmwmr0yx7w2h084j61hp00j1g0vwsp7hchkrqby219bns6",
+    "rev": "4c477c77acaa996ad6e3977665989b86bba42f3c",
+    "hash": "0jf9kcwd9v1f8nlv25acjv0hm8nc9wf5jypf374rnhgv95npswdi",
     "skills": [
       "skills/uipath-admin",
       "skills/uipath-agents",
@@ -802,7 +814,7 @@
       "skills/uipath-test",
       "skills/uipath-troubleshoot"
     ],
-    "lastUpdated": "2026-07-14T08:37:00.872Z"
+    "lastUpdated": "2026-07-14T11:04:23.702Z"
   },
   {
     "source": "github:ujawal7/siebel_crm",
@@ -1896,12 +1908,12 @@
   },
   {
     "source": "github:unovue/shadcn-vue",
-    "rev": "f0de48f0d349bc2c8f16aa930d04e01f1383bf81",
-    "hash": "11blxcm7z325kxgakrz4wmms60a2dvkhl9867pgcx23kmxh7s5i2",
+    "rev": "9ceec9645019092a6c79e350023f1776f56d1dbb",
+    "hash": "09wa8jkbmhj13250zxgzs2fcxsf0l7xlk52dbf4vn4dy27h2c4jd",
     "skills": [
       "skills/shadcn-vue"
     ],
-    "lastUpdated": "2026-07-14T08:36:57.064Z"
+    "lastUpdated": "2026-07-14T11:02:34.164Z"
   },
   {
     "source": "github:unrealxu/unrealengine5-skills",
@@ -2133,12 +2145,12 @@
   },
   {
     "source": "github:upstash/qstash-js",
-    "rev": "36bfde584081629cde038561c2cd804d780a435a",
-    "hash": "1d7q19dxfld9sw35s1q3xjzfy7hhwb1145cp9nrawqjfsbk9lpm2",
+    "rev": "3ad58d386dcc0b86e2520de21b8c795df8c7ff69",
+    "hash": "1zfwza2qfyyflqx8jysy1j7bbg2n82waj52m432478xi13cwnn3b",
     "skills": [
       "skills"
     ],
-    "lastUpdated": "2026-07-14T08:37:00.655Z"
+    "lastUpdated": "2026-07-14T11:02:46.725Z"
   },
   {
     "source": "github:upstash/ratelimit-js",
@@ -2169,8 +2181,8 @@
   },
   {
     "source": "github:upstash/skills",
-    "rev": "0c8a1dfbbeb27070d24b28b04c43e5c63b2a204b",
-    "hash": "1h3dyihr1rhfmkphb77hdzzfx6jhc0kj3sg56xiglch6gmp23i48",
+    "rev": "48684837bd7c78c5d71c855bbef46d573aaf9bb4",
+    "hash": "1csgxg4zjxapgln0ym51f8s5aac3ksywbac8jb5zbpl54kab6j4m",
     "skills": [
       "skills/upstash",
       "skills/upstash-box-js",
@@ -2184,7 +2196,7 @@
       "skills/upstash-vector-js",
       "skills/upstash-workflow-js"
     ],
-    "lastUpdated": "2026-06-25T07:38:07.234Z"
+    "lastUpdated": "2026-07-14T11:02:49.064Z"
   },
   {
     "source": "github:upstash/vector-js",
@@ -3267,9 +3279,10 @@
   },
   {
     "source": "github:uwuclxdy/clean-code-Claude-Skill",
-    "rev": "9ac74875c8d3dface81a2d3f72484ecec8702f02",
-    "hash": "19x7p23x2rmnv9x64q7i3q63lxwj6jqifs1f8drv566lp8jzs3hh",
+    "rev": "9da45b7b7a08b62e1abab4f2a585f024ca59c86c",
+    "hash": "1zwdfkz3r9w4rhknh8a149p9zlr0v5qr45978xxm59ps3bbxidi7",
     "skills": [
+      ".claude/skills/sync-agenticat",
       "skills/askama",
       "skills/bash-defensive-patterns",
       "skills/bats-testing-patterns",
@@ -3283,7 +3296,7 @@
       "skills/threat-modeling",
       "skills/todo"
     ],
-    "lastUpdated": "2026-07-13T15:17:45.120Z"
+    "lastUpdated": "2026-07-14T11:03:03.991Z"
   },
   {
     "source": "github:uxKero/anydesign",
