@@ -791,8 +791,8 @@
   },
   {
     "source": "github:KevinZai/commander",
-    "rev": "4057354d5e5c34673e2a9237320b24b726156fa1",
-    "hash": "0fkbgbcn4373slw6kskvy54r2gps1qkrpxvcxryga5vc9knicz4j",
+    "rev": "d11081b2c3bbfd177c346c6cf836a54cc09040dd",
+    "hash": "1hyxpiz1c9papqm1xa9mcgjbbq8w2vdskp8bv35f851wi6jr4wa2",
     "skills": [
       ".agents/skills/mintlify",
       "commander/cowork-plugin-codex/skills/ccc",
@@ -837,6 +837,7 @@
       "commander/cowork-plugin-codex/skills/ccc-orchestrate",
       "commander/cowork-plugin-codex/skills/ccc-plan",
       "commander/cowork-plugin-codex/skills/ccc-plan-exec",
+      "commander/cowork-plugin-codex/skills/ccc-prompt-fix",
       "commander/cowork-plugin-codex/skills/ccc-qa",
       "commander/cowork-plugin-codex/skills/ccc-recall",
       "commander/cowork-plugin-codex/skills/ccc-relay",
@@ -1125,6 +1126,7 @@
       "skills/chat-widget",
       "skills/churn-prevention",
       "skills/claude-api",
+      "skills/claude-code-library",
       "skills/claude-md-refresh",
       "skills/claude-mem",
       "skills/claude-peers-bible",
@@ -1313,7 +1315,7 @@
       "skills/wifi-captive-portal",
       "skills/writing-plans"
     ],
-    "lastUpdated": "2026-07-14T16:38:55.042Z"
+    "lastUpdated": "2026-07-14T19:42:23.632Z"
   },
   {
     "source": "github:KhazP/vibe-coding-prompt-template",
@@ -1570,8 +1572,8 @@
   },
   {
     "source": "github:Klotzkette/claude-fuer-deutsches-recht",
-    "rev": "7f392fceef5c82604f88a8a4067fb4a016bdca13",
-    "hash": "00f8n6dgww6kbq1jl95z2jk2ma5ppkhl7kksdi4xnvys6n7wyqsk",
+    "rev": "6b1cdd1d92fbd8068b605f614ecaf24416951ffc",
+    "hash": "1hybwvras962pzygsbfvrycz137yxk4hzmbw563lws011805rcp5",
     "skills": [
       "agb-recht-pruefer/skills/abmahnung-reagieren",
       "agb-recht-pruefer/skills/abnahme-testing",
@@ -21368,6 +21370,15 @@
       "schriftform-und-textform-bgb/skills/zugang-empfangsbeduerftiger-formgerechter",
       "schriftform-und-textform-bgb/skills/zugang-formgerechter-erklaerung-bgh-viii-zr-159-23",
       "schriftform-und-textform-bgb/skills/zugang-risikoampel-und-gegenargumente",
+      "schriftsatz-versandwerkstatt/skills/anlagen-konvertieren-und-sichtpruefen",
+      "schriftsatz-versandwerkstatt/skills/anlagen-nummerieren-und-stempeln",
+      "schriftsatz-versandwerkstatt/skills/dateinamen-und-paketgrenzen-pruefen",
+      "schriftsatz-versandwerkstatt/skills/hauptdokument-pdf-endfertigen",
+      "schriftsatz-versandwerkstatt/skills/ordneraufnahme-und-produktionsmatrix",
+      "schriftsatz-versandwerkstatt/skills/signaturweg-und-absender-pruefen",
+      "schriftsatz-versandwerkstatt/skills/stoerung-und-nachreichung-dokumentieren",
+      "schriftsatz-versandwerkstatt/skills/versandfreigabe-und-eingang-sichern",
+      "schriftsatz-versandwerkstatt/skills/versandmappe-endfertigen",
       "schulrecht-laender/skills/abitur-und-abschlusspruefungen",
       "schulrecht-laender/skills/abiturzulassung-und-fehlkurse",
       "schulrecht-laender/skills/akteneinsicht-schulakte-attest",
@@ -25862,7 +25873,7 @@
       "zwangsvollstreckung/skills/zwv-vollstreckungstitel-bauleiter",
       "zwangsvollstreckung/skills/zwv-zwangsversteigerung-grundstueck-spezial"
     ],
-    "lastUpdated": "2026-07-11T16:11:23.804Z"
+    "lastUpdated": "2026-07-14T19:43:01.552Z"
   },
   {
     "source": "github:KnowledgeXLab/skill-git",
@@ -27242,12 +27253,12 @@
   },
   {
     "source": "github:kaggle/kaggle-cli",
-    "rev": "365d7eaeb0bc819eab08f2aae15ee26522e0c5b8",
-    "hash": "05gjis0km454c4r4gvxgds67cygr4lf66lwr00f588w7cwmjan24",
+    "rev": "f84cae5387a3a5c249a311ed5591c080c8c10ef7",
+    "hash": "0wwv4n741k1y0h5n032a91cl1l80573mzdpr8adbiv993fpg30f4",
     "skills": [
       "skills"
     ],
-    "lastUpdated": "2026-07-14T03:34:43.963Z"
+    "lastUpdated": "2026-07-14T19:45:47.751Z"
   },
   {
     "source": "github:kaggle/kaggle-skills",
@@ -29483,8 +29494,8 @@
   },
   {
     "source": "github:kdlbs/kandev",
-    "rev": "39ee058f0c2ba7a4d443679978361e6c0ebc725d",
-    "hash": "1vwvhg5qk4a43vh5mg857m5q4r8flfz344hib2nl3nkw39hffvq2",
+    "rev": "7a904080865ffdaecb344e58e0e5c7e219737c5e",
+    "hash": "1xxv0asxgdp8mq7ymxc3x5bnsww1n4bnnnwaqb1jybyfqr63pkiq",
     "skills": [
       ".agents/skills/acp-debug",
       ".agents/skills/add-integration",
@@ -29521,7 +29532,7 @@
       "apps/backend/internal/office/configloader/skills/kandev-team-admin",
       "apps/backend/internal/office/configloader/skills/memory"
     ],
-    "lastUpdated": "2026-07-14T16:42:21.816Z"
+    "lastUpdated": "2026-07-14T19:45:51.027Z"
   },
   {
     "source": "github:kdnsna/ultimate-ppt-master-skill",
@@ -32153,8 +32164,8 @@
   },
   {
     "source": "github:kickinrad/personas",
-    "rev": "0337a742d1fabb8ba59e5b3db71a8556d283c67b",
-    "hash": "05a0qzjaxllvsa51c9r32q56q7pyjhnvk55jabia2k5khhy1lf76",
+    "rev": "c166b1ab728ba4a9ce69e7951f4087fb9ad08d0e",
+    "hash": "167afvlcp452i2w2s2da6yknidz9z6j3n7373y053j6zfjyw4q34",
     "skills": [
       "plugins/persona-dashboard/skills/install",
       "plugins/persona-manager/skills/persona-dev",
@@ -32164,7 +32175,7 @@
       "plugins/personas-mesh/skills/setup",
       "plugins/personas-mesh/skills/status"
     ],
-    "lastUpdated": "2026-07-07T20:17:07.041Z"
+    "lastUpdated": "2026-07-14T19:46:09.264Z"
   },
   {
     "source": "github:kienhaminh/anti-chaotic",
@@ -32483,8 +32494,8 @@
   },
   {
     "source": "github:kilo-org/kilocode",
-    "rev": "38d760896573a4667bc87c67da5b304f39f14b0a",
-    "hash": "19h85qc4zg2n213khpwx1ipgyrcybxb1kd9a7730jw1s1nc5zpph",
+    "rev": "323227940b24843b7402dd3aacb1bc7c9da8c815",
+    "hash": "0c1dgvhwsyzizf12zsc4b5bsczlvw6445iamnwpgvhqxair60fw5",
     "skills": [
       ".kilo/skills/gh-issues",
       ".kilo/skills/kilocode-merge-minimizer",
@@ -32494,7 +32505,7 @@
       "packages/opencode/test/fixture/skills/agents-sdk",
       "packages/opencode/test/fixture/skills/cloudflare"
     ],
-    "lastUpdated": "2026-07-14T16:43:23.325Z"
+    "lastUpdated": "2026-07-14T19:46:38.169Z"
   },
   {
     "source": "github:kilospark/webact",
@@ -33902,8 +33913,8 @@
   },
   {
     "source": "github:kjaylee/misskim-skills",
-    "rev": "99f90cdae8f96a1fbff09c73bafddb8b345c555f",
-    "hash": "0nk6xrw4cyhxdg5kqcwwcbmyf7bpgnd0s5m8apb6cgvcjhrsp0zy",
+    "rev": "39e7405b89205b96cda2360c52ec513945daa944",
+    "hash": "1rswv3307bb1dz1qncpq1zilfsddy81shzwvl7krqs9rc65awzhi",
     "skills": [
       "game-marketing-context",
       "openclaw-mem",
@@ -33957,7 +33968,7 @@
       "skills/web-design-pro",
       "skills/youtube-pro"
     ],
-    "lastUpdated": "2026-07-13T19:53:08.657Z"
+    "lastUpdated": "2026-07-14T19:45:23.700Z"
   },
   {
     "source": "github:kjcarnahan/skills",
@@ -34570,12 +34581,12 @@
   },
   {
     "source": "github:knews2019/skill-do-work",
-    "rev": "0b4c00454c9d68e4c797aeaf48310387d0a5be67",
+    "rev": "c6638806118dc0e15da48a6670a90d4f30708fef",
     "hash": "0i4p2ir37nalj41xxgqxl68ng1mkppzp55jjlyk1aaxl7blia6cf",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-14T11:00:11.048Z"
+    "lastUpdated": "2026-07-14T19:45:36.665Z"
   },
   {
     "source": "github:knight6669/knight-imagetopptx-skill",
@@ -36179,8 +36190,8 @@
   },
   {
     "source": "github:konecty/skills",
-    "rev": "f6cce1ab1e0b802c96cc90c072bd04517717b6d9",
-    "hash": "0ajj360p74amzzhm3ca4gzr8sy8x58hmjc836w4xlvd8cjryl1np",
+    "rev": "77d95100c36aafac64fd5b50714087cb81f85b41",
+    "hash": "0wz6qnjv7zjnnx8maln4hiv3xak2vil9pd2gyqiixavgh7pb9wv5",
     "skills": [
       ".agents/skills/code-review-skill",
       "skills/konecty-data",
@@ -36189,7 +36200,7 @@
       "skills/konecty-setup",
       "template"
     ],
-    "lastUpdated": "2026-07-14T16:44:20.445Z"
+    "lastUpdated": "2026-07-14T19:45:49.491Z"
   },
   {
     "source": "github:kong-baiming/cangjie-dev",
@@ -38312,13 +38323,13 @@
   },
   {
     "source": "github:kunchenguid/lavish-axi",
-    "rev": "ab31405882f950696a2ddc79deb90d4caada7543",
-    "hash": "09lym8rv24avf88n18c8c9zmsw8nv5ag4aj6y4njn2kh2kgwj80b",
+    "rev": "ff4ddc0e53da76968369e27ebf1fc91739b57381",
+    "hash": "1xdrvkn4nybi04b9mhj0h4q40jymj6nb7kn5fvc4h8jznrmrdlvk",
     "skills": [
       ".agents/skills/lavish-design",
       "skills/lavish"
     ],
-    "lastUpdated": "2026-07-11T19:37:16.179Z"
+    "lastUpdated": "2026-07-14T19:46:43.687Z"
   },
   {
     "source": "github:kunchenguid/no-mistakes",
