@@ -835,12 +835,12 @@
   },
   {
     "source": "github:Junayedahmedd/gemini_cli_skill",
-    "rev": "1b213131c554ab9e83a1cf5656b34290a6dd363d",
+    "rev": "5770c691a6ac0628a0ddaf0bee304c19c9be2e42",
     "hash": "00d2pzdsz0dq5aqw3zvmkbrgxi9nm5vp5pislyl0a1yxwj3w267y",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-14T22:13:21.211Z"
+    "lastUpdated": "2026-07-15T03:34:21.167Z"
   },
   {
     "source": "github:JuneYaooo/gpt-image2-ppt-skills",
@@ -999,8 +999,8 @@
   },
   {
     "source": "github:j5ik2o/ai-tools",
-    "rev": "de12a8052d46adfe658a313bb7ab3de5c998ee55",
-    "hash": "1r99ff7501c493ydn6igngipv0niypm2s0p6kj2z67rylhbi2f8z",
+    "rev": "4adf270bc4450dfcaca6c70b7a473989df3916f7",
+    "hash": "0fn6zcjd7b1q4v95w6bz5bqnkymmk5pvg1axbicbb30rac5br2li",
     "skills": [
       ".agents/skills/kiro-debug",
       ".agents/skills/kiro-discovery",
@@ -1023,51 +1023,52 @@
       ".claude/skills/openspec-archive-change",
       ".claude/skills/openspec-explore",
       ".claude/skills/openspec-propose",
-      "plugins/agent-skills/skills/skill-forge",
-      "plugins/git/skills/git-commit",
-      "plugins/github/skills/deep-research-read-me",
-      "plugins/github/skills/gh-issue-organizer",
-      "plugins/github/skills/gh-pr-converge",
-      "plugins/github/skills/gh-pr-review-follow-up",
-      "plugins/software-design/skills/breach-encapsulation-naming",
-      "plugins/software-design/skills/clean-architecture",
-      "plugins/software-design/skills/cqrs-aggregate-modeling",
-      "plugins/software-design/skills/cqrs-to-event-sourcing",
-      "plugins/software-design/skills/cqrs-tradeoffs",
-      "plugins/software-design/skills/custom-linter-creator",
-      "plugins/software-design/skills/ddd-aggregate-design",
-      "plugins/software-design/skills/ddd-aggregate-transaction-boundary",
-      "plugins/software-design/skills/ddd-cross-aggregate-constraints",
-      "plugins/software-design/skills/ddd-domain-building-blocks",
-      "plugins/software-design/skills/ddd-domain-model-extractor",
-      "plugins/software-design/skills/ddd-domain-model-first",
-      "plugins/software-design/skills/ddd-domain-primitives-and-always-valid",
-      "plugins/software-design/skills/ddd-module-pattern",
-      "plugins/software-design/skills/ddd-repository-design",
-      "plugins/software-design/skills/ddd-repository-placement",
-      "plugins/software-design/skills/ddd-when-to-wrap-primitives",
-      "plugins/software-design/skills/error-classification",
-      "plugins/software-design/skills/error-handling",
-      "plugins/software-design/skills/first-class-collection",
-      "plugins/software-design/skills/intent-based-dedup",
-      "plugins/software-design/skills/law-of-demeter",
-      "plugins/software-design/skills/migrate-skill-to-agent",
-      "plugins/software-design/skills/package-design",
-      "plugins/software-design/skills/parse-dont-validate",
-      "plugins/software-design/skills/pekko-cqrs-es-implementation",
-      "plugins/software-design/skills/refactoring-packages",
-      "plugins/software-design/skills/reviewing-skills",
-      "plugins/software-design/skills/tell-dont-ask",
-      "plugins/takt/skills/takt-analyzer",
-      "plugins/takt/skills/takt-analyzer/references/takt/builtins/skill",
-      "plugins/takt/skills/takt-analyzer/references/takt/builtins/skill-codex",
-      "plugins/takt/skills/takt-facet-builder",
-      "plugins/takt/skills/takt-optimizer",
-      "plugins/takt/skills/takt-skill-updater",
-      "plugins/takt/skills/takt-task-builder",
-      "plugins/takt/skills/takt-workflow-builder"
+      "plugins/agent-skills/skills/j5ik2o:skill-forge",
+      "plugins/git/skills/j5ik2o:git-commit",
+      "plugins/github/skills/j5ik2o:deep-research-read-me",
+      "plugins/github/skills/j5ik2o:gh-issue-organizer",
+      "plugins/github/skills/j5ik2o:gh-pr-converge-loop",
+      "plugins/github/skills/j5ik2o:gh-pr-resolve-conflicts",
+      "plugins/github/skills/j5ik2o:gh-pr-review-follow-up",
+      "plugins/software-design/skills/j5ik2o:breach-encapsulation-naming",
+      "plugins/software-design/skills/j5ik2o:clean-architecture",
+      "plugins/software-design/skills/j5ik2o:cqrs-aggregate-modeling",
+      "plugins/software-design/skills/j5ik2o:cqrs-to-event-sourcing",
+      "plugins/software-design/skills/j5ik2o:cqrs-tradeoffs",
+      "plugins/software-design/skills/j5ik2o:custom-linter-creator",
+      "plugins/software-design/skills/j5ik2o:ddd-aggregate-design",
+      "plugins/software-design/skills/j5ik2o:ddd-aggregate-transaction-boundary",
+      "plugins/software-design/skills/j5ik2o:ddd-cross-aggregate-constraints",
+      "plugins/software-design/skills/j5ik2o:ddd-domain-building-blocks",
+      "plugins/software-design/skills/j5ik2o:ddd-domain-model-extractor",
+      "plugins/software-design/skills/j5ik2o:ddd-domain-model-first",
+      "plugins/software-design/skills/j5ik2o:ddd-domain-primitives-and-always-valid",
+      "plugins/software-design/skills/j5ik2o:ddd-module-pattern",
+      "plugins/software-design/skills/j5ik2o:ddd-repository-design",
+      "plugins/software-design/skills/j5ik2o:ddd-repository-placement",
+      "plugins/software-design/skills/j5ik2o:ddd-when-to-wrap-primitives",
+      "plugins/software-design/skills/j5ik2o:error-classification",
+      "plugins/software-design/skills/j5ik2o:error-handling",
+      "plugins/software-design/skills/j5ik2o:first-class-collection",
+      "plugins/software-design/skills/j5ik2o:intent-based-dedup",
+      "plugins/software-design/skills/j5ik2o:law-of-demeter",
+      "plugins/software-design/skills/j5ik2o:migrate-skill-to-agent",
+      "plugins/software-design/skills/j5ik2o:package-design",
+      "plugins/software-design/skills/j5ik2o:parse-dont-validate",
+      "plugins/software-design/skills/j5ik2o:pekko-cqrs-es-implementation",
+      "plugins/software-design/skills/j5ik2o:refactoring-packages",
+      "plugins/software-design/skills/j5ik2o:reviewing-skills",
+      "plugins/software-design/skills/j5ik2o:tell-dont-ask",
+      "plugins/takt/skills/j5ik2o:takt-analyzer",
+      "plugins/takt/skills/j5ik2o:takt-analyzer/references/takt/builtins/skill",
+      "plugins/takt/skills/j5ik2o:takt-analyzer/references/takt/builtins/skill-codex",
+      "plugins/takt/skills/j5ik2o:takt-facet-builder",
+      "plugins/takt/skills/j5ik2o:takt-optimizer",
+      "plugins/takt/skills/j5ik2o:takt-skill-updater",
+      "plugins/takt/skills/j5ik2o:takt-task-builder",
+      "plugins/takt/skills/j5ik2o:takt-workflow-builder"
     ],
-    "lastUpdated": "2026-07-14T16:39:53.077Z"
+    "lastUpdated": "2026-07-15T03:36:14.215Z"
   },
   {
     "source": "github:j5ik2o/okite-ai",
@@ -2276,21 +2277,21 @@
   },
   {
     "source": "github:jacob-bd/notebooklm-mcp",
-    "rev": "e98cab174f8452c130da28898844f823d002b0a9",
-    "hash": "1j93rh6gbx2agpiq5xxm9djkpgz7lmyjinkg5l7n9q8x0zmi81xs",
+    "rev": "74e38de4c9966622d2906bb9b10295a7741dfe94",
+    "hash": "12zs8aqhxnwhd2hywbwk5czqccb864g5jnjmjnkz6z9g6nrgdnbb",
     "skills": [
       "src/notebooklm_tools/data"
     ],
-    "lastUpdated": "2026-07-11T19:33:00.089Z"
+    "lastUpdated": "2026-07-15T03:36:24.497Z"
   },
   {
     "source": "github:jacob-bd/notebooklm-mcp-cli",
-    "rev": "e98cab174f8452c130da28898844f823d002b0a9",
-    "hash": "1j93rh6gbx2agpiq5xxm9djkpgz7lmyjinkg5l7n9q8x0zmi81xs",
+    "rev": "74e38de4c9966622d2906bb9b10295a7741dfe94",
+    "hash": "12zs8aqhxnwhd2hywbwk5czqccb864g5jnjmjnkz6z9g6nrgdnbb",
     "skills": [
       "src/notebooklm_tools/data"
     ],
-    "lastUpdated": "2026-07-11T19:33:19.760Z"
+    "lastUpdated": "2026-07-15T03:36:24.511Z"
   },
   {
     "source": "github:jacob-bd/universal-skills-manager",
@@ -3317,12 +3318,12 @@
   },
   {
     "source": "github:jakubs2623/notebooklm-skill",
-    "rev": "a3b676a5cab98c5959caaa0d373f250268016e06",
+    "rev": "0581793f92b01b3e70bc5c7bbea30ca8303d2b15",
     "hash": "1c279mavxcwxyd05jvxia0j6d4s0wdhd761vpl8wgdjsg2w08401",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-14T22:15:28.759Z"
+    "lastUpdated": "2026-07-15T03:36:47.034Z"
   },
   {
     "source": "github:jal-co/shieldcn",
@@ -5064,8 +5065,8 @@
   },
   {
     "source": "github:jasonkneen/tiny-world-builder",
-    "rev": "5c896929652acd0771d9d0e1300a44798e9dec1d",
-    "hash": "1iv6ma5cq93i74s556ql1zgf6sdpvbkrcgg9i5yw97hvfqnrpsa7",
+    "rev": "be788c66ed1577d43a2a06a70129951cc654df96",
+    "hash": "0p0b8347d7rz84xyrc691f2491vb2crg4p2hwppvwkkrwfj6fmyh",
     "skills": [
       ".agents/skills/3d-modeling",
       ".agents/skills/fractal",
@@ -5102,7 +5103,7 @@
       ".codex/skills/tinyworld-visual-qa",
       ".codex/skills/tinyworld-webxr"
     ],
-    "lastUpdated": "2026-07-14T22:14:46.407Z"
+    "lastUpdated": "2026-07-15T03:35:57.851Z"
   },
   {
     "source": "github:jasonraimondi/ts-oauth2-server",
@@ -5833,8 +5834,8 @@
   },
   {
     "source": "github:jazzyalex/agent-sessions",
-    "rev": "b7f5d6832a1d4e3ef6d273a8d4411dcf8a5a8e74",
-    "hash": "1zscsd4303c2zb5l428qikrr6nbkfih4dcwws3dapm3m2i49himw",
+    "rev": "f09241b5f6212f04a1626ca560afee86ad5f1c81",
+    "hash": "0ny0wl515r03smk74jx92p4ri3xib60f747098qp89q59q0mvsp0",
     "skills": [
       ".claude/skills/deploy",
       ".claude/skills/release-notes",
@@ -5844,7 +5845,7 @@
       "skills/sc-skill",
       "tools/handover"
     ],
-    "lastUpdated": "2026-07-14T08:30:59.884Z"
+    "lastUpdated": "2026-07-15T03:35:33.912Z"
   },
   {
     "source": "github:jazzychad/ios-code-audit",
@@ -22710,12 +22711,12 @@
   },
   {
     "source": "github:jkf87/ohmyclaw",
-    "rev": "fd0c168ad57155cf62001fda1ca511e160f6fe55",
-    "hash": "0lv436s94k6cjz1wjxiypbknpplv11ay42qg6hm4fpa5r0wz95kc",
+    "rev": "aba8c11ce08db4f668b96285b12f92748af942ec",
+    "hash": "151fps2954r2v8ljd3bwkknf55g2vydklpzc6zwah4cnk3czsvdx",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-14T14:16:25.002Z"
+    "lastUpdated": "2026-07-15T03:37:37.142Z"
   },
   {
     "source": "github:jkitchin/skillz",
@@ -22908,8 +22909,8 @@
   },
   {
     "source": "github:jmagar/axon",
-    "rev": "0a353bdfb6d801c33be65461715325ec580f434b",
-    "hash": "1n070yxx6r1jb5n3gvjbh8zn79xdxqr59sajhkry2pz280nz4w64",
+    "rev": "46d99ac8a203508a1746c4ccb852c843218ff138",
+    "hash": "0zpl7dxz1crlds4n0wzazzj9k7dp1mnlrr6lwa4pm9hmq72sy638",
     "skills": [
       "plugins/axon/references/rag-synthesize",
       "plugins/axon/skills/cli",
@@ -22938,7 +22939,7 @@
       "plugins/axon/skills/website-design-clone",
       "plugins/axon/skills/workflows"
     ],
-    "lastUpdated": "2026-07-14T22:15:33.853Z"
+    "lastUpdated": "2026-07-15T03:35:27.972Z"
   },
   {
     "source": "github:jmagar/claude-homelab",
@@ -26990,8 +26991,8 @@
   },
   {
     "source": "github:joncrangle/.dotfiles",
-    "rev": "d15a2e235a314b0a735313eca7f0ab1fe6cb0c50",
-    "hash": "0g6ralwy6k9bzssx308nnp98z5l64gvdqcd8xyry6c9hvqna4b13",
+    "rev": "1fd3230a4ce9e2e6b2aa33a188353a4c5671cfe6",
+    "hash": "1v7drm3yws1bjcpm5v55mdm5g95cndwvyhwfx3hva925xk2qhkj6",
     "skills": [
       "dot_config/opencode/skills/ast-grep",
       "dot_config/opencode/skills/btca",
@@ -27008,7 +27009,7 @@
       "dot_config/opencode/skills/vitest",
       "dot_config/opencode/skills/wezterm"
     ],
-    "lastUpdated": "2026-07-14T22:15:31.904Z"
+    "lastUpdated": "2026-07-15T03:36:56.375Z"
   },
   {
     "source": "github:jondotsoy/flags",
@@ -29408,8 +29409,8 @@
   },
   {
     "source": "github:jscraik/Agent-Skills",
-    "rev": "e214efe0bfe912a869a593c46a95ffbd5fd19d04",
-    "hash": "0c2ng8zi5n2p5s1pwcx3l8gf6w03bj1y4mak6swyfdlw4cwgkkri",
+    "rev": "6ef8656d159fdefb309a21c3c593bef8425d6ee3",
+    "hash": "1lyc3cbsdrypwny4m0k990fsrk3iyliqv64a6sk477gca1hl28sv",
     "skills": [
       ".",
       "Infrastructure/references/deferred-skill-context/agent-ops-unslopify",
@@ -29598,7 +29599,7 @@
       "skills-system/skill-creator",
       "skills-system/skill-installer"
     ],
-    "lastUpdated": "2026-07-13T09:50:21.637Z"
+    "lastUpdated": "2026-07-15T03:37:11.757Z"
   },
   {
     "source": "github:jsegov/shipspec-claude-code-plugin",
@@ -30298,8 +30299,8 @@
   },
   {
     "source": "github:juanca202/ai",
-    "rev": "ea5db4f0587c078ce01bf963feeca58021a77c73",
-    "hash": "0wlpj2faj5cn5q4gz42rfxp56b96lkcggxfafv6vm28sbyfizmpi",
+    "rev": "4b0cd5b4bc49b8de97cec841ccab1fcf33d5923d",
+    "hash": "18yfdg1fnaiych0bnxf66iky8is94zn21kfxgkxpmxdldrgbxql0",
     "skills": [
       "skills/adr-audit",
       "skills/adr-discover",
@@ -30319,7 +30320,7 @@
       "skills/work-plan",
       "skills/work-research"
     ],
-    "lastUpdated": "2026-07-13T17:26:41.667Z"
+    "lastUpdated": "2026-07-15T03:37:17.435Z"
   },
   {
     "source": "github:juancarestre/dynamodb-skills",
@@ -31417,8 +31418,8 @@
   },
   {
     "source": "github:juspay/kolu",
-    "rev": "163ed119163979ce248c1c18cafb58791b882de9",
-    "hash": "0r334fsmbd5vdygjk03b9fzpvjmrd2r1jr2mbs4hzavkcd3fxa2x",
+    "rev": "027142e617a620590a66d7f500ca53fa15cf3aaa",
+    "hash": "0myzk9sic6d1hx9cg2glfngjr6xjfcbp7g9sgkwsycszqfvyzq23",
     "skills": [
       ".agents/skills/architecture-first-principles",
       ".agents/skills/atlas",
@@ -31459,7 +31460,7 @@
       ".agents/skills/talk",
       ".agents/skills/test"
     ],
-    "lastUpdated": "2026-07-14T22:15:49.041Z"
+    "lastUpdated": "2026-07-15T03:36:50.268Z"
   },
   {
     "source": "github:juspay/merchant-skills",
@@ -31691,13 +31692,14 @@
   },
   {
     "source": "github:justinmc/flutter-skills",
-    "rev": "d54c5e33f6a3b59fe54c61fae72ea19acfba85a9",
-    "hash": "157v5yi2xjwv62dsh1d9jnfgggilpl8f2z9rbvv3lajhff793zfp",
+    "rev": "9a12c819f0dbca15fa7a6b8073ce3b715802e3db",
+    "hash": "1klyffk0vhhd5vq5m0zkg91h63dzcirng4wf4ydzhhf21lqi0p5j",
     "skills": [
       "flutter-clone",
+      "flutter-pr-triage",
       "flutter-triage"
     ],
-    "lastUpdated": "2026-05-29T17:10:03.191Z"
+    "lastUpdated": "2026-07-15T03:37:00.257Z"
   },
   {
     "source": "github:justinperea/app-store-review-skill",
@@ -31975,8 +31977,8 @@
   },
   {
     "source": "github:jwbaldwin/dotfiles",
-    "rev": "3e11197b754d43cb61bccfd27fff1ed89c120b80",
-    "hash": "0l82gjc4s0d3pfs7nkkyld67y2cdbapzdwfh960abnyjkamxx1fn",
+    "rev": "3a80b1c3690821d7d3f4fe63286fa3913deff31e",
+    "hash": "0qhfjz8sdbq0619m3aq95dnc2mvvaap0yiy2h80k7rpjxs6qp0ag",
     "skills": [
       ".config/opencode/skills/add-feature-flag",
       ".config/opencode/skills/babysit",
@@ -32014,7 +32016,7 @@
       ".config/opencode/skills/workspace",
       ".config/opencode/skills/writing-style"
     ],
-    "lastUpdated": "2026-07-06T15:58:24.290Z"
+    "lastUpdated": "2026-07-15T03:37:01.264Z"
   },
   {
     "source": "github:jwcodewrote/agent_skills_plugin",
@@ -32423,8 +32425,8 @@
   },
   {
     "source": "github:jxxghp/moviepilot",
-    "rev": "f814c271cc5412c365a631bbdb8b2c9e9eab27d9",
-    "hash": "0ghvh842s37s3mbi0xz5kg1v9q17sx4qs9gwk0h1iwcbmn3lrzxv",
+    "rev": "077241b6edd5245d70ed646eddf152c5a19c7f4b",
+    "hash": "07fglvl83a8ssysi9yz051sl8pqwajfjv02ghfyc7wxayh3ynscq",
     "skills": [
       "skills/anysearch",
       "skills/browser-use",
@@ -32441,7 +32443,7 @@
       "skills/publish-moviepilot-plugin",
       "skills/transfer-failed-retry"
     ],
-    "lastUpdated": "2026-07-14T08:28:55.324Z"
+    "lastUpdated": "2026-07-15T03:36:54.753Z"
   },
   {
     "source": "github:jyasuu/cheat-sheet",
