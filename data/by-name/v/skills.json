@@ -656,29 +656,62 @@
   },
   {
     "source": "github:v1truv1us/ai-eng-system",
-    "rev": "a1e8f19491dece234c5d7166ae0b215994380afd",
-    "hash": "19alq4ij5db3ppih1nk3jik3hz9p8jarr732ma46n8a83p0gzds4",
+    "rev": "eacdd468bd4f3f10d2f9a521ab7b61bef00809a9",
+    "hash": "0hij5zcy0hz65a7lkmi3pab4lp0s4ir8pbiq4dakgszh61s47hci",
     "skills": [
+      ".gemini/skills/api-and-interface-design",
+      ".gemini/skills/check-compiler-errors",
+      ".gemini/skills/content-optimization",
+      ".gemini/skills/context-budget",
+      ".gemini/skills/context-engineering",
       ".gemini/skills/continuous-learning-v2",
+      ".gemini/skills/dependency-graph-analysis",
+      ".gemini/skills/deprecation-and-migration",
+      ".gemini/skills/documentation-and-adrs",
+      ".gemini/skills/fix-merge-conflicts",
+      ".gemini/skills/frontend-ui-engineering",
+      ".gemini/skills/get-pr-comments",
+      ".gemini/skills/git-workflow-and-versioning",
+      ".gemini/skills/graphify",
+      ".gemini/skills/idea-refine",
+      ".gemini/skills/incentive-prompting",
+      ".gemini/skills/new-branch-and-pr",
+      ".gemini/skills/performance-optimization",
+      ".gemini/skills/prompt-engineering",
+      ".gemini/skills/pstack/principle-boundary-discipline",
+      ".gemini/skills/pstack/principle-encode-lessons-in-structure",
+      ".gemini/skills/pstack/principle-exhaust-the-design-space",
+      ".gemini/skills/pstack/principle-experience-first",
+      ".gemini/skills/pstack/principle-fix-root-causes",
+      ".gemini/skills/pstack/principle-foundational-thinking",
+      ".gemini/skills/pstack/principle-guard-the-context-window",
+      ".gemini/skills/pstack/principle-laziness-protocol",
+      ".gemini/skills/pstack/principle-make-operations-idempotent",
+      ".gemini/skills/pstack/principle-migrate-callers-then-delete-legacy-apis",
+      ".gemini/skills/pstack/principle-minimize-reader-load",
+      ".gemini/skills/pstack/principle-never-block-on-the-human",
+      ".gemini/skills/pstack/principle-outcome-oriented-execution",
+      ".gemini/skills/pstack/principle-prove-it-works",
+      ".gemini/skills/pstack/principle-redesign-from-first-principles",
+      ".gemini/skills/pstack/principle-separate-before-serializing-shared-state",
+      ".gemini/skills/pstack/principle-subtract-before-you-add",
+      ".gemini/skills/pstack/principle-type-system-discipline",
+      ".gemini/skills/run-smoke-tests",
+      ".gemini/skills/what-did-i-get-done",
       "agents/research-runner/deploy/skills/auto-research",
       "agents/research-runner/deploy/skills/wiki-research-engineering",
       "agents/research-runner/deploy/skills/wiki-research-personal",
       "agents/research-runner/deploy/skills/wiki-research-research",
       "skills/agents-sdk-dev",
       "skills/ai-eng/simplify",
-      "skills/api-and-interface-design",
       "skills/architect",
       "skills/browser-testing-with-devtools",
       "skills/check-agent-compatibility",
-      "skills/check-compiler-errors",
       "skills/ci-cd-and-automation",
       "skills/cli-for-agents",
       "skills/code-review-and-quality",
       "skills/code-simplification",
       "skills/comprehensive-research",
-      "skills/content-optimization",
-      "skills/context-budget",
-      "skills/context-engineering",
       "skills/continuous-learning",
       "skills/control-cli",
       "skills/control-ui",
@@ -688,29 +721,19 @@
       "skills/cross-repo-refactor",
       "skills/cursor-sdk",
       "skills/debugging-and-error-recovery",
-      "skills/dependency-graph-analysis",
-      "skills/deprecation-and-migration",
       "skills/doc-review",
       "skills/docker",
       "skills/docs-canvas",
-      "skills/documentation-and-adrs",
       "skills/dreaming-consolidator",
       "skills/dynamic-claude-router",
       "skills/eval-harness",
       "skills/fix-ci",
-      "skills/fix-merge-conflicts",
-      "skills/frontend-ui-engineering",
       "skills/gemini-agent-sdk",
-      "skills/get-pr-comments",
-      "skills/git-workflow-and-versioning",
       "skills/git-worktree",
       "skills/github",
       "skills/graph-rag",
-      "skills/graphify",
       "skills/grill-me",
       "skills/grill-with-docs",
-      "skills/idea-refine",
-      "skills/incentive-prompting",
       "skills/incremental-implementation",
       "skills/interrogate",
       "skills/investigation-loop",
@@ -723,47 +746,24 @@
       "skills/monorepo-initialization",
       "skills/morning-brief",
       "skills/multimodal-corpus-ingestion",
-      "skills/new-branch-and-pr",
       "skills/npm-trusted-publishing",
       "skills/orchestrate",
-      "skills/performance-optimization",
       "skills/planning-and-task-breakdown",
       "skills/playwright",
       "skills/plugin-dev",
       "skills/pr-review-canvas",
-      "skills/principle-fix-root-causes",
-      "skills/principle-laziness-protocol",
-      "skills/principle-never-block-on-the-human",
-      "skills/principle-prove-it-works",
-      "skills/principle-type-system-discipline",
-      "skills/prompt-engineering",
       "skills/prompt-refinement",
       "skills/pstack/arena",
       "skills/pstack/automate-me",
       "skills/pstack/how",
       "skills/pstack/poteto-mode",
-      "skills/pstack/principle-boundary-discipline",
-      "skills/pstack/principle-encode-lessons-in-structure",
-      "skills/pstack/principle-exhaust-the-design-space",
-      "skills/pstack/principle-experience-first",
-      "skills/pstack/principle-foundational-thinking",
-      "skills/pstack/principle-guard-the-context-window",
-      "skills/pstack/principle-make-operations-idempotent",
-      "skills/pstack/principle-migrate-callers-then-delete-legacy-apis",
-      "skills/pstack/principle-minimize-reader-load",
-      "skills/pstack/principle-outcome-oriented-execution",
-      "skills/pstack/principle-redesign-from-first-principles",
-      "skills/pstack/principle-separate-before-serializing-shared-state",
-      "skills/pstack/principle-subtract-before-you-add",
       "skills/pstack/reflect",
       "skills/pstack/typescript-best-practices",
       "skills/pstack/why",
       "skills/repo-audit",
       "skills/repurpose",
       "skills/research-deep",
-      "skills/review-and-ship",
       "skills/run-learning-retrospective",
-      "skills/run-smoke-tests",
       "skills/security-and-hardening",
       "skills/sentry",
       "skills/seo-audit",
@@ -779,20 +779,16 @@
       "skills/test-fix-loop",
       "skills/text-cleanup",
       "skills/thermo-nuclear-architecture-review",
-      "skills/thermo-nuclear-code-quality-review",
       "skills/thermo-nuclear-performance-review",
-      "skills/thermo-nuclear-security-review",
       "skills/unslop",
       "skills/using-agent-skills",
       "skills/verification-loop",
-      "skills/verify-this",
       "skills/weekly-review",
-      "skills/what-did-i-get-done",
       "skills/workflow-from-chats",
       "skills/workflow/ralph-wiggum",
       "skills/xcodebuild"
     ],
-    "lastUpdated": "2026-07-17T03:44:04.664Z"
+    "lastUpdated": "2026-07-18T03:39:12.819Z"
   },
   {
     "source": "github:v5tech/skills",
@@ -1303,8 +1299,8 @@
   },
   {
     "source": "github:vamseeachanta/workspace-hub",
-    "rev": "aa3f463ccde90959fd436241618a6bd8dc0ebec7",
-    "hash": "0p1sddwfqszk88qa1672bsqfnw5r30lf70ld113rpzzw22fbapvp",
+    "rev": "2e9aabbb6218d27fb5bf61e6ae24b3c2b9048b0c",
+    "hash": "166kmg9pyb3vhf3iajbf41prkzscbqjrxqm4y8pxdf4l46ns6f1g",
     "skills": [
       ".agents/skills/_archive/ai/agent-usage-optimizer/baseline-route-mapping-quota-agnostic-defaults",
       ".agents/skills/_archive/ai/agent-usage-optimizer/complexity-tier-model-mapping",
@@ -3911,7 +3907,7 @@
       "_archive/skills/workspace-hub/interactive-report-generator",
       "scripts/skills/tests/fixtures/oversized-test"
     ],
-    "lastUpdated": "2026-07-17T19:41:52.909Z"
+    "lastUpdated": "2026-07-18T03:40:12.271Z"
   },
   {
     "source": "github:vanab/swiftdata-agent-skill",
@@ -4240,16 +4236,17 @@
   },
   {
     "source": "github:variel/skills",
-    "rev": "58196846301175bf63a4e8933252f812309b9d3a",
-    "hash": "0hzxkv7s6g2q868hwhmyl98hj54fsh5mc39by7wr11iwhg1r5h09",
+    "rev": "58db702168fabd62fd81245d889e2113c654b1ca",
+    "hash": "0vsyxm3k2v7w8p9pkmyr5ccvm0y5hi3mnvpzxyalvmy6r73lpy64",
     "skills": [
       "skills/ask-advisor",
       "skills/design-guide",
       "skills/persona-check",
       "skills/presentation-design",
+      "skills/right-documentation",
       "skills/spec-writer"
     ],
-    "lastUpdated": "2026-06-20T07:47:51.905Z"
+    "lastUpdated": "2026-07-18T03:39:42.425Z"
   },
   {
     "source": "github:varlabz/skills",
@@ -4356,8 +4353,8 @@
   },
   {
     "source": "github:varun369/SuperLocalMemoryV2",
-    "rev": "b0f6bb9f29c1f65134e565ad8453a6abc7b1497c",
-    "hash": "15f6zbwy22sl1hi1a9azqp8n752js3vs86wcxxllfascpfkvv154",
+    "rev": "3ff2350398c24bce0c75c95f78e1d2ce8c20e9d9",
+    "hash": "15305rmvj88v3834r4nccrqqkh4sxwkz0dxvj8pqdrynaii9vclb",
     "skills": [
       ".",
       "plugin-src/skills/slm-cache",
@@ -4368,7 +4365,7 @@
       "plugin-src/skills/slm-session",
       "plugin-src/skills/slm-status"
     ],
-    "lastUpdated": "2026-07-16T19:40:31.599Z"
+    "lastUpdated": "2026-07-18T03:39:49.474Z"
   },
   {
     "source": "github:varunpandey0502/markdown-projects",
@@ -4497,13 +4494,13 @@
   },
   {
     "source": "github:vast-ai/vast-cli",
-    "rev": "1d407f04b9e8027b36549805370b3ba27db96009",
-    "hash": "1q1ifi3lgz53zlgbk9w0i1g6s75d08d11zk4vys3ahc2rck3az0z",
+    "rev": "905285e15a7a02764a0a98ec0bc3b90c5292147b",
+    "hash": "18zhjlsjcsclikbqmvmlsd9a92zc83ppzjbxh8gmfvlag4vr7ilk",
     "skills": [
       "vastai",
       "vastai_sdk"
     ],
-    "lastUpdated": "2026-07-17T19:41:20.740Z"
+    "lastUpdated": "2026-07-18T03:39:54.496Z"
   },
   {
     "source": "github:vasylrakivnenko/saica",
@@ -4721,15 +4718,15 @@
   },
   {
     "source": "github:vdesjardins/nix-config",
-    "rev": "ecdfff590a04b8dcc3d0af82c4701bd82fc829ae",
-    "hash": "07gp2d06m50qw4dx182035agi2b065dkyg3cflrnykqas3gnw9pg",
+    "rev": "baeaac6cb377f05b062e3e1cf1aa36d9002943fd",
+    "hash": "173fgyiwpwwwfpdrmhpjlhriznjd0qrzrsxir14vv1nv6c23mdmj",
     "skills": [
       "home/modules/modules/ai/skills/buku/skill",
       "home/modules/modules/ai/skills/conventional-commits",
       "packages/skill-flux",
       "packages/skill-timewarrior-efficient-entry"
     ],
-    "lastUpdated": "2026-07-15T14:16:57.339Z"
+    "lastUpdated": "2026-07-18T03:40:06.159Z"
   },
   {
     "source": "github:vdustr/vp-claude-code-marketplace",
@@ -5059,8 +5056,8 @@
   },
   {
     "source": "github:vellum-ai/vellum-assistant",
-    "rev": "68a46722c7876c19c799e35a5538ced3c327f55c",
-    "hash": "0xkjdq2hxf5zscrmvf88k9k44zg0szlwgym8i4v549c89rilvffk",
+    "rev": "9db1c71d36a584bd5318d9ff502a8e5fce35bc08",
+    "hash": "14mbzb4k32szqwp81g1ppjim3sljy01cjb69hc1bvajlsixc131b",
     "skills": [
       ".claude/skills/cli-testing",
       ".claude/skills/release",
@@ -5166,7 +5163,7 @@
       "skills/watcher",
       "skills/weather"
     ],
-    "lastUpdated": "2026-07-17T19:42:36.052Z"
+    "lastUpdated": "2026-07-18T03:41:01.185Z"
   },
   {
     "source": "github:velonone/Aeonsage",
@@ -5499,8 +5496,8 @@
   },
   {
     "source": "github:vercel-labs/agent-browser",
-    "rev": "2b202640ee89dc7aadb5e8c9d600e089e9056985",
-    "hash": "0lvpk3dfqw05jdnbpix5bx5dyakmhq8k3cqn50fad1ry9cn54wn5",
+    "rev": "6ede7a9470ac4b681cabf838af8668b9aa99e957",
+    "hash": "0hhignbwkyblaxsqsbiay345n2f28z0far90i2xxg84111rai1vp",
     "skills": [
       "skill-data/agentcore",
       "skill-data/core",
@@ -5510,18 +5507,18 @@
       "skill-data/vercel-sandbox",
       "skills/agent-browser"
     ],
-    "lastUpdated": "2026-07-16T19:41:31.710Z"
+    "lastUpdated": "2026-07-18T03:39:12.928Z"
   },
   {
     "source": "github:vercel-labs/agent-eval",
-    "rev": "c2c458e11e8019001212a6b17c43afbb776cba31",
-    "hash": "1hgmxfq6i1lan5xl51p3y8ii6nys920g8n89bh1ixw4sz9kgmh48",
+    "rev": "21419b22a576d788ec3f319ca599d0204b71a84d",
+    "hash": "052lh6pd4sng3b7kx1f9sfacz3c77jnqgx1pf7b34vd4mq1cq317",
     "skills": [
       "packages/playground/.agents/skills/frontend-design",
       "packages/playground/.agents/skills/vercel-react-best-practices",
       "packages/playground/.agents/skills/web-design-guidelines"
     ],
-    "lastUpdated": "2026-07-17T03:44:01.149Z"
+    "lastUpdated": "2026-07-18T03:39:13.539Z"
   },
   {
     "source": "github:vercel-labs/agent-skills",
@@ -5551,8 +5548,8 @@
   },
   {
     "source": "github:vercel-labs/ai",
-    "rev": "8b5250363f5901d8dd90278fd82e21562a840bd4",
-    "hash": "1i8sl34snhdmdjgrkcz12nyl1v13hhfflmzmknsj95hs7k2s42jk",
+    "rev": "6cd7c74acf0d7ec84dd58a841fc0e20970d6f2e8",
+    "hash": "1jn8yrgfbw421l771ah95iyhvws2c6mnkhcif758bka2zm5nc9k8",
     "skills": [
       "examples/ai-e2e-next/data/island-rescue",
       "skills/add-function-examples",
@@ -5567,7 +5564,7 @@
       "skills/update-provider-models",
       "skills/use-ai-sdk"
     ],
-    "lastUpdated": "2026-07-17T19:39:23.762Z"
+    "lastUpdated": "2026-07-18T03:39:42.507Z"
   },
   {
     "source": "github:vercel-labs/ai-cli",
@@ -5746,8 +5743,8 @@
   },
   {
     "source": "github:vercel-labs/native",
-    "rev": "2c028094bb1e384be3343a878bc77ea3f06fc116",
-    "hash": "0in3g084q9qc95hxli7aygis5pywr86g3jlj218z4zwyr3sdq9ms",
+    "rev": "57bf56bc58058768d436099c1005bfc66bd55ac3",
+    "hash": "04kcphm0rkqdvzy5jg15fgy1mdysi8cbcy5d040f3hvngw9m8slg",
     "skills": [
       "skill-data/automation",
       "skill-data/core",
@@ -5756,7 +5753,7 @@
       "skill-data/zig",
       "skills/native-sdk"
     ],
-    "lastUpdated": "2026-07-17T19:39:11.828Z"
+    "lastUpdated": "2026-07-18T03:39:37.630Z"
   },
   {
     "source": "github:vercel-labs/next-browser",
@@ -5844,13 +5841,13 @@
   },
   {
     "source": "github:vercel-labs/portless",
-    "rev": "74c98682edf6fc629b6aa4b059508cbd8fb2d29b",
-    "hash": "1r1vazpkc9iy47i1i3hpqfklcvskdk46n68jmp6g993rndqrza68",
+    "rev": "e0c2af5734fcdc2f6c6992423a023d8ec0c68e26",
+    "hash": "1hl1mvfw0svlb5fv05ayiiyns1hgrwx1k4iwcxp4rhnlwa4kh3z2",
     "skills": [
       "skills/oauth",
       "skills/portless"
     ],
-    "lastUpdated": "2026-07-16T19:40:31.363Z"
+    "lastUpdated": "2026-07-18T03:39:47.837Z"
   },
   {
     "source": "github:vercel-labs/py-ai",
@@ -6024,8 +6021,8 @@
   },
   {
     "source": "github:vercel-labs/zero-native",
-    "rev": "2c028094bb1e384be3343a878bc77ea3f06fc116",
-    "hash": "0in3g084q9qc95hxli7aygis5pywr86g3jlj218z4zwyr3sdq9ms",
+    "rev": "57bf56bc58058768d436099c1005bfc66bd55ac3",
+    "hash": "04kcphm0rkqdvzy5jg15fgy1mdysi8cbcy5d040f3hvngw9m8slg",
     "skills": [
       "skill-data/automation",
       "skill-data/core",
@@ -6034,7 +6031,7 @@
       "skill-data/zig",
       "skills/native-sdk"
     ],
-    "lastUpdated": "2026-07-17T19:39:34.102Z"
+    "lastUpdated": "2026-07-18T03:39:58.801Z"
   },
   {
     "source": "github:vercel-labs/zerolang",
@@ -6056,8 +6053,8 @@
   },
   {
     "source": "github:vercel/ai",
-    "rev": "8b5250363f5901d8dd90278fd82e21562a840bd4",
-    "hash": "1i8sl34snhdmdjgrkcz12nyl1v13hhfflmzmknsj95hs7k2s42jk",
+    "rev": "6cd7c74acf0d7ec84dd58a841fc0e20970d6f2e8",
+    "hash": "1jn8yrgfbw421l771ah95iyhvws2c6mnkhcif758bka2zm5nc9k8",
     "skills": [
       "examples/ai-e2e-next/data/island-rescue",
       "skills/add-function-examples",
@@ -6072,7 +6069,7 @@
       "skills/update-provider-models",
       "skills/use-ai-sdk"
     ],
-    "lastUpdated": "2026-07-17T19:40:11.467Z"
+    "lastUpdated": "2026-07-18T03:40:29.397Z"
   },
   {
     "source": "github:vercel/ai-elements",
@@ -6105,14 +6102,14 @@
   },
   {
     "source": "github:vercel/eve",
-    "rev": "f0d797892f446cc09cdec6eb8f035e5c37381cb1",
-    "hash": "1w75mikjxwji4vn2abl34sl9pxdax7wi3658c9shlpiwa17s86yk",
+    "rev": "c1b6ad3e485f2d15a25bdb5636209aa1367a3124",
+    "hash": "18qjp5ngq708fbd4jyxs2fkvbc36dx9sp3vqqb4mvhqpvqar3z00",
     "skills": [
       "e2e/fixtures/extensions/agent/skills/local-guide",
       "e2e/fixtures/toolkit-extension/extension/skills/toolkit-guide",
       "skills/eve"
     ],
-    "lastUpdated": "2026-07-17T19:39:54.022Z"
+    "lastUpdated": "2026-07-18T03:40:18.475Z"
   },
   {
     "source": "github:vercel/examples",
@@ -6152,8 +6149,8 @@
   },
   {
     "source": "github:vercel/next.js",
-    "rev": "f8dc962e175b17e3df6f2f929018dead2eb2827e",
-    "hash": "03knmj6z65x4zysk4djp72ydkcj1zpv23fdzmryc9w8xn35n7pc8",
+    "rev": "0491db047b8f9c4a5f9d0285ad9ed514bb134873",
+    "hash": "1vlrxvj8arypa34ff7gjr0f0njsgy20aiibhcrgvqn0bw9yb4yzb",
     "skills": [
       ".agents/skills/authoring-skills",
       ".agents/skills/backport-pr",
@@ -6177,7 +6174,7 @@
       "skills/next-dev-loop",
       "skills/next-partial-prefetching-adoption"
     ],
-    "lastUpdated": "2026-07-17T19:43:44.528Z"
+    "lastUpdated": "2026-07-18T03:43:18.818Z"
   },
   {
     "source": "github:vercel/nextjs-skills",
@@ -6210,31 +6207,31 @@
   },
   {
     "source": "github:vercel/turbo",
-    "rev": "f753f0403fc31d8ee07be4718cc0aa0a97206763",
-    "hash": "198hdmqbsqixhc0z1kkycnwqwlds36x8mczd5pjb81cxhp8q4g1p",
+    "rev": "a2bf8a20e7d7221cf4fc5c8e68d7f90f1c088a5c",
+    "hash": "0phz95qwnqcrp6fyzlxi9y7715fl41z74qik8k5lsadbckayyand",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-07-16T22:24:37.630Z"
+    "lastUpdated": "2026-07-18T03:41:28.016Z"
   },
   {
     "source": "github:vercel/turborepo",
-    "rev": "f753f0403fc31d8ee07be4718cc0aa0a97206763",
-    "hash": "198hdmqbsqixhc0z1kkycnwqwlds36x8mczd5pjb81cxhp8q4g1p",
+    "rev": "a2bf8a20e7d7221cf4fc5c8e68d7f90f1c088a5c",
+    "hash": "0phz95qwnqcrp6fyzlxi9y7715fl41z74qik8k5lsadbckayyand",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-07-16T22:25:53.532Z"
+    "lastUpdated": "2026-07-18T03:42:20.840Z"
   },
   {
     "source": "github:vercel/vercel",
-    "rev": "145eb34fce6af773e3a02953a6358556b3f7614b",
-    "hash": "1fm5ccrllilxd67hs8by6p8dgr08bgl48w87v5qn4sa0c97pvsrp",
+    "rev": "dad41da9ed2e8de455ebd759c05f81044efe04b0",
+    "hash": "1w6g2gjw0yv5jzdwb7g40qzq2zz0y7sdfx9fl1ddv2f678j0x26l",
     "skills": [
       "packages/cli/.agents/skills/cli-ux",
       "skills/vercel-cli"
     ],
-    "lastUpdated": "2026-07-17T19:43:05.687Z"
+    "lastUpdated": "2026-07-18T03:42:46.419Z"
   },
   {
     "source": "github:vercel/vercel-deploy-claude-code-plugin",
@@ -6294,15 +6291,15 @@
   },
   {
     "source": "github:vercel/workflow",
-    "rev": "268fede627b3a83dbabcff9d35fd946132bf9a06",
-    "hash": "1bnn1n09lc9a4wxls2p1yb3pq54ks2l3d59aw9kbqr2az7khx7f9",
+    "rev": "621b04ed52b2ed9dcbff15d5ae46e530a249fe8c",
+    "hash": "1i60f6z0csh0fjk9v16bab9gx7ibwkgz2jvbqh2cs2hq6964xbnl",
     "skills": [
       "skills/internal-dev-workbench",
       "skills/migrating-to-workflow-sdk",
       "skills/workflow",
       "skills/workflow-init"
     ],
-    "lastUpdated": "2026-07-17T19:43:15.949Z"
+    "lastUpdated": "2026-07-18T03:42:56.448Z"
   },
   {
     "source": "github:verebelyin/skills",
@@ -10041,8 +10038,8 @@
   },
   {
     "source": "github:vitorpamplona/amethyst",
-    "rev": "f380d92498e8c0fa00fa979df4f1b30c93664365",
-    "hash": "1j55g5gn3x7hvvk8yiw7yf4xc4g15byx4v86fy286zbp5gr7mm59",
+    "rev": "4e53f26b38854c3e03044a6b7663cfaa3c629b4f",
+    "hash": "1v0hsjlm09b96qfpzdab90gpp7m8vl58w1n503h1jhx4d1kk4w9x",
     "skills": [
       ".",
       ".claude/skills/account-state",
@@ -10073,7 +10070,7 @@
       ".claude/skills/quartz-integration",
       ".claude/skills/relay-client"
     ],
-    "lastUpdated": "2026-07-17T19:42:42.677Z"
+    "lastUpdated": "2026-07-18T03:39:27.483Z"
   },
   {
     "source": "github:vivekgana/databricks-platform-marketplace",
@@ -10355,12 +10352,12 @@
   },
   {
     "source": "github:vladimir-kharin/1c-batch",
-    "rev": "9523e1c84a401a9f25de86d447e2a81d7dff4d29",
-    "hash": "1pbh8g5zq8lps9s7dzmn7cgpslzf3a2m4qlcxs8hkc3i5apr5xf2",
+    "rev": "d310f574a1a97a64270a24331c46a6a25125c9f9",
+    "hash": "085vng27f189vnsfk5jpshl9w3vm5knvy71k8rxzin4z9mr2z5gd",
     "skills": [
       "src/1c-batch"
     ],
-    "lastUpdated": "2026-06-05T14:53:48.126Z"
+    "lastUpdated": "2026-07-18T03:38:01.898Z"
   },
   {
     "source": "github:vladimirbrejcha/ios-ai-skills",
@@ -10511,13 +10508,13 @@
   },
   {
     "source": "github:vllm-project/vllm-ascend",
-    "rev": "695b97cbe151ab1a33c2c1b98c4e35acf0b8a295",
-    "hash": "051s4gj7kw0fpbf6wa7y58f2j292aqnmd4algb8k30vhq91sy1p9",
+    "rev": "4a34653f47c8d683aafd6951111a9bf98581603e",
+    "hash": "1fi9r337905v8bkscix7k3qfsnp4vck9lgavj4h18qv80y0cwqmn",
     "skills": [
       ".agents/skills/vllm-ascend-model-adapter",
       ".agents/skills/vllm-ascend-release"
     ],
-    "lastUpdated": "2026-07-17T14:11:30.323Z"
+    "lastUpdated": "2026-07-18T03:38:22.324Z"
   },
   {
     "source": "github:vllm-project/vllm-skills",
@@ -10603,8 +10600,8 @@
   },
   {
     "source": "github:vm0-ai/vm0",
-    "rev": "19fff6de49fa4ea2cbdc48d728a38e9e51a167a1",
-    "hash": "1damr5rwax2bg86gq96m77ifybw47cv3zv2ypmi9v6qqrchciljh",
+    "rev": "03fe9904445ac4897ddc3d827cd073fd8b5b8cbb",
+    "hash": "028h85hf3jij3zyi193vkg4dhyikdvx8zkcb12458a7sym82bjkv",
     "skills": [
       ".claude/skills/ccstate",
       ".claude/skills/cli-design",
@@ -10616,7 +10613,7 @@
       ".claude/skills/tech-debt",
       ".claude/skills/testing"
     ],
-    "lastUpdated": "2026-07-17T19:41:32.879Z"
+    "lastUpdated": "2026-07-18T03:38:48.678Z"
   },
   {
     "source": "github:vm0-ai/vm0-skills",
@@ -11609,8 +11606,8 @@
   },
   {
     "source": "github:vstorm-co/pydantic-deepagents",
-    "rev": "8b91848525f361b159fdd4c782c2f21a6f1b9871",
-    "hash": "0zj9qji6sk108ghr40w7dglq89cgvdydg6adrfvm01878xcmswcb",
+    "rev": "b10334f2b3eb001253c361fe4a1d3c3cc8e9327f",
+    "hash": "08vihh4hbk9740j93graj9hcx478igxmsxc1b87kfbcizkyhicfy",
     "skills": [
       "apps/deepresearch/skills/diagram-design",
       "apps/deepresearch/skills/report-writing",
@@ -11629,7 +11626,7 @@
       "pydantic_deep/bundled_skills/test-writer",
       "pydantic_deep/bundled_skills/verification-strategy"
     ],
-    "lastUpdated": "2026-07-03T19:56:41.569Z"
+    "lastUpdated": "2026-07-18T03:39:12.357Z"
   },
   {
     "source": "github:vszal/skills",
@@ -11912,12 +11909,12 @@
   },
   {
     "source": "github:vuetifyjs/0",
-    "rev": "b99ed48716e21931e3c15fcaf88679633d3cc8fd",
-    "hash": "1vsypkfkx01y0xzkynzbrsv260dw67gidks6q0l9bnkk3ipsn2dj",
+    "rev": "70011cdad25cbde38f3c1953ddc40246b192060a",
+    "hash": "1pinfg295376hj246m73p8w5in4g3w7lz1wfbdmqj9ak8sj05zsf",
     "skills": [
       "skills/vuetify0"
     ],
-    "lastUpdated": "2026-07-17T03:45:02.500Z"
+    "lastUpdated": "2026-07-18T03:39:18.293Z"
   },
   {
     "source": "github:vueuse/skills",
