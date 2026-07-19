@@ -5357,8 +5357,8 @@
   },
   {
     "source": "github:Tibsfox/gsd-skill-creator",
-    "rev": "0c86d45b2f993a6635e859a3e8f8f8ea889f8060",
-    "hash": "1wjyn37jwfb2rgy4x57d7vixw45acghmpvdsk4kx18dy5rlc8k2z",
+    "rev": "e179dfe911f3b3c2ff8bcd90ecd6ee4738648d17",
+    "hash": "059bm0c3abbg1iyrabkvnspk1afkrs8mx2i9syl7r08fr4gqcpbv",
     "skills": [
       "examples/skills/art/art-history-movements",
       "examples/skills/art/color-theory",
@@ -5681,6 +5681,7 @@
       "project-claude/skills/env-setup",
       "project-claude/skills/execution-grounded-selection",
       "project-claude/skills/file-operation-patterns",
+      "project-claude/skills/goal-ambiguity-gate",
       "project-claude/skills/gsd-guide",
       "project-claude/skills/gsd-preflight",
       "project-claude/skills/gsd-trace",
@@ -5689,12 +5690,17 @@
       "project-claude/skills/image-to-mission",
       "project-claude/skills/intelligence-investigator",
       "project-claude/skills/intent-router",
+      "project-claude/skills/memory-hubness-gate",
+      "project-claude/skills/memory-use-warrant",
+      "project-claude/skills/operational-anchor-preservation",
       "project-claude/skills/portable-schema-generator",
       "project-claude/skills/research-mission-generator",
       "project-claude/skills/security-hygiene",
+      "project-claude/skills/semantic-merge-adjudicator",
       "project-claude/skills/session-awareness",
       "project-claude/skills/session-observatory-live",
       "project-claude/skills/skill-counterfactual-audit",
+      "project-claude/skills/skill-coverage-gate",
       "project-claude/skills/skill-forge",
       "project-claude/skills/skill-frontmatter-doctor",
       "project-claude/skills/skill-integration",
@@ -5703,6 +5709,7 @@
       "project-claude/skills/team-control",
       "project-claude/skills/test-generator",
       "project-claude/skills/token-budget",
+      "project-claude/skills/trace-to-skill-inducer",
       "project-claude/skills/typescript-patterns",
       "project-claude/skills/vision-to-mission",
       "skills/bootstrap-guide",
@@ -5752,7 +5759,7 @@
       "src/sigreg",
       "src/spatial-awareness"
     ],
-    "lastUpdated": "2026-07-13T15:12:08.217Z"
+    "lastUpdated": "2026-07-19T22:09:55.496Z"
   },
   {
     "source": "github:TimJJTing/Claudesay",
@@ -7516,8 +7523,8 @@
   },
   {
     "source": "github:tanstack/router",
-    "rev": "49bd9fa4471ad5bbc6c2e629b29de66ae43d421a",
-    "hash": "00iqmp6hgjrxp2c63hlj74h7wgga51hn1gnngw9r3zyawkz7k8qi",
+    "rev": "edf55759d8e9e5e7954945fdda2ee81c48e8c713",
+    "hash": "0p5gwscg0w5nah8jyrnj2jb4xd9vwc66ydvz2rjl2l1i1p1bis3s",
     "skills": [
       "packages/react-router/skills/compositions/router-query",
       "packages/react-router/skills/lifecycle/migrate-from-react-router",
@@ -7551,7 +7558,7 @@
       "packages/vue-start/skills/vue-start",
       "skills/bundle-size-optimization"
     ],
-    "lastUpdated": "2026-07-19T16:17:58.383Z"
+    "lastUpdated": "2026-07-19T22:15:31.576Z"
   },
   {
     "source": "github:tantanok221/agentbudget",
@@ -16286,8 +16293,8 @@
   },
   {
     "source": "github:thebushidocollective/han",
-    "rev": "d22434c033e38a8ef50def1a10fb003509eb4889",
-    "hash": "00l144gfia15j6mg64vh3n8nyxhdssliavh02jgrl1s8k9mhnfs1",
+    "rev": "00ad890f395114dfb067b52d108f8e727636ba74",
+    "hash": "1d6k05wpdaip79kbi5igvrnr911chk4s2hprhqms11b44i5h3idz",
     "skills": [
       ".claude/skills/create-blog-post",
       ".claude/skills/create-do",
@@ -16697,7 +16704,7 @@
       "plugins/validation/shfmt/skills/shfmt-configuration",
       "plugins/validation/shfmt/skills/shfmt-formatting"
     ],
-    "lastUpdated": "2026-07-19T19:38:50.694Z"
+    "lastUpdated": "2026-07-19T22:17:05.682Z"
   },
   {
     "source": "github:thecarlo/carlo-marketplace",
@@ -18574,8 +18581,8 @@
   },
   {
     "source": "github:theopenco/llmgateway",
-    "rev": "3e5d9a9f86bacae756d1faa936176a54cce9f957",
-    "hash": "0cnpyndqkabxhz0l8qxlfkzi25j0akrmxskndsdfxn5jrffz8yji",
+    "rev": "a31f188787ce752e6d653271e5bc021d06968573",
+    "hash": "1bvr5y3ifi24s575l6zac5a7n9aycp1mkbv0na4s2z6k89j6p1ic",
     "skills": [
       ".agents/skills/blog",
       ".agents/skills/changelog",
@@ -18584,7 +18591,7 @@
       ".agents/skills/migrations",
       ".claude/skills/verify"
     ],
-    "lastUpdated": "2026-07-19T19:39:20.919Z"
+    "lastUpdated": "2026-07-19T22:17:38.166Z"
   },
   {
     "source": "github:theorcdev/8bitcn-ui",
@@ -20041,8 +20048,8 @@
   },
   {
     "source": "github:thkt/claude-config",
-    "rev": "220affeb0dee7004c96b3fd239bb6643ca36f01c",
-    "hash": "03983pdj2xplbxyvqlbsj9s3d5z9b30xzccqaxm9dzbwqnbv0y7a",
+    "rev": "935ae9dd895638b3a08d09b02e8522c01b1fb2e3",
+    "hash": "0ypbqzrr5nw8fkkdb9llw157ldpglfvbqk94acayspf15d751z2c",
     "skills": [
       "attic/skills/adrift",
       "attic/skills/assert",
@@ -20077,7 +20084,7 @@
       "skills/use-workflow-pageshot",
       "skills/use-workflow-tdd-cycle"
     ],
-    "lastUpdated": "2026-07-19T19:40:01.179Z"
+    "lastUpdated": "2026-07-19T22:15:40.154Z"
   },
   {
     "source": "github:thlandgraf/cc-marketplace",
@@ -20950,8 +20957,8 @@
   },
   {
     "source": "github:tibsfox/gsd-skill-creator",
-    "rev": "0c86d45b2f993a6635e859a3e8f8f8ea889f8060",
-    "hash": "1wjyn37jwfb2rgy4x57d7vixw45acghmpvdsk4kx18dy5rlc8k2z",
+    "rev": "e179dfe911f3b3c2ff8bcd90ecd6ee4738648d17",
+    "hash": "059bm0c3abbg1iyrabkvnspk1afkrs8mx2i9syl7r08fr4gqcpbv",
     "skills": [
       "examples/skills/art/art-history-movements",
       "examples/skills/art/color-theory",
@@ -21274,6 +21281,7 @@
       "project-claude/skills/env-setup",
       "project-claude/skills/execution-grounded-selection",
       "project-claude/skills/file-operation-patterns",
+      "project-claude/skills/goal-ambiguity-gate",
       "project-claude/skills/gsd-guide",
       "project-claude/skills/gsd-preflight",
       "project-claude/skills/gsd-trace",
@@ -21282,12 +21290,17 @@
       "project-claude/skills/image-to-mission",
       "project-claude/skills/intelligence-investigator",
       "project-claude/skills/intent-router",
+      "project-claude/skills/memory-hubness-gate",
+      "project-claude/skills/memory-use-warrant",
+      "project-claude/skills/operational-anchor-preservation",
       "project-claude/skills/portable-schema-generator",
       "project-claude/skills/research-mission-generator",
       "project-claude/skills/security-hygiene",
+      "project-claude/skills/semantic-merge-adjudicator",
       "project-claude/skills/session-awareness",
       "project-claude/skills/session-observatory-live",
       "project-claude/skills/skill-counterfactual-audit",
+      "project-claude/skills/skill-coverage-gate",
       "project-claude/skills/skill-forge",
       "project-claude/skills/skill-frontmatter-doctor",
       "project-claude/skills/skill-integration",
@@ -21296,6 +21309,7 @@
       "project-claude/skills/team-control",
       "project-claude/skills/test-generator",
       "project-claude/skills/token-budget",
+      "project-claude/skills/trace-to-skill-inducer",
       "project-claude/skills/typescript-patterns",
       "project-claude/skills/vision-to-mission",
       "skills/bootstrap-guide",
@@ -21345,7 +21359,7 @@
       "src/sigreg",
       "src/spatial-awareness"
     ],
-    "lastUpdated": "2026-07-13T15:20:12.379Z"
+    "lastUpdated": "2026-07-19T22:16:22.067Z"
   },
   {
     "source": "github:ticruz38/skills",
@@ -23531,8 +23545,8 @@
   },
   {
     "source": "github:tkersey/dotfiles",
-    "rev": "5581cbc948af79683c5cff9db2a447ecbc930d87",
-    "hash": "1vi853zmyd8fbsf4fvpy5xdbil4chhvgxsdasb7h7gkn4l91w77b",
+    "rev": "86b16cc6da5c7a7b218255b63099790e9eaaee0c",
+    "hash": "0gknm5kvk85zbvfbffg0zchl1ghmxykpi6j4mh451042ly718kjk",
     "skills": [
       "codex/skills/accts",
       "codex/skills/actuating",
@@ -23548,6 +23562,7 @@
       "codex/skills/deckset",
       "codex/skills/emulator",
       "codex/skills/evidence-fold",
+      "codex/skills/fm",
       "codex/skills/footgun-finder",
       "codex/skills/fresh-eyes",
       "codex/skills/ghost",
@@ -23587,7 +23602,7 @@
       "codex/skills/universalist",
       "codex/skills/zig"
     ],
-    "lastUpdated": "2026-07-18T19:39:12.107Z"
+    "lastUpdated": "2026-07-19T22:15:19.263Z"
   },
   {
     "source": "github:tkorays/zero-skills",
