@@ -588,8 +588,8 @@
   },
   {
     "source": "github:v1-io/v1tamins",
-    "rev": "acdbc82520a735224ab3eae2833778deb80d8f0a",
-    "hash": "0wbwbqngvq4hgg2wlzvn079g3isigas4phzslxjqym3p6xyrarcq",
+    "rev": "e299f671211e2ce6524892671c6f3a64de69e20d",
+    "hash": "1b32apmbclmgp4q47w4prpx6cbszkqmj3m9wdqcl7ljjbcmfrkyz",
     "skills": [
       "plugins/v1tamins/skills/v1-address-review",
       "plugins/v1tamins/skills/v1-autoresearch-skill",
@@ -600,13 +600,11 @@
       "plugins/v1tamins/skills/v1-deep-research",
       "plugins/v1tamins/skills/v1-deep-review",
       "plugins/v1tamins/skills/v1-designing-habit-systems",
-      "plugins/v1tamins/skills/v1-deslop",
       "plugins/v1tamins/skills/v1-diagnosing-constraints",
       "plugins/v1tamins/skills/v1-docs-freshness",
       "plugins/v1tamins/skills/v1-e2e-testing",
       "plugins/v1tamins/skills/v1-fix-tests",
       "plugins/v1tamins/skills/v1-goldpan",
-      "plugins/v1tamins/skills/v1-hindsight-refactor",
       "plugins/v1tamins/skills/v1-html-it",
       "plugins/v1tamins/skills/v1-interview-me",
       "plugins/v1tamins/skills/v1-land-pr",
@@ -620,18 +618,18 @@
       "plugins/v1tamins/skills/v1-prd",
       "plugins/v1tamins/skills/v1-prompt-engineering",
       "plugins/v1tamins/skills/v1-prove-work",
+      "plugins/v1tamins/skills/v1-refine",
       "plugins/v1tamins/skills/v1-review-board",
       "plugins/v1tamins/skills/v1-reviewing-data-graphics",
       "plugins/v1tamins/skills/v1-reviewing-usability",
       "plugins/v1tamins/skills/v1-shared-language",
-      "plugins/v1tamins/skills/v1-simplify",
       "plugins/v1tamins/skills/v1-skilling-it",
       "plugins/v1tamins/skills/v1-stickify",
       "plugins/v1tamins/skills/v1-strategy-review",
       "plugins/v1tamins/skills/v1-testing-prototypes",
       "plugins/v1tamins/skills/v1-write-tests"
     ],
-    "lastUpdated": "2026-07-15T03:41:16.300Z"
+    "lastUpdated": "2026-07-19T19:39:27.049Z"
   },
   {
     "source": "github:v112263/it-autonomos-spain",
@@ -4353,8 +4351,8 @@
   },
   {
     "source": "github:varun369/SuperLocalMemoryV2",
-    "rev": "28881f59c25949a0bf52d52fec620cf947a88f6a",
-    "hash": "0djz6ignfv2zrrn9h43q560zrw0sdigya8az9isz3gzxrrc5z5zy",
+    "rev": "88aefd60c633b3dfe10f57412432306ad9238d62",
+    "hash": "0wwj1ly15b1qj3l1s4h3pd5vczzvxrkq95632bxziiqx199sp7yv",
     "skills": [
       ".",
       "plugin-src/skills/slm-cache",
@@ -4365,7 +4363,7 @@
       "plugin-src/skills/slm-session",
       "plugin-src/skills/slm-status"
     ],
-    "lastUpdated": "2026-07-18T08:17:56.595Z"
+    "lastUpdated": "2026-07-19T19:39:56.268Z"
   },
   {
     "source": "github:varunpandey0502/markdown-projects",
@@ -5496,18 +5494,19 @@
   },
   {
     "source": "github:vercel-labs/agent-browser",
-    "rev": "6ede7a9470ac4b681cabf838af8668b9aa99e957",
-    "hash": "0hhignbwkyblaxsqsbiay345n2f28z0far90i2xxg84111rai1vp",
+    "rev": "81c336c1c20b80ac648e0416a7b6e0c0ae7878bb",
+    "hash": "1jl1kavn2nr9ak1syz1p6agairab7lmslfjw4idncnwmk1ma2602",
     "skills": [
       "skill-data/agentcore",
       "skill-data/core",
+      "skill-data/derive-client",
       "skill-data/dogfood",
       "skill-data/electron",
       "skill-data/slack",
       "skill-data/vercel-sandbox",
       "skills/agent-browser"
     ],
-    "lastUpdated": "2026-07-18T03:39:12.928Z"
+    "lastUpdated": "2026-07-19T19:40:08.685Z"
   },
   {
     "source": "github:vercel-labs/agent-eval",
@@ -8967,33 +8966,26 @@
   },
   {
     "source": "github:vindm/dotclaude",
-    "rev": "40fcb5c6dd72ab0a5d2300861d377aab294cb588",
-    "hash": "13c0k6v7ls28p292052yabgjlsg52k84r4jsvfi6zrlpzv8fvi1j",
+    "rev": "24b7a3b6bdb6429e32252b8faa828ed1d17b468a",
+    "hash": "1mnxn8sfmpl78y7c1hkfxj3d8fr6pgqwf41lg0jfr0dvlj1zwh7n",
     "skills": [
-      "skills/ai-workflow",
-      "skills/authoring-skills",
-      "skills/bootstrap",
-      "skills/coding",
-      "skills/data",
-      "skills/decomposition",
-      "skills/design",
-      "skills/element-reuse",
-      "skills/handoff",
-      "skills/init",
-      "skills/iterative-polish-autoloop",
-      "skills/journey-mapping",
-      "skills/knowledge-layers",
-      "skills/memory-system",
-      "skills/migration-create",
-      "skills/operating-discipline",
-      "skills/persona-testing",
-      "skills/plan-driven-work",
-      "skills/planning",
-      "skills/saturday-ritual",
-      "skills/testing",
-      "skills/worktree"
+      "deferred/skills/ai-workflow",
+      "deferred/skills/data",
+      "deferred/skills/migration-create",
+      "plugins/core/skills/bootstrap",
+      "plugins/core/skills/coding",
+      "plugins/core/skills/decomposition",
+      "plugins/core/skills/knowledge-layers",
+      "plugins/core/skills/operating-discipline",
+      "plugins/core/skills/testing",
+      "plugins/core/skills/worktree",
+      "plugins/design/skills/design",
+      "plugins/design/skills/element-reuse",
+      "plugins/design/skills/iterative-polish-autoloop",
+      "plugins/design/skills/journey-mapping",
+      "plugins/design/skills/persona-testing"
     ],
-    "lastUpdated": "2026-07-19T08:39:11.093Z"
+    "lastUpdated": "2026-07-19T19:38:56.969Z"
   },
   {
     "source": "github:vineethsoma/agent-packages",
@@ -9945,12 +9937,12 @@
   },
   {
     "source": "github:vitalics/playwright-labs",
-    "rev": "3293b0dddcc5d766d04c6b1331ce661e4fc5f216",
-    "hash": "04r964qc7g6872r52xim8w35qs02prj4airc0cxk72wxy1hfia8m",
+    "rev": "dce67a13f38ebea40cc83675799f4f5c08d9f909",
+    "hash": "1syd3f2jfa67js8szxpiqmf22vz8pk60z3q1hqvdy4q6sc09rs9m",
     "skills": [
       "packages/playwright-best-practices"
     ],
-    "lastUpdated": "2026-07-19T13:59:38.160Z"
+    "lastUpdated": "2026-07-19T19:38:55.415Z"
   },
   {
     "source": "github:vitalii4reva/ukrainianizer",
@@ -10039,8 +10031,8 @@
   },
   {
     "source": "github:vitorpamplona/amethyst",
-    "rev": "768e19ff9be50d1f3bec90ae33440bea9d9637df",
-    "hash": "1v7q3l4q526k46nbr26xcx1s5l1k0fwbr5f9dym89wmnxczwfgdx",
+    "rev": "ee3b8786d473755eb14fd6a69bfb09c42598b497",
+    "hash": "0xk7iss95y11s6l52y1j2wkccd5dmxyc34bk0vh9ppaadinr7brw",
     "skills": [
       ".",
       ".claude/skills/account-state",
@@ -10071,7 +10063,7 @@
       ".claude/skills/quartz-integration",
       ".claude/skills/relay-client"
     ],
-    "lastUpdated": "2026-07-19T16:17:57.044Z"
+    "lastUpdated": "2026-07-19T19:39:29.789Z"
   },
   {
     "source": "github:vivekgana/databricks-platform-marketplace",
@@ -10601,8 +10593,8 @@
   },
   {
     "source": "github:vm0-ai/vm0",
-    "rev": "1a9a8dc2224d8a794d3471b1d7584894e404a170",
-    "hash": "1748fr9pppabaw052vj8cqx3j013ry4f9lpgi2wx32ik93w0mhgp",
+    "rev": "6c88936f3a4047dbb33c722b214263e4b8b034b9",
+    "hash": "0aczrvn2isfxbn0j0ci6ac4x86kk6mwf3crsrgj10zzm7n1f7ryg",
     "skills": [
       ".claude/skills/ccstate",
       ".claude/skills/cli-design",
@@ -10614,7 +10606,7 @@
       ".claude/skills/tech-debt",
       ".claude/skills/testing"
     ],
-    "lastUpdated": "2026-07-19T16:18:55.459Z"
+    "lastUpdated": "2026-07-19T19:40:25.450Z"
   },
   {
     "source": "github:vm0-ai/vm0-skills",
@@ -11909,12 +11901,12 @@
   },
   {
     "source": "github:vuetifyjs/0",
-    "rev": "70011cdad25cbde38f3c1953ddc40246b192060a",
-    "hash": "1pinfg295376hj246m73p8w5in4g3w7lz1wfbdmqj9ak8sj05zsf",
+    "rev": "f7940e89fe4e4efe9ff437607c512d21aa7e4442",
+    "hash": "1spqfcdlygal3id5hbwqrgrgrgr01m8vcfn9mhw0s6lc7z1cdh99",
     "skills": [
       "skills/vuetify0"
     ],
-    "lastUpdated": "2026-07-18T03:39:18.293Z"
+    "lastUpdated": "2026-07-19T19:38:36.026Z"
   },
   {
     "source": "github:vueuse/skills",
