@@ -7535,8 +7535,8 @@
   },
   {
     "source": "github:langchain-ai/deepagents",
-    "rev": "22969c05389effb6aa73ddc0e67b422869946e98",
-    "hash": "07iyl7dab7p37qlz8k95m01jvpyz4my6g57qwgys7rjkpnknskws",
+    "rev": "c224a238e69de7b7c6e43713170987e46e1776e7",
+    "hash": "0gmaj61shmvb87q47gyp5lgj6zlb969290nvd1a4ifz3np0jd0ps",
     "skills": [
       "examples/content-builder-agent/skills/blog-post",
       "examples/content-builder-agent/skills/social-media",
@@ -7559,7 +7559,7 @@
       "libs/cli/tests/unit_tests/deploy/fixtures/projects/with_skills/skills/summarize",
       "libs/code/deepagents_code/built_in_skills/remember"
     ],
-    "lastUpdated": "2026-07-20T20:01:30.943Z"
+    "lastUpdated": "2026-07-20T22:17:29.022Z"
   },
   {
     "source": "github:langchain-ai/deepagentsjs",
@@ -7766,22 +7766,23 @@
   },
   {
     "source": "github:langwatch/langwatch",
-    "rev": "c62713f1b842a1dd56dec7313856577f340ef57a",
-    "hash": "0asi19cx7b3z1vwmsqqprykh0rwmjbc03iz2ig7mcsjfr8m4br9c",
+    "rev": "65cbeb2bd073ec0ca197bb899d931989e73fa15d",
+    "hash": "1bx1m358r94q9x2d3p094v5bm76dgfrmr6w2h01sr499xj0a9dsn",
     "skills": [
       ".claude/skills/browser-pair",
       ".claude/skills/browser-test",
       ".claude/skills/code-review",
       ".claude/skills/feature-map",
       ".claude/skills/langwatch-kanban",
-      "skills/_compiled/native/analytics",
+      "skills/_compiled/native/agent-best-practices",
+      "skills/_compiled/native/agent-improve",
+      "skills/_compiled/native/agent-performance",
       "skills/_compiled/native/datasets",
       "skills/_compiled/native/debug-instrumentation",
       "skills/_compiled/native/evaluate-multimodal",
       "skills/_compiled/native/evaluations",
       "skills/_compiled/native/generate-rag-dataset",
       "skills/_compiled/native/github",
-      "skills/_compiled/native/improve-setup",
       "skills/_compiled/native/level-up",
       "skills/_compiled/native/prompts",
       "skills/_compiled/native/scenarios",
@@ -7789,28 +7790,29 @@
       "skills/_compiled/native/test-compliance",
       "skills/_compiled/native/tracing"
     ],
-    "lastUpdated": "2026-07-20T20:03:09.601Z"
+    "lastUpdated": "2026-07-20T22:18:49.860Z"
   },
   {
     "source": "github:langwatch/skills",
-    "rev": "8b9c091d7d58470a62794e0d2da40c1786e5f4ec",
-    "hash": "14xcfx9k038i3grzzx36zd2nryvrc00m8l90w5dp9zd29hjbnilh",
+    "rev": "61bf5ee4917bd377e3760abc2bf4815f0ee0aa72",
+    "hash": "1yrm2fiz0mcza7jv8sp8jayxddwbdviiayqq03mzky6j1awppsxy",
     "skills": [
-      "analytics",
+      "agent-improve",
+      "agent-performance",
       "datasets",
       "evaluations",
       "level-up",
       "prompts",
+      "recipes/agent-best-practices",
       "recipes/debug-instrumentation",
       "recipes/evaluate-multimodal",
       "recipes/generate-rag-dataset",
-      "recipes/improve-setup",
       "recipes/test-cli-usability",
       "recipes/test-compliance",
       "scenarios",
       "tracing"
     ],
-    "lastUpdated": "2026-07-17T14:09:33.722Z"
+    "lastUpdated": "2026-07-20T22:18:29.458Z"
   },
   {
     "source": "github:lanliwz/neo4j-onto2ai-toolset",
@@ -9922,13 +9924,13 @@
   },
   {
     "source": "github:learnprompt/ai-news-radar",
-    "rev": "b0d5f56ed0c20c9e6fbe838a5872e1ed787fad49",
-    "hash": "0y3kbq4cklkkh59411845ck3r9n2dc66hmd0xy8bln1hyr6rwznw",
+    "rev": "39aa8acf409a70f07691dcd738df17f8a0e3391f",
+    "hash": "0x61sxig44w61gmjmfa5bfk02nnwlmlwfhblwzgza7i73z187i9a",
     "skills": [
       "skills/ai-news-radar",
       "skills/radar"
     ],
-    "lastUpdated": "2026-07-20T19:59:35.949Z"
+    "lastUpdated": "2026-07-20T22:17:06.910Z"
   },
   {
     "source": "github:learnprompt/cc-harness-skills",
@@ -10683,8 +10685,8 @@
   },
   {
     "source": "github:leeovery/claude-technical-workflows",
-    "rev": "8bfd6351eac35341aa447e6df00b5565bcd122f1",
-    "hash": "03jimxcbabb7gbqjrnza7cnywv8302ildidsvqhfv1iv5sjjqns1",
+    "rev": "f89bc25157483420ba2b01e371eeb3f3a7972f40",
+    "hash": "18fscl58xhyxci24mijqllha97lx9w8y7iibxch0g8sf4v1cbymf",
     "skills": [
       ".claude/skills/create-output-format",
       "skills/workflow-bridge",
@@ -10719,7 +10721,7 @@
       "skills/workflow-specification-process",
       "skills/workflow-start"
     ],
-    "lastUpdated": "2026-07-20T20:00:00.080Z"
+    "lastUpdated": "2026-07-20T22:16:20.577Z"
   },
   {
     "source": "github:leesama/skills",
@@ -15431,8 +15433,8 @@
   },
   {
     "source": "github:letta-ai/letta-code",
-    "rev": "5c236cb3cd7e5ee34bcba2a8eea1ec5033bbad22",
-    "hash": "0vis3r6b59a7c4wmsqai075grl3xw12r3r4bg6pvq9vg8icawfah",
+    "rev": "99bc341bf973aa3b158cf9adb78a73d3c3c7e7e6",
+    "hash": "1j6l4i9fd0ckbpmfv3b34y34k8z5418n00m9naf2skspxhvdfr18",
     "skills": [
       ".skills/adding-models",
       "src/skills/builtin/acquiring-skills",
@@ -15454,7 +15456,7 @@
       "src/skills/builtin/self-configuration",
       "src/skills/builtin/syncing-memory-filesystem"
     ],
-    "lastUpdated": "2026-07-20T19:59:38.545Z"
+    "lastUpdated": "2026-07-20T22:17:20.184Z"
   },
   {
     "source": "github:letta-ai/letta-code-action",
@@ -22572,8 +22574,8 @@
   },
   {
     "source": "github:lightdash/lightdash",
-    "rev": "0922778fce6331bce287beaba32d767fdc096d6c",
-    "hash": "1l3r0k43g8h81csylnnn9674nqj541xivyjj1ch8zfg461v5p0rj",
+    "rev": "869130d2fbcced2eefadd7d91a5abc3fc9501d1f",
+    "hash": "0zznl72bzg926ij27igdwbap6kcp4dbwai7l53v48r5nk3zavxs7",
     "skills": [
       ".claude/skills/add-onboarding-tour",
       ".claude/skills/add-warehouse-adapter",
@@ -22594,7 +22596,7 @@
       "skills/developing-in-lightdash",
       "skills/effective-dbt-sql"
     ],
-    "lastUpdated": "2026-07-20T20:02:46.441Z"
+    "lastUpdated": "2026-07-20T22:18:39.094Z"
   },
   {
     "source": "github:lightfastai/lightfast",
@@ -22740,13 +22742,13 @@
   },
   {
     "source": "github:lightsparkdev/grid-api",
-    "rev": "9557e194fdf6916d8b003683d8e8b6219d843424",
-    "hash": "07363yiaaxwg49jgl0w2javy1adp4gy6njgshjgwkk5v7fi39sg0",
+    "rev": "21e79e48544cb587a7526785d0db58c9cbc72693",
+    "hash": "0j9sbaxbwq7rz7pryzbsydbc1dpbjfrkrlgbb96bd7jlsn76gq2v",
     "skills": [
       ".claude/skills/grid-api",
       ".claude/skills/liquid-glass"
     ],
-    "lastUpdated": "2026-07-20T20:02:01.019Z"
+    "lastUpdated": "2026-07-20T22:17:57.294Z"
   },
   {
     "source": "github:lightward/mechanic-skills",
@@ -24067,8 +24069,8 @@
   },
   {
     "source": "github:lilmgenius/paperthin",
-    "rev": "85e5bf7c92c34f4d53f08730c9e5527d10d217cb",
-    "hash": "0lqgj53b6ka7aq4mwqy9kh4zkscyrwm0a43qppkn35q4mindgrxz",
+    "rev": "07c1a4d79d3312cb73c185eb3d00a16e2dcafbb1",
+    "hash": "0z9ifkmki6xz68qbmvjkxhxvjd2xb6xfcyrrcim0c9qbr1saka46",
     "skills": [
       "skills/breadth/re0-upgrade",
       "skills/breadth/ssotize",
@@ -24098,7 +24100,7 @@
       "skills/depth/sip",
       "skills/mesh/prism"
     ],
-    "lastUpdated": "2026-07-19T13:56:48.058Z"
+    "lastUpdated": "2026-07-20T22:18:34.906Z"
   },
   {
     "source": "github:lilong7676/codex-pool",
@@ -44628,8 +44630,8 @@
   },
   {
     "source": "github:llblab/skills",
-    "rev": "deede179eebd1bb3ec55c46bcd0a537e8e3a82a4",
-    "hash": "1vxf7hvw43whb3jw72zwxzcp9waclyac5hik61p5azx4yisxdx9m",
+    "rev": "3b3842d2b3825a51ef0f627e049e11bd081d74c7",
+    "hash": "1gxmh3iv8vb1k7436r0z44jdv71z0bw4vbbxy1jlrycdf46f4smq",
     "skills": [
       "abcd-context",
       "bits-ui",
@@ -44645,7 +44647,7 @@
       "re-review",
       "release-flow"
     ],
-    "lastUpdated": "2026-07-19T16:15:42.623Z"
+    "lastUpdated": "2026-07-20T22:18:02.152Z"
   },
   {
     "source": "github:llj0824/leoj-agent-skills",
@@ -45981,8 +45983,8 @@
   },
   {
     "source": "github:lordprkr/leonard-lessons",
-    "rev": "541d163da522e426537650b208eb7cfd76a7ef58",
-    "hash": "1l4z5vkxvv6f7cbzx3j18qzssbw7p50f0q4ma5i9jcrrfvflga2n",
+    "rev": "c61964b3bc6b73bcdef5e3d318c61ca6d4b25791",
+    "hash": "1lzp7caf2psigjhcfajlik32yr5sjv9yiydihc8jz11ckf0wr3jj",
     "skills": [
       "agents-md",
       "code-brain",
@@ -46001,7 +46003,7 @@
       "spellbinding-sentences",
       "tracer-bullet"
     ],
-    "lastUpdated": "2026-07-20T04:08:19.700Z"
+    "lastUpdated": "2026-07-20T22:17:42.287Z"
   },
   {
     "source": "github:lordprotein/lp-smart-code-core-review",
@@ -49061,8 +49063,8 @@
   },
   {
     "source": "github:lukevella/rallly",
-    "rev": "73747523ab2f064a88bbcd378ffa84dbd111ddb3",
-    "hash": "0xj6lnh053fw0hv2jhjmcpj381scl2m4q8h71yzm0jrgx6y379ba",
+    "rev": "cdf7c88b618b93883beb26a07999d6e68f63c6cd",
+    "hash": "1cji91jnf22lnnnxvy2sdqi4jk9yxmnb5wxih4gz1wcgx0ahiafn",
     "skills": [
       ".agents/skills/better-auth-best-practices",
       ".agents/skills/create-auth-skill",
@@ -49077,7 +49079,7 @@
       ".agents/skills/prisma-upgrade-v7",
       ".agents/skills/two-factor-authentication-best-practices"
     ],
-    "lastUpdated": "2026-07-20T20:00:43.224Z"
+    "lastUpdated": "2026-07-20T22:17:57.891Z"
   },
   {
     "source": "github:lukinov/ai-form-builder",
@@ -49655,8 +49657,8 @@
   },
   {
     "source": "github:lvlup-sw/exarchos",
-    "rev": "c78450c797a6b1bb0fe3f13b7ad778230fc1b29f",
-    "hash": "0rbimkhx3pw7cdwk3jpr1zj1avqvrxksy1wradcaxs60idl1nvk7",
+    "rev": "bfd6ef965168246017597b82c662df6f1cc6d9a0",
+    "hash": "1fyd862jj9b0q8xn9sdphwq5bqjq8a3r9in0ai0czggiccji3rzw",
     "skills": [
       "skills/claude/delegate",
       "skills/claude/ideate",
@@ -49688,7 +49690,7 @@
       "skills/test-fixtures/valid-skill",
       "skills/test-fixtures/xml-tags"
     ],
-    "lastUpdated": "2026-07-19T03:59:02.996Z"
+    "lastUpdated": "2026-07-20T22:17:29.289Z"
   },
   {
     "source": "github:lvncer/ai-configs",
