@@ -7974,8 +7974,8 @@
   },
   {
     "source": "github:ed1s0nz/cyberstrikeai",
-    "rev": "af4b25b84e9ecad0575f140dff48b4fbcc801e4b",
-    "hash": "0rccdk3kjnbsg5srl4fs46pknbqrzgwnm3kg9kcf10yr10ky01dx",
+    "rev": "151b445c74e1490975657724bdef404bff6aa4bf",
+    "hash": "00553ybrdkwkk6azp2zda13jpxiyk6s6mgvxla8dpdz3fj4gl665",
     "skills": [
       "mcp-servers/pent_claude_agent/.claude/skills/find-skills",
       "skills/active-directory-attack",
@@ -8002,7 +8002,7 @@
       "skills/wireless-hardware-attack",
       "skills/zero-day-discovery"
     ],
-    "lastUpdated": "2026-07-23T14:33:41.447Z"
+    "lastUpdated": "2026-07-24T03:45:41.095Z"
   },
   {
     "source": "github:ed3dai/ed3d-plugins",
@@ -8488,8 +8488,8 @@
   },
   {
     "source": "github:edmundmiller/dotfiles",
-    "rev": "b46e86a03ae3b6e71cf1bd1d6514dd2abf6eef28",
-    "hash": "1pshis923mk72q4a68dhymv8lf729jkfzbycyjs8l6yql0327vqd",
+    "rev": "cbf7bdc7a6b4b433f7f1462949e010af3d18ef56",
+    "hash": "0qvpj1nqirg575y95xnv4x46lfm8s3h21anciv712m4x7wr52y0q",
     "skills": [
       ".agents/skills/agent-ci",
       ".agents/skills/dotfiles-agent-workflow",
@@ -8554,7 +8554,7 @@
       "skills/conditional/herdr/herdr",
       "skills/conditional/hunk/hunk-review"
     ],
-    "lastUpdated": "2026-07-23T19:47:11.825Z"
+    "lastUpdated": "2026-07-24T03:45:39.771Z"
   },
   {
     "source": "github:edmundmiller/opencode-canvas",
@@ -9399,8 +9399,8 @@
   },
   {
     "source": "github:eho/agent-skills",
-    "rev": "2961ec1b753f4628eab7f3eca5778ec92f8ef77a",
-    "hash": "1l7xfxlvchz5s1yai0mmgf10ps9i7i3ka1zr5vbr6n1k5cfqrh7l",
+    "rev": "31dbd60881dc7e92386300f14b56f488ce54571e",
+    "hash": "0ccrv0hjdrr574z0dzdyc1gkvz48g3672i44x9wn8z16izc6135m",
     "skills": [
       ".agents/skills/skill-creator",
       "skill/post-release-versioning",
@@ -9421,11 +9421,12 @@
       "skills/project-bootstrap",
       "skills/public-repo-explorer",
       "skills/skill-curator",
+      "skills/user-story-acceptance-manifest",
       "skills/user-story-delivery",
       "skills/user-story-implementer",
       "skills/user-story-reviewer"
     ],
-    "lastUpdated": "2026-07-16T08:36:50.312Z"
+    "lastUpdated": "2026-07-24T03:45:50.006Z"
   },
   {
     "source": "github:ehtbanton/claudeskillsrepo",
@@ -9576,15 +9577,12 @@
   },
   {
     "source": "github:ekkolyth/miso",
-    "rev": "19df7cd1ff1cf7b465b6f3f74142a8db1662be00",
-    "hash": "0mgbwvm54s5pg303scm8r7f1sv5cw22vr75f549g5c0f8q7f8qsd",
+    "rev": "4471fc4d7754bac9ebaad235dfd76e68419e3f46",
+    "hash": "1hg2sigi6cbxy70bwawc6yzgmm3q76xh17l98sryyh1dvnxqpahp",
     "skills": [
-      "packages/skills/miso-config",
-      "packages/skills/miso-env",
-      "packages/skills/miso-scripting",
-      "packages/skills/miso-tui"
+      "packages/skills/miso"
     ],
-    "lastUpdated": "2026-06-20T07:41:36.083Z"
+    "lastUpdated": "2026-07-24T03:45:52.996Z"
   },
   {
     "source": "github:ekroon/agent-skills",
@@ -9886,15 +9884,15 @@
   },
   {
     "source": "github:electron/electron",
-    "rev": "8f6416385b6fe9f12ded0b3e4acf352f193cb248",
-    "hash": "1jxr25nkhg8pibf0d8ar3jjwvlllji2gq9j3kqaz7a8ix614bh0n",
+    "rev": "6f286c36f1b30a5bda4cacb095d453d0865213e2",
+    "hash": "0xrqfmhf68xzadfyl8p295z6ik82bvbsz8106w5gm9wzjfk55d21",
     "skills": [
       ".claude/skills/chrome-release-cls",
       ".claude/skills/chrome-release-verify",
       ".claude/skills/electron-chromium-upgrade",
       ".claude/skills/electron-node-upgrade"
     ],
-    "lastUpdated": "2026-07-23T19:46:49.564Z"
+    "lastUpdated": "2026-07-24T03:45:16.405Z"
   },
   {
     "source": "github:element-ai-vue/skills",
@@ -10283,9 +10281,15 @@
   },
   {
     "source": "github:eliasstravik/skills",
-    "rev": "8f5e3a94109a8958037c6b5ac209355530e70f18",
-    "hash": "0xr2gh19ir24bs7c40qgwy4z87p744rkg22s5hmravyp03jsd4rp",
+    "rev": "73c82f01e8c4a1410cfe9dc60556e6faf9a76cbd",
+    "hash": "0px0zdpkh69xsnnc61kxc5b662g1diwip7ml5qs3zbcfh4hqvp7c",
     "skills": [
+      "evals/demo/fixtures/agent-skill/queue-triage",
+      "evals/skill-issue/fixtures/bloated-audit/skills/deploy-note",
+      "evals/skill-issue/fixtures/overflow-frontmatter/skills/source-research",
+      "evals/skill-issue/fixtures/router-boundary/skills/account-support",
+      "evals/skill-issue/fixtures/router-boundary/skills/billing-support",
+      "evals/skill-issue/fixtures/router-boundary/skills/technical-support",
       "skills/autoconsultant",
       "skills/automake",
       "skills/consultant",
@@ -10294,7 +10298,7 @@
       "skills/skill-issue",
       "skills/voice-mode"
     ],
-    "lastUpdated": "2026-07-22T19:48:19.336Z"
+    "lastUpdated": "2026-07-24T03:45:23.600Z"
   },
   {
     "source": "github:elie222/inbox-zero",
@@ -10510,8 +10514,8 @@
   },
   {
     "source": "github:elizaOS/eliza",
-    "rev": "a3b14c9433eb4d542b5a9343240ae09f339e6884",
-    "hash": "10ds4y5vi8406r209fzibjd2bfhngp009agdn91cm8m7fc7a30y0",
+    "rev": "f4ba0026d42dd3b048328c8943003b5469ec026b",
+    "hash": "0zl2v3v9n74cq0wqmlcy4f505x8jvcjaqjl1gr6xjfc1jxj8amx3",
     "skills": [
       "packages/feed/skills/feed",
       "packages/skills/skills/1password",
@@ -10549,12 +10553,12 @@
       "packages/skills/skills/weather",
       "packages/skills/skills/yara-authoring"
     ],
-    "lastUpdated": "2026-07-23T19:48:50.840Z"
+    "lastUpdated": "2026-07-24T03:47:03.608Z"
   },
   {
     "source": "github:elizaos/eliza",
-    "rev": "a3b14c9433eb4d542b5a9343240ae09f339e6884",
-    "hash": "10ds4y5vi8406r209fzibjd2bfhngp009agdn91cm8m7fc7a30y0",
+    "rev": "f4ba0026d42dd3b048328c8943003b5469ec026b",
+    "hash": "0zl2v3v9n74cq0wqmlcy4f505x8jvcjaqjl1gr6xjfc1jxj8amx3",
     "skills": [
       "packages/feed/skills/feed",
       "packages/skills/skills/1password",
@@ -10592,7 +10596,7 @@
       "packages/skills/skills/weather",
       "packages/skills/skills/yara-authoring"
     ],
-    "lastUpdated": "2026-07-23T19:49:04.964Z"
+    "lastUpdated": "2026-07-24T03:47:14.190Z"
   },
   {
     "source": "github:eljun/claude-skills",
@@ -16680,23 +16684,25 @@
   },
   {
     "source": "github:every-app/open-seo",
-    "rev": "a4ede67ebbaa8dfa971fd2db88e7071d1724c1a5",
-    "hash": "1kvba737cniyvyxazm1gcclls8cngr75yarb8z2ha6l2bxc5ibnd",
+    "rev": "f56972639f14e7e766498a8a2f6441913eb83c0c",
+    "hash": "0kzpgjm9jlbq4gqrr06zdwps503bjn39zx57f951ql9691hqvccv",
     "skills": [
       ".agents/skills/competitive-landscape",
       ".agents/skills/competitor-analysis",
+      ".agents/skills/deslop",
       ".agents/skills/keyword-clustering",
       ".agents/skills/keyword-research",
       ".agents/skills/link-prospecting",
       ".agents/skills/maintain-greptile-rules",
       ".agents/skills/merge-ready",
       ".agents/skills/openseo-release-notes",
+      ".agents/skills/openseo-review-web-content",
       ".agents/skills/papercuts",
       ".agents/skills/seo-coach",
       ".agents/skills/seo-project-setup",
       ".agents/skills/webapp-testing"
     ],
-    "lastUpdated": "2026-07-23T19:48:04.163Z"
+    "lastUpdated": "2026-07-24T03:45:09.028Z"
   },
   {
     "source": "github:everyinc/charlie-cfo-skill",
@@ -16709,8 +16715,8 @@
   },
   {
     "source": "github:everyinc/compound-engineering-plugin",
-    "rev": "3422ea0916bbbed02b0e6ccbdde6651203a67f2b",
-    "hash": "1jl9iljxqlrkw56zn3mbflf9farslaa5l9c2h5q6snbx8pai69pw",
+    "rev": "e6629187a1d0ff6118bc9b0a57d8ddd1d857ad5f",
+    "hash": "1nb24cb6mjwii58148pb0vzj7hw62vla89y1npmpnbz6da0rmf60",
     "skills": [
       "skills/ce-babysit-pr",
       "skills/ce-brainstorm",
@@ -16750,12 +16756,12 @@
       "tests/fixtures/sample-plugin/skills/disabled-skill",
       "tests/fixtures/sample-plugin/skills/skill-one"
     ],
-    "lastUpdated": "2026-07-23T08:46:56.716Z"
+    "lastUpdated": "2026-07-24T03:45:11.564Z"
   },
   {
     "source": "github:everyinc/every-marketplace",
-    "rev": "3422ea0916bbbed02b0e6ccbdde6651203a67f2b",
-    "hash": "1jl9iljxqlrkw56zn3mbflf9farslaa5l9c2h5q6snbx8pai69pw",
+    "rev": "e6629187a1d0ff6118bc9b0a57d8ddd1d857ad5f",
+    "hash": "1nb24cb6mjwii58148pb0vzj7hw62vla89y1npmpnbz6da0rmf60",
     "skills": [
       "skills/ce-babysit-pr",
       "skills/ce-brainstorm",
@@ -16795,7 +16801,7 @@
       "tests/fixtures/sample-plugin/skills/disabled-skill",
       "tests/fixtures/sample-plugin/skills/skill-one"
     ],
-    "lastUpdated": "2026-07-23T08:46:56.688Z"
+    "lastUpdated": "2026-07-24T03:45:13.823Z"
   },
   {
     "source": "github:everyinc/everyskill",
@@ -17479,8 +17485,8 @@
   },
   {
     "source": "github:exa-labs/agent-skills",
-    "rev": "03f6e217f0db596661922b444455c807f9678df4",
-    "hash": "15x4b74glq6zjbw4jn6mxpln2xny43gwgdsg14fw6hnj7ln31gkx",
+    "rev": "715f59a9cf5c85a3afff2d216db17949d1028483",
+    "hash": "16ik0azphi5zh31n45ykdrhmgv3rvqgclpd2dn9wwsxj96jnlx3c",
     "skills": [
       "skills/build-with-exa",
       "skills/company-research",
@@ -17488,7 +17494,7 @@
       "skills/exa-search",
       "skills/lead-generation"
     ],
-    "lastUpdated": "2026-07-20T19:58:38.548Z"
+    "lastUpdated": "2026-07-24T03:45:20.881Z"
   },
   {
     "source": "github:exa-labs/exa-mcp-server",
@@ -17702,8 +17708,8 @@
   },
   {
     "source": "github:exceptionless/exceptionless",
-    "rev": "16615dcb06287132bb2d0bc5114bed5ade54e98b",
-    "hash": "0106iaj80xix7ra3fi8rgmkzxdv4ydx02i9m4ppyy18dl87ivcha",
+    "rev": "4b79306d05290d252f25e6b65cefd801cdcc55b2",
+    "hash": "16vh3x73gn421x2al1y8h4dsjh5a75zmvzdg7wbwfljnq1g1pgnk",
     "skills": [
       ".agents/skills/aspire-diagnostics",
       ".agents/skills/backend-architecture",
@@ -17728,7 +17734,7 @@
       "src/Exceptionless.Web/ClientApp/.agents/skills/stripe-best-practices",
       "src/Exceptionless.Web/ClientApp/.agents/skills/upgrade-stripe"
     ],
-    "lastUpdated": "2026-07-23T08:47:35.610Z"
+    "lastUpdated": "2026-07-24T03:46:03.454Z"
   },
   {
     "source": "github:existential-birds/beagle",
@@ -17889,8 +17895,8 @@
   },
   {
     "source": "github:expensify/app",
-    "rev": "9558f25b629eb400da70c60aa864a2c9ce1a67bb",
-    "hash": "12qs6jfrfr1fk3ff86q4lh4x5saa0hbglxhaf8dycmwnwq5sd9ax",
+    "rev": "4a7abbfa4131c7bc782a258c74badf3f7997b522",
+    "hash": "074nwcfd9p06nxxs7z8nqx7685ps6vc1aaafxx50w6i7b2bxx1nl",
     "skills": [
       ".claude/skills/agent-device",
       ".claude/skills/agent-device-evidence",
@@ -17900,7 +17906,7 @@
       ".claude/skills/playwright-app-testing",
       ".claude/skills/sentry"
     ],
-    "lastUpdated": "2026-07-23T19:50:40.593Z"
+    "lastUpdated": "2026-07-24T03:48:50.263Z"
   },
   {
     "source": "github:exploration-labs/nates-substack-skills",
@@ -17967,19 +17973,19 @@
   },
   {
     "source": "github:expo/expo",
-    "rev": "6a8ae4893773048b7e46bb506042997c6d683e2f",
-    "hash": "1ams72mqgj33263rrfhjagkl9gfyd5f61k1rxgw3xfhqp7ld6jmx",
+    "rev": "4a95b280056ff78ad7e2fc2b924ee29c64ccbb91",
+    "hash": "14sbydq063pahxxhjbz3wz5gwksc1zjqwv5mdvcx02d2ld6pms3i",
     "skills": [
       ".claude/skills/deep-code-review",
       ".claude/skills/expo-api-docs",
       "packages/expo-router/.claude/skills/android-e2e-testing"
     ],
-    "lastUpdated": "2026-07-23T19:50:58.053Z"
+    "lastUpdated": "2026-07-24T03:49:21.905Z"
   },
   {
     "source": "github:expo/skills",
-    "rev": "cb916609b51a71f73c8230571530ea0e673d1d7a",
-    "hash": "0lk2fd6rh6jknfhmcqzsdra6j6m8n6fhjjnmkkb4si73rllck2vd",
+    "rev": "09eb052410e7f609624cb161ea4cd9576c69cd5d",
+    "hash": "0w0gi4h0s084246n3fn6ahznxzqfavif1axrb4wi055svjqfbpri",
     "skills": [
       ".claude/skills/expo-skill-eval",
       "plugins/expo-experiments/skills/expo-migrate-module",
@@ -18005,7 +18011,7 @@
       "plugins/expo/skills/expo-upgrade",
       "plugins/expo/skills/expo-web-to-native"
     ],
-    "lastUpdated": "2026-07-23T08:48:53.625Z"
+    "lastUpdated": "2026-07-24T03:48:51.478Z"
   },
   {
     "source": "github:expremiental/task-skills",

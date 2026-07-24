@@ -26,14 +26,14 @@
   },
   {
     "source": "github:NVIDIA-AI-IOT/jetson-ai-lab",
-    "rev": "bbf91893c624a2f6c727a6f91154a47c15dba3d7",
-    "hash": "15rcsfkxilfnkacbfqwdw50ciz9kh405540f3abn9zp59nzn3fhv",
+    "rev": "f2020bdd69a910b38f59bd1c8a51e0beee97e2c6",
+    "hash": "07hxha5si4gq4ga7zygdvrkgphlywy9wa4kjvsqgdd7xp6qia33z",
     "skills": [
       ".agents/skills/jetson-ai-lab-code-samples",
       ".agents/skills/jetson-ai-lab-verify-build",
       ".agents/skills/jetson-model-catalog-inference"
     ],
-    "lastUpdated": "2026-07-21T03:45:25.862Z"
+    "lastUpdated": "2026-07-24T03:44:35.016Z"
   },
   {
     "source": "github:NVIDIA-NeMo/Nemotron",
@@ -56,8 +56,8 @@
   },
   {
     "source": "github:NVIDIA/Megatron-LM",
-    "rev": "15d4b349def61d350c15998ced373404b1abfa58",
-    "hash": "00z9h6yfvrb4pb1vdah8m1c7lnl116i16hxdf5392ngdyymya026",
+    "rev": "ff603601630797924ae174a7057cf1e57405ed2a",
+    "hash": "055rs6l8bag1l6f1wldyp9q4mp2gxqidpqf8fix0bxzgky9cr7ml",
     "skills": [
       "skills/mcore-build-and-dependency",
       "skills/mcore-bump-base-image",
@@ -73,7 +73,7 @@
       "skills/respond-to-issue",
       "skills/update-golden-values"
     ],
-    "lastUpdated": "2026-07-23T19:46:09.402Z"
+    "lastUpdated": "2026-07-24T03:44:04.276Z"
   },
   {
     "source": "github:NYTC69/review-loop",
@@ -68217,11 +68217,12 @@
   },
   {
     "source": "github:NomaDamas/k-skill",
-    "rev": "3fa9c53b2fb1fbe8934f6b29d7181836240034fa",
-    "hash": "1xxl783v4p03l1h7dbwcvlvhd3jhalz68nxrjpk998bdz6yqbrz9",
+    "rev": "0d47bb8579b3580f984563d82f778d097c348e30",
+    "hash": "0ppc5if2z7wl5h21j24f2hmczl2kx5is1vdmycdfzfcwnvvf3abd",
     "skills": [
       "assembly-bill-vote-search",
       "biz-health-check",
+      "bok-ecos-stats",
       "building-register-search",
       "bunjang-search",
       "catchtable-sniper",
@@ -68255,9 +68256,11 @@
       "gongsijiga-search",
       "gov-overseas-trip-report",
       "han-river-water-level",
+      "highway-traffic-status",
       "hipass-receipt",
       "hola-poke-yeoksam",
       "household-waste-info",
+      "housing-official-price",
       "hwp",
       "intercity-bus-booking",
       "iros-registry-automation",
@@ -68342,7 +68345,7 @@
       "yebigun-training",
       "zipcode-search"
     ],
-    "lastUpdated": "2026-07-22T08:44:21.913Z"
+    "lastUpdated": "2026-07-24T03:44:26.494Z"
   },
   {
     "source": "github:NotMyself/claude-win11-speckit-update-skill",
@@ -68433,8 +68436,8 @@
   },
   {
     "source": "github:NousResearch/hermes-agent",
-    "rev": "c4f5a45d5d9903998fb318ac6f3c5e6623e60445",
-    "hash": "0ziz9ly72m6q2233zrpnf4v1pqkdx2qa223dm6h4cmvvjdijhinw",
+    "rev": "ef6ce56cad1e2e156b50e6effe6c785a2517e5c2",
+    "hash": "0lxpk222sl1rva6mcbs58w6kszsz6jjm25nxfxkv6ka43akh8k4r",
     "skills": [
       "optional-skills/autonomous-ai-agents/antigravity-cli",
       "optional-skills/autonomous-ai-agents/blackbox",
@@ -68445,17 +68448,20 @@
       "optional-skills/blockchain/hyperliquid",
       "optional-skills/blockchain/solana",
       "optional-skills/communication/one-three-one-rule",
+      "optional-skills/creative/audiocraft",
       "optional-skills/creative/baoyu-article-illustrator",
       "optional-skills/creative/baoyu-comic",
       "optional-skills/creative/blender-mcp",
       "optional-skills/creative/concept-diagrams",
       "optional-skills/creative/creative-ideation",
+      "optional-skills/creative/heartmula",
       "optional-skills/creative/hyperframes",
       "optional-skills/creative/kanban-video-orchestrator",
       "optional-skills/creative/meme-generation",
       "optional-skills/creative/pixel-art",
       "optional-skills/creative/tldraw-offline",
       "optional-skills/creative/unreal-mcp",
+      "optional-skills/data-science/jupyter-notebook",
       "optional-skills/devops/cli",
       "optional-skills/devops/docker-management",
       "optional-skills/devops/hermes-s6-container-supervision",
@@ -68491,6 +68497,7 @@
       "optional-skills/mlops/lambda-labs",
       "optional-skills/mlops/llava",
       "optional-skills/mlops/modal",
+      "optional-skills/mlops/models/segment-anything",
       "optional-skills/mlops/nemo-curator",
       "optional-skills/mlops/obliteratus",
       "optional-skills/mlops/peft",
@@ -68541,6 +68548,7 @@
       "optional-skills/software-development/subagent-driven-development",
       "optional-skills/web-development/cloudflare-temporary-deploy",
       "optional-skills/web-development/page-agent",
+      "optional-skills/yuanbao",
       "plugins/google_meet",
       "skills/apple/apple-notes",
       "skills/apple/apple-reminders",
@@ -68567,8 +68575,6 @@
       "skills/creative/sketch",
       "skills/creative/songwriting-and-ai-music",
       "skills/creative/touchdesigner-mcp",
-      "skills/data-science/jupyter-live-kernel",
-      "skills/dogfood",
       "skills/email/himalaya",
       "skills/github/codebase-inspection",
       "skills/github/github-auth",
@@ -68576,10 +68582,7 @@
       "skills/github/github-issues",
       "skills/github/github-pr-workflow",
       "skills/github/github-repo-management",
-      "skills/hermes-desktop-plugins",
-      "skills/hermes-themes",
       "skills/media/gif-search",
-      "skills/media/heartmula",
       "skills/media/songsee",
       "skills/media/youtube-content",
       "skills/mlops/evaluation/lm-evaluation-harness",
@@ -68587,8 +68590,6 @@
       "skills/mlops/huggingface-hub",
       "skills/mlops/inference/llama-cpp",
       "skills/mlops/inference/vllm",
-      "skills/mlops/models/audiocraft",
-      "skills/mlops/models/segment-anything",
       "skills/note-taking/obsidian",
       "skills/productivity/airtable",
       "skills/productivity/docx",
@@ -68598,10 +68599,8 @@
       "skills/productivity/notion",
       "skills/productivity/ocr-and-documents",
       "skills/productivity/pdf",
-      "skills/productivity/petdex",
       "skills/productivity/powerpoint",
       "skills/productivity/teams-meeting-pipeline",
-      "skills/productivity/tui-widgets",
       "skills/productivity/xlsx",
       "skills/research/arxiv",
       "skills/research/blogwatcher",
@@ -68610,6 +68609,7 @@
       "skills/research/research-paper-writing",
       "skills/smart-home/openhue",
       "skills/social-media/xurl",
+      "skills/software-development/dogfood",
       "skills/software-development/hermes-agent-skill-authoring",
       "skills/software-development/node-inspect-debugger",
       "skills/software-development/plan",
@@ -68618,10 +68618,9 @@
       "skills/software-development/simplify-code",
       "skills/software-development/spike",
       "skills/software-development/systematic-debugging",
-      "skills/software-development/test-driven-development",
-      "skills/yuanbao"
+      "skills/software-development/test-driven-development"
     ],
-    "lastUpdated": "2026-07-23T19:46:05.406Z"
+    "lastUpdated": "2026-07-24T03:44:34.174Z"
   },
   {
     "source": "github:NovaCode37/claude-security-skills",
@@ -68741,8 +68740,8 @@
   },
   {
     "source": "github:n8n-io/n8n",
-    "rev": "cbe5710c4c9c70c87c86808818872eb5b93d7f75",
-    "hash": "0h41s6d6x9gygfwnmav78w2kvi7xsgvvcrwq2xjl8dyixwi46c7b",
+    "rev": "eca731c2de2e54424b8019e4850e71cc47cea656",
+    "hash": "1nkplnyrrg922i01785g608sz0y801nhniym09inrs01ismlvlqx",
     "skills": [
       ".agents/skills/community-pr-readiness-check",
       ".agents/skills/content-design",
@@ -68778,7 +68777,7 @@
       "packages/@n8n/instance-ai/skills/post-build-flow",
       "packages/@n8n/instance-ai/skills/workflow-builder"
     ],
-    "lastUpdated": "2026-07-23T19:50:26.337Z"
+    "lastUpdated": "2026-07-24T03:50:23.994Z"
   },
   {
     "source": "github:n8n-io/skills",
@@ -71081,8 +71080,8 @@
   },
   {
     "source": "github:navikt/copilot",
-    "rev": "46f8f8e039f050bd599f3bf58c7a26295904344b",
-    "hash": "0kyaiq4854ngpkq3q6zznq37mkwlbjcq7id8yc32avag5i9044m3",
+    "rev": "36d5b375d6a03c5e0f22a41fd323853fe06f5b3b",
+    "hash": "1rp3llzb75mwh92gxv4g71jfq9vgj2w7dkzr3caxs16l6wkrh1vj",
     "skills": [
       "skills/ai-news-research",
       "skills/aksel-builder",
@@ -71116,7 +71115,7 @@
       "skills/web-design-reviewer",
       "skills/workstation-security"
     ],
-    "lastUpdated": "2026-07-21T14:25:47.521Z"
+    "lastUpdated": "2026-07-24T03:47:58.843Z"
   },
   {
     "source": "github:navraj007in/architecture-cowork-plugin",
@@ -71767,14 +71766,14 @@
   },
   {
     "source": "github:neematajs/neemata",
-    "rev": "b37c4763dd628f56aa5546b1e01a4049b3ca5900",
-    "hash": "10cbcv8c56q1jkxm80h8n0x3k7jiixzm282ymz48daphnrjfz951",
+    "rev": "5c1a0ccf0481f02df8ced19cdf0ed79bddf0f176",
+    "hash": "11yqm28smx5nzbrj370vm858jvc643bi8xsx0cpw28ih5rm3s1dc",
     "skills": [
       "skills/build-neem-runtime",
       "skills/use-neem",
       "skills/use-neemata"
     ],
-    "lastUpdated": "2026-07-23T14:35:04.110Z"
+    "lastUpdated": "2026-07-24T03:48:28.970Z"
   },
   {
     "source": "github:neethanwu/ascii-art",
@@ -72078,13 +72077,13 @@
   },
   {
     "source": "github:neo552/tensorpm-releases",
-    "rev": "1ab7f59f05698ee4cccf5cc9b020b3a3092cfa36",
-    "hash": "1jsb63yjrjhdhj1yx02z7kimx9yqknlxgcdxr2zx50xq6vrqvbh9",
+    "rev": "1f39a414305c030edaa6c045683db0835006a486",
+    "hash": "140dsiyl826k6zh9a5fghpkdbydkz52n4csy1bpgwkxnx59cg8nq",
     "skills": [
       ".",
       "plugins/tensorpm/skills/tensorpm"
     ],
-    "lastUpdated": "2026-07-23T08:50:01.757Z"
+    "lastUpdated": "2026-07-24T03:48:40.659Z"
   },
   {
     "source": "github:neodejack/skills",
@@ -72244,8 +72243,8 @@
   },
   {
     "source": "github:neondatabase/agent-skills",
-    "rev": "d232c83a87bd61bacb1ad60de128fcc91a9b6418",
-    "hash": "1x7h3chnl0m07qdrmwzvr6jh5xhk0i7xlnqlb4n32v6ik1fbg2pf",
+    "rev": "6ca24e462031daf8268471b2bc6bcce1516847da",
+    "hash": "139l8v35lzl1mqwdz79fmnvsln49fk8zdri8zdqy34179x37sfyw",
     "skills": [
       "evals/neon-postgres-egress-optimizer/.claude/skills/score-eval",
       "skills/claimable-postgres",
@@ -72257,7 +72256,7 @@
       "skills/neon-postgres-branches",
       "skills/neon-postgres-egress-optimizer"
     ],
-    "lastUpdated": "2026-07-17T03:40:43.106Z"
+    "lastUpdated": "2026-07-24T03:48:47.309Z"
   },
   {
     "source": "github:neondatabase/ai-rules",
@@ -72284,13 +72283,13 @@
   },
   {
     "source": "github:neondatabase/mcp-server-neon",
-    "rev": "25fde2dc12ae306a1e536b35c3562574192c1dcf",
-    "hash": "0x2vw4d45d8qxrinh1snmwiz1kf69ga7qs4vgmwh8ckskg2km45m",
+    "rev": "6f59f08cb8c24964b9ac7a09e6c7553c9fe5b64c",
+    "hash": "1r4rq87qwksv9ylrvqdvfhz968v013spyhsbywpwxz84r7swa6rv",
     "skills": [
       ".agents/skills/claimable-postgres",
       ".agents/skills/logging-best-practices"
     ],
-    "lastUpdated": "2026-07-23T19:50:10.150Z"
+    "lastUpdated": "2026-07-24T03:48:51.801Z"
   },
   {
     "source": "github:neondatabase/neon-for-agent-platforms",
@@ -74008,12 +74007,12 @@
   },
   {
     "source": "github:neuralinitiative/claude-dnd-skill",
-    "rev": "21969bd3d86096cc4ae64c9275a53de3ee13cbf6",
-    "hash": "1vvipffcqa21bc3sw7z9isjv9lhv660aj724azk2mx04fmp9gim8",
+    "rev": "d8fd62c8dadd876fbebb2a134ee355aeed8233a1",
+    "hash": "1h2dw0f3ndby9307294riygw0d615agyyfmmwkh4dd40p4zi6czd",
     "skills": [
       "skills/dnd"
     ],
-    "lastUpdated": "2026-06-28T07:43:42.947Z"
+    "lastUpdated": "2026-07-24T03:48:33.469Z"
   },
   {
     "source": "github:neurawork-git/n8n-autopilot",
@@ -276903,8 +276902,8 @@
   },
   {
     "source": "github:nextcommerceco/skills",
-    "rev": "a27bb93a6ea5b329a793376cc47d4f3efc9ac810",
-    "hash": "1774s5lz390wqzq46qdsl9qgfadcf3qhrw4238p6gh3snbxs3388",
+    "rev": "e96cd8fe8abd88d11e04fc851eedce4f7865a24c",
+    "hash": "1vncahzp748g5ncwr8nq1fnhy0pirg7y631s4ajx5sapfbjsrw5d",
     "skills": [
       "next-bulk-fulfill",
       "next-bulk-move",
@@ -276914,7 +276913,7 @@
       "next-theme-dev",
       "next-theme-figma"
     ],
-    "lastUpdated": "2026-07-23T19:53:09.508Z"
+    "lastUpdated": "2026-07-24T03:52:30.682Z"
   },
   {
     "source": "github:nextfrontierbuilds/elite-longterm-memory",
@@ -281623,12 +281622,12 @@
   },
   {
     "source": "github:nikolasmarkou/iterative-planner",
-    "rev": "ddd373ee2a9fced63abfe707fb28e3b0035f9336",
-    "hash": "1j4d4j3aa35jv88y3w249n8iyad59a8dk3gcp1gqrqdrr278gdv7",
+    "rev": "3c8b2635371bf3022b3a2709e92dffb6b983cea7",
+    "hash": "11qdh910bb7dr2k9skym8n02jxiy3xirczd3c77dbrpcib2zzqbz",
     "skills": [
       "src"
     ],
-    "lastUpdated": "2026-07-23T19:49:27.933Z"
+    "lastUpdated": "2026-07-24T03:47:44.129Z"
   },
   {
     "source": "github:nikolovlazar/dotfiles",
@@ -284554,13 +284553,13 @@
   },
   {
     "source": "github:njbrake/agent-of-empires",
-    "rev": "9309c6421fb7070899a8a886f901f75a8776d008",
-    "hash": "15ja0qi38rfrmi0wmbfiamaqzpfpdp43p7p8q06ip4x0qksx1rbr",
+    "rev": "2a96c436428aefa776e7a75e16316f3ceab34d1c",
+    "hash": "0indsc4dgmskkqz793l2kg0x30cki9qpkv12qsidhi2lj8m07qjl",
     "skills": [
       "contrib/hermes-skill",
       "contrib/openclaw-skill"
     ],
-    "lastUpdated": "2026-07-23T19:50:42.109Z"
+    "lastUpdated": "2026-07-24T03:48:34.868Z"
   },
   {
     "source": "github:njzjz/nsfc-agent-skills",
@@ -285507,11 +285506,12 @@
   },
   {
     "source": "github:nomadamas/k-skill",
-    "rev": "3fa9c53b2fb1fbe8934f6b29d7181836240034fa",
-    "hash": "1xxl783v4p03l1h7dbwcvlvhd3jhalz68nxrjpk998bdz6yqbrz9",
+    "rev": "0d47bb8579b3580f984563d82f778d097c348e30",
+    "hash": "0ppc5if2z7wl5h21j24f2hmczl2kx5is1vdmycdfzfcwnvvf3abd",
     "skills": [
       "assembly-bill-vote-search",
       "biz-health-check",
+      "bok-ecos-stats",
       "building-register-search",
       "bunjang-search",
       "catchtable-sniper",
@@ -285545,9 +285545,11 @@
       "gongsijiga-search",
       "gov-overseas-trip-report",
       "han-river-water-level",
+      "highway-traffic-status",
       "hipass-receipt",
       "hola-poke-yeoksam",
       "household-waste-info",
+      "housing-official-price",
       "hwp",
       "intercity-bus-booking",
       "iros-registry-automation",
@@ -285632,7 +285634,7 @@
       "yebigun-training",
       "zipcode-search"
     ],
-    "lastUpdated": "2026-07-22T08:51:46.430Z"
+    "lastUpdated": "2026-07-24T03:50:15.273Z"
   },
   {
     "source": "github:nomarj/sigil-skill",
@@ -286649,8 +286651,8 @@
   },
   {
     "source": "github:nousresearch/hermes-agent",
-    "rev": "c4f5a45d5d9903998fb318ac6f3c5e6623e60445",
-    "hash": "0ziz9ly72m6q2233zrpnf4v1pqkdx2qa223dm6h4cmvvjdijhinw",
+    "rev": "ef6ce56cad1e2e156b50e6effe6c785a2517e5c2",
+    "hash": "0lxpk222sl1rva6mcbs58w6kszsz6jjm25nxfxkv6ka43akh8k4r",
     "skills": [
       "optional-skills/autonomous-ai-agents/antigravity-cli",
       "optional-skills/autonomous-ai-agents/blackbox",
@@ -286661,17 +286663,20 @@
       "optional-skills/blockchain/hyperliquid",
       "optional-skills/blockchain/solana",
       "optional-skills/communication/one-three-one-rule",
+      "optional-skills/creative/audiocraft",
       "optional-skills/creative/baoyu-article-illustrator",
       "optional-skills/creative/baoyu-comic",
       "optional-skills/creative/blender-mcp",
       "optional-skills/creative/concept-diagrams",
       "optional-skills/creative/creative-ideation",
+      "optional-skills/creative/heartmula",
       "optional-skills/creative/hyperframes",
       "optional-skills/creative/kanban-video-orchestrator",
       "optional-skills/creative/meme-generation",
       "optional-skills/creative/pixel-art",
       "optional-skills/creative/tldraw-offline",
       "optional-skills/creative/unreal-mcp",
+      "optional-skills/data-science/jupyter-notebook",
       "optional-skills/devops/cli",
       "optional-skills/devops/docker-management",
       "optional-skills/devops/hermes-s6-container-supervision",
@@ -286707,6 +286712,7 @@
       "optional-skills/mlops/lambda-labs",
       "optional-skills/mlops/llava",
       "optional-skills/mlops/modal",
+      "optional-skills/mlops/models/segment-anything",
       "optional-skills/mlops/nemo-curator",
       "optional-skills/mlops/obliteratus",
       "optional-skills/mlops/peft",
@@ -286757,6 +286763,7 @@
       "optional-skills/software-development/subagent-driven-development",
       "optional-skills/web-development/cloudflare-temporary-deploy",
       "optional-skills/web-development/page-agent",
+      "optional-skills/yuanbao",
       "plugins/google_meet",
       "skills/apple/apple-notes",
       "skills/apple/apple-reminders",
@@ -286783,8 +286790,6 @@
       "skills/creative/sketch",
       "skills/creative/songwriting-and-ai-music",
       "skills/creative/touchdesigner-mcp",
-      "skills/data-science/jupyter-live-kernel",
-      "skills/dogfood",
       "skills/email/himalaya",
       "skills/github/codebase-inspection",
       "skills/github/github-auth",
@@ -286792,10 +286797,7 @@
       "skills/github/github-issues",
       "skills/github/github-pr-workflow",
       "skills/github/github-repo-management",
-      "skills/hermes-desktop-plugins",
-      "skills/hermes-themes",
       "skills/media/gif-search",
-      "skills/media/heartmula",
       "skills/media/songsee",
       "skills/media/youtube-content",
       "skills/mlops/evaluation/lm-evaluation-harness",
@@ -286803,8 +286805,6 @@
       "skills/mlops/huggingface-hub",
       "skills/mlops/inference/llama-cpp",
       "skills/mlops/inference/vllm",
-      "skills/mlops/models/audiocraft",
-      "skills/mlops/models/segment-anything",
       "skills/note-taking/obsidian",
       "skills/productivity/airtable",
       "skills/productivity/docx",
@@ -286814,10 +286814,8 @@
       "skills/productivity/notion",
       "skills/productivity/ocr-and-documents",
       "skills/productivity/pdf",
-      "skills/productivity/petdex",
       "skills/productivity/powerpoint",
       "skills/productivity/teams-meeting-pipeline",
-      "skills/productivity/tui-widgets",
       "skills/productivity/xlsx",
       "skills/research/arxiv",
       "skills/research/blogwatcher",
@@ -286826,6 +286824,7 @@
       "skills/research/research-paper-writing",
       "skills/smart-home/openhue",
       "skills/social-media/xurl",
+      "skills/software-development/dogfood",
       "skills/software-development/hermes-agent-skill-authoring",
       "skills/software-development/node-inspect-debugger",
       "skills/software-development/plan",
@@ -286834,10 +286833,9 @@
       "skills/software-development/simplify-code",
       "skills/software-development/spike",
       "skills/software-development/systematic-debugging",
-      "skills/software-development/test-driven-development",
-      "skills/yuanbao"
+      "skills/software-development/test-driven-development"
     ],
-    "lastUpdated": "2026-07-23T19:50:18.314Z"
+    "lastUpdated": "2026-07-24T03:48:48.129Z"
   },
   {
     "source": "github:nouvath07/KhamLao",
@@ -287108,8 +287106,8 @@
   },
   {
     "source": "github:nozomi-koborinai/koborin-ai",
-    "rev": "cf78b5ea388144fb6098c00bf0dba46d9bb9f731",
-    "hash": "14dr6pd4w1d299r3ksb69rwwgdclls7sg90qfnd0mq3a36klmbv3",
+    "rev": "503108add3f32421c2bddb93742080ba95730b55",
+    "hash": "0g6wflgkim6nmzff3md475hfk4j4i92ip8alc5251x42v0r50f66",
     "skills": [
       ".claude/skills/astro-content",
       ".claude/skills/change-type",
@@ -287125,7 +287123,7 @@
       "plugins/agent-team-fullstack/skills/agent-team-fullstack",
       "plugins/mermaid-diagram/skills/mermaid-diagram"
     ],
-    "lastUpdated": "2026-07-23T08:50:36.877Z"
+    "lastUpdated": "2026-07-24T03:48:56.952Z"
   },
   {
     "source": "github:nozomio-labs/nia-rules-for-agents",
@@ -287229,18 +287227,18 @@
   },
   {
     "source": "github:nrslib/takt",
-    "rev": "2dd588c3fe18894b52618b681053a94d394c22e4",
-    "hash": "03vsbkjrwq2f14lkwgcqzx39q2wayafqi90d4kcfkkhgkjr19g18",
+    "rev": "cbef7d7ce05d45a194c8773c0b6dbfe85ad83a6d",
+    "hash": "02jn20v27w07175703x9zjfa2ryhqx3rlmzg5al0k19s0jca6rx8",
     "skills": [
       "builtins/skill",
       "builtins/skill-codex"
     ],
-    "lastUpdated": "2026-07-23T11:23:01.162Z"
+    "lastUpdated": "2026-07-24T03:48:58.898Z"
   },
   {
     "source": "github:nrwl/nx",
-    "rev": "f1a55984a65578b641e2e31753200b33de6e4e72",
-    "hash": "1jg4svj29bxxynpcc6hq0i8p36lgz2la8yskl2byph1099gd38ff",
+    "rev": "37552cc4d232b56143c2ab957d93af25adf0b4e7",
+    "hash": "08kck4pgksq074wjgv500hg7zqlylrdd5za1fvr2mz8gw9d1rpj9",
     "skills": [
       ".agents/skills/link-workspace-packages",
       ".agents/skills/monitor-ci",
@@ -287261,7 +287259,7 @@
       ".claude/skills/update-cnw-templates",
       ".github/skills/ci-monitor"
     ],
-    "lastUpdated": "2026-07-23T19:51:21.913Z"
+    "lastUpdated": "2026-07-24T03:49:51.946Z"
   },
   {
     "source": "github:nrwl/nx-ai-agents-config",
@@ -287832,8 +287830,8 @@
   },
   {
     "source": "github:nvidia-nemo/nemo",
-    "rev": "05d224dfd627f80b4f45ad4565c39e0b4ee20b61",
-    "hash": "0n2va34shl8wbimrmnrd7cml8phxm585vhddabyhk1fipax5930i",
+    "rev": "58e74a28d76802bdfaa02c51f9ba42af6b3f14d2",
+    "hash": "1l6d7nhxk5fsl22w802c9l7kdjrh97g7wvsvfb9nrp2kb50x0wsr",
     "skills": [
       ".claude/skills/babysit-pr",
       ".claude/skills/debug-training-logs",
@@ -287841,12 +287839,12 @@
       ".claude/skills/nemo-speech-asr-finetune",
       ".claude/skills/verify"
     ],
-    "lastUpdated": "2026-07-23T19:50:28.721Z"
+    "lastUpdated": "2026-07-24T03:50:10.757Z"
   },
   {
     "source": "github:nvidia/openshell",
-    "rev": "75d24688e1464bd884fb8dfac13efffa8e0a4be6",
-    "hash": "1hcd2r653iyci0d9rww6slj1p3m7rr7wlakyq0cd4p6a4nim6wnz",
+    "rev": "59f7839f6bf0220fc03409aec16fadb4217c7d0f",
+    "hash": "08vnbdgiyi7xv0gb8r15q4qqx83yzz624w40hqa46sp79dj73w2s",
     "skills": [
       ".agents/skills/build-from-issue",
       ".agents/skills/create-github-issue",
@@ -287872,18 +287870,18 @@
       "crates/openshell-supervisor-process/src/skills/policy-advisor",
       "scripts/agents/gator/skills/gator-gate"
     ],
-    "lastUpdated": "2026-07-23T19:50:34.117Z"
+    "lastUpdated": "2026-07-24T03:50:15.995Z"
   },
   {
     "source": "github:nvidia/osmo",
-    "rev": "d29bee4f275c8d75a93a72d3d6e37c90f5534adf",
-    "hash": "0365lf9vdp2v11dw7fzl859pk4j6iixwfj263irpmxj2j4w413n1",
+    "rev": "edd69a6a742a9424abdf5750b3c06ab925c9b527",
+    "hash": "1pxnmcjyi0bj03mzpslmr1g2p4mm7czx6q15kj5z1q5zgyq5v0pq",
     "skills": [
       "skills/osmo-admin",
       "skills/osmo-deploy",
       "skills/osmo-user"
     ],
-    "lastUpdated": "2026-07-23T08:49:26.255Z"
+    "lastUpdated": "2026-07-24T03:50:16.136Z"
   },
   {
     "source": "github:nvidia/skills",
@@ -288216,8 +288214,8 @@
   },
   {
     "source": "github:nvidia/skillspector",
-    "rev": "a54947c307fe19a24a43db55f6148e181a987a67",
-    "hash": "0bl8s2npyk74gg80q6hj1ycpwzg1k6dwddz27v64rhp2b7xyhif3",
+    "rev": "fd25398d7aa99353d86237b9c260759351f0e644",
+    "hash": "0lw8mg7ivdhnvqmhcnswxfvaa8q0dj2m89s0xgj6rq51kdraqp9w",
     "skills": [
       "tests/fixtures/malicious_skill",
       "tests/fixtures/mcp_clean_skill",
@@ -288243,7 +288241,7 @@
       "tests/fixtures/ssd/ssd4_narrative_deception",
       "tests/fixtures/ssd/ssd_clean"
     ],
-    "lastUpdated": "2026-07-23T08:49:27.915Z"
+    "lastUpdated": "2026-07-24T03:50:17.068Z"
   },
   {
     "source": "github:nvillapiano/component-contracts-figma",
