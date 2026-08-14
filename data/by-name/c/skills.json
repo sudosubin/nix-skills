@@ -280,9 +280,12 @@
   },
   {
     "source": "github:CamilleScholtz/swmpc",
-    "rev": "082cfcbf50947083f4921fa9e5af360552721037",
-    "hash": "0hgd9xgf5qm47yigwipgq7pgnl8cvwca7djg6nxqa5cz907w0rk4",
+    "rev": "13b9a83ddd1e52c7cecbf71d79a0f8a238b6c659",
+    "hash": "005n89fz4asy0fwg966qbgdj39zj87ch0gdywffia9smvq1692cp",
     "skills": [
+      ".claude/skills/adopt-c-bounds-safety",
+      ".claude/skills/app-intents-specialist",
+      ".claude/skills/app-intents-whats-new-27",
       ".claude/skills/apple-hig",
       ".claude/skills/asc-app-create-ui",
       ".claude/skills/asc-apple-ads",
@@ -308,13 +311,15 @@
       ".claude/skills/asc-workflow",
       ".claude/skills/asc-xcode-build",
       ".claude/skills/audit-xcode-security-settings",
+      ".claude/skills/building-document-based-swiftui-applications",
       ".claude/skills/device-interaction",
       ".claude/skills/localization",
       ".claude/skills/modernize-tests",
       ".claude/skills/swiftui-specialist",
-      ".claude/skills/swiftui-whats-new-27"
+      ".claude/skills/swiftui-whats-new-27",
+      ".claude/skills/uikit-app-modernization"
     ],
-    "lastUpdated": "2026-08-12T13:46:29.541Z"
+    "lastUpdated": "2026-08-14T13:42:17.845Z"
   },
   {
     "source": "github:CaptainVuka/find-what-you-live-by",
@@ -421,8 +426,8 @@
   },
   {
     "source": "github:Charles5277/nuxt-supabase-starter",
-    "rev": "8f6472b9305e62c44961b111a5e46a57437e4685",
-    "hash": "19lwny693nqri23njqjmjdrw48nlcf75bsvs2avimqhms3qj9pmg",
+    "rev": "8b096bd7dbab1d246642d5a44ca32c9e83897f94",
+    "hash": "127535l0j2bgw808ih8c6dxa5drm2mjgbnvcs90cwb4yndwj0ldi",
     "skills": [
       ".claude/skills/impeccable",
       "template/.claude/skills/analyze-logs",
@@ -464,7 +469,7 @@
       "template/.claude/skills/vueuse-functions",
       "template/.claude/skills/work-loop"
     ],
-    "lastUpdated": "2026-08-14T10:15:46.392Z"
+    "lastUpdated": "2026-08-14T13:42:20.890Z"
   },
   {
     "source": "github:Chili-Piper/mcp-assets",
@@ -10718,14 +10723,14 @@
   },
   {
     "source": "github:ComposioHQ/agent-orchestrator",
-    "rev": "d77ce71236f26b1f48e4568d059bd9f8376424b0",
-    "hash": "0kfwp6rr0imqvazkq216daac6x61kx65mc5zq6c3zvn86rql7ghn",
+    "rev": "96a868cd70b41a0f2a7b66ffa8e83473999c9a6c",
+    "hash": "04wd77hj5940bn4m80886gdd6dmncjfannv0vah94yp6jbyydwdd",
     "skills": [
       ".agents/skills/ao-desktop-dev",
       ".agents/skills/bug-triage",
       "backend/internal/skillassets/using-ao"
     ],
-    "lastUpdated": "2026-08-14T10:15:56.026Z"
+    "lastUpdated": "2026-08-14T13:42:31.165Z"
   },
   {
     "source": "github:ComposioHQ/awesome-claude-plugins",
@@ -11951,8 +11956,8 @@
   },
   {
     "source": "github:CyberStrikeus/CyberStrike",
-    "rev": "f33f696ed436f8c286ae56959daf07ef4d0f3dc2",
-    "hash": "0w5q6bvfd1qzp1s8m5xfd19613p2mhyy3yc0id6yl541scz65xsy",
+    "rev": "63b56c262c47cbc74be62b3892487ce595edffbc",
+    "hash": "19pk9mjg35d8wy2msypdawzap1xfa33gvk0gii1d6lm3byxhx402",
     "skills": [
       ".cyberstrike/skill/CIS_benchmarks/Cloud_Providers/AWS/CIS_AWS_Compute_Services_Benchmark_v1.1.0/cis-aws-compute-10.1",
       ".cyberstrike/skill/CIS_benchmarks/Cloud_Providers/AWS/CIS_AWS_Compute_Services_Benchmark_v1.1.0/cis-aws-compute-10.2",
@@ -19617,7 +19622,7 @@
       ".cyberstrike/skill/recon-methodology",
       ".cyberstrike/skill/windows-postexploit"
     ],
-    "lastUpdated": "2026-08-13T16:09:33.184Z"
+    "lastUpdated": "2026-08-14T13:42:42.016Z"
   },
   {
     "source": "github:CyberZenithX/Rich-Elicitation-Skill",
@@ -19670,28 +19675,23 @@
   },
   {
     "source": "github:c00ldudenoonan/economic-data-project",
-    "rev": "bb553e9389ef29f852f4ad4285d5aafd5e12438c",
-    "hash": "0ba4wxv6jpam5nl2i6cci4w17h1vjn26rz5vpwvi9ycs0p6vhk9k",
+    "rev": "70731acbc2e740376f701fe661175bd3f40cd651",
+    "hash": "0gizn8b613qswrjx69gzjry7b6dpdys4inz2l3jadijvwfh0a9d4",
     "skills": [
-      ".agents/skills/_legacy/dignified-python-local",
       ".agents/skills/context-doc-maintainer",
       ".agents/skills/create-custom-dagster-component",
       ".agents/skills/dagster-development",
-      ".agents/skills/dagster-expert",
       ".agents/skills/dagster-init",
+      ".agents/skills/dbt-development",
+      ".agents/skills/dbt-semantic-layer",
       ".agents/skills/design-philosophy",
-      ".agents/skills/dignified-python",
       ".agents/skills/docker-env",
       ".agents/skills/git-pr-workflow",
       ".agents/skills/github-explorer",
-      ".agents/skills/react-component-architecture",
       ".agents/skills/start-issue",
-      ".agents/skills/tailwind-css-data-viz",
-      ".agents/skills/testing-strategies",
-      ".agents/skills/typescript-financial-data-modeling",
-      ".claude/skills/dbt-semantic-layer"
+      ".agents/skills/testing-strategies"
     ],
-    "lastUpdated": "2026-08-14T05:03:09.904Z"
+    "lastUpdated": "2026-08-14T13:42:29.210Z"
   },
   {
     "source": "github:c0ldsmi1e/payall-cli",
@@ -19704,8 +19704,8 @@
   },
   {
     "source": "github:c0nant/skills",
-    "rev": "cdb7d8d5ce9efb4e8dd230b2e2caa925b054bc4a",
-    "hash": "0m6pr4lp942nfc2nnn9dn9r6qb3alrk016wjki1zbgv4lj5vzpr3",
+    "rev": "e87ecebc883688919370b2017d94597df1f7971c",
+    "hash": "1v75bk7s3v1qak29ggspk8mr44q8da3b4ysz524s7p0ffx71n5gy",
     "skills": [
       "skills/engineering/ask-skills",
       "skills/engineering/delegate-tickets",
@@ -19745,7 +19745,7 @@
       "skills/productivity/wait-what",
       "skills/productivity/writing-for-agents"
     ],
-    "lastUpdated": "2026-08-13T10:27:55.553Z"
+    "lastUpdated": "2026-08-14T13:42:29.961Z"
   },
   {
     "source": "github:c0ntr0lledcha0s/claude-code-plugin-automations",
@@ -20910,10 +20910,10 @@
   },
   {
     "source": "github:cabinet-fe/prompt-engineering",
-    "rev": "19cdc3eb5944078d4d668ebe61af623fa7f7f93f",
-    "hash": "1cl8i63lyllx0rx0hda6a7qp8z7z3rs4v3lpmclcqrm5ffksr2d7",
+    "rev": "b6f24fbc017d95ec97a949aba8013dcbb46ca503",
+    "hash": "01g6rpy9c8kx3m8x7ipjv8qpbhlxi3fdqzi70116zm5nvdl4sqfk",
     "skills": [
-      "skills/engineering/architecture",
+      "skills/engineering/archive",
       "skills/engineering/explore",
       "skills/engineering/implement",
       "skills/engineering/review",
@@ -20921,7 +20921,7 @@
       "skills/engineering/setup",
       "skills/engineering/to-spec",
       "skills/engineering/to-tasks",
-      "skills/frameworks/vue-best-practices",
+      "skills/frameworks/vue",
       "skills/langs/go",
       "skills/langs/node",
       "skills/langs/rust",
@@ -20931,7 +20931,7 @@
       "skills/tools/build-lib-skill",
       "skills/tools/git-commit"
     ],
-    "lastUpdated": "2026-08-13T10:27:58.833Z"
+    "lastUpdated": "2026-08-14T13:42:31.384Z"
   },
   {
     "source": "github:cabinet-fe/ultra-ui",
@@ -21204,8 +21204,8 @@
   },
   {
     "source": "github:caffeinelabs/skills",
-    "rev": "ffec6cc69b2da7a5cd6d3e2c1fc88b83810f3210",
-    "hash": "05f9h5b83p2lxa68gfv3mzmdpiqp2kma6c7psfxlpw1p5ypy0dak",
+    "rev": "eeb232ac0b18714aff20caf45061c3aea9ba9c92",
+    "hash": "1xxba8plipyh82y05vrm7gbg9kgpk1pxhw10v5285li02v7pc4d2",
     "skills": [
       "skills/connector-googlecalendar",
       "skills/connector-googlemail",
@@ -21231,7 +21231,7 @@
       "skills/troubleshooting-motoko-migrations",
       "skills/writing-motoko"
     ],
-    "lastUpdated": "2026-08-13T10:28:03.381Z"
+    "lastUpdated": "2026-08-14T13:42:34.099Z"
   },
   {
     "source": "github:caicedov/netwatch",
@@ -22498,8 +22498,8 @@
   },
   {
     "source": "github:can1357/oh-my-pi",
-    "rev": "ad318c7572abaeebd5cf8a7a16d350ff1d32a738",
-    "hash": "0n9r15r6fgg6s7pd875cbknvdnmhq22n6y43cf38zlqjdfash8ky",
+    "rev": "ffd53ff92a6f575d499730475a73460dd7cc2eea",
+    "hash": "0lynck0215kbblpr4y9hjw7h221pkq9hk20h959nh5rmwh487r4p",
     "skills": [
       ".omp/skills/semantic-compression",
       ".omp/skills/system-prompts",
@@ -22516,7 +22516,7 @@
       "packages/coding-agent/test/fixtures/skills/valid-skill",
       "packages/coding-agent/test/marketplace/fixtures/valid-marketplace/plugins/hello-plugin/skills/greet"
     ],
-    "lastUpdated": "2026-08-14T07:50:03.659Z"
+    "lastUpdated": "2026-08-14T13:42:39.414Z"
   },
   {
     "source": "github:canatufkansu/claude-skills",
@@ -26728,8 +26728,8 @@
   },
   {
     "source": "github:catalystbyzoho/agent-skills",
-    "rev": "d3cc73c8e89ce6e7e3328f583fee7da7c343043e",
-    "hash": "189bfimy7fbpkw57w95wc13dd7sh7w0i7bb0z66x4fmp5lnbndfn",
+    "rev": "baa0ac9cfc3a08bfe31cccf9db1868c348ac0131",
+    "hash": "06nkxchk1asl10pk431nbrwb6j6zs4q637gcgnh8wb8988gysg8d",
     "skills": [
       "catalyst-by-zoho",
       "skills/catalyst-appsail",
@@ -26748,7 +26748,7 @@
       "skills/catalyst-zia",
       "skills/catalyst-zoho-mcp"
     ],
-    "lastUpdated": "2026-08-14T07:50:30.335Z"
+    "lastUpdated": "2026-08-14T13:42:41.817Z"
   },
   {
     "source": "github:catch6/ai-toolkits",
@@ -28347,12 +28347,12 @@
   },
   {
     "source": "github:cevio/hile",
-    "rev": "78343f864e837a33a9b8418f352b8745216b47e7",
-    "hash": "1mrclw0yh8w7cc82346ikp1brg6j3sgixj8k5mrid2scq8fqk79l",
+    "rev": "9b175f6e8a9c125d719aaec97c8279ca3fc48517",
+    "hash": "0lp39rlw9lhmc7i2ybnb0w15wqnsvs532rd1qgpxz3sn237z2ni7",
     "skills": [
       "skills/hile"
     ],
-    "lastUpdated": "2026-08-14T10:15:47.429Z"
+    "lastUpdated": "2026-08-14T13:43:00.942Z"
   },
   {
     "source": "github:cexll/golang-base-practices-skills",
@@ -28833,8 +28833,8 @@
   },
   {
     "source": "github:chachamaru127/claude-code-harness",
-    "rev": "57cde510f9f84680bb4f98a697ada9aedb0db279",
-    "hash": "0dng5ls2m18jrgrp9kqmakgwlh3xxs7rjs47rxvvmpa6sa8xnmcx",
+    "rev": "1be0770a4f3c2a2c18364256e54be17e167cca01",
+    "hash": "0zyrv8phv1cii5rpb52xq42yy3lnfy5jzq7m2mpm1qj2f0y2kv8v",
     "skills": [
       "skills/agent-browser",
       "skills/breezing",
@@ -28858,7 +28858,7 @@
       "skills/maintenance",
       "skills/memory"
     ],
-    "lastUpdated": "2026-08-14T10:15:55.991Z"
+    "lastUpdated": "2026-08-14T13:43:09.797Z"
   },
   {
     "source": "github:chadboyda/agent-gtm-skills",
@@ -31636,15 +31636,15 @@
   },
   {
     "source": "github:chenxiachan/xhs-claude-skills",
-    "rev": "cb9c3f3965ae2a01a82241651cdee4f02961fe2c",
-    "hash": "1f6arb3z6gh0xllhjh4hri4nwwdpcwy8jk06c2l0yq6qwa3yrff3",
+    "rev": "81920f32dc111d705f2af5999d7476665e7d761e",
+    "hash": "02q6akjwax10fi5v9h5sgj02vyvbc4mbdvm5nc297aph5szvl24h",
     "skills": [
       "skills/xhs",
       "skills/xhs-analyze",
       "skills/xhs-batch",
       "skills/xhs-cover"
     ],
-    "lastUpdated": "2026-06-20T07:39:28.267Z"
+    "lastUpdated": "2026-08-14T13:43:49.769Z"
   },
   {
     "source": "github:chenxizhang/agent-skills",
@@ -36158,8 +36158,8 @@
   },
   {
     "source": "github:chromedevtools/chrome-devtools-mcp",
-    "rev": "ec014d178f5731bea3bc412848945df8c636b558",
-    "hash": "0l1igv1whz7nc42zjkrv6a298db4a4nj0557cxhsjjai9bnfnvi5",
+    "rev": "e45036953d8e0ae409b4052fccded8ff02e51944",
+    "hash": "02rnm45a8lik5cggzc217c1n1l4131k4xgnrp9fj40n1w2wys9nn",
     "skills": [
       "skills/a11y-debugging",
       "skills/chrome-devtools",
@@ -36168,7 +36168,7 @@
       "skills/memory-leak-debugging",
       "skills/troubleshooting"
     ],
-    "lastUpdated": "2026-08-14T07:50:08.316Z"
+    "lastUpdated": "2026-08-14T13:43:31.575Z"
   },
   {
     "source": "github:chronoaiproject/chrono-cli",
@@ -36214,12 +36214,13 @@
   },
   {
     "source": "github:chuangkit-labs/chuangkit-skill",
-    "rev": "22f2bcb841613640efedf33e513594672db12a90",
-    "hash": "0hklgayg003j7pk8c3jx9szx7xiq3ss4gdvf10ms93k852sfhcbm",
+    "rev": "d165331315976e3f9105fa57aa192d76a5b89228",
+    "hash": "03qdxs1rip2a5ym0dk8lkgmncg53zkh9bfq4qr4lgd9fzx1sbsyj",
     "skills": [
-      "."
+      ".",
+      "workbuddy/chuangkit-cli-connector/skills"
     ],
-    "lastUpdated": "2026-06-20T07:39:51.249Z"
+    "lastUpdated": "2026-08-14T13:42:53.091Z"
   },
   {
     "source": "github:chuanzhenqi/softwareengineeringpracticecourse",
@@ -37296,13 +37297,14 @@
   },
   {
     "source": "github:cjinhuo/text-search-engine",
-    "rev": "ca71641ea4e29f52156a4ff59dbcd593c57b03e7",
-    "hash": "0jc6fbk4a638pj7mn6zkxgxcggbbpsr8zmjrdg4023nrcfiwg1gb",
+    "rev": "9e446f0f15e050d26da1a7e32d7599ea634576aa",
+    "hash": "0y6xfn9jrh3823w3kvrnakq1j560c92cgygkwn2gh73v66dlm3di",
     "skills": [
+      ".agents/skills/changeset-generator",
       ".agents/skills/git-auto-commit",
       ".agents/skills/text-search-engine"
     ],
-    "lastUpdated": "2026-08-14T10:15:58.203Z"
+    "lastUpdated": "2026-08-14T13:43:01.708Z"
   },
   {
     "source": "github:cjkihl/cjkihl",
@@ -41131,8 +41133,8 @@
   },
   {
     "source": "github:cli/cli",
-    "rev": "62b87a75a9ef54fd0e7999e26dd56c4055291cf4",
-    "hash": "13zbp1glhw8c2zji9bcdvsf445q4vxn1dyvq0cikxwn5443l0w5f",
+    "rev": "de84d017dfa3ac63624dbce790e8f0fcc83e62b9",
+    "hash": "0xp6wr3vy6jcxxvys977wpzrpxnrzxhwcsvb89xmr3irn86apmii",
     "skills": [
       ".github/skills/agentic-workflows",
       ".github/skills/code-review",
@@ -41141,7 +41143,7 @@
       "skills/gh",
       "skills/gh-skill"
     ],
-    "lastUpdated": "2026-08-14T10:16:27.683Z"
+    "lastUpdated": "2026-08-14T13:43:11.885Z"
   },
   {
     "source": "github:cliangdev/specflux",
@@ -41184,8 +41186,8 @@
   },
   {
     "source": "github:clickhouse/clickhouse",
-    "rev": "2746afad95fd7f378ee345a057a1b80d22b01287",
-    "hash": "1zdjad09qazxsrlgyq6h9ga36fmw7i1m1j0gb555y7ly6qdivlq6",
+    "rev": "7ac9a3b200497a38a42bc255751495fe89e67a61",
+    "hash": "167cxzrf3z1cj2k5kaszg77cnd45066mxdfmsiyzvhdgwz2h9pii",
     "skills": [
       ".claude/skills/alloc-profile",
       ".claude/skills/bisect",
@@ -41210,7 +41212,7 @@
       ".claude/skills/share",
       ".claude/skills/update-contrib"
     ],
-    "lastUpdated": "2026-08-14T10:17:15.749Z"
+    "lastUpdated": "2026-08-14T13:48:12.222Z"
   },
   {
     "source": "github:clickhouse/clickhouse-js",
@@ -41687,8 +41689,8 @@
   },
   {
     "source": "github:cloudflare/cloudflare-docs",
-    "rev": "16af0a7951e47b45a04d10a453e52445422053e7",
-    "hash": "0d95q0qif8rhc59s5zy0bgvkwfnrp968mlcr6yd1wphnck9cg6jz",
+    "rev": "6130bf3179d5dc95fb5b307776e5a20f6f10d14a",
+    "hash": "1il297626g64clrwv7195aybr0lyzj0w6w21hf2ppzs68k54km9x",
     "skills": [
       ".agents/skills/contributing",
       ".agents/skills/dependabot-review",
@@ -41703,7 +41705,7 @@
       ".flue/.agents/skills/spam-and-off-topic-filter",
       ".flue/.agents/skills/style-guide-review"
     ],
-    "lastUpdated": "2026-08-14T10:17:30.930Z"
+    "lastUpdated": "2026-08-14T13:45:01.779Z"
   },
   {
     "source": "github:cloudflare/kumo",
@@ -41782,8 +41784,8 @@
   },
   {
     "source": "github:cloudflare/workerd",
-    "rev": "3d43d416091364edaf7905448ecf8dcb0cc7b503",
-    "hash": "0s04w8zmm80nx0x238rb29q87a2xvwpmsrb7nwqfi2nk0wz0l3ww",
+    "rev": "c15dd17c4db2a069b0d255ae03c37894d54a1e0c",
+    "hash": "11kp5fl6vmhj8772sczxh87zc8smy6pszhdw4sykxgl0h5rc8ls0",
     "skills": [
       ".opencode/skills/bazel-test-hygiene",
       ".opencode/skills/commit-categories",
@@ -41803,7 +41805,7 @@
       ".opencode/skills/workerd-api-review",
       ".opencode/skills/workerd-safety-review"
     ],
-    "lastUpdated": "2026-08-14T05:02:46.356Z"
+    "lastUpdated": "2026-08-14T13:43:03.256Z"
   },
   {
     "source": "github:cloudinary-devs/cloudinary-get-started",
@@ -42601,8 +42603,8 @@
   },
   {
     "source": "github:cnwu16/vedic-astro-skills",
-    "rev": "b901349876a6721e41ee03191b54d6fb3394615f",
-    "hash": "1lc1lj3izvpxblcl5mj72bw7wivcn8cygw445qh9idjgh5sl6ifn",
+    "rev": "4c560781f3c46d7f139f804ad6010942b7e6ef2f",
+    "hash": "1l7l9ja28jcmqvabwfnh0njqzwa88c3a1bgqdxv0rxiggjq5qg8z",
     "skills": [
       "antigravity/skills/vedic-calculator",
       "antigravity/skills/vedic-career",
@@ -42613,7 +42615,7 @@
       "antigravity/skills/vedic-rectifier",
       "antigravity/skills/vedic-synastry"
     ],
-    "lastUpdated": "2026-08-12T13:47:55.995Z"
+    "lastUpdated": "2026-08-14T13:43:22.477Z"
   },
   {
     "source": "github:cnwzhu/gpui-skills",
@@ -44009,12 +44011,12 @@
   },
   {
     "source": "github:codewithhashim/express-backend-starter-skill",
-    "rev": "fd4eb470fe15d71f1b10d29a727ee1332b3788a4",
-    "hash": "1qnq7r5aa1wb2ni6qbf0wvfivdsj4smbwszay1r3lj1yivl7lhx9",
+    "rev": "87c2b131860d317e2e764e5f924eb6e0a39595d7",
+    "hash": "1nqihlyfbx9820d6jxms6b3ay1bzmlzj4wmp1pjb6ywl3ag4y28d",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-08-12T13:47:37.014Z"
+    "lastUpdated": "2026-08-14T13:43:13.623Z"
   },
   {
     "source": "github:codewithjv/agent-skills",
@@ -44367,8 +44369,8 @@
   },
   {
     "source": "github:codyswanngt/lisa",
-    "rev": "da7ba2268e1186203793727fe7550e1ec102d565",
-    "hash": "028k8lmaas99hppy2jlkj5y8298k331ld93i15wxqyb8vs50iagx",
+    "rev": "77c901c38c27631fd831099dbe249d72697faf95",
+    "hash": "1pd77mnahyc8a0326ky0s7prn7mk4ibpl7n61ashjr68mdih9ssj",
     "skills": [
       ".agents/skills/claude-code-action",
       ".agents/skills/harness-parity-council",
@@ -44678,7 +44680,7 @@
       "plugins/lisa-wiki/.codex-plugin/skills/lisa-setup-wiki",
       "plugins/lisa-wiki/.codex-plugin/skills/lisa-status"
     ],
-    "lastUpdated": "2026-08-14T10:17:03.758Z"
+    "lastUpdated": "2026-08-14T13:43:30.821Z"
   },
   {
     "source": "github:coeus-ventures/epic-web",
@@ -45124,13 +45126,13 @@
   },
   {
     "source": "github:coinpaprika/skills",
-    "rev": "b2087d0ffbf94bdb6faa271f0d4ea57eedfbfd20",
-    "hash": "1s5a4s0yw7mfr4z7w6qj9kf0sfa31fd8z7ax8430ad94a7mgsw8a",
+    "rev": "e2b411044216e24feaefc07fb3c7f246a982c32a",
+    "hash": "1dkmwnyhkxjx4xy57y9w29mwjq94vr7ah61xydwxbam9cpaicgdr",
     "skills": [
       "coinpaprika-api",
       "dexpaprika-api"
     ],
-    "lastUpdated": "2026-08-14T07:50:23.940Z"
+    "lastUpdated": "2026-08-14T13:42:55.536Z"
   },
   {
     "source": "github:coinpilot-labs/skills",
@@ -45172,13 +45174,14 @@
   },
   {
     "source": "github:colaberryintern/colaberryenterprise_ai_leadershipaccelerator",
-    "rev": "4078338fea5495e13fde44bf6a4812494482adf1",
-    "hash": "1qy716z6xy95z1jzmcysfpq4qig429z5fq91qanqp73kxnhgxydr",
+    "rev": "9201a15c2f65944d009f1932a4698496a8a86b2b",
+    "hash": "1h0yvcz8i7fybazpawfwybyd6hrj33lzcffa27c62i9ihf62if2m",
     "skills": [
       ".claude/skills/baseline-ui",
       ".claude/skills/build-ai-ops-command-center",
       ".claude/skills/build-curriculum-type",
       ".claude/skills/build-platform-agent",
+      ".claude/skills/build-student-project",
       ".claude/skills/fixing-accessibility",
       ".claude/skills/fixing-motion-performance",
       ".claude/skills/frontend-design",
@@ -45189,7 +45192,7 @@
       ".claude/skills/ui-ux-design",
       "frontend/public/knowledge/design"
     ],
-    "lastUpdated": "2026-08-14T05:02:46.328Z"
+    "lastUpdated": "2026-08-14T13:43:05.640Z"
   },
   {
     "source": "github:colbymchenry/codegraph",
@@ -45342,8 +45345,8 @@
   },
   {
     "source": "github:coleam00/archon",
-    "rev": "f1488b71e01b92baee99f95d378f5016e73e8678",
-    "hash": "06lgw3qnyi5lgl3j06l2wksnnzk70zfx83b3wmd3004l9zjx3jnx",
+    "rev": "6f3abfea30070255923518ed00c238d2fa83105c",
+    "hash": "1g8372iv237nx5wbddfiih6jfibq4qfg0847bcb195gh6nbclnrr",
     "skills": [
       ".claude/skills/agent-browser",
       ".claude/skills/archon",
@@ -45360,7 +45363,7 @@
       ".claude/skills/triage",
       ".claude/skills/validate-ui"
     ],
-    "lastUpdated": "2026-08-14T10:15:49.853Z"
+    "lastUpdated": "2026-08-14T13:42:59.513Z"
   },
   {
     "source": "github:coleam00/excalidraw-diagram-skill",
@@ -45626,8 +45629,8 @@
   },
   {
     "source": "github:comet-ml/opik",
-    "rev": "fc3372b3275340b4a9f04fa6796514ef038a8a8b",
-    "hash": "1jfjcfmc7fvqpyas65jx7gkpwmp4k2wlibb769dlv66jq55vjxzz",
+    "rev": "8c6972dd1aef10c580c1e5db7c5ba5e4fe779698",
+    "hash": "1v4yj40rjl8735xh8kblicsaal48blbm23bl23v3hfs47vd28q81",
     "skills": [
       ".agents/skills/add-code-quality-hook",
       ".agents/skills/analytics-instrumentation",
@@ -45649,7 +45652,7 @@
       ".agents/skills/writing-e2e-tests",
       ".agents/skills/writing-visual-tests"
     ],
-    "lastUpdated": "2026-08-14T10:16:13.877Z"
+    "lastUpdated": "2026-08-14T13:43:27.180Z"
   },
   {
     "source": "github:comet-ml/opik-skills",
@@ -50454,8 +50457,8 @@
   },
   {
     "source": "github:coollabsio/coolify",
-    "rev": "857375f69cae1f5aa8cb016d116a1b56672c47c0",
-    "hash": "18aal6nx3f559ygq6z2gckmkdjg0h68cr1212h9rb1zwi3035kmb",
+    "rev": "a257224bb72d7e54d7148a9d509655a4e73a3adb",
+    "hash": "1x76bza1v87jqmblms5v1nid5jbnlfk25gawwwd0qz3fp5iq5vz4",
     "skills": [
       ".agents/skills/configure-nightwatch",
       ".agents/skills/configuring-horizon",
@@ -50470,7 +50473,7 @@
       ".agents/skills/socialite-development",
       ".agents/skills/tailwindcss-development"
     ],
-    "lastUpdated": "2026-08-14T10:16:34.547Z"
+    "lastUpdated": "2026-08-14T13:43:55.586Z"
   },
   {
     "source": "github:coollabsio/coolify-docs",
@@ -50603,8 +50606,8 @@
   },
   {
     "source": "github:copilotkit/copilotkit",
-    "rev": "6a5bb62b62b0d351abb35a2fe3bb0fed547a275d",
-    "hash": "15mxh4hd7kps9w1w65wml8021kc8xgxp4qqvqfqndr7rnzh5xfcg",
+    "rev": "97addd4cc5430b9d640b893648e829c43dfebbbe",
+    "hash": "1lqs80q29mjqfm7aqzxgzmc53h6mx18p823385s806hbc3bx39aq",
     "skills": [
       "examples/showcases/open-mcp-client/apps/mcp-use-server/.agent/skills/chatgpt-app-builder",
       "examples/showcases/open-mcp-client/apps/mcp-use-server/.agent/skills/mcp-apps-builder",
@@ -50625,7 +50628,7 @@
       "skills/runtime",
       "skills/setup-slack-channel"
     ],
-    "lastUpdated": "2026-08-14T05:04:19.605Z"
+    "lastUpdated": "2026-08-14T13:44:40.727Z"
   },
   {
     "source": "github:copilotkit/opengenerativeui",
@@ -51366,8 +51369,8 @@
   },
   {
     "source": "github:cosmix/claude-loom",
-    "rev": "01284f4e640ae127b4090323d2f415e4148712ef",
-    "hash": "10ipgsklys4kqrxx6na1jlzh2zsjb11nm3lg1h5as2k4qyb28g2v",
+    "rev": "6158348d67a7e0fccd8ab5e9e0b3117fbedb228e",
+    "hash": "069iry881l9x5iy28hs45k5xalg6izazii1zvbvsbbyinx0g46ni",
     "skills": [
       "codex/skills/pressure",
       "skills/loom-accessibility",
@@ -51432,12 +51435,12 @@
       "skills/loom-webhooks",
       "skills/loom-wiring-test"
     ],
-    "lastUpdated": "2026-08-14T10:16:41.155Z"
+    "lastUpdated": "2026-08-14T13:43:09.236Z"
   },
   {
     "source": "github:cosmix/loom",
-    "rev": "01284f4e640ae127b4090323d2f415e4148712ef",
-    "hash": "10ipgsklys4kqrxx6na1jlzh2zsjb11nm3lg1h5as2k4qyb28g2v",
+    "rev": "6158348d67a7e0fccd8ab5e9e0b3117fbedb228e",
+    "hash": "069iry881l9x5iy28hs45k5xalg6izazii1zvbvsbbyinx0g46ni",
     "skills": [
       "codex/skills/pressure",
       "skills/loom-accessibility",
@@ -51502,7 +51505,7 @@
       "skills/loom-webhooks",
       "skills/loom-wiring-test"
     ],
-    "lastUpdated": "2026-08-14T10:16:41.188Z"
+    "lastUpdated": "2026-08-14T13:43:08.953Z"
   },
   {
     "source": "github:cosmoblk/email-marketing-bible",
@@ -52029,14 +52032,14 @@
   },
   {
     "source": "github:crafter-station/petdex",
-    "rev": "f2ea48aac6f89fbaeedd6a639faf4e208864ae5d",
-    "hash": "02hwxl6k0l2k8wz0qjzwksj3nw9clnkacfg2v77c9gr6pdw6gq2n",
+    "rev": "0243af614f30eee31913ff3e3839467615c1c744",
+    "hash": "1j372i7jg3sqw9wp3v74c71v0wqqlk39g6lpwnc1ws5yrrs7s523",
     "skills": [
       ".agents/skills/code-review-excellence",
       ".agents/skills/coss",
       ".agents/skills/coss-particles"
     ],
-    "lastUpdated": "2026-08-14T07:50:31.072Z"
+    "lastUpdated": "2026-08-14T13:43:24.288Z"
   },
   {
     "source": "github:crafter-station/skill-kit",
@@ -53911,12 +53914,12 @@
   },
   {
     "source": "github:ctxrs/ctx",
-    "rev": "d388fb976ee053ab349dd14b9767295d5008571d",
-    "hash": "1jzja17y159w5yvydcb0vkdw32457wf2b2bx2fj9l514pi15jgdz",
+    "rev": "4a9d5ada9fdaff0744d7b2301cb977fefc66f627",
+    "hash": "0ql23zhi9p4rwzry0k9k152w1qrrkj13haz4xb41jxpq32xjy4dc",
     "skills": [
       "skills/ctx-agent-history-search"
     ],
-    "lastUpdated": "2026-08-14T10:16:08.416Z"
+    "lastUpdated": "2026-08-14T13:42:45.893Z"
   },
   {
     "source": "github:cuba6112/skillfactory",
