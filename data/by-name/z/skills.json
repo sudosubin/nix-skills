@@ -1701,7 +1701,7 @@
   },
   {
     "source": "github:zacklecon/claude-skills",
-    "rev": "b6f36825ca245a902ba9071b7ab7366504914e18",
+    "rev": "30b5ba9b1d7d22669c10095eb9f01fe7f1920af0",
     "hash": "1k3ghqg71y0sxcdm52mqw0faap2anxr8k1riv4hbgpkgixfry5zj",
     "skills": [
       "skills/angular-architect",
@@ -1771,7 +1771,7 @@
       "skills/websocket-engineer",
       "skills/wordpress-pro"
     ],
-    "lastUpdated": "2026-08-16T18:56:39.440Z"
+    "lastUpdated": "2026-08-17T02:05:35.522Z"
   },
   {
     "source": "github:zadanthony/arbiscan-skill",
@@ -2240,8 +2240,8 @@
   },
   {
     "source": "github:zard-ui/zardui",
-    "rev": "1ce45011d7a9d74476c0ed7b6a6863a180823998",
-    "hash": "1mc9d0d4sr5ppzq3hjqndfafwn3xam5y5vy89fx3lrw1zx36w78l",
+    "rev": "e82d53571a6958a82297a5d66cb10126ddedced5",
+    "hash": "0zwb9d4w766vq4033qs2x9yvr2vwpb9f8jwlxnljzqgz7bj6zys4",
     "skills": [
       ".agents/skills/angular-component",
       ".agents/skills/angular-di",
@@ -2260,7 +2260,7 @@
       ".agents/skills/nx-run-tasks",
       ".agents/skills/nx-workspace"
     ],
-    "lastUpdated": "2026-08-16T04:06:48.927Z"
+    "lastUpdated": "2026-08-17T02:04:50.765Z"
   },
   {
     "source": "github:zarvent/obsidian-skills",
@@ -3038,8 +3038,8 @@
   },
   {
     "source": "github:zed-industries/zed",
-    "rev": "b2d9c2e122fbc408d42276b4456243ba4f90f181",
-    "hash": "128qzdz0y2wlry0y7jppznnxiyrah6m82575sdp820wbxbsaq3dx",
+    "rev": "8968bf78084f30809aa2ce1574a3be68ed02a513",
+    "hash": "07g2pl3qk3180wk2p1f8ma3f543jmgrqwm4mk1a5gz41k5jn5614",
     "skills": [
       ".agents/skills/gpui-test",
       ".agents/skills/lint-creator",
@@ -3048,7 +3048,7 @@
       ".factory/skills/humanizer",
       "crates/agent_skills/builtin/create-skill"
     ],
-    "lastUpdated": "2026-08-16T18:57:12.062Z"
+    "lastUpdated": "2026-08-17T02:06:03.935Z"
   },
   {
     "source": "github:zeejay0/gathered-scenes-zine-skill",
@@ -3438,9 +3438,10 @@
   },
   {
     "source": "github:zenobi-us/dotfiles",
-    "rev": "317474eebbcb49c83a014b2c6098d86294f10db1",
-    "hash": "0i4ymlhpjzwc2wncfc6pqhdfbl86f0fmscpgj1ma9zrwr33x23cm",
+    "rev": "24e4df83e503937f81af1a74c47bdd31270ad881",
+    "hash": "08mzxxr3fg8q3rl80154mxlf02giy213qavzb1xhvfgaifdnn2dv",
     "skills": [
+      "devtools/files/pi/agent/bundles/agent-core/skills/docling",
       "devtools/files/pi/agent/bundles/agent-core/skills/shells/herdr",
       "devtools/files/pi/agent/bundles/agent-core/skills/shells/neovim/lazy-nvim-optimization",
       "devtools/files/pi/agent/bundles/agent-core/skills/shells/neovim/neovim-best-practices",
@@ -3452,7 +3453,6 @@
       "devtools/files/pi/agent/bundles/agent-core/skills/sop/sop-rfc2119",
       "devtools/files/pi/agent/bundles/agent-core/skills/sop/sop-structure",
       "devtools/files/pi/agent/bundles/creator/skills/imagegen/generate-images-with-takumi",
-      "devtools/files/pi/agent/bundles/creator/skills/imagegen/invokeai",
       "devtools/files/pi/agent/bundles/developer/skills/atlassian/twg",
       "devtools/files/pi/agent/bundles/developer/skills/atlassian/twg-agentic-search",
       "devtools/files/pi/agent/bundles/developer/skills/atlassian/twg-bench-lite",
@@ -3576,28 +3576,26 @@
       "devtools/files/pi/agent/bundles/platform/skills/devtools/pi-mono/creating-pi-extensions",
       "devtools/files/pi/agent/bundles/platform/skills/devtools/pi-mono/downloading-pi-extensions",
       "devtools/files/pi/agent/bundles/platform/skills/devtools/pi-mono/working-with-pi-coding-agent-shared-sessions",
-      "devtools/files/pi/agent/bundles/platform/skills/dotfiles/comtrya-dotfile-manager",
       "devtools/files/pi/agent/bundles/platform/skills/homeassistant/home-assistant-best-practices",
       "devtools/files/pi/agent/bundles/platform/skills/homeassistant/home-assistant-cli-ops",
       "devtools/files/pi/agent/bundles/platform/skills/homeassistant/homeassistant-ops",
       "devtools/files/pi/agent/bundles/platform/skills/homeassistant/homeassistant-router",
       "devtools/files/pi/agent/bundles/platform/skills/unifi/unifi-dream-machine-api",
-      "devtools/files/pi/agent/bundles/platform/unifi",
       "devtools/files/pi/agent/bundles/private-share/skills/share-artifacts-privately",
-      "devtools/files/pi/agent/bundles/researcher/skills/devtools/lynx-web-search",
-      "devtools/files/pi/agent/bundles/researcher/skills/devtools/searxng-web-search",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/decider",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/deep-research",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/dep-radar",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/dev",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/github",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/html-artifact",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/linear",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/orch",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/project-management",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/reviewer",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/second-opinion",
-      "devtools/files/pi/agent/bundles/vanilla-green/skills/skills/worktree",
+      "devtools/files/pi/agent/bundles/researcher/skills/search/lynx-web-search",
+      "devtools/files/pi/agent/bundles/researcher/skills/search/searxng-web-search",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/decider",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/deep-research",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/dep-radar",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/dev",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/github",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/html-artifact",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/linear",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/orch",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/project-management",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/reviewer",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/second-opinion",
+      "devtools/files/pi/agent/bundles/vanilla-green/skills/worktree",
       "devtools/files/pi/agent/bundles/writing/skills/aussie-business-english",
       "devtools/files/pi/agent/bundles/writing/skills/award-application",
       "devtools/files/pi/agent/bundles/writing/skills/nz-business-english",
@@ -3618,7 +3616,7 @@
       "devtools/files/pi/agent/extensions/@zenobius/ponytail/skills/ponytail-review",
       "devtools/files/pi/agent/packages/pi-ask/skills/ask-user"
     ],
-    "lastUpdated": "2026-08-14T13:52:42.829Z"
+    "lastUpdated": "2026-08-17T02:05:24.318Z"
   },
   {
     "source": "github:zenobi-us/zenobi-us",
@@ -4122,8 +4120,8 @@
   },
   {
     "source": "github:zernie/vigiles",
-    "rev": "14cb830c6ff06454f885236fd5a205317dd71885",
-    "hash": "1bgfbkp47r9i5i14cay9a803g6n3jsdh0ajav99d628g1cc7sc30",
+    "rev": "f8280a93dbd5b46f3476b576244cd158ceb38794",
+    "hash": "1wpdg4yv8a50pkn9vdzb0ga2za5p4hm1p15f6s2zwzs0k9yjhz8z",
     "skills": [
       ".claude/skills/add-a-linter",
       ".claude/skills/audience-check",
@@ -4159,7 +4157,7 @@
       "test/dogfood/wshobson-accessibility@cf6059d/skills/screen-reader-testing",
       "test/dogfood/wshobson-accessibility@cf6059d/skills/wcag-audit-patterns"
     ],
-    "lastUpdated": "2026-08-16T18:55:19.147Z"
+    "lastUpdated": "2026-08-17T02:02:41.928Z"
   },
   {
     "source": "github:zernio-dev/social-media-api-best-practices",
@@ -9453,8 +9451,8 @@
   },
   {
     "source": "github:zolotukhin/zinc",
-    "rev": "c8a38af96df6d22e043e5d173eb785de0ce29514",
-    "hash": "1dral8f69qdqavx1qaffisgfkc4r9v8yx15laz45lfvkb8nv997f",
+    "rev": "5d8f28e369ff294f20187dea8d1343323059a484",
+    "hash": "0jh0nryj9c54mdaj1z0swqa95fa7hfa9adqwiaaajhn4clys5xzf",
     "skills": [
       ".agents/skills/speckit-analyze",
       ".agents/skills/speckit-checklist",
@@ -9467,7 +9465,7 @@
       ".agents/skills/speckit-taskstoissues",
       ".claude/skills/zig-docgen"
     ],
-    "lastUpdated": "2026-08-16T18:56:47.308Z"
+    "lastUpdated": "2026-08-17T02:03:47.682Z"
   },
   {
     "source": "github:zonein-workspace/zonein-skill",
@@ -10264,6 +10262,26 @@
     "lastUpdated": "2026-08-12T13:59:11.107Z"
   },
   {
+    "source": "github:ztemerbekov/a1-yandex-kit-skills",
+    "rev": "89b4dae4e22475153429ccede4d20e674429ed81",
+    "hash": "1ls9i2ivndfw6c7995c2c0f9zsmw7inqnl1dp77lafs3wkp74xhh",
+    "skills": [
+      ".claude/skills/verify",
+      "skills/a1-yandex-kit",
+      "skills/a1-yandex-kit-catalog",
+      "skills/a1-yandex-kit-catalog-doctor",
+      "skills/a1-yandex-kit-launch-check",
+      "skills/a1-yandex-kit-operator",
+      "skills/a1-yandex-kit-orders",
+      "skills/a1-yandex-kit-promo-launcher",
+      "skills/a1-yandex-kit-promotions",
+      "skills/a1-yandex-kit-setup",
+      "skills/a1-yandex-kit-store",
+      "skills/a1-yandex-kit-webhooks"
+    ],
+    "lastUpdated": "2026-08-17T02:04:09.167Z"
+  },
+  {
     "source": "github:ztj7728/gemini-image-generation",
     "rev": "9d2727cab3ab9e50d20f4ba4ae57aa57755edecd",
     "hash": "0c487icsrqbghq4bwzb6d6i47cbbqif3kgbfb3lvwpaxc19z6hs0",
@@ -10878,11 +10896,11 @@
   },
   {
     "source": "github:zzzlc0405/photo-abstract-editorial",
-    "rev": "47007ca2c9b11de0d79dbb9ef18d472c49e6c2fc",
-    "hash": "0r9mib7qm4iixwr8rg6pysx3slnynqavp0icm35kzwdcjvapxk1d",
+    "rev": "c7904b70c9829f614b37064d0005149b8a2037dc",
+    "hash": "0qy5iin1vvcpbw3h44wdplk8585d9bqn7zn0vfbzqhg9fwsdbmkf",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-08-16T07:08:56.985Z"
+    "lastUpdated": "2026-08-17T02:04:33.424Z"
   }
 ]
