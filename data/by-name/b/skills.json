@@ -2387,12 +2387,11 @@
   },
   {
     "source": "github:Borda/AI-Rig",
-    "rev": "b23d903efc77b7d2b26c09383163a3d1428c6375",
-    "hash": "00k2v936wdxnyykr5c4b03kxg6dmicy64cd8z8ppdymawhl92i8p",
+    "rev": "f157e1f5c0820affa6d0912f91b3d24990f5755a",
+    "hash": "1f96k30wdac2s99dvm3dyjcsw1gkhdbdbaha3vmd78x419inwiyn",
     "skills": [
       "plugins/bridge_cc-codex/claude-skills/advise",
       "plugins/bridge_cc-codex/claude-skills/cancel",
-      "plugins/bridge_cc-codex/claude-skills/delegate",
       "plugins/bridge_cc-codex/claude-skills/implement",
       "plugins/bridge_cc-codex/claude-skills/result",
       "plugins/bridge_cc-codex/claude-skills/review",
@@ -2438,7 +2437,7 @@
       "plugins/codex-rig/skills/research",
       "plugins/codex-rig/skills/sync"
     ],
-    "lastUpdated": "2026-08-19T09:49:39.158Z"
+    "lastUpdated": "2026-08-19T13:08:59.329Z"
   },
   {
     "source": "github:Brainrot-Creations/claude-plugins",
@@ -2569,8 +2568,8 @@
   },
   {
     "source": "github:BuilderIO/agent-native",
-    "rev": "a2d0c7b0ac78f36e8c0a05044f9822f54885b4b8",
-    "hash": "0bvj2985pvpab5fdra9hms32mshlrmwbyjdfmb52l9wjmdlhyhjy",
+    "rev": "1b046499f6719807cfbf4a4e4a188d76452508e5",
+    "hash": "0d11sfdqrbcrxcb76s109i4l0s82w1b3d19bf7ixff8jkcy4rn7a",
     "skills": [
       ".agents/plugins/agent-native-visual-plans/skills/visual-plan",
       ".agents/skills/a2a-protocol",
@@ -2732,6 +2731,7 @@
       "templates/content/.agents/skills/document-editing",
       "templates/content/.agents/skills/notion-integration",
       "templates/crm/.agents/skills/crm",
+      "templates/design/.agents/skills/design-editor-architecture",
       "templates/design/.agents/skills/design-generation",
       "templates/design/.agents/skills/design-review-feedback",
       "templates/design/.agents/skills/design-systems",
@@ -2781,7 +2781,7 @@
       "templates/tasks/.agents/skills/store-conventions",
       "templates/tasks/.agents/skills/task-inbox-workflow"
     ],
-    "lastUpdated": "2026-08-19T09:49:53.904Z"
+    "lastUpdated": "2026-08-19T13:09:43.370Z"
   },
   {
     "source": "github:Burburton/amazingteam",
@@ -3096,8 +3096,8 @@
   },
   {
     "source": "github:b-open-io/prompts",
-    "rev": "41cb26160cef94aa490fb1b97d300cb72422b962",
-    "hash": "1l6h5ikh096r6xs9sv0wj861hsj2gky6sm9asddw144zxl1j384q",
+    "rev": "507d8cfb7af4f1b97e2f83faa5bc06da88e464b7",
+    "hash": "1bxwrkn3snlbmvcdnqavqx0pza6h52s7a7hbqmaj3n81wib4fqak",
     "skills": [
       ".agents/skills/add-app-to-server",
       ".agents/skills/convert-web-app",
@@ -3177,13 +3177,14 @@
       "skills/hook-manager",
       "skills/humanize",
       "skills/linear-planning",
+      "skills/postplan",
       "skills/reinforce-skills",
       "skills/remind",
       "skills/runtime-context",
       "skills/setup",
       "skills/visual-wayfinder"
     ],
-    "lastUpdated": "2026-08-15T12:58:39.794Z"
+    "lastUpdated": "2026-08-19T13:08:09.026Z"
   },
   {
     "source": "github:b-step62/skills",
@@ -5221,15 +5222,15 @@
   },
   {
     "source": "github:baptistearno/typebot.io",
-    "rev": "6796f583ed7b3ba3938d0bcb3c3be33e6e27151d",
-    "hash": "1av89xqwbwddjw5d5afvspgayva9fr5c7g7crjvcldgmfmf562g9",
+    "rev": "33aa58d638ac68002bf01c7b87afc82a9907cb3e",
+    "hash": "161qjr66q55vwjkvp4b6qipqc4facw64xkwv9gmcrqrz5snk2l9g",
     "skills": [
       ".agents/skills/commit",
       ".agents/skills/ui",
       ".agents/skills/update-models",
       ".agents/skills/web-animation-design"
     ],
-    "lastUpdated": "2026-08-19T09:49:12.017Z"
+    "lastUpdated": "2026-08-19T13:08:32.377Z"
   },
   {
     "source": "github:bar2133/skills",
@@ -5566,13 +5567,13 @@
   },
   {
     "source": "github:basecamp/omarchy",
-    "rev": "fa955bfa9d2c94339f452e4c56cb5bbfc5e1718e",
-    "hash": "0yl1dsw6g0zrhwsyzi23mzpgs8zxfgww2y2s2sj2ks6pb24xvl8k",
+    "rev": "1e70cca144eb54a998217cb61fe92e1a6ca51ed2",
+    "hash": "01rmfi9lpswj0gh1lcw7s8zmr6xpfiimpal8l8riiz4s0wskw6pb",
     "skills": [
       "default/agents/skills/diagnose-crash",
       "default/agents/skills/omarchy"
     ],
-    "lastUpdated": "2026-08-18T21:37:39.836Z"
+    "lastUpdated": "2026-08-19T13:08:29.965Z"
   },
   {
     "source": "github:basecamp/skills",
@@ -5586,12 +5587,12 @@
   },
   {
     "source": "github:basedhardware/omi",
-    "rev": "2ab433203cd4282067aba27280c1c444deb79f41",
-    "hash": "0g8ygh7g69rslawcdxfljnjgrv9j8z464a4cz865aacwvr0kqzpy",
+    "rev": "b3f83834e7ecdc06b02947747377379dd951112f",
+    "hash": "170xk1qzbpaayxdyy3cvndcs8j6nkbkj8yfzm944p7vwdl1a4pcy",
     "skills": [
       "app/e2e"
     ],
-    "lastUpdated": "2026-08-19T09:49:43.517Z"
+    "lastUpdated": "2026-08-19T13:09:04.993Z"
   },
   {
     "source": "github:basehub-ai/forums",
@@ -7180,8 +7181,8 @@
   },
   {
     "source": "github:bebang-enterprise-inc/hrms",
-    "rev": "744bdbbb563c2fd0cf8819952b85fd4a32efdf64",
-    "hash": "1hlwk7003pa442741gwi08fscdx3d1virnj5yb8nqin1434scnpl",
+    "rev": "3d42ab80a436d3ca42b9e80df083818bbd061906",
+    "hash": "0pvwzm4v8n3cha2jaraqw3d3phl26gwzpq86a575pvvn8cfwy77g",
     "skills": [
       ".agent/skills/audit-plan-bei-erp",
       ".agent/skills/finance-ap",
@@ -7191,7 +7192,7 @@
       ".claude/skills/deploy-frappe-bei-erp",
       ".claude/skills/test-full-cycle"
     ],
-    "lastUpdated": "2026-08-19T09:49:13.142Z"
+    "lastUpdated": "2026-08-19T13:08:23.116Z"
   },
   {
     "source": "github:beclab/olares",
@@ -12851,8 +12852,8 @@
   },
   {
     "source": "github:biomejs/biome",
-    "rev": "142b7fadd8fe4d9875780249a69c9ffe79330972",
-    "hash": "1c4crbcfd727miljmdzb9yla9jc1bswn3h82gb274vjf8hv6ymm8",
+    "rev": "34b715cb417d482bfb4630c05a576b748c8faa8b",
+    "hash": "1acc45jrpichsf95wwas7clr6vrn8nqyha12269r6npi19f3sgs8",
     "skills": [
       ".claude/skills/biome-code-review",
       ".claude/skills/biome-developer",
@@ -12867,7 +12868,7 @@
       ".claude/skills/testing-codegen",
       ".claude/skills/type-inference"
     ],
-    "lastUpdated": "2026-08-18T21:39:01.676Z"
+    "lastUpdated": "2026-08-19T13:10:06.997Z"
   },
   {
     "source": "github:bioshaun/tc-skills",
@@ -13285,8 +13286,8 @@
   },
   {
     "source": "github:bitwarden/clients",
-    "rev": "6378a490446c5c40bc04133dd7da38329b7413ec",
-    "hash": "139l28mzhl4wf8gyxxg9dps03ymwz35a02dbnz2smx5yjilphsxk",
+    "rev": "2a492c02b612b2819785b0e3c6823ea5f15d4691",
+    "hash": "0cp155n253l8y14y9ffiyycvgb8v9d23xcn9w5nsvj93a0wq7afy",
     "skills": [
       ".claude/skills/angular-modernization",
       ".claude/skills/cipher-type-planner",
@@ -13296,7 +13297,7 @@
       ".claude/skills/fix-angular-fixmes",
       ".claude/skills/writing-client-code"
     ],
-    "lastUpdated": "2026-08-19T01:53:05.240Z"
+    "lastUpdated": "2026-08-19T13:08:52.912Z"
   },
   {
     "source": "github:bitwize-music-studio/claude-ai-music-skills",
@@ -14290,14 +14291,50 @@
   },
   {
     "source": "github:blencorp/skills",
-    "rev": "2d18dd27b338c662edcbca80f79c08bfbb0a036f",
-    "hash": "1fl2xr4cflpa51g5fhcn1vxxdas4ls9sx88ddjxyxg9i1s3yvpv1",
+    "rev": "cefbc21c095ca29b4d9a97e7eff5b1db1cbfce53",
+    "hash": "01lmppnsk8xgnrqs1q8iwp0i6kz6zyz9bvx01my6f47cc44dwyp1",
     "skills": [
+      "federal/cbp-design-system",
+      "federal/cdc-dibbs-design-system",
+      "federal/cfpb-design-system",
+      "federal/cms-design-system",
+      "federal/cms-gov-design-system",
+      "federal/fec-pattern-library",
+      "federal/gsa-usds",
+      "federal/healthcare-gov-design-system",
+      "federal/irs-web-design-system",
+      "federal/jpl-explorer-1",
+      "federal/jpl-stellar-design-system",
+      "federal/login-gov-design-system",
+      "federal/medicare-gov-design-system",
+      "federal/nasa-horizon-design-system",
+      "federal/nci-design-system",
+      "federal/sam-design-system",
+      "federal/usda-fpac-design-system",
+      "federal/uswds-elements",
+      "federal/va-design-system",
       "gsa-mas",
+      "public-sector-design-systems",
+      "states/alaska-look-and-feel",
+      "states/delaware-lighthouse",
+      "states/georgia-orchard",
+      "states/louisiana-pelican",
+      "states/maryland-web-design-system",
+      "states/massachusetts-design-system",
+      "states/michigan-digital-guidelines",
+      "states/missouri-gov-design-system",
+      "states/montana-gov-template",
+      "states/new-jersey-web-design-system",
+      "states/new-york-state-design-system",
+      "states/pennsylvania-keystone",
+      "states/rhode-island-pattern-library",
+      "states/texas-design-system",
+      "states/utah-design-system",
+      "states/virginia-web-standards",
       "usmds",
       "uswds"
     ],
-    "lastUpdated": "2026-07-16T14:22:51.144Z"
+    "lastUpdated": "2026-08-19T13:09:15.321Z"
   },
   {
     "source": "github:blessonism/github-explorer-skill",
@@ -14530,17 +14567,17 @@
   },
   {
     "source": "github:block/buzz",
-    "rev": "93114c9c65138397de39729fde0a816eb9f314ab",
-    "hash": "0qcqab6agnydd18cns3l4jy8gn5xz6cmy6kkymyjgq5hhkv4lviy",
+    "rev": "e5a6e2022fb59c3928b054bc8d51874465fbe3df",
+    "hash": "0zsc393rnaj5qx01i7r1h23f4a8lvzlxqb1qn70jip024vv4a3n9",
     "skills": [
       "examples/meadow-core/skills/github-research"
     ],
-    "lastUpdated": "2026-08-19T01:53:22.359Z"
+    "lastUpdated": "2026-08-19T13:13:51.306Z"
   },
   {
     "source": "github:block/proto-fleet",
-    "rev": "b350af2dcd159151849f3525b36e526aa663dd72",
-    "hash": "1gmlwwzaavawgqm1i2jgnz60yp7798nf68hp8xck7qslfs9phdyw",
+    "rev": "6fe9d24a432657b30e0cfbbdb560407a184869ef",
+    "hash": "0ywjpbpfaq1y1brawdsb45x3qxzxqd3b4bqmfj8csadk3bj93ij5",
     "skills": [
       ".claude/skills/asicrs-build",
       ".claude/skills/buf-version-pinning",
@@ -14558,7 +14595,7 @@
       ".claude/skills/proto-regen",
       ".claude/skills/python-gen-tarball"
     ],
-    "lastUpdated": "2026-08-19T01:53:21.382Z"
+    "lastUpdated": "2026-08-19T13:09:40.739Z"
   },
   {
     "source": "github:blockbeatsofficial/blockbeats-skill",
@@ -15184,8 +15221,8 @@
   },
   {
     "source": "github:bmad-code-org/bmad-method",
-    "rev": "86beb06547dd28059a7ddba0b027fb449d88eedb",
-    "hash": "0kdkph09x79f4ll2d9sj9vlxd0f73b7gkxic8w520chh0vaakdqs",
+    "rev": "67d876f1c317a82123e429d0c078ff3c601a99a8",
+    "hash": "120d0dpn5wycg6fiq1frv9ap22kqkjvf5cbx38xm24pz83mzd0a2",
     "skills": [
       "src/bmm-skills/agents/bmad-agent-analyst",
       "src/bmm-skills/agents/bmad-agent-architect",
@@ -15246,7 +15283,7 @@
       "web-bundles/product-brief-coach",
       "web-bundles/ux-coach"
     ],
-    "lastUpdated": "2026-08-18T01:51:13.775Z"
+    "lastUpdated": "2026-08-19T13:08:08.385Z"
   },
   {
     "source": "github:bmad-labs/skills",
@@ -15353,14 +15390,15 @@
   },
   {
     "source": "github:bmsuisse/skills",
-    "rev": "164d0dba28b67e27bfd12a60a48b4a81179995f4",
-    "hash": "1j9632jkfmqzb95rmb2xm16wwbsqap8qp9i84kgy1jbhlbrk35s5",
+    "rev": "cc5d6b49762aa3ae03d7e57defd5960ae8bfce8e",
+    "hash": "1mbzxmfzvilkcqlgygwg5zvl34kfbgsf6vysnvyv8w57lr85ridb",
     "skills": [
       "skills/aiochannel-python",
       "skills/autoresearch",
       "skills/azure-cost",
       "skills/bms",
       "skills/bms-frontend-design",
+      "skills/clockify",
       "skills/code-comments",
       "skills/codeunit-analyzer",
       "skills/coding-guidelines-python",
@@ -15401,7 +15439,7 @@
       "skills/tanstack-best-practices",
       "skills/testing-strategy"
     ],
-    "lastUpdated": "2026-08-17T09:58:06.758Z"
+    "lastUpdated": "2026-08-19T13:08:10.669Z"
   },
   {
     "source": "github:bmz404/bmzskill",
@@ -24751,8 +24789,8 @@
   },
   {
     "source": "github:browseros-ai/browseros",
-    "rev": "b51d015ba0fedf9198942078c94a58e9dc6bc5ae",
-    "hash": "04zqjz2zxphg162jhx5k2ja58mb3v429xaaccx5zdl2djwafgc7l",
+    "rev": "512332d9c7292245c738007d988cbba85bcb62c2",
+    "hash": "0vg6f2zkh4qds38d4zdvzphyssdxf6pc9hqc5y991aqf32nq0zm4",
     "skills": [
       ".claude/skills/ask-internal",
       ".claude/skills/write-docs",
@@ -24763,7 +24801,7 @@
       "packages/browseros-agent/apps/server/resources/skills/browseros",
       "packages/browseros-agent/resources/skills/browserclaw"
     ],
-    "lastUpdated": "2026-08-19T09:49:09.790Z"
+    "lastUpdated": "2026-08-19T13:09:24.061Z"
   },
   {
     "source": "github:browseros-ai/skills",
@@ -33063,8 +33101,8 @@
   },
   {
     "source": "github:builderio/agent-native",
-    "rev": "a2d0c7b0ac78f36e8c0a05044f9822f54885b4b8",
-    "hash": "0bvj2985pvpab5fdra9hms32mshlrmwbyjdfmb52l9wjmdlhyhjy",
+    "rev": "1b046499f6719807cfbf4a4e4a188d76452508e5",
+    "hash": "0d11sfdqrbcrxcb76s109i4l0s82w1b3d19bf7ixff8jkcy4rn7a",
     "skills": [
       ".agents/plugins/agent-native-visual-plans/skills/visual-plan",
       ".agents/skills/a2a-protocol",
@@ -33226,6 +33264,7 @@
       "templates/content/.agents/skills/document-editing",
       "templates/content/.agents/skills/notion-integration",
       "templates/crm/.agents/skills/crm",
+      "templates/design/.agents/skills/design-editor-architecture",
       "templates/design/.agents/skills/design-generation",
       "templates/design/.agents/skills/design-review-feedback",
       "templates/design/.agents/skills/design-systems",
@@ -33275,7 +33314,7 @@
       "templates/tasks/.agents/skills/store-conventions",
       "templates/tasks/.agents/skills/task-inbox-workflow"
     ],
-    "lastUpdated": "2026-08-19T09:50:28.585Z"
+    "lastUpdated": "2026-08-19T13:09:46.550Z"
   },
   {
     "source": "github:builderio/skills",
@@ -34399,8 +34438,8 @@
   },
   {
     "source": "github:bytedance/deer-flow",
-    "rev": "62ffcff45b954606fe77ec7ccb7395db11ce5f3e",
-    "hash": "0w39p84833pha29l2j3iasss5sy7r0cd7hh7fg7nw432kqh6blhi",
+    "rev": "592b56beac28b68cfd5bcf8af7fbf3bfba252cf5",
+    "hash": "1bg4mig0byjb25pnkln4hqfhxxvyqwg97sb4qh478v614p7ymmz2",
     "skills": [
       ".agent/skills/blocking-io-guard",
       ".agent/skills/deerflow-maintainer-orchestrator",
@@ -34436,18 +34475,18 @@
       "skills/public/video-generation",
       "skills/public/web-design-guidelines"
     ],
-    "lastUpdated": "2026-08-18T15:46:11.127Z"
+    "lastUpdated": "2026-08-19T13:08:49.933Z"
   },
   {
     "source": "github:bytedance/flowgram.ai",
-    "rev": "0d6131410e6f0fb114d067bb4699c57d906d611b",
-    "hash": "0aca3hbbsqr7cx1aaim4djxhln7hz9gbj4xgqrqn803yjv0k3bh6",
+    "rev": "56b191dad5a59e037d62816e8a3d85d6e9b59b59",
+    "hash": "13qqy76si5fz08imd9ny9pibh0i38zwag3z23ihdrcybknzjdvwv",
     "skills": [
       ".claude/skills/create-node",
       ".claude/skills/material-component-dev",
       ".claude/skills/material-component-doc"
     ],
-    "lastUpdated": "2026-08-12T13:47:44.813Z"
+    "lastUpdated": "2026-08-19T13:08:50.885Z"
   },
   {
     "source": "github:bytelandtechnology/cli-forge",
