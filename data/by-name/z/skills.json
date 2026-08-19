@@ -2138,8 +2138,8 @@
   },
   {
     "source": "github:zapier/connectors",
-    "rev": "56900603a2c6b21afc7da07aba30bd6ae8bdc225",
-    "hash": "02fd6qv7axpgy2dpnz9j9xhf4czxw5zvhlnp5719fmr5rzqna0y8",
+    "rev": "07f45b7fcaec88c3dbb84d17d50b2af1542dabd1",
+    "hash": "1jkiwx8bh24qpwgi0d3jyhqlj3nb2sdybpmik9qn6xcq4k9yraks",
     "skills": [
       "apps/algolia",
       "apps/alpaca",
@@ -2165,6 +2165,7 @@
       "apps/microsoft-sharepoint",
       "apps/microsoft-todo",
       "apps/notion",
+      "apps/perplexity",
       "apps/resend",
       "apps/runway",
       "apps/telegram",
@@ -2172,7 +2173,7 @@
       "apps/youtube",
       "plugins/google-sheets-plg/skills/google-sheets-plg"
     ],
-    "lastUpdated": "2026-08-17T21:51:01.122Z"
+    "lastUpdated": "2026-08-19T21:49:31.897Z"
   },
   {
     "source": "github:zapier/sdk",
@@ -3025,8 +3026,8 @@
   },
   {
     "source": "github:zed-industries/zed",
-    "rev": "9bb4787949ee555142487f75f73c73379e520d1b",
-    "hash": "10xxkpr0sjx3a0l0rqp6k174q6w5md48ylybqaz28j4kl6llkfl1",
+    "rev": "30aea6ac4a566689a37536407054015c43647811",
+    "hash": "1lwgp0w2vcil5pcfwapqiacgimbjh5j3i7p7ci4azj9pmcrwj5pk",
     "skills": [
       ".agents/skills/gpui-test",
       ".agents/skills/lint-creator",
@@ -3035,7 +3036,7 @@
       ".factory/skills/humanizer",
       "crates/agent_skills/builtin/create-skill"
     ],
-    "lastUpdated": "2026-08-19T13:21:02.838Z"
+    "lastUpdated": "2026-08-19T21:52:48.819Z"
   },
   {
     "source": "github:zeejay0/gathered-scenes-zine-skill",
@@ -4107,8 +4108,8 @@
   },
   {
     "source": "github:zernie/vigiles",
-    "rev": "04225f99806d5fe6e8adc85ed6ee61426101b4d1",
-    "hash": "00klag0b155acmhdp72glc0am8vr0bbfj3w08sm45yw1bsvynv82",
+    "rev": "ebd1ab99238ca9e740e9b1ec87877d4280dbde6a",
+    "hash": "1nypp8k7l9cy6wzp30rlz5ywkyh3q58icaiwyg7rg7q0nifjp846",
     "skills": [
       ".claude/skills/add-a-linter",
       ".claude/skills/audience-check",
@@ -4137,6 +4138,7 @@
       "skills/linter-docs",
       "skills/strengthen",
       "skills/test-harness",
+      "test/dogfood/claude-octopus@5a9cab8/skills/flow-define",
       "test/dogfood/oh-my-claudecode@deee3a4/skills/ask",
       "test/dogfood/oh-my-claudecode@deee3a4/skills/verify",
       "test/dogfood/superpowers@6fd4507/skills/systematic-debugging",
@@ -4144,7 +4146,7 @@
       "test/dogfood/wshobson-accessibility@cf6059d/skills/screen-reader-testing",
       "test/dogfood/wshobson-accessibility@cf6059d/skills/wcag-audit-patterns"
     ],
-    "lastUpdated": "2026-08-19T13:20:25.574Z"
+    "lastUpdated": "2026-08-19T21:50:02.117Z"
   },
   {
     "source": "github:zernio-dev/social-media-api-best-practices",
@@ -6883,15 +6885,16 @@
   },
   {
     "source": "github:zhulinsen/daily_stock_analysis",
-    "rev": "cfd6b0a5fb9c57685dc2b02ca059fa88d8eff8ec",
-    "hash": "0pic741pl08ly13gvy1sxvnbypbnz3vfw0l5ah2b96pqywc6zbid",
+    "rev": "96bc532dfcb21e3a7d0fdbdfa87d764b9b61d2ee",
+    "hash": "0v5qq45sn5lp2hl6czci6w5m1s5b3nh9h4h25604i46lm7g79k21",
     "skills": [
       ".",
       ".claude/skills/analyze-issue",
       ".claude/skills/analyze-pr",
-      ".claude/skills/fix-issue"
+      ".claude/skills/fix-issue",
+      "docs/examples/grok_bot"
     ],
-    "lastUpdated": "2026-08-17T19:07:45.648Z"
+    "lastUpdated": "2026-08-19T21:52:44.280Z"
   },
   {
     "source": "github:zhumon/claude-code-hubs",
@@ -7642,54 +7645,31 @@
   },
   {
     "source": "github:zizhanovo/doubaoya-community",
-    "rev": "6e16d36b46c8bcaf2807cb84aeffcd84a87cee75",
-    "hash": "06z4pddbdsx7g03cjnxil7732id0wgwimjg8m81c37d1n2g3acxb",
+    "rev": "750de3acea021dbf73a075594f8316889ba2d869",
+    "hash": "0iqhx00kj5hgkdph8rv2wjdmk3jysv201qp3yqqk7gzdfdmjzrlc",
     "skills": [
       "skills/ai-intelligence-investigator",
-      "skills/cn-last30days",
-      "skills/content-parse",
       "skills/dby",
       "skills/dby-charter",
       "skills/dby-update",
-      "skills/doubao-websearch",
       "skills/doubaoya",
       "skills/doubaoya-gateway",
-      "skills/douyin-comment",
-      "skills/douyin-realtime-search",
-      "skills/douyin-search",
-      "skills/gongzhonghao-search",
-      "skills/gzh-ai-feed",
-      "skills/gzh-search",
-      "skills/image-gen",
       "skills/ip-profile",
       "skills/multi-banned-words",
       "skills/multi-rewrite",
       "skills/optimize-skill-md",
       "skills/pdf-image-text-extractor",
       "skills/playlet-wechat-feed",
-      "skills/seedream-5-lite",
       "skills/trending-hub",
-      "skills/trending-hub-top10",
       "skills/wechat-account-analyzer",
       "skills/wechat-article-pipeline",
-      "skills/wechat-banned-words",
-      "skills/wechat-cover",
       "skills/wechat-draft-publish",
-      "skills/wechat-fastest-growing",
-      "skills/wechat-hot-article",
-      "skills/wechat-hot-write",
       "skills/wechat-rewrite",
       "skills/wechat-similar-account",
       "skills/wechat-theme-studio",
-      "skills/wechat-title",
-      "skills/xiaohongshu-crawler",
-      "skills/xiaohongshu-dailytop",
-      "skills/xiaohongshu-hot-notes",
-      "skills/xiaohongshu-rewrite",
-      "skills/xiaohongshu-search",
-      "skills/xiaohongshu-write"
+      "skills/xiaohongshu-rewrite"
     ],
-    "lastUpdated": "2026-08-19T13:20:17.432Z"
+    "lastUpdated": "2026-08-19T21:53:09.584Z"
   },
   {
     "source": "github:zizi-cat/chirp",
@@ -9099,15 +9079,18 @@
   },
   {
     "source": "github:znlgis/opengis-skills",
-    "rev": "6ca16a4f74e5fd4a5947f1017c18862ba5e2e631",
-    "hash": "1kd05kbriyihlwg2rdvsp5pa4ac8gqc9431031zd7vgzrkfyj0jv",
+    "rev": "2e2ad45fd4e6ba2cff55f7ce2ef202cec30171ea",
+    "hash": "1zx88n5jalr2yf1vnbqzxclbzzbwh4d9c18l5ji1r542r92i3bfp",
     "skills": [
       ".",
       "3d",
       "3d/ara3d-sdk",
+      "3d/elements",
+      "3d/opencsg-net",
       "3d/photo-sphere-viewer",
       "3d/supersplat",
       "ai",
+      "ai/deepseek-harness",
       "ai/dify",
       "ai/docutranslate",
       "ai/hermes-agent",
@@ -9143,6 +9126,7 @@
       "csharp/furion",
       "csharp/npoi",
       "csharp/reogrid",
+      "csharp/sentry",
       "csharp/sod",
       "csharp/sqlsugar",
       "gis",
@@ -9179,7 +9163,7 @@
       "others/robotgo-flow",
       "others/ruoyi-cloud"
     ],
-    "lastUpdated": "2026-08-12T13:58:39.064Z"
+    "lastUpdated": "2026-08-19T21:52:06.981Z"
   },
   {
     "source": "github:znorris/claude-marketplace",
@@ -9589,8 +9573,8 @@
   },
   {
     "source": "github:zoonk/zoonk",
-    "rev": "725253a274160fd60a982882ec393bb8cefca948",
-    "hash": "0268phm6w66pvwyrsk1gszdcfpjj8sl4r67c9ayaa2qff2v12jvd",
+    "rev": "7bb018023a190a75bcc3e418dd3e2963711ae789",
+    "hash": "12277br6w6y4jbvqfs5y42d8gzqy31qadqj2bb8lb7hzhg4hxrwn",
     "skills": [
       ".agents/skills/ai-sdk",
       ".agents/skills/android-material-guidelines",
@@ -9616,7 +9600,7 @@
       ".agents/skills/zoonk-issue-planning",
       ".agents/skills/zoonk-testing"
     ],
-    "lastUpdated": "2026-08-19T02:01:49.177Z"
+    "lastUpdated": "2026-08-19T21:52:23.729Z"
   },
   {
     "source": "github:zoranspirkovski/creating-agent-teams",
