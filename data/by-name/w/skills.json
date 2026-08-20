@@ -6383,9 +6383,16 @@
   },
   {
     "source": "github:wahidyankf/open-sharia-enterprise",
-    "rev": "f0301ed6e6b4ea00ca1e8d8b675c76a5e7618e60",
-    "hash": "1584fzz3s97nkyn6rsfx13cq51mm513760rj4h4g9nbx0k3h93pw",
+    "rev": "f23b504d8411b6e7cc3a58f172604b9ccbf9937f",
+    "hash": "1ahbgjfrkdjdbm81f0693icbwf0rhrd7k025nhjppmk9flji5j21",
     "skills": [
+      ".agents/skills/agent-developing-agents",
+      ".agents/skills/api-testing-exploratory-methodology",
+      ".agents/skills/apps-ayokoding-www-authoring-annotated-concept",
+      ".agents/skills/apps-ayokoding-www-developing-content",
+      ".agents/skills/apps-deploying-vercel-branches",
+      ".agents/skills/apps-organiclever-www-developing-content",
+      ".agents/skills/apps-ose-www-developing-content",
       ".agents/skills/cavecrew",
       ".agents/skills/caveman",
       ".agents/skills/caveman-commit",
@@ -6393,75 +6400,61 @@
       ".agents/skills/caveman-help",
       ".agents/skills/caveman-review",
       ".agents/skills/caveman-stats",
+      ".agents/skills/ci-standards",
       ".agents/skills/compress",
-      ".claude/skills/agent-developing-agents",
-      ".claude/skills/api-testing-exploratory-methodology",
-      ".claude/skills/apps-ayokoding-www-authoring-annotated-concept",
-      ".claude/skills/apps-ayokoding-www-developing-content",
-      ".claude/skills/apps-deploying-vercel-branches",
-      ".claude/skills/apps-organiclever-www-developing-content",
-      ".claude/skills/apps-ose-www-developing-content",
-      ".claude/skills/ci-standards",
-      ".claude/skills/docs-applying-content-quality",
-      ".claude/skills/docs-applying-diataxis-framework",
-      ".claude/skills/docs-authoring-standards",
-      ".claude/skills/docs-converting-pdf-to-markdown",
-      ".claude/skills/docs-creating-accessible-diagrams",
-      ".claude/skills/docs-creating-annotated-concept-tutorials",
-      ".claude/skills/docs-creating-by-example-tutorials",
-      ".claude/skills/docs-creating-in-the-field-tutorials",
-      ".claude/skills/docs-creating-tutorial-structure",
-      ".claude/skills/docs-fixing-factual-accuracy",
-      ".claude/skills/docs-fixing-tutorial-quality",
-      ".claude/skills/docs-managing-file-operations",
-      ".claude/skills/docs-validating-factual-accuracy",
-      ".claude/skills/docs-validating-links",
-      ".claude/skills/docs-validating-software-engineering-separation",
-      ".claude/skills/grill-me",
-      ".claude/skills/plan-applying-fixes",
-      ".claude/skills/plan-creating-project-plans",
-      ".claude/skills/plan-grooming-idea-briefs",
-      ".claude/skills/plan-validating-quality",
-      ".claude/skills/plan-verifying-execution",
-      ".claude/skills/plan-writing-gherkin-criteria",
-      ".claude/skills/pr-review-fixer-resolution",
-      ".claude/skills/pr-review-scout-classification",
-      ".claude/skills/pr-review-specialist-protocol",
-      ".claude/skills/pr-review-synthesis-coordination",
-      ".claude/skills/readme-fixing-quality",
-      ".claude/skills/readme-writing-readme-files",
-      ".claude/skills/repo-applying-maker-checker-fixer",
-      ".claude/skills/repo-assessing-criticality-confidence",
-      ".claude/skills/repo-defining-workflows",
-      ".claude/skills/repo-generating-validation-reports",
-      ".claude/skills/repo-harness-compatibility-protocol",
-      ".claude/skills/repo-practicing-trunk-based-development",
-      ".claude/skills/repo-rules-fixing",
-      ".claude/skills/repo-understanding-repository-architecture",
-      ".claude/skills/repo-understanding-shared-vocabulary",
-      ".claude/skills/repo-validating-governance-rules",
-      ".claude/skills/social-linkedin-posting",
-      ".claude/skills/specs-scaffolding",
-      ".claude/skills/specs-validating-structure",
-      ".claude/skills/swe-developing-applications-common",
-      ".claude/skills/swe-developing-e2e-test-with-playwright",
-      ".claude/skills/swe-developing-frontend-ui",
-      ".claude/skills/swe-programming-csharp",
-      ".claude/skills/swe-programming-fsharp",
-      ".claude/skills/swe-programming-rust",
-      ".claude/skills/swe-programming-typescript",
-      ".claude/skills/web-testing-design-fidelity",
-      ".claude/skills/web-testing-exploratory-methodology",
-      ".claude/skills/web-testing-usability-heuristics",
-      ".opencode/skills/link-workspace-packages",
-      ".opencode/skills/monitor-ci",
-      ".opencode/skills/nx-generate",
-      ".opencode/skills/nx-import",
-      ".opencode/skills/nx-plugins",
-      ".opencode/skills/nx-run-tasks",
-      ".opencode/skills/nx-workspace"
+      ".agents/skills/docs-applying-content-quality",
+      ".agents/skills/docs-applying-diataxis-framework",
+      ".agents/skills/docs-authoring-standards",
+      ".agents/skills/docs-converting-pdf-to-markdown",
+      ".agents/skills/docs-creating-accessible-diagrams",
+      ".agents/skills/docs-creating-annotated-concept-tutorials",
+      ".agents/skills/docs-creating-by-example-tutorials",
+      ".agents/skills/docs-creating-in-the-field-tutorials",
+      ".agents/skills/docs-creating-tutorial-structure",
+      ".agents/skills/docs-fixing-factual-accuracy",
+      ".agents/skills/docs-fixing-tutorial-quality",
+      ".agents/skills/docs-managing-file-operations",
+      ".agents/skills/docs-validating-factual-accuracy",
+      ".agents/skills/docs-validating-links",
+      ".agents/skills/docs-validating-software-engineering-separation",
+      ".agents/skills/grill-me",
+      ".agents/skills/plan-applying-fixes",
+      ".agents/skills/plan-creating-project-plans",
+      ".agents/skills/plan-grooming-idea-briefs",
+      ".agents/skills/plan-validating-quality",
+      ".agents/skills/plan-verifying-execution",
+      ".agents/skills/plan-writing-gherkin-criteria",
+      ".agents/skills/pr-review-fixer-resolution",
+      ".agents/skills/pr-review-scout-classification",
+      ".agents/skills/pr-review-specialist-protocol",
+      ".agents/skills/pr-review-synthesis-coordination",
+      ".agents/skills/readme-fixing-quality",
+      ".agents/skills/readme-writing-readme-files",
+      ".agents/skills/repo-applying-maker-checker-fixer",
+      ".agents/skills/repo-assessing-criticality-confidence",
+      ".agents/skills/repo-defining-workflows",
+      ".agents/skills/repo-generating-validation-reports",
+      ".agents/skills/repo-harness-compatibility-protocol",
+      ".agents/skills/repo-practicing-trunk-based-development",
+      ".agents/skills/repo-rules-fixing",
+      ".agents/skills/repo-understanding-repository-architecture",
+      ".agents/skills/repo-understanding-shared-vocabulary",
+      ".agents/skills/repo-validating-governance-rules",
+      ".agents/skills/social-linkedin-posting",
+      ".agents/skills/specs-scaffolding",
+      ".agents/skills/specs-validating-structure",
+      ".agents/skills/swe-developing-applications-common",
+      ".agents/skills/swe-developing-e2e-test-with-playwright",
+      ".agents/skills/swe-developing-frontend-ui",
+      ".agents/skills/swe-programming-csharp",
+      ".agents/skills/swe-programming-fsharp",
+      ".agents/skills/swe-programming-rust",
+      ".agents/skills/swe-programming-typescript",
+      ".agents/skills/web-testing-design-fidelity",
+      ".agents/skills/web-testing-exploratory-methodology",
+      ".agents/skills/web-testing-usability-heuristics"
     ],
-    "lastUpdated": "2026-08-19T07:15:31.744Z"
+    "lastUpdated": "2026-08-20T09:59:42.395Z"
   },
   {
     "source": "github:wahyubucil/agents",
@@ -7700,12 +7693,12 @@
   },
   {
     "source": "github:watertian/wechat-devtools-mcp",
-    "rev": "ce0e9e7ce6ef9bb878dddbe40c6277b2676df3a6",
-    "hash": "14zb9dqbfhn0jy0yjac3in1fysqc7g1a6420sc0jcs3cm80rsy16",
+    "rev": "a26f20c8ae48f97691c13133c9efb44d7957ba00",
+    "hash": "1ri3bfhj45gk4xkynvicrrgzrrbls1nk37c9czp2by4lsx3qsih7",
     "skills": [
       ".agents/skills/wechat-devtools"
     ],
-    "lastUpdated": "2026-08-18T04:07:21.549Z"
+    "lastUpdated": "2026-08-20T09:58:47.432Z"
   },
   {
     "source": "github:watthem/similar-files",
@@ -8286,8 +8279,8 @@
   },
   {
     "source": "github:weapp-vite/weapp-vite",
-    "rev": "cb3e3e3719235ac8bf64d76aed5c8f2b8b81c586",
-    "hash": "1c1bs0gsd877w4vsdbfg24v251v7zvwhgv8z0m18l5zrwrvb7z6m",
+    "rev": "779f005f0ddcce94ff5b3b02efcf26c8e3fd6d8a",
+    "hash": "0qc7afsr0b5q715sm5ia829ib17ih4bp2z39g8jihy5g37ifipzl",
     "skills": [
       ".agents/skills/playwright-cli",
       "maintainers/skills/weapp-vite-website-curator",
@@ -8300,7 +8293,7 @@
       "skills/weapp-vite-vue-sfc-best-practices",
       "skills/wevu-best-practices"
     ],
-    "lastUpdated": "2026-08-20T04:09:27.745Z"
+    "lastUpdated": "2026-08-20T10:00:26.469Z"
   },
   {
     "source": "github:weave-ai-dev/agent-skills",
@@ -8446,8 +8439,8 @@
   },
   {
     "source": "github:weberwang/phaser-skills",
-    "rev": "5d771eee8568bd11814eb506ed9401c705288500",
-    "hash": "0kyk9pqh95xkmzvc5bs1swfdchbp3xxrq9rljqbnvmjidavzmr5g",
+    "rev": "001a5371000b2f2b6cc8bf4145a10d1075302921",
+    "hash": "1dhb4xp5g65s1h97797jgvmamvfgkkjmjx0qg8ik4m2zfsr5vy8g",
     "skills": [
       "skills/grilling",
       "skills/phaser4-game-architecture",
@@ -8464,7 +8457,7 @@
       "skills/phaser4-gameplay-development",
       "skills/phaser4-spine-generative-reskin"
     ],
-    "lastUpdated": "2026-08-19T21:51:09.802Z"
+    "lastUpdated": "2026-08-20T10:00:20.417Z"
   },
   {
     "source": "github:webflow/webflow-skills",
@@ -8803,8 +8796,8 @@
   },
   {
     "source": "github:wecode-ai/Wegent",
-    "rev": "ae7ec79b684e8f2da03bdd1553d5444f78711c82",
-    "hash": "1arvkz66dgwg1cd5igb8cy8anfbjy9byigzvmx6s6qyyggqrnmmh",
+    "rev": "2aea6ad7c5ce215eec2b854807c3085974aa8300",
+    "hash": "0s6831i0jy11lslpz28206cds0q1wnfihjvjz4ifjkcp87ilp80f",
     "skills": [
       "backend/init_data/skills/browser",
       "backend/init_data/skills/conversation_to_prompt",
@@ -8825,12 +8818,12 @@
       "wework/src-tauri/bundled-plugins/wework-personal/plugins/wework-space/skills/wework-project-space",
       "wework/src-tauri/bundled-plugins/wework-plugin-example/skills/hello-wework"
     ],
-    "lastUpdated": "2026-08-20T04:07:01.652Z"
+    "lastUpdated": "2026-08-20T10:00:53.610Z"
   },
   {
     "source": "github:wecode-ai/wegent",
-    "rev": "ae7ec79b684e8f2da03bdd1553d5444f78711c82",
-    "hash": "1arvkz66dgwg1cd5igb8cy8anfbjy9byigzvmx6s6qyyggqrnmmh",
+    "rev": "2aea6ad7c5ce215eec2b854807c3085974aa8300",
+    "hash": "0s6831i0jy11lslpz28206cds0q1wnfihjvjz4ifjkcp87ilp80f",
     "skills": [
       "backend/init_data/skills/browser",
       "backend/init_data/skills/conversation_to_prompt",
@@ -8851,7 +8844,7 @@
       "wework/src-tauri/bundled-plugins/wework-personal/plugins/wework-space/skills/wework-project-space",
       "wework/src-tauri/bundled-plugins/wework-plugin-example/skills/hello-wework"
     ],
-    "lastUpdated": "2026-08-20T04:07:01.803Z"
+    "lastUpdated": "2026-08-20T10:00:53.438Z"
   },
   {
     "source": "github:wecomteam/wecom-cli",
@@ -9010,12 +9003,12 @@
   },
   {
     "source": "github:wei-shaw/sub2api",
-    "rev": "1b5dc676a9d35532ac2d88dbbe0ee2638b2ab05f",
-    "hash": "0dny0mcm4jqw05rl9brvj6gvj5dv7lc45sfqbja3qizvfixh6yqd",
+    "rev": "2bc139ab527b4a687546d145dc7bb9063cf14510",
+    "hash": "1risac6k9x701068ys490230ymplr2zn9a7rcry990q7ilfrpvgg",
     "skills": [
       "skills/sub2api-admin"
     ],
-    "lastUpdated": "2026-08-20T04:07:13.161Z"
+    "lastUpdated": "2026-08-20T10:01:04.074Z"
   },
   {
     "source": "github:wei/socialify",
@@ -9226,15 +9219,15 @@
   },
   {
     "source": "github:wemake-services/django-modern-rest",
-    "rev": "72ec67503e5db179f6edd8cb8e316aed173e5c7a",
-    "hash": "1mppx1nr921m0wac049kq1sfczq0g781l4dqwf0kbx6v44kzbv9d",
+    "rev": "c8e6a89f0150073f7d107088259e6148d3b3ce95",
+    "hash": "0mzqdr048hr7d6y1cnfys1m45hi62mynjii3lp8ldkv35mk123hd",
     "skills": [
       ".agents/skills/dmr",
       ".agents/skills/dmr-from-django-ninja",
       ".agents/skills/dmr-from-drf",
       ".agents/skills/dmr-openapi-skeleton"
     ],
-    "lastUpdated": "2026-08-19T09:57:14.926Z"
+    "lastUpdated": "2026-08-20T10:01:11.427Z"
   },
   {
     "source": "github:wemingt/obsidian-plugin-skill",
@@ -13034,8 +13027,8 @@
   },
   {
     "source": "github:windmill-labs/windmill",
-    "rev": "f6645af77e09df669f28a3e4a6c13ae630ebf85e",
-    "hash": "000wrs16w0n14bnsizlxlf6dk31gaxpx1kshwbv601g1dyl22b7j",
+    "rev": "574775d50cbb34d114275463e1a4258dbabeb47c",
+    "hash": "098j1bcvs1anblqqqs4ya9krx91g5bzpqvwjzz9j6hfxxmwpw98k",
     "skills": [
       ".agents/skills/adding-a-trigger",
       ".agents/skills/ai-chat",
@@ -13083,7 +13076,7 @@
       "system_prompts/auto-generated/skills/write-script-snowflake",
       "system_prompts/auto-generated/skills/write-workflow-as-code"
     ],
-    "lastUpdated": "2026-08-19T21:49:49.619Z"
+    "lastUpdated": "2026-08-20T09:58:47.581Z"
   },
   {
     "source": "github:window-ook/fit-checker",
@@ -13700,8 +13693,8 @@
   },
   {
     "source": "github:withastro/astro",
-    "rev": "2043e4fc0f906665a04cac2a94db2aeea1f8e225",
-    "hash": "0dn97i5ngjl538nkawqr7j3bi98lf8icvpmrpf224ni5y0ikczaa",
+    "rev": "d48312502ef33a32aef3f25b6b6035db8b38e189",
+    "hash": "12kv3ql5jqcp55h450dk56wk7i2x0lnv99njqpb3cnh58pkl7np7",
     "skills": [
       ".agents/skills/analyze-github-action-logs",
       ".agents/skills/astro-code-review",
@@ -13712,7 +13705,7 @@
       ".agents/skills/triage",
       ".agents/skills/writing-comments"
     ],
-    "lastUpdated": "2026-08-19T21:50:10.536Z"
+    "lastUpdated": "2026-08-20T09:58:40.440Z"
   },
   {
     "source": "github:withastro/flue",
@@ -13940,8 +13933,8 @@
   },
   {
     "source": "github:wix/skills",
-    "rev": "712089cd9f8af5a518722a3f0108b445677b2c34",
-    "hash": "1i9ncrhh3j55dfvjz23pa709lylbsgjrvfnnycmagm0cyqjgiyah",
+    "rev": "238631e91705ee67b337e7d944993c8ed10f298c",
+    "hash": "0r3bw7cjyrpyjxcaw33r9nrr8ix40n077z3rzfy3fpj4jxr00sqn",
     "skills": [
       ".claude/skills/writing-great-skills",
       "skills/wix-app",
@@ -13964,7 +13957,7 @@
       "skills/wix-replatform/resources/rp-telemetry",
       "skills/wix-vibe-headless"
     ],
-    "lastUpdated": "2026-08-20T02:00:32.972Z"
+    "lastUpdated": "2026-08-20T09:58:51.968Z"
   },
   {
     "source": "github:wizardofwozzz/bac-presentation-generator",
@@ -14090,13 +14083,13 @@
   },
   {
     "source": "github:wjllance/standx-cli",
-    "rev": "1f957d51c51c673011a0cfdd13421331f4ff8868",
-    "hash": "008bqkdfcqi7lax65ymyx17bj6z364s1ipchnsi8248zdcp13caa",
+    "rev": "672c78850af9770eba6b97416b2687f50078b622",
+    "hash": "1j7kydb6c8jd6006gvr80b8v1mvkq8gz7aj8j6rhasddaafkh0ah",
     "skills": [
       "clawhub-publish",
       "openclaw"
     ],
-    "lastUpdated": "2026-08-19T21:50:16.504Z"
+    "lastUpdated": "2026-08-20T09:58:51.491Z"
   },
   {
     "source": "github:wjt0321/china-stock-analyst",
@@ -14704,8 +14697,8 @@
   },
   {
     "source": "github:woocommerce/woocommerce",
-    "rev": "7d8a678a08a688a741e258412168a763b09ef29e",
-    "hash": "1wxy5r10yzmaw0xa1y6z1y0fyh0qbfy3cyngwkrllq82dacq2q2i",
+    "rev": "3c67ef70d85bb41664fc7a46000e2bf5b8cd24b0",
+    "hash": "0314czmmp1c1f8bxchl5a1dbcyddyxpxc369d1jw8mzgs7f89amr",
     "skills": [
       ".ai/skills/woocommerce-backend-dev",
       ".ai/skills/woocommerce-code-review",
@@ -14719,7 +14712,7 @@
       ".ai/skills/woocommerce-performance",
       ".ai/skills/woocommerce-store-api"
     ],
-    "lastUpdated": "2026-08-20T04:07:45.909Z"
+    "lastUpdated": "2026-08-20T10:00:07.563Z"
   },
   {
     "source": "github:woodfantasy/Seedance2.0-ShotDesign-Skills",
@@ -15174,9 +15167,16 @@
   },
   {
     "source": "github:wot-ui/open-wot",
-    "rev": "914362fb91433038eb8ebbc80243056806834d0e",
-    "hash": "0zc8qqdigmwlxbnh4dfag5q2xvgv8pyzjvvfphqldi2wwdnl4czc",
+    "rev": "b31efeb569652ab780a5e338c26aed3dbac41fd1",
+    "hash": "00cdimw8gy7j95pq79vxrf054xcsqw3vmy26p3cbm9yz27qpyl9d",
     "skills": [
+      ".agents/skills/openspec-apply-change",
+      ".agents/skills/openspec-archive-change",
+      ".agents/skills/openspec-explore",
+      ".agents/skills/openspec-propose",
+      ".agents/skills/openspec-sync-specs",
+      ".agents/skills/openspec-update-change",
+      ".agents/skills/openspec-verify-change",
       "skills/create-wot-ui-theme",
       "skills/migrate-v1-to-v2",
       "skills/starter-cleaner",
@@ -15184,7 +15184,7 @@
       "skills/wot-ui-unocss-preset-guide",
       "skills/wot-ui-v2"
     ],
-    "lastUpdated": "2026-08-19T13:20:51.547Z"
+    "lastUpdated": "2026-08-20T10:00:18.357Z"
   },
   {
     "source": "github:wot-ui/wot-starter",
