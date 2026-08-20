@@ -6589,12 +6589,12 @@
   },
   {
     "source": "github:l0ng-ai/tty7",
-    "rev": "2cdc26f3572fd4cc73e2a2918ca5d3ca25a869d6",
-    "hash": "04pn73llm75iwskjcjccz3v84h40fy38vd8ixmf2qzg656fpwspm",
+    "rev": "51b0fe64b95e57e1be4c18c9e5e86481d931553f",
+    "hash": "0acjc6mwn7fyckdy4cbl6z2nvz3k6i1hraxkj91fkhrbm28zhjzi",
     "skills": [
       "skills/tty7"
     ],
-    "lastUpdated": "2026-08-20T01:58:13.532Z"
+    "lastUpdated": "2026-08-20T04:02:51.741Z"
   },
   {
     "source": "github:l0z4n0-a1/skill-anthropic-grade-optimizer",
@@ -6778,8 +6778,8 @@
   },
   {
     "source": "github:labring/fastgpt",
-    "rev": "40d0713db336f22b7441e970297b590361423db7",
-    "hash": "0jjgz630mcnyrxhd3hkfcdwm2f6b65npw1r2aq2x5rcxikr95vac",
+    "rev": "cbf82beeb640fbe5751d2d3dd998b8cf351a1c0d",
+    "hash": "1wxdas14b60zv1hqs0czhxm123m9nf63glh8sw3ha4y8pg24wkhp",
     "skills": [
       ".agents/skills/core/ai/prompt_optimize",
       ".agents/skills/core/workflow/deprecate_workflow_node",
@@ -6793,7 +6793,7 @@
       ".agents/skills/system/test-case",
       "document/public/deploy"
     ],
-    "lastUpdated": "2026-08-19T13:16:48.924Z"
+    "lastUpdated": "2026-08-20T04:03:16.487Z"
   },
   {
     "source": "github:labring/fastgpt-plugin",
@@ -7624,8 +7624,8 @@
   },
   {
     "source": "github:langchain-ai/deepagentsjs",
-    "rev": "d4045de67715bf3cd6198b0d516d176c0e4b75d0",
-    "hash": "036wiiwnmqh06qn21gv41qz3xlnhr39z4zsr6wf3ibfzb96xasvi",
+    "rev": "43ef0e695ae42ffe001944bac09a5dee8b47fadc",
+    "hash": "04js32j6zxki5809f6rfbzpzrz8f6k5ff492p1j1pbbj0q9i005g",
     "skills": [
       ".agents/skills/eval-creator",
       ".agents/skills/langsmith-trace",
@@ -7635,7 +7635,7 @@
       "examples/skills/skill-creator",
       "examples/skills/web-research"
     ],
-    "lastUpdated": "2026-08-20T01:58:46.762Z"
+    "lastUpdated": "2026-08-20T04:03:35.403Z"
   },
   {
     "source": "github:langchain-ai/langchain-skills",
@@ -7819,8 +7819,8 @@
   },
   {
     "source": "github:langgenius/dify",
-    "rev": "98c2ffeec72a13baffbcf95ee59a2fc8a1db88cc",
-    "hash": "0inh2qpcqd76g89cavsq6ck9jcy6yj278b2p52fk2y3bjcyhjr7y",
+    "rev": "ea592563496db3684b236337a76452fc62af2b48",
+    "hash": "17x05ikaz37pa2gcg3d3qplz8zp60plvl7wr61ivd52issbv0dgx",
     "skills": [
       ".agents/skills/backend-code-review",
       ".agents/skills/e2e-cucumber-playwright",
@@ -7829,7 +7829,7 @@
       ".agents/skills/how-to-write-component",
       "e2e/fixtures/test-materials/e2e-summary-skill"
     ],
-    "lastUpdated": "2026-08-19T21:47:28.766Z"
+    "lastUpdated": "2026-08-20T04:05:01.480Z"
   },
   {
     "source": "github:langoustine69/skills-market",
@@ -8952,8 +8952,8 @@
   },
   {
     "source": "github:laurigates/claude-plugins",
-    "rev": "a90c0817f1c74de41447fffa7d3f61a3e2370a1b",
-    "hash": "0lhz2dz63cw5fr6fry0n6mcpxqh5wbwz3sp8jilqk39bm49srdf5",
+    "rev": "84e1690f860d425dc3acb81aa3efbc64d7c5e25f",
+    "hash": "1c1ps1p2hm68q5wl21cpycyv125bcsm0n2jg9yahbly5i8f84ljz",
     "skills": [
       ".claude/skills/docs-refresh",
       ".claude/skills/plugin-authoring",
@@ -9038,6 +9038,7 @@
       "code-quality-plugin/skills/code-refactor",
       "code-quality-plugin/skills/code-review",
       "code-quality-plugin/skills/code-review-checklist",
+      "code-quality-plugin/skills/code-scaffold-backport",
       "code-quality-plugin/skills/code-test-quality",
       "code-quality-plugin/skills/debugging-methodology",
       "code-quality-plugin/skills/dry-consolidation",
@@ -9126,9 +9127,12 @@
       "css-plugin/skills/unocss",
       "documentation-plugin/skills/claude-blog-sources",
       "documentation-plugin/skills/docs-decommission",
+      "documentation-plugin/skills/docs-fetch-fallbacks",
       "documentation-plugin/skills/docs-generate",
       "documentation-plugin/skills/docs-latex",
+      "documentation-plugin/skills/docs-single-source",
       "documentation-plugin/skills/docs-sync",
+      "documentation-plugin/skills/docs-verify-machine-facts",
       "evaluate-plugin/skills/evaluate-context-engineering",
       "evaluate-plugin/skills/evaluate-improve",
       "evaluate-plugin/skills/evaluate-legibility",
@@ -9165,16 +9169,20 @@
       "git-plugin/skills/git-issue",
       "git-plugin/skills/git-issue-hierarchy",
       "git-plugin/skills/git-issue-manage",
+      "git-plugin/skills/git-issue-scoping",
       "git-plugin/skills/git-maintain",
+      "git-plugin/skills/git-merge-hazards",
       "git-plugin/skills/git-pr",
       "git-plugin/skills/git-pr-feedback",
       "git-plugin/skills/git-pr-sync-check",
       "git-plugin/skills/git-pr-watch",
       "git-plugin/skills/git-push",
       "git-plugin/skills/git-rebase-patterns",
+      "git-plugin/skills/git-repo-delete-check",
       "git-plugin/skills/git-repo-detection",
       "git-plugin/skills/git-security-checks",
       "git-plugin/skills/git-triage",
+      "git-plugin/skills/git-upstream-fix-check",
       "git-plugin/skills/git-upstream-pr",
       "git-plugin/skills/git-upstream-pr-diverged",
       "git-plugin/skills/github-issue-autodetect",
@@ -9374,7 +9382,7 @@
       "workflow-orchestration-plugin/skills/workflow-verify-before-filing",
       "workflow-orchestration-plugin/skills/workflow-wave-dispatch"
     ],
-    "lastUpdated": "2026-08-19T13:14:27.575Z"
+    "lastUpdated": "2026-08-20T04:04:18.008Z"
   },
   {
     "source": "github:laurigates/mcu-tinkering-lab",
@@ -10442,13 +10450,13 @@
   },
   {
     "source": "github:learnprompt/ai-news-radar",
-    "rev": "2c2e501ea185b4d3bfa70e289adb6d1c9e4fd395",
-    "hash": "0jzlzlf2s946kgklvs6kmhbryqnhw45v9igz0qskr6ak4anc21nf",
+    "rev": "5ebeeef6194dad3e070c545d9afc741cb81fccc8",
+    "hash": "0h7x4ivd4yv556rk9h2zdkx7620pix734bpcvib79vabwk326sp9",
     "skills": [
       "skills/ai-news-radar",
       "skills/radar"
     ],
-    "lastUpdated": "2026-08-20T01:56:53.256Z"
+    "lastUpdated": "2026-08-20T04:05:16.009Z"
   },
   {
     "source": "github:learnprompt/andrej-karpathy-skills",
@@ -13185,12 +13193,12 @@
   },
   {
     "source": "github:leonense22/wechat-daily-report-skill",
-    "rev": "7c8aaedbecd9cd53609cd5e79d4dd22f559efa75",
+    "rev": "70f612597dc867d9518495ade5ce50b0c0927f91",
     "hash": "1m1hyz3ygv7cqzrw8cqq3ngkrjk9lx24b85fv05izb7lgssaxp3j",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-08-17T07:21:05.425Z"
+    "lastUpdated": "2026-08-20T04:02:42.235Z"
   },
   {
     "source": "github:leonidas810/save-your-music",
@@ -16179,8 +16187,8 @@
   },
   {
     "source": "github:letta-ai/letta-code",
-    "rev": "74f5e7351577fa52aae9a5bf03b137ffbf2ab7e8",
-    "hash": "0xsly0s76zsn4a5lwsy7af5w3cd4yvfcbvvisjbr49r7qwnvkrkg",
+    "rev": "d6f12df8fe723c8f0942fb78a4ff6cbdc6082e6b",
+    "hash": "09zr4am61m3l4f6jmxca1js2k6xi90clgx3rarcpx6vgck6jcqr5",
     "skills": [
       ".skills/adding-models",
       "src/skills/builtin/acquiring-skills",
@@ -16205,7 +16213,7 @@
       "src/skills/builtin/syncing-memory-filesystem",
       "src/skills/builtin/teleporting-between-environments"
     ],
-    "lastUpdated": "2026-08-20T01:58:01.746Z"
+    "lastUpdated": "2026-08-20T04:03:18.370Z"
   },
   {
     "source": "github:letta-ai/letta-code-action",
@@ -23660,13 +23668,14 @@
   },
   {
     "source": "github:lightsparkdev/grid-api",
-    "rev": "f1fb05e9623388cb9ca54485355fd7b434df6d0b",
-    "hash": "0dd737nc104ac334racnhkls8blj8dalpq3i0izzq25vqma0h4g7",
+    "rev": "d308c79dbd667b3e9bba30278f3f7dd804e944a6",
+    "hash": "1rgily19qb6nwbmdzkjx4c0xbwlmbxn9nmc3397djsp2fmfkxn4a",
     "skills": [
       ".claude/skills/grid-api",
-      ".claude/skills/liquid-glass"
+      ".claude/skills/liquid-glass",
+      ".claude/skills/writing-style"
     ],
-    "lastUpdated": "2026-08-20T01:56:28.427Z"
+    "lastUpdated": "2026-08-20T04:04:27.408Z"
   },
   {
     "source": "github:lightward/mechanic-skills",
@@ -45710,8 +45719,8 @@
   },
   {
     "source": "github:llblab/skills",
-    "rev": "0c80c82b48aa33b072eed6be08f11f0d27e4cfd5",
-    "hash": "09p9i2j18zvlpwbz3vswnn0wj9rfk6akj944km3294w8p2ycfd6v",
+    "rev": "71454bfe1d4d6ff551e65e3982bccf81e9be3a8f",
+    "hash": "12zv0yrbscpxlp50jyavx8i3k007m751488l2a60050v1b5xgll0",
     "skills": [
       "abcd-context",
       "bits-ui",
@@ -45726,7 +45735,7 @@
       "re-review",
       "release-flow"
     ],
-    "lastUpdated": "2026-08-17T01:59:28.630Z"
+    "lastUpdated": "2026-08-20T04:02:54.906Z"
   },
   {
     "source": "github:llj0824/leoj-agent-skills",
@@ -46445,8 +46454,8 @@
   },
   {
     "source": "github:lobehub/lobe-chat",
-    "rev": "de269f9a47802321c4130564d52fb88271d203a5",
-    "hash": "1c618wmdilczb0pgw1mia7jj1147sr3yyhvfzwqxgmlz58fv2wac",
+    "rev": "005b373b7f646ec71bcc5ae20e3d6af97c243138",
+    "hash": "1rh60wrx53zskn0wv82div5mb6ghak23p6xqca5m9jkvqv5wijgc",
     "skills": [
       ".agents/skills/add-provider-doc",
       ".agents/skills/add-setting-env",
@@ -46496,12 +46505,12 @@
       "packages/builtin-skills/src/acceptance",
       "packages/builtin-skills/src/task"
     ],
-    "lastUpdated": "2026-08-20T01:57:29.831Z"
+    "lastUpdated": "2026-08-20T04:03:51.322Z"
   },
   {
     "source": "github:lobehub/lobehub",
-    "rev": "de269f9a47802321c4130564d52fb88271d203a5",
-    "hash": "1c618wmdilczb0pgw1mia7jj1147sr3yyhvfzwqxgmlz58fv2wac",
+    "rev": "005b373b7f646ec71bcc5ae20e3d6af97c243138",
+    "hash": "1rh60wrx53zskn0wv82div5mb6ghak23p6xqca5m9jkvqv5wijgc",
     "skills": [
       ".agents/skills/add-provider-doc",
       ".agents/skills/add-setting-env",
@@ -46551,7 +46560,7 @@
       "packages/builtin-skills/src/acceptance",
       "packages/builtin-skills/src/task"
     ],
-    "lastUpdated": "2026-08-20T01:57:30.677Z"
+    "lastUpdated": "2026-08-20T04:03:51.824Z"
   },
   {
     "source": "github:lobstergeneralintelligence/x-api",
@@ -46705,8 +46714,8 @@
   },
   {
     "source": "github:logbookfordevs/ai-field-kit",
-    "rev": "91e963d61aa45c6ec82dee09afc99631a007848a",
-    "hash": "1qnyjfjn0amjfmr2l1xnqs2wgphs2wxp3mw3i74nsjc0zhv2f07g",
+    "rev": "6dd1dd51ee311853d8885029f8c18d05855f24ea",
+    "hash": "1s78incxb3j3hz7vqm0k6vhbc2hfk9q3ipdk8afw9v9agy8kz959",
     "skills": [
       ".codex/skills/afk-release",
       ".codex/skills/fork-skill",
@@ -46731,7 +46740,7 @@
       "skills/afk-to-tickets",
       "skills/afk-ui-registry-preferences"
     ],
-    "lastUpdated": "2026-08-19T21:47:19.900Z"
+    "lastUpdated": "2026-08-20T04:03:59.935Z"
   },
   {
     "source": "github:login-tb/claude-skills",
@@ -46909,14 +46918,14 @@
   },
   {
     "source": "github:longbridge/gpui-component",
-    "rev": "b77f352589503a114cdf709507c0738a88e28364",
-    "hash": "1ijx3jk5w0q6vs51g2pj5b24c66wi280k2g8j6iwv9r4iifpx1jx",
+    "rev": "5e5a1a304b2a5a3d725c03b8759e9ba2b4ad58b3",
+    "hash": "12n8kbb8avkwpjbn83yz23hqxd2ddxyvcynpdpi5vxvxgq9prg03",
     "skills": [
       ".claude/skills/gpui-component-dev",
       "skills/gpui",
       "skills/gpui-component"
     ],
-    "lastUpdated": "2026-08-19T13:14:20.517Z"
+    "lastUpdated": "2026-08-20T04:04:04.918Z"
   },
   {
     "source": "github:longbridge/longbridge-terminal",
@@ -47974,12 +47983,12 @@
   },
   {
     "source": "github:lovrabet/lovrabet-cli",
-    "rev": "bb8fd9a02786e58488502571ddcb518581e29565",
-    "hash": "1jhfv2gpgmf1pf3f0q5h4wywy0sz48s4gdbcz5jhb9xxwjdx4p9w",
+    "rev": "fa43577731b99a6241ec69944e7fd9885813ce7c",
+    "hash": "0b4q0fkn3wfipmxp68912ql2phzdk934qnyvyp40mp9ngnhrrnmw",
     "skills": [
       "skills/lovrabet"
     ],
-    "lastUpdated": "2026-08-18T09:54:13.657Z"
+    "lastUpdated": "2026-08-20T04:02:51.760Z"
   },
   {
     "source": "github:lovrabet/lovrabet-skill",
@@ -48028,8 +48037,8 @@
   },
   {
     "source": "github:lovstudio/skills",
-    "rev": "8b44faf1452ce9ab40d101fcbf69a031e39455c2",
-    "hash": "0wpy5y0c4w1w402fs4qy31ca097nzwr1fwf683d24pli2mygdkba",
+    "rev": "69becf63c96e17164c1d83f69a1b57defe020ebb",
+    "hash": "0q820b2a763cghg55qw5qb6b4s80542pvzg2qv7gj40s8zdpns4q",
     "skills": [
       "skills/academic-translator",
       "skills/anti-wechat-ai-check",
@@ -48057,6 +48066,8 @@
       "skills/deep-research",
       "skills/deploy-to-vercel",
       "skills/document-illustrator",
+      "skills/dsh-plugin-creator",
+      "skills/dsh-plugin-publisher",
       "skills/electron-app-relaunch",
       "skills/electron-delta-updater",
       "skills/event-curator",
@@ -48122,7 +48133,7 @@
       "skills/wxmp-cracker",
       "skills/yoda-automation"
     ],
-    "lastUpdated": "2026-08-19T21:45:51.169Z"
+    "lastUpdated": "2026-08-20T04:02:57.370Z"
   },
   {
     "source": "github:lowezheng/oh-my-skills",
@@ -51023,13 +51034,13 @@
   },
   {
     "source": "github:lvncer/ai-configs",
-    "rev": "a06ea130df18adc8614cc1fc30f42abc3317bc48",
-    "hash": "18l3zcwlnhgshjqp9jhyqv1s9jiyckjgzbp2n2i0saw02hfwmcy2",
+    "rev": "1552fb24e26b5aeac132df9c8dd97a3c0d1b8f43",
+    "hash": "0rvkkmylymjpa4277y97s5f2r4p3j86n8p2v29fbssrfy42cy7wk",
     "skills": [
       ".cursor/skills/git-sync-guard",
       ".cursor/skills/nextjs-best-practice"
     ],
-    "lastUpdated": "2026-07-21T03:48:31.040Z"
+    "lastUpdated": "2026-08-20T04:03:22.727Z"
   },
   {
     "source": "github:lvsao/shopify-skill-hub",

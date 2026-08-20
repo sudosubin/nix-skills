@@ -189,9 +189,34 @@
   },
   {
     "source": "github:TencentBlueKing/bk-bcs",
-    "rev": "a9966df4b66faa1ea7b3e7e316dfa103459277f8",
-    "hash": "07ljv6k4r32ww350lprvip0h6k2mhp9ys6g6jm5vbj1zk3z773xw",
+    "rev": "83726bf35592b348b09c2abed35dba3c4ec3348d",
+    "hash": "197kcpg5b8rl0l5p86p0z8pzivnklhw3cl8b2prl1qyfw6l8panj",
     "skills": [
+      ".agents/skills/bk-security-redlines",
+      ".agents/skills/code-review",
+      ".agents/skills/harness-engineering",
+      ".agents/skills/harness-engineering/harness-gardening",
+      ".agents/skills/harness-engineering/harness-generating",
+      ".agents/skills/harness-engineering/tests/fixtures/good-project-owned-gittracked/.agents/skills/my-tool",
+      ".agents/skills/harness-engineering/tests/fixtures/good-project-owned-nested/apps/svc/.agents/skills/nested-tool",
+      ".agents/skills/tapd-iteration-plan",
+      ".agents/skills/tapd-iteration-runner",
+      ".agents/skills/tapd-iteration-runner/tapd-iteration-analysis",
+      ".agents/skills/tapd-iteration-runner/tapd-iteration-init",
+      ".agents/skills/tapd-iteration-runner/tapd-iteration-report",
+      ".agents/skills/tapd-product-discovery",
+      ".agents/skills/tapd-story-clarification",
+      ".agents/skills/tapd-story-evaluation",
+      ".agents/skills/tapd-story-evaluation/tapd-story-breakdown",
+      ".agents/skills/tapd-story-evaluation/tapd-story-score",
+      ".agents/skills/tapd-story-pipeline",
+      ".agents/skills/tapd-story-pipeline/tapd-story-commit",
+      ".agents/skills/tapd-story-pipeline/tapd-story-implement",
+      ".agents/skills/tapd-story-pipeline/tapd-story-plan",
+      ".agents/skills/tapd-story-pipeline/tapd-story-specify",
+      ".agents/skills/tapd-story-pipeline/tapd-story-tasks",
+      ".agents/skills/tapd-story-pipeline/tapd-story-validate",
+      ".agents/skills/tapd-story-review",
       "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-apply-change",
       "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-archive-change",
       "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-bulk-archive-change",
@@ -208,7 +233,6 @@
       "bcs-services/bcs-project-manager/.cursor/skills/bk-monitor-tapd-dev",
       "bcs-services/bcs-project-manager/.cursor/skills/bk-monitor-tapd-summary",
       "bcs-services/bcs-project-manager/.cursor/skills/bk-monitor-weekly-report",
-      "bcs-services/bcs-project-manager/.cursor/skills/bk-security-redlines",
       "bcs-services/bcs-project-manager/.cursor/skills/bk-skill-creator",
       "bcs-services/bcs-project-manager/.cursor/skills/bkui-builder",
       "bcs-services/bcs-project-manager/.cursor/skills/bkui-cheatsheet",
@@ -217,7 +241,6 @@
       "bcs-services/bcs-project-manager/.cursor/skills/chat-x-contribute",
       "bcs-services/bcs-project-manager/.cursor/skills/chat-x-custom-component",
       "bcs-services/bcs-project-manager/.cursor/skills/chat-x-unit-test",
-      "bcs-services/bcs-project-manager/.cursor/skills/code-review",
       "bcs-services/bcs-project-manager/.cursor/skills/js-security-check",
       "bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check",
       "bcs-services/bcs-project-manager/.cursor/skills/permission-directive",
@@ -229,7 +252,7 @@
       "bcs-services/bcs-project-manager/.cursor/skills/vue-composables",
       "bcs-services/bcs-project-manager/.cursor/skills/web-security-guide"
     ],
-    "lastUpdated": "2026-08-17T07:17:09.037Z"
+    "lastUpdated": "2026-08-20T03:58:44.001Z"
   },
   {
     "source": "github:TencentCloudBase/CloudBase-MCP",
@@ -7474,12 +7497,12 @@
   },
   {
     "source": "github:tan2237/safe-edit-skill",
-    "rev": "41eb2bdfff9f516d47b2f6e9a204ad7c6eb306b1",
-    "hash": "1zxk7hiavd6qkiz7csdmlhlrvzlppyfa3x9ssprcazwgy9pz4hj5",
+    "rev": "82fe21f9d35d7b19fb68e9d4c5fd9083f79962b7",
+    "hash": "1a019i0rkywsa9ngwi5xrlpwpjlvjbffzadv48zpkv2ymlfvrdzs",
     "skills": [
       "skills/safe-edit"
     ],
-    "lastUpdated": "2026-08-19T07:12:46.460Z"
+    "lastUpdated": "2026-08-20T04:08:14.272Z"
   },
   {
     "source": "github:tanabee/skills",
@@ -8014,8 +8037,8 @@
   },
   {
     "source": "github:tartinerlabs/skills",
-    "rev": "d88fd5002265b3e545ef261fbf93b9e76a82ff3f",
-    "hash": "1shwf2nv7v0wzn50qv3kkndqjzj7xlnxw5qhi0ssiykhsnagxzkg",
+    "rev": "c89de072732d7883b7535c3a054adebb09fe29d0",
+    "hash": "19p1iv3pxfbm7kw4swycz6vq9a8gy54pnnqvj6ckjrwlkyw2j73d",
     "skills": [
       "skills/commit",
       "skills/create-branch",
@@ -8038,7 +8061,7 @@
       "xcode-skills/swiftui-whats-new-27",
       "xcode-skills/uikit-app-modernization"
     ],
-    "lastUpdated": "2026-08-17T13:15:02.248Z"
+    "lastUpdated": "2026-08-20T04:06:45.310Z"
   },
   {
     "source": "github:taruvi-ai/taruvi-skills",
@@ -9940,13 +9963,13 @@
   },
   {
     "source": "github:tddworks/baguette",
-    "rev": "87c93dbf936664cd7f90c88cc67a84b28a54e70d",
-    "hash": "0lgw0hfd6s2flqjqd9qhh2q13mssn5vki6a41z2l8jiax8b0dcxc",
+    "rev": "346afe59cc8557e8069cc661cd85cc0fffe0d705",
+    "hash": "18xi2yn1m59vra93rfhvvhgzq170nsjj32ai8w8r522y50x8z13g",
     "skills": [
       ".claude/skills/baguette-implement-feature",
       "skills/baguette"
     ],
-    "lastUpdated": "2026-08-19T09:56:36.500Z"
+    "lastUpdated": "2026-08-20T04:07:21.941Z"
   },
   {
     "source": "github:tddworks/claude-skills",
@@ -12434,8 +12457,8 @@
   },
   {
     "source": "github:tencent/tgfx",
-    "rev": "da3cb83564a249ffa4a23698d6c4cdfb8537c7be",
-    "hash": "1bris12rqhzvqwfx62ymq1vr5pn1mp68sz17ig31j2c3x7rabfv9",
+    "rev": "9d18f8c1bf57d9c325ea73b89ee857f39d618bf2",
+    "hash": "0lpnrp3zq89mvwc4fz93rf8zdnr4pgmwy0fjzn98kx00gkq3vcfy",
     "skills": [
       ".codebuddy/skills/accept-baseline",
       ".codebuddy/skills/commit",
@@ -12443,7 +12466,7 @@
       ".codebuddy/skills/pr",
       ".codebuddy/skills/squash"
     ],
-    "lastUpdated": "2026-08-18T07:15:14.715Z"
+    "lastUpdated": "2026-08-20T04:09:05.511Z"
   },
   {
     "source": "github:tencent/wechatreading",
@@ -12465,9 +12488,34 @@
   },
   {
     "source": "github:tencentblueking/bk-bcs",
-    "rev": "a9966df4b66faa1ea7b3e7e316dfa103459277f8",
-    "hash": "07ljv6k4r32ww350lprvip0h6k2mhp9ys6g6jm5vbj1zk3z773xw",
+    "rev": "83726bf35592b348b09c2abed35dba3c4ec3348d",
+    "hash": "197kcpg5b8rl0l5p86p0z8pzivnklhw3cl8b2prl1qyfw6l8panj",
     "skills": [
+      ".agents/skills/bk-security-redlines",
+      ".agents/skills/code-review",
+      ".agents/skills/harness-engineering",
+      ".agents/skills/harness-engineering/harness-gardening",
+      ".agents/skills/harness-engineering/harness-generating",
+      ".agents/skills/harness-engineering/tests/fixtures/good-project-owned-gittracked/.agents/skills/my-tool",
+      ".agents/skills/harness-engineering/tests/fixtures/good-project-owned-nested/apps/svc/.agents/skills/nested-tool",
+      ".agents/skills/tapd-iteration-plan",
+      ".agents/skills/tapd-iteration-runner",
+      ".agents/skills/tapd-iteration-runner/tapd-iteration-analysis",
+      ".agents/skills/tapd-iteration-runner/tapd-iteration-init",
+      ".agents/skills/tapd-iteration-runner/tapd-iteration-report",
+      ".agents/skills/tapd-product-discovery",
+      ".agents/skills/tapd-story-clarification",
+      ".agents/skills/tapd-story-evaluation",
+      ".agents/skills/tapd-story-evaluation/tapd-story-breakdown",
+      ".agents/skills/tapd-story-evaluation/tapd-story-score",
+      ".agents/skills/tapd-story-pipeline",
+      ".agents/skills/tapd-story-pipeline/tapd-story-commit",
+      ".agents/skills/tapd-story-pipeline/tapd-story-implement",
+      ".agents/skills/tapd-story-pipeline/tapd-story-plan",
+      ".agents/skills/tapd-story-pipeline/tapd-story-specify",
+      ".agents/skills/tapd-story-pipeline/tapd-story-tasks",
+      ".agents/skills/tapd-story-pipeline/tapd-story-validate",
+      ".agents/skills/tapd-story-review",
       "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-apply-change",
       "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-archive-change",
       "bcs-runtime/bcs-k8s/bcs-component/bcs-drplan-controller/.claude/skills/openspec-bulk-archive-change",
@@ -12484,7 +12532,6 @@
       "bcs-services/bcs-project-manager/.cursor/skills/bk-monitor-tapd-dev",
       "bcs-services/bcs-project-manager/.cursor/skills/bk-monitor-tapd-summary",
       "bcs-services/bcs-project-manager/.cursor/skills/bk-monitor-weekly-report",
-      "bcs-services/bcs-project-manager/.cursor/skills/bk-security-redlines",
       "bcs-services/bcs-project-manager/.cursor/skills/bk-skill-creator",
       "bcs-services/bcs-project-manager/.cursor/skills/bkui-builder",
       "bcs-services/bcs-project-manager/.cursor/skills/bkui-cheatsheet",
@@ -12493,7 +12540,6 @@
       "bcs-services/bcs-project-manager/.cursor/skills/chat-x-contribute",
       "bcs-services/bcs-project-manager/.cursor/skills/chat-x-custom-component",
       "bcs-services/bcs-project-manager/.cursor/skills/chat-x-unit-test",
-      "bcs-services/bcs-project-manager/.cursor/skills/code-review",
       "bcs-services/bcs-project-manager/.cursor/skills/js-security-check",
       "bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check",
       "bcs-services/bcs-project-manager/.cursor/skills/permission-directive",
@@ -12505,7 +12551,7 @@
       "bcs-services/bcs-project-manager/.cursor/skills/vue-composables",
       "bcs-services/bcs-project-manager/.cursor/skills/web-security-guide"
     ],
-    "lastUpdated": "2026-08-17T07:28:13.197Z"
+    "lastUpdated": "2026-08-20T04:09:12.586Z"
   },
   {
     "source": "github:tencentblueking/bk-ci",
@@ -13355,8 +13401,8 @@
   },
   {
     "source": "github:tercel/code-forge",
-    "rev": "bd8467415f98b4e03a38f608923f8ca00b78aebe",
-    "hash": "19gmbvg41iikf6zx1l2hdrmja4zwxrm1phqpr8svanahkvj7bhq9",
+    "rev": "fc447085879f822799d7b89a5a56d4bb3f81428c",
+    "hash": "06g19bjiqsac7kp12n9is4vc1xcp80kv3rn1llxi4mziwbcd6y85",
     "skills": [
       ".",
       "skills/debug",
@@ -13372,7 +13418,7 @@
       "skills/verify",
       "skills/worktree"
     ],
-    "lastUpdated": "2026-08-13T10:38:38.722Z"
+    "lastUpdated": "2026-08-20T04:06:35.547Z"
   },
   {
     "source": "github:tercel/spec-forge",
@@ -25005,8 +25051,8 @@
   },
   {
     "source": "github:tkersey/dotfiles",
-    "rev": "2bf221f5fd03d49d0aa2e69a8a95041995fee31f",
-    "hash": "1kxif966jwfivzcnf7mgd13l7v90rifpq4n467svr9lby9sq3yhx",
+    "rev": "83dff53ada5b5b45aed85a0b415684213f1243fd",
+    "hash": "0rwsj519pvqsy71d3qdc2pryn8hab1py3cpv4d6p89yq0f4xkw56",
     "skills": [
       "codex/skills/accts",
       "codex/skills/actuating",
@@ -25052,7 +25098,7 @@
       "codex/skills/universalist",
       "codex/skills/zig"
     ],
-    "lastUpdated": "2026-08-19T21:49:37.211Z"
+    "lastUpdated": "2026-08-20T04:06:41.572Z"
   },
   {
     "source": "github:tkorays/zero-skills",
@@ -30141,8 +30187,8 @@
   },
   {
     "source": "github:trpc-group/trpc-agent-go",
-    "rev": "5fba9e5f62d28f4e007cea5e556fef707cd0917b",
-    "hash": "1h640rk975hlra2dg6alxwnsh7iikknjscgr68fhw71yb8wbby47",
+    "rev": "d80dc3ff852bd561dc00bf95c479b1538e03fdc9",
+    "hash": "0s03kqz452a97ngyzhhqmkpbnxin9p93k5qb50w6f2wj8syl9w9h",
     "skills": [
       "examples/agui/server/skill_artifacts/skills/artifact_demo",
       "examples/claudecode/.claude/skills/weather-query",
@@ -30215,7 +30261,7 @@
       "openclaw/skills/weather",
       "openclaw/skills/xurl"
     ],
-    "lastUpdated": "2026-08-19T04:08:23.883Z"
+    "lastUpdated": "2026-08-20T04:07:09.851Z"
   },
   {
     "source": "github:trpc/trpc",
@@ -30526,14 +30572,14 @@
   },
   {
     "source": "github:trycua/cua",
-    "rev": "56f13c360a8b678960747c50f2680e40c14ae346",
-    "hash": "022vzm6adnhhicxpmvxjwpd72w5kqc3d9iphd3zjbgmsysyb64p4",
+    "rev": "f8ce0647027d23315333cb6f815349ca4ce418e5",
+    "hash": "128fnrl1jshva39j4v5k28c0rk7zfr7vjh95z8f56j6ls0vwr89s",
     "skills": [
       ".agents/skills/poll-github-work",
       "libs/cua-driver/rust/Skills/cua-driver",
       "skills/gui-automation"
     ],
-    "lastUpdated": "2026-08-20T02:02:05.511Z"
+    "lastUpdated": "2026-08-20T04:07:40.088Z"
   },
   {
     "source": "github:tryghost/ghost",
@@ -30876,8 +30922,8 @@
   },
   {
     "source": "github:tt-a1i/matt-skills-with-to-goal",
-    "rev": "ee4052eb9ccd3cfe77607aa27695e01aa799a977",
-    "hash": "0r0c8kfz7fbvs82dmhj1ws4qxww84a03nyfy84p6vg1bd3yqni30",
+    "rev": "81adbcc24ba1bce84503ac13efbb83f6143ed0a9",
+    "hash": "1yp39c1pxwxqb3k0ssvwgmny5dy0d23m49lkd6b043vc1p3sp9ni",
     "skills": [
       "skills/engineering/ask-matt",
       "skills/engineering/code-review",
@@ -30919,7 +30965,7 @@
       "skills/productivity/wait-what",
       "skills/productivity/writing-for-agents"
     ],
-    "lastUpdated": "2026-08-16T18:56:48.556Z"
+    "lastUpdated": "2026-08-20T04:07:58.382Z"
   },
   {
     "source": "github:tta-lab/ttal-cli",
