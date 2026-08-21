@@ -1288,15 +1288,15 @@
   },
   {
     "source": "github:iOfficeAI/AionUi",
-    "rev": "446e83e1b0b65a2eb7073c0896f87a5749a17853",
-    "hash": "08m7dr5pi9hm8g7s7sd6alids53vmq50mc1nldhvy109p1inpw5f",
+    "rev": "b1dcdb8dbf59f58310ff720a79575745efd9dd12",
+    "hash": "05v2lqm60min5bvdjqzq5f5z29bkwzjcnw7ygc78nqlqri5xz7qx",
     "skills": [
       ".claude/skills/architecture",
       ".claude/skills/bump-version",
       ".claude/skills/i18n",
       ".claude/skills/testing"
     ],
-    "lastUpdated": "2026-08-21T09:54:15.708Z"
+    "lastUpdated": "2026-08-21T15:49:55.878Z"
   },
   {
     "source": "github:iabundis29/code-review-expert",
@@ -2311,8 +2311,8 @@
   },
   {
     "source": "github:iblai/vibe",
-    "rev": "38fe2d04146e8b4a016c9bafadf5bddb1b52841a",
-    "hash": "0qp6qxrgplwhpa3qc23qyf1q0fnljvh8cv53g9qkqy2s1ynvjc38",
+    "rev": "5c8cfc2b6d218f14f4c417cba1da89fd3d09c0a9",
+    "hash": "1k31lk1lis10himrpas2222bgzqzz8wb5hf8l1xg10nc0sc9xpis",
     "skills": [
       "skills/iblai-vibe-account",
       "skills/iblai-vibe-agent-access",
@@ -2356,6 +2356,7 @@
       "skills/iblai-vibe-iconography",
       "skills/iblai-vibe-invite",
       "skills/iblai-vibe-local-llm",
+      "skills/iblai-vibe-memory",
       "skills/iblai-vibe-monetization",
       "skills/iblai-vibe-monetization-analytics",
       "skills/iblai-vibe-monetization-app-paywall",
@@ -2388,7 +2389,7 @@
       "skills/iblai-vibe-windows-msix",
       "skills/iblai-vibe-workflow"
     ],
-    "lastUpdated": "2026-08-21T07:11:07.955Z"
+    "lastUpdated": "2026-08-21T15:50:25.787Z"
   },
   {
     "source": "github:ibm-apiconnect/apic-mcp-server",
@@ -2690,14 +2691,14 @@
   },
   {
     "source": "github:ictechgy/claude-token-tools",
-    "rev": "ec268dee71ed1e09148dc4c0c1be2544bda9f493",
-    "hash": "0vvqf2lwvr4q97x14dr8pnhi4gzk6z26igwv59y6m3ddrlsd4czw",
+    "rev": "8a2a90b5ad09670b1532fa586b0e84c4ecc1ebda",
+    "hash": "0hrpm5msk22cqi6hqsimdlmg6ffzl74frji7irk0yvrvmgxr0lid",
     "skills": [
       "plugins/context-guard/skills/audit",
       "plugins/context-guard/skills/optimize",
       "plugins/context-guard/skills/setup"
     ],
-    "lastUpdated": "2026-08-21T04:03:16.871Z"
+    "lastUpdated": "2026-08-21T15:49:32.130Z"
   },
   {
     "source": "github:icyjoseph/agent-skills",
@@ -3036,8 +3037,8 @@
   },
   {
     "source": "github:iflytek/skillhub",
-    "rev": "15ce199e1a951fed05139e4c984150ddfc45def3",
-    "hash": "1smvx5prpws1pag82qmisicgckbyy8631r4a5q2slb2z3xj2ikr9",
+    "rev": "e8cab7389f5dc1084fdc1cdf70bafd314d0a3d50",
+    "hash": "0pgw07aa7z7vljpa7gzd3pyrh89c2mi8hlg83lvpfc6qzvvlr9lq",
     "skills": [
       ".agents/skills/api-and-namespace-design",
       ".agents/skills/backend-module-structure",
@@ -3063,7 +3064,7 @@
       "builtin-skills/skills/video-frames",
       "builtin-skills/skills/weather"
     ],
-    "lastUpdated": "2026-08-21T09:54:35.665Z"
+    "lastUpdated": "2026-08-21T15:49:42.109Z"
   },
   {
     "source": "github:ifonny/skills",
@@ -4407,16 +4408,12 @@
   },
   {
     "source": "github:im5tu/claude",
-    "rev": "065d8d5773f3712f710a1705a9c34f15677554aa",
-    "hash": "1w8syqm6d2irzrjh9fz5jg8bd6h0hwnnrjl8qcfn2x4b1ihdqlvr",
+    "rev": "35ab391b0151b213cb2a89f3d4543f6430254ee6",
+    "hash": "1xqiz8l86zg65m36lv6bgh6nhkmqj13canbgvxbsz1jjly24br15",
     "skills": [
-      "skills/brand-design",
-      "skills/competitor-alternatives",
       "skills/copywriting",
-      "skills/dart-drift",
       "skills/dotnet-aot-analysis",
       "skills/dotnet-centralise-packages",
-      "skills/dotnet-enable-autocomplete",
       "skills/dotnet-enable-testing-platform",
       "skills/dotnet-json-polymorphic",
       "skills/dotnet-source-gen-json",
@@ -4424,24 +4421,13 @@
       "skills/dotnet-source-gen-options-validation",
       "skills/dotnet-source-gen-regex",
       "skills/dotnet-update-packages",
-      "skills/flutter-adaptive-ui",
-      "skills/flutter-animations",
-      "skills/flutter-architecture",
-      "skills/flutter-drift",
-      "skills/flutter-duit-bdui",
-      "skills/flutter-internationalization",
-      "skills/flutter-navigation",
-      "skills/flutter-networking",
-      "skills/flutter-testing",
-      "skills/launch-strategy",
-      "skills/marketing-psychology",
       "skills/plan-feature",
       "skills/reprompt",
-      "skills/using-git-worktrees",
+      "skills/unslop",
       "skills/website-design",
       "skills/website-seo"
     ],
-    "lastUpdated": "2026-05-29T17:10:47.330Z"
+    "lastUpdated": "2026-08-21T15:50:50.584Z"
   },
   {
     "source": "github:im5tu/dotnet-skills",
@@ -4485,8 +4471,8 @@
   },
   {
     "source": "github:imaimai17468/imaimai-front-templete",
-    "rev": "bbc9735c3305e4de36099bd08648463fc0a304cd",
-    "hash": "0sqwmzdirjwid0yzvp412cd6vbvs2a8129h8mwrh3y0l0ijkprck",
+    "rev": "ee64491426a650501b01ba3a6c0d4cbf494d760a",
+    "hash": "0axl6nv6hbd3jmm5xddgr2qxw6q9zydn6c51wcr432vmn1v84zlr",
     "skills": [
       ".claude/skills/anti-slop-design",
       ".claude/skills/empirical-prompt-tuning",
@@ -4500,7 +4486,7 @@
       ".claude/skills/review-diff",
       ".claude/skills/verify-spec"
     ],
-    "lastUpdated": "2026-08-21T07:07:42.739Z"
+    "lastUpdated": "2026-08-21T15:50:52.441Z"
   },
   {
     "source": "github:imaimai17468/modern-short-video-skills",
@@ -5677,21 +5663,29 @@
   },
   {
     "source": "github:indigoprotocol/indigo-ai",
-    "rev": "05b185113f85aefe161c3a1e27b58438301d8272",
-    "hash": "15p41l1vdfk0m4nrllz2va7yzx7nlvjxz1jwyxn9a4g75imja1lm",
+    "rev": "b0c9430eab1b2af5897bab11bd1347425c62db01",
+    "hash": "1gnk32lpv36d84mvvb387j5im2h6gg4raiwyz8l1c4w70273wbky",
     "skills": [
       "packages/plugins/indigo-data/skills/indigo-analytics",
       "packages/plugins/indigo-data/skills/indigo-assets",
       "packages/plugins/indigo-data/skills/indigo-dex",
       "packages/plugins/indigo-data/skills/indigo-governance",
       "packages/plugins/indigo-data/skills/indigo-ipfs",
+      "packages/plugins/indigo-data/skills/indigo-oracle",
+      "packages/plugins/indigo-data/skills/indigo-stableswap",
       "packages/plugins/indigo-defi/skills/indigo-cdp",
+      "packages/plugins/indigo-defi/skills/indigo-interest",
       "packages/plugins/indigo-defi/skills/indigo-redemption",
       "packages/plugins/indigo-defi/skills/indigo-stability",
       "packages/plugins/indigo-defi/skills/indigo-staking",
+      "packages/plugins/indigo-strategies/skills/indigo-liquidation-guard",
+      "packages/plugins/indigo-strategies/skills/indigo-liquidation-hunter",
+      "packages/plugins/indigo-strategies/skills/indigo-peg-arb",
+      "packages/plugins/indigo-strategies/skills/indigo-tx-execution",
+      "packages/plugins/indigo-strategies/skills/indigo-yield-router",
       "templates/openclaw"
     ],
-    "lastUpdated": "2026-03-31T16:31:52.679Z"
+    "lastUpdated": "2026-08-21T15:51:38.288Z"
   },
   {
     "source": "github:indranilbanerjee/aeo-strategist-claude-skill",
@@ -6673,8 +6667,8 @@
   },
   {
     "source": "github:influxdata/docs-v2",
-    "rev": "189553889a7a2a43bb3cf465cc2063cf40e713ab",
-    "hash": "1ga4h443f3gdkr29mj1x52dx609ij0f8fqr2gx9b1p87x6bj4gw2",
+    "rev": "bac3f67044af452f77566ec86679dfcdb5e51fc7",
+    "hash": "0vy563jcmzrqgvdnd4jwzq6b526cylg5mp0vzahf5chw36wwxm7c",
     "skills": [
       ".agents/skills/ai-visibility",
       ".agents/skills/content-editing",
@@ -6688,7 +6682,7 @@
       ".agents/skills/vale-linting",
       ".agents/skills/vale-rule-config"
     ],
-    "lastUpdated": "2026-08-19T21:41:53.276Z"
+    "lastUpdated": "2026-08-21T15:51:14.199Z"
   },
   {
     "source": "github:infocube-dev-team/healthcare-fhir-cql",
@@ -8323,15 +8317,15 @@
   },
   {
     "source": "github:iofficeai/aionui",
-    "rev": "446e83e1b0b65a2eb7073c0896f87a5749a17853",
-    "hash": "08m7dr5pi9hm8g7s7sd6alids53vmq50mc1nldhvy109p1inpw5f",
+    "rev": "b1dcdb8dbf59f58310ff720a79575745efd9dd12",
+    "hash": "05v2lqm60min5bvdjqzq5f5z29bkwzjcnw7ygc78nqlqri5xz7qx",
     "skills": [
       ".claude/skills/architecture",
       ".claude/skills/bump-version",
       ".claude/skills/i18n",
       ".claude/skills/testing"
     ],
-    "lastUpdated": "2026-08-21T09:55:24.108Z"
+    "lastUpdated": "2026-08-21T15:52:06.885Z"
   },
   {
     "source": "github:iofficeai/officecli",
@@ -8543,8 +8537,8 @@
   },
   {
     "source": "github:irahardianto/antigravity-setup",
-    "rev": "7450d8b0cb1c6e49909924a84f12ff048023a83e",
-    "hash": "02rbslwv20aqs24y8msh3ll8l7p90gzk96ff9fdvch43jhzg1wc3",
+    "rev": "349849059ede4ab78e6505878161b62a84316a11",
+    "hash": "1v45q6lv6r01fw6ldfc525n7ajpl37003qvff87czgxww4x0hvv2",
     "skills": [
       ".agents/skills/adr",
       ".agents/skills/agent-protocols",
@@ -8606,7 +8600,7 @@
       ".agents/skills/typescript-idioms",
       ".agents/skills/vue-idioms"
     ],
-    "lastUpdated": "2026-08-21T04:03:16.423Z"
+    "lastUpdated": "2026-08-21T15:52:23.544Z"
   },
   {
     "source": "github:irahardianto/monarch",
@@ -8781,15 +8775,17 @@
   },
   {
     "source": "github:isaac-sim/IsaacLab-Arena",
-    "rev": "b881591e8a99f99794500504683dc066690f1316",
-    "hash": "05z8lnarl5csj8mkyxhl242hfh6jrjk60zlvyxy7p3ww7c20rnvi",
+    "rev": "0b3cdf84bba67c3afb460d813033f0e36594a4e7",
+    "hash": "0q77w4rbvsx5bmwdk0ykinhw3ws35qg7q4v910f5hjx5j7wl8g56",
     "skills": [
       "skills/developer/commit-and-pr",
       "skills/developer/dev-container",
       "skills/developer/run-tests",
+      "skills/user/run-experiment",
+      "skills/user/serve-openpi-policy",
       "skills/user/setup-arena"
     ],
-    "lastUpdated": "2026-08-21T09:55:50.203Z"
+    "lastUpdated": "2026-08-21T15:53:00.208Z"
   },
   {
     "source": "github:isaaccorley/geospatial-skills",
@@ -9777,12 +9773,12 @@
   },
   {
     "source": "github:itsmemeworks/adhx",
-    "rev": "6241cea0dd2231359c66fb4cf0c594623d43ebd6",
-    "hash": "0db9iiwlgr5djvgj6zx7k0yybsjgz9d91p6nim134r4xkzhn23cl",
+    "rev": "b1421783680be61138c26cc2ddecf5e97fdf818d",
+    "hash": "0giks6q5glqfzqf5h43q93i2wzrgxd9nrcmc9lhlfyif8pj6l43k",
     "skills": [
       "skills/adhx"
     ],
-    "lastUpdated": "2026-08-21T09:55:12.156Z"
+    "lastUpdated": "2026-08-21T15:49:36.030Z"
   },
   {
     "source": "github:itsmistermoon/cortex-forge",
