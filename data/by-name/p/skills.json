@@ -10,23 +10,23 @@
   },
   {
     "source": "github:PCIRCLE-AI/claude-code-buddy",
-    "rev": "f277918917f7f8a93c7adf53ad75eb3c7cbd2f78",
-    "hash": "046af59jpnnz010ji46balxq1va17cz33csfk352v0jdrq4f1wns",
+    "rev": "58294705e965f6a5badb0af031f3bb4f24110797",
+    "hash": "1rkijxx3z9003vah5ywd7qip8z5i2axwg0qbclb00w5vshrv61p1",
     "skills": [
       "skills/memesh",
       "skills/memesh-review"
     ],
-    "lastUpdated": "2026-08-23T09:42:49.179Z"
+    "lastUpdated": "2026-08-23T13:02:11.919Z"
   },
   {
     "source": "github:PCIRCLE-AI/memesh-llm-memory",
-    "rev": "f277918917f7f8a93c7adf53ad75eb3c7cbd2f78",
-    "hash": "046af59jpnnz010ji46balxq1va17cz33csfk352v0jdrq4f1wns",
+    "rev": "58294705e965f6a5badb0af031f3bb4f24110797",
+    "hash": "1rkijxx3z9003vah5ywd7qip8z5i2axwg0qbclb00w5vshrv61p1",
     "skills": [
       "skills/memesh",
       "skills/memesh-review"
     ],
-    "lastUpdated": "2026-08-23T09:42:49.193Z"
+    "lastUpdated": "2026-08-23T13:02:12.087Z"
   },
   {
     "source": "github:PHY041/claude-skill-reddit",
@@ -245,8 +245,8 @@
   },
   {
     "source": "github:Paretofilm/superpowers-gstack",
-    "rev": "f863121e835cf50576d67a36880649f02c3b7536",
-    "hash": "15jwpdkn6yqfk9qjkjzw6pgcckfm41s9a10za3ni2gygr4kc3gx6",
+    "rev": "c55644f6a4932aefc9374d93d3af44a98cadbaac",
+    "hash": "010x47mxq6dg57j4lc20inzx609dgvvijf3m6fxb5kj3rz0s0cyj",
     "skills": [
       "skills/adapt",
       "skills/autoimplement",
@@ -265,7 +265,7 @@
       "skills/swiftui-design-consultation",
       "skills/third-lens-review"
     ],
-    "lastUpdated": "2026-08-22T15:34:55.374Z"
+    "lastUpdated": "2026-08-23T13:02:15.558Z"
   },
   {
     "source": "github:ParthJadhav/ios-marketing-capture",
@@ -987,8 +987,8 @@
   },
   {
     "source": "github:PostHog/posthog",
-    "rev": "a2723fd859d00251f91636f4cf774a6753114387",
-    "hash": "14qbl8n4kf8kbrwl7hh9b361w3gssqpiq8d19chwnjc28ib99f7r",
+    "rev": "9a1838cfef73eef83d87d9bac5d842c5db5211e0",
+    "hash": "19l24l27q6l06wcwrxck4ygismwz1kwa665nv8a95xgx7xj7s835",
     "skills": [
       ".agents/skills/adding-inbox-sources",
       ".agents/skills/adding-ingestion-warnings",
@@ -1239,12 +1239,12 @@
       "tools/traffic-sim/skills/simulate-returning-user",
       "tools/traffic-sim/skills/verify-posthog-instrumentation"
     ],
-    "lastUpdated": "2026-08-23T09:43:34.201Z"
+    "lastUpdated": "2026-08-23T13:02:59.781Z"
   },
   {
     "source": "github:PostHog/posthog-foss",
-    "rev": "6e2c84f8fd12b56276201f2c45c6fc3584a18b1c",
-    "hash": "1rz4xiskh7asjbyabccf944xkcm1rrkgbmc5hk5hhacbj6biz2kg",
+    "rev": "27175005a1155017fec5a00b25734f53fcf0d854",
+    "hash": "0rlh337b5932djfbam59xsrdrgfjjavkm0f0xjm1lff19jwbcm11",
     "skills": [
       ".agents/skills/adding-inbox-sources",
       ".agents/skills/adding-ingestion-warnings",
@@ -1495,7 +1495,7 @@
       "tools/traffic-sim/skills/simulate-returning-user",
       "tools/traffic-sim/skills/verify-posthog-instrumentation"
     ],
-    "lastUpdated": "2026-08-23T09:43:33.754Z"
+    "lastUpdated": "2026-08-23T13:02:59.736Z"
   },
   {
     "source": "github:PrabhdeepSingh/claude-plugins",
@@ -9682,11 +9682,14 @@
   },
   {
     "source": "github:pedrohcgs/claude-code-my-workflow",
-    "rev": "be53c12f235996dff41fb7f21580506fd2dd8d50",
-    "hash": "010x7ns8zillq5lkdzabkslcdn2mlipq0jsj3fh6w7b07r35766a",
+    "rev": "cb38a277840fd0ee0c0a6ea61ddc2bceb940efc6",
+    "hash": "0yy3d0sd4vdipv2cs17ivr4i0r76gshr00hfvra7zmdwxcp84fib",
     "skills": [
+      ".claude/skills/adjudicate-review",
       ".claude/skills/audit-reproducibility",
+      ".claude/skills/blast-radius",
       ".claude/skills/capture-environment",
+      ".claude/skills/challenge",
       ".claude/skills/checkpoint",
       ".claude/skills/coauthor-brief",
       ".claude/skills/commit",
@@ -9694,13 +9697,14 @@
       ".claude/skills/compress-session",
       ".claude/skills/context-status",
       ".claude/skills/create-lecture",
+      ".claude/skills/credible-claims",
       ".claude/skills/data-analysis",
       ".claude/skills/data-management-plan",
       ".claude/skills/deep-audit",
       ".claude/skills/deploy",
       ".claude/skills/devils-advocate",
       ".claude/skills/diagnose",
-      ".claude/skills/did-event-study",
+      ".claude/skills/differential-audit",
       ".claude/skills/disclosure-check",
       ".claude/skills/extract-tikz",
       ".claude/skills/grant-proposal",
@@ -9710,6 +9714,7 @@
       ".claude/skills/lit-review",
       ".claude/skills/new-diagram",
       ".claude/skills/new-skill",
+      ".claude/skills/oracle-review",
       ".claude/skills/pedagogy-review",
       ".claude/skills/permission-check",
       ".claude/skills/power-analysis",
@@ -9734,11 +9739,14 @@
       ".claude/skills/teach-from-paper",
       ".claude/skills/translate-to-quarto",
       ".claude/skills/triage-inbox",
+      ".claude/skills/vaccinate",
       ".claude/skills/validate-bib",
+      ".claude/skills/verify-artifact",
       ".claude/skills/verify-claims",
-      ".claude/skills/visual-audit"
+      ".claude/skills/visual-audit",
+      ".claude/skills/voice-profile"
     ],
-    "lastUpdated": "2026-06-12T09:11:30.222Z"
+    "lastUpdated": "2026-08-23T13:09:04.187Z"
   },
   {
     "source": "github:pedronauck/skills",
@@ -10203,15 +10211,15 @@
   },
   {
     "source": "github:pengelbrecht/ticks",
-    "rev": "a96d731dc1be7451f2fc4d73e5c2d286f5e83390",
-    "hash": "0zwi69vf3pvs1qbji8409861cpsj6jdg1z9gjqqgyx9swx6aah30",
+    "rev": "7ef8a57773eff75322dd3af9d8fe905956a3b49a",
+    "hash": "0mmpzdsrq05fb3f40iky8cl5z3kz1idaxbzan9pwrp2pn0lbk0ih",
     "skills": [
       ".agents/skills/SVG Logo Designer",
       ".agents/skills/brand-guidelines",
       ".agents/skills/frontend-design",
       "skills/ticks"
     ],
-    "lastUpdated": "2026-08-21T15:52:35.023Z"
+    "lastUpdated": "2026-08-23T13:09:21.599Z"
   },
   {
     "source": "github:pengjiyuan/openclaw-image-generator",
@@ -10242,12 +10250,12 @@
   },
   {
     "source": "github:penglonghuang/chinese-novelist-skill",
-    "rev": "6c507e0221ccf1a37e9652a8b9bbf0753c3a8bcf",
-    "hash": "19cka9vvm470wimikixdr3igd1l0isvxmh9iqg9k7815i2vk3cgx",
+    "rev": "120b90c42852769e3acb2f7a5dd9b8bd25bdb750",
+    "hash": "0ng1d9zd6r92zlnw13fbivpdcck8pbnwjn3v1s3bj461anxi0cs2",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-22T16:51:24.647Z"
+    "lastUpdated": "2026-08-23T13:09:20.927Z"
   },
   {
     "source": "github:pengxiaoan/autocad-dwg-redraw-skill",
@@ -19595,8 +19603,8 @@
   },
   {
     "source": "github:pollinations/pollinations",
-    "rev": "432c1cce722192b719d3ac280b221b9a6d972ecb",
-    "hash": "0imy21pvh6km79lad585zdaaav42m6b8my614q86hnqwkkw72jlc",
+    "rev": "c2a19c26731bb9b300d235d8c9a4c2703a969d79",
+    "hash": "0b55c4sa620j97zz5lkix83slksnw6d1g45q3h0i85ni7h2mla2z",
     "skills": [
       ".claude/skills/abuse-detection",
       ".claude/skills/candidate-evaluation",
@@ -19618,7 +19626,7 @@
       "apps/openclaw/skills/founder-meditation",
       "packages/polli-cli"
     ],
-    "lastUpdated": "2026-08-23T09:49:06.024Z"
+    "lastUpdated": "2026-08-23T13:09:48.120Z"
   },
   {
     "source": "github:polloaiofficial/pollo-skills",
@@ -20569,8 +20577,8 @@
   },
   {
     "source": "github:posthog/posthog",
-    "rev": "a2723fd859d00251f91636f4cf774a6753114387",
-    "hash": "14qbl8n4kf8kbrwl7hh9b361w3gssqpiq8d19chwnjc28ib99f7r",
+    "rev": "9a1838cfef73eef83d87d9bac5d842c5db5211e0",
+    "hash": "19l24l27q6l06wcwrxck4ygismwz1kwa665nv8a95xgx7xj7s835",
     "skills": [
       ".agents/skills/adding-inbox-sources",
       ".agents/skills/adding-ingestion-warnings",
@@ -20821,7 +20829,7 @@
       "tools/traffic-sim/skills/simulate-returning-user",
       "tools/traffic-sim/skills/verify-posthog-instrumentation"
     ],
-    "lastUpdated": "2026-08-23T09:54:26.523Z"
+    "lastUpdated": "2026-08-23T13:13:23.578Z"
   },
   {
     "source": "github:posthog/posthog-for-claude",
@@ -25034,8 +25042,8 @@
   },
   {
     "source": "github:promovaweb/mvpfy",
-    "rev": "ec95b769cd44eba76d5a9b7faa29192140b05f0f",
-    "hash": "0q8lb6wzgmagmza1i4a92cx81rpx0imqn98xad4pd646phxwwz86",
+    "rev": "28aed2be33da3d4194697791f44b7a6b87e467d7",
+    "hash": "1z5yd3pv6mpsf0bsdhgyv35xhwxiq4pccny242wbavz4y1ss5z60",
     "skills": [
       "skills/mvpfy",
       "skills/mvpfy-audience",
@@ -25053,7 +25061,7 @@
       "skills/mvpfy-setup",
       "skills/mvpfy-technology"
     ],
-    "lastUpdated": "2026-08-21T21:44:53.822Z"
+    "lastUpdated": "2026-08-23T13:06:23.670Z"
   },
   {
     "source": "github:promovaweb/specsfy",
@@ -25518,8 +25526,8 @@
   },
   {
     "source": "github:proompteng/lab",
-    "rev": "12f8e3cb295a4bbbe9cb264f66b464b4660059c9",
-    "hash": "1sbi1hn41bkr2qmag027sjq7b7s35b67ks4kqrjhgc0hj3n398ww",
+    "rev": "ee4e03b794ee24dacb2f653b83c39f3b6b6239c9",
+    "hash": "1bqzfympl2w8803xc4j03skhnrn55kagfxrray2lzfr5f9nq7vkg",
     "skills": [
       "skills/ansible",
       "skills/deployment",
@@ -25539,7 +25547,7 @@
       "skills/technicals-regime",
       "skills/temporal"
     ],
-    "lastUpdated": "2026-08-23T09:49:26.018Z"
+    "lastUpdated": "2026-08-23T13:07:07.490Z"
   },
   {
     "source": "github:propeller-heads/tycho-indexer",
