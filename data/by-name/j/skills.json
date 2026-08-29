@@ -1,118 +1,179 @@
 [
   {
     "source": "github:J-StaR-Films-Studios/VibeCode-Protocol-Suite",
-    "rev": "aa796090e78d025d7c070a149f7db81a7791e3ae",
-    "hash": "1yqw67vq2k7milq8ak126ypg79l48hg8fl47hfbsvrvdw3yym82r",
+    "rev": "f4661c809fd22a330201a99f9379ba40491e5874",
+    "hash": "0gzwk1aicldvi53918z6vixpv2lvrsjsb4wpipsp1w61b88bj3w3",
     "skills": [
-      "assets/.agent/skills/21st-dev-components",
+      ".agents/skill-curator",
+      ".agents/skills/unslop",
+      "assets/.agent/skills/agent-engineering",
+      "assets/.agent/skills/agent-engineering/arena",
+      "assets/.agent/skills/agent-engineering/automate-me",
+      "assets/.agent/skills/agent-engineering/conversation-to-spec",
+      "assets/.agent/skills/agent-engineering/crafting-effective-readmes",
+      "assets/.agent/skills/agent-engineering/create-verification-skill",
+      "assets/.agent/skills/agent-engineering/domain-modeling",
+      "assets/.agent/skills/agent-engineering/expert-system-engineer",
+      "assets/.agent/skills/agent-engineering/maintain-verification-skill",
+      "assets/.agent/skills/agent-engineering/optimize-agent-context",
+      "assets/.agent/skills/agent-engineering/prompt-engineering",
+      "assets/.agent/skills/agent-engineering/reflect",
+      "assets/.agent/skills/agent-engineering/skill-creator",
+      "assets/.agent/skills/agent-engineering/source-to-skill",
+      "assets/.agent/skills/agent-engineering/spawn-task",
+      "assets/.agent/skills/agent-engineering/subagent-driven-development",
+      "assets/.agent/skills/agent-engineering/to-questionnaire",
+      "assets/.agent/skills/agent-engineering/writing-for-agents",
       "assets/.agent/skills/agent-recovery",
-      "assets/.agent/skills/ai-avatar-video",
-      "assets/.agent/skills/ai-marketing-videos",
-      "assets/.agent/skills/ai-podcast-creation",
-      "assets/.agent/skills/ai-product-photography",
+      "assets/.agent/skills/ai-media",
+      "assets/.agent/skills/ai-media/ai-avatar-video",
+      "assets/.agent/skills/ai-media/ai-marketing-videos",
+      "assets/.agent/skills/ai-media/ai-podcast-creation",
+      "assets/.agent/skills/ai-media/ai-product-photography",
+      "assets/.agent/skills/ai-media/ai-social-media-content",
+      "assets/.agent/skills/ai-media/ai-voice-cloning",
+      "assets/.agent/skills/ai-media/photo-book-builder",
       "assets/.agent/skills/ai-sdk",
-      "assets/.agent/skills/ai-social-media-content",
-      "assets/.agent/skills/ai-voice-cloning",
       "assets/.agent/skills/algorithmic-art",
       "assets/.agent/skills/anti-gravity",
       "assets/.agent/skills/audit-website",
       "assets/.agent/skills/avoid-feature-creep",
-      "assets/.agent/skills/building-native-ui",
+      "assets/.agent/skills/bro",
+      "assets/.agent/skills/code-intelligence",
+      "assets/.agent/skills/code-intelligence/blast-radius",
+      "assets/.agent/skills/code-intelligence/diagnosing-bugs",
+      "assets/.agent/skills/code-intelligence/how",
+      "assets/.agent/skills/code-intelligence/show-me-your-work",
+      "assets/.agent/skills/code-intelligence/teach",
+      "assets/.agent/skills/code-intelligence/why",
       "assets/.agent/skills/code-review",
-      "assets/.agent/skills/component-analysis",
       "assets/.agent/skills/context7",
       "assets/.agent/skills/convex",
-      "assets/.agent/skills/convex-agents",
-      "assets/.agent/skills/convex-best-practices",
-      "assets/.agent/skills/convex-component-authoring",
-      "assets/.agent/skills/convex-cron-jobs",
-      "assets/.agent/skills/convex-file-storage",
-      "assets/.agent/skills/convex-functions",
-      "assets/.agent/skills/convex-http-actions",
-      "assets/.agent/skills/convex-migrations",
-      "assets/.agent/skills/convex-realtime",
-      "assets/.agent/skills/convex-schema-validator",
-      "assets/.agent/skills/convex-security-audit",
-      "assets/.agent/skills/convex-security-check",
-      "assets/.agent/skills/copywriting",
-      "assets/.agent/skills/crafting-effective-readmes",
-      "assets/.agent/skills/docx",
-      "assets/.agent/skills/domain-name-brainstormer",
-      "assets/.agent/skills/embedded-captions",
-      "assets/.agent/skills/exam-creator-skill",
-      "assets/.agent/skills/faceless-explainer",
-      "assets/.agent/skills/figma",
-      "assets/.agent/skills/frontend-design",
-      "assets/.agent/skills/gemini",
-      "assets/.agent/skills/general-video",
+      "assets/.agent/skills/convex/convex-agents",
+      "assets/.agent/skills/convex/convex-best-practices",
+      "assets/.agent/skills/convex/convex-component-authoring",
+      "assets/.agent/skills/convex/convex-cron-jobs",
+      "assets/.agent/skills/convex/convex-file-storage",
+      "assets/.agent/skills/convex/convex-functions",
+      "assets/.agent/skills/convex/convex-http-actions",
+      "assets/.agent/skills/convex/convex-migrations",
+      "assets/.agent/skills/convex/convex-realtime",
+      "assets/.agent/skills/convex/convex-schema-validator",
+      "assets/.agent/skills/convex/convex-security-audit",
+      "assets/.agent/skills/convex/convex-security-check",
+      "assets/.agent/skills/engineering-principles",
+      "assets/.agent/skills/engineering-principles/boundary-discipline",
+      "assets/.agent/skills/engineering-principles/build-the-lever",
+      "assets/.agent/skills/engineering-principles/encode-lessons-in-structure",
+      "assets/.agent/skills/engineering-principles/exhaust-the-design-space",
+      "assets/.agent/skills/engineering-principles/experience-first",
+      "assets/.agent/skills/engineering-principles/fix-root-causes",
+      "assets/.agent/skills/engineering-principles/foundational-thinking",
+      "assets/.agent/skills/engineering-principles/guard-the-context-window",
+      "assets/.agent/skills/engineering-principles/laziness-protocol",
+      "assets/.agent/skills/engineering-principles/make-operations-idempotent",
+      "assets/.agent/skills/engineering-principles/migrate-callers-then-delete-legacy-apis",
+      "assets/.agent/skills/engineering-principles/minimize-reader-load",
+      "assets/.agent/skills/engineering-principles/model-the-domain",
+      "assets/.agent/skills/engineering-principles/never-block-on-the-human",
+      "assets/.agent/skills/engineering-principles/outcome-oriented-execution",
+      "assets/.agent/skills/engineering-principles/prove-it-works",
+      "assets/.agent/skills/engineering-principles/redesign-from-first-principles",
+      "assets/.agent/skills/engineering-principles/separate-before-serializing-shared-state",
+      "assets/.agent/skills/engineering-principles/sequence-verifiable-units",
+      "assets/.agent/skills/engineering-principles/subtract-before-you-add",
+      "assets/.agent/skills/engineering-principles/type-system-discipline",
+      "assets/.agent/skills/frontend-ui",
+      "assets/.agent/skills/frontend-ui/21st-dev-components",
+      "assets/.agent/skills/frontend-ui/building-native-ui",
+      "assets/.agent/skills/frontend-ui/component-analysis",
+      "assets/.agent/skills/frontend-ui/creative-web-development",
+      "assets/.agent/skills/frontend-ui/figma",
+      "assets/.agent/skills/frontend-ui/frontend-design",
+      "assets/.agent/skills/frontend-ui/prototyping-variants",
+      "assets/.agent/skills/frontend-ui/stitch",
+      "assets/.agent/skills/frontend-ui/stitch/design-md",
+      "assets/.agent/skills/frontend-ui/stitch/enhance-prompt",
+      "assets/.agent/skills/frontend-ui/stitch/react-components",
+      "assets/.agent/skills/frontend-ui/stitch/shadcn-ui",
+      "assets/.agent/skills/frontend-ui/stitch/stitch-loop",
+      "assets/.agent/skills/frontend-ui/story-engineer",
+      "assets/.agent/skills/frontend-ui/ui-ux-pro-max",
+      "assets/.agent/skills/frontend-ui/web-design-guidelines",
+      "assets/.agent/skills/frontend-ui/webapp-testing",
       "assets/.agent/skills/git-commit-generation",
-      "assets/.agent/skills/git-worktree",
-      "assets/.agent/skills/github-ops",
-      "assets/.agent/skills/global-brand-namer",
-      "assets/.agent/skills/google-trends",
+      "assets/.agent/skills/git-github-tools",
+      "assets/.agent/skills/git-github-tools/git-worktree",
+      "assets/.agent/skills/git-github-tools/github-ops",
+      "assets/.agent/skills/git-github-tools/issue-pr-triage",
+      "assets/.agent/skills/git-github-tools/pr-comment-fix",
+      "assets/.agent/skills/git-github-tools/resolving-merge-conflicts",
+      "assets/.agent/skills/grill-me",
       "assets/.agent/skills/high-fidelity-extraction",
       "assets/.agent/skills/hyperframes",
-      "assets/.agent/skills/hyperframes-animation",
-      "assets/.agent/skills/hyperframes-cli",
-      "assets/.agent/skills/hyperframes-core",
-      "assets/.agent/skills/hyperframes-creative",
-      "assets/.agent/skills/hyperframes-keyframes",
-      "assets/.agent/skills/hyperframes-media",
-      "assets/.agent/skills/hyperframes-registry",
-      "assets/.agent/skills/jstar-reviewer",
+      "assets/.agent/skills/hyperframes/embedded-captions",
+      "assets/.agent/skills/hyperframes/faceless-explainer",
+      "assets/.agent/skills/hyperframes/general-video",
+      "assets/.agent/skills/hyperframes/hyperframes-animation",
+      "assets/.agent/skills/hyperframes/hyperframes-cli",
+      "assets/.agent/skills/hyperframes/hyperframes-core",
+      "assets/.agent/skills/hyperframes/hyperframes-creative",
+      "assets/.agent/skills/hyperframes/hyperframes-keyframes",
+      "assets/.agent/skills/hyperframes/hyperframes-media",
+      "assets/.agent/skills/hyperframes/hyperframes-registry",
+      "assets/.agent/skills/hyperframes/media-use",
+      "assets/.agent/skills/hyperframes/motion-graphics",
+      "assets/.agent/skills/hyperframes/music-to-video",
+      "assets/.agent/skills/hyperframes/pr-to-video",
+      "assets/.agent/skills/hyperframes/product-launch-video",
+      "assets/.agent/skills/hyperframes/remotion-to-hyperframes",
+      "assets/.agent/skills/hyperframes/slideshow",
+      "assets/.agent/skills/hyperframes/talking-head-recut",
+      "assets/.agent/skills/hyperframes/website-to-video",
       "assets/.agent/skills/jules",
-      "assets/.agent/skills/marketing-ideas",
-      "assets/.agent/skills/media-use",
-      "assets/.agent/skills/monorepo-management",
-      "assets/.agent/skills/motion-graphics",
-      "assets/.agent/skills/music-to-video",
-      "assets/.agent/skills/nextjs-standards",
-      "assets/.agent/skills/optimize-agent-context",
-      "assets/.agent/skills/pdf",
-      "assets/.agent/skills/photo-book-builder",
-      "assets/.agent/skills/pptx",
-      "assets/.agent/skills/pr-comment-fix",
-      "assets/.agent/skills/pr-to-video",
-      "assets/.agent/skills/pricing-strategy",
-      "assets/.agent/skills/product-launch-video",
-      "assets/.agent/skills/programmatic-seo",
-      "assets/.agent/skills/prompt-engineering",
+      "assets/.agent/skills/marketing-growth",
+      "assets/.agent/skills/marketing-growth/copywriting",
+      "assets/.agent/skills/marketing-growth/domain-name-brainstormer",
+      "assets/.agent/skills/marketing-growth/global-brand-namer",
+      "assets/.agent/skills/marketing-growth/google-trends",
+      "assets/.agent/skills/marketing-growth/marketing-ideas",
+      "assets/.agent/skills/marketing-growth/pricing-strategy",
+      "assets/.agent/skills/marketing-growth/programmatic-seo",
+      "assets/.agent/skills/marketing-growth/seo-ready",
+      "assets/.agent/skills/marketing-growth/social-content",
+      "assets/.agent/skills/marketing-growth/twitter-automation",
+      "assets/.agent/skills/marketing-growth/youtube-pipeline",
+      "assets/.agent/skills/office-docs",
+      "assets/.agent/skills/office-docs/docx",
+      "assets/.agent/skills/office-docs/exam-creator-skill",
+      "assets/.agent/skills/office-docs/pdf",
+      "assets/.agent/skills/office-docs/pptx",
+      "assets/.agent/skills/office-docs/technical-writing",
+      "assets/.agent/skills/office-docs/xlsx",
+      "assets/.agent/skills/poteto-mode",
       "assets/.agent/skills/remotion",
-      "assets/.agent/skills/remotion-real-ui-video",
-      "assets/.agent/skills/remotion-to-hyperframes",
+      "assets/.agent/skills/remotion/remotion-real-ui-video",
       "assets/.agent/skills/security-audit",
-      "assets/.agent/skills/seo-ready",
-      "assets/.agent/skills/shared-resend-portfolio",
-      "assets/.agent/skills/skill-creator",
-      "assets/.agent/skills/slideshow",
-      "assets/.agent/skills/social-content",
-      "assets/.agent/skills/spawn-task",
-      "assets/.agent/skills/stitch",
-      "assets/.agent/skills/stitch/design-md",
-      "assets/.agent/skills/stitch/enhance-prompt",
-      "assets/.agent/skills/stitch/react-components",
-      "assets/.agent/skills/stitch/shadcn-ui",
-      "assets/.agent/skills/stitch/stitch-loop",
-      "assets/.agent/skills/subagent-driven-development",
       "assets/.agent/skills/sync-docs",
       "assets/.agent/skills/takomi",
-      "assets/.agent/skills/takomi-flow",
-      "assets/.agent/skills/talking-head-recut",
-      "assets/.agent/skills/twitter-automation",
-      "assets/.agent/skills/ui-ux-pro-max",
-      "assets/.agent/skills/upgrading-expo",
-      "assets/.agent/skills/web-design-guidelines",
-      "assets/.agent/skills/webapp-testing",
-      "assets/.agent/skills/website-to-video",
-      "assets/.agent/skills/xlsx",
-      "assets/.agent/skills/youtube-pipeline",
+      "assets/.agent/skills/wait-what",
+      "assets/.agent/skills/web-dev-standards",
+      "assets/.agent/skills/web-dev-standards/codebase-design",
+      "assets/.agent/skills/web-dev-standards/interactive-wizard",
+      "assets/.agent/skills/web-dev-standards/monorepo-management",
+      "assets/.agent/skills/web-dev-standards/nextjs-standards",
+      "assets/.agent/skills/web-dev-standards/shared-resend-portfolio",
+      "assets/.agent/skills/web-dev-standards/test-driven-development",
+      "assets/.agent/skills/web-dev-standards/typescript-standards",
+      "assets/.agent/skills/web-dev-standards/upgrading-expo",
       "assets/.agent/skills/zack-d-films-production-suite",
       "assets/.agent/skills/zack-d-films-production-suite/resources/skills/zack-browser-planner",
       "assets/.agent/skills/zack-d-films-production-suite/resources/skills/zack-higgsfield",
       "assets/.agent/skills/zack-d-films-production-suite/resources/skills/zack-local-flow-producer",
-      "plugins/takomi-codex/skills/takomi-codex"
+      "plugins/takomi-codex/skills/takomi-codex",
+      "plugins/takomi-flow/skills/takomi-flow"
     ],
-    "lastUpdated": "2026-08-20T01:51:47.707Z"
+    "lastUpdated": "2026-08-29T01:45:25.696Z"
   },
   {
     "source": "github:JCodesMore/ai-website-cloner-template",
@@ -983,118 +1044,179 @@
   },
   {
     "source": "github:j-star-films-studios/vibecode-protocol-suite",
-    "rev": "aa796090e78d025d7c070a149f7db81a7791e3ae",
-    "hash": "1yqw67vq2k7milq8ak126ypg79l48hg8fl47hfbsvrvdw3yym82r",
+    "rev": "f4661c809fd22a330201a99f9379ba40491e5874",
+    "hash": "0gzwk1aicldvi53918z6vixpv2lvrsjsb4wpipsp1w61b88bj3w3",
     "skills": [
-      "assets/.agent/skills/21st-dev-components",
+      ".agents/skill-curator",
+      ".agents/skills/unslop",
+      "assets/.agent/skills/agent-engineering",
+      "assets/.agent/skills/agent-engineering/arena",
+      "assets/.agent/skills/agent-engineering/automate-me",
+      "assets/.agent/skills/agent-engineering/conversation-to-spec",
+      "assets/.agent/skills/agent-engineering/crafting-effective-readmes",
+      "assets/.agent/skills/agent-engineering/create-verification-skill",
+      "assets/.agent/skills/agent-engineering/domain-modeling",
+      "assets/.agent/skills/agent-engineering/expert-system-engineer",
+      "assets/.agent/skills/agent-engineering/maintain-verification-skill",
+      "assets/.agent/skills/agent-engineering/optimize-agent-context",
+      "assets/.agent/skills/agent-engineering/prompt-engineering",
+      "assets/.agent/skills/agent-engineering/reflect",
+      "assets/.agent/skills/agent-engineering/skill-creator",
+      "assets/.agent/skills/agent-engineering/source-to-skill",
+      "assets/.agent/skills/agent-engineering/spawn-task",
+      "assets/.agent/skills/agent-engineering/subagent-driven-development",
+      "assets/.agent/skills/agent-engineering/to-questionnaire",
+      "assets/.agent/skills/agent-engineering/writing-for-agents",
       "assets/.agent/skills/agent-recovery",
-      "assets/.agent/skills/ai-avatar-video",
-      "assets/.agent/skills/ai-marketing-videos",
-      "assets/.agent/skills/ai-podcast-creation",
-      "assets/.agent/skills/ai-product-photography",
+      "assets/.agent/skills/ai-media",
+      "assets/.agent/skills/ai-media/ai-avatar-video",
+      "assets/.agent/skills/ai-media/ai-marketing-videos",
+      "assets/.agent/skills/ai-media/ai-podcast-creation",
+      "assets/.agent/skills/ai-media/ai-product-photography",
+      "assets/.agent/skills/ai-media/ai-social-media-content",
+      "assets/.agent/skills/ai-media/ai-voice-cloning",
+      "assets/.agent/skills/ai-media/photo-book-builder",
       "assets/.agent/skills/ai-sdk",
-      "assets/.agent/skills/ai-social-media-content",
-      "assets/.agent/skills/ai-voice-cloning",
       "assets/.agent/skills/algorithmic-art",
       "assets/.agent/skills/anti-gravity",
       "assets/.agent/skills/audit-website",
       "assets/.agent/skills/avoid-feature-creep",
-      "assets/.agent/skills/building-native-ui",
+      "assets/.agent/skills/bro",
+      "assets/.agent/skills/code-intelligence",
+      "assets/.agent/skills/code-intelligence/blast-radius",
+      "assets/.agent/skills/code-intelligence/diagnosing-bugs",
+      "assets/.agent/skills/code-intelligence/how",
+      "assets/.agent/skills/code-intelligence/show-me-your-work",
+      "assets/.agent/skills/code-intelligence/teach",
+      "assets/.agent/skills/code-intelligence/why",
       "assets/.agent/skills/code-review",
-      "assets/.agent/skills/component-analysis",
       "assets/.agent/skills/context7",
       "assets/.agent/skills/convex",
-      "assets/.agent/skills/convex-agents",
-      "assets/.agent/skills/convex-best-practices",
-      "assets/.agent/skills/convex-component-authoring",
-      "assets/.agent/skills/convex-cron-jobs",
-      "assets/.agent/skills/convex-file-storage",
-      "assets/.agent/skills/convex-functions",
-      "assets/.agent/skills/convex-http-actions",
-      "assets/.agent/skills/convex-migrations",
-      "assets/.agent/skills/convex-realtime",
-      "assets/.agent/skills/convex-schema-validator",
-      "assets/.agent/skills/convex-security-audit",
-      "assets/.agent/skills/convex-security-check",
-      "assets/.agent/skills/copywriting",
-      "assets/.agent/skills/crafting-effective-readmes",
-      "assets/.agent/skills/docx",
-      "assets/.agent/skills/domain-name-brainstormer",
-      "assets/.agent/skills/embedded-captions",
-      "assets/.agent/skills/exam-creator-skill",
-      "assets/.agent/skills/faceless-explainer",
-      "assets/.agent/skills/figma",
-      "assets/.agent/skills/frontend-design",
-      "assets/.agent/skills/gemini",
-      "assets/.agent/skills/general-video",
+      "assets/.agent/skills/convex/convex-agents",
+      "assets/.agent/skills/convex/convex-best-practices",
+      "assets/.agent/skills/convex/convex-component-authoring",
+      "assets/.agent/skills/convex/convex-cron-jobs",
+      "assets/.agent/skills/convex/convex-file-storage",
+      "assets/.agent/skills/convex/convex-functions",
+      "assets/.agent/skills/convex/convex-http-actions",
+      "assets/.agent/skills/convex/convex-migrations",
+      "assets/.agent/skills/convex/convex-realtime",
+      "assets/.agent/skills/convex/convex-schema-validator",
+      "assets/.agent/skills/convex/convex-security-audit",
+      "assets/.agent/skills/convex/convex-security-check",
+      "assets/.agent/skills/engineering-principles",
+      "assets/.agent/skills/engineering-principles/boundary-discipline",
+      "assets/.agent/skills/engineering-principles/build-the-lever",
+      "assets/.agent/skills/engineering-principles/encode-lessons-in-structure",
+      "assets/.agent/skills/engineering-principles/exhaust-the-design-space",
+      "assets/.agent/skills/engineering-principles/experience-first",
+      "assets/.agent/skills/engineering-principles/fix-root-causes",
+      "assets/.agent/skills/engineering-principles/foundational-thinking",
+      "assets/.agent/skills/engineering-principles/guard-the-context-window",
+      "assets/.agent/skills/engineering-principles/laziness-protocol",
+      "assets/.agent/skills/engineering-principles/make-operations-idempotent",
+      "assets/.agent/skills/engineering-principles/migrate-callers-then-delete-legacy-apis",
+      "assets/.agent/skills/engineering-principles/minimize-reader-load",
+      "assets/.agent/skills/engineering-principles/model-the-domain",
+      "assets/.agent/skills/engineering-principles/never-block-on-the-human",
+      "assets/.agent/skills/engineering-principles/outcome-oriented-execution",
+      "assets/.agent/skills/engineering-principles/prove-it-works",
+      "assets/.agent/skills/engineering-principles/redesign-from-first-principles",
+      "assets/.agent/skills/engineering-principles/separate-before-serializing-shared-state",
+      "assets/.agent/skills/engineering-principles/sequence-verifiable-units",
+      "assets/.agent/skills/engineering-principles/subtract-before-you-add",
+      "assets/.agent/skills/engineering-principles/type-system-discipline",
+      "assets/.agent/skills/frontend-ui",
+      "assets/.agent/skills/frontend-ui/21st-dev-components",
+      "assets/.agent/skills/frontend-ui/building-native-ui",
+      "assets/.agent/skills/frontend-ui/component-analysis",
+      "assets/.agent/skills/frontend-ui/creative-web-development",
+      "assets/.agent/skills/frontend-ui/figma",
+      "assets/.agent/skills/frontend-ui/frontend-design",
+      "assets/.agent/skills/frontend-ui/prototyping-variants",
+      "assets/.agent/skills/frontend-ui/stitch",
+      "assets/.agent/skills/frontend-ui/stitch/design-md",
+      "assets/.agent/skills/frontend-ui/stitch/enhance-prompt",
+      "assets/.agent/skills/frontend-ui/stitch/react-components",
+      "assets/.agent/skills/frontend-ui/stitch/shadcn-ui",
+      "assets/.agent/skills/frontend-ui/stitch/stitch-loop",
+      "assets/.agent/skills/frontend-ui/story-engineer",
+      "assets/.agent/skills/frontend-ui/ui-ux-pro-max",
+      "assets/.agent/skills/frontend-ui/web-design-guidelines",
+      "assets/.agent/skills/frontend-ui/webapp-testing",
       "assets/.agent/skills/git-commit-generation",
-      "assets/.agent/skills/git-worktree",
-      "assets/.agent/skills/github-ops",
-      "assets/.agent/skills/global-brand-namer",
-      "assets/.agent/skills/google-trends",
+      "assets/.agent/skills/git-github-tools",
+      "assets/.agent/skills/git-github-tools/git-worktree",
+      "assets/.agent/skills/git-github-tools/github-ops",
+      "assets/.agent/skills/git-github-tools/issue-pr-triage",
+      "assets/.agent/skills/git-github-tools/pr-comment-fix",
+      "assets/.agent/skills/git-github-tools/resolving-merge-conflicts",
+      "assets/.agent/skills/grill-me",
       "assets/.agent/skills/high-fidelity-extraction",
       "assets/.agent/skills/hyperframes",
-      "assets/.agent/skills/hyperframes-animation",
-      "assets/.agent/skills/hyperframes-cli",
-      "assets/.agent/skills/hyperframes-core",
-      "assets/.agent/skills/hyperframes-creative",
-      "assets/.agent/skills/hyperframes-keyframes",
-      "assets/.agent/skills/hyperframes-media",
-      "assets/.agent/skills/hyperframes-registry",
-      "assets/.agent/skills/jstar-reviewer",
+      "assets/.agent/skills/hyperframes/embedded-captions",
+      "assets/.agent/skills/hyperframes/faceless-explainer",
+      "assets/.agent/skills/hyperframes/general-video",
+      "assets/.agent/skills/hyperframes/hyperframes-animation",
+      "assets/.agent/skills/hyperframes/hyperframes-cli",
+      "assets/.agent/skills/hyperframes/hyperframes-core",
+      "assets/.agent/skills/hyperframes/hyperframes-creative",
+      "assets/.agent/skills/hyperframes/hyperframes-keyframes",
+      "assets/.agent/skills/hyperframes/hyperframes-media",
+      "assets/.agent/skills/hyperframes/hyperframes-registry",
+      "assets/.agent/skills/hyperframes/media-use",
+      "assets/.agent/skills/hyperframes/motion-graphics",
+      "assets/.agent/skills/hyperframes/music-to-video",
+      "assets/.agent/skills/hyperframes/pr-to-video",
+      "assets/.agent/skills/hyperframes/product-launch-video",
+      "assets/.agent/skills/hyperframes/remotion-to-hyperframes",
+      "assets/.agent/skills/hyperframes/slideshow",
+      "assets/.agent/skills/hyperframes/talking-head-recut",
+      "assets/.agent/skills/hyperframes/website-to-video",
       "assets/.agent/skills/jules",
-      "assets/.agent/skills/marketing-ideas",
-      "assets/.agent/skills/media-use",
-      "assets/.agent/skills/monorepo-management",
-      "assets/.agent/skills/motion-graphics",
-      "assets/.agent/skills/music-to-video",
-      "assets/.agent/skills/nextjs-standards",
-      "assets/.agent/skills/optimize-agent-context",
-      "assets/.agent/skills/pdf",
-      "assets/.agent/skills/photo-book-builder",
-      "assets/.agent/skills/pptx",
-      "assets/.agent/skills/pr-comment-fix",
-      "assets/.agent/skills/pr-to-video",
-      "assets/.agent/skills/pricing-strategy",
-      "assets/.agent/skills/product-launch-video",
-      "assets/.agent/skills/programmatic-seo",
-      "assets/.agent/skills/prompt-engineering",
+      "assets/.agent/skills/marketing-growth",
+      "assets/.agent/skills/marketing-growth/copywriting",
+      "assets/.agent/skills/marketing-growth/domain-name-brainstormer",
+      "assets/.agent/skills/marketing-growth/global-brand-namer",
+      "assets/.agent/skills/marketing-growth/google-trends",
+      "assets/.agent/skills/marketing-growth/marketing-ideas",
+      "assets/.agent/skills/marketing-growth/pricing-strategy",
+      "assets/.agent/skills/marketing-growth/programmatic-seo",
+      "assets/.agent/skills/marketing-growth/seo-ready",
+      "assets/.agent/skills/marketing-growth/social-content",
+      "assets/.agent/skills/marketing-growth/twitter-automation",
+      "assets/.agent/skills/marketing-growth/youtube-pipeline",
+      "assets/.agent/skills/office-docs",
+      "assets/.agent/skills/office-docs/docx",
+      "assets/.agent/skills/office-docs/exam-creator-skill",
+      "assets/.agent/skills/office-docs/pdf",
+      "assets/.agent/skills/office-docs/pptx",
+      "assets/.agent/skills/office-docs/technical-writing",
+      "assets/.agent/skills/office-docs/xlsx",
+      "assets/.agent/skills/poteto-mode",
       "assets/.agent/skills/remotion",
-      "assets/.agent/skills/remotion-real-ui-video",
-      "assets/.agent/skills/remotion-to-hyperframes",
+      "assets/.agent/skills/remotion/remotion-real-ui-video",
       "assets/.agent/skills/security-audit",
-      "assets/.agent/skills/seo-ready",
-      "assets/.agent/skills/shared-resend-portfolio",
-      "assets/.agent/skills/skill-creator",
-      "assets/.agent/skills/slideshow",
-      "assets/.agent/skills/social-content",
-      "assets/.agent/skills/spawn-task",
-      "assets/.agent/skills/stitch",
-      "assets/.agent/skills/stitch/design-md",
-      "assets/.agent/skills/stitch/enhance-prompt",
-      "assets/.agent/skills/stitch/react-components",
-      "assets/.agent/skills/stitch/shadcn-ui",
-      "assets/.agent/skills/stitch/stitch-loop",
-      "assets/.agent/skills/subagent-driven-development",
       "assets/.agent/skills/sync-docs",
       "assets/.agent/skills/takomi",
-      "assets/.agent/skills/takomi-flow",
-      "assets/.agent/skills/talking-head-recut",
-      "assets/.agent/skills/twitter-automation",
-      "assets/.agent/skills/ui-ux-pro-max",
-      "assets/.agent/skills/upgrading-expo",
-      "assets/.agent/skills/web-design-guidelines",
-      "assets/.agent/skills/webapp-testing",
-      "assets/.agent/skills/website-to-video",
-      "assets/.agent/skills/xlsx",
-      "assets/.agent/skills/youtube-pipeline",
+      "assets/.agent/skills/wait-what",
+      "assets/.agent/skills/web-dev-standards",
+      "assets/.agent/skills/web-dev-standards/codebase-design",
+      "assets/.agent/skills/web-dev-standards/interactive-wizard",
+      "assets/.agent/skills/web-dev-standards/monorepo-management",
+      "assets/.agent/skills/web-dev-standards/nextjs-standards",
+      "assets/.agent/skills/web-dev-standards/shared-resend-portfolio",
+      "assets/.agent/skills/web-dev-standards/test-driven-development",
+      "assets/.agent/skills/web-dev-standards/typescript-standards",
+      "assets/.agent/skills/web-dev-standards/upgrading-expo",
       "assets/.agent/skills/zack-d-films-production-suite",
       "assets/.agent/skills/zack-d-films-production-suite/resources/skills/zack-browser-planner",
       "assets/.agent/skills/zack-d-films-production-suite/resources/skills/zack-higgsfield",
       "assets/.agent/skills/zack-d-films-production-suite/resources/skills/zack-local-flow-producer",
-      "plugins/takomi-codex/skills/takomi-codex"
+      "plugins/takomi-codex/skills/takomi-codex",
+      "plugins/takomi-flow/skills/takomi-flow"
     ],
-    "lastUpdated": "2026-08-20T01:54:43.533Z"
+    "lastUpdated": "2026-08-29T01:47:21.350Z"
   },
   {
     "source": "github:j0kz/mcp-agents",
@@ -1138,12 +1260,12 @@
   },
   {
     "source": "github:j178/prek",
-    "rev": "69bda278d2216c465d8882b19f21994d0919adfe",
-    "hash": "1qx93zy7i3s6r8rsmna1wrqkh8zgwmcvpff3b0f030y230xr0wwq",
+    "rev": "c377417ef074b2aee6f5685510d643234ef9cfc5",
+    "hash": "1p4cacczwa1hzmvkda2ppdzdclnd4rw2wzvv79f5xq6w5ykzl1q5",
     "skills": [
       "skills/prek"
     ],
-    "lastUpdated": "2026-08-27T14:13:28.869Z"
+    "lastUpdated": "2026-08-29T01:47:18.982Z"
   },
   {
     "source": "github:j4rk0r/claude-skills",
@@ -1371,12 +1493,12 @@
   },
   {
     "source": "github:jaakla/open-gis",
-    "rev": "9671ba3e0b57264fc591234abc2d8be69d015fcf",
-    "hash": "0qjgka277xr1hy9x0jmgk7a7s56f12333bac4whljpzxrlmh808z",
+    "rev": "4ebe23f56740830b764875ccd2b177671b9987f0",
+    "hash": "16xj6a2kcrn7vxnvgx4x31iajvrjsqxisav4pgvg9f600j8mszd1",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-08-28T00:26:25.137Z"
+    "lastUpdated": "2026-08-29T01:47:24.558Z"
   },
   {
     "source": "github:jaansokk/cursor_tools",
@@ -1434,8 +1556,8 @@
   },
   {
     "source": "github:jabrena/cursor-rules-java",
-    "rev": "7d1c9896ef09a131e1bc5a015ce1a0c48ca17445",
-    "hash": "0k64yrlrryikz3zrnkll1gidwprkzs47zh0smnvh6xdvfi8fgd60",
+    "rev": "b3a4006263631b7f725845e7121330c4984ebb26",
+    "hash": "1w4in1b0np3x2bj9gv4y65xc2d2sl3kv7792qffm9bsq51n30hwn",
     "skills": [
       "benchmarks/problem1/scenario3/.agents/skills/openspec-propose",
       "skills/001-commands-inventory",
@@ -1564,12 +1686,12 @@
       "skills/812-regulations-eu-product-liability-directive",
       "skills/813-regulations-iso-42001"
     ],
-    "lastUpdated": "2026-08-28T00:26:45.337Z"
+    "lastUpdated": "2026-08-29T01:47:44.906Z"
   },
   {
     "source": "github:jabrena/plinth",
-    "rev": "7d1c9896ef09a131e1bc5a015ce1a0c48ca17445",
-    "hash": "0k64yrlrryikz3zrnkll1gidwprkzs47zh0smnvh6xdvfi8fgd60",
+    "rev": "b3a4006263631b7f725845e7121330c4984ebb26",
+    "hash": "1w4in1b0np3x2bj9gv4y65xc2d2sl3kv7792qffm9bsq51n30hwn",
     "skills": [
       "benchmarks/problem1/scenario3/.agents/skills/openspec-propose",
       "skills/001-commands-inventory",
@@ -1698,7 +1820,7 @@
       "skills/812-regulations-eu-product-liability-directive",
       "skills/813-regulations-iso-42001"
     ],
-    "lastUpdated": "2026-08-28T00:26:45.516Z"
+    "lastUpdated": "2026-08-29T01:47:45.096Z"
   },
   {
     "source": "github:jacarrara/skills",
@@ -1727,12 +1849,12 @@
   },
   {
     "source": "github:jacebenson/jsn",
-    "rev": "c81e97218cb420d5be19a2427eefc0c9a1d09486",
-    "hash": "0kq041g1minjs739j954p82ng55w20lxgnrv5jjxmy8mbxwdxi7n",
+    "rev": "e1bb61402b74fd43ad02b152986096a419bb6d63",
+    "hash": "1i3qsk6lm6hy0qzxixz1wzvxgmvlr9b3lkh6vnfz55lm6zp6jzdg",
     "skills": [
       "skills/servicenow"
     ],
-    "lastUpdated": "2026-08-28T00:26:47.339Z"
+    "lastUpdated": "2026-08-29T01:47:47.078Z"
   },
   {
     "source": "github:jacehwang/harness",
@@ -2791,8 +2913,8 @@
   },
   {
     "source": "github:jackwener/opencli",
-    "rev": "90d507091cbec9d01334a0d0a8c784c522d490f3",
-    "hash": "1w9wj8z47wfs9p66cmr907ww5swi5pdd6y3jkchy517iy52nr3i8",
+    "rev": "49907e53dc3ade5c223ff0c4c2c2785687cec4e6",
+    "hash": "05sag0780pi2hcfscqwz2rz69dp5kmljnibzdax56yl2jmkfz2i5",
     "skills": [
       "clis/antigravity",
       "skills/opencli-adapter-author",
@@ -2803,7 +2925,7 @@
       "skills/opencli-usage",
       "skills/smart-search"
     ],
-    "lastUpdated": "2026-08-26T10:01:02.169Z"
+    "lastUpdated": "2026-08-29T01:48:01.001Z"
   },
   {
     "source": "github:jackwener/rdt-cli",
@@ -3025,12 +3147,12 @@
   },
   {
     "source": "github:jacobhsu/skillsmp-stock-analyzer",
-    "rev": "6ae0a707b99a40a6c1aa7716f6e44fb39a5fcac1",
-    "hash": "1sgw0isv5wq6qny37pzsjjcg0n8zvx4nw7h7cmh9bljvvhk7dj83",
+    "rev": "5118c850160757b4c5a9d29a67054af63b45b353",
+    "hash": "1hd2yl661lzvhgdg3xammka5qqdaq8fd14xz6v2z302d1pizmyvz",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-08-27T14:15:34.998Z"
+    "lastUpdated": "2026-08-29T01:47:32.355Z"
   },
   {
     "source": "github:jacobjmc/priority-review",
@@ -3135,8 +3257,8 @@
   },
   {
     "source": "github:jaechang-hits/SciAgent-Skills",
-    "rev": "82bef4320bc1bb396218b118befe61697854e979",
-    "hash": "1biw24dxkxsl3hk9ck0x2fgnjfizi7n8229g4x20hpdq1p805nnz",
+    "rev": "fe505cae14d20b6c33be2e49666425be98f005bb",
+    "hash": "0f03hh3ck4bjdsgd0k3anarl68k724wbjmypwd5sj568iqg63j6c",
     "skills": [
       ".claude/skills/sciagent-skill-creator",
       "legacy/opentrons-integration",
@@ -3347,12 +3469,12 @@
       "skills/systems-biology-multiomics/reactome-database",
       "skills/systems-biology-multiomics/string-database-ppi"
     ],
-    "lastUpdated": "2026-08-27T14:15:40.854Z"
+    "lastUpdated": "2026-08-29T01:47:38.456Z"
   },
   {
     "source": "github:jaechang-hits/sciagent-skills",
-    "rev": "82bef4320bc1bb396218b118befe61697854e979",
-    "hash": "1biw24dxkxsl3hk9ck0x2fgnjfizi7n8229g4x20hpdq1p805nnz",
+    "rev": "fe505cae14d20b6c33be2e49666425be98f005bb",
+    "hash": "0f03hh3ck4bjdsgd0k3anarl68k724wbjmypwd5sj568iqg63j6c",
     "skills": [
       ".claude/skills/sciagent-skill-creator",
       "legacy/opentrons-integration",
@@ -3563,7 +3685,7 @@
       "skills/systems-biology-multiomics/reactome-database",
       "skills/systems-biology-multiomics/string-database-ppi"
     ],
-    "lastUpdated": "2026-08-27T14:15:40.944Z"
+    "lastUpdated": "2026-08-29T01:47:38.812Z"
   },
   {
     "source": "github:jaem1n207/synchronize-tab-scrolling",
@@ -3974,14 +4096,14 @@
   },
   {
     "source": "github:jakubantalik/transitions.dev",
-    "rev": "46f9c08a3e7b0e1e4145b9cc93f72ed92034f7a2",
-    "hash": "1hjgb2w7d6z1m79iwdvm10sdrb8b936nwjczq4ws3km24ibc2wys",
+    "rev": "a0570ed285fdc7129060e6867469fc8640f8c21e",
+    "hash": "1n43j85r7byca8vkgjl3wm4iqr4s3q48z2y7pwslh46gy5bhnmn0",
     "skills": [
       "refine/.agents/skills/refine-live",
       "skills/transitions-dev",
       "skills/transitions-polish"
     ],
-    "lastUpdated": "2026-08-28T00:29:32.503Z"
+    "lastUpdated": "2026-08-29T01:47:56.038Z"
   },
   {
     "source": "github:jakubkrehel/make-interfaces-feel-better",
@@ -4118,8 +4240,8 @@
   },
   {
     "source": "github:jamditis/claude-skills-journalism",
-    "rev": "bc681b79a3eaba846a494582368501e0b4d75b1b",
-    "hash": "1h9zgl4j0bhwzsb749laibnx2wngz6ylaiizzqmqfnak1j2a0jkd",
+    "rev": "86715e40aef0fe8608b3aaee20a86929b748ad3d",
+    "hash": "07m71vizhpbb37pyyx0x74vk0gsbpik00l9d64xzdps20vw7b8zb",
     "skills": [
       "dev-toolkit/skills/accessibility-compliance",
       "dev-toolkit/skills/claude-md-updater",
@@ -4185,7 +4307,7 @@
       "video-toolkit/skills/video-transcribe",
       "visual-explainer"
     ],
-    "lastUpdated": "2026-08-24T21:47:15.441Z"
+    "lastUpdated": "2026-08-29T01:48:08.233Z"
   },
   {
     "source": "github:jame581/GodotPrompter",
@@ -4532,8 +4654,8 @@
   },
   {
     "source": "github:jamie-bitflight/claude_skills",
-    "rev": "d508477d796745ceb907c91c09f45617571a8ecd",
-    "hash": "0cgyl2r7wb5lddhwv7z0vcp7kvwiylbxgjalv206hln3phz69bfj",
+    "rev": "849ceda2cb3d4e96714c285a91d9b1ae4b3ebb5d",
+    "hash": "0nall0s22plf6adqibms1v8a63drvnwh34qvx973lvhzjz778b9v",
     "skills": [
       ".agents/skills/agent-browser",
       ".agents/skills/ccc",
@@ -4795,7 +4917,7 @@
       "plugins/verification-gate/skills/verification-gate",
       "plugins/xdg-base-directory/skills/xdg-base-directory"
     ],
-    "lastUpdated": "2026-08-27T14:16:34.029Z"
+    "lastUpdated": "2026-08-29T01:48:29.775Z"
   },
   {
     "source": "github:jamiemason/syncpack",
@@ -5018,8 +5140,8 @@
   },
   {
     "source": "github:jankneumann/agentic-coding-tools",
-    "rev": "7e72e6842436557542b657b2edbc2d2a67883e85",
-    "hash": "1iv7m39k8fvasa6a7nb8l818181ww86n3law4afa9xs4wjx4p3kw",
+    "rev": "31b69f2ccdea6987c2ca4020b2e6613c49ded133",
+    "hash": "04rkm7vd0sn2md5fwc8xd1pybck2mxcip7znw3n7ycv0y8hgyrgg",
     "skills": [
       "skills/agent-metrics",
       "skills/api-and-interface-design",
@@ -5070,6 +5192,7 @@
       "skills/project-context-runtime",
       "skills/prototype-feature",
       "skills/quick-task",
+      "skills/refine-roadmap",
       "skills/refresh-architecture",
       "skills/review-artifacts",
       "skills/roadmap-runtime",
@@ -5099,7 +5222,7 @@
       "skills/vision",
       "skills/worktree"
     ],
-    "lastUpdated": "2026-08-28T00:30:25.379Z"
+    "lastUpdated": "2026-08-29T01:48:48.465Z"
   },
   {
     "source": "github:jankutschera/adhd-body-doubling",
@@ -5868,8 +5991,8 @@
   },
   {
     "source": "github:jasonkneen/tiny-world-builder",
-    "rev": "d0fa604ed4029c3cda28224210e0528c5a5dacd1",
-    "hash": "18x2fxj0m92j7a6k2brxc0krd16p1w67x63xmqwkmyd8fx1c95ky",
+    "rev": "e24458a61a368626d8e02b2142d6160c68d10359",
+    "hash": "1n69izbxjwbhfg7wpj15kgra72qxsbxkbydq03annb48shdj55k5",
     "skills": [
       ".agents/skills/3d-modeling",
       ".agents/skills/fractal",
@@ -5906,7 +6029,7 @@
       ".codex/skills/tinyworld-visual-qa",
       ".codex/skills/tinyworld-webxr"
     ],
-    "lastUpdated": "2026-08-28T00:27:16.381Z"
+    "lastUpdated": "2026-08-29T01:48:36.167Z"
   },
   {
     "source": "github:jasonku09/altitude-skills",
@@ -6762,8 +6885,8 @@
   },
   {
     "source": "github:jazzyalex/agent-sessions",
-    "rev": "0a81ad41a1c7e91db6982cf85d5fe6d84c7fe22c",
-    "hash": "1ik46m5hv7d4d6pyv11gzv0f989b6ccwf6bqcypdviknv02003gp",
+    "rev": "b7344f9319192bb5a4da84fddac3616992c9eff1",
+    "hash": "02zbw1jc3ixim9rabif72j6fz7zgywk4b8wqy91bm0z38nf3kvbf",
     "skills": [
       ".claude/skills/deploy",
       ".claude/skills/release-notes",
@@ -6773,7 +6896,7 @@
       "skills/sc-skill",
       "tools/handover"
     ],
-    "lastUpdated": "2026-08-28T00:27:58.787Z"
+    "lastUpdated": "2026-08-29T01:49:01.391Z"
   },
   {
     "source": "github:jazzychad/ios-code-audit",
@@ -7826,15 +7949,15 @@
   },
   {
     "source": "github:jefflester/claude-skills-supercharged",
-    "rev": "a9d4a098cbacc6b9a2eb645b9be15fb465fe2f0c",
-    "hash": "1d9ri3xaj1180jyf751vz3g2092mkm7dad14msyywllcwazqak4x",
+    "rev": "c5efb1d9d29a35babdd3bb3a201b1b20a062f5ac",
+    "hash": "0gkz74kr5ynvj1zlj6rzmj72ch82g7gqvpkjbhc97asdrwcy1qqp",
     "skills": [
       ".claude/skills/api-security",
       ".claude/skills/git-workflow",
       ".claude/skills/python-best-practices",
       ".claude/skills/skill-developer"
     ],
-    "lastUpdated": "2026-08-24T19:04:36.870Z"
+    "lastUpdated": "2026-08-29T01:49:44.615Z"
   },
   {
     "source": "github:jeffli1993/seo-audit-skill",
@@ -8311,8 +8434,8 @@
   },
   {
     "source": "github:jeremylongshore/claude-code-plugins",
-    "rev": "bfc85a69f7c908cc2e8828fb7243d2ffa6ea3371",
-    "hash": "0yq7y7lfxmyd0z2vm0g1csn74vj14dfn6ysmy2db6zvgh48b90mn",
+    "rev": "339b146152a1c744797405fdf3d252b29332d225",
+    "hash": "1z2rzyfrcwd69kxlsw0skxdx330zr7qv9w245bw5xr1rm30pggnk",
     "skills": [
       "plugins/ai-agency/hyperflow/skills/audit",
       "plugins/ai-agency/hyperflow/skills/background",
@@ -11928,12 +12051,12 @@
       "tests/fixtures/root-level-skill-plugin",
       "workspace/lab/schema-optimization"
     ],
-    "lastUpdated": "2026-08-28T00:28:59.262Z"
+    "lastUpdated": "2026-08-29T01:50:36.743Z"
   },
   {
     "source": "github:jeremylongshore/claude-code-plugins-plus",
-    "rev": "bfc85a69f7c908cc2e8828fb7243d2ffa6ea3371",
-    "hash": "0yq7y7lfxmyd0z2vm0g1csn74vj14dfn6ysmy2db6zvgh48b90mn",
+    "rev": "339b146152a1c744797405fdf3d252b29332d225",
+    "hash": "1z2rzyfrcwd69kxlsw0skxdx330zr7qv9w245bw5xr1rm30pggnk",
     "skills": [
       "plugins/ai-agency/hyperflow/skills/audit",
       "plugins/ai-agency/hyperflow/skills/background",
@@ -15549,12 +15672,12 @@
       "tests/fixtures/root-level-skill-plugin",
       "workspace/lab/schema-optimization"
     ],
-    "lastUpdated": "2026-08-28T00:28:58.327Z"
+    "lastUpdated": "2026-08-29T01:50:37.697Z"
   },
   {
     "source": "github:jeremylongshore/claude-code-plugins-plus-skills",
-    "rev": "bfc85a69f7c908cc2e8828fb7243d2ffa6ea3371",
-    "hash": "0yq7y7lfxmyd0z2vm0g1csn74vj14dfn6ysmy2db6zvgh48b90mn",
+    "rev": "339b146152a1c744797405fdf3d252b29332d225",
+    "hash": "1z2rzyfrcwd69kxlsw0skxdx330zr7qv9w245bw5xr1rm30pggnk",
     "skills": [
       "plugins/ai-agency/hyperflow/skills/audit",
       "plugins/ai-agency/hyperflow/skills/background",
@@ -19170,12 +19293,12 @@
       "tests/fixtures/root-level-skill-plugin",
       "workspace/lab/schema-optimization"
     ],
-    "lastUpdated": "2026-08-28T00:29:24.813Z"
+    "lastUpdated": "2026-08-29T01:50:57.766Z"
   },
   {
     "source": "github:jeremylongshore/tons-of-skills-marketplace",
-    "rev": "bfc85a69f7c908cc2e8828fb7243d2ffa6ea3371",
-    "hash": "0yq7y7lfxmyd0z2vm0g1csn74vj14dfn6ysmy2db6zvgh48b90mn",
+    "rev": "339b146152a1c744797405fdf3d252b29332d225",
+    "hash": "1z2rzyfrcwd69kxlsw0skxdx330zr7qv9w245bw5xr1rm30pggnk",
     "skills": [
       "plugins/ai-agency/hyperflow/skills/audit",
       "plugins/ai-agency/hyperflow/skills/background",
@@ -22791,7 +22914,7 @@
       "tests/fixtures/root-level-skill-plugin",
       "workspace/lab/schema-optimization"
     ],
-    "lastUpdated": "2026-08-28T00:29:26.138Z"
+    "lastUpdated": "2026-08-29T01:50:58.798Z"
   },
   {
     "source": "github:jeremyrdavis/coffeeshop26",
@@ -22957,8 +23080,8 @@
   },
   {
     "source": "github:jetbrains/ideavim",
-    "rev": "7f956591a363f3b4c04ed08f07825623131667ab",
-    "hash": "1wirqxjqfsr4v0na32mq51xm9m6pl9a6k8kjwdwrhrgrg1jn0kb6",
+    "rev": "60eba4c483532b890aa450b10bf203b06e18bef8",
+    "hash": "1k4a4nq05ppj5kbw13czk0w3qbfg7cpjcajqg84nyidpnyw7fd98",
     "skills": [
       ".claude/skills/changelog",
       ".claude/skills/doc-sync",
@@ -22967,16 +23090,16 @@
       ".claude/skills/issues-deduplication",
       ".claude/skills/tests-maintenance"
     ],
-    "lastUpdated": "2026-08-28T00:28:21.934Z"
+    "lastUpdated": "2026-08-29T01:51:13.651Z"
   },
   {
     "source": "github:jetbrains/klibs-io",
-    "rev": "64df64de3bebd0a7e78abdb420ee83a69685b1c6",
-    "hash": "16x91hd97l1dds1iam1rnzgd7lpkci4bvszrd03nllrjc8j1sw3c",
+    "rev": "bed154bf0d681817cf823062d5fb1fff761b55da",
+    "hash": "0jh8bxn4yimfqqvqmg9z2xncbh6bxibwsi9g0270l40grq1s86sg",
     "skills": [
       "skills/kmp-libraries-expert"
     ],
-    "lastUpdated": "2026-08-28T00:28:17.108Z"
+    "lastUpdated": "2026-08-29T01:51:10.270Z"
   },
   {
     "source": "github:jetbrains/skills",
@@ -23316,8 +23439,8 @@
   },
   {
     "source": "github:jfrog/jfrog-skills",
-    "rev": "f205bd80864759bfb4eec0cf63de00b6cadb6705",
-    "hash": "159p4c5djxwn0x29dns3hq8161wc8idqw55sndf6j6a805zj6887",
+    "rev": "5051553b517cb32963d7b36af795e358a4ffa520",
+    "hash": "0m9adzkvrx5lfc8q2i4lgkb0f7ghff76d6r41vy967qm15g3c2dd",
     "skills": [
       "skills/jfrog",
       "skills/jfrog-ai-catalog",
@@ -23327,7 +23450,7 @@
       "skills/jfrog-reference-architecture",
       "skills/jfrog-setup-package-managers"
     ],
-    "lastUpdated": "2026-08-27T14:15:44.620Z"
+    "lastUpdated": "2026-08-29T01:47:13.315Z"
   },
   {
     "source": "github:jftuga/transcript-critic",
@@ -23848,8 +23971,8 @@
   },
   {
     "source": "github:jhb-software/payload-astro-website-template",
-    "rev": "03b0dc9b8aa53d9dd4c2c7eddd970000ab901f46",
-    "hash": "079izlhz5hpqgmxj0d3abilmsyx7pkr8lc6szlr9zhczf6zvimd1",
+    "rev": "30795890743155f5e06b7e652d735fb1862e8fb4",
+    "hash": "0kc1xp8walmj12bprsl7q694wi1ngd8k0xa76r20ch1xgx912hg9",
     "skills": [
       ".claude/skills/astro-accessibility",
       ".claude/skills/astro-components",
@@ -23858,7 +23981,7 @@
       ".claude/skills/payload-cms",
       ".claude/skills/test-web"
     ],
-    "lastUpdated": "2026-08-21T21:41:22.867Z"
+    "lastUpdated": "2026-08-29T01:47:19.274Z"
   },
   {
     "source": "github:jheisonmb/skills",
@@ -24314,8 +24437,8 @@
   },
   {
     "source": "github:jiangjiax/li-skills",
-    "rev": "622adb757fe208804a4c0d5b9b305f0de2c7ad94",
-    "hash": "1klpky7bwfm29gj4ig6pz639n4bzrx118mlmf50zr8s62xrw7818",
+    "rev": "d7e2ad23f9556424a6853473a9eedeb116deb4b4",
+    "hash": "1kzbnad0v7vzyz0gxs7pcx4s7pfaxdf9jyg8wk6jfvr6sjfy698l",
     "skills": [
       "li",
       "li-analyzer",
@@ -24328,13 +24451,14 @@
       "li-prd-review",
       "li-recorder",
       "li-stats",
+      "li-steam-market-research",
       "li-topic",
       "li-transcript",
       "li-upgrade",
       "li-workflow",
       "li-writer"
     ],
-    "lastUpdated": "2026-06-20T07:40:25.356Z"
+    "lastUpdated": "2026-08-29T01:47:24.026Z"
   },
   {
     "source": "github:jiangjingc/claude-to-im-plus",
@@ -26095,8 +26219,8 @@
   },
   {
     "source": "github:jikig-ai/soleur",
-    "rev": "ecbc01a542b5e8685a583350ea9b0c92674e5d37",
-    "hash": "1lzrgbq7q15cq4wi3ckzyx1hf5j340fp10jzvwbygzcx6w0x9i4k",
+    "rev": "82911fa807a299a93b0f3f48da8802e6b19b1dce",
+    "hash": "0zij4ai7967hkv9jj83sqmy06wq7ngzzg33pl0i4qwchdajayl8w",
     "skills": [
       ".gemini/skills/compound",
       ".openhands/skills/agent-finder",
@@ -26258,7 +26382,7 @@
       "plugins/soleur/skills/work",
       "plugins/soleur/skills/xcode-test"
     ],
-    "lastUpdated": "2026-08-28T00:29:15.932Z"
+    "lastUpdated": "2026-08-29T01:48:02.068Z"
   },
   {
     "source": "github:jikssha/openclaw-dae-skills",
@@ -26299,8 +26423,8 @@
   },
   {
     "source": "github:jim60105/copilot-prompt",
-    "rev": "dd2b28282bb9528e050229864bb35e0d6412cbb0",
-    "hash": "16nqj0kpsy3kw5dsbk2clwg7abzvyw9qasx65klh6mik4dawg1h4",
+    "rev": "f5ef9ab4b7cbfb016af32cb7698d22047e14534d",
+    "hash": "1286ndidd8n68i12diy6jyfaaw85nngffd1ai95p3162zlhkr10i",
     "skills": [
       "skills/add-artifact-attestations-to-workflow",
       "skills/agent-browser",
@@ -26318,6 +26442,7 @@
       "skills/documentation-writer",
       "skills/docx",
       "skills/drawio-diagrams-enhanced",
+      "skills/fix-ci-until-green",
       "skills/image-generator-sd-webui",
       "skills/image-prompt-builder-nl",
       "skills/improve",
@@ -26345,7 +26470,7 @@
       "skills/xlsx",
       "skills/zsh-script-writer"
     ],
-    "lastUpdated": "2026-08-22T13:03:15.022Z"
+    "lastUpdated": "2026-08-29T01:47:38.977Z"
   },
   {
     "source": "github:jimbb/auto-updater",
@@ -26727,17 +26852,17 @@
   },
   {
     "source": "github:jimmylv/bibigpt-skill",
-    "rev": "9865638717fc4fd37e17760c8f4a426f64888c3f",
-    "hash": "1n210hyrvarnwggy6fbwjppp13rcrag50zkbfl8hh752mkpb1h6a",
+    "rev": "4ddf91e7ac2a829a4334add5bd4d79f48d6f00e8",
+    "hash": "0fn8hl3cqnbmih0cplxr37xbsz16hl0d1ccf8cmmk21j6gicbp2g",
     "skills": [
       "skills/bibi"
     ],
-    "lastUpdated": "2026-08-28T00:28:27.356Z"
+    "lastUpdated": "2026-08-29T01:47:47.889Z"
   },
   {
     "source": "github:jimmypaolini/codebase",
-    "rev": "d1172f5175256af090e7e4f4de1adf27caae9e2a",
-    "hash": "0ffflygvydqk0257rxkww5ii8m63y5hz1zcysg1qda4azza5hijz",
+    "rev": "bd371ff4b39d0bd4763bdde2262d0e8b3a6a1841",
+    "hash": "13sbwfpgigdmf9azzyrfp1mbj63pha40fybamlwwdc16fpnryb07",
     "skills": [
       ".agents/skills/ask-matt",
       ".agents/skills/backup-code",
@@ -26819,7 +26944,7 @@
       ".agents/skills/write-typescript",
       ".agents/skills/writing-for-agents"
     ],
-    "lastUpdated": "2026-08-28T00:28:49.365Z"
+    "lastUpdated": "2026-08-29T01:48:10.141Z"
   },
   {
     "source": "github:jimmysadek/strategic-partner",
@@ -27088,12 +27213,12 @@
   },
   {
     "source": "github:jinguyuan/jinguyuan-dumpling-skill",
-    "rev": "d2c79c559579fd8f95d122bfe72fcd366344b8ad",
-    "hash": "1j3fp3a79sbhqgz2x114inwjdmw6qv6c54qkncsqxqqp2qbg43i6",
+    "rev": "eb52c0a05b777960c545773e30d95a913795ffd6",
+    "hash": "1wir7wa199nbaqrqbifdm6l45m3zxn01j785qqvkhl2gyv3kvf00",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-08-20T19:01:57.929Z"
+    "lastUpdated": "2026-08-29T01:47:03.581Z"
   },
   {
     "source": "github:jingx8885/lovjpn",
@@ -27817,8 +27942,8 @@
   },
   {
     "source": "github:jlowin/fastmcp",
-    "rev": "681dfd1fcaebc2ac3dfaae17bbe094c4ec1d3f4e",
-    "hash": "19hvb2g9ckldlszrfmrjf6r3gfwspyzb1z5v0mpciv9511pvddh6",
+    "rev": "1f021142978e0861cd910c8df4e8074bc7cf3978",
+    "hash": "1cwnl8c81v8l1i4zv6mqfyl5pbnzxapwl08fpn018b5rr8g64bn2",
     "skills": [
       ".claude/skills/code-review",
       ".claude/skills/python-tests",
@@ -27828,7 +27953,7 @@
       "examples/skills/sample_skills/pdf-processing",
       "skills/fastmcp-client-cli"
     ],
-    "lastUpdated": "2026-08-28T00:29:13.486Z"
+    "lastUpdated": "2026-08-29T01:47:30.083Z"
   },
   {
     "source": "github:jlreyes/instruments-analyzer",
@@ -27850,8 +27975,8 @@
   },
   {
     "source": "github:jmagar/axon",
-    "rev": "0e40ae6523d800f4211fffd4d82fe84f0e976e6f",
-    "hash": "0inqlkclmh0wyyx2wjxyig0nxqffz13ga8krgj5dqhh9my5cnbw2",
+    "rev": "a391a84100f81dd054cf02ef33d4809b5d7f7249",
+    "hash": "1kf83212d6lz4vamagpwanjl7rcg5xz0ly3xpw43z4cng1j47fz9",
     "skills": [
       "plugins/axon/references/rag-synthesize",
       "plugins/axon/skills/cli",
@@ -27880,7 +28005,7 @@
       "plugins/axon/skills/website-design-clone",
       "plugins/axon/skills/workflows"
     ],
-    "lastUpdated": "2026-08-27T14:16:41.606Z"
+    "lastUpdated": "2026-08-29T01:47:30.745Z"
   },
   {
     "source": "github:jmagar/claude-homelab",
@@ -27963,8 +28088,8 @@
   },
   {
     "source": "github:jmagly/ai-writing-guide",
-    "rev": "4510694396394d6a88a51e6b545b09577e7b2e72",
-    "hash": "0kq3ha5z190byxpc32ysgbbhsr5rw5mvakf0mz0mdvp2nw6ah9i0",
+    "rev": "883d27e689bf82f42c805f7a90e0d52abc207926",
+    "hash": "0v1xy9gy5znvbnwiv1xj2n7243r90x89vly8g8kiv7zpjqv1m1kj",
     "skills": [
       "agentic/code/addons/agent-loop/skills/agent-loop",
       "agentic/code/addons/agent-loop/skills/agent-loop-ext",
@@ -28489,12 +28614,12 @@
       "test/fixtures/agent-skills/upstream-38a2ff82958afee88dadf4831509e6f7e9d8ef4e/minimal",
       "test/fixtures/context-memory-firewall/.claude/skills/demo"
     ],
-    "lastUpdated": "2026-08-27T14:16:52.434Z"
+    "lastUpdated": "2026-08-29T01:47:40.192Z"
   },
   {
     "source": "github:jmagly/aiwg",
-    "rev": "4510694396394d6a88a51e6b545b09577e7b2e72",
-    "hash": "0kq3ha5z190byxpc32ysgbbhsr5rw5mvakf0mz0mdvp2nw6ah9i0",
+    "rev": "883d27e689bf82f42c805f7a90e0d52abc207926",
+    "hash": "0v1xy9gy5znvbnwiv1xj2n7243r90x89vly8g8kiv7zpjqv1m1kj",
     "skills": [
       "agentic/code/addons/agent-loop/skills/agent-loop",
       "agentic/code/addons/agent-loop/skills/agent-loop-ext",
@@ -29019,7 +29144,7 @@
       "test/fixtures/agent-skills/upstream-38a2ff82958afee88dadf4831509e6f7e9d8ef4e/minimal",
       "test/fixtures/context-memory-firewall/.claude/skills/demo"
     ],
-    "lastUpdated": "2026-08-27T14:16:53.127Z"
+    "lastUpdated": "2026-08-29T01:47:41.588Z"
   },
   {
     "source": "github:jmandel/health-skillz",
@@ -29514,6 +29639,15 @@
       "plugins/bundles/next-project-starter/skills/frontend-development"
     ],
     "lastUpdated": "2026-02-04T13:37:30.005Z"
+  },
+  {
+    "source": "github:jnmetacode/ai-shortfilm-prompts",
+    "rev": "f21500e5946973949c6bbf02e67e0c21b2e63a35",
+    "hash": "163lg9kdz1l3z28820j742m6440r7xlqgkpz74vnlyizkksqzf12",
+    "skills": [
+      "skills/shortfilm-prompt"
+    ],
+    "lastUpdated": "2026-08-29T01:47:50.823Z"
   },
   {
     "source": "github:jnmetacode/superpowers-zh",
@@ -30501,8 +30635,8 @@
   },
   {
     "source": "github:joelhooks/joelclaw",
-    "rev": "f43b8a6f822e63658c5d9f0733916ba8668edf44",
-    "hash": "1dwn2sr96a1d37ngms4w13fwjb0fla5qzb7mx2qv373z200vzw55",
+    "rev": "aedcffe3bd3d8aab78522f54fa405a4882e31560",
+    "hash": "088dcxy3grcihzds4q3gcx0bndvr33msmmpqaj6q65k3fbgq0bql",
     "skills": [
       "skills/add-skill",
       "skills/adr-skill",
@@ -30605,7 +30739,7 @@
       "skills/wzrrd-video",
       "skills/x-api"
     ],
-    "lastUpdated": "2026-08-27T14:15:22.288Z"
+    "lastUpdated": "2026-08-29T01:48:36.420Z"
   },
   {
     "source": "github:joelhooks/openclaw-codex-ralph",
@@ -32279,8 +32413,8 @@
   },
   {
     "source": "github:joncrangle/.dotfiles",
-    "rev": "0b9dad42cfe840ca09bd847997af599c8e412aec",
-    "hash": "0iacjn3pfr2waskjhf2j207ci5qkkgfr5xigb02ikh4lxfnxd3aw",
+    "rev": "5c8d44c0a539f02c48945716df7358e92e6bd77a",
+    "hash": "16v8mv86d4lki1vjwvw7kb205f89y0n9jgy087pagbwx7xz7flzs",
     "skills": [
       "dot_config/opencode/skills/ast-grep",
       "dot_config/opencode/skills/btca",
@@ -32299,7 +32433,7 @@
       "dot_config/opencode/skills/vitest",
       "dot_config/opencode/skills/wezterm"
     ],
-    "lastUpdated": "2026-08-28T00:27:06.773Z"
+    "lastUpdated": "2026-08-29T01:49:13.310Z"
   },
   {
     "source": "github:jondotsoy/flags",
@@ -32382,8 +32516,8 @@
   },
   {
     "source": "github:jongwony/epistemic-protocols",
-    "rev": "75a37e7c6b067142bf400a15aec10bf2b08ce60c",
-    "hash": "17zl5p1ii4ig6n0sbjjrp9iz1f5q2rzqb14a6zrxk5r9k7vpklvw",
+    "rev": "45c5f84ce13471b8c0447242290a7faa3bfa5ce6",
+    "hash": "0y96pnsrlwiwgry5zid4igp5v3c76d9fcbgwhrx7a4lfsd6dwdr9",
     "skills": [
       ".claude/skills/encapsulation",
       ".claude/skills/formal-review",
@@ -32429,12 +32563,12 @@
       "prothesis/skills/frame",
       "syneidesis/skills/gap"
     ],
-    "lastUpdated": "2026-08-27T14:13:37.358Z"
+    "lastUpdated": "2026-08-29T01:49:16.628Z"
   },
   {
     "source": "github:jonhill90/vibes",
-    "rev": "91bc9a8daac03ea23ea42465636ca154da7106eb",
-    "hash": "0s9wc3nnil7apwr662lzyxk4hhf00qnmczfm41dj6n3qkjfil4r3",
+    "rev": "edd0df03dc24ab4a4f70189381c4a6dc5ae5e4d3",
+    "hash": "13r2aw1w9acmiw3g1zxkl9my1ww66pv53lbqmk888vvh9kywid1g",
     "skills": [
       "skills/adopt-or-build",
       "skills/ask-a-council",
@@ -32478,7 +32612,7 @@
       "skills/verify-the-instrument",
       "skills/wire-it-when-you-write-it"
     ],
-    "lastUpdated": "2026-08-28T00:27:12.511Z"
+    "lastUpdated": "2026-08-29T01:49:16.169Z"
   },
   {
     "source": "github:jonhnsonzz/nihaisha-tianji",
@@ -33789,27 +33923,22 @@
   },
   {
     "source": "github:joyco-studio/skills",
-    "rev": "b0a8ee300cf67c12ff71f05939892356f9685758",
-    "hash": "1zk5yn330xyd5xkzg2lk3ssid8h0z1dwbrqib8xwx99v54viscic",
+    "rev": "31c3eab3ffd2aac4454c899726596c6d2b7e7b65",
+    "hash": "0x4vad7z7ifvv5lprfj2bprc4pmr4cf3znv55lkd1gf8pkj7a3d7",
     "skills": [
       "skills/figma-motion-handoff",
       "skills/figma-static-pass",
       "skills/joyco-app",
+      "skills/joyco-lab",
       "skills/joyco-logs",
       "skills/joyco-ui",
-      "skills/lab-experiment",
-      "skills/markdown-content",
-      "skills/parallel-claudes",
-      "skills/pr-description-writer",
-      "skills/react-ts-debugging",
-      "skills/resolving-git-conflicts",
       "skills/review-motion-handoff",
       "skills/skill-writer",
+      "skills/studio-libraries",
       "skills/thrash-report-analyzer",
-      "skills/trace-audit",
-      "skills/webaudio"
+      "skills/trace-audit"
     ],
-    "lastUpdated": "2026-07-14T03:34:20.353Z"
+    "lastUpdated": "2026-08-29T01:49:12.892Z"
   },
   {
     "source": "github:joyeli/tw-stocker-consultant",
@@ -33822,15 +33951,15 @@
   },
   {
     "source": "github:jozobeer/mojiemoji-plugin",
-    "rev": "7961d5e8a6aed1e0419ba936ab2380fb8c7a767a",
-    "hash": "1zhqzwmfn4zjhvcq4c21gn56l8axywhipwkglcjvm9r4mdbnmr71",
+    "rev": "48a3099a93e6efe9093c6a001275f51c7b33bd49",
+    "hash": "1878x71kcpmc9wng0s7yif0y6v02blhi7pvmips130z0jvy6fvp5",
     "skills": [
       "skills/bump-catalog",
       "skills/mojiemoji-config",
       "skills/mojiemoji-github",
       "skills/mojiemoji-propose"
     ],
-    "lastUpdated": "2026-08-27T14:14:18.431Z"
+    "lastUpdated": "2026-08-29T01:49:14.448Z"
   },
   {
     "source": "github:jparkerweb/ai-assist-skills",
@@ -33888,8 +34017,8 @@
   },
   {
     "source": "github:jpcaparas/skills",
-    "rev": "54f396961f0538b9689ed14368795fdb3f953d37",
-    "hash": "1mm1h2c1d208sdk4wgdddy1nwvgb5dv62w4bzgy19jjk8rjyxy32",
+    "rev": "11d8469efb9c1f3a26b21b33d51d9b1fd3fa5ce9",
+    "hash": "0ys9518cgwibs6apscls0cq371kcb5sg3qqz61m4x4am56l69cy4",
     "skills": [
       "skills/adhd-friendly",
       "skills/adversarial-test-sweep",
@@ -33915,6 +34044,7 @@
       "skills/maintainable-app",
       "skills/maintainable-code",
       "skills/maintainable-tests",
+      "skills/make-my-code-flirtatious",
       "skills/markdown-new",
       "skills/mockable-code",
       "skills/namethatui",
@@ -33955,12 +34085,13 @@
       "skills/synthetic-search",
       "skills/tarsier",
       "skills/temporal-awareness",
+      "skills/to-diagram",
       "skills/travel-plan-spreadsheet-generator",
       "skills/tweet-replicate",
       "skills/youtube-transcript-dossier",
       "skills/zoom-out"
     ],
-    "lastUpdated": "2026-08-28T00:26:57.082Z"
+    "lastUpdated": "2026-08-29T01:49:18.750Z"
   },
   {
     "source": "github:jpcaparas/superpowers-laravel",
@@ -34674,13 +34805,13 @@
   },
   {
     "source": "github:jrollin/cartog",
-    "rev": "b056be86b21ea1234cdeaa603fc85db6ad78be4a",
-    "hash": "05pfjaa66a5gh848hsd0n72ikfgqnnm4lri426fd765v6mxv3gvg",
+    "rev": "d7d942913895312c3240eec78cc0fa8d042a295d",
+    "hash": "100chpb2mwh3lm01xbhry44wa1pfjpn69brhsw0898mx20nc177z",
     "skills": [
       "skills/cartog",
       "skills/cartog-install"
     ],
-    "lastUpdated": "2026-08-28T00:27:01.787Z"
+    "lastUpdated": "2026-08-29T01:49:27.721Z"
   },
   {
     "source": "github:jropenshaw1/job-fit-analyst",
@@ -35114,8 +35245,8 @@
   },
   {
     "source": "github:jsoncodechina/wind-skills",
-    "rev": "a3c02b2c76aabf3fa5c7d5a49ccf076a07daa938",
-    "hash": "02x25g7sjq8gk53sdk0l03dxz7r8927msmr5dhca8whz6n71jg79",
+    "rev": "430511705cedb2a9a95b3dc586f827fff501089e",
+    "hash": "1fm3hmj8l3myg1xi6kqcj571ajq46llmzdld5yywh82jvgcylnfv",
     "skills": [
       "docs/wind-mcp-skill/external-skill-materials",
       "skills/a-share-primary-theme-identification",
@@ -35219,7 +35350,7 @@
       "test/clawhub/skills/yahoo-finance",
       "test/wind-mcp-test-question-generator"
     ],
-    "lastUpdated": "2026-08-27T00:49:11.454Z"
+    "lastUpdated": "2026-08-29T01:48:40.657Z"
   },
   {
     "source": "github:jsonlee12138/agent-team",
@@ -35338,8 +35469,8 @@
   },
   {
     "source": "github:jssblck/agents",
-    "rev": "b23bc0628f47ad6adda4f8f8a540480c4b74644e",
-    "hash": "0mzrvivmyrxgkdjfs8krpiskjpc7a3g73nchhl2myrjcr800n5rn",
+    "rev": "f2d6227a56b1699e68c76f4e56d01768b24192a1",
+    "hash": "02c8yy6p0q8qsffxkzdnf109qpr61smwwzqrmk4354mr7fwnckwf",
     "skills": [
       "machine/codebase-diagram",
       "machine/computer-and-browser",
@@ -35355,9 +35486,10 @@
       "skills/ship-it",
       "skills/stop-slop",
       "skills/tag-release",
+      "skills/testing-craft",
       "skills/using-sops"
     ],
-    "lastUpdated": "2026-08-28T00:27:09.304Z"
+    "lastUpdated": "2026-08-29T01:48:43.637Z"
   },
   {
     "source": "github:jssfy/k-skills",
@@ -35519,118 +35651,179 @@
   },
   {
     "source": "github:jstarfilms/vibecode-protocol-suite",
-    "rev": "aa796090e78d025d7c070a149f7db81a7791e3ae",
-    "hash": "1yqw67vq2k7milq8ak126ypg79l48hg8fl47hfbsvrvdw3yym82r",
+    "rev": "f4661c809fd22a330201a99f9379ba40491e5874",
+    "hash": "0gzwk1aicldvi53918z6vixpv2lvrsjsb4wpipsp1w61b88bj3w3",
     "skills": [
-      "assets/.agent/skills/21st-dev-components",
+      ".agents/skill-curator",
+      ".agents/skills/unslop",
+      "assets/.agent/skills/agent-engineering",
+      "assets/.agent/skills/agent-engineering/arena",
+      "assets/.agent/skills/agent-engineering/automate-me",
+      "assets/.agent/skills/agent-engineering/conversation-to-spec",
+      "assets/.agent/skills/agent-engineering/crafting-effective-readmes",
+      "assets/.agent/skills/agent-engineering/create-verification-skill",
+      "assets/.agent/skills/agent-engineering/domain-modeling",
+      "assets/.agent/skills/agent-engineering/expert-system-engineer",
+      "assets/.agent/skills/agent-engineering/maintain-verification-skill",
+      "assets/.agent/skills/agent-engineering/optimize-agent-context",
+      "assets/.agent/skills/agent-engineering/prompt-engineering",
+      "assets/.agent/skills/agent-engineering/reflect",
+      "assets/.agent/skills/agent-engineering/skill-creator",
+      "assets/.agent/skills/agent-engineering/source-to-skill",
+      "assets/.agent/skills/agent-engineering/spawn-task",
+      "assets/.agent/skills/agent-engineering/subagent-driven-development",
+      "assets/.agent/skills/agent-engineering/to-questionnaire",
+      "assets/.agent/skills/agent-engineering/writing-for-agents",
       "assets/.agent/skills/agent-recovery",
-      "assets/.agent/skills/ai-avatar-video",
-      "assets/.agent/skills/ai-marketing-videos",
-      "assets/.agent/skills/ai-podcast-creation",
-      "assets/.agent/skills/ai-product-photography",
+      "assets/.agent/skills/ai-media",
+      "assets/.agent/skills/ai-media/ai-avatar-video",
+      "assets/.agent/skills/ai-media/ai-marketing-videos",
+      "assets/.agent/skills/ai-media/ai-podcast-creation",
+      "assets/.agent/skills/ai-media/ai-product-photography",
+      "assets/.agent/skills/ai-media/ai-social-media-content",
+      "assets/.agent/skills/ai-media/ai-voice-cloning",
+      "assets/.agent/skills/ai-media/photo-book-builder",
       "assets/.agent/skills/ai-sdk",
-      "assets/.agent/skills/ai-social-media-content",
-      "assets/.agent/skills/ai-voice-cloning",
       "assets/.agent/skills/algorithmic-art",
       "assets/.agent/skills/anti-gravity",
       "assets/.agent/skills/audit-website",
       "assets/.agent/skills/avoid-feature-creep",
-      "assets/.agent/skills/building-native-ui",
+      "assets/.agent/skills/bro",
+      "assets/.agent/skills/code-intelligence",
+      "assets/.agent/skills/code-intelligence/blast-radius",
+      "assets/.agent/skills/code-intelligence/diagnosing-bugs",
+      "assets/.agent/skills/code-intelligence/how",
+      "assets/.agent/skills/code-intelligence/show-me-your-work",
+      "assets/.agent/skills/code-intelligence/teach",
+      "assets/.agent/skills/code-intelligence/why",
       "assets/.agent/skills/code-review",
-      "assets/.agent/skills/component-analysis",
       "assets/.agent/skills/context7",
       "assets/.agent/skills/convex",
-      "assets/.agent/skills/convex-agents",
-      "assets/.agent/skills/convex-best-practices",
-      "assets/.agent/skills/convex-component-authoring",
-      "assets/.agent/skills/convex-cron-jobs",
-      "assets/.agent/skills/convex-file-storage",
-      "assets/.agent/skills/convex-functions",
-      "assets/.agent/skills/convex-http-actions",
-      "assets/.agent/skills/convex-migrations",
-      "assets/.agent/skills/convex-realtime",
-      "assets/.agent/skills/convex-schema-validator",
-      "assets/.agent/skills/convex-security-audit",
-      "assets/.agent/skills/convex-security-check",
-      "assets/.agent/skills/copywriting",
-      "assets/.agent/skills/crafting-effective-readmes",
-      "assets/.agent/skills/docx",
-      "assets/.agent/skills/domain-name-brainstormer",
-      "assets/.agent/skills/embedded-captions",
-      "assets/.agent/skills/exam-creator-skill",
-      "assets/.agent/skills/faceless-explainer",
-      "assets/.agent/skills/figma",
-      "assets/.agent/skills/frontend-design",
-      "assets/.agent/skills/gemini",
-      "assets/.agent/skills/general-video",
+      "assets/.agent/skills/convex/convex-agents",
+      "assets/.agent/skills/convex/convex-best-practices",
+      "assets/.agent/skills/convex/convex-component-authoring",
+      "assets/.agent/skills/convex/convex-cron-jobs",
+      "assets/.agent/skills/convex/convex-file-storage",
+      "assets/.agent/skills/convex/convex-functions",
+      "assets/.agent/skills/convex/convex-http-actions",
+      "assets/.agent/skills/convex/convex-migrations",
+      "assets/.agent/skills/convex/convex-realtime",
+      "assets/.agent/skills/convex/convex-schema-validator",
+      "assets/.agent/skills/convex/convex-security-audit",
+      "assets/.agent/skills/convex/convex-security-check",
+      "assets/.agent/skills/engineering-principles",
+      "assets/.agent/skills/engineering-principles/boundary-discipline",
+      "assets/.agent/skills/engineering-principles/build-the-lever",
+      "assets/.agent/skills/engineering-principles/encode-lessons-in-structure",
+      "assets/.agent/skills/engineering-principles/exhaust-the-design-space",
+      "assets/.agent/skills/engineering-principles/experience-first",
+      "assets/.agent/skills/engineering-principles/fix-root-causes",
+      "assets/.agent/skills/engineering-principles/foundational-thinking",
+      "assets/.agent/skills/engineering-principles/guard-the-context-window",
+      "assets/.agent/skills/engineering-principles/laziness-protocol",
+      "assets/.agent/skills/engineering-principles/make-operations-idempotent",
+      "assets/.agent/skills/engineering-principles/migrate-callers-then-delete-legacy-apis",
+      "assets/.agent/skills/engineering-principles/minimize-reader-load",
+      "assets/.agent/skills/engineering-principles/model-the-domain",
+      "assets/.agent/skills/engineering-principles/never-block-on-the-human",
+      "assets/.agent/skills/engineering-principles/outcome-oriented-execution",
+      "assets/.agent/skills/engineering-principles/prove-it-works",
+      "assets/.agent/skills/engineering-principles/redesign-from-first-principles",
+      "assets/.agent/skills/engineering-principles/separate-before-serializing-shared-state",
+      "assets/.agent/skills/engineering-principles/sequence-verifiable-units",
+      "assets/.agent/skills/engineering-principles/subtract-before-you-add",
+      "assets/.agent/skills/engineering-principles/type-system-discipline",
+      "assets/.agent/skills/frontend-ui",
+      "assets/.agent/skills/frontend-ui/21st-dev-components",
+      "assets/.agent/skills/frontend-ui/building-native-ui",
+      "assets/.agent/skills/frontend-ui/component-analysis",
+      "assets/.agent/skills/frontend-ui/creative-web-development",
+      "assets/.agent/skills/frontend-ui/figma",
+      "assets/.agent/skills/frontend-ui/frontend-design",
+      "assets/.agent/skills/frontend-ui/prototyping-variants",
+      "assets/.agent/skills/frontend-ui/stitch",
+      "assets/.agent/skills/frontend-ui/stitch/design-md",
+      "assets/.agent/skills/frontend-ui/stitch/enhance-prompt",
+      "assets/.agent/skills/frontend-ui/stitch/react-components",
+      "assets/.agent/skills/frontend-ui/stitch/shadcn-ui",
+      "assets/.agent/skills/frontend-ui/stitch/stitch-loop",
+      "assets/.agent/skills/frontend-ui/story-engineer",
+      "assets/.agent/skills/frontend-ui/ui-ux-pro-max",
+      "assets/.agent/skills/frontend-ui/web-design-guidelines",
+      "assets/.agent/skills/frontend-ui/webapp-testing",
       "assets/.agent/skills/git-commit-generation",
-      "assets/.agent/skills/git-worktree",
-      "assets/.agent/skills/github-ops",
-      "assets/.agent/skills/global-brand-namer",
-      "assets/.agent/skills/google-trends",
+      "assets/.agent/skills/git-github-tools",
+      "assets/.agent/skills/git-github-tools/git-worktree",
+      "assets/.agent/skills/git-github-tools/github-ops",
+      "assets/.agent/skills/git-github-tools/issue-pr-triage",
+      "assets/.agent/skills/git-github-tools/pr-comment-fix",
+      "assets/.agent/skills/git-github-tools/resolving-merge-conflicts",
+      "assets/.agent/skills/grill-me",
       "assets/.agent/skills/high-fidelity-extraction",
       "assets/.agent/skills/hyperframes",
-      "assets/.agent/skills/hyperframes-animation",
-      "assets/.agent/skills/hyperframes-cli",
-      "assets/.agent/skills/hyperframes-core",
-      "assets/.agent/skills/hyperframes-creative",
-      "assets/.agent/skills/hyperframes-keyframes",
-      "assets/.agent/skills/hyperframes-media",
-      "assets/.agent/skills/hyperframes-registry",
-      "assets/.agent/skills/jstar-reviewer",
+      "assets/.agent/skills/hyperframes/embedded-captions",
+      "assets/.agent/skills/hyperframes/faceless-explainer",
+      "assets/.agent/skills/hyperframes/general-video",
+      "assets/.agent/skills/hyperframes/hyperframes-animation",
+      "assets/.agent/skills/hyperframes/hyperframes-cli",
+      "assets/.agent/skills/hyperframes/hyperframes-core",
+      "assets/.agent/skills/hyperframes/hyperframes-creative",
+      "assets/.agent/skills/hyperframes/hyperframes-keyframes",
+      "assets/.agent/skills/hyperframes/hyperframes-media",
+      "assets/.agent/skills/hyperframes/hyperframes-registry",
+      "assets/.agent/skills/hyperframes/media-use",
+      "assets/.agent/skills/hyperframes/motion-graphics",
+      "assets/.agent/skills/hyperframes/music-to-video",
+      "assets/.agent/skills/hyperframes/pr-to-video",
+      "assets/.agent/skills/hyperframes/product-launch-video",
+      "assets/.agent/skills/hyperframes/remotion-to-hyperframes",
+      "assets/.agent/skills/hyperframes/slideshow",
+      "assets/.agent/skills/hyperframes/talking-head-recut",
+      "assets/.agent/skills/hyperframes/website-to-video",
       "assets/.agent/skills/jules",
-      "assets/.agent/skills/marketing-ideas",
-      "assets/.agent/skills/media-use",
-      "assets/.agent/skills/monorepo-management",
-      "assets/.agent/skills/motion-graphics",
-      "assets/.agent/skills/music-to-video",
-      "assets/.agent/skills/nextjs-standards",
-      "assets/.agent/skills/optimize-agent-context",
-      "assets/.agent/skills/pdf",
-      "assets/.agent/skills/photo-book-builder",
-      "assets/.agent/skills/pptx",
-      "assets/.agent/skills/pr-comment-fix",
-      "assets/.agent/skills/pr-to-video",
-      "assets/.agent/skills/pricing-strategy",
-      "assets/.agent/skills/product-launch-video",
-      "assets/.agent/skills/programmatic-seo",
-      "assets/.agent/skills/prompt-engineering",
+      "assets/.agent/skills/marketing-growth",
+      "assets/.agent/skills/marketing-growth/copywriting",
+      "assets/.agent/skills/marketing-growth/domain-name-brainstormer",
+      "assets/.agent/skills/marketing-growth/global-brand-namer",
+      "assets/.agent/skills/marketing-growth/google-trends",
+      "assets/.agent/skills/marketing-growth/marketing-ideas",
+      "assets/.agent/skills/marketing-growth/pricing-strategy",
+      "assets/.agent/skills/marketing-growth/programmatic-seo",
+      "assets/.agent/skills/marketing-growth/seo-ready",
+      "assets/.agent/skills/marketing-growth/social-content",
+      "assets/.agent/skills/marketing-growth/twitter-automation",
+      "assets/.agent/skills/marketing-growth/youtube-pipeline",
+      "assets/.agent/skills/office-docs",
+      "assets/.agent/skills/office-docs/docx",
+      "assets/.agent/skills/office-docs/exam-creator-skill",
+      "assets/.agent/skills/office-docs/pdf",
+      "assets/.agent/skills/office-docs/pptx",
+      "assets/.agent/skills/office-docs/technical-writing",
+      "assets/.agent/skills/office-docs/xlsx",
+      "assets/.agent/skills/poteto-mode",
       "assets/.agent/skills/remotion",
-      "assets/.agent/skills/remotion-real-ui-video",
-      "assets/.agent/skills/remotion-to-hyperframes",
+      "assets/.agent/skills/remotion/remotion-real-ui-video",
       "assets/.agent/skills/security-audit",
-      "assets/.agent/skills/seo-ready",
-      "assets/.agent/skills/shared-resend-portfolio",
-      "assets/.agent/skills/skill-creator",
-      "assets/.agent/skills/slideshow",
-      "assets/.agent/skills/social-content",
-      "assets/.agent/skills/spawn-task",
-      "assets/.agent/skills/stitch",
-      "assets/.agent/skills/stitch/design-md",
-      "assets/.agent/skills/stitch/enhance-prompt",
-      "assets/.agent/skills/stitch/react-components",
-      "assets/.agent/skills/stitch/shadcn-ui",
-      "assets/.agent/skills/stitch/stitch-loop",
-      "assets/.agent/skills/subagent-driven-development",
       "assets/.agent/skills/sync-docs",
       "assets/.agent/skills/takomi",
-      "assets/.agent/skills/takomi-flow",
-      "assets/.agent/skills/talking-head-recut",
-      "assets/.agent/skills/twitter-automation",
-      "assets/.agent/skills/ui-ux-pro-max",
-      "assets/.agent/skills/upgrading-expo",
-      "assets/.agent/skills/web-design-guidelines",
-      "assets/.agent/skills/webapp-testing",
-      "assets/.agent/skills/website-to-video",
-      "assets/.agent/skills/xlsx",
-      "assets/.agent/skills/youtube-pipeline",
+      "assets/.agent/skills/wait-what",
+      "assets/.agent/skills/web-dev-standards",
+      "assets/.agent/skills/web-dev-standards/codebase-design",
+      "assets/.agent/skills/web-dev-standards/interactive-wizard",
+      "assets/.agent/skills/web-dev-standards/monorepo-management",
+      "assets/.agent/skills/web-dev-standards/nextjs-standards",
+      "assets/.agent/skills/web-dev-standards/shared-resend-portfolio",
+      "assets/.agent/skills/web-dev-standards/test-driven-development",
+      "assets/.agent/skills/web-dev-standards/typescript-standards",
+      "assets/.agent/skills/web-dev-standards/upgrading-expo",
       "assets/.agent/skills/zack-d-films-production-suite",
       "assets/.agent/skills/zack-d-films-production-suite/resources/skills/zack-browser-planner",
       "assets/.agent/skills/zack-d-films-production-suite/resources/skills/zack-higgsfield",
       "assets/.agent/skills/zack-d-films-production-suite/resources/skills/zack-local-flow-producer",
-      "plugins/takomi-codex/skills/takomi-codex"
+      "plugins/takomi-codex/skills/takomi-codex",
+      "plugins/takomi-flow/skills/takomi-flow"
     ],
-    "lastUpdated": "2026-08-20T01:53:33.848Z"
+    "lastUpdated": "2026-08-29T01:48:51.385Z"
   },
   {
     "source": "github:jsv-capital/resend-skill",
@@ -36576,8 +36769,8 @@
   },
   {
     "source": "github:jun0-ds/sonmat",
-    "rev": "20b3087172815072e2a7d439503793fbf37f453d",
-    "hash": "1ymymkxg7z0s91gzahly5nb1m3b15h2ldmp9pnwgddzsimdpkxh0",
+    "rev": "212f32c6965a7af6be81b48e9baf80957dbbb9d8",
+    "hash": "1vfqbh1235yms4rzgw87zcd45pbwzmj13xr98y7yppmaww1daqir",
     "skills": [
       "skills/autoloop",
       "skills/devil",
@@ -36586,7 +36779,7 @@
       "skills/punch",
       "skills/scribe"
     ],
-    "lastUpdated": "2026-08-25T01:54:20.151Z"
+    "lastUpdated": "2026-08-29T01:49:19.088Z"
   },
   {
     "source": "github:jun7799/mbti-test-skill",
@@ -36697,12 +36890,13 @@
   },
   {
     "source": "github:jungjaehoon-lifegamez/MAMA",
-    "rev": "cbdc5f9bdf63b9df84ad12a5bc1a6a8ff191a58c",
-    "hash": "1va11zmbzq5m5cmpvff044jb23s4g2pn1id7gxcbi08m5qnfxmm2",
+    "rev": "d8e29dafc986095e57519503073151ce3a7b75a0",
+    "hash": "0lc2qxpydambsi06z9vh383sj5zd1zig8qpdhm0xk6189hd79a2d",
     "skills": [
-      "packages/claude-code-plugin/skills/mama-context"
+      "packages/claude-code-plugin/skills/mama-context",
+      "packages/claude-code-plugin/skills/mama-install"
     ],
-    "lastUpdated": "2026-08-27T14:13:22.981Z"
+    "lastUpdated": "2026-08-29T01:49:01.864Z"
   },
   {
     "source": "github:junh0328/playground",
@@ -37170,8 +37364,8 @@
   },
   {
     "source": "github:justin/jww-skills",
-    "rev": "820ca7d0d885f011e5c69ae7d369d1a7a70868f2",
-    "hash": "08nvz5f8g46av8wym4vvsblmfv9cg6p0ibcfiav6v7wx8gh2pjzb",
+    "rev": "ccda04f0ac52b9b50aea4e3a4743afba69926d93",
+    "hash": "1wrmblp2mn4niy1c592bpsdmp6dn4a2bwr7n3282pafwjpcz9dwz",
     "skills": [
       "skills/jww-bounded-investigation",
       "skills/jww-codex-maintenance",
@@ -37180,7 +37374,7 @@
       "skills/jww-repository-validation",
       "skills/jww-swift-style"
     ],
-    "lastUpdated": "2026-08-27T00:51:32.492Z"
+    "lastUpdated": "2026-08-29T01:49:24.357Z"
   },
   {
     "source": "github:justin322322/ghl-skills",
@@ -37324,14 +37518,17 @@
   },
   {
     "source": "github:justinmc/flutter-skills",
-    "rev": "92af37737c485fa13ea1a3bbaf011adf77a15cba",
-    "hash": "19a8mh76iy7y7pz3g6dlk8q73wd325q3wfi0zib3f58wvwzarzig",
+    "rev": "d1c05c0474f03fdcf7d52b928158b4f598efe6b1",
+    "hash": "1n7pfvyv64998d1jvrc6q9v5jknin4jmmjj6nm9vmwnfbx09msrw",
     "skills": [
       "flutter-clone",
+      "flutter-docs-changes",
+      "flutter-fetch-changes",
+      "flutter-notable-changes",
       "flutter-pr-triage",
       "flutter-triage"
     ],
-    "lastUpdated": "2026-08-17T21:45:41.388Z"
+    "lastUpdated": "2026-08-29T01:49:32.969Z"
   },
   {
     "source": "github:justinperea/app-store-review-skill",
@@ -38119,8 +38316,8 @@
   },
   {
     "source": "github:jxxghp/moviepilot",
-    "rev": "eb4549b2e6cf28cd48b24bb0037d424fa591ed10",
-    "hash": "1akjmm744vndyp7qzj7nf6ihp0rgvgizfyaqwmn9zjhs7ychh879",
+    "rev": "c9d0f0b1cab317fcb183f40b20a5ea31f399b816",
+    "hash": "1nvkp75f10rh4ap6aicbqvmmhcq0g50nw0f8kj7q9jrr5gnvrzpl",
     "skills": [
       "skills/anysearch",
       "skills/browser-use",
@@ -38137,7 +38334,7 @@
       "skills/publish-moviepilot-plugin",
       "skills/transfer-failed-retry"
     ],
-    "lastUpdated": "2026-08-28T00:27:20.400Z"
+    "lastUpdated": "2026-08-29T01:50:48.738Z"
   },
   {
     "source": "github:jyasuu/cheat-sheet",
