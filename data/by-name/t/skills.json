@@ -6938,15 +6938,15 @@
   },
   {
     "source": "github:tailor-platform/sdk",
-    "rev": "3f7373a88a24a795114850c30b08dc0594473112",
-    "hash": "0d3sl1hw52zgd0bsr179v2mqd1lj6lhld39020fqskz22fl09cf7",
+    "rev": "c4da7c87671c49b3256853c2e0b5a068c300526f",
+    "hash": "193fxvzmm2008j91rkp3q7r6q66vf652mpgz28ic8sdjchn9nfha",
     "skills": [
       ".agents/skills/docs-check",
       ".agents/skills/e2e-test",
       ".agents/skills/llm-challenge",
       "skills/tailor"
     ],
-    "lastUpdated": "2026-08-29T16:53:59.145Z"
+    "lastUpdated": "2026-08-30T12:03:18.060Z"
   },
   {
     "source": "github:tailscale/tailscale-skill",
@@ -7177,8 +7177,8 @@
   },
   {
     "source": "github:takeokunn/nixos-configuration",
-    "rev": "c5d3cd2e4e03322c506a1fb94cba6616e2db59a3",
-    "hash": "103g3hl99lb6g73jvpg82gjk6h8snw0rxbzsfz83w6fc19glmjvw",
+    "rev": "c5c4d7e6619c8add7728740d7871ce9d2ab9c19c",
+    "hash": "13lk29632cxby17whw5pxm36081ji6bk1bscs6ryswm9xgzyyym5",
     "skills": [
       "home-manager/ai-tools/agent-skills/skills/c-ecosystem",
       "home-manager/ai-tools/agent-skills/skills/cognitive-rhythm-writing",
@@ -7226,7 +7226,7 @@
       "home-manager/ai-tools/agent-skills/skills/web-ux",
       "home-manager/ai-tools/agent-skills/skills/workflow-patterns"
     ],
-    "lastUpdated": "2026-08-30T05:31:47.303Z"
+    "lastUpdated": "2026-08-30T12:03:21.329Z"
   },
   {
     "source": "github:takuan-osho/ccmarketplace",
@@ -11320,13 +11320,13 @@
   },
   {
     "source": "github:teambit/bit",
-    "rev": "bb8bda4435270a4f8614c2f6343cc44bfedad665",
-    "hash": "0cmd1h29wq1zgycsx9zjwv6b7ygn5hh0cwg5p2bw662pdvpi2ja4",
+    "rev": "4f3e69f0a8b2417ab4edd3f3fd06c51b069ac22d",
+    "hash": "0cgwxvz9na30qiysa3wp3wbfjyaznlcn6ws1r7y228xqls5c9gjj",
     "skills": [
       ".claude/skills/generate-release-notes",
       "contrib/claude-skill-bit-cli"
     ],
-    "lastUpdated": "2026-08-29T01:56:42.101Z"
+    "lastUpdated": "2026-08-30T12:05:25.835Z"
   },
   {
     "source": "github:teambition/skills",
@@ -11458,8 +11458,8 @@
   },
   {
     "source": "github:teamwiseflow/wiseflow",
-    "rev": "fdc03d6ccc4d15c89a9dbd23b53217df0e72a2c0",
-    "hash": "0s3r5qmg8c76khhp8fsbm4qng4b15yriacb7js1k690ngf39fmk0",
+    "rev": "72fd07abad4e3c06bc89ab8c2210c73734eeb658",
+    "hash": "0gvy9285xi38psbmzh3d73z8rsnr0wbys6nx45vhvjif17m6bd15",
     "skills": [
       "crews/content-producer/skills/collage-broll",
       "crews/content-producer/skills/design-full",
@@ -11473,45 +11473,52 @@
       "crews/it-engineer/skills/seo",
       "crews/it-engineer/skills/tccli",
       "crews/it-engineer/skills/work-channel-binding",
-      "crews/main/skills/bd-record",
       "crews/main/skills/content-calibrator",
       "crews/main/skills/council",
-      "crews/main/skills/douyin-publish",
-      "crews/main/skills/generate-wenyan-theme",
-      "crews/main/skills/info-record",
-      "crews/main/skills/intel-gathering",
-      "crews/main/skills/investor-hunting",
-      "crews/main/skills/investor-materials",
-      "crews/main/skills/investor-outreach",
-      "crews/main/skills/investor-pipeline",
-      "crews/main/skills/ir-record",
-      "crews/main/skills/lead-hunting",
+      "crews/main/skills/expert-bd",
+      "crews/main/skills/expert-bd/tools/bd-record",
+      "crews/main/skills/expert-bd/tools/info-record",
+      "crews/main/skills/expert-bd/tools/rss-reader",
+      "crews/main/skills/expert-bd/tools/twitter-interact",
+      "crews/main/skills/expert-bd/tools/xhs-interact",
+      "crews/main/skills/expert-bd/tools/xianyu-ops",
+      "crews/main/skills/expert-douyin",
+      "crews/main/skills/expert-douyin/tools/douyin-comments",
+      "crews/main/skills/expert-douyin/tools/douyin-publish",
+      "crews/main/skills/expert-douyin/tools/douyin-style-profiler",
+      "crews/main/skills/expert-ir",
+      "crews/main/skills/expert-ir/tools/ir-record",
+      "crews/main/skills/expert-twitter",
+      "crews/main/skills/expert-twitter/tools/twitter-post",
+      "crews/main/skills/expert-wx-channel",
+      "crews/main/skills/expert-wx-channel/tools/wechat-channels-publish",
+      "crews/main/skills/expert-wx-channel/tools/wx-channel-engagement",
+      "crews/main/skills/expert-wx-channel/tools/wx-channel-style-profiler",
+      "crews/main/skills/expert-wx-mp",
+      "crews/main/skills/expert-wx-mp/tools/generate-wenyan-theme",
+      "crews/main/skills/expert-wx-mp/tools/wechat-style-profiler",
+      "crews/main/skills/expert-wx-mp/tools/wx-mp-engagement",
+      "crews/main/skills/expert-wx-mp/tools/wx-mp-publisher",
+      "crews/main/skills/expert-xhs",
+      "crews/main/skills/expert-xhs/tools/xhs-content-ops",
+      "crews/main/skills/expert-xhs/tools/xhs-engagement",
+      "crews/main/skills/expert-xhs/tools/xhs-publish",
+      "crews/main/skills/expert-xhs/tools/xhs-style-profiler",
       "crews/main/skills/login-manager",
       "crews/main/skills/market-research",
       "crews/main/skills/pitch-deck",
-      "crews/main/skills/project-application",
       "crews/main/skills/published-track",
-      "crews/main/skills/rss-reader",
-      "crews/main/skills/sales-cs-enablement",
-      "crews/main/skills/sales-cs-review",
+      "crews/main/skills/sales-cs-manager",
+      "crews/main/skills/sales-cs-manager/tools/sales-cs-enablement",
+      "crews/main/skills/sales-cs-manager/tools/sales-cs-review",
       "crews/main/skills/swcr-register",
       "crews/main/skills/talking-head-cut",
-      "crews/main/skills/twitter-interact",
-      "crews/main/skills/twitter-post",
       "crews/main/skills/ui-demo",
       "crews/main/skills/video-edit",
       "crews/main/skills/viral-chaser",
-      "crews/main/skills/wechat-channels-publish",
       "crews/main/skills/weibo-publish",
-      "crews/main/skills/wx-channel-engagement",
-      "crews/main/skills/wx-mp-engagement",
       "crews/main/skills/wx-mp-hunter",
-      "crews/main/skills/wx-mp-publisher",
       "crews/main/skills/wxwork-moments",
-      "crews/main/skills/xhs-content-ops",
-      "crews/main/skills/xhs-interact",
-      "crews/main/skills/xhs-publish",
-      "crews/main/skills/xianyu-ops",
       "crews/main/skills/zhihu-publish",
       "crews/sales-cs/skills/customer-db",
       "crews/sales-cs/skills/demo-send",
@@ -11531,7 +11538,7 @@
       "skills/web-form-fill",
       "skills/wxwork-drive"
     ],
-    "lastUpdated": "2026-08-15T13:07:17.013Z"
+    "lastUpdated": "2026-08-30T12:04:55.155Z"
   },
   {
     "source": "github:tebjan/stride-skills",
@@ -11566,8 +11573,8 @@
   },
   {
     "source": "github:tech-leads-club/agent-skills",
-    "rev": "eca0d1a0e7b95ee0409a7440ea1ab258d53d93a0",
-    "hash": "1dw4banchrgldxv4qazzyx1gp7ihk0sbbky3853ycm2v3z8mg57w",
+    "rev": "fc886b77e54db38b621f08472434cbb73ef35008",
+    "hash": "03arxv6zlr5dl5vg5xs4ykrx5bd5rxxqz2vkxn23hdk0d99in1f9",
     "skills": [
       "packages/skills-catalog/skills/(architecture)/component-common-domain-detection",
       "packages/skills-catalog/skills/(architecture)/component-flattening-analysis",
@@ -11658,7 +11665,7 @@
       "packages/skills-catalog/skills/(tooling)/nx-workspace",
       "packages/skills-catalog/skills/(web-automation)/playwright-skill"
     ],
-    "lastUpdated": "2026-08-29T16:53:08.021Z"
+    "lastUpdated": "2026-08-30T12:04:59.048Z"
   },
   {
     "source": "github:tech-melon/grok-twitter-search",
@@ -13301,26 +13308,20 @@
   },
   {
     "source": "github:tenzir/skills",
-    "rev": "d39eba66d188df94dafb3485e1cd7ec3daf5b2cd",
-    "hash": "1hpqb1x7dv1v5ssb7ya8yl2i5d3fjpz4g0070fhkcgbiygj7csqb",
+    "rev": "09c795488d967e62afdf0d92aa9b7261d6bcea0b",
+    "hash": "00w1inzqkp5gx0z94ka5nvfjnldbblmhjz464qd3s81vgcxs3irj",
     "skills": [
       "skills/tenzir",
       "skills/tenzir-asim",
       "skills/tenzir-cef",
       "skills/tenzir-cim",
-      "skills/tenzir-commit-changes",
-      "skills/tenzir-create-pull-requests",
-      "skills/tenzir-design-system",
       "skills/tenzir-ecs",
       "skills/tenzir-edm",
       "skills/tenzir-leef",
       "skills/tenzir-ocsf",
-      "skills/tenzir-ship",
-      "skills/tenzir-technical-writing",
-      "skills/tenzir-udm",
-      "skills/tenzir-update-docs"
+      "skills/tenzir-udm"
     ],
-    "lastUpdated": "2026-08-29T01:58:13.038Z"
+    "lastUpdated": "2026-08-30T12:02:10.377Z"
   },
   {
     "source": "github:teo5777/easy-wireframe",
@@ -21402,8 +21403,8 @@
   },
   {
     "source": "github:thkt/claude-config",
-    "rev": "fa6354f3a44d71cdf5bd4bb2b176690c6d9ed2f4",
-    "hash": "0ix8mygrimmxqgcrn4ags4v7fk60lvmn4h8f9231059a3qsm2p23",
+    "rev": "17c5ee85712cfbc00dea8b530767686efb45fe27",
+    "hash": "0h39r0cl2zdb3dmx3kc32lmhgsw7p1xvljb7wx6jnpbc4zp2hbdr",
     "skills": [
       "skills/ablate",
       "skills/census",
@@ -21435,7 +21436,7 @@
       "skills/use-workflow-pageshot",
       "skills/use-workflow-tdd-cycle"
     ],
-    "lastUpdated": "2026-08-29T16:53:48.425Z"
+    "lastUpdated": "2026-08-30T12:04:26.949Z"
   },
   {
     "source": "github:thlandgraf/cc-marketplace",
@@ -22901,8 +22902,8 @@
   },
   {
     "source": "github:tifandotme/dotfiles",
-    "rev": "cdb52a5476527b75bf2feb1166ce7efa8eec2fbb",
-    "hash": "1wrzhh7r8239dk4qha28mh2z3dxpqziajsm18nrd15rg99nx3s8z",
+    "rev": "454654b047ee38fd4b760b95d733b71dc2f7a1c8",
+    "hash": "0ai69kf0qapjxxnb9zw8109i24dzscqchjfrc3kn1396y39g8pba",
     "skills": [
       "dot_agents/skills/bro",
       "dot_agents/skills/building-tanstack-form-composition",
@@ -22917,7 +22918,7 @@
       "dot_agents/skills/writing-agents-md",
       "dot_agents/skills/writing-skills"
     ],
-    "lastUpdated": "2026-08-29T16:54:03.569Z"
+    "lastUpdated": "2026-08-30T12:04:16.809Z"
   },
   {
     "source": "github:tiger3807861189/j-space-cognition-suite-v3.6",
@@ -24708,12 +24709,12 @@
   },
   {
     "source": "github:tinyhumansai/openhuman",
-    "rev": "20a7c0e1a05c5533d5334da134564e54e796b482",
-    "hash": "1n5z41d0x7hj610pgjdrg287a9mily8pbja6djzlica6v01gnfcs",
+    "rev": "663399655fa95990e244d1bc370bf0c1ca3781ad",
+    "hash": "1l3pni066ila5y0d237p0p2rb91dcq5f80m9wwm82m5ihxwha41k",
     "skills": [
       ".codex/skills/ship-and-babysit"
     ],
-    "lastUpdated": "2026-08-30T05:32:27.708Z"
+    "lastUpdated": "2026-08-30T12:04:49.941Z"
   },
   {
     "source": "github:tinyshipcn/tinyship-skills",
@@ -25641,8 +25642,8 @@
   },
   {
     "source": "github:tobihagemann/turbo",
-    "rev": "6de19b69c7c6f63e81b21b7e4008d242eeb30a51",
-    "hash": "0kxsx9dc5w8ych52dfb0r336m0mizqhnnsc8p4vz4ng2zp6hgg54",
+    "rev": "7de1c4dfe0612e673dc038ca5f482c4a79d5500d",
+    "hash": "15idj66zz747kyj2qhjhdvagvzna3xn836lmvvcdmy35csjf8g6x",
     "skills": [
       "claude/skills/answer-reviewer-questions",
       "claude/skills/apply-findings",
@@ -25722,7 +25723,7 @@
       "codex/skills/claude-print",
       "codex/skills/consult-claude"
     ],
-    "lastUpdated": "2026-08-29T21:02:49.071Z"
+    "lastUpdated": "2026-08-30T12:05:29.578Z"
   },
   {
     "source": "github:tobitech/swift-mvvm",
@@ -28695,8 +28696,8 @@
   },
   {
     "source": "github:tradingstrategy-ai/web3-ethereum-defi",
-    "rev": "ef501c488e4fb2dce128520eded1be766f7a9ffe",
-    "hash": "0147n7mg5sfdfczzgxvszpznvbl9q0gqjq8h74kkf468n0nwswpy",
+    "rev": "77efb99f2ad203a78e2e1e87ad150f7aecd0a5a4",
+    "hash": "0cyxyyllv44hj13bmsa6gi08a68axvalm8b1rvp4cliyf80190cz",
     "skills": [
       ".claude/skills/add-curator",
       ".claude/skills/add-stablecoin",
@@ -28719,7 +28720,7 @@
       ".claude/skills/more-vaults",
       ".claude/skills/post-process-logo"
     ],
-    "lastUpdated": "2026-08-29T16:52:55.479Z"
+    "lastUpdated": "2026-08-30T12:05:13.344Z"
   },
   {
     "source": "github:tradingview/lightweight-charts",
@@ -29599,8 +29600,8 @@
   },
   {
     "source": "github:treeman99/orca",
-    "rev": "4389a2a8738c3a1dcd5a407dbf7e6ed32f8efb7a",
-    "hash": "07ccgwpd803g4cq40zd96x5mkv8l75q4lfg53sam21ws20pgjlnr",
+    "rev": "e25fe0a1a737a455027c672c7b4fe6d09414425c",
+    "hash": "1xnapnx7yc7wh48r37xffgckfi4wn7v4p5kigdc7mhk1j7jqm7l9",
     "skills": [
       "skills/computer-use",
       "skills/linear-tickets",
@@ -29611,7 +29612,7 @@
       "skills/orca-per-workspace-env",
       "skills/orchestration"
     ],
-    "lastUpdated": "2026-08-29T16:52:59.929Z"
+    "lastUpdated": "2026-08-30T12:05:20.239Z"
   },
   {
     "source": "github:trentferguson/homescreen-hero",
@@ -29793,8 +29794,8 @@
   },
   {
     "source": "github:triggerdotdev/trigger.dev",
-    "rev": "9cb5028ce1bc2e70a797379aeec675afcdf6c81a",
-    "hash": "0g3yjmfdq5jn4wljfddd5dsqlkn58nphq7xgcpzq3pn966nch2s4",
+    "rev": "1d55693c0fc76279e7e8275fe41f959b65d5ea99",
+    "hash": "099x23i6kc1nsgrmxkdccw2l25kci63bnvjqy4a8gxv96hx3kkfg",
     "skills": [
       ".claude/skills/drizzle",
       ".claude/skills/errors-api-e2e",
@@ -29807,7 +29808,7 @@
       "packages/cli-v3/skills/trigger-getting-started",
       "packages/cli-v3/skills/trigger-realtime-and-frontend"
     ],
-    "lastUpdated": "2026-08-29T21:03:43.199Z"
+    "lastUpdated": "2026-08-30T12:04:43.723Z"
   },
   {
     "source": "github:trilwu/secskills",
@@ -30092,15 +30093,15 @@
   },
   {
     "source": "github:tristan-mcinnis/pptx-from-layouts-skill",
-    "rev": "53b0e750694d807e3510c2017744197c3c5089b0",
-    "hash": "0fv33x4xzva1wlxdx0w2786qimdkbkcqs7rpvmv5d2p5hlivlvz3",
+    "rev": "46e7c6638305bcb424f257b5c49dcd2603dc71ea",
+    "hash": "0iga7fvnpfnkbnrplwg1vzkg9dq1zjvv99az1zcxg2h584617p0i",
     "skills": [
       ".",
       ".claude/skills/pptx-author",
       ".claude/skills/pptx-from-layouts",
       ".claude/skills/pptx-profile"
     ],
-    "lastUpdated": "2026-06-03T06:48:44.950Z"
+    "lastUpdated": "2026-08-30T12:04:32.577Z"
   },
   {
     "source": "github:tristanmanchester/agent-skills",
@@ -30859,14 +30860,14 @@
   },
   {
     "source": "github:trycua/cua",
-    "rev": "685ccc53ea262b541c408d934386b3921e47a6e4",
-    "hash": "0mf5c1fgk6w8x0m4wf4v8861kil3lq3y0n97d7863mzfx9x8mxyz",
+    "rev": "359fad56369a1763f83c2d8b3192c36749262b46",
+    "hash": "1zpr28mm0ibvmrla1zr7amkkn7pkj3ang8s91gfvagfd076bd5j9",
     "skills": [
       ".agents/skills/poll-github-work",
       "libs/cua-driver/rust/Skills/cua-driver",
       "skills/gui-automation"
     ],
-    "lastUpdated": "2026-08-30T05:34:46.313Z"
+    "lastUpdated": "2026-08-30T12:05:19.677Z"
   },
   {
     "source": "github:tryflask/skills",
@@ -31209,12 +31210,12 @@
   },
   {
     "source": "github:tt-a1i/archify",
-    "rev": "98a9132030d59ea778fd742cdf4b6e57ba3387fc",
-    "hash": "0qghwbzp699rf1s1znsi6h0dgxj606sz1yzxrg9pi1c9ahjcqpsf",
+    "rev": "39a21139a4661203888049d44e3b8c0da13fa576",
+    "hash": "1949p6k8q6440kfx8x5rxisb9rnb5kzn8r4x9za04gq0wbsywd2r",
     "skills": [
       "archify"
     ],
-    "lastUpdated": "2026-08-30T05:35:06.652Z"
+    "lastUpdated": "2026-08-30T12:05:34.860Z"
   },
   {
     "source": "github:tt-a1i/matt-skills-with-to-goal",
@@ -31589,8 +31590,8 @@
   },
   {
     "source": "github:tuist/tuist",
-    "rev": "0ceb6fff29476e9e6ecae099dee402a24ede2350",
-    "hash": "1q2jzq6a56bspnfmjgl8ywzp0irsym4fr3fckw39imqjrrpavnam",
+    "rev": "b140c3e85fb8c21d8ceac49d22808b8204d7b2d3",
+    "hash": "16hv4k5brxxhr4vqxlblpybviqn3ppb2npiv7qxlc1i4ibr1kdbl",
     "skills": [
       ".blick/skills/tuist-elixir-review",
       ".blick/skills/tuist-swift-review",
@@ -31607,7 +31608,7 @@
       "skills/skills/generated-projects",
       "skills/skills/migrate"
     ],
-    "lastUpdated": "2026-08-30T05:32:24.168Z"
+    "lastUpdated": "2026-08-30T12:03:41.069Z"
   },
   {
     "source": "github:tukaelu/agent-skills",
@@ -31866,8 +31867,8 @@
   },
   {
     "source": "github:tursodatabase/turso",
-    "rev": "6ac915124f43b99598fd26ea2ff1e4e0e62c89de",
-    "hash": "1vg5am77q57cnkjq0a27j5cwwim5cap3dhky9cxifslp19jgvk4b",
+    "rev": "6ab76b29a2a1e3d19866e792f2e9929aff65e08d",
+    "hash": "1vl2aq5rqz9xv71a6ay6rm654wndcl5l9s80q1byszqccc8sgbd4",
     "skills": [
       ".claude/skills/async-io-model",
       ".claude/skills/cdc",
@@ -31883,7 +31884,7 @@
       ".claude/skills/transaction-correctness",
       ".claude/skills/yield-injections"
     ],
-    "lastUpdated": "2026-08-29T16:52:14.680Z"
+    "lastUpdated": "2026-08-30T12:03:24.942Z"
   },
   {
     "source": "github:tushaarmehtaa/tushar-skills",
@@ -32021,12 +32022,12 @@
   },
   {
     "source": "github:tw93/kami",
-    "rev": "af25d9566a5e44dbd8c888ab800ed83b2c4110f4",
-    "hash": "00apgx7pp1sqdv5gqgjhc3ffyampp6rcm32qv1qdxigliwgw8syc",
+    "rev": "62d43c39df4a30ad4d37d86e9c63daa04d192332",
+    "hash": "0yakg1has8blnlyxm2kni2lkgv7dvj1xgfbmn7izkkdyz1f6y7sp",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-08-30T05:32:08.596Z"
+    "lastUpdated": "2026-08-30T12:03:38.539Z"
   },
   {
     "source": "github:tw93/waza",
@@ -32046,8 +32047,8 @@
   },
   {
     "source": "github:twentyhq/twenty",
-    "rev": "ced05ced01e5b2cf567ab39557babe604641770a",
-    "hash": "1vb0f3v826sywp02ji9146shssxhwcdb6pzb54qlnvlgdj8srbjn",
+    "rev": "b582eb5978247f473202112249be07ca7c5bc84c",
+    "hash": "02ymv7gr3awr30fmah520r3v2g8k90r9bv6nwmfkfhs9zfv9lbsz",
     "skills": [
       ".claude/skills/qa-scout",
       ".cursor/skills/syncable-entity-builder-and-validation",
@@ -32068,7 +32069,7 @@
       "packages/twenty-codex-plugin/skills/publish-app",
       "packages/twenty-codex-plugin/skills/use-twenty-mcp"
     ],
-    "lastUpdated": "2026-08-30T05:34:26.057Z"
+    "lastUpdated": "2026-08-30T12:05:52.649Z"
   },
   {
     "source": "github:twikus/claude-configuration",
