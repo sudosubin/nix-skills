@@ -122,14 +122,34 @@
   },
   {
     "source": "github:Untrivial-ai/agent-orchestrator",
-    "rev": "2bada3983f294c201578f32463fe0a140e650590",
-    "hash": "1arqf9rr4kajxw8qqqsizrqvxh3pxhha0421ydxwrb0gcl8gg0sn",
+    "rev": "9997248c4dbbfc23adb42f90f42cfe6e125f104c",
+    "hash": "14rid303yl4pac319ni5rnw5j1mx8pr4389r1wxa7ag5pf4bcllh",
     "skills": [
       ".agents/skills/ao-desktop-dev",
       ".agents/skills/bug-triage",
       "backend/internal/skillassets/using-ao"
     ],
-    "lastUpdated": "2026-09-01T14:10:53.559Z"
+    "lastUpdated": "2026-09-01T18:30:49.171Z"
+  },
+  {
+    "source": "github:UpayanGhosh/Synapse-OSS",
+    "rev": "d36d26f152bc19f8d143ff2737302e740c1c2426",
+    "hash": "1p0h4129jc5qyj3ddb50kldxgpfglwryczi6r1rp7ylhxpqxzcl4",
+    "skills": [
+      "workspace/sci_fi_dashboard/skills/bundled/skill-creator",
+      "workspace/sci_fi_dashboard/skills/bundled/synapse.dictionary",
+      "workspace/sci_fi_dashboard/skills/bundled/synapse.image-describe",
+      "workspace/sci_fi_dashboard/skills/bundled/synapse.news",
+      "workspace/sci_fi_dashboard/skills/bundled/synapse.notes",
+      "workspace/sci_fi_dashboard/skills/bundled/synapse.reminders",
+      "workspace/sci_fi_dashboard/skills/bundled/synapse.summarize",
+      "workspace/sci_fi_dashboard/skills/bundled/synapse.timer",
+      "workspace/sci_fi_dashboard/skills/bundled/synapse.translate",
+      "workspace/sci_fi_dashboard/skills/bundled/synapse.weather",
+      "workspace/sci_fi_dashboard/skills/bundled/synapse.web-scrape",
+      "workspace/skills/gog"
+    ],
+    "lastUpdated": "2026-09-01T18:30:48.271Z"
   },
   {
     "source": "github:UseOSINT/Skills",
@@ -411,8 +431,8 @@
   },
   {
     "source": "github:ucsandman/DashClaw",
-    "rev": "0ab7d0d0612801672d683a38cd775a3a4e165dde",
-    "hash": "0i3zn898jkb6lzxpjadax5cqblv4ff6n6qf5r66ay48v5bzc447g",
+    "rev": "f50c754a67662c1180bb5df32ee159b56bcf57ed",
+    "hash": "1k30zy62frr5d3h0i1d7y6dif0wccc79kk71gdhzl66dvvasz7gj",
     "skills": [
       ".agents/skills/dashclaw-governance",
       ".claude/skills/c--projects-dashclaw-route-changes",
@@ -434,7 +454,7 @@
       ".claude/skills/gitnexus/gitnexus-refactoring",
       ".claude/skills/repro"
     ],
-    "lastUpdated": "2026-09-01T08:50:04.277Z"
+    "lastUpdated": "2026-09-01T18:43:59.304Z"
   },
   {
     "source": "github:ucsb-dreamlab/skills",
@@ -846,8 +866,8 @@
   },
   {
     "source": "github:ui5/plugins-coding-agents",
-    "rev": "d74cc3fb6b15d8b911b95d263683215b05f63067",
-    "hash": "10d11yq84vkf68scy0amg8iyv1h5yfhr23zygdc068hcanag45jd",
+    "rev": "d4299d3ccfb41b68ab598840a17f82c5a9d68910",
+    "hash": "1xvjhnv63j3dagpiz9wlc0bkaaxv7q2pw75203k6y6q9c1r78469",
     "skills": [
       "plugins/ui5-modernization/skills/fix-bootstrap-params",
       "plugins/ui5-modernization/skills/fix-component-async",
@@ -878,7 +898,7 @@
       "plugins/ui5/skills/ui5-best-practices-smart-controls",
       "plugins/ui5/skills/ui5-best-practices-tables"
     ],
-    "lastUpdated": "2026-08-18T15:58:01.935Z"
+    "lastUpdated": "2026-09-01T18:38:48.138Z"
   },
   {
     "source": "github:ui5/webcomponents",
@@ -987,8 +1007,8 @@
   },
   {
     "source": "github:uipath/skills",
-    "rev": "119798f737cd97a1a24c9bcbdf2e9f9993a18993",
-    "hash": "0b0awrj41dzf0dsj25mdbsddmsfiysjl4qdl6fqls1hpcva4hs90",
+    "rev": "b4daddffeab87d86aa6fa21653e249ba3fd308ad",
+    "hash": "0nc7gi8myzhbzlg4v6558a8jplc6z8134maijmfcy929rcb9q9qr",
     "skills": [
       ".claude/skills/manage-skill-flavors",
       "skills/uipath-admin",
@@ -1019,7 +1039,39 @@
       "skills/uipath-test",
       "skills/uipath-troubleshoot"
     ],
-    "lastUpdated": "2026-09-01T14:21:47.444Z"
+    "lastUpdated": "2026-09-01T18:39:19.434Z"
+  },
+  {
+    "source": "github:uiuc-kang-lab/rlvr_generalization_bounds",
+    "rev": "a5f5a978015ce9a9407593b21026ff18230f6efb",
+    "hash": "18kn82hz54h4zl8g15jqyjr0lbh8cc3fwbhgg7nxag1xk13qm7fw",
+    "skills": [
+      "tinker-cookbook/.claude/skills/checkpoints",
+      "tinker-cookbook/.claude/skills/ci",
+      "tinker-cookbook/.claude/skills/completers",
+      "tinker-cookbook/.claude/skills/contributing",
+      "tinker-cookbook/.claude/skills/datasets",
+      "tinker-cookbook/.claude/skills/distillation",
+      "tinker-cookbook/.claude/skills/dpo",
+      "tinker-cookbook/.claude/skills/environments",
+      "tinker-cookbook/.claude/skills/evals",
+      "tinker-cookbook/.claude/skills/grpo",
+      "tinker-cookbook/.claude/skills/hyperparams",
+      "tinker-cookbook/.claude/skills/logging",
+      "tinker-cookbook/.claude/skills/manage-skills",
+      "tinker-cookbook/.claude/skills/models",
+      "tinker-cookbook/.claude/skills/multiturn-rl",
+      "tinker-cookbook/.claude/skills/new-recipe",
+      "tinker-cookbook/.claude/skills/renderers",
+      "tinker-cookbook/.claude/skills/rlhf",
+      "tinker-cookbook/.claude/skills/setup",
+      "tinker-cookbook/.claude/skills/sft",
+      "tinker-cookbook/.claude/skills/tinker-cli",
+      "tinker-cookbook/.claude/skills/tinker-sdk",
+      "tinker-cookbook/.claude/skills/tinker-types",
+      "tinker-cookbook/.claude/skills/weights"
+    ],
+    "lastUpdated": "2026-09-01T18:39:01.794Z"
   },
   {
     "source": "github:uizze/uizze",
@@ -1054,8 +1106,8 @@
   },
   {
     "source": "github:ukgovernmentbeis/inspect_ai",
-    "rev": "920198c75294c4c5c125d549815c793f7c725247",
-    "hash": "1f9b5xzv25nl6vg0k8bg06cn2bc40q53qxr8pmjkapcvkydnak2d",
+    "rev": "af9496422b034fdd5ecbea30c6fa09b25b0796b8",
+    "hash": "0nd37xp63qz4g1xxgmbd27fq3dq7lhza97x8i7fqhw36ahprmxii",
     "skills": [
       ".claude/skills/ci-perf",
       ".claude/skills/land-ts-mono",
@@ -1065,7 +1117,7 @@
       "examples/skills/skills/system-info",
       "tests/tools/skills/secret-code"
     ],
-    "lastUpdated": "2026-09-01T14:22:11.866Z"
+    "lastUpdated": "2026-09-01T18:39:47.907Z"
   },
   {
     "source": "github:ullrai/vibesku-agent",
@@ -1354,25 +1406,25 @@
   },
   {
     "source": "github:umputun/ralphex",
-    "rev": "675b5f6268353a48c4b0988c7709c3cfcfccedf6",
-    "hash": "1i6fxr7g8njlxx5vsg413wcl4cwx7pw154d4j8b077xv4ibgq1ri",
+    "rev": "09fe05e9ee4603aa1a8efa490fd709f85c66d5f9",
+    "hash": "0p9jkh06fpc24y4j31y5lzl8lfwj2w3lijf6yafbf27djfx989ij",
     "skills": [
       "assets/claude/skills/ralphex",
       "assets/claude/skills/ralphex-adopt",
       "assets/claude/skills/ralphex-plan",
       "assets/claude/skills/ralphex-update"
     ],
-    "lastUpdated": "2026-08-31T21:02:30.829Z"
+    "lastUpdated": "2026-09-01T18:39:30.072Z"
   },
   {
     "source": "github:umputun/revdiff",
-    "rev": "63dca246b9d478cc85fdcd92e16e6d3beceaf4b8",
-    "hash": "0wrv93xf2d7hdxc506azwlaxwppgh8r33igjb9bxpl62s67gf07n",
+    "rev": "018a94242cde3f3b551279db8acffaf6553fbeca",
+    "hash": "1ivvakh7gpl452y280fpwpb48cwalvi68krhz9vxq73apk6s77zh",
     "skills": [
       ".claude-plugin/skills/revdiff",
       "plugins/codex/skills/revdiff-plan"
     ],
-    "lastUpdated": "2026-09-01T08:51:16.476Z"
+    "lastUpdated": "2026-09-01T18:39:32.841Z"
   },
   {
     "source": "github:umxr/react-query-skills",
@@ -2299,7 +2351,7 @@
   },
   {
     "source": "github:unvulcanised-watercress762/mem9",
-    "rev": "d3b11e7e996a7f290c993a65936d52ee77fd4ade",
+    "rev": "99c2e18b67064b3f2e8c71c647576a46fc8ab438",
     "hash": "139zgb3hqg7dg80rpj0c2j8wlbgarkkqw5m6jpmv6zxx25d0alp5",
     "skills": [
       "claude-plugin/skills/mem9-recall",
@@ -2309,7 +2361,7 @@
       "site/public/beta",
       "skills/mnemos-setup"
     ],
-    "lastUpdated": "2026-08-30T05:32:50.165Z"
+    "lastUpdated": "2026-09-01T18:40:17.732Z"
   },
   {
     "source": "github:upamune/radicaster",
@@ -3265,8 +3317,8 @@
   },
   {
     "source": "github:usestrix/strix",
-    "rev": "f901d2a8bf37ad4cb839a07cf430de8912fd2c99",
-    "hash": "1pkaygsmrb42xwkgc04mhb1f50pd0ff1cvdyify51ixiz59sakdg",
+    "rev": "de730119f0e20104f04a26c75c910edea9ca4eae",
+    "hash": "14xdr8b8ac7hfv0h8f16asrjm22mk89jkngkmmq1vghkyrid5fz1",
     "skills": [
       "skills/api-security-testing",
       "skills/application-security-testing",
@@ -3278,7 +3330,7 @@
       "skills/penetration-testing-with-strix",
       "skills/web-app-penetration-testing"
     ],
-    "lastUpdated": "2026-09-01T14:18:17.909Z"
+    "lastUpdated": "2026-09-01T18:41:32.075Z"
   },
   {
     "source": "github:usetemi/skills",
@@ -3720,8 +3772,8 @@
   },
   {
     "source": "github:uwuclxdy/agenticat",
-    "rev": "0368fb5600a529bdf823ce35ea7749c5e2ef29f2",
-    "hash": "1m3vnsawpkk2c2lm684d9ax16qq75ybh099vy5hm7nd872d129fl",
+    "rev": "3e7ec6244ec18f15cee66bb90c1a9c24bcacc47f",
+    "hash": "1dsg61iwpry5wxqvrmf799nb9vm5akpxy871mld904s68fds065i",
     "skills": [
       "skills/askama",
       "skills/cargo-toml-optimization",
@@ -3743,12 +3795,12 @@
       "skills/ux-patterns",
       "skills/webapp-testing"
     ],
-    "lastUpdated": "2026-09-01T14:18:25.548Z"
+    "lastUpdated": "2026-09-01T18:41:38.469Z"
   },
   {
     "source": "github:uwuclxdy/clean-code-Claude-Skill",
-    "rev": "0368fb5600a529bdf823ce35ea7749c5e2ef29f2",
-    "hash": "1m3vnsawpkk2c2lm684d9ax16qq75ybh099vy5hm7nd872d129fl",
+    "rev": "3e7ec6244ec18f15cee66bb90c1a9c24bcacc47f",
+    "hash": "1dsg61iwpry5wxqvrmf799nb9vm5akpxy871mld904s68fds065i",
     "skills": [
       "skills/askama",
       "skills/cargo-toml-optimization",
@@ -3770,7 +3822,7 @@
       "skills/ux-patterns",
       "skills/webapp-testing"
     ],
-    "lastUpdated": "2026-09-01T14:18:25.533Z"
+    "lastUpdated": "2026-09-01T18:41:38.620Z"
   },
   {
     "source": "github:uxKero/anydesign",
