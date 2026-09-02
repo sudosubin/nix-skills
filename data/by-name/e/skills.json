@@ -5431,18 +5431,17 @@
   },
   {
     "source": "github:Edmonds-Commerce-Limited/claude-code-hooks-daemon",
-    "rev": "57ff75a538d2c1fc5a446add51a55faccff02a1f",
-    "hash": "08yqrg5md8pfz7y0vkcfn1rgk6n3aff957blvg3g496j9cgpz5i2",
+    "rev": "20a7e8a50ee79c40ee53dd16c3324a313cbdab65",
+    "hash": "1qgn1ysms62l5kzpridqcc9hcfkk810zk84rva6408rfkdrdmvng",
     "skills": [
       ".claude/skills/acceptance-test",
       ".claude/skills/configure",
       ".claude/skills/docs-qa",
       ".claude/skills/mode",
-      ".claude/skills/optimise",
       ".claude/skills/release",
       "src/claude_code_hooks_daemon/skills/hooks-daemon"
     ],
-    "lastUpdated": "2026-09-02T11:18:31.597Z"
+    "lastUpdated": "2026-09-02T21:05:09.250Z"
   },
   {
     "source": "github:Eduard22222222/claude-skill-stack",
@@ -6747,6 +6746,19 @@
     "lastUpdated": "2026-08-31T05:34:31.770Z"
   },
   {
+    "source": "github:ElectricJack/agent-queue",
+    "rev": "324b0f4b2471c2d2dfe873a807f507818612e2f6",
+    "hash": "13w24iidk8j1jb64vp201fxh2bj9iab2k760vcm81wrxy8dvlzr0",
+    "skills": [
+      "src/skills/aq-cli",
+      "src/skills/aq-comms",
+      "src/skills/aq-playbooks-and-gates",
+      "src/skills/aq-tasks",
+      "src/skills/aq-workspaces-and-git"
+    ],
+    "lastUpdated": "2026-09-02T21:05:15.577Z"
+  },
+  {
     "source": "github:EliaAlberti/dcode-agent-kit",
     "rev": "f815599e95801461b9fb0862ff03e14f762b2c80",
     "hash": "0gkzzx5cigpk2dkrvv3ldhhry0klk4b367ysaq3591xplg7diilp",
@@ -6754,6 +6766,103 @@
       "skills/new-dcode-agent"
     ],
     "lastUpdated": "2026-08-31T05:34:31.989Z"
+  },
+  {
+    "source": "github:Eliyce/paqad-ai",
+    "rev": "261d153221bd143defdc37b76ce86a2396f085db",
+    "hash": "0w8fpi9r2vpw6yfhbabyr6m7dp3d7kwlidcyxbm4g7ayjx2iw4da",
+    "skills": [
+      "runtime/base/skills/acceptance-criteria-gen",
+      "runtime/base/skills/adversarial-review",
+      "runtime/base/skills/analytics-instrumentation",
+      "runtime/base/skills/api-doc-maintainer",
+      "runtime/base/skills/canonical-doc-sync",
+      "runtime/base/skills/context-budget-planner",
+      "runtime/base/skills/cross-module-impact-scanner",
+      "runtime/base/skills/decision",
+      "runtime/base/skills/diff-doc-sync",
+      "runtime/base/skills/diff-minimizer",
+      "runtime/base/skills/documentation-sync-engine",
+      "runtime/base/skills/documentation-workflow",
+      "runtime/base/skills/edge-case-detection",
+      "runtime/base/skills/error-catalog-maintainer",
+      "runtime/base/skills/existing-doc-checker",
+      "runtime/base/skills/finding-normalizer",
+      "runtime/base/skills/glossary-maintainer",
+      "runtime/base/skills/integration-doc-maintainer",
+      "runtime/base/skills/module-attribution-extractor",
+      "runtime/base/skills/module-attribution-inferencer",
+      "runtime/base/skills/module-health-rollup",
+      "runtime/base/skills/module-health-update",
+      "runtime/base/skills/module-map-reconciler",
+      "runtime/base/skills/performance-regression-estimator",
+      "runtime/base/skills/request-classifier",
+      "runtime/base/skills/requirement-enrichment",
+      "runtime/base/skills/rollback-safety-planner",
+      "runtime/base/skills/rule-analyzer",
+      "runtime/base/skills/rule-editor",
+      "runtime/base/skills/rule-script-generator",
+      "runtime/base/skills/rule-script-reconciler",
+      "runtime/base/skills/rule-script-runner",
+      "runtime/base/skills/scope-check",
+      "runtime/base/skills/sequence-planner",
+      "runtime/base/skills/session-resume",
+      "runtime/base/skills/spec-diff",
+      "runtime/base/skills/spec-quality-review",
+      "runtime/base/skills/story-and-solution-writer",
+      "runtime/base/skills/test-execution-feedback-loop",
+      "runtime/base/skills/test-per-ac-planner",
+      "runtime/base/skills/workflow-router",
+      "runtime/capabilities/coding/skills/accessibility-review",
+      "runtime/capabilities/coding/skills/component-conformance-review",
+      "runtime/capabilities/coding/skills/copy-and-ia-review",
+      "runtime/capabilities/coding/skills/database-design-review",
+      "runtime/capabilities/coding/skills/design-system-coverage",
+      "runtime/capabilities/coding/skills/design-system-sync",
+      "runtime/capabilities/coding/skills/guard-inference",
+      "runtime/capabilities/coding/skills/index-optimization",
+      "runtime/capabilities/coding/skills/journey-synthesis",
+      "runtime/capabilities/coding/skills/map-verification",
+      "runtime/capabilities/coding/skills/motion-review",
+      "runtime/capabilities/coding/skills/query-pattern-analysis",
+      "runtime/capabilities/coding/skills/responsive-review",
+      "runtime/capabilities/coding/skills/root-cause-analysis",
+      "runtime/capabilities/coding/skills/site-map-assembly",
+      "runtime/capabilities/coding/skills/site-map-gap-analysis",
+      "runtime/capabilities/coding/skills/site-map-maintainer",
+      "runtime/capabilities/coding/skills/site-map-readiness",
+      "runtime/capabilities/coding/skills/site-map-retest",
+      "runtime/capabilities/coding/skills/state-coverage-review",
+      "runtime/capabilities/coding/skills/surface-extraction",
+      "runtime/capabilities/coding/skills/surface-modeling",
+      "runtime/capabilities/coding/skills/token-conformance-review",
+      "runtime/capabilities/coding/skills/transition-tracing",
+      "runtime/capabilities/coding/skills/ui-doc-maintainer",
+      "runtime/capabilities/coding/skills/user-flow-generation",
+      "runtime/capabilities/coding/skills/ux-design-research",
+      "runtime/capabilities/coding/skills/ux-heuristic-evaluation",
+      "runtime/capabilities/coding/skills/ux-state-machine",
+      "runtime/capabilities/coding/stacks/_shared/skills/regression-test-gen",
+      "runtime/capabilities/content/skills/content-planner",
+      "runtime/capabilities/content/skills/content-reviewer",
+      "runtime/capabilities/content/skills/content-writer",
+      "runtime/capabilities/content/skills/script-writer",
+      "runtime/capabilities/content/skills/seo-optimizer",
+      "runtime/capabilities/content/skills/style-enforcer",
+      "runtime/capabilities/security/skills/auth-mechanism-review",
+      "runtime/capabilities/security/skills/business-logic-abuse-review",
+      "runtime/capabilities/security/skills/cryptographic-review",
+      "runtime/capabilities/security/skills/dependency-advisory-triage",
+      "runtime/capabilities/security/skills/input-validation-review",
+      "runtime/capabilities/security/skills/logging-monitoring-review",
+      "runtime/capabilities/security/skills/permission-boundary-review",
+      "runtime/capabilities/security/skills/rate-limiting-review",
+      "runtime/capabilities/security/skills/retest-verification",
+      "runtime/capabilities/security/skills/runtime-surface-probing",
+      "runtime/capabilities/security/skills/stride-threat-model",
+      "tests/unit/adapters/fixtures/sample-skill"
+    ],
+    "lastUpdated": "2026-09-02T21:05:15.318Z"
   },
   {
     "source": "github:ElliotJLT/Claude-Skill-Potions",
@@ -7215,8 +7324,8 @@
   },
   {
     "source": "github:EveryInc/compound-engineering-plugin",
-    "rev": "1e43e09c183f01eec62da58e607a5004b26a2a72",
-    "hash": "064p9qydd4r8xah5pymav2wb65dyimh5mnajh4l8zmkz93kf43nr",
+    "rev": "37eed42548189fcecbcb9333c8268d2cb4163c5d",
+    "hash": "04iavzn2pkjrmih35dk1x8gv6c9f5cpn428y2w128vjyml7j3y92",
     "skills": [
       ".agents/skills/ce-skill-work",
       "skills/ce-babysit-pr",
@@ -7259,7 +7368,7 @@
       "tests/fixtures/sample-plugin/skills/disabled-skill",
       "tests/fixtures/sample-plugin/skills/skill-one"
     ],
-    "lastUpdated": "2026-09-02T11:18:39.274Z"
+    "lastUpdated": "2026-09-02T21:03:13.433Z"
   },
   {
     "source": "github:Everyone-Needs-A-Copilot/claude-copilot",
@@ -8298,8 +8407,8 @@
   },
   {
     "source": "github:edanstarfire/claudecode_webui",
-    "rev": "39712362f3f5c7ee7cb2cbc444dfcd796d29f9e9",
-    "hash": "1g3iyk815j2bf99snzribi1q2c6pldbnkbr0vk99qb6ac8w26m8r",
+    "rev": "35da7351e61972dcca414453e08885a7a9eaf860",
+    "hash": "0ajxigfghnzpwy05hzqnz20fjgs0r7q20hpba5wr3zydd76chk3l",
     "skills": [
       ".claude/skills/builder-review",
       ".claude/skills/create-release",
@@ -8330,7 +8439,7 @@
       "src/default_skills/skill-maker",
       "src/default_skills/worktree-manager"
     ],
-    "lastUpdated": "2026-08-31T13:53:11.560Z"
+    "lastUpdated": "2026-09-02T21:06:45.948Z"
   },
   {
     "source": "github:eddiearc/codex-delegator",
@@ -8741,8 +8850,8 @@
   },
   {
     "source": "github:edmundmiller/dotfiles",
-    "rev": "bbc68d44673fda741cf128e82c3b6ea8e4a4bc5f",
-    "hash": "1rw8khyg3d0mffbsjkagr3gp1f566nwgg58c1vy94msjxvrv8frw",
+    "rev": "617714f012f8c68e76886483e2d56a55d0525714",
+    "hash": "196lq26v9jwrwnscs8kdjij1swn6kdldjzny5gjk24lf1zvxl0g0",
     "skills": [
       ".agents/skills/agent-ci",
       ".agents/skills/dotfiles-agent-workflow",
@@ -8785,11 +8894,13 @@
       "skills/catalog/done",
       "skills/catalog/fork-bead-threads",
       "skills/catalog/ggsql",
+      "skills/catalog/github-cli-media",
       "skills/catalog/github-fine-grained-pat",
       "skills/catalog/herdr-jj-workflow",
       "skills/catalog/herdr-voice-dispatcher",
       "skills/catalog/implementation-notes",
       "skills/catalog/inspect",
+      "skills/catalog/jira-twg",
       "skills/catalog/just-say-no-to-process-porn",
       "skills/catalog/markdown-graphs",
       "skills/catalog/microdose",
@@ -8812,7 +8923,7 @@
       "skills/conditional/herdr/herdr",
       "skills/conditional/hunk/hunk-review"
     ],
-    "lastUpdated": "2026-09-02T11:21:06.330Z"
+    "lastUpdated": "2026-09-02T21:04:23.238Z"
   },
   {
     "source": "github:edmundmiller/opencode-canvas",
@@ -9057,8 +9168,8 @@
   },
   {
     "source": "github:edwinhu/workflows",
-    "rev": "68cba43da5d2dea6adb1c960ad0e5f395fd7fe4d",
-    "hash": "1bzifi5fjln3j6dilvhsmbw36vx0bq49sa4m7lpyvja4dpzk4pbc",
+    "rev": "1f2b80cac355769b21b37e99e1c44bb762d230e2",
+    "hash": "16glf4v3ysrmvbrps4bcm7ic8qlk0rgb9d7hkranj4vicj39ryya",
     "skills": [
       "skills/ai-anti-patterns",
       "skills/bluebook",
@@ -9087,11 +9198,10 @@
       "skills/docx-repair",
       "skills/docx-typst",
       "skills/ds",
-      "skills/ds-constraints",
       "skills/farm-out",
       "skills/fuzzy-name-matching",
       "skills/gemini-batch",
-      "skills/goal-writing",
+      "skills/goal-and-loop",
       "skills/google-scholar",
       "skills/headline-card",
       "skills/hpc",
@@ -9129,14 +9239,13 @@
       "skills/visual-verify",
       "skills/workflow-creator",
       "skills/workshop",
-      "skills/workshop-constraints",
       "skills/wrds",
       "skills/writing",
       "skills/writing-econ",
       "skills/writing-general",
       "skills/writing-legal"
     ],
-    "lastUpdated": "2026-09-01T14:11:04.941Z"
+    "lastUpdated": "2026-09-02T21:04:38.032Z"
   },
   {
     "source": "github:edxeth/superlight-context7-skill",
@@ -9995,8 +10104,8 @@
   },
   {
     "source": "github:elastic/agent-skills",
-    "rev": "a257ebf5dbf63c96b75b0396ef032509688eb95d",
-    "hash": "004hnm1868mfkymmkkyb16s5j11zh4s5q236an9lh9vx1h3jkg1m",
+    "rev": "f6af31d90cd272a8221efc5e1a418cb80ed5a03c",
+    "hash": "042yyx289hx65nwr0f2p646l5vwkrgkbb33mp1x6d4lpdqigsn88",
     "skills": [
       "skills/cloud/access-management",
       "skills/cloud/create-project",
@@ -10035,7 +10144,7 @@
       "skills/security/detection-rule-management",
       "skills/security/generate-security-sample-data"
     ],
-    "lastUpdated": "2026-08-28T00:28:40.193Z"
+    "lastUpdated": "2026-09-02T21:05:19.398Z"
   },
   {
     "source": "github:elastic/elastic-docs-skills",
@@ -10201,8 +10310,8 @@
   },
   {
     "source": "github:electric-sql/electric",
-    "rev": "6efc8a7d3ca830045f4b16ed64834e3ae17f5499",
-    "hash": "1i6kb4lzlxwhfls1q2gq6xlxvan5pwf8bv8fzhhlhld7wcpngv9a",
+    "rev": "018ba8bd4cf54d3ec516c74e96c922d5b247b398",
+    "hash": "02nzpgil3b0kdwqfsphvh008y34zynk2w0v3wiyxd12bz438jqxl",
     "skills": [
       "packages/agents-runtime/skills/designing-entities",
       "packages/agents-runtime/skills/entity-stream-queries",
@@ -10217,12 +10326,12 @@
       "packages/y-electric/skills/electric-yjs",
       "website/.claude/skills/blog-planner"
     ],
-    "lastUpdated": "2026-09-01T14:12:04.761Z"
+    "lastUpdated": "2026-09-02T21:05:54.826Z"
   },
   {
     "source": "github:electron/electron",
-    "rev": "15d32f2f01d4d8e8a974dae929014c024b45c214",
-    "hash": "1v1f69ip5jx24h5xdhl0bhsc7bgpr97szjj5z5kp9raa4bkap19c",
+    "rev": "a5f39c433ce783be698569ee5810c3c5e5d82a78",
+    "hash": "0zk94dndzs4s147c0fcaiba1ynia0gksl545la2gm2ayppxwlyyy",
     "skills": [
       ".claude/skills/chrome-release-cls",
       ".claude/skills/chrome-release-verify",
@@ -10230,7 +10339,7 @@
       ".claude/skills/electron-node-upgrade",
       ".claude/skills/triage-prs"
     ],
-    "lastUpdated": "2026-09-02T04:35:57.777Z"
+    "lastUpdated": "2026-09-02T21:05:43.679Z"
   },
   {
     "source": "github:element-ai-vue/skills",
@@ -10669,8 +10778,8 @@
   },
   {
     "source": "github:elie222/inbox-zero",
-    "rev": "ce03ce80ffe574c4522c09ccd09ab0c85be5c25a",
-    "hash": "17p3b00hnihq6sqb2k5wlfyl9wiaqimzpy1g5zm9sfdwk7d2k4mx",
+    "rev": "6cb1611bdc605fc44f380a0b3dce7debe6b0800a",
+    "hash": "07krjxyrxzf4y2j5kv61c5j97lqiv1q7n82yn8zn532ywb42ypf5",
     "skills": [
       ".claude/skills/agent-browser",
       ".claude/skills/changelog",
@@ -10697,7 +10806,7 @@
       ".claude/skills/write-tests",
       "clawhub/inbox-zero-api"
     ],
-    "lastUpdated": "2026-09-02T11:21:28.035Z"
+    "lastUpdated": "2026-09-02T21:05:47.478Z"
   },
   {
     "source": "github:elifokaju/support-analytics-agent",
@@ -10905,8 +11014,8 @@
   },
   {
     "source": "github:elixpo/elixpo_chapter",
-    "rev": "5a9f9cac3ae6fde7b397ac15cf6ea3dc9519424f",
-    "hash": "0jpiqzbn8a3vs0g90sdbl4rzny0dpnmkfyzjbnln118fgj4pravm",
+    "rev": "ca87e0a7f7dac01c774f929c8397e9469853c698",
+    "hash": "19q6rwks5b92mx32xwjs3f4nvvv6p90yf74hnc3lnzg7vms4xrkz",
     "skills": [
       "agent.elixpo/skills/acquire-github-workspace",
       "agent.elixpo/skills/address-pr-followup",
@@ -10958,12 +11067,12 @@
       "search.elixpo/skills/write-code",
       "search.elixpo/skills/write-content"
     ],
-    "lastUpdated": "2026-09-02T11:21:52.031Z"
+    "lastUpdated": "2026-09-02T21:06:46.793Z"
   },
   {
     "source": "github:elizaOS/eliza",
-    "rev": "f6eb2a92767408fd135f8c98cd333bb9a8c01245",
-    "hash": "1sa6z5xcq5m6bxn907xrabymx2hl092naj6kpjgp6200p1c193si",
+    "rev": "cb721535b6fec5a67323cff0a2d5abc3697441df",
+    "hash": "0sqj6bmd2im9lc60wg90b71m8jrqmbrx1h1m1xigxq6s1yfik53k",
     "skills": [
       "packages/skills/skills/1password",
       "packages/skills/skills/apple-notes",
@@ -11001,12 +11110,12 @@
       "packages/skills/skills/weather",
       "packages/skills/skills/yara-authoring"
     ],
-    "lastUpdated": "2026-09-02T11:23:24.363Z"
+    "lastUpdated": "2026-09-02T21:07:52.767Z"
   },
   {
     "source": "github:elizaos/eliza",
-    "rev": "f6eb2a92767408fd135f8c98cd333bb9a8c01245",
-    "hash": "1sa6z5xcq5m6bxn907xrabymx2hl092naj6kpjgp6200p1c193si",
+    "rev": "cb721535b6fec5a67323cff0a2d5abc3697441df",
+    "hash": "0sqj6bmd2im9lc60wg90b71m8jrqmbrx1h1m1xigxq6s1yfik53k",
     "skills": [
       "packages/skills/skills/1password",
       "packages/skills/skills/apple-notes",
@@ -11044,7 +11153,7 @@
       "packages/skills/skills/weather",
       "packages/skills/skills/yara-authoring"
     ],
-    "lastUpdated": "2026-09-02T11:23:37.011Z"
+    "lastUpdated": "2026-09-02T21:08:41.620Z"
   },
   {
     "source": "github:eljun/claude-skills",
@@ -11634,9 +11743,10 @@
   },
   {
     "source": "github:emdash-cms/emdash",
-    "rev": "3c8ba9bc2bab02b010e293cecd4d61c341970b2b",
-    "hash": "0wxmxc5c9h97x4657jz6hqpsb4n0xrjn145isyl4ij40vvaqmrch",
+    "rev": "450057e46e0f5cb6300e5cad127fb3b2281e1ad1",
+    "hash": "028wcyd12kn6phfcizy25g8x8avhvh7yfpqcrr6jq3b8qpm90p18",
     "skills": [
+      "acceptance/tester",
       "infra/emdash-bot/.flue/skills/diagnose",
       "infra/emdash-bot/.flue/skills/fix",
       "infra/emdash-bot/.flue/skills/implement",
@@ -11651,11 +11761,12 @@
       "skills/building-emdash-site",
       "skills/creating-plugins",
       "skills/emdash-cli",
+      "skills/ux-acceptance-coordinator",
       "skills/wordpress-plugin-to-emdash",
       "skills/wordpress-theme-to-emdash",
       "skills/writing-emdash-docs"
     ],
-    "lastUpdated": "2026-09-02T11:21:50.960Z"
+    "lastUpdated": "2026-09-02T21:08:48.584Z"
   },
   {
     "source": "github:emdashcodes/claude-code-plugins",
@@ -12649,6 +12760,15 @@
     "lastUpdated": "2026-05-29T17:08:18.625Z"
   },
   {
+    "source": "github:enilmalus/Enil-ling-pesing",
+    "rev": "d33783d55cebc69b30f2d51f5c228553ee5639d8",
+    "hash": "12hww7n38q581vqap7pzcr1lgbg82sfq791x1h71r9q8x92rks7y",
+    "skills": [
+      "."
+    ],
+    "lastUpdated": "2026-09-02T21:04:27.763Z"
+  },
+  {
     "source": "github:enlinks-llc/katsuragi",
     "rev": "4f928574a8451260f7304d09903b42bea882b48b",
     "hash": "0can63fskri2aixcl9c14g4j3fn1sypvkw71pbav07z8c8yq85r7",
@@ -13041,8 +13161,8 @@
   },
   {
     "source": "github:envoydev/claude-stack",
-    "rev": "f4a0ce0667c698e97b0c8c9d26166911fc77ca91",
-    "hash": "0lqwh6308qdcfnxzzbfp3v09xsh1vcnphrv9pl9s5x8vj0w9pkw1",
+    "rev": "409a1ce09350c08d08e3ffdac39e8e11771b50dc",
+    "hash": "1l5v1p3abl6nshgx303zb4h94c90pzd68vqida7dkcn3s9dg0dil",
     "skills": [
       "setup-plugin/skills/claude-stack",
       "stack/skills/angular-conventions",
@@ -13123,12 +13243,12 @@
       "stack/skills/typescript",
       "stack/skills/webpack"
     ],
-    "lastUpdated": "2026-08-30T11:56:58.873Z"
+    "lastUpdated": "2026-09-02T21:04:36.599Z"
   },
   {
     "source": "github:envoydev/skills",
-    "rev": "f4a0ce0667c698e97b0c8c9d26166911fc77ca91",
-    "hash": "0lqwh6308qdcfnxzzbfp3v09xsh1vcnphrv9pl9s5x8vj0w9pkw1",
+    "rev": "409a1ce09350c08d08e3ffdac39e8e11771b50dc",
+    "hash": "1l5v1p3abl6nshgx303zb4h94c90pzd68vqida7dkcn3s9dg0dil",
     "skills": [
       "setup-plugin/skills/claude-stack",
       "stack/skills/angular-conventions",
@@ -13209,7 +13329,7 @@
       "stack/skills/typescript",
       "stack/skills/webpack"
     ],
-    "lastUpdated": "2026-08-30T11:57:01.160Z"
+    "lastUpdated": "2026-09-02T21:04:38.355Z"
   },
   {
     "source": "github:enze00/uniapp-frontend-skills",
@@ -13576,8 +13696,8 @@
   },
   {
     "source": "github:equinor/fusion-framework",
-    "rev": "4fee077f3184ad1c7e5ee44a91b6bad90a510543",
-    "hash": "1xwyc7h7fwcca40hvnxy6mk7rcysc867v369yg6d0w04kfrq5v66",
+    "rev": "7bc80c1fe387175711e5c4c9fb8ff091f09a72d6",
+    "hash": "04ai6lwjb485rjdi999ppd3cfwj5mm34f14rkcj6ha9zwp1lx5ck",
     "skills": [
       ".agents/skills/custom-code-review",
       ".agents/skills/custom-dependency-pr-solver",
@@ -13595,7 +13715,7 @@
       ".agents/skills/fusion-skill-authoring",
       ".agents/skills/fusion-skills"
     ],
-    "lastUpdated": "2026-09-02T11:22:57.891Z"
+    "lastUpdated": "2026-09-02T21:05:10.614Z"
   },
   {
     "source": "github:equinor/fusion-skills",
@@ -13696,6 +13816,17 @@
     "lastUpdated": "2026-03-16T19:31:04.271Z"
   },
   {
+    "source": "github:eranra/session-sitter",
+    "rev": "5663b466c3d46a2e49676f840b25e66d54b3afcf",
+    "hash": "000z9jc3s9qjv3gv0a3g3nkfrbn0pgmlwf4paiyns0qi1zz4pl31",
+    "skills": [
+      "plugin/skills/reading-the-audit-trail",
+      "plugin/skills/writing-practices",
+      "skills/kb-sitter"
+    ],
+    "lastUpdated": "2026-09-02T21:05:20.724Z"
+  },
+  {
     "source": "github:eranshir/personal-voice-capture",
     "rev": "e66f1aa04ab4c33d213c1c98f30efc848e0c524b",
     "hash": "1wmglc33mwx76vjqj8g09ijjvzca9x01v1nz3zddh2whjxcscmbg",
@@ -13735,6 +13866,90 @@
       "."
     ],
     "lastUpdated": "2026-09-01T14:11:32.753Z"
+  },
+  {
+    "source": "github:erclx/canon",
+    "rev": "141885c2ead296610c0e3f04e3d92b6d360713ac",
+    "hash": "0hc2g4wdmbcmlrn08advfci8sk6db4zm6iklpxqp3li7vxnz3iym",
+    "skills": [
+      ".claude/skills/internal-ask",
+      ".claude/skills/internal-claude",
+      ".claude/skills/internal-governance",
+      ".claude/skills/internal-sandbox-check",
+      ".claude/skills/internal-scripts",
+      ".claude/skills/internal-snippets",
+      ".claude/skills/internal-standards",
+      ".claude/skills/internal-tooling",
+      "claude/skills/bash-cli-script",
+      "claude/skills/bash-script",
+      "claude/skills/canon-cli",
+      "claude/skills/canon-feedback-file",
+      "claude/skills/canon-feedback-triage",
+      "claude/skills/canon-operator",
+      "claude/skills/canon-rollout",
+      "claude/skills/canon-screencast",
+      "claude/skills/canon-slides-draft",
+      "claude/skills/ci-workflow",
+      "claude/skills/claude-address-review",
+      "claude/skills/claude-autoship",
+      "claude/skills/claude-design-extract",
+      "claude/skills/claude-diagram",
+      "claude/skills/claude-docs",
+      "claude/skills/claude-feature",
+      "claude/skills/claude-groundwork",
+      "claude/skills/claude-intake",
+      "claude/skills/claude-intake-answer",
+      "claude/skills/claude-markdown-propose",
+      "claude/skills/claude-memory-capture",
+      "claude/skills/claude-memory-review",
+      "claude/skills/claude-orchestrate",
+      "claude/skills/claude-planner",
+      "claude/skills/claude-pr-review",
+      "claude/skills/claude-review",
+      "claude/skills/claude-seed-sync",
+      "claude/skills/claude-standards-audit",
+      "claude/skills/claude-tasks",
+      "claude/skills/claude-teach",
+      "claude/skills/claude-ui-test",
+      "claude/skills/claude-ux-audit",
+      "claude/skills/claude-ux-measure",
+      "claude/skills/claude-worker",
+      "claude/skills/claude-worktree",
+      "claude/skills/create-rule",
+      "claude/skills/create-skill",
+      "claude/skills/create-snippet",
+      "claude/skills/create-standard",
+      "claude/skills/decision-escalate",
+      "claude/skills/docs-sync",
+      "claude/skills/draft-and-pick",
+      "claude/skills/git-branch",
+      "claude/skills/git-commit",
+      "claude/skills/git-followup",
+      "claude/skills/git-issue",
+      "claude/skills/git-pr",
+      "claude/skills/git-ship",
+      "claude/skills/git-split",
+      "claude/skills/git-stage",
+      "claude/skills/git-worktree",
+      "claude/skills/migration-claude-md",
+      "claude/skills/migration-context",
+      "claude/skills/migration-standards-drop",
+      "claude/skills/migration-superseded",
+      "claude/skills/project-commands",
+      "claude/skills/repo-metadata",
+      "claude/skills/restate-plainly",
+      "claude/skills/session-map",
+      "claude/skills/session-resume",
+      "claude/skills/setup-gov",
+      "claude/skills/setup-indexes",
+      "claude/skills/setup-init",
+      "claude/skills/setup-plugins",
+      "claude/skills/setup-verify",
+      "claude/skills/systematic-debugging",
+      "claude/skills/write-human",
+      "claude/skills/youtube-transcripts"
+    ],
+    "lastUpdated": "2026-09-02T21:05:23.752Z"
   },
   {
     "source": "github:erdinccurebal/webcli",
@@ -13798,6 +14013,66 @@
       "."
     ],
     "lastUpdated": "2026-08-31T05:39:03.138Z"
+  },
+  {
+    "source": "github:eric-sabe/engsys",
+    "rev": "88f38d2091bc82d68b7ab0db8eb7fb8f3f7f7587",
+    "hash": "1d3l6js1hrz13pkwfwpmz2y1n48a7qzb9ah1n6mwiam8malgjbwd",
+    "skills": [
+      "core/skills/agent-sessions",
+      "core/skills/agentic-eval",
+      "core/skills/chrome-devtools",
+      "core/skills/code-review",
+      "core/skills/gh-cli",
+      "core/skills/git-commit",
+      "core/skills/git-workflow-agents",
+      "core/skills/github-actions",
+      "core/skills/github-issues",
+      "core/skills/interactive-explainer",
+      "core/skills/llm-structured-outputs",
+      "core/skills/maintenance-monster",
+      "core/skills/merge-monster",
+      "core/skills/pre-push",
+      "core/skills/refactor",
+      "core/skills/subagent-liveness",
+      "core/skills/web-design-reviewer",
+      "core/skills/webapp-testing",
+      "stacks/cloud/aws/skills/aws-deployment-preflight",
+      "stacks/cloud/aws/skills/cloud-architecture-aws",
+      "stacks/cloud/azure/skills/azure-deployment-preflight",
+      "stacks/cloud/azure/skills/cloud-architecture-azure",
+      "stacks/cloud/cloudflare/skills/cloud-architecture-cloudflare",
+      "stacks/cloud/cloudflare/skills/cloudflare-deployment-preflight",
+      "stacks/cloud/gcp/skills/cloud-architecture-gcp",
+      "stacks/cloud/gcp/skills/gcp-deployment-preflight",
+      "stacks/db/mongo/skills/mongo-conventions",
+      "stacks/db/prisma/skills/docker-database-package-copy",
+      "stacks/db/prisma/skills/prisma-conventions",
+      "stacks/domain/mobile-growth/skills/apple-ads",
+      "stacks/domain/mobile-growth/skills/google-play-growth",
+      "stacks/iac/bicep/skills/iac-bicep",
+      "stacks/iac/cdk/skills/iac-cdk",
+      "stacks/iac/terraform/skills/iac-terraform",
+      "stacks/iac/terraform/skills/terraform-conventions",
+      "stacks/lang/kotlin/skills/android-testing",
+      "stacks/lang/kotlin/skills/jetpack-compose",
+      "stacks/lang/kotlin/skills/kotlin-coroutines",
+      "stacks/lang/python/skills/python-conventions",
+      "stacks/lang/shell/skills/shell-scripting",
+      "stacks/lang/swift/skills/swift-concurrency",
+      "stacks/lang/swift/skills/swift-testing",
+      "stacks/lang/swift/skills/swiftdata",
+      "stacks/lang/swift/skills/swiftui-patterns",
+      "stacks/lang/typescript/skills/typescript-conventions",
+      "stacks/platform/android/skills/android-build-conventions",
+      "stacks/platform/ios/skills/xcodebuildmcp-simulator-logs",
+      "stacks/platform/web/skills/frontend-testing",
+      "stacks/platform/web/skills/react-conventions",
+      "stacks/platform/web/skills/web-platform-conventions",
+      "stacks/tooling/issue-tracker-github/skills/issue-tracker-github",
+      "stacks/tooling/issue-tracker-linear/skills/issue-tracker-linear"
+    ],
+    "lastUpdated": "2026-09-02T21:05:28.562Z"
   },
   {
     "source": "github:eric-yibo-shen/zhangxuefeng-skillset",
@@ -15113,8 +15388,8 @@
   },
   {
     "source": "github:ericluo04/claude-academic-workflow",
-    "rev": "7dfdfeac7dee46dc9b3b4222cae90a79ca1fc4f4",
-    "hash": "016nfkaaj4dgrs1c5drl53c618kphlralxpkfz6r3p24fwrvy9dr",
+    "rev": "8958cc246e65cdf7c36604f397a1c1719b7e2c14",
+    "hash": "0c17mgp6zfvpcbbxi8yhf10dgwzgxrj53ac84idy5c7sx9dfiw4r",
     "skills": [
       "skills/bibcheck",
       "skills/causal-design",
@@ -15137,7 +15412,7 @@
       "skills/synthetic-control",
       "skills/teaching-lecture"
     ],
-    "lastUpdated": "2026-08-31T20:53:47.714Z"
+    "lastUpdated": "2026-09-02T21:05:36.727Z"
   },
   {
     "source": "github:ericmjl/skills",
@@ -15211,8 +15486,8 @@
   },
   {
     "source": "github:ericosiu/ai-marketing-skills",
-    "rev": "665c90425b58fbb3070ce2d4ce06eb90b764176a",
-    "hash": "1g6krxzjjncmqln3agzb4szp57wmcknpj0nljz96a302ajn0apkm",
+    "rev": "502336b416004765b4d37af65a1a00d759be689d",
+    "hash": "1cya0wsxy9lrcvaz6777wvqw5g1gc47p28zsflilwz467jglrfhx",
     "skills": [
       "agentic-video-understanding",
       "autoresearch",
@@ -15227,6 +15502,7 @@
       "lead-dossier",
       "net-new-video-editor",
       "outbound-engine",
+      "packaging-youtube-thumbnails",
       "personal-strategic-signal-intelligence",
       "podcast-ops",
       "revenue-intelligence",
@@ -15243,7 +15519,7 @@
       "x-longform-post",
       "yt-competitive-analysis"
     ],
-    "lastUpdated": "2026-09-02T04:36:51.826Z"
+    "lastUpdated": "2026-09-02T21:05:46.323Z"
   },
   {
     "source": "github:ericosiu/marketing-os-starter",
@@ -15269,8 +15545,8 @@
   },
   {
     "source": "github:ericrisco/rsc-harness",
-    "rev": "09d08c9999596d72a27809fb9a65086af759a1f1",
-    "hash": "0d466b3m33lvf22mxmx807vffz6lm01x28dglgbqa36ixsv8zph7",
+    "rev": "a4046c1b5123e030a333e26defc186e287652dfa",
+    "hash": "00jn90pc6bkjg87fvblys6ga46kb6na4miq1na9i9wjcrdd9sdik",
     "skills": [
       "skills/ab-testing",
       "skills/accessibility",
@@ -15545,7 +15821,7 @@
       "skills/youtube-thumbnails",
       "skills/zapier"
     ],
-    "lastUpdated": "2026-09-02T11:23:23.922Z"
+    "lastUpdated": "2026-09-02T21:05:50.348Z"
   },
   {
     "source": "github:ericrisco/war-room-builder",
@@ -16684,12 +16960,12 @@
   },
   {
     "source": "github:etiennelescot/n8n-as-code",
-    "rev": "e27a1d2f0b93dd7f53e8687ee27326187afee725",
-    "hash": "19nwzsnq816yds19jm3impg8x20f1n15hbdx1if62sh4fhx8y952",
+    "rev": "14395f58e02250cf0c5ccf765e3f96d02f7800bd",
+    "hash": "08l1ba4wvpndin7w899a1s9784zflcgrrc8vml6g7f84wwp5rp0k",
     "skills": [
       "skills/n8n-architect"
     ],
-    "lastUpdated": "2026-08-20T19:00:37.459Z"
+    "lastUpdated": "2026-09-02T21:06:46.549Z"
   },
   {
     "source": "github:etoile-dev/skills",
@@ -17640,8 +17916,8 @@
   },
   {
     "source": "github:event4u-app/agent-config",
-    "rev": "6641d471993726174dde2f9d14734be8098a01fd",
-    "hash": "1bi20k6nbk3f9f021s68yv979aw8yvxl62w2zbzqkzsfw89gcld6",
+    "rev": "c6b4f640736c78554d7ce03f27257f44368ef1ae",
+    "hash": "0shhb96p4qr8mc7813z2z3yqnb0bm6kimn9xw4f47j6mixzshjnf",
     "skills": [
       ".claude-plugin/skills/install-agent-config",
       "src/skills/accessibility-auditor",
@@ -17944,7 +18220,7 @@
       "src/skills/workspace-link",
       "src/skills/worktree-lifecycle"
     ],
-    "lastUpdated": "2026-09-02T11:20:32.504Z"
+    "lastUpdated": "2026-09-02T21:08:38.998Z"
   },
   {
     "source": "github:eventual-inc/daft",
@@ -18103,8 +18379,8 @@
   },
   {
     "source": "github:everyinc/compound-engineering-plugin",
-    "rev": "1e43e09c183f01eec62da58e607a5004b26a2a72",
-    "hash": "064p9qydd4r8xah5pymav2wb65dyimh5mnajh4l8zmkz93kf43nr",
+    "rev": "37eed42548189fcecbcb9333c8268d2cb4163c5d",
+    "hash": "04iavzn2pkjrmih35dk1x8gv6c9f5cpn428y2w128vjyml7j3y92",
     "skills": [
       ".agents/skills/ce-skill-work",
       "skills/ce-babysit-pr",
@@ -18147,12 +18423,12 @@
       "tests/fixtures/sample-plugin/skills/disabled-skill",
       "tests/fixtures/sample-plugin/skills/skill-one"
     ],
-    "lastUpdated": "2026-09-02T11:20:32.097Z"
+    "lastUpdated": "2026-09-02T21:08:41.752Z"
   },
   {
     "source": "github:everyinc/every-marketplace",
-    "rev": "1e43e09c183f01eec62da58e607a5004b26a2a72",
-    "hash": "064p9qydd4r8xah5pymav2wb65dyimh5mnajh4l8zmkz93kf43nr",
+    "rev": "37eed42548189fcecbcb9333c8268d2cb4163c5d",
+    "hash": "04iavzn2pkjrmih35dk1x8gv6c9f5cpn428y2w128vjyml7j3y92",
     "skills": [
       ".agents/skills/ce-skill-work",
       "skills/ce-babysit-pr",
@@ -18195,7 +18471,7 @@
       "tests/fixtures/sample-plugin/skills/disabled-skill",
       "tests/fixtures/sample-plugin/skills/skill-one"
     ],
-    "lastUpdated": "2026-09-02T11:20:37.155Z"
+    "lastUpdated": "2026-09-02T21:08:43.321Z"
   },
   {
     "source": "github:everyinc/everyskill",
@@ -19286,8 +19562,8 @@
   },
   {
     "source": "github:expensify/app",
-    "rev": "3a621ed172ca525a42531bf5706d575d215233d0",
-    "hash": "0gqc887mvkvpqgrz76yba6rmi36cf1v7p2ifkyycckszf2d6bijr",
+    "rev": "9084b90e39f69601706b2eefa5eb00cf0da7de4d",
+    "hash": "07i7h3lyiqglr5kf7qipic7vb94kxkvra76lbf6nwjd36cvnpdc0",
     "skills": [
       ".claude/skills/agent-device",
       ".claude/skills/agent-device-evidence",
@@ -19297,7 +19573,7 @@
       ".claude/skills/playwright-app-testing",
       ".claude/skills/sentry"
     ],
-    "lastUpdated": "2026-09-02T11:22:52.709Z"
+    "lastUpdated": "2026-09-02T21:12:47.691Z"
   },
   {
     "source": "github:exploration-labs/nates-substack-skills",
@@ -19374,15 +19650,15 @@
   },
   {
     "source": "github:expo/expo",
-    "rev": "4f3f5141065bb1b6f59d878cb79a5773c743311e",
-    "hash": "0ypq8sa6wfv98r4kl78y1zcynillgp6gdj5pdjd1w91gy408x1w4",
+    "rev": "1ba16939e89095f8ca200994e967bcde60f72e0a",
+    "hash": "00gg1pvfjhdb02k0w54yrr0bzgyrjksk9v0sksnc6ag8l7cry38m",
     "skills": [
       ".claude/skills/deep-code-review",
       ".claude/skills/expo-api-docs",
       ".claude/skills/expo-review",
       "packages/expo-router/.claude/skills/android-e2e-testing"
     ],
-    "lastUpdated": "2026-09-02T11:23:24.740Z"
+    "lastUpdated": "2026-09-02T21:12:09.584Z"
   },
   {
     "source": "github:expo/skills",

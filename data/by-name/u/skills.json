@@ -167,14 +167,14 @@
   },
   {
     "source": "github:Untrivial-ai/agent-orchestrator",
-    "rev": "4fe9a4a3076bb609e84f95c3866ca35465c3651e",
-    "hash": "04ayw7sj7yc5j2fnxsd767by78k1ddnhc0fp8plqmdppyikx5a15",
+    "rev": "e71a5f99c7366c12bcf49d9b275caa81decd74ec",
+    "hash": "1wpask6igz42893i10r3pl13ihwx98drifi866vf9frxkbnr5722",
     "skills": [
       ".agents/skills/ao-desktop-dev",
       ".agents/skills/bug-triage",
       "backend/internal/skillassets/using-ao"
     ],
-    "lastUpdated": "2026-09-02T11:18:49.043Z"
+    "lastUpdated": "2026-09-02T21:04:00.529Z"
   },
   {
     "source": "github:UpayanGhosh/Synapse-OSS",
@@ -947,14 +947,14 @@
   },
   {
     "source": "github:ui5/webcomponents",
-    "rev": "5ca08e5988d6e04b5ae0464ea8cd556e3159bd37",
-    "hash": "0iyqgivx6bf6v400rjia3gi7w24kkw89ivan15gn6v37sd8ylhby",
+    "rev": "4608e14cab8d4cba871f428500ab959569cf4535",
+    "hash": "1s7vrgri1p6h4r746z881w7gyj16hpg1ms6ahzn3ygswbcd3bgrl",
     "skills": [
       ".claude/skills/visual-test",
       "skills/accessibility",
       "skills/styling"
     ],
-    "lastUpdated": "2026-09-02T11:32:10.526Z"
+    "lastUpdated": "2026-09-02T21:15:34.428Z"
   },
   {
     "source": "github:uiPotion/uipotion",
@@ -1052,8 +1052,8 @@
   },
   {
     "source": "github:uipath/skills",
-    "rev": "8fc35d9f7de988218d1626ba44a7409412b2359b",
-    "hash": "1k9gqsrl7hci92cvgcmmym40hzvnak3fqnwqc5f2hmrjfzs1r8ym",
+    "rev": "0afe5c1adaa09652f24e254024f976e503818d91",
+    "hash": "1ky09d96sniyk4r3npk041v07m14g58fzgih3dj6dfqq1xdmagjj",
     "skills": [
       ".claude/skills/manage-skill-flavors",
       "skills/uipath-admin",
@@ -1084,7 +1084,7 @@
       "skills/uipath-test",
       "skills/uipath-troubleshoot"
     ],
-    "lastUpdated": "2026-09-02T11:30:05.272Z"
+    "lastUpdated": "2026-09-02T21:16:03.553Z"
   },
   {
     "source": "github:uiuc-kang-lab/rlvr_generalization_bounds",
@@ -1151,8 +1151,8 @@
   },
   {
     "source": "github:ukgovernmentbeis/inspect_ai",
-    "rev": "76f1aa761aa7fa7785ca7ea878f00f3ef3704efb",
-    "hash": "16vw7zdvnqhsz6c1zx1j59xm5vcbkxm6r5lhj0aalqmdw0wfr2f4",
+    "rev": "1de5f74f10f82b171337cf19d22f1b0358c2bfad",
+    "hash": "0zw1xxrgvyc57609ax3fgwcrqqd0y6sjwfm5d74ch8qw04xxi1nn",
     "skills": [
       ".claude/skills/ci-perf",
       ".claude/skills/land-ts-mono",
@@ -1162,7 +1162,132 @@
       "examples/skills/skills/system-info",
       "tests/tools/skills/secret-code"
     ],
-    "lastUpdated": "2026-09-02T11:30:30.460Z"
+    "lastUpdated": "2026-09-02T21:16:35.855Z"
+  },
+  {
+    "source": "github:ulises-jeremias/agent-toolkit",
+    "rev": "c03cd81d71d97587384c2d18a5f6fd5957a36b2c",
+    "hash": "1rp1w3zxyzbfpxcb7blp291sbgnfdq37yvh3c10ql7xpys62ny43",
+    "skills": [
+      "skills/accessibility/review",
+      "skills/agentic-security/mcp-audit",
+      "skills/agentic-security/owasp-agentic-review",
+      "skills/agentic-security/supply-chain-audit",
+      "skills/agentic-security/threat-modeling",
+      "skills/architecture/architecture-diagram",
+      "skills/architecture/c4-model",
+      "skills/cloud/aws-well-architected-review",
+      "skills/cloud/cloud-design-patterns",
+      "skills/core/assistant",
+      "skills/core/dev-companion",
+      "skills/core/onboarding",
+      "skills/core/output-handshake",
+      "skills/core/pr-fallback",
+      "skills/core/project",
+      "skills/core/workspace",
+      "skills/core/workspace-knowledge-sync",
+      "skills/data/dbt-validation",
+      "skills/data/snowflake-validation",
+      "skills/delivery/adr",
+      "skills/delivery/agreement",
+      "skills/delivery/bug",
+      "skills/delivery/decision-log",
+      "skills/delivery/development-workflow",
+      "skills/delivery/epic",
+      "skills/delivery/incident",
+      "skills/delivery/management-unit-assessment",
+      "skills/delivery/meeting-minutes",
+      "skills/delivery/planning",
+      "skills/delivery/prd",
+      "skills/delivery/project-assessment",
+      "skills/delivery/project-assessment-evidence",
+      "skills/delivery/spike",
+      "skills/delivery/task",
+      "skills/delivery/technical-unit-assessment",
+      "skills/delivery/trd",
+      "skills/delivery/user-story",
+      "skills/delivery/work-item",
+      "skills/delivery/workflow-client-bootstrap",
+      "skills/delivery/workflow-generic-project",
+      "skills/design/design-assessment",
+      "skills/design/design-improvement",
+      "skills/design/figma",
+      "skills/design/figma-code-connect-components",
+      "skills/design/figma-create-design-system-rules",
+      "skills/design/figma-create-new-file",
+      "skills/design/figma-implement-design",
+      "skills/design/frontend-design",
+      "skills/design/frontend-design-review",
+      "skills/design/web-design-guidelines",
+      "skills/forge/fix-merge-conflicts",
+      "skills/forge/gh-address-comments",
+      "skills/forge/gh-contribution-planner",
+      "skills/forge/gh-fix-ci",
+      "skills/forge/github-cli-workflow",
+      "skills/forge/gitlab-cli-workflow",
+      "skills/forge/worktree",
+      "skills/integrations/clickup-cli",
+      "skills/integrations/confluence-admin",
+      "skills/integrations/confluence-analytics",
+      "skills/integrations/confluence-assistant",
+      "skills/integrations/confluence-attachment",
+      "skills/integrations/confluence-bulk",
+      "skills/integrations/confluence-comment",
+      "skills/integrations/confluence-hierarchy",
+      "skills/integrations/confluence-jira",
+      "skills/integrations/confluence-label",
+      "skills/integrations/confluence-ops",
+      "skills/integrations/confluence-page",
+      "skills/integrations/confluence-permission",
+      "skills/integrations/confluence-property",
+      "skills/integrations/confluence-search",
+      "skills/integrations/confluence-space",
+      "skills/integrations/confluence-template",
+      "skills/integrations/confluence-watch",
+      "skills/integrations/jira-administration",
+      "skills/integrations/jira-agile-management",
+      "skills/integrations/jira-assistant",
+      "skills/integrations/jira-bulk-operations",
+      "skills/integrations/jira-collaboration",
+      "skills/integrations/jira-custom-fields",
+      "skills/integrations/jira-developer-integration",
+      "skills/integrations/jira-issue-management",
+      "skills/integrations/jira-issue-relationships",
+      "skills/integrations/jira-lifecycle-management",
+      "skills/integrations/jira-operations",
+      "skills/integrations/jira-search-jql",
+      "skills/integrations/jira-service-management",
+      "skills/integrations/jira-time-tracking",
+      "skills/integrations/linear",
+      "skills/integrations/mcp",
+      "skills/integrations/slack-assistant",
+      "skills/integrations/slack-cli",
+      "skills/loops/loop-runner",
+      "skills/ops/docs-generator",
+      "skills/ops/llm-cost-advisor",
+      "skills/ops/swarm",
+      "skills/ops/swarm-handoff",
+      "skills/ops/swarm-observer",
+      "skills/ops/triage",
+      "skills/quality/blast-radius",
+      "skills/quality/codeql",
+      "skills/quality/deep-review",
+      "skills/quality/deslop",
+      "skills/quality/megalinter",
+      "skills/quality/megalinter-check",
+      "skills/quality/megalinter-fix",
+      "skills/quality/megalinter-setup",
+      "skills/quality/unslop",
+      "skills/tooling/chrome-devtools",
+      "skills/tooling/cli-for-agents",
+      "skills/tooling/herdr",
+      "skills/tooling/inventory",
+      "skills/tooling/jupyter-notebook",
+      "skills/tooling/mermaid",
+      "skills/tooling/playwright-cli",
+      "tests/golden/fixtures/skill-minimal"
+    ],
+    "lastUpdated": "2026-09-02T21:16:08.151Z"
   },
   {
     "source": "github:ullrai/vibesku-agent",
@@ -1893,8 +2018,8 @@
   },
   {
     "source": "github:unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada",
-    "rev": "60209023156359eaacfaae07b32d6b6609032c1e",
-    "hash": "09r3j767x43jimr8694qipmywh8f0ipdbrmd8sn3w93rra48xspy",
+    "rev": "20282b058b63c5583509353efc1d26fa100e206b",
+    "hash": "1h3w4gqb4hb3frk8k57np9g078kvvia7zp9lb3rbbzh94lalcdrx",
     "skills": [
       "lives/2026-05-27/000-pre-live/.claude/skills/speckit-analyze",
       "lives/2026-05-27/000-pre-live/.claude/skills/speckit-checklist",
@@ -1919,7 +2044,7 @@
       "modulo05-ferramentas-de-IA-para-UI-UX/modulo-03/cfp-platform/.agent/skills/openspec-propose",
       "skills/windowsfy"
     ],
-    "lastUpdated": "2026-08-29T01:55:08.055Z"
+    "lastUpdated": "2026-09-02T21:17:02.630Z"
   },
   {
     "source": "github:unisone/claude-learner",
@@ -2515,27 +2640,27 @@
   },
   {
     "source": "github:upstash/context7",
-    "rev": "d451757811ff89644aa8c562b35161665edf9e0b",
-    "hash": "1mgj976s7r6dawq49bzxq4a709mg9ravnbv7w65s6c0xdcf06xw4",
+    "rev": "6d777619c2777a79ad0754dc48b48845cb912bac",
+    "hash": "0kk7zlnkv623z3mlr4mwmm6j856pgkklmr1c29h3hymz5y17hq8f",
     "skills": [
       "packages/pi/skills/context7-docs",
       "skills/context7-cli",
       "skills/context7-mcp",
       "skills/find-docs"
     ],
-    "lastUpdated": "2026-09-02T11:30:20.324Z"
+    "lastUpdated": "2026-09-02T21:12:41.750Z"
   },
   {
     "source": "github:upstash/context7-mcp",
-    "rev": "d451757811ff89644aa8c562b35161665edf9e0b",
-    "hash": "1mgj976s7r6dawq49bzxq4a709mg9ravnbv7w65s6c0xdcf06xw4",
+    "rev": "6d777619c2777a79ad0754dc48b48845cb912bac",
+    "hash": "0kk7zlnkv623z3mlr4mwmm6j856pgkklmr1c29h3hymz5y17hq8f",
     "skills": [
       "packages/pi/skills/context7-docs",
       "skills/context7-cli",
       "skills/context7-mcp",
       "skills/find-docs"
     ],
-    "lastUpdated": "2026-09-02T11:30:20.462Z"
+    "lastUpdated": "2026-09-02T21:12:41.798Z"
   },
   {
     "source": "github:upstash/qstash-js",
@@ -3362,8 +3487,8 @@
   },
   {
     "source": "github:usestrix/strix",
-    "rev": "b5c3807fef5b439c483cd8a6a809aaca0c00e393",
-    "hash": "1fyk2wac958gngxwx9szsnkp8fyhzmnz4zyqcghc5sr5bwwh1khw",
+    "rev": "5d015df6b1b58934152f897e37d3032f0dc32e0d",
+    "hash": "19s4h3ni82iqy0lbmgfvqifrdmrasybxwkz5nh0b960g0mgkymw2",
     "skills": [
       "skills/api-security-testing",
       "skills/application-security-testing",
@@ -3375,7 +3500,7 @@
       "skills/penetration-testing-with-strix",
       "skills/web-app-penetration-testing"
     ],
-    "lastUpdated": "2026-09-02T04:44:54.069Z"
+    "lastUpdated": "2026-09-02T21:12:53.853Z"
   },
   {
     "source": "github:usetemi/skills",
@@ -3485,10 +3610,11 @@
   },
   {
     "source": "github:utarn/engineer-skills",
-    "rev": "864fa48f1bd9ac0f424dd7dd6de539c4a19bb5a8",
-    "hash": "0bijkm8ixxvvnb89x8dvhx9yyr20wiqpyvdl26ja733p2sl1hcqr",
+    "rev": "d871080df579f8575d5ee7d35a6fc8e1b4289216",
+    "hash": "1hjcqfw99ap8ixkqk1jy02h24q4ld1nrjkj7d4ijywf9mbccbvxq",
     "skills": [
       "skills/engineering/ask-utarn",
+      "skills/engineering/bug-tracker",
       "skills/engineering/code-review",
       "skills/engineering/codebase-design",
       "skills/engineering/diagnosing-bugs",
@@ -3498,6 +3624,7 @@
       "skills/engineering/grill-with-docs",
       "skills/engineering/implement",
       "skills/engineering/improve-codebase-architecture",
+      "skills/engineering/init-bug-tracker",
       "skills/engineering/prototype",
       "skills/engineering/research",
       "skills/engineering/resolving-merge-conflicts",
@@ -3535,7 +3662,7 @@
       "skills/productivity/wait-what",
       "skills/productivity/writing-for-agents"
     ],
-    "lastUpdated": "2026-08-24T19:11:50.694Z"
+    "lastUpdated": "2026-09-02T21:12:56.108Z"
   },
   {
     "source": "github:utarn/review-skill",
