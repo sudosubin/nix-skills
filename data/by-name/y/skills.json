@@ -24,15 +24,15 @@
   },
   {
     "source": "github:YPares/rigup.nix",
-    "rev": "d48c9c36551f72e0fe229064f90df8119aae2bc7",
-    "hash": "1p82xhxjak9x0g202cnn99dzpin2gs2cai4hp5kvnxz0i0q73pc5",
+    "rev": "5677eee9c7bc98d7d9dae697e3b2dce42e8a7017",
+    "hash": "0aiaq255pky1szgwplc41rmynsjjq7i057jfwb1fswz619b34y5c",
     "skills": [
       "riglets/agent-rig-system",
       "riglets/code-search",
       "riglets/nix-module-system",
       "riglets/riglet-creator"
     ],
-    "lastUpdated": "2026-09-02T04:35:03.399Z"
+    "lastUpdated": "2026-09-03T04:33:49.153Z"
   },
   {
     "source": "github:YSY-99/meta-ads-api-field-guide",
@@ -169,8 +169,8 @@
   },
   {
     "source": "github:YaoApp/yao",
-    "rev": "81f667b79587517c13587f29b5b3cdb86a6bb0ff",
-    "hash": "00dbm62r4pqbriv4swhsx063gwh572wfr1pzc4lmky33mf16n5b7",
+    "rev": "ae57f36b8c1fa5737658942fd4a629144ffffe7d",
+    "hash": "0f963rw2lf5f55nhc6qh5gxjg0299s2fs8hr59mgg2vqmd3ghxg4",
     "skills": [
       "tools/secret",
       "tools/skills/yao-agent",
@@ -178,13 +178,14 @@
       "tools/skills/yao-board",
       "tools/skills/yao-doc",
       "tools/skills/yao-image",
+      "tools/skills/yao-ocr",
       "tools/skills/yao-process",
       "tools/skills/yao-secret",
       "tools/skills/yao-web",
       "tools/skills/yao-workspace",
       "tools/skills/yao-workspace-config"
     ],
-    "lastUpdated": "2026-09-02T04:35:14.292Z"
+    "lastUpdated": "2026-09-03T04:33:54.341Z"
   },
   {
     "source": "github:YaoYao021123/io_slides",
@@ -443,6 +444,143 @@
     "lastUpdated": "2026-08-31T05:34:58.567Z"
   },
   {
+    "source": "github:Yoodaddy0311/artibot",
+    "rev": "006235ed3f4b553fafe65151e804a852e0bbfb44",
+    "hash": "1gb96q4b4vny2myl4vv9fg0lilzy5881vkdjahzp62lh6vlr28xd",
+    "skills": [
+      "plugins/artibot-cowork/skills/ab-testing",
+      "plugins/artibot-cowork/skills/ad-compliance",
+      "plugins/artibot-cowork/skills/advertising",
+      "plugins/artibot-cowork/skills/ai-slop-reviewer",
+      "plugins/artibot-cowork/skills/brand-guidelines",
+      "plugins/artibot-cowork/skills/campaign-planning",
+      "plugins/artibot-cowork/skills/case-study",
+      "plugins/artibot-cowork/skills/clarify",
+      "plugins/artibot-cowork/skills/claude-design",
+      "plugins/artibot-cowork/skills/column-editorial",
+      "plugins/artibot-cowork/skills/competitive-intelligence",
+      "plugins/artibot-cowork/skills/content-pipeline",
+      "plugins/artibot-cowork/skills/content-seo",
+      "plugins/artibot-cowork/skills/copywriting",
+      "plugins/artibot-cowork/skills/cro-forms",
+      "plugins/artibot-cowork/skills/cro-funnel",
+      "plugins/artibot-cowork/skills/cro-page",
+      "plugins/artibot-cowork/skills/customer-journey",
+      "plugins/artibot-cowork/skills/daily",
+      "plugins/artibot-cowork/skills/data-analysis",
+      "plugins/artibot-cowork/skills/data-visualization",
+      "plugins/artibot-cowork/skills/delegation",
+      "plugins/artibot-cowork/skills/design-system-reference",
+      "plugins/artibot-cowork/skills/email-marketing",
+      "plugins/artibot-cowork/skills/evolution-loop",
+      "plugins/artibot-cowork/skills/image-generation",
+      "plugins/artibot-cowork/skills/interview-storytelling",
+      "plugins/artibot-cowork/skills/kr-marketing",
+      "plugins/artibot-cowork/skills/lead-management",
+      "plugins/artibot-cowork/skills/library-mermaid",
+      "plugins/artibot-cowork/skills/long-form-writing",
+      "plugins/artibot-cowork/skills/market-research",
+      "plugins/artibot-cowork/skills/marketing-analytics",
+      "plugins/artibot-cowork/skills/marketing-strategy",
+      "plugins/artibot-cowork/skills/presentation-design",
+      "plugins/artibot-cowork/skills/principles",
+      "plugins/artibot-cowork/skills/report-generation",
+      "plugins/artibot-cowork/skills/routines",
+      "plugins/artibot-cowork/skills/schema-generator",
+      "plugins/artibot-cowork/skills/segmentation",
+      "plugins/artibot-cowork/skills/seo-strategy",
+      "plugins/artibot-cowork/skills/social-media",
+      "plugins/artibot-cowork/skills/swarm-intelligence",
+      "plugins/artibot-cowork/skills/technical-seo",
+      "plugins/artibot-cowork/skills/thought-leadership",
+      "plugins/artibot-cowork/skills/voice-reference",
+      "plugins/artibot/skills/adr-format",
+      "plugins/artibot/skills/adversarial-review",
+      "plugins/artibot/skills/advisor-strategy",
+      "plugins/artibot/skills/agent-memory-snapshot",
+      "plugins/artibot/skills/ai-security-standards",
+      "plugins/artibot/skills/ci-cd-pipelines",
+      "plugins/artibot/skills/claude-md-auditor",
+      "plugins/artibot/skills/code-slop-reviewer",
+      "plugins/artibot/skills/codex-integration",
+      "plugins/artibot/skills/coding-standards",
+      "plugins/artibot/skills/cognitive-routing",
+      "plugins/artibot/skills/compaction-survival",
+      "plugins/artibot/skills/context-degradation",
+      "plugins/artibot/skills/continuous-learning",
+      "plugins/artibot/skills/ddd-strategic-design",
+      "plugins/artibot/skills/ddd-tactical-design",
+      "plugins/artibot/skills/feedback",
+      "plugins/artibot/skills/fp-refactor",
+      "plugins/artibot/skills/git-unified",
+      "plugins/artibot/skills/guardrails",
+      "plugins/artibot/skills/hook-event-emitter",
+      "plugins/artibot/skills/hook-feedback-merge",
+      "plugins/artibot/skills/lang-reference",
+      "plugins/artibot/skills/library-shadcn",
+      "plugins/artibot/skills/lifelong-learning",
+      "plugins/artibot/skills/load-testing",
+      "plugins/artibot/skills/mcp-context7",
+      "plugins/artibot/skills/mcp-coordination",
+      "plugins/artibot/skills/mcp-playwright",
+      "plugins/artibot/skills/memory-management",
+      "plugins/artibot/skills/memory-safety-patterns",
+      "plugins/artibot/skills/multi-agent-patterns",
+      "plugins/artibot/skills/observability",
+      "plugins/artibot/skills/orchestration",
+      "plugins/artibot/skills/orchestration-patterns",
+      "plugins/artibot/skills/oss-ai-catalog",
+      "plugins/artibot/skills/persona-analyzer",
+      "plugins/artibot/skills/persona-architect",
+      "plugins/artibot/skills/persona-backend",
+      "plugins/artibot/skills/persona-devops",
+      "plugins/artibot/skills/persona-distill",
+      "plugins/artibot/skills/persona-frontend",
+      "plugins/artibot/skills/persona-mentor",
+      "plugins/artibot/skills/persona-performance",
+      "plugins/artibot/skills/persona-qa",
+      "plugins/artibot/skills/persona-refactorer",
+      "plugins/artibot/skills/persona-scribe",
+      "plugins/artibot/skills/persona-security",
+      "plugins/artibot/skills/platform-auth",
+      "plugins/artibot/skills/platform-database-cloud",
+      "plugins/artibot/skills/platform-deployment",
+      "plugins/artibot/skills/polish",
+      "plugins/artibot/skills/problem-validation",
+      "plugins/artibot/skills/production-code-audit",
+      "plugins/artibot/skills/prompt-caching-strategy",
+      "plugins/artibot/skills/prompt-engineering",
+      "plugins/artibot/skills/quality-framework",
+      "plugins/artibot/skills/quickstart",
+      "plugins/artibot/skills/repo-benchmarking",
+      "plugins/artibot/skills/scheduled-learning",
+      "plugins/artibot/skills/security-standards",
+      "plugins/artibot/skills/self-evaluation",
+      "plugins/artibot/skills/self-learning",
+      "plugins/artibot/skills/session-worklog",
+      "plugins/artibot/skills/setup",
+      "plugins/artibot/skills/skill-authoring",
+      "plugins/artibot/skills/source-driven-development",
+      "plugins/artibot/skills/spec-format",
+      "plugins/artibot/skills/split",
+      "plugins/artibot/skills/strategic-compact",
+      "plugins/artibot/skills/systematic-debugging",
+      "plugins/artibot/skills/tdd-workflow",
+      "plugins/artibot/skills/team",
+      "plugins/artibot/skills/testing-standards",
+      "plugins/artibot/skills/token-efficiency",
+      "plugins/artibot/skills/tool-approval",
+      "plugins/artibot/skills/tool-design",
+      "plugins/artibot/skills/using-agent-skills",
+      "plugins/artibot/skills/verification-completion",
+      "plugins/artibot/skills/vibe-coding",
+      "plugins/artibot/skills/visual-validation",
+      "plugins/artibot/skills/yes-md",
+      "plugins/artibot/skills/zero-downtime-migration"
+    ],
+    "lastUpdated": "2026-09-03T04:33:27.052Z"
+  },
+  {
     "source": "github:YouMind-OpenLab/abti",
     "rev": "35a8964ec11af6924599764a4f33baf8f5b47de8",
     "hash": "18lb29zwz4nlbrr6fp083q9lx7c3b8hz0nd4lv5z6339lyp32lai",
@@ -462,8 +600,8 @@
   },
   {
     "source": "github:YuDefine/nuxt-supabase-starter",
-    "rev": "3621cb1720c7877b4aa25a1cd91526b7eb4f7b47",
-    "hash": "0g4aj53d2ph07cdpc1fbkxg5iwbirfwa0idxn5i5x9w75lghfi2b",
+    "rev": "827e5f744c4a4b65804c92973fbf6a4ba6742a08",
+    "hash": "03y2asykg4fqgv8ji05zq9cnxanbq34xwvdh0z6fqsh8h6di76kh",
     "skills": [
       ".claude/skills/impeccable",
       "template/.claude/skills/analyze-logs",
@@ -529,7 +667,7 @@
       "template/.cursor/skills/wt",
       "template/.cursor/skills/yudefine-deploy"
     ],
-    "lastUpdated": "2026-09-02T21:03:42.233Z"
+    "lastUpdated": "2026-09-03T04:33:28.678Z"
   },
   {
     "source": "github:YuLinzhong/pm-group-interview",
@@ -542,14 +680,14 @@
   },
   {
     "source": "github:YuShenLiu06/PCHSystem",
-    "rev": "05f08a5a1bc35daa5d0f838163526452be173ea5",
-    "hash": "053zwg6pnly0wninsszqpfnpm59i2xrhm6q0rbzjx2xkwwasklxm",
+    "rev": "6c04d68cc227b472b746353973680d718284f757",
+    "hash": "10sgd241yjqy9dslhmj2d1lvyws8synyqb7wga7mrmvayxv5abs0",
     "skills": [
       ".claude/skills/beautify-github-readme",
       ".claude/skills/service-claude-md",
       ".claude/skills/worktree-stack-migrate"
     ],
-    "lastUpdated": "2026-09-02T11:18:57.309Z"
+    "lastUpdated": "2026-09-03T04:33:28.975Z"
   },
   {
     "source": "github:YuanASI/silevy-skills",
@@ -563,12 +701,12 @@
   },
   {
     "source": "github:YuanpingSong/embassy",
-    "rev": "529d3220ca4fc74cb4d8f7b32ca61fd1f1d9278b",
-    "hash": "1xhyin0kpw9v4pbkxqj5bvdqi4h29vrs78sq6zbs2iv147kd1a30",
+    "rev": "e9a87d94f03e2ed499de82f06fd9009af25a0b73",
+    "hash": "07pb0a1624bhnnqjjd0zpw6i5mzy32i9kx8jncmpwhml2hr7l5q7",
     "skills": [
       "skills/embassy-peer"
     ],
-    "lastUpdated": "2026-09-02T23:20:23.472Z"
+    "lastUpdated": "2026-09-03T04:33:29.859Z"
   },
   {
     "source": "github:YuanpingSong/ultracodex",
@@ -1165,8 +1303,8 @@
   },
   {
     "source": "github:yan-labs/yan-skills",
-    "rev": "29c5a238d05ee651be22285b1f2c9764d35633c2",
-    "hash": "09zcfwfki56337sqn0417zx4i51qy8v2gf91n69rhqg4vrwjxxpd",
+    "rev": "2609543aca93b8be06d2077530a16dec13cded30",
+    "hash": "0g1yp6l1237d1znl1fg0kqs0grvv2lsgq06dgznzxnbg3c07fvzp",
     "skills": [
       "autopilot",
       "backlink",
@@ -1178,7 +1316,7 @@
       "skill-link-check",
       "skillsmp"
     ],
-    "lastUpdated": "2026-09-02T21:14:23.051Z"
+    "lastUpdated": "2026-09-03T04:45:38.311Z"
   },
   {
     "source": "github:yan5xu/bb-browser",
@@ -2036,8 +2174,8 @@
   },
   {
     "source": "github:yarlson/skills",
-    "rev": "32763224ce8cef070db2cbb793ec6a8eacf06c87",
-    "hash": "1v5qrafpjrpwd2hn29hpfv3la5vcv2rs2yz3nx0h7k87kzd4pwmi",
+    "rev": "27a87ef98a7f7a5fa40d9acc36c23f3e3f56b81e",
+    "hash": "19qa2n0p6vxp5cnny4x02vx99hjqgyghi2yklp58d7wrddz4d0fl",
     "skills": [
       "plugins/yarbrain/skills/procedure-promote",
       "plugins/yarbrain/skills/wiki-capture",
@@ -2084,7 +2222,7 @@
       "plugins/yarstack/skills/text-improve",
       "plugins/yarstack/skills/ui-control"
     ],
-    "lastUpdated": "2026-08-29T01:56:34.554Z"
+    "lastUpdated": "2026-09-03T04:44:05.216Z"
   },
   {
     "source": "github:yash-atreya/agentads",
@@ -2438,8 +2576,8 @@
   },
   {
     "source": "github:yeachan-heo/oh-my-codex",
-    "rev": "b48df502d566430be768d3c60f2f51fa91630396",
-    "hash": "0z5i0jcim0cz9qnnplv2qcqy76lgiyhi5hcwz73vkpp990vn4hp0",
+    "rev": "2da36489cfa07ef1df802f01865e7d959d36f236",
+    "hash": "10w33bmbvmn690vsrr0w03x088p2xmv45xbr8h4qdbyhyrhwjnmf",
     "skills": [
       "skills/ai-slop-cleaner",
       "skills/analyze",
@@ -2471,7 +2609,7 @@
       "skills/wiki",
       "skills/worker"
     ],
-    "lastUpdated": "2026-09-01T08:50:23.139Z"
+    "lastUpdated": "2026-09-03T04:44:38.727Z"
   },
   {
     "source": "github:yeadon8888/cangjie-skill",
@@ -3145,8 +3283,8 @@
   },
   {
     "source": "github:yennanliu/cs_basics",
-    "rev": "7e23eeab26a80216ff8b5a89e18de2c4e93252c7",
-    "hash": "0w1qjf8my003gnhfplz0mrb177054fi7iald27n8ipq05ip86j8p",
+    "rev": "a4dd949ef0a4d4679e271733368fc2de66b23a97",
+    "hash": "1nq7ym1j1ldprd6m6a3l5kil3wrd3dply5125hzansr666n8q14b",
     "skills": [
       ".claude/skills/add-time-space",
       ".claude/skills/code-refactor-master",
@@ -3156,7 +3294,7 @@
       ".claude/skills/markdown-doc-writer",
       ".claude/skills/system-architecture"
     ],
-    "lastUpdated": "2026-09-02T23:28:29.983Z"
+    "lastUpdated": "2026-09-03T04:45:04.293Z"
   },
   {
     "source": "github:yepapi/skills",
@@ -3909,8 +4047,8 @@
   },
   {
     "source": "github:yishan-io/yishan-mono",
-    "rev": "552ead14946c6cbf628ff2e6021387994356aa4d",
-    "hash": "07ys43zgcydrvd4qpnh8mka0d03bhy8w87ljy2bkkg3yvkv8wg5j",
+    "rev": "b4dedb4e303ab5e0cb81ec42e599a3aa32b61ec0",
+    "hash": "0in5rbli8q4a6zas3l9whykl2za64prn5sgi4r7nxqjqg77hrjj4",
     "skills": [
       "packages/pi-dev-flow/skills/brainstorm",
       "packages/pi-dev-flow/skills/dispatching-parallel-agents",
@@ -3927,7 +4065,7 @@
       "packages/pi-task/skills/finishing-task",
       "packages/pi-task/skills/starting-task"
     ],
-    "lastUpdated": "2026-09-02T23:28:04.639Z"
+    "lastUpdated": "2026-09-03T04:45:16.144Z"
   },
   {
     "source": "github:yishuai778/paper-reading",
@@ -4011,12 +4149,12 @@
   },
   {
     "source": "github:yixiaoer888/yixiaoer-skill",
-    "rev": "06876ad23c4c2b7f2208bfb22a2d3c5c00f04614",
-    "hash": "1d8q1m5q48qcaspfvzia1v478d9r4g26mr7xb7jj1csxmlsywabd",
+    "rev": "92997d43317e9fe0509f4181b7a0833c3b2f9ae0",
+    "hash": "0n7mbdi9g0vjq7bbmh4qlj4gbmpnmhi9ksgyha7vj4bi3ig7a98l",
     "skills": [
       "skills/yixiaoer"
     ],
-    "lastUpdated": "2026-08-31T14:01:18.888Z"
+    "lastUpdated": "2026-09-03T04:45:19.265Z"
   },
   {
     "source": "github:yixiliu617/data-craft",
@@ -6338,13 +6476,13 @@
   },
   {
     "source": "github:yongjip/mergetrain",
-    "rev": "8db0585d3b0e6a148c93e30ff4aa55213d736eab",
-    "hash": "0lp4c2l3lgm71smf033bv4hw14vplgpgcpasx4ax0gz1wr8d9r5y",
+    "rev": "0dfe0907cf6e7ec60b04002f1c5609b90e07025f",
+    "hash": "0l8bvj1f73hq9445fchcmcm66scy1xb067zwiz7vi7xczfs5kg2h",
     "skills": [
       "integrations/claude/plugin/skills/deploy",
       "integrations/claude/plugin/skills/mergetrain"
     ],
-    "lastUpdated": "2026-09-02T21:17:24.136Z"
+    "lastUpdated": "2026-09-03T04:45:50.745Z"
   },
   {
     "source": "github:yongquantan/dependency-guard",
@@ -6741,21 +6879,21 @@
   },
   {
     "source": "github:youmind-openlab/ai-image-prompts-skill",
-    "rev": "e8083ea41423541826489b9e0ce0fe4179efd223",
-    "hash": "1355yci1ji78dgqy8y2j25y4rfxxwb64hw4s3wmnld3avs934mv1",
+    "rev": "aa30576d1379e6b2feda90648d3b4ce22977f4e0",
+    "hash": "0siwa1csfrvvmpjjjkfla4h5d8p2ggp6p508gja4lrbvapy6swci",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-09-02T21:16:10.743Z"
+    "lastUpdated": "2026-09-03T04:46:08.595Z"
   },
   {
     "source": "github:youmind-openlab/gpt-image-2-prompts-search",
-    "rev": "48919af5999295fcc48c07a0e0705f46ac288d2f",
-    "hash": "147ydpszd66zbaabkmqqz6ragzlf41fn6z1i42vf4asr8xbpg90n",
+    "rev": "5f13006070585602b8f57bf3dfab4df3e4c0dbde",
+    "hash": "0v7i5c8byynzkngg0d4znaprqm7xvgcalp4irx9cvdb1cbrxf2bk",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-09-02T21:16:16.488Z"
+    "lastUpdated": "2026-09-03T04:46:12.828Z"
   },
   {
     "source": "github:youmind-openlab/karpathy-rss-daily-skill",
@@ -6768,12 +6906,12 @@
   },
   {
     "source": "github:youmind-openlab/nano-banana-pro-prompts-recommend-skill",
-    "rev": "4489d75f7a8234cc04fbb5bf4fa88b8a3667f6b5",
-    "hash": "0gxsaskc170y7c4qsqw8x8wwzs3cl0ngbvx60axvx1alk243spkr",
+    "rev": "898c24fc6a65e1543ce204af81e6f76bf9aa72e6",
+    "hash": "0n8ah2jw61hzdpdz57mm193rp1xvadbslmpwx3s9vdslzf1c84cj",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-09-02T21:16:20.251Z"
+    "lastUpdated": "2026-09-03T04:46:16.696Z"
   },
   {
     "source": "github:youmind-openlab/skills",
@@ -15490,13 +15628,13 @@
   },
   {
     "source": "github:yutakobayashidev/dotnix",
-    "rev": "e6521e950c48926977d8d371c2abac4b4c0fe2fe",
-    "hash": "0r587mc36q2f2v8rdfjq2p51xndjg4kxxcckwqcq16vji4dy3c57",
+    "rev": "083f75752449d29f8d60bab5144bd5b70ac284a6",
+    "hash": "1dzvf7da4wv8cchljradp07mpx9bkdcyyzazg2nmhdrljwlahmhg",
     "skills": [
       "codex/session-tts/skills/tts",
       "codex/session-tts/skills/volume"
     ],
-    "lastUpdated": "2026-09-02T23:27:03.808Z"
+    "lastUpdated": "2026-09-03T04:43:55.186Z"
   },
   {
     "source": "github:yuting0624/antigravity-for-claude-code",
@@ -15519,8 +15657,8 @@
   },
   {
     "source": "github:yutori-ai/yutori-mcp",
-    "rev": "5cbc493a31e95538eaf59624a1565cd45207412f",
-    "hash": "15imhf46cyy0g1xv8875hz7sy2y3ypky50qqaq5is4sr6i7fynx7",
+    "rev": "0607a0ae0b09d54167e0d8edb3321a6cbf840ad3",
+    "hash": "1wkpdjry6aa6dbsn0lgkhl4w31vd320dvd6i7i6xl26jhaqigq48",
     "skills": [
       "skills/00-login",
       "skills/01-scout",
@@ -15530,7 +15668,7 @@
       "skills/05-api-monitor",
       "skills/06-computer-use"
     ],
-    "lastUpdated": "2026-09-02T23:27:05.004Z"
+    "lastUpdated": "2026-09-03T04:43:55.036Z"
   },
   {
     "source": "github:yutoutang/harmonyos-app-skills",
@@ -15750,15 +15888,15 @@
   },
   {
     "source": "github:yylo-dev/yylo",
-    "rev": "2a97e6bca6e1f9f1d1ca10be245f656e0a5dd6a7",
-    "hash": "1gr6p7hlqd0a1d61hh2g3pdaj1iyn4zdzfjpivkdl920fc58lrxf",
+    "rev": "6ada25a4b7afeb0a4df769275378a416404023b7",
+    "hash": "17wrv541nji7p6aqzb68rwba4zl2wkm46nz4hl7q2l3arcsw3isk",
     "skills": [
       ".agents/skills/kanban-workflow",
       ".agents/skills/plan-kanban-tasks",
       ".agents/skills/ralph-loop",
       ".agents/skills/understand-project"
     ],
-    "lastUpdated": "2026-09-02T21:14:01.161Z"
+    "lastUpdated": "2026-09-03T04:45:22.419Z"
   },
   {
     "source": "github:yysun/apprun-skills",
